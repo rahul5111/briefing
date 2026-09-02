@@ -22,7 +22,8 @@
         "country": "United States",
         "lat": 37.422,
         "lng": -122.084
-      }
+      },
+      "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-8_flash__blog__header__16-9__light.width-1300.png"
     },
     {
       "id": "hn-49536375",
@@ -45,7 +46,8 @@
         "country": "United States",
         "lat": 37.7749,
         "lng": -122.4194
-      }
+      },
+      "image_url": "https://trellner.com/og.png"
     },
     {
       "id": "hn-49535752",
@@ -68,7 +70,8 @@
         "country": "United States",
         "lat": 30.4515,
         "lng": -91.1871
-      }
+      },
+      "image_url": null
     },
     {
       "id": "hn-49535526",
@@ -91,7 +94,8 @@
         "country": "Netherlands",
         "lat": 52.3676,
         "lng": 4.9041
-      }
+      },
+      "image_url": "https://nltimes.nl/sites/nltimes.nl/files/styles/news_article_full_desktop_2x/public/2026-09/MG%209092.jpeg?h=947d8e2e"
     },
     {
       "id": "hn-49535284",
@@ -114,7 +118,8 @@
         "country": "France",
         "lat": 48.8566,
         "lng": 2.3522
-      }
+      },
+      "image_url": "https://downloads.intercomcdn.eu/i/o/xel0jpx9/32959/6f6f05e6d9a783dd3709d1d20210/22053698b6d3506b0b89d174c8404652.png"
     },
     {
       "id": "hn-49533497",
@@ -137,7 +142,8 @@
         "country": "United States",
         "lat": 39.9604,
         "lng": -75.6055
-      }
+      },
+      "image_url": null
     },
     {
       "id": "hn-49531651",
@@ -155,7 +161,8 @@
       "word_count": 206,
       "estimated_duration_s": 82,
       "audio_bytes": 806976,
-      "location": null
+      "location": null,
+      "image_url": "https://arxiv.org/static/browse/0.3.4/images/arxiv-logo-fb.png"
     },
     {
       "id": "hn-49529621",
@@ -178,7 +185,8 @@
         "country": "United States",
         "lat": 38.8951,
         "lng": -77.0364
-      }
+      },
+      "image_url": null
     },
     {
       "id": "hn-49529132",
@@ -196,7 +204,8 @@
       "word_count": 299,
       "estimated_duration_s": 120,
       "audio_bytes": 1018656,
-      "location": null
+      "location": null,
+      "image_url": "https://lws.io/open-graph/blog/my-local-model-setup.png"
     },
     {
       "id": "hn-49528895",
@@ -214,7 +223,8 @@
       "word_count": 169,
       "estimated_duration_s": 68,
       "audio_bytes": 522432,
-      "location": null
+      "location": null,
+      "image_url": "https://masteranza.github.io/weedout/screenshot.png"
     },
     {
       "id": "hn-49527748",
@@ -237,7 +247,8 @@
         "country": "United States",
         "lat": 37.422,
         "lng": -122.084
-      }
+      },
+      "image_url": null
     },
     {
       "id": "hn-49527595",
@@ -260,7 +271,8 @@
         "country": "United States",
         "lat": 37.7749,
         "lng": -122.4194
-      }
+      },
+      "image_url": "https://images.ctfassets.net/kftzwdyauwt9/4B4TPk6PGcuKcMyKnnQIMn/f1282feb90b13f11eb010c38c867fa53/astra-seo-v002.png?w=1600&amp;h=900&amp;fit=fill"
     },
     {
       "id": "hn-49527573",
@@ -283,7 +295,8 @@
         "country": "United States",
         "lat": 37.323,
         "lng": -122.0322
-      }
+      },
+      "image_url": "https://9to5mac.com/wp-content/uploads/sites/6/2026/05/apple-openai.jpg?quality=82&strip=all&resize=1200,628"
     },
     {
       "id": "hn-49526069",
@@ -301,7 +314,8 @@
       "word_count": 315,
       "estimated_duration_s": 126,
       "audio_bytes": 1020672,
-      "location": null
+      "location": null,
+      "image_url": null
     },
     {
       "id": "hn-49525378",
@@ -324,7 +338,8 @@
         "country": "United States",
         "lat": 37.7749,
         "lng": -122.4194
-      }
+      },
+      "image_url": "https://cdn.sanity.io/images/4zrzovbb/website/932ca7d6f414ca22fd5a26dcc131410575b9b3e5-1200x630.jpg"
     },
     {
       "id": "hn-49525297",
@@ -342,7 +357,8 @@
       "word_count": 273,
       "estimated_duration_s": 109,
       "audio_bytes": 860376,
-      "location": null
+      "location": null,
+      "image_url": null
     }
   ],
   "updated_at": "2026-09-02T19:46:27.219381+00:00"

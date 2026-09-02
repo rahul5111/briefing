@@ -11,12 +11,14 @@ MANIFEST_PATH = DATA_DIR / "feed.json"
 RSS_PATH = DATA_DIR / "rss.xml"
 MODEL_DIR = ROOT / ".models"
 
-HN_MIN_SCORE = 150
-HN_LOOKBACK_HOURS = 24
-HN_MAX_STORIES = 20
+# Legacy HN-only knobs (kept for reference; live config is in sources.yaml)
+HN_MIN_SCORE = 200
+HN_LOOKBACK_HOURS = 168
+HN_MAX_STORIES = 40
 
-DEDUP_THRESHOLD = 0.86
-RETENTION_DAYS = 14
+DEDUP_THRESHOLD = 0.82           # slightly tighter now that many sources overlap
+RETENTION_DAYS = 7               # rolling 7-day window
+MAX_MANIFEST_STORIES = 250       # cap on stored stories (newest wins)
 
 WORDS_MIN = 150
 WORDS_MAX = 360

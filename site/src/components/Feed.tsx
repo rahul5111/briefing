@@ -8,15 +8,19 @@ type Story = {
   title: string;
   summary: string;
   category: string;
+  source?: string;
   source_url: string | null;
   source_domain: string;
-  hn_permalink: string;
-  hn_score: number;
+  source_permalink?: string;
+  hn_permalink?: string;
+  hn_score?: number;
+  score?: number;
   published_at: string;
   created_at_ts: number;
   audio_path: string;
   word_count: number;
   estimated_duration_s: number;
+  image_url?: string | null;
   location?: { name: string; country: string; lat: number; lng: number } | null;
 };
 
@@ -327,9 +331,9 @@ export default function Feed({ stories, cdnBase }: Props) {
       </div>
       )}
 
-      <div className={`player ${playing ? "playing" : ""}`} role="region" aria-label="Now playing">
+      <div className={`player ${playing ? "playing" : ""} ${current ? "loaded" : "empty"}`} role="region" aria-label="Now playing">
         <button
-          className="btn"
+          className="player-btn"
           onClick={() => {
             if (!current) return;
             const a = audioRef.current!;
@@ -341,13 +345,52 @@ export default function Feed({ stories, cdnBase }: Props) {
         >
           {playing ? "❚❚" : "▶"}
         </button>
-        <div className="now">
-          <div className="title">{current ? current.title : "Select a story to play"}</div>
-          <canvas ref={canvasRef} aria-hidden="true" />
+
+        <div className="player-cover" aria-hidden="true">
+          {current?.image_url ? (
+            <img src={current.image_url} alt="" loading="lazy" />
+          ) : (
+            <div className="player-cover-fallback">
+              {current ? (current.category?.[0] ?? "•") : "•"}
+            </div>
+          )}
         </div>
-        <div className="time">
-          {fmtDuration(now)} / {fmtDuration(dur || (current?.estimated_duration_s ?? 0))}
+
+        <div className="player-body">
+          <div className="player-title">
+            {current ? current.title : "Select a story to play"}
+          </div>
+          <div className="player-meta">
+            {current ? (
+              <>
+                <span>{current.source_domain || current.source}</span>
+                <span aria-hidden="true">·</span>
+                <span>{current.category}</span>
+                <span aria-hidden="true">·</span>
+                <a
+                  href={current.source_url || current.source_permalink || current.hn_permalink || "#"}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="player-article-link"
+                >
+                  read full article ↗
+                </a>
+              </>
+            ) : (
+              <span>tap any story above to begin</span>
+            )}
+          </div>
+          <canvas ref={canvasRef} className="player-wave" aria-hidden="true" />
         </div>
+
+        <div className="player-time">
+          <span className="player-time-cur">{fmtDuration(now)}</span>
+          <span className="player-time-sep">/</span>
+          <span className="player-time-total">
+            {fmtDuration(dur || (current?.estimated_duration_s ?? 0))}
+          </span>
+        </div>
+
         <audio
           ref={audioRef}
           crossOrigin="anonymous"

@@ -1,0 +1,100 @@
+# Ingestion sources. Add, remove, or toggle `enabled: false` freely.
+# Lookback is 168 hours (7 days) for all by default — matches retention.
+#
+# Types:
+#   hn      — Hacker News (Algolia API)
+#   rss     — any RSS or Atom feed (blogs, newsletters, Substack, Beehiiv...)
+#   reddit  — subreddit via public JSON (anonymous, rate-limited)
+
+sources:
+
+  # ─── Hacker News ────────────────────────────────────────────────
+  - name: hackernews
+    type: hn
+    tags: story
+    min_score: 200
+    lookback_hours: 168
+    max_items: 40
+
+  - name: hackernews_show
+    type: hn
+    tags: show_hn
+    min_score: 100
+    lookback_hours: 168
+    max_items: 15
+
+  # ─── Tech blogs (RSS) ───────────────────────────────────────────
+  - name: verge
+    type: rss
+    url: https://www.theverge.com/rss/index.xml
+    lookback_hours: 168
+    max_items: 20
+
+  - name: ars_technica
+    type: rss
+    url: https://feeds.arstechnica.com/arstechnica/index
+    lookback_hours: 168
+    max_items: 20
+
+  - name: techcrunch
+    type: rss
+    url: https://techcrunch.com/feed/
+    lookback_hours: 168
+    max_items: 20
+
+  - name: mit_tech_review
+    type: rss
+    url: https://www.technologyreview.com/feed/
+    lookback_hours: 168
+    max_items: 15
+
+  # ─── World news (RSS) ───────────────────────────────────────────
+  - name: bbc_world
+    type: rss
+    url: https://feeds.bbci.co.uk/news/world/rss.xml
+    lookback_hours: 168
+    max_items: 20
+
+  - name: reuters_world
+    type: rss
+    url: https://www.reutersagency.com/feed/?best-topics=world&post_type=best
+    lookback_hours: 168
+    max_items: 15
+
+  - name: aljazeera
+    type: rss
+    url: https://www.aljazeera.com/xml/rss/all.xml
+    lookback_hours: 168
+    max_items: 15
+
+  # ─── Newsletters / long-form (RSS) ──────────────────────────────
+  - name: stratechery
+    type: rss
+    url: https://stratechery.com/feed/
+    lookback_hours: 168
+    max_items: 10
+
+  - name: platformer
+    type: rss
+    url: https://www.platformer.news/feed
+    lookback_hours: 168
+    max_items: 10
+
+  # ─── Reddit ─────────────────────────────────────────────────────
+  - name: reddit_programming
+    type: reddit
+    subreddit: programming
+    listing: top
+    when: week
+    min_score: 500
+    lookback_hours: 168
+    max_items: 15
+
+  - name: reddit_worldnews
+    type: reddit
+    subreddit: worldnews
+    listing: top
+    when: week
+    min_score: 5000
+    lookback_hours: 168
+    max_items: 15
