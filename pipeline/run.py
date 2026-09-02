@@ -68,11 +68,26 @@ def main() -> int:
     candidates = [candidates[i] for i in keep_idx]
     print(f"After semantic dedup: {len(candidates)}")
 
-    # Cap TTS work per run — cron every 4h amortizes coverage across the day.
+    # Cap TTS work per run. Round-robin across sources so no single source
+    # (HN with its inflated scores) squeezes out RSS or Reddit. Within each
+    # source we pick the highest-scoring items first.
     if len(candidates) > config.MAX_NEW_PER_RUN:
-        candidates.sort(key=lambda c: c.score, reverse=True)
-        candidates = candidates[: config.MAX_NEW_PER_RUN]
-        print(f"Capped to top {config.MAX_NEW_PER_RUN} by score for this run.")
+        by_source: dict[str, list] = {}
+        for c in candidates:
+            by_source.setdefault(c.source, []).append(c)
+        for src in by_source:
+            by_source[src].sort(key=lambda c: c.score, reverse=True)
+        picked: list = []
+        while len(picked) < config.MAX_NEW_PER_RUN and any(by_source.values()):
+            for src in list(by_source.keys()):
+                if not by_source[src]:
+                    continue
+                picked.append(by_source[src].pop(0))
+                if len(picked) >= config.MAX_NEW_PER_RUN:
+                    break
+        candidates = picked
+        print(f"Round-robin capped to {len(candidates)} across "
+              f"{len(set(c.source for c in candidates))} sources.")
 
     new_stories: list[dict] = []
     now = datetime.now(timezone.utc)
