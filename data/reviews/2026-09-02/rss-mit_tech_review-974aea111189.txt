@@ -1,0 +1,53 @@
+═══ 00_KEY_POINTS ═══
+
+1. Jabil operates over 100 sites across more than 30 countries with 140,000-plus employees.
+2. Jabil adopted a simplify-first, then-innovate mindset to reduce technical debt and complexity.
+3. Harish Manohar stated that any innovation without simplification is going to add more complexity.
+4. Harish Manohar stated that simplicity at scale is a very competitive advantage for the organization.
+5. Jabil uses SAP Integration Suite and BTP as the center stage of its enterprise integrations.
+6. The company is leveraging SAP Signavio to help standardize business processes across its global plants.
+
+═══ 01_DRAFT ═══
+
+Jabil, a global manufacturing company headquartered in St. Petersburg, Florida, is undergoing an enterprise technology transformation focused on reducing complexity and integrating systems across its global operations. With a footprint of more than 100 sites across 30-plus countries, 140,000-plus employees, and serving more than 400 top global brands, the 60-year-old company faced significant technical debt from legacy applications, spreadsheets, manual workarounds, and site-specific tools built over 25 years. 
+
+According to Harish Manohar, SAP IT director at Jabil, these disconnected systems created data silos that limited the company's ability to spot issues early and coordinate responses across plants and regions. To address this, Jabil adopted a simplify-first, then-innovate mindset, using SAP as its core digital platform and leveraging SAP Business Technology Platform and Integration Suite alongside an API-driven, event-based integration approach. The company is also utilizing SAP Signavio for business process management and moving systems into RISE to pursue a clean-core journey that reduces heavy system customizations. 
+
+The primary driver behind the integration effort is establishing a single, trusted data backbone to enable seamless data flow before the company implements advanced technologies. Any innovation without simplification risks adding more complexity, Manohar notes, stating that "any innovation without simplification is going to add more complexity" and emphasizing that "simplicity at scale is a very competitive advantage." By standardizing processes and connecting supply chains end-to-end, Jabil aims to improve real-time visibility into supply chain events, reduce manual data reconciliation, and lay the groundwork for future AI-driven planning, forecasting, and predictive insights.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Jabil, a global manufacturing company headquartered in St. Petersburg, Florida, is undergoing an enterprise technology transformation focused on reducing complexity and integrating systems across its global operations. With a footprint of more than 100 sites across 30-plus countries, 140,000-plus employees, and serving more than 400 top global brands, the 60-year-old company faced significant technical debt from legacy applications, spreadsheets, manual workarounds, and site-specific tools built over 25 years. 
+
+According to Harish Manohar, SAP IT director at Jabil, these disconnected systems created data silos that limited the company's ability to spot issues early and coordinate responses across plants and regions. To address this, Jabil adopted a simplify-first, then-innovate mindset, using SAP as its core digital platform and relying on SAP's Integration Suite to connect systems, retire fragmented tools, and enable more consistent operations globally. The company is also utilizing SAP Signavio for business process management and moving systems into RISE to pursue a clean-core journey that reduces heavy system customizations. 
+
+The primary driver behind the integration effort is establishing a single, trusted data backbone to enable seamless data flow before the company implements advanced technologies. Any innovation without simplification risks adding more complexity, Manohar notes, stating that "any innovation without simplification is going to add more complexity" and emphasizing that "simplicity at scale is a very competitive advantage." By standardizing processes and connecting supply chains end-to-end, Jabil aims to improve real-time visibility into supply chain events, reduce manual data reconciliation, and lay the groundwork for future AI-driven planning, forecasting, and predictive insights.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Jabil is a global manufacturing company headquartered in Saint Petersburg, Florida. The sixty-year-old enterprise is transforming its technology to reduce complexity and integrate systems across global operations. The company operates more than one hundred sites across more than thirty countries. It employs over one hundred forty thousand people and serves more than four hundred top global brands. 
+
+The company faced significant technical debt from legacy applications and spreadsheets. Workers relied on manual workarounds and site-specific tools built over twenty-five years. Harish Manohar is the S. A. P. I. T. director at Jabil. He explained that these disconnected systems created data silos. The silos limited the company ability to spot issues early and coordinate responses across plants and regions. 
+
+Jabil adopted a simplify-first, then-innovate mindset to fix this problem. The company is using S. A. P. as its core digital platform. It relies on the S. A. P. Integration Suite to connect systems and retire fragmented tools. These changes enable more consistent operations globally. The company is also utilizing S. A. P. Signavio for business process management. It is moving systems into R. I. S. E. to pursue a clean-core journey that reduces heavy system customizations. 
+
+The primary driver behind the integration effort is establishing a single, trusted data backbone. This backbone enables seamless data flow before the company implements advanced technologies. Manohar notes that any innovation without simplification will add more complexity. He emphasizes that simplicity at scale is a very competitive advantage. 
+
+Jabil is standardizing processes and connecting supply chains end-to-end. The company aims to improve real-time visibility into supply chain events. It wants to reduce manual data reconciliation. These steps lay the groundwork for future artificial intelligence driven planning, forecasting, and predictive insights.
+
+═══ 05_NORMALIZED ═══
+
+Jabil is a global manufacturing company headquartered in Saint Petersburg, Florida. The sixty-year-old enterprise is transforming its technology to reduce complexity and integrate systems across global operations. The company operates more than one hundred sites across more than thirty countries. It employs over one hundred forty thousand people and serves more than four hundred top global brands. The company faced significant technical debt from legacy applications and spreadsheets. Workers relied on manual workarounds and site-specific tools built over twenty-five years. Harish Manohar is the S. A. P. I. T. director at Jabil. He explained that these disconnected systems created data silos. The silos limited the company ability to spot issues early and coordinate responses across plants and regions. Jabil adopted a simplify-first, then-innovate mindset to fix this problem. The company is using S. A. P. as its core digital platform. It relies on the S. A. P. Integration Suite to connect systems and retire fragmented tools. These changes enable more consistent operations globally. The company is also utilizing S. A. P. Signavio for business process management. It is moving systems into R. I. S. E. to pursue a clean-core journey that reduces heavy system customizations. The primary driver behind the integration effort is establishing a single, trusted data backbone. This backbone enables seamless data flow before the company implements advanced technologies. Manohar notes that any innovation without simplification will add more complexity. He emphasizes that simplicity at scale is a very competitive advantage. Jabil is standardizing processes and connecting supply chains end-to-end. The company aims to improve real-time visibility into supply chain events. It wants to reduce manual data reconciliation. These steps lay the groundwork for future artificial intelligence driven planning, forecasting, and predictive insights.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: S. A. P. I. T., S. A. P., R. I. S. E.
+

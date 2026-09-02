@@ -1,0 +1,34 @@
+═══ 00_KEY_POINTS ═══
+
+1. NASA decided to use a simpler spacesuit for its initial missions to the lunar surface.
+2. The agency announced the decision during an internal meeting to accelerate landing humans at the Moon.
+3. NASA aims to land humans at the South Pole of the Moon as early as 2028.
+4. Artemis Program Manager Jeremy Parsons directed NASA to work with Axiom Space on the new suit.
+5. Axiom Space will develop a Sortie Suit variant of the planned lunar surface spacesuit.
+6. The Sortie Suit will be used for initial landing missions flown by SpaceX and Blue Origin landers.
+7. Goals of the initiative include lowering spacesuit mass, reducing complexity, and simplifying lander interfaces.
+
+═══ 01_DRAFT ═══
+
+NASA has decided to use a simpler spacesuit for its initial missions to the lunar surface in an effort to accelerate its program to land humans at the South Pole of the Moon as early as 2028. The agency announced the decision during an internal meeting this week. At the direction of Artemis Program Manager Jeremy Parsons, NASA will work with Axiom Space to develop a Sortie Suit variant of the planned spacesuit for the lunar surface. Sources indicated that the Sortie Suit will be used for the initial landing missions flown on landers developed by both SpaceX and Blue Origin. The goals of the initiative include lowering the mass of the spacesuit, reducing its complexity, and simplifying interfaces between the spacesuits and the lunar landers.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (7/7). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+N. A. S. A. is using a simpler spacesuit for early moon missions. The goal is landing humans at the South Pole of the Moon by twenty twenty-eight. The agency announced this during an internal meeting this week. Artemis Program Manager , Jeremy Parsons directed the change. N. A. S. A. will work with Axiom Space on a new Sortie Suit variant. This suit is for the initial lunar landing missions. Both SpaceX and Blue Origin will use the new suit on their landers. The changes lower the mass of the spacesuit. They also reduce complexity and simplify interfaces with the landers.
+
+═══ 05_NORMALIZED ═══
+
+N. A. S. A. is using a simpler spacesuit for early moon missions. The goal is landing humans at the South Pole of the Moon by twenty twenty-eight. The agency announced this during an internal meeting this week. Artemis Program Manager, Jeremy Parsons directed the change. N. A. S. A. will work with Axiom Space on a new Sortie Suit variant. This suit is for the initial lunar landing missions. Both SpaceX and Blue Origin will use the new suit on their landers. The changes lower the mass of the spacesuit. They also reduce complexity and simplify interfaces with the landers.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (7/7). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: N. A. S. A.
+

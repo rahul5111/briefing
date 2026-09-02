@@ -1,0 +1,33 @@
+═══ 00_KEY_POINTS ═══
+
+1. Google officially launched its new artificial intelligence model called Gemini 3.8 Flash.
+2. The new model performs more reasoning steps on complex tasks and calls tools iteratively.
+3. Google priced Gemini 3.8 Flash at $0.75 per million input tokens and $3.75 per million output tokens.
+4. Google warns that Gemini 3.8 Flash might end up costing users more by using more tokens to maximize performance.
+5. Developers can continue using Gemini 3.7 Flash if they want to minimize their token usage.
+6. Google claims that the newly launched Gemini 3.8 Flash model works harder than its predecessor.
+
+═══ 01_DRAFT ═══
+
+Google has launched the Gemini 3.8 Flash model, arriving just a few weeks after its predecessor, Gemini 3.7 Flash. Google states that the new model works harder than the previous version by performing more reasoning steps on complex tasks and calling tools iteratively. While the model features the same introductory pricing as 3.7 Flash at $0.75 per million input tokens and $3.75 per million output tokens, it could ultimately cost users more money. Google warns that the model might use more tokens to maximize performance, especially when operating at higher effort levels. For developers looking to minimize their token usage, the option to continue using Gemini 3.7 Flash remains available.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Google has launched the Gemini three point eight Flash model. This arrives just a few weeks after its predecessor, Gemini three point seven Flash. Google states that the new model works harder than the previous version. It performs more reasoning steps on complex tasks and calls tools iteratively. The model features the same introductory pricing as three point seven Flash. That price is zero point seven five dollars per million input tokens and three point seven five dollars per million output tokens. Despite this, it could ultimately cost users more money. Google warns that the model might use more tokens to maximize performance. This is especially true when operating at higher effort levels. For developers looking to minimize their token usage, the option to continue using Gemini three point seven Flash remains available.
+
+═══ 05_NORMALIZED ═══
+
+Google has launched the Gemini three point eight Flash model. This arrives just a few weeks after its predecessor, Gemini three point seven Flash. Google states that the new model works harder than the previous version. It performs more reasoning steps on complex tasks and calls tools iteratively. The model features the same introductory pricing as three point seven Flash. That price is zero point seven five dollars per million input tokens and three point seven five dollars per million output tokens. Despite this, it could ultimately cost users more money. Google warns that the model might use more tokens to maximize performance. This is especially true when operating at higher effort levels. For developers looking to minimize their token usage, the option to continue using Gemini three point seven Flash remains available.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+OK
+
