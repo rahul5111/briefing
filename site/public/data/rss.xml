@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 02 Sep 2026 17:56:58 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 19:46:27 +0000</lastBuildDate>
     <item>
       <title>The creator of Jujutsu has joined ERSC</title>
       <link>https://ersc.io/blog/martin-joins-ersc</link>
@@ -125,13 +125,9 @@ Models can be updated by downloading new files into the models directory for aut
     <item>
       <title>FBI Probes Service Selling 153M+ Drivers Licenses</title>
       <link>https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/</link>
-      <description>A dark web service called Nexus is selling digital scans of more than 153 million driver licenses from the United States and Canada. The service launched on Monday, August 31, on the Russian cybercrime forum Exploit. The proprietor offered a Virginia driver license as a free sample in the initial sales thread. 
-
-Testing by researchers and friends matched image timestamps to specific travel dates when individuals handed their physical IDs to rental car companies or businesses using identity verification software. The identity verification company IDScan dot net, based in Louisiana, is the suspected source. Its systems scan IDs with infrared and ultraviolet light and process verifications for major brands including Hertz and Planet Thirteen dispensaries. 
-
-The New Orleans field office of the Federal Bureau of Investigation launched an official inquiry into the source of the images. Jillian Kossman, a marketing and operations leader at IDScan dot net, stated that the company was investigating the matter. Shortly after the initial story was published, the Nexus website vanished from the dark web and displayed a message stating the service is no longer available.</description>
+      <description>A dark web service named Nexus launched on Monday, August thirty-first, on the Russian cybercrime forum Exploit. The service offered digital scans of more than one hundred fifty-three million driver licenses from the United States and Canada. The proprietor included a Virginia driver license as a free sample in the initial sales thread. Researchers and associates tested the data. They matched image timestamps to specific travel dates when individuals surrendered their physical IDs to rental car companies and businesses utilizing identity verification software. The suspected source of the breach is I. D. Scan dot net. This is a Louisiana-based identity verification company whose systems scan IDs using infrared and ultraviolet light. The company processes verifications for major brands such as Hertz and Planet Thirteen dispensaries. The New Orleans field office of the F. B. I. launched an official inquiry into the source of the images. Jillian Kossman, a marketing and operations leader at the company, stated that they were investigating the matter. Shortly after the initial story was published, the Nexus website vanished from the dark web. It displayed a message stating the service is no longer available.</description>
       <guid isPermaLink="false">hn-49529621</guid>
-      <enclosure url="audio/2026-09-02/49529621-fbi-probes-service-selling-153m-drivers-licenses.mp3" length="610584" type="audio/mpeg"/>
+      <enclosure url="audio/2026-09-02/49529621-fbi-probes-service-selling-153m-drivers-licenses.mp3" length="631968" type="audio/mpeg"/>
       <pubDate>Wed, 02 Sep 2026 17:49:12 +0000</pubDate>
     </item>
     <item>
@@ -179,17 +175,9 @@ For Mistral Studio and related application programming interface services, users
     <item>
       <title>Dutch central bank moves share of gold from U.S., Canada to London</title>
       <link>https://nltimes.nl/2026/09/02/dutch-central-bank-moves-share-gold-us-canada-london-cites-instability</link>
-      <description>The Dutch central bank, known as the Nederlandsche Bank, has relocated the equivalent of over 10 billion euros in gold from North America to London over concern for global tensions. 
-
-Between March and August, more than 27 tonnes of gold were physically transferred from North America to the central bank cash centre in Zeist, Utrecht. During this same window, another 59 tonnes of gold kept in New York were sold off, while an equivalent amount was purchased in London. To maintain the spread without increasing the supply held in the Netherlands, 27 tonnes of gold were also transferred from Zeist to London. 
-
-The Dutch national gold reserve currently consists of 612.4 tonnes, which was valued at 72.2 billion euros at the end of last year. Roughly 32 percent of that total is now stored in London, and 31 percent is in Zeist. Approximately 18.5 percent remains in New York, and an equivalent amount is in Ottawa. 
-
-The central bank explained the move by stating, due to increasing geopolitical instability, they are working on improving crisis readiness. The bank noted that the Bank of England is regarded as the world's most easily tradable gold and will therefore be the most readily available in a crisis situation. 
-
-The relocated gold had an estimated value of 10.11 billion euros at the end of 2025, and roughly 10.34 billion euros as of 3 p.m. on Wednesday.</description>
+      <description>The Nederlandsche Bank relocated more than ten billion euros in gold from North America to Europe. The Dutch central bank moved eighty-six thousand kilograms of gold to the Bank of England in London. This move makes it easier to liquidate reserves if a crisis arises. The Dutch national gold reserve consists of six hundred twelve point four tonnes. The total reserve was valued at seventy-two point two billion euros at the end of last year. More than twenty-seven tonnes of gold was physically transferred from North America to the D. N. B. Cash Centre in Zeist, Utrecht, between March and August. Another fifty-nine tonnes of gold kept in New York was sold off during this time. An equivalent amount was purchased in London. To maintain the spread without increasing the supply held in the Netherlands, twenty-seven tonnes of gold was transferred from Zeist to London. Approximately seventy-eight point three nine tonnes of Dutch gold is no longer stored in New York. Seven point three five tonnes is no longer stored in Ottawa. The relocated gold had an estimated value of ten point one one billion euros at the end of twenty twenty-five. The gold was valued at ten point three four billion euros as of three p.m. on Wednesday in the Netherlands. Roughly thirty-two percent of the total reserve is now stored in London. Thirty-one percent is in Zeist. Approximately eighteen point five percent remains in both New York and Ottawa. Due to increasing geopolitical instability, the D. N. B. is working on improving its crisis readiness. The Bank of England is regarded as the world's most easily tradable gold. It will therefore be the most readily available for the D. N. B. in a crisis situation, the central bank said.</description>
       <guid isPermaLink="false">hn-49535526</guid>
-      <enclosure url="audio/2026-09-02/49535526-dutch-central-bank-moves-share-of-gold-from-u-s-canada-to-lo.mp3" length="693576" type="audio/mpeg"/>
+      <enclosure url="audio/2026-09-02/49535526-dutch-central-bank-moves-share-of-gold-from-u-s-canada-to-lo.mp3" length="867288" type="audio/mpeg"/>
       <pubDate>Wed, 02 Sep 2026 17:55:19 +0000</pubDate>
     </item>
     <item>
@@ -225,64 +213,10 @@ The data and method are available at trellner.com.</description>
     <item>
       <title>Gemini 3.8 Flash and 3.8 Flash Cyber</title>
       <link>https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/</link>
-      <description>Google has introduced two new artificial intelligence models, Gemini 3.8 Flash and Gemini 3.8 Flash Cyber, marking its third Flash release in six weeks following the rollout of version 3.7 three weeks prior. 
-
-Gemini 3.8 Flash is designed as an intelligent workhorse for software engineering and multi-step reasoning. It is priced at seventy-five cents per million input tokens and three dollars and seventy-five cents per million output tokens. On the verified human-level evaluation benchmark known as HLE-Verified, it achieved a score of fifty-four point nine percent. 
-
-The second variant, Gemini 3.8 Flash Cyber, is built for cybersecurity tasks like vulnerability detection and automated patching. On the external patching benchmark CWE-Bench, it achieved a pass rate of forty-seven point two percent. External evaluations showed specific results in practical applications. The Chrome Security team found the model produced two point six times more correct patches to vulnerabilities in Chrome than larger commercial models. Security firm Wiz reported that the model achieved seven point five to nine point seven percent higher recall on their internal penetration testing benchmark at a cost two point three to five point two times lower than leading frontier models. 
-
-Gemini 3.8 Flash is available to developers through the Gemini application programming interface via Google AI Studio and Android Studio, and to enterprise and consumer subscribers. Gemini 3.8 Flash Cyber is restricted to trusted defenders, such as government authorities, critical infrastructure operators, and software maintainers, through a new initiative called the Fairwind Program.</description>
+      <description>Google has released Gemini three point eight Flash and Gemini three point eight Flash Cyber. These two new variants are built on a shared reasoning and coding core. This marks the third Flash release in six weeks. Gemini three point eight Flash is an intelligent workhorse model. It is optimized for software engineering and agentic tasks and multi-step reasoning. It is available at an introductory price of zero point seven five dollars per million input tokens. The output tokens cost three point seven five dollars per million. This matches the pricing of version three point seven Flash. The model outperforms previous versions on several benchmarks. It beats larger frontier models on DeepSWE v one point one and Vals Finance Agent V two and Harvey's Legal Agent Benchmark. It also achieves fifty-four point nine percent on HLE-Verified. The model uses extra reasoning steps and iterative tool calls for complex tasks. Developers can adjust effort levels or use version three point seven Flash for efficiency-first workloads. The second variant is Gemini three point eight Flash Cyber. It is a specialized cybersecurity model focused on vulnerability detection and automated patching. The model achieved a success rate exceeding seventy percent in autonomous vulnerability discovery. This was measured on the CyberGym benchmark and an internal benchmark spanning twenty programming languages. The model recorded a pass at one score of forty-seven point two percent on the CWE-Bench patching benchmark. It is already deployed across Google. The Chrome Security team found it produced two point six times more correct patches than larger commercial models. Google's Cloud Vulnerability Research team used it to find a critical foundational vulnerability in less than two hours. Gemini three point eight Flash Cyber ships with a more permissive set of mitigations for cybersecurity. It is available to trusted defenders through the new Fairwind Program. This program provides access to government authorities and critical infrastructure operators and software maintainers. The standard version three point eight Flash is available immediately. It is for developers and enterprise customers and artificial intelligence Pro and Ultra subscribers.</description>
       <guid isPermaLink="false">hn-49537553</guid>
-      <enclosure url="audio/2026-09-02/49537553-gemini-3-8-flash-and-3-8-flash-cyber.mp3" length="853512" type="audio/mpeg"/>
+      <enclosure url="audio/2026-09-02/49537553-gemini-3-8-flash-and-3-8-flash-cyber.mp3" length="1168128" type="audio/mpeg"/>
       <pubDate>Wed, 02 Sep 2026 17:48:25 +0000</pubDate>
-    </item>
-    <item>
-      <title>Postgres 18 lands with async I/O and native materialized view refresh planning</title>
-      <link>https://www.postgresql.org/about/news/postgresql-18-released</link>
-      <description>PostgreSQL 18 was released this morning after an unusually long 15-month development cycle. The headline feature is asynchronous I/O for buffered reads, which the release notes claim reduces query latency on high-concurrency workloads by 15 to 40 percent depending on hardware. The feature ships enabled by default on Linux with io_uring available.
-
-Other notable additions include native planning for incremental materialized view refresh, a rewritten JSON path implementation that closes several longstanding compatibility gaps with the SQL 2023 standard, and a new pg_gather diagnostics extension for oncall engineers. The upgrade is drop-in compatible with Postgres 17 clusters via pg_upgrade.
-
-Release manager Andres Freund noted the cycle length was driven by scope, not stability concerns, and beta testing feedback described the release as unusually solid for a major version.</description>
-      <guid isPermaLink="false">sample-4</guid>
-      <enclosure url="audio/2026-09-01/sample-4.mp3" length="0" type="audio/mpeg"/>
-      <pubDate>Tue, 01 Sep 2026 22:40:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Anthropic open-sources Claude Skills marketplace protocol</title>
-      <link>https://www.anthropic.com/news/skills-protocol</link>
-      <description>Anthropic published the Claude Skills marketplace protocol as an open specification today, allowing third parties to build and distribute agent skills that work across compatible AI coding tools. The specification covers the skill file format, discovery, versioning, and permission scoping.
-
-The move follows a period in which independent developers built more than 400 open-source skills for Claude Code, according to a company blog post. Anthropic engineer Dario Amodei said the goal is to prevent a single-vendor lock-in around agent tooling, and to let the same skill run inside Claude Code, Cursor, Codex, and other agents without modification.
-
-The specification is published on GitHub under a permissive Apache 2.0 license. A reference implementation for skill discovery and installation is available for Node.js, with Python and Rust ports promised in the coming weeks.</description>
-      <guid isPermaLink="false">sample-3</guid>
-      <enclosure url="audio/2026-09-02/sample-3.mp3" length="0" type="audio/mpeg"/>
-      <pubDate>Wed, 02 Sep 2026 11:15:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Kenya's coastal flood response tests the new East African disaster protocol</title>
-      <link>https://www.reuters.com/world/africa/kenya-coastal-floods-2026</link>
-      <description>Heavy rains along Kenya's Indian Ocean coast have displaced roughly 40,000 people in the last 72 hours, according to the Kenya Red Cross Society. The floods are the first major test of the East African Community's cross-border disaster protocol, ratified in April.
-
-Under the new framework, Tanzania and Uganda have pre-positioned rescue teams inside Kenya without the usual bilateral negotiation delays. A Kenya Red Cross spokesperson said, quote, the difference in response time has been measured in hours rather than days, end quote. Aid organizations report that shelter capacity in Mombasa County is now above 90 percent.
-
-The rains are linked to an unusually strong Indian Ocean Dipole event, which climate scientists at the Kenya Meteorological Department expect to persist through mid-September. The government has not yet requested international humanitarian aid, indicating the regional response has, so far, absorbed the load.</description>
-      <guid isPermaLink="false">sample-2</guid>
-      <enclosure url="audio/2026-09-02/sample-2.mp3" length="0" type="audio/mpeg"/>
-      <pubDate>Wed, 02 Sep 2026 13:48:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Cloudflare ships R2 Vector Search, closing the loop on serverless RAG</title>
-      <link>https://blog.cloudflare.com/r2-vector-search</link>
-      <description>Cloudflare announced R2 Vector Search this morning, a managed vector database built directly on top of R2 object storage. Developers can now index embeddings and run k-nearest-neighbor queries without provisioning a separate database. Pricing starts at zero for the first 100 million dimensions, with per-query costs of roughly one hundredth of a cent above that.
-
-The feature ships with SDKs for JavaScript and Python and integrates with Workers AI, which means an entire retrieval-augmented generation pipeline — embedding, storage, retrieval, and generation — can now live in a single Cloudflare account. The company positions this against Pinecone and Weaviate on price, and against Turbopuffer on integration surface. According to the launch post, early customers include Notion, Grammarly, and Vercel.
-
-The timing matters because Cloudflare also raised Workers AI free-tier limits this week. Together, these moves suggest Cloudflare is treating AI infrastructure as a loss leader to pull developers deeper into its platform.</description>
-      <guid isPermaLink="false">sample-1</guid>
-      <enclosure url="audio/2026-09-02/sample-1.mp3" length="0" type="audio/mpeg"/>
-      <pubDate>Wed, 02 Sep 2026 14:22:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
