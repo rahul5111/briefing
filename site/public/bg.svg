@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 900" preserveAspectRatio="xMidYMid slice">
+  <defs>
+    <radialGradient id="glow" cx="70%" cy="88%" r="60%">
+      <stop offset="0%" stop-color="#FFB547" stop-opacity="0.28"/>
+      <stop offset="45%" stop-color="#FFB547" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#FFB547" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="ink" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0F1929"/>
+      <stop offset="100%" stop-color="#1a2942"/>
+    </linearGradient>
+    <filter id="blur">
+      <feGaussianBlur stdDeviation="40"/>
+    </filter>
+  </defs>
+  <rect width="1440" height="900" fill="url(#ink)"/>
+  <g filter="url(#blur)" opacity="0.9">
+    <path d="M0,720 C240,660 480,760 720,700 C960,640 1200,740 1440,680 L1440,900 L0,900 Z" fill="#1a2942"/>
+    <path d="M0,780 C280,720 520,820 780,760 C1040,700 1240,800 1440,740 L1440,900 L0,900 Z" fill="#2a3a5c" opacity="0.5"/>
+  </g>
+  <rect width="1440" height="900" fill="url(#glow)"/>
+</svg>

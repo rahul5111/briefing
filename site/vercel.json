@@ -1,0 +1,28 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "astro",
+  "buildCommand": "bash scripts/sync-data.sh && npm run build",
+  "outputDirectory": "dist",
+  "installCommand": "npm install",
+  "headers": [
+    {
+      "source": "/data/audio/:path*",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=604800, immutable" },
+        { "key": "Access-Control-Allow-Origin", "value": "*" }
+      ]
+    },
+    {
+      "source": "/data/feed.json",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=300, s-maxage=300" }
+      ]
+    },
+    {
+      "source": "/data/rss.xml",
+      "headers": [
+        { "key": "Cache-Control", "value": "public, max-age=300, s-maxage=300" }
+      ]
+    }
+  ]
+}

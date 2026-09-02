@@ -1,0 +1,52 @@
+═══ 00_KEY_POINTS ═══
+
+1. Google introduced Gemini 3.8 Flash priced at $0.75 per million input tokens and $3.75 per million output tokens.
+2. Gemini 3.8 Flash Cyber is a specialized cybersecurity model provided to trusted defenders through the Fairwind Program.
+3. Gemini 3.8 Flash achieves a score of 54.9% on HLE-Verified for multi-step reasoning across specialized domains.
+4. The Chrome Security team found that Gemini 3.8 Flash Cyber produced 2.6 times more correct patches to vulnerabilities.
+5. Google's Cloud Vulnerability Research team used Gemini 3.8 Flash Cyber to find a critical vulnerability in less than 2 hours.
+6. Gemini 3.8 Flash Cyber reached a success rate exceeding 70% in discovering vulnerabilities across 20 programming languages.
+7. These new models provide advanced reasoning and coding capabilities at high speeds to improve enterprise autonomy and software security.
+
+═══ 01_DRAFT ═══
+
+Today, the release of Gemini 3.8 Flash and Gemini 3.8 Flash Cyber introduces two new variants built on a shared reasoning and coding core, marking the third Flash release in six weeks. Gemini 3.8 Flash is designed as an intelligent workhorse model optimized for software engineering, agentic tasks, and multi-step reasoning. It is available at an introductory price of $0.75 per million input tokens and $3.75 per million output tokens, matching the pricing of 3.7 Flash. On benchmarks such as DeepSWE v1.1, Vals Finance Agent V2, and Harvey's Legal Agent Benchmark, the model outperforms previous versions and several larger frontier models, while achieving 54.9% on HLE-Verified. The model utilizes extra reasoning steps and iterative tool calls to maximize performance on complex tasks, though developers can adjust effort levels or use 3.7 Flash for efficiency-first workloads. The second variant, Gemini 3.8 Flash Cyber, is a specialized cybersecurity model focused on vulnerability detection and automated patching. On the CyberGym benchmark and an internal benchmark spanning 20 programming languages, the model achieved a success rate exceeding 70% in autonomous vulnerability discovery. On the CWE-Bench patching benchmark, it recorded a pass@1 of 47.2%. The model is already deployed across Google, where the Chrome Security team found it produced 2.6 times more correct patches than larger commercial models, and Google’s Cloud Vulnerability Research team used it to find a critical foundational vulnerability in less than two hours. Due to its capabilities, Gemini 3.8 Flash Cyber features a more permissive set of mitigations and is restricted to trusted defenders through the new Fairwind Program, which grants access to government authorities, critical infrastructure operators, and software maintainers. Meanwhile, standard 3.8 Flash is available immediately for developers, enterprise customers, and AI Pro and Ultra subscribers.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Today, the release of Gemini 3.8 Flash and Gemini 3.8 Flash Cyber introduces two new variants built on a shared reasoning and coding core, marking the third Flash release in six weeks. Gemini 3.8 Flash is designed as an intelligent workhorse model optimized for software engineering, agentic tasks, and multi-step reasoning. It is available at an introductory price of $0.75 per million input tokens and $3.75 per million output tokens, matching the pricing of 3.7 Flash. On benchmarks such as DeepSWE v1.1, Vals Finance Agent V2, and Harvey's Legal Agent Benchmark, the model outperforms previous versions and several larger frontier models, while achieving 54.9% on HLE-Verified. The model utilizes extra reasoning steps and iterative tool calls to maximize performance on complex tasks, though developers can adjust effort levels or use 3.7 Flash for efficiency-first workloads. The second variant, Gemini 3.8 Flash Cyber, is a specialized cybersecurity model focused on vulnerability detection and automated patching. On the CyberGym benchmark and an internal benchmark spanning 20 programming languages, the model achieved a success rate exceeding 70% in autonomous vulnerability discovery. On the CWE-Bench patching benchmark, it recorded a pass@1 of 47.2%. The model is already deployed across Google, where the Chrome Security team found it produced 2.6 times more correct patches than larger commercial models, and Google’s Cloud Vulnerability Research team used it to find a critical foundational vulnerability in less than two hours. Gemini 3.8 Flash Cyber ships with a more permissive set of mitigations for cybersecurity and is available to trusted defenders through the new Fairwind Program, which provides access to government authorities, critical infrastructure operators, and software maintainers. Meanwhile, standard 3.8 Flash is available immediately for developers, enterprise customers, and AI Pro and Ultra subscribers.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (7/7). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Google has released Gemini three point eight Flash and Gemini three point eight Flash Cyber. These two new variants are built on a shared reasoning and coding core. This marks the third Flash release in six weeks. 
+
+Gemini three point eight Flash is an intelligent workhorse model. It is optimized for software engineering and agentic tasks and multi-step reasoning. It is available at an introductory price of zero point seven five dollars per million input tokens. The output tokens cost three point seven five dollars per million. This matches the pricing of version three point seven Flash. 
+
+The model outperforms previous versions on several benchmarks. It beats larger frontier models on DeepSWE v one point one and Vals Finance Agent V two and Harvey's Legal Agent Benchmark. It also achieves fifty-four point nine percent on HLE-Verified. 
+
+The model uses extra reasoning steps and iterative tool calls for complex tasks. Developers can adjust effort levels or use version three point seven Flash for efficiency-first workloads. 
+
+The second variant is Gemini three point eight Flash Cyber. It is a specialized cybersecurity model focused on vulnerability detection and automated patching. The model achieved a success rate exceeding seventy percent in autonomous vulnerability discovery. This was measured on the CyberGym benchmark and an internal benchmark spanning twenty programming languages. 
+
+The model recorded a pass at one score of forty-seven point two percent on the CWE-Bench patching benchmark. It is already deployed across Google. The Chrome Security team found it produced two point six times more correct patches than larger commercial models. Google's Cloud Vulnerability Research team used it to find a critical foundational vulnerability in less than two hours. 
+
+Gemini three point eight Flash Cyber ships with a more permissive set of mitigations for cybersecurity. It is available to trusted defenders through the new Fairwind Program. This program provides access to government authorities and critical infrastructure operators and software maintainers. 
+
+The standard version three point eight Flash is available immediately. It is for developers and enterprise customers and artificial intelligence Pro and Ultra subscribers.
+
+═══ 05_NORMALIZED ═══
+
+Google has released Gemini three point eight Flash and Gemini three point eight Flash Cyber. These two new variants are built on a shared reasoning and coding core. This marks the third Flash release in six weeks. Gemini three point eight Flash is an intelligent workhorse model. It is optimized for software engineering and agentic tasks and multi-step reasoning. It is available at an introductory price of zero point seven five dollars per million input tokens. The output tokens cost three point seven five dollars per million. This matches the pricing of version three point seven Flash. The model outperforms previous versions on several benchmarks. It beats larger frontier models on DeepSWE v one point one and Vals Finance Agent V two and Harvey's Legal Agent Benchmark. It also achieves fifty-four point nine percent on HLE-Verified. The model uses extra reasoning steps and iterative tool calls for complex tasks. Developers can adjust effort levels or use version three point seven Flash for efficiency-first workloads. The second variant is Gemini three point eight Flash Cyber. It is a specialized cybersecurity model focused on vulnerability detection and automated patching. The model achieved a success rate exceeding seventy percent in autonomous vulnerability discovery. This was measured on the CyberGym benchmark and an internal benchmark spanning twenty programming languages. The model recorded a pass at one score of forty-seven point two percent on the CWE-Bench patching benchmark. It is already deployed across Google. The Chrome Security team found it produced two point six times more correct patches than larger commercial models. Google's Cloud Vulnerability Research team used it to find a critical foundational vulnerability in less than two hours. Gemini three point eight Flash Cyber ships with a more permissive set of mitigations for cybersecurity. It is available to trusted defenders through the new Fairwind Program. This program provides access to government authorities and critical infrastructure operators and software maintainers. The standard version three point eight Flash is available immediately. It is for developers and enterprise customers and artificial intelligence Pro and Ultra subscribers.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (7/7). Missing: none
+
+═══ 07_SANITY ═══
+
+OK
+

@@ -1,0 +1,293 @@
+@import url("https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,700;1,500;1,700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap");
+
+:root {
+  --ink:      #0b1220;
+  --ink-2:    #131c2e;
+  --bone:     #e4e9ee;
+  --mist:     #7b8794;
+  --mist-dim: #4a5566;
+  --amber:    #e8a64b;
+  --amber-2:  #f7d38a;
+  --hairline: #ffffff10;
+  --hairline-2: #ffffff1a;
+
+  --font-display: "Cormorant Garamond", ui-serif, Georgia, "Times New Roman", serif;
+  --font-body:    "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono:    "JetBrains Mono", ui-monospace, "SF Mono", monospace;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+::selection { background: var(--amber); color: var(--ink); }
+::-moz-selection { background: var(--amber); color: var(--ink); }
+
+html { caret-color: var(--amber); }
+:focus-visible {
+  outline: 1px solid var(--amber);
+  outline-offset: 3px;
+  border-radius: 1px;
+}
+
+::-webkit-scrollbar { width: 10px; height: 10px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb { background: var(--mist-dim); border-radius: 0; }
+::-webkit-scrollbar-thumb:hover { background: var(--mist); }
+
+html, body {
+  background: var(--ink);
+  color: var(--bone);
+  font-family: var(--font-body);
+  font-size: 16px;
+  line-height: 1.55;
+  min-height: 100dvh;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: "ss01", "cv11";
+}
+
+body { padding-bottom: 120px; }
+
+a { color: inherit; text-decoration: none; }
+
+.bg-svg {
+  position: fixed; inset: 0; z-index: -1;
+  width: 100vw; height: 100vh;
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+.wrap {
+  max-width: 780px;
+  margin: 0 auto;
+  padding: 56px 24px 24px;
+}
+
+/* Masthead — deliberately simple, editorial dispatch */
+header.masthead {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  padding-bottom: 32px;
+  border-bottom: 1px solid var(--hairline-2);
+  margin-bottom: 8px;
+}
+
+.masthead h1 {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-style: italic;
+  font-size: clamp(2.4rem, 5.5vw, 3.6rem);
+  letter-spacing: -0.02em;
+  line-height: 0.95;
+  color: var(--bone);
+}
+
+.masthead .meta {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--mist);
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  font-variant-numeric: tabular-nums;
+}
+
+.feed { display: flex; flex-direction: column; }
+
+.time-marker {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  color: var(--mist);
+  letter-spacing: 0.18em;
+  margin: 40px 0 8px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  font-variant-numeric: tabular-nums;
+}
+.time-marker::after {
+  content: "";
+  flex: 1;
+  height: 1px;
+  background: var(--hairline);
+}
+
+.card {
+  padding: 20px 4px 22px;
+  border-bottom: 1px solid var(--hairline);
+  cursor: pointer;
+  display: grid;
+  grid-template-columns: 68px 1fr auto;
+  gap: 18px;
+  align-items: baseline;
+  transition: opacity .18s ease;
+}
+.card:hover { background: linear-gradient(90deg, transparent 0%, var(--hairline) 50%, transparent 100%); }
+.card { opacity: 0.94; }
+.card.aged { opacity: 0.62; }
+.card.aged-more { opacity: 0.42; }
+
+/* Category = mono, no colored tag — differentiation via type only */
+.cat {
+  font-family: var(--font-mono);
+  font-size: 0.66rem;
+  color: var(--mist);
+  text-transform: uppercase;
+  letter-spacing: 0.18em;
+  align-self: start;
+  margin-top: 10px;
+  font-variant-numeric: tabular-nums;
+}
+.card.playing .cat { color: var(--amber); }
+
+.card h2 {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: 1.55rem;
+  line-height: 1.2;
+  letter-spacing: -0.005em;
+  color: var(--bone);
+  text-wrap: balance;
+}
+
+.card.playing h2 { color: var(--amber); }
+
+.card .sub {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--mist);
+  margin-top: 8px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  font-variant-numeric: tabular-nums;
+  flex-wrap: wrap;
+}
+.card .sub a {
+  border-bottom: 1px solid var(--hairline);
+  transition: border-color .15s ease, color .15s ease;
+}
+.card .sub a:hover { border-color: var(--bone); color: var(--bone); }
+
+.card .duration {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  color: var(--mist);
+  align-self: start;
+  margin-top: 10px;
+  font-variant-numeric: tabular-nums;
+}
+.card.playing .duration { color: var(--amber); }
+
+/* Transcript: no colored border-left — background + type does the work */
+.transcript {
+  margin-top: 16px;
+  padding: 18px 20px 20px;
+  background: var(--ink-2);
+  color: var(--bone);
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: 1.05rem;
+  line-height: 1.65;
+  letter-spacing: 0.003em;
+  max-width: 62ch;
+  border-radius: 2px;
+}
+.transcript p + p { margin-top: 0.7em; }
+
+/* Persistent player — the ONE authored moment lives in the waveform canvas */
+.player {
+  position: fixed;
+  bottom: 0; left: 0; right: 0;
+  background: linear-gradient(to top, var(--ink) 60%, color-mix(in oklab, var(--ink) 88%, transparent));
+  border-top: 1px solid var(--hairline-2);
+  padding: 16px 24px 20px;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+  gap: 20px;
+  align-items: center;
+  z-index: 50;
+}
+
+.player .btn {
+  background: transparent;
+  border: 1px solid var(--bone);
+  color: var(--bone);
+  width: 44px; height: 44px;
+  border-radius: 50%;
+  font-size: 0.85rem;
+  cursor: pointer;
+  display: flex; align-items: center; justify-content: center;
+  transition: background .18s ease, color .18s ease, border-color .18s ease, transform .12s ease;
+  font-variant-numeric: tabular-nums;
+}
+.player .btn:hover { background: var(--amber); border-color: var(--amber); color: var(--ink); }
+.player .btn:active { transform: scale(0.94); }
+.player .btn:disabled { opacity: 0.35; cursor: not-allowed; }
+
+.player .now { min-width: 0; overflow: hidden; }
+.player .now .title {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.2;
+  color: var(--bone);
+  white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+  letter-spacing: -0.005em;
+}
+.player.playing .now .title { color: var(--amber); }
+
+.player .now canvas {
+  display: block;
+  width: 100%;
+  height: 22px;
+  margin-top: 8px;
+}
+
+.player .time {
+  font-family: var(--font-mono);
+  font-size: 0.74rem;
+  color: var(--mist);
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+  letter-spacing: 0.06em;
+}
+.player.playing .time { color: var(--amber); }
+
+.empty {
+  padding: 96px 0;
+  text-align: center;
+  color: var(--mist);
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * { animation: none !important; transition: none !important; }
+}
+
+@media (max-width: 640px) {
+  .wrap { padding: 36px 18px 18px; }
+  .card {
+    grid-template-columns: 44px 1fr;
+    gap: 12px;
+    padding: 18px 2px 20px;
+  }
+  .cat { font-size: 0.58rem; letter-spacing: 0.14em; margin-top: 8px; }
+  .card h2 { font-size: 1.2rem; line-height: 1.22; }
+  .card .sub { font-size: 0.66rem; gap: 8px; margin-top: 6px; }
+  .card .duration {
+    grid-column: 2;
+    margin-top: 4px;
+    font-size: 0.68rem;
+  }
+  .time-marker { font-size: 0.62rem; margin: 32px 0 4px; }
+  .transcript { font-size: 0.98rem; padding: 14px 16px 16px; }
+  .player { padding: 12px 14px 14px; gap: 12px; }
+  .player .btn { width: 40px; height: 40px; font-size: 0.78rem; }
+  .player .now .title { font-size: 0.9rem; }
+  .player .time { font-size: 0.68rem; }
+  .masthead { padding-bottom: 24px; }
+  .masthead .meta { font-size: 0.64rem; letter-spacing: 0.1em; }
+}

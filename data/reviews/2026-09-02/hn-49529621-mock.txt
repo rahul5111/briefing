@@ -1,0 +1,37 @@
+═══ 00_KEY_POINTS ═══
+
+1. A dark web service called Nexus offered digital scans of over 153 million driver licenses.
+2. The illicit service launched on Monday, August 31, on the Russian cybercrime forum Exploit.
+3. Researchers matched image timestamps to specific travel dates when individuals handed IDs to businesses.
+4. Louisiana-based identity verification company IDScan dot net is the suspected source of the data breach.
+5. The New Orleans field office of the FBI launched an official inquiry into the source of the images.
+6. Jillian Kossman stated that IDScan dot net was investigating the matter following the initial report.
+
+═══ 01_DRAFT ═══
+
+A dark web service named Nexus launched on Monday, August 31, on the Russian cybercrime forum Exploit, offering digital scans of more than 153 million driver licenses from the United States and Canada. The proprietor included a Virginia driver license as a free sample in the initial sales thread. Researchers and associates tested the data and matched image timestamps to specific travel dates when individuals surrendered their physical IDs to rental car companies and businesses utilizing identity verification software. 
+
+The suspected source of the breach is IDScan dot net, a Louisiana-based identity verification company whose systems scan IDs using infrared and ultraviolet light and process verifications for major brands such as Hertz and Planet Thirteen dispensaries. The New Orleans field office of the Federal Bureau of Investigation launched an official inquiry into the source of the images. Jillian Kossman, a marketing and operations leader at IDScan dot net, stated that the company was investigating the matter. Shortly after the initial story was published, the Nexus website vanished from the dark web and displayed a message stating the service is no longer available.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+A dark web service named Nexus launched on Monday, August thirty-first, on the Russian cybercrime forum Exploit. The service offered digital scans of more than one hundred fifty-three million driver licenses from the United States and Canada. The proprietor included a Virginia driver license as a free sample in the initial sales thread. Researchers and associates tested the data. They matched image timestamps to specific travel dates when individuals surrendered their physical IDs to rental car companies and businesses utilizing identity verification software. 
+
+The suspected source of the breach is I. D. Scan dot net. This is a Louisiana-based identity verification company whose systems scan IDs using infrared and ultraviolet light. The company processes verifications for major brands such as Hertz and Planet Thirteen dispensaries. The New Orleans field office of the F. B. I. launched an official inquiry into the source of the images. Jillian Kossman, a marketing and operations leader at the company, stated that they were investigating the matter. Shortly after the initial story was published, the Nexus website vanished from the dark web. It displayed a message stating the service is no longer available.
+
+═══ 05_NORMALIZED ═══
+
+A dark web service named Nexus launched on Monday, August thirty-first, on the Russian cybercrime forum Exploit. The service offered digital scans of more than one hundred fifty-three million driver licenses from the United States and Canada. The proprietor included a Virginia driver license as a free sample in the initial sales thread. Researchers and associates tested the data. They matched image timestamps to specific travel dates when individuals surrendered their physical IDs to rental car companies and businesses utilizing identity verification software. The suspected source of the breach is I. D. Scan dot net. This is a Louisiana-based identity verification company whose systems scan IDs using infrared and ultraviolet light. The company processes verifications for major brands such as Hertz and Planet Thirteen dispensaries. The New Orleans field office of the F. B. I. launched an official inquiry into the source of the images. Jillian Kossman, a marketing and operations leader at the company, stated that they were investigating the matter. Shortly after the initial story was published, the Nexus website vanished from the dark web. It displayed a message stating the service is no longer available.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: I. D. Scan dot net
+

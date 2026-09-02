@@ -1,0 +1,18 @@
+---
+import "../styles/global.css";
+const { title = "Briefing" } = Astro.props;
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="dark" />
+    <title>{title}</title>
+    <link rel="alternate" type="application/rss+xml" title="Briefing" href="/rss.xml" />
+  </head>
+  <body>
+    <img src="/bg.svg" alt="" class="bg-svg" aria-hidden="true" />
+    <slot />
+  </body>
+</html>

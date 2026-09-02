@@ -1,0 +1,40 @@
+# Secrets
+.env
+.env.*
+!.env.example
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Kokoro models (350MB — GHA caches them separately)
+.models/
+
+# Node
+site/node_modules/
+site/dist/
+site/.astro/
+
+# Regenerated at build time from ../data
+site/public/data/
+
+# Dev-only helpers and screenshots
+site/*.png
+site/screenshot.mjs
+site/play-test.mjs
+site/check.mjs
+
+# Vercel
+.vercel/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp

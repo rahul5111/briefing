@@ -1,0 +1,38 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Feed from "../components/Feed";
+import fs from "node:fs";
+import path from "node:path";
+
+// Try public/data/feed.json first (always in the repo, works on Vercel).
+// Fall back to ../data/feed.json for local dev where the pipeline writes
+// straight into the repo's data/ dir and the site is symlinked.
+const candidatePaths = [
+  path.resolve("public/data/feed.json"),
+  path.resolve("../data/feed.json"),
+];
+let manifest: any = { stories: [] };
+for (const p of candidatePaths) {
+  if (fs.existsSync(p)) {
+    manifest = JSON.parse(fs.readFileSync(p, "utf-8"));
+    break;
+  }
+}
+
+const stories = manifest.stories ?? [];
+const today = new Date();
+const DAYS = ["SUN","MON","TUE","WED","THU","FRI","SAT"];
+const MONTHS = ["JAN","FEB","MAR","APR","MAY","JUN","JUL","AUG","SEP","OCT","NOV","DEC"];
+const dateLine = `${DAYS[today.getUTCDay()]}, ${MONTHS[today.getUTCMonth()]} ${String(today.getUTCDate()).padStart(2,"0")}`;
+
+const cdnBase = import.meta.env.PUBLIC_CDN_BASE ?? "/data";
+---
+<Layout title="Briefing">
+  <div class="wrap">
+    <header class="masthead">
+      <h1>Briefing</h1>
+      <div class="meta">{dateLine} · {stories.length} STORIES</div>
+    </header>
+    <Feed client:load stories={stories} cdnBase={cdnBase} />
+  </div>
+</Layout>
