@@ -15,7 +15,10 @@ type Story = {
   audio_path: string;
   word_count: number;
   estimated_duration_s: number;
+  location?: { name: string; country: string; lat: number; lng: number } | null;
 };
+
+const CATEGORY_ORDER = ["ALL", "AI", "STARTUPS", "SECURITY", "DEV", "RESEARCH", "WORLD"];
 
 type Props = { stories: Story[]; cdnBase: string };
 
@@ -172,9 +175,7 @@ export default function Feed({ stories, cdnBase }: Props) {
   const [now, setNow] = useState(0);
   const [dur, setDur] = useState(0);
   const [openId, setOpenId] = useState<string | null>(null);
-  // Use a stable timestamp for SSR (the newest story's own timestamp) so
-  // server and client render the same aged-bucket classes. After hydration,
-  // switch to wall-clock time for accurate age.
+  const [activeCat, setActiveCat] = useState<string>("ALL");
   const [nowMs, setNowMs] = useState(() =>
     stories.length ? new Date(stories[0].published_at).getTime() : 0
   );
@@ -182,7 +183,17 @@ export default function Feed({ stories, cdnBase }: Props) {
   const audioRef = useRef<HTMLAudioElement | null>(null);
   const canvasRef = useWaveform(audioRef.current, playing);
 
-  const grouped = useMemo(() => groupByDay(stories), [stories]);
+  const counts = useMemo(() => {
+    const c: Record<string, number> = { ALL: stories.length };
+    for (const s of stories) c[s.category] = (c[s.category] || 0) + 1;
+    return c;
+  }, [stories]);
+
+  const filtered = useMemo(
+    () => (activeCat === "ALL" ? stories : stories.filter((s) => s.category === activeCat)),
+    [stories, activeCat]
+  );
+  const grouped = useMemo(() => groupByDay(filtered), [filtered]);
 
   useEffect(() => {
     const a = audioRef.current;
@@ -215,6 +226,27 @@ export default function Feed({ stories, cdnBase }: Props) {
 
   return (
     <>
+      <nav className="tuner" aria-label="Categories">
+        {CATEGORY_ORDER.filter((c) => c === "ALL" || counts[c]).map((c) => (
+          <button
+            key={c}
+            type="button"
+            className={`tuner-btn ${activeCat === c ? "active" : ""}`}
+            onClick={() => setActiveCat(c)}
+          >
+            <span className="tuner-label">{c}</span>
+            <span className="tuner-count">{counts[c] ?? 0}</span>
+            {activeCat === c && (
+              <motion.span
+                layoutId="tuner-underline"
+                className="tuner-underline"
+                transition={{ type: "spring", stiffness: 400, damping: 40 }}
+              />
+            )}
+          </button>
+        ))}
+      </nav>
+
       <div className="feed">
         {grouped.map((g) => (
           <div key={g.label}>
