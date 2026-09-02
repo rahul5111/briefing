@@ -23,6 +23,7 @@ site/*.png
 site/screenshot.mjs
 site/play-test.mjs
 site/check.mjs
+site/globe-shot.mjs
 site/.env.local
 
 # Vercel
