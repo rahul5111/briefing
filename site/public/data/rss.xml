@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 02 Sep 2026 21:32:02 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 Sep 2026 22:25:08 +0000</lastBuildDate>
     <item>
       <title>Show HN: OpenTIE and OpenXWA, Modern Ports of Tie Fighter and X-Wing Alliance</title>
       <link>https://github.com/elyosh/OpenTIE/</link>
@@ -360,6 +360,14 @@ The data and method are available at trellner.com.</description>
       <guid isPermaLink="false">rss-bbc_world-bd4ab0ce31d2</guid>
       <enclosure url="audio/2026-09-02/rss-bbc_world-bd4ab0ce31d2-iran-says-us-strike-killed-four-at-wedding-in-war-crime-as-u.mp3" length="1215360" type="audio/mpeg"/>
       <pubDate>Wed, 02 Sep 2026 21:18:26 +0000</pubDate>
+    </item>
+    <item>
+      <title>Google releases Gemini 3.8 Flash, its third Flash model in six weeks</title>
+      <link>https://arstechnica.com/ai/2026/09/google-releases-gemini-3-8-flash-its-third-flash-model-in-six-weeks/</link>
+      <description>Google has released the Gemini three point eight Flash model. This is the third Flash rollout from the company in six weeks. The new model comes in two variations. The first is a standard workhorse model built for tasks like agentic work and software development. The second variation is Gemini three point eight Flash Cyber. That version is tuned specifically for finding and fixing security vulnerabilities. Developers using application programming interface access get a special discount. The introductory price lasts through the end of the year. It costs zero point seven five dollars per million input tokens. Output tokens cost three point seven five dollars per million during this time. Regular pricing kicks in after the promotional period ends. Input tokens will then cost one point five zero dollars per million. Output tokens will increase to seven point five zero dollars per million.</description>
+      <guid isPermaLink="false">rss-ars_technica-b0c60d5e22ba</guid>
+      <enclosure url="audio/2026-09-02/rss-ars_technica-b0c60d5e22ba-google-releases-gemini-3-8-flash-its-third-flash-model-in-si.mp3" length="561840" type="audio/mpeg"/>
+      <pubDate>Wed, 02 Sep 2026 22:21:01 +0000</pubDate>
     </item>
     <item>
       <title>Wary of Artemis IV timeline, NASA is changing lunar spacesuit design</title>

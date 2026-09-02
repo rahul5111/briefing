@@ -1,0 +1,48 @@
+═══ 00_KEY_POINTS ═══
+
+1. Google announced Gemini 3.8 Flash, its third Flash model released in just six weeks.
+2. Gemini 3.8 Flash is described by Google as its best reasoning and coding model yet.
+3. The new model is available in two variations, including a standard version and Gemini 3.8 Flash Cyber.
+4. Gemini 3.8 Flash Cyber has been specifically tuned for vulnerability detection and mitigation.
+5. API access is available at an introductory rate of $0.75 per million input tokens.
+6. Introductory output token pricing is set at $3.75 per million tokens through the end of the year.
+7. Regular pricing for the model will increase to $1.50 per million input tokens.
+
+═══ 01_DRAFT ═══
+
+Google has announced the release of Gemini 3.8 Flash, marking the company's third Flash model rollout in a span of six weeks. Despite not releasing a frontier-level Gemini Pro model since early 2026, Google describes the new release as its best reasoning and coding model yet. Gemini 3.8 Flash is available in two variations, including a standard workhorse model designed for tasks ranging from agentic workflows to software development, and Gemini 3.8 Flash Cyber, which is specifically tuned for vulnerability detection and mitigation. For developers utilizing API access, Google has introduced an introductory pricing rate through the end of the year set at $0.75 per million input tokens and $3.75 per million output tokens. After the promotional period ends, regular pricing will increase to $1.50 per million input tokens and $7.50 per million output tokens.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Google has announced the release of Gemini 3.8 Flash, marking the company's third Flash model rollout in a span of six weeks. Although Google hasn't released a frontier-level Gemini Pro model since early 2026, the company says that Gemini 3.8 Flash is its best reasoning and coding model yet. Gemini 3.8 Flash is available in two variations, including a standard workhorse model designed for tasks ranging from agentic tasks to software development, and Gemini 3.8 Flash Cyber, which is specifically tuned for vulnerability detection and mitigation. For developers utilizing API access, Google has introduced an introductory pricing rate through the end of the year set at $0.75 per million input tokens and $3.75 per million output tokens. After the promotional period ends, regular pricing will increase to $1.50 per million input tokens and $7.50 per million output tokens.
+
+═══ 02b_TRIMMED ═══
+
+Google has announced the release of Gemini 3.8 Flash, marking the company's third Flash model rollout in a span of six weeks. Gemini 3.8 Flash is available in two variations, including a standard workhorse model designed for tasks ranging from agentic tasks to software development, and Gemini 3.8 Flash Cyber, which is specifically tuned for vulnerability detection and mitigation. For developers utilizing API access, Google has introduced an introductory pricing rate through the end of the year set at $0.75 per million input tokens and $3.75 per million output tokens. After the promotional period ends, regular pricing will increase to $1.50 per million input tokens and $7.50 per million output tokens.
+
+═══ 03_COVERAGE_1 ═══
+
+85% covered (6/7). Missing: Gemini 3.8 Flash is described by Google as its best reasoning and coding model yet.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Google has released the Gemini three point eight Flash model. This is the third Flash rollout from the company in six weeks. 
+
+The new model comes in two variations. The first is a standard workhorse model built for tasks like agentic work and software development. The second variation is Gemini three point eight Flash Cyber. That version is tuned specifically for finding and fixing security vulnerabilities. 
+
+Developers using application programming interface access get a special discount. The introductory price lasts through the end of the year. It costs zero point seven five dollars per million input tokens. Output tokens cost three point seven five dollars per million during this time. 
+
+Regular pricing kicks in after the promotional period ends. Input tokens will then cost one point five zero dollars per million. Output tokens will increase to seven point five zero dollars per million.
+
+═══ 05_NORMALIZED ═══
+
+Google has released the Gemini three point eight Flash model. This is the third Flash rollout from the company in six weeks. The new model comes in two variations. The first is a standard workhorse model built for tasks like agentic work and software development. The second variation is Gemini three point eight Flash Cyber. That version is tuned specifically for finding and fixing security vulnerabilities. Developers using application programming interface access get a special discount. The introductory price lasts through the end of the year. It costs zero point seven five dollars per million input tokens. Output tokens cost three point seven five dollars per million during this time. Regular pricing kicks in after the promotional period ends. Input tokens will then cost one point five zero dollars per million. Output tokens will increase to seven point five zero dollars per million.
+
+═══ 06_COVERAGE_FINAL ═══
+
+SKIPPED: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 57.643379777s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.5-flash-lite'}, 'quotaValue': '500'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '57s'}]}}
+
+═══ 07_SANITY ═══
+
+SKIPPED: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 58.43376365s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.5-flash-lite'}, 'quotaValue': '500'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '58s'}]}}
+

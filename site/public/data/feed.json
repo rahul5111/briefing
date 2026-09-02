@@ -93,6 +93,29 @@
       "tts_voice": "af_nicole"
     },
     {
+      "id": "rss-ars_technica-b0c60d5e22ba",
+      "title": "Google releases Gemini 3.8 Flash, its third Flash model in six weeks",
+      "summary": "Google has released the Gemini three point eight Flash model. This is the third Flash rollout from the company in six weeks. The new model comes in two variations. The first is a standard workhorse model built for tasks like agentic work and software development. The second variation is Gemini three point eight Flash Cyber. That version is tuned specifically for finding and fixing security vulnerabilities. Developers using application programming interface access get a special discount. The introductory price lasts through the end of the year. It costs zero point seven five dollars per million input tokens. Output tokens cost three point seven five dollars per million during this time. Regular pricing kicks in after the promotional period ends. Input tokens will then cost one point five zero dollars per million. Output tokens will increase to seven point five zero dollars per million.",
+      "category": "DEV",
+      "source": "ars_technica",
+      "source_url": "https://arstechnica.com/ai/2026/09/google-releases-gemini-3-8-flash-its-third-flash-model-in-six-weeks/",
+      "source_domain": "arstechnica.com",
+      "source_permalink": "https://arstechnica.com/ai/2026/09/google-releases-gemini-3-8-flash-its-third-flash-model-in-six-weeks/",
+      "score": 100,
+      "author": "Ryan Whitwam",
+      "published_at": "2026-09-02T22:21:01.586427+00:00",
+      "created_at_ts": 1788372834,
+      "audio_path": "audio/2026-09-02/rss-ars_technica-b0c60d5e22ba-google-releases-gemini-3-8-flash-its-third-flash-model-in-si.mp3",
+      "word_count": 143,
+      "estimated_duration_s": 57,
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-1-1152x648.jpg",
+      "location": null,
+      "audio_bytes": 561840,
+      "audio_duration_s": 81.5,
+      "tts_chunks": 13,
+      "tts_voice": "af_nicole"
+    },
+    {
       "id": "rss-bbc_world-bd4ab0ce31d2",
       "title": "Iran says US strike killed four at wedding in 'war crime' as US denies targeting civilians",
       "summary": "Iran has accused the United States of a war crime after a missile strike killed four people. The dead include two children at a wedding celebration. The Iranian Red Crescent Society stated that missile shrapnel struck a home. This happened on Tuesday in the coastal town of Kuhestak in Sirik. The strike also injured sixty-seven other people. The Hormozgan Governorate named the four dead victims. They are fifty-year-old, Zarkhatoon Taheri. They are also forty-three-year-old, Kolsum Mallahi Nazhdnia. The others are sixteen-year-old, Mohammad Mallahi and four-year-old, Amirali Karimi. Ali Mallahi is the father of the bride and the owner of the building. He said in a state television video that the tragedy happened during his daughter wedding ceremony. A weapons expert spoke to B. B. C. Verify. The expert said footage from the scene showed remnants of a cruise missile. It was an A. G. M. dash eighty-four Standoff Land Attack Missile. This type of cruise missile is known to be used by the United States. A United States Central Command spokesperson made a statement. The spokesperson said the military never targets civilians. They added that Centcom was aware of the reports. Centcom is short for Central Command. Iranian authorities reported another fourteen deaths elsewhere from separate strikes. In response, the Iranian military and the Islamic Revolutionary Guard Corps launched missiles and drones. They targeted United States positions in Jordan, Kuwait, Iraq, Bahrain, and the United Arab Emirates. Most of the projectiles were intercepted. However, Kuwait reported that a drone caused a fire at a residential complex with no casualties. Jordan engaged thirteen ballistic missiles. Centcom said the initial United States strikes on Iran followed recent attacks. These were attempted attacks by the I. R. G. C. against American forces and commercial shipping in the Strait of Hormuz.",
@@ -897,5 +920,5 @@
       "tts_voice": "af_nicole"
     }
   ],
-  "updated_at": "2026-09-02T21:32:02.399888+00:00"
+  "updated_at": "2026-09-02T22:25:08.130784+00:00"
 }
