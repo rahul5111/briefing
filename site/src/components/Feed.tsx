@@ -1,5 +1,7 @@
-import { useEffect, useMemo, useRef, useState } from "react";
+import { lazy, Suspense, useEffect, useMemo, useRef, useState } from "react";
 import { AnimatePresence, motion } from "motion/react";
+
+const Globe = lazy(() => import("./Globe"));
 
 type Story = {
   id: string;
@@ -176,6 +178,7 @@ export default function Feed({ stories, cdnBase }: Props) {
   const [dur, setDur] = useState(0);
   const [openId, setOpenId] = useState<string | null>(null);
   const [activeCat, setActiveCat] = useState<string>("ALL");
+  const [view, setView] = useState<"list" | "globe">("list");
   const [nowMs, setNowMs] = useState(() =>
     stories.length ? new Date(stories[0].published_at).getTime() : 0
   );
@@ -226,27 +229,56 @@ export default function Feed({ stories, cdnBase }: Props) {
 
   return (
     <>
-      <nav className="tuner" aria-label="Categories">
-        {CATEGORY_ORDER.filter((c) => c === "ALL" || counts[c]).map((c) => (
+      <div className="controls-row">
+        <nav className="tuner" aria-label="Categories">
+          {CATEGORY_ORDER.filter((c) => c === "ALL" || counts[c]).map((c) => (
+            <button
+              key={c}
+              type="button"
+              className={`tuner-btn ${activeCat === c ? "active" : ""}`}
+              onClick={() => setActiveCat(c)}
+            >
+              <span className="tuner-label">{c}</span>
+              <span className="tuner-count">{counts[c] ?? 0}</span>
+              {activeCat === c && (
+                <motion.span
+                  layoutId="tuner-underline"
+                  className="tuner-underline"
+                  transition={{ type: "spring", stiffness: 400, damping: 40 }}
+                />
+              )}
+            </button>
+          ))}
+        </nav>
+        <div className="view-toggle" role="tablist" aria-label="View">
           <button
-            key={c}
             type="button"
-            className={`tuner-btn ${activeCat === c ? "active" : ""}`}
-            onClick={() => setActiveCat(c)}
-          >
-            <span className="tuner-label">{c}</span>
-            <span className="tuner-count">{counts[c] ?? 0}</span>
-            {activeCat === c && (
-              <motion.span
-                layoutId="tuner-underline"
-                className="tuner-underline"
-                transition={{ type: "spring", stiffness: 400, damping: 40 }}
-              />
-            )}
-          </button>
-        ))}
-      </nav>
+            role="tab"
+            aria-selected={view === "list"}
+            className={view === "list" ? "active" : ""}
+            onClick={() => setView("list")}
+          >List</button>
+          <button
+            type="button"
+            role="tab"
+            aria-selected={view === "globe"}
+            className={view === "globe" ? "active" : ""}
+            onClick={() => setView("globe")}
+          >Globe</button>
+        </div>
+      </div>
 
+      {view === "globe" && (
+        <Suspense fallback={<div className="empty">Loading globe…</div>}>
+          <Globe
+            stories={filtered}
+            playingId={current?.id ?? null}
+            onSelect={(s) => setCurrent(s)}
+          />
+        </Suspense>
+      )}
+
+      {view === "list" && (
       <div className="feed">
         {grouped.map((g) => (
           <div key={g.label}>
@@ -293,6 +325,7 @@ export default function Feed({ stories, cdnBase }: Props) {
           </div>
         ))}
       </div>
+      )}
 
       <div className={`player ${playing ? "playing" : ""}`} role="region" aria-label="Now playing">
         <button

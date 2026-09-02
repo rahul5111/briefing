@@ -158,6 +158,52 @@ header.masthead {
 .view-toggle button:hover { color: var(--bone); }
 .view-toggle button.active { background: var(--amber); color: var(--ink); }
 
+.controls-row {
+  display: flex;
+  align-items: flex-end;
+  gap: 20px;
+  flex-wrap: wrap;
+  margin-bottom: 8px;
+}
+.controls-row .tuner {
+  flex: 1;
+  margin-bottom: 0;
+}
+
+.globe-wrap {
+  position: relative;
+  width: 100%;
+  height: 640px;
+  margin: 8px 0 16px;
+  overflow: hidden;
+  cursor: grab;
+}
+.globe-wrap:active { cursor: grabbing; }
+
+.globe-legend {
+  position: absolute;
+  bottom: 12px;
+  left: 12px;
+  font-family: var(--font-mono);
+  font-size: 0.66rem;
+  letter-spacing: 0.12em;
+  color: var(--mist);
+  pointer-events: none;
+  line-height: 1.6;
+}
+.globe-legend strong {
+  color: var(--amber);
+  font-weight: 500;
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  letter-spacing: 0;
+}
+.globe-legend-tip {
+  color: var(--mist-dim);
+  text-transform: uppercase;
+  margin-top: 2px;
+}
+
 .feed { display: flex; flex-direction: column; }
 
 .time-marker {
