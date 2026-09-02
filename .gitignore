@@ -18,14 +18,12 @@ site/node_modules/
 site/dist/
 site/.astro/
 
-# Regenerated at build time from ../data
-site/public/data/
-
 # Dev-only helpers and screenshots
 site/*.png
 site/screenshot.mjs
 site/play-test.mjs
 site/check.mjs
+site/.env.local
 
 # Vercel
 .vercel/

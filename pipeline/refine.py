@@ -248,7 +248,7 @@ def _sanity(text: str) -> tuple[bool, str]:
 # ────────────────────────────────────────────────────────────────────────────
 
 def _write_review(story_id: str, day: str, stages: dict[str, str]) -> Path:
-    review_dir = config.DATA_DIR / "reviews" / day
+    review_dir = config.REVIEWS_DIR / day
     review_dir.mkdir(parents=True, exist_ok=True)
     path = review_dir / f"{story_id}.txt"
     with path.open("w") as f:

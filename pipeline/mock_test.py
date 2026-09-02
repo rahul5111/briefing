@@ -22,7 +22,7 @@ from . import config, extract, refine, tts, audio_validate, fetch
 
 DEFAULT_IDS = ["hn-49537553", "hn-49535526", "hn-49526069"]
 
-REPORT_DIR = config.DATA_DIR / "reviews" / "_mock_reports"
+REPORT_DIR = config.REVIEWS_DIR / "_mock_reports"
 
 
 def _load_story(story_id: str) -> dict | None:

@@ -2,7 +2,10 @@ from pathlib import Path
 import os
 
 ROOT = Path(__file__).resolve().parent.parent
-DATA_DIR = ROOT / "data"
+# Data lives inside the site's public dir so Vercel picks it up directly at
+# build time. Reviews live outside the site to keep the deploy small.
+DATA_DIR = ROOT / "site" / "public" / "data"
+REVIEWS_DIR = ROOT / "data" / "reviews"
 AUDIO_DIR = DATA_DIR / "audio"
 MANIFEST_PATH = DATA_DIR / "feed.json"
 RSS_PATH = DATA_DIR / "rss.xml"
