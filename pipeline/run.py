@@ -68,6 +68,12 @@ def main() -> int:
     candidates = [candidates[i] for i in keep_idx]
     print(f"After semantic dedup: {len(candidates)}")
 
+    # Cap TTS work per run — cron every 4h amortizes coverage across the day.
+    if len(candidates) > config.MAX_NEW_PER_RUN:
+        candidates.sort(key=lambda c: c.score, reverse=True)
+        candidates = candidates[: config.MAX_NEW_PER_RUN]
+        print(f"Capped to top {config.MAX_NEW_PER_RUN} by score for this run.")
+
     new_stories: list[dict] = []
     now = datetime.now(timezone.utc)
     day = now.strftime("%Y-%m-%d")

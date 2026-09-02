@@ -19,6 +19,7 @@ HN_MAX_STORIES = 40
 DEDUP_THRESHOLD = 0.82           # slightly tighter now that many sources overlap
 RETENTION_DAYS = 7               # rolling 7-day window
 MAX_MANIFEST_STORIES = 250       # cap on stored stories (newest wins)
+MAX_NEW_PER_RUN = 25             # cap fresh TTS work per run; cron amortizes coverage
 
 WORDS_MIN = 150
 WORDS_MAX = 360
