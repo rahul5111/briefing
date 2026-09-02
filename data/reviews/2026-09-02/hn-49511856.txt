@@ -1,0 +1,45 @@
+═══ 00_KEY_POINTS ═══
+
+1. The author used three existing security cameras and the BirdNet-Go software to build an automated bird identification system.
+2. BirdNet-Go runs locally via Docker on the author's hardware with no cloud services or monthly subscription fees required.
+3. The system recently added Google Perch v2, which allows the AI to detect 14,795 bird species compared to the older limit of 6,000.
+4. The setup tracks biodiversity over time, recording 418,726 detections and 271 unique species over a 12-month period.
+5. The system matters because it turns standard home security cameras into a useful tool that continuously catalogs local wildlife sounds.
+6. Robert Oesterlin created a free iOS companion app that lets users connect their phones to a BirdNet-Go server.
+
+═══ 01_DRAFT ═══
+
+A tech hobbyist repurposed three existing home security cameras and an old laptop to build an automatic, 24/7 bird identification system using the open-source software BirdNet-Go running locally in Docker. The setup uses RTSP streams from the cameras and processes audio through a local AI inference engine without cloud dependencies or subscription fees. The platform recently added support for Google Perch v2, expanding species detection capabilities to 14,795 species compared to the 6,000 offered by BirdNET 2.4. Over a twelve-month period, the system recorded 418,726 detections across 271 unique species with an average confidence rating of 60.9 percent, identifying the House Finch as the most common visitor in Southern California with 118,667 detections. The project also integrates with Home Assistant via MQTT, connects to a home Discord server, and works with front-end interfaces like Saezuri and the iOS app BirdNET-Go Companion built by Robert Oesterlin. During operation, the system inadvertently picked up non-bird audio, successfully detecting a neighbor passing by the driveway and flatulence. The creator noted that the project turned standard security cameras into a daily resource for tracking local biodiversity without requiring special hardware.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+A tech hobbyist repurposed three existing home security cameras and an old laptop to build an automatic, 24/7 bird identification system using the open-source software BirdNet-Go running locally in Docker. The setup uses RTSP streams from the cameras and processes audio through a local AI inference engine without cloud dependencies or subscription fees. The platform recently added support for Google Perch v2, expanding species detection capabilities to 14,795 species compared to the 6,000 offered by BirdNET 2.4. Over a twelve-month period, the system recorded 418,726 detections across 271 unique species with an average confidence rating of 60.9 percent, identifying the House Finch as the most common visitor in Southern California with 118,667 detections. The project also integrates with Home Assistant via MQTT, connects to a home Discord server, and works with front-end interfaces like Saezuri and the iOS app BirdNET-Go Companion built by Robert Oesterlin. The system also captured a funny moment when a neighbor walked by the driveway at night and a flatulence sound was detected. The creator noted that the project turned standard security cameras into a daily resource for tracking local biodiversity without requiring special hardware.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+A tech hobbyist repurposed three existing home security cameras and an old laptop. They built an automatic twenty-four seven bird identification system. The system uses the open source software BirdNet-Go running locally in Docker. The setup uses R. T. S. P. streams from the cameras. It processes audio through a local A. I. inference engine. There are no cloud dependencies or subscription fees. 
+
+The platform recently added support for Google Perch version two. This expands species detection capabilities to fourteen thousand seven90 five species. The older BirdNET version two point four offered six thousand species. 
+
+Over a twelve-month period, the system recorded 418,726 detections. That covered 271 unique species with an average confidence rating of 60.9 percent. The system identified the House Finch as the most common visitor in Southern California. It logged 118,667 detections for that bird. 
+
+The project also integrates with Home Assistant via M. Q. T. T. It connects to a home Discord server. It works with front end interfaces like Saezuri and the iOS app BirdNET-Go Companion. That app was built by, Robert Oesterlin. 
+
+The system also captured a funny moment. A neighbor walked by the driveway at night and a flatulence sound was detected. The creator noted that the project turned standard security cameras into a daily resource. It tracks local biodiversity without requiring special hardware.
+
+═══ 05_NORMALIZED ═══
+
+A tech hobbyist repurposed three existing home security cameras and an old laptop. They built an automatic twenty-four seven bird identification system. The system uses the open source software BirdNet-Go running locally in Docker. The setup uses R. T. S. P. streams from the cameras. It processes audio through a local A. I. inference engine. There are no cloud dependencies or subscription fees. The platform recently added support for Google Perch version two. This expands species detection capabilities to fourteen thousand seven90 five species. The older BirdNET version two point four offered six thousand species. Over a twelve-month period, the system recorded four hundred and eighteen thousand, seven hundred and twenty-six detections. That covered 271 unique species with an average confidence rating of sixty point nine percent. The system identified the House Finch as the most common visitor in Southern California. It logged one hundred and eighteen thousand, six hundred and sixty-seven detections for that bird. The project also integrates with Home Assistant via M. Q. T. T. It connects to a home Discord server. It works with front end interfaces like Saezuri and the iOS app BirdNET-Go Companion. That app was built by, Robert Oesterlin. The system also captured a funny moment. A neighbor walked by the driveway at night and a flatulence sound was detected. The creator noted that the project turned standard security cameras into a daily resource. It tracks local biodiversity without requiring special hardware.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: fourteen thousand seven90 five species
+

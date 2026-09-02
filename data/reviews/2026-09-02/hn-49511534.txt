@@ -1,0 +1,45 @@
+═══ 00_KEY_POINTS ═══
+
+1. The ravynOS project is a pre-alpha open-source operating system based on Darwin and FreeBSD.
+2. Developers aim to bring macOS features like clean design and global menus to ravynOS.
+3. Users can install applications simply by dragging the application bundle into the Applications folder.
+4. The operating system supports standard Command-key shortcuts for consistent system-wide navigation.
+5. Native support for key Cocoa APIs allows developers to port existing applications with minimal changes.
+6. Users can utilize familiar terminal utilities like open and pbcopy to speed up workflows.
+
+═══ 01_DRAFT ═══
+
+RavynOS is a pre-alpha, open-source operating system built upon Darwin, FreeBSD, and Apple open-source components, designed to bring macOS features to a non-Apple environment. The project aims to replicate key elements of the macOS experience, including a clean design with transparency and refined typography, global menu bars, consistent Command-key shortcuts, and a folder hierarchy consisting of Applications, System, Library, and Users. For software installation, the operating system utilizes a drag-and-drop method into the Applications folder, bypassing traditional installers and registries. Developers can also port existing Cocoa applications to the platform with minimal changes through native support for key frameworks, while users retain access to terminal utilities such as open and pbcopy.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+The ravynOS project aims to bring many features from macOS to the system, including a clean design with transparency, refined typography, and elegant spacing. The platform provides global menu bars to save vertical space, consistent Command-key shortcuts, and a standard folder hierarchy consisting of Applications, System, Library, and Users. For software management, the operating system uses a simple drag-and-drop method into the Applications folder, eliminating traditional installers and registries. Additionally, developers can port existing Cocoa applications with minimal changes through native support for key frameworks, and users can utilize familiar terminal utilities such as 'open' and 'pbcopy'.
+
+═══ 02b_TRIMMED ═══
+
+The ravynOS project aims to bring many features from macOS to the system, including a clean design with transparency, refined typography, and elegant spacing. The platform provides global menu bars to save vertical space, consistent Command-key shortcuts, and a standard folder hierarchy consisting of Applications, System, Library, and Users. For software management, the operating system uses a simple drag-and-drop method into the Applications folder, eliminating traditional installers and registries.
+
+═══ 03_COVERAGE_1 ═══
+
+50% covered (3/6). Missing: The ravynOS project is a pre-alpha open-source operating system based on Darwin and FreeBSD.; Native support for key Cocoa APIs allows developers to port existing applications with minimal changes.; Users can utilize familiar terminal utilities like open and pbcopy to speed up workflows.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+The ravynOS project is a pre-alpha open-source operating system based on Darwin and FreeBSD. It aims to bring many features from macOS to the system, including a clean design with transparency, refined typography, and elegant spacing. The platform provides global menu bars to save vertical space, consistent Command-key shortcuts, and a standard folder hierarchy consisting of Applications, System, Library, and Users. Native support for key Cocoa APIs allows developers to port existing applications with minimal changes. For software management, the operating system uses a simple drag-and-drop method into the Applications folder, eliminating traditional installers and registries. Users can utilize familiar terminal utilities like open and pbcopy to speed up workflows.
+
+═══ 04_AUDIO_REWRITE ═══
+
+The ravynOS project is a pre-alpha open-source operating system based on Darwin and FreeBSD. It aims to bring many features from macOS to the system. Those features include a clean design with transparency and refined typography and elegant spacing. The platform provides global menu bars to save vertical space. It also offers consistent Command-key shortcuts and a standard folder hierarchy. That hierarchy consists of Applications and System and Library and Users. Native support for key Cocoa application programming interfaces allows developers to port existing applications with minimal changes. For software management, the operating system uses a simple drag-and-drop method into the Applications folder. This eliminates traditional installers and registries. Users can utilize familiar terminal utilities like open and pbcopy to speed up workflows.
+
+═══ 05_NORMALIZED ═══
+
+The ravynOS project is a pre-alpha open-source operating system based on Darwin and FreeBSD. It aims to bring many features from macOS to the system. Those features include a clean design with transparency and refined typography and elegant spacing. The platform provides global menu bars to save vertical space. It also offers consistent Command-key shortcuts and a standard folder hierarchy. That hierarchy consists of Applications and System and Library and Users. Native support for key Cocoa application programming interfaces allows developers to port existing applications with minimal changes. For software management, the operating system uses a simple drag-and-drop method into the Applications folder. This eliminates traditional installers and registries. Users can utilize familiar terminal utilities like open and pbcopy to speed up workflows.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: comma splices/run-ons, comma-less series ("Applications and System and Library and Users")
+

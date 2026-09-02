@@ -1,0 +1,69 @@
+═══ 00_KEY_POINTS ═══
+
+1. A new paper in Psychological Science reports a failure to replicate Study 2 of a famous 2002 procrastination article by Dan Ariely and Klaus Wertenbroch.
+2. Ariely and Wertenbroch's original 2002 study found that people performed significantly better on proofreading tasks when given evenly spaced deadlines.
+3. Researchers analyzing original data files from 2006 concluded that the data in Studies 1 and 2 were tampered with.
+4. The original study claimed an implausibly large effect size of Cohen's d equals 2.5 for proofreading performance differences across deadline conditions.
+5. The original data contained suspicious patterns, including 18 out of 20 participants in one condition having exact performance twins with ID numbers 10 positions apart.
+6. Subjective evaluations and task performance measures in the original data failed to correlate logically, unlike the sane replication data.
+7. Only 11.7 percent of self-reported time estimates in the original data were rounded, compared to 85 percent in the replication data.
+8. Following the discovery of these red flags, Ariely and Wertenbroch reached out to Psychological Science to request that the original article be retracted.
+
+═══ 01_DRAFT ═══
+
+A new analysis of the original data files from the 2002 Psychological Science study on procrastination by Dan Ariely and Klaus Wertenbroch concludes that the data for Study 2 were tampered with. The original paper found that participants performed better on proofreading tasks when given evenly spaced deadlines compared to self-set or last-day deadlines. It has been cited over 2,100 times.
+
+The reassessment stems from data files received in 2006 by replication researcher Kyle Hyndman, which listed Dan Ariely as the last user to save them. Following a recent independent analysis of these files, researchers identified four major red flags. 
+
+First, the reported effect size of the evenly spaced deadlines was implausibly large at Cohen's d equals 2.5, yielding a correlation of r equals 0.79 with condition performance, despite proofreading error detection typically being a noisy measure. Second, the data contained duplicate observations in the last-day deadline condition, where 18 of 20 participants had a corrections twin with identical scores across all three tasks and ID numbers precisely 10 positions apart. Third, subjective ratings and performance metrics that strongly correlated in a recent replication showed virtually no correlation in the original dataset. For instance, partial correlations between task liking and interest ranged from positive 0.63 to positive 0.92 in the replication, but ranged from negative 0.29 to positive 0.18 in the original data. Fourth, while 85 percent of participants in the replication rounded their self-reported minutes spent on tasks, only 11.7 percent did so in the original data.
+
+Upon sharing these findings, Ariely and Wertenbroch requested that Psychological Science retract the original 2002 article.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+A new analysis of the original data files from the 2002 Psychological Science study on procrastination by Dan Ariely and Klaus Wertenbroch concludes that the data for Study 2 were tampered with. The original paper found that participants performed better on proofreading tasks when given evenly spaced deadlines compared to self-set or last-day deadlines. It has been cited over 2,100 times.
+
+The reassessment stems from data files received in 2006 by replication researcher Kyle Hyndman, which listed Dan Ariely as the last user to save them. Upon analyzing these files, researchers identified four major red flags. 
+
+First, the effect size for the proofreading performance results was extremely, implausibly large, with a Cohen's d of 2.5 and a correlation of r = .79 between experimental condition and number of corrections, despite proofreading error detection likely being a noisy measure. Second, the data contained duplicate observations in the last-day deadline condition, where 18 of 20 participants had a corrections twin who found exactly the same number of errors for each of the three proofreading tasks, with ID numbers exactly 10 positions apart. Third, subjective ratings and performance metrics that strongly correlated in a forthcoming replication showed virtually no correlation in the original dataset. For instance, partial correlations among five subjective measures ranged from positive .63 to positive .92 in the replication, but ranged from negative .29 to positive .18 in the original data. Fourth, while 85 percent of participants in the replication rounded their self-reported minutes spent on tasks, only 11.7 percent of estimated minutes were round in the original data.
+
+Upon sharing these findings, Ariely and Wertenbroch reached out to Psychological Science to request that the original 2002 article be retracted.
+
+═══ 02b_TRIMMED ═══
+
+A new analysis of the original data files from the 2002 Psychological Science study on procrastination by Dan Ariely and Klaus Wertenbroch concludes that the data for Study 2 were tampered with. The original paper found that participants performed better on proofreading tasks when given evenly spaced deadlines compared to self-set or last-day deadlines. It has been cited over 2,100 times. The reassessment stems from data files received in 2006 by replication researcher Kyle Hyndman, which listed Dan Ariely as the last user to save them. Upon analyzing these files, researchers identified four major red flags. First, the effect size for the proofreading performance results was extremely, implausibly large, with a Cohen's d of 2.5 and a correlation of r = .79 between experimental condition and number of corrections, despite proofreading error detection likely being a noisy measure. For instance, partial correlations among five subjective measures ranged from positive .63 to positive .92 in the replication, but ranged from negative .29 to positive .18 in the original data. Upon sharing these findings, Ariely and Wertenbroch reached out to Psychological Science to request that the original 2002 article be retracted.
+
+═══ 03_COVERAGE_1 ═══
+
+62% covered (5/8). Missing: A new paper in Psychological Science reports a failure to replicate Study 2 of a famous 2002 procrastination article by Dan Ariely and Klaus Wertenbroch.; The original data contained suspicious patterns, including 18 out of 20 participants in one condition having exact performance twins with ID numbers 10 positions apart.; Only 11.7 percent of self-reported time estimates in the original data were rounded, compared to 85 percent in the replication data.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+A new paper in Psychological Science reports a failure to replicate Study 2 of a famous 2002 procrastination article by Dan Ariely and Klaus Wertenbroch. A new analysis of the original data files from the 2002 Psychological Science study on procrastination by Dan Ariely and Klaus Wertenbroch concludes that the data for Study 2 were tampered with. The original paper found that participants performed better on proofreading tasks when given evenly spaced deadlines compared to self-set or last-day deadlines. It has been cited over 2,100 times. The reassessment stems from data files received in 2006 by replication researcher Kyle Hyndman, which listed Dan Ariely as the last user to save them. Upon analyzing these files, researchers identified four major red flags. First, the effect size for the proofreading performance results was extremely, implausibly large, with a Cohen's d of 2.5 and a correlation of r = .79 between experimental condition and number of corrections, despite proofreading error detection likely being a noisy measure. Furthermore, the original data contained suspicious patterns, including 18 out of 20 participants in one condition having exact performance twins with ID numbers 10 positions apart. Additionally, only 11.7 percent of self-reported time estimates in the original data were rounded, compared to 85 percent in the replication data. For instance, partial correlations among five subjective measures ranged from positive .63 to positive .92 in the replication, but ranged from negative .29 to positive .18 in the original data. Upon sharing these findings, Ariely and Wertenbroch reached out to Psychological Science to request that the original 2002 article be retracted.
+
+═══ 04_AUDIO_REWRITE ═══
+
+A new paper in Psychological Science reports a failure to replicate Study two of a famous two thousand two procrastination article. The original authors are , Dan Ariely and , Klaus Wertenbroch. A new analysis of the original data files concludes that the data for Study two were tampered with. 
+
+The original paper found that participants performed better on proofreading tasks when given evenly spaced deadlines. This compared to self-set or last-day deadlines. It has been cited over twenty-one hundred times. 
+
+The reassessment stems from data files received in two thousand six by replication researcher , Kyle Hyndman. These files listed , Dan Ariely as the last user to save them. Upon analyzing these files, researchers identified four major red flags. 
+
+First, the effect size for the proofreading performance results was extremely large. It had a Cohen's d of two point five and a correlation of zero point seven nine between the experimental condition and the number of corrections. This happened despite proofreading error detection likely being a noisy measure. 
+
+Furthermore, the original data contained suspicious patterns. Eighteen out of twenty participants in one condition had exact performance twins with identification numbers ten positions apart. Additionally, only eleven point seven percent of self-reported time estimates in the original data were rounded. This compared to eighty-five percent in the replication data. 
+
+For instance, partial correlations among five subjective measures ranged from positive zero point six three to positive zero point nine two in the replication. They ranged from negative zero point two nine to positive zero point one eight in the original data. Upon sharing these findings, , Ariely and , Wertenbroch reached out to Psychological Science to request that the original two thousand two article be retracted.
+
+═══ 05_NORMALIZED ═══
+
+A new paper in Psychological Science reports a failure to replicate Study two of a famous two thousand two procrastination article. The original authors are, Dan Ariely and, Klaus Wertenbroch. A new analysis of the original data files concludes that the data for Study two were tampered with. The original paper found that participants performed better on proofreading tasks when given evenly spaced deadlines. This compared to self-set or last-day deadlines. It has been cited over twenty-one hundred times. The reassessment stems from data files received in two thousand six by replication researcher, Kyle Hyndman. These files listed, Dan Ariely as the last user to save them. Upon analyzing these files, researchers identified four major red flags. First, the effect size for the proofreading performance results was extremely large. It had a Cohen's d of two point five and a correlation of zero point seven nine between the experimental condition and the number of corrections. This happened despite proofreading error detection likely being a noisy measure. Furthermore, the original data contained suspicious patterns. Eighteen out of twenty participants in one condition had exact performance twins with identification numbers ten positions apart. Additionally, only eleven point seven percent of self-reported time estimates in the original data were rounded. This compared to eighty-five percent in the replication data. For instance, partial correlations among five subjective measures ranged from positive zero point six three to positive zero point nine two in the replication. They ranged from negative zero point two nine to positive zero point one eight in the original data. Upon sharing these findings, Ariely and, Wertenbroch reached out to Psychological Science to request that the original two thousand two article be retracted.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (8/8). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: awkward punctuation
+

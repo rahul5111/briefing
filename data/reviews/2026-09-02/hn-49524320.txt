@@ -1,0 +1,70 @@
+═══ 00_KEY_POINTS ═══
+
+1. Movie Scene Map features 15,716 real filming locations across 166 countries.
+2. The interactive map includes 9,295 films and series alongside 2,153 video games.
+3. The atlas also maps 407 anime and 365 manga placed by their story settings.
+4. The project is built entirely from open data sourced primarily from Wikidata.
+5. The entire atlas is available to download for free as GeoJSON or CSV under CC0.
+
+═══ 01_DRAFT ═══
+
+Movie Scene Map is a free interactive atlas containing 15,716 real filming locations across 166 countries, featuring studios, castles, streets, and landscapes. The platform covers 9,295 films and television series with dedicated pages, alongside 2,153 video games, 407 anime, and 365 manga. Because drawn and rendered worlds are not physically filmed, games, anime, and manga are placed on the map according to where their stories are set, using narrative locations from Wikidata and setting categories from Wikipedia. 
+
+The atlas is built using open data, anchored by filming location statements on Wikidata joined with geographic coordinates, Wikimedia Commons photographs, and Wikipedia articles. It also includes places named within a production's Wikipedia article or its setting categories, with these entries explicitly labeled to distinguish them from direct Wikidata statements. The data is unscrubbed from listicles and contains no generated content. 
+
+Coverage is tied to Wikidata and remains uneven, meaning certain famous productions lack location statements or feature coarse data that references entire countries as text rather than mapping specific pins. Users can add missing information upstream by updating a production's Wikidata item with a source, allowing the entry to appear upon the next data rebuild. 
+
+The atlas operates without accounts, advertising, or paywalls. The entire dataset is free to download under a CC0 license in GeoJSON and CSV formats, and a read-only Model Context Protocol endpoint is available to answer queries live for artificial intelligence assistants.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Movie Scene Map is a free interactive atlas containing 15,716 real filming locations across 166 countries, featuring studios, castles, streets, and landscapes. The platform covers 9,295 films and television series with dedicated pages, alongside 2,153 video games, 407 anime, and 365 manga. Because drawn and rendered worlds are not physically filmed, games, anime, and manga are placed on the map according to where their stories are set, using narrative locations from Wikidata and setting categories from Wikipedia. 
+
+The atlas is built using open data, anchored by filming location statements on Wikidata joined with geographic coordinates, Wikimedia Commons photographs, and Wikipedia articles. It also includes places named within a production's Wikipedia article or its setting categories, with these entries explicitly labeled to distinguish them from direct Wikidata statements. The data is unscrubbed from listicles and contains no generated content. 
+
+Coverage is tied to Wikidata and remains uneven, meaning certain famous productions lack location statements or feature coarse data that references entire countries as text rather than mapping specific pins. Updates happen upstream by adding a filming location statement to the production's Wikidata item with a source, so it appears here at the next rebuild and in every other project reading that data. 
+
+The atlas operates without accounts, advertising, or paywalls. The whole atlas is free to download as GeoJSON or CSV under CC0, and a read-only Model Context Protocol endpoint answers the same questions live for artificial intelligence assistants.
+
+═══ 02b_TRIMMED ═══
+
+Movie Scene Map is a free interactive atlas containing 15,716 real filming locations across 166 countries, featuring studios, castles, streets, and landscapes. The platform covers 9,295 films and television series with dedicated pages, alongside 2,153 video games, 407 anime, and 365 manga. Because drawn and rendered worlds are not physically filmed, games, anime, and manga are placed on the map according to where their stories are set, using narrative locations from Wikidata and setting categories from Wikipedia. The atlas is built using open data, anchored by filming location statements on Wikidata joined with geographic coordinates, Wikimedia Commons photographs, and Wikipedia articles. It also includes places named within a production's Wikipedia article or its setting categories, with these entries explicitly labeled to distinguish them from direct Wikidata statements. The data is unscrubbed from listicles and contains no generated content. Coverage is tied to Wikidata and remains uneven, meaning certain famous productions lack location statements or feature coarse data that references entire countries as text rather than mapping specific pins. The atlas operates without accounts, advertising, or paywalls.
+
+═══ 03_COVERAGE_1 ═══
+
+80% covered (4/5). Missing: The entire atlas is available to download for free as GeoJSON or CSV under CC0.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+Movie Scene Map is a free interactive atlas containing 15,716 real filming locations across 166 countries, featuring studios, castles, streets, and landscapes. The platform covers 9,295 films and television series with dedicated pages, alongside 2,153 video games, 407 anime, and 365 manga. Because drawn and rendered worlds are not physically filmed, games, anime, and manga are placed on the map according to where their stories are set, using narrative locations from Wikidata and setting categories from Wikipedia. The atlas is built using open data, anchored by filming location statements on Wikidata joined with geographic coordinates, Wikimedia Commons photographs, and Wikipedia articles. It also includes places named within a production's Wikipedia article or its setting categories, with these entries explicitly labeled to distinguish them from direct Wikidata statements. The data is unscrubbed from listicles and contains no generated content. Coverage is tied to Wikidata and remains uneven, meaning certain famous productions lack location statements or feature coarse data that references entire countries as text rather than mapping specific pins. The entire atlas is available to download for free as GeoJSON or CSV under CC0. The atlas operates without accounts, advertising, or paywalls.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Movie Scene Map is a free interactive atlas containing fifteen thousand seven hundred sixteen real filming locations across one hundred sixty-six countries. It features studios, castles, streets, and landscapes. 
+
+The platform covers nine thousand two hundred ninety-five films and television series with dedicated pages. It also covers two thousand one hundred fifty-three video games, four hundred seven anime, and three hundred sixty-five manga. 
+
+Drawn and rendered worlds are not physically filmed. Games, anime, and manga are placed on the map according to where their stories are set. This uses narrative locations from Wikidata and setting categories from Wikipedia. 
+
+The atlas is built using open data. It is anchored by filming location statements on Wikidata joined with geographic coordinates, Wikimedia Commons photographs, and Wikipedia articles. 
+
+It also includes places named within a production article or its setting categories. These entries are explicitly labeled to distinguish them from direct Wikidata statements. 
+
+The data is unscrubbed from listicles and contains no generated content. Coverage is tied to Wikidata and remains uneven. 
+
+Certain famous productions lack location statements or feature coarse data. This data references entire countries as text rather than mapping specific pins. 
+
+The entire atlas is available to download for free as GeoJSON or C. S. V. under C. C. zero. The atlas operates without accounts, advertising, or paywalls.
+
+═══ 05_NORMALIZED ═══
+
+Movie Scene Map is a free interactive atlas containing fifteen thousand seven hundred sixteen real filming locations across one hundred sixty-six countries. It features studios, castles, streets, and landscapes. The platform covers nine thousand two hundred ninety-five films and television series with dedicated pages. It also covers two thousand one hundred fifty-three video games, four hundred seven anime, and three hundred sixty-five manga. Drawn and rendered worlds are not physically filmed. Games, anime, and manga are placed on the map according to where their stories are set. This uses narrative locations from Wikidata and setting categories from Wikipedia. The atlas is built using open data. It is anchored by filming location statements on Wikidata joined with geographic coordinates, Wikimedia Commons photographs, and Wikipedia articles. It also includes places named within a production article or its setting categories. These entries are explicitly labeled to distinguish them from direct Wikidata statements. The data is unscrubbed from listicles and contains no generated content. Coverage is tied to Wikidata and remains uneven. Certain famous productions lack location statements or feature coarse data. This data references entire countries as text rather than mapping specific pins. The entire atlas is available to download for free as GeoJSON or C. S. V. under C. C. zero. The atlas operates without accounts, advertising, or paywalls.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (5/5). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: C. S. V., C. C. zero
+

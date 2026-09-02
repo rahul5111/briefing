@@ -1,0 +1,63 @@
+═══ 00_KEY_POINTS ═══
+
+1. OpenTIE is an open-source reimplementation of Star Wars: TIE Fighter for Windows, macOS, and Linux.
+2. OpenTIE runs original game data natively and supports the 1995 Collector's CD-ROM and 1998 Windows releases.
+3. OpenTIE lets players combine 1995 menus and music with 1998 flight simulation and 3D assets.
+4. OpenTIE adds modern graphics features including high-resolution rendering, advanced lighting, shadows, and HDR output.
+5. OpenTIE updates flight simulation at up to 240 Hz to support modern high-refresh-rate displays smoothly.
+6. Fans may also be interested in OpenXWA, an open-source reimplementation of Star Wars: X-Wing Alliance.
+
+═══ 01_DRAFT ═══
+
+OpenTIE and OpenXWA have been launched as new open-source reimplementations of the classic space combat simulators Star Wars: TIE Fighter and Star Wars: X-Wing Alliance for Windows, macOS, and Linux. OpenTIE runs original game data natively on current systems, supporting both the 1995 Collector's CD-ROM edition and the 1998 Windows release. The software requires a complete installation of at least one supported edition, which are available from GOG and Steam, as it does not include original game content. 
+
+With both editions installed, OpenTIE allows players to combine the 1995 menus, cutscenes, and adaptive iMUSE soundtrack with the 1998 flight simulation and 3D assets. The project also reimplements the iMUSE soundtrack to respond dynamically to mission events, alongside built-in emulation options for the Roland SC-55 Sound Canvas, Sound Blaster OPL3 FM-synth, and FluidSynth using user-supplied SoundFonts. 
+
+OpenTIE introduces modern technical upgrades including high-resolution rendering, advanced lighting features such as shadows, ambient occlusion, bloom, motion blur, HDR output, and MSAA alongside AMD FidelityFX FSR 3.1.4 anti-aliasing and upscaling. Players can toggle between classic and modern graphics modes by pressing TAB during gameplay. Flight simulation updates at up to 240 Hz to support modern high-refresh-rate displays, while retaining original TIE95 and TIE98 timing modes for users preferring exact historical behavior. The engine also features native support for modern gamepads and joysticks. 
+
+Development packages and platform-specific instructions are available on GitHub, requiring a 64-bit system with a modern GPU, CMake 3.23 or later, a C/C++ toolchain, SDL3 3.4, zstd, FFmpeg, and SDL_shadercross. Users can join the TotallyOpen Discord server to discuss OpenTIE and OpenXWA development.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+OpenTIE and OpenXWA have been launched as new open-source reimplementations of the classic space combat simulators Star Wars: TIE Fighter and Star Wars: X-Wing Alliance for Windows, macOS, and Linux. OpenTIE runs original game data natively on current systems, supporting both the 1995 Collector's CD-ROM edition and the 1998 Windows release. The software requires a complete installation of at least one supported edition, which are available from GOG and Steam, as it does not include original game content. 
+
+With both editions installed, OpenTIE allows players to combine the 1995 menus, cutscenes, and adaptive iMUSE soundtrack with the 1998 flight simulation and 3D assets. OpenTIE reimplements the adaptive iMUSE soundtrack from the 1995 Collector's CD-ROM so that the music responds to mission events, and it can emulate the Roland SC-55 Sound Canvas, Sound Blaster OPL3 FM-synth, and FluidSynth with user-selected SoundFonts. 
+
+OpenTIE introduces modern technical upgrades including high-resolution rendering, advanced lighting features such as shadows, ambient occlusion, bloom, motion blur, HDR output, and MSAA alongside AMD FidelityFX FSR 3.1.4 anti-aliasing and upscaling. Pressing TAB while the game is running allows users to switch between classic and modern graphics modes. Flight simulation updates at up to 240 Hz to match modern high-refresh-rate displays, while retaining original TIE95 and TIE98 timing modes for users preferring exact historical behavior. The engine also features native support for modern gamepads and joysticks. 
+
+Development packages and platform-specific instructions are available on GitHub, requiring a 64-bit system with a modern GPU, CMake 3.23 or later, a C/C++ toolchain, SDL3 3.4, zstd, FFmpeg, and SDL_shadercross. Users can join the TotallyOpen Discord server to discuss OpenTIE, OpenXWA, development, and the Totally Games flight simulators.
+
+═══ 02b_TRIMMED ═══
+
+OpenTIE and OpenXWA have been launched as new open-source reimplementations of the classic space combat simulators Star Wars: TIE Fighter and Star Wars: X-Wing Alliance for Windows, macOS, and Linux. OpenTIE runs original game data natively on current systems, supporting both the 1995 Collector's CD-ROM edition and the 1998 Windows release. The software requires a complete installation of at least one supported edition, which are available from GOG and Steam, as it does not include original game content. With both editions installed, OpenTIE allows players to combine the 1995 menus, cutscenes, and adaptive iMUSE soundtrack with the 1998 flight simulation and 3D assets. OpenTIE introduces modern technical upgrades including high-resolution rendering, advanced lighting features such as shadows, ambient occlusion, bloom, motion blur, HDR output, and MSAA alongside AMD FidelityFX FSR 3.1.4 anti-aliasing and upscaling. Flight simulation updates at up to 240 Hz to match modern high-refresh-rate displays, while retaining original TIE95 and TIE98 timing modes for users preferring exact historical behavior. The engine also features native support for modern gamepads and joysticks. Development packages and platform-specific instructions are available on GitHub, requiring a 64-bit system with a modern GPU, CMake 3.23 or later, a C/C++ toolchain, SDL3 3.4, zstd, FFmpeg, and SDL_shadercross.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Two new projects called OpenTIE and OpenXWA are now available as open-source versions of classic space combat games. These projects recreate Star Wars: TIE Fighter and Star Wars: X-Wing Alliance for Windows, macOS, and Linux. 
+
+OpenTIE runs original game data natively on current computers. It supports both the nineteen ninety-five Collector's C. D. ROM edition and the nineteen ninety-eight Windows release. The software needs a complete installation from one of those supported editions. You can buy them from GOG and Steam because the new software does not include original game content. 
+
+With both editions installed, OpenTIE lets players mix and match features. You can combine the nineteen ninety-five menus, cutscenes, and adaptive iMUSE soundtrack with the nineteen ninety-eight flight simulation and three D assets. 
+
+OpenTIE brings modern technical upgrades to the old games. It adds high-resolution rendering and advanced lighting features like shadows, ambient occlusion, bloom, motion blur, H. D. R. output, and M. S. A. A. It also includes A. M. D. FidelityFX F. S. R. three point one point four anti-aliasing and upscaling. 
+
+The flight simulation updates at up to two hundred forty hertz to match modern high-refresh-rate displays. Players can still choose original TIE ninety-five and TIE ninety-eight timing modes if they want exact historical behavior. The engine also features native support for modern gamepads and joysticks. 
+
+Development packages and platform-specific instructions are waiting on G. i. t. H. u. b. Building the source requires a sixty-four-bit system with a modern G. P. U., C. Make three point two-three or later, a C or C++ toolchain, S. D. L. three point four, zstd, F. F. mpegg, and S. D. L. underscore shadercross.
+
+═══ 05_NORMALIZED ═══
+
+Two new projects called OpenTIE and OpenXWA are now available as open-source versions of classic space combat games. These projects recreate Star Wars: TIE Fighter and Star Wars: X-Wing Alliance for Windows, macOS, and Linux. OpenTIE runs original game data natively on current computers. It supports both the nineteen ninety-five Collector's C. D. ROM edition and the nineteen ninety-eight Windows release. The software needs a complete installation from one of those supported editions. You can buy them from GOG and Steam because the new software does not include original game content. With both editions installed, OpenTIE lets players mix and match features. You can combine the nineteen ninety-five menus, cutscenes, and adaptive iMUSE soundtrack with the nineteen ninety-eight flight simulation and three D assets. OpenTIE brings modern technical upgrades to the old games. It adds high-resolution rendering and advanced lighting features like shadows, ambient occlusion, bloom, motion blur, H. D. R. output, and M. S. A. A. It also includes A. M. D. FidelityFX F. S. R. three point one point four anti-aliasing and upscaling. The flight simulation updates at up to two hundred forty hertz to match modern high-refresh-rate displays. Players can still choose original TIE ninety-five and TIE ninety-eight timing modes if they want exact historical behavior. The engine also features native support for modern gamepads and joysticks. Development packages and platform-specific instructions are waiting on G. i. t. H. u. b. Building the source requires a sixty-four-bit system with a modern G. P. U., C. Make three point two-three or later, a C or C plus plus toolchain, S. D. L. three point four, zstd, F. F. mpegg, and S. D. L. underscore shadercross.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: C. D. ROM, three D, H. D. R., M. S. A. A., A. M. D., F. S. R., G. i. t. H. u. b., G. P. U., C. Make, C plus plus, S. D. L., F. F. mpegg, S. D. L. underscore shadercross
+

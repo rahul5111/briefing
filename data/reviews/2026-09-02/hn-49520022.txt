@@ -1,0 +1,42 @@
+═══ 00_KEY_POINTS ═══
+
+1. Google Play rejected updates to the AnkiDroid flashcard app starting on August 28, 2026.
+2. AnkiDroid faces worldwide removal from Google Play on September 11, 2026, unless the issue is resolved.
+3. Google flagged AnkiDroid for including a donation link to its fiscal host, Open Source Collective.
+4. Open Source Collective holds a valid IRS tax-exempt determination letter under Section 501(c)(6).
+5. Google claimed the app allows donations to an organization that is not tax-exempt despite documentation.
+6. AnkiDroid developers are removing the donation link under protest to keep the app available on Google Play.
+7. AnkiDroid is a free, open-source Android app with over 10 million installs used worldwide.
+
+═══ 01_DRAFT ═══
+
+The open-source Android flashcard application AnkiDroid faces removal from the Google Play Store on September 11, 2026, worldwide except for India and Russia, unless it removes its donation link. Google has rejected app updates since August 28 under its payments policy, which restricts external billing links unless directed to a validated tax-exempt organization. 
+
+AnkiDroid, which has over 10 million installs and relies on donations to its fiscal host Open Source Collective for maintenance and development, submitted an IRS determination letter showing the collective holds tax-exempt status under Section 501(c)(6). Google rejected the documentation, stating in an email that the app "allows users to contribute donations to an organization that is not tax-exempt," without explaining why the 501(c)(6) determination is insufficient. 
+
+The development team announced they are removing the donation links immediately in version 2.24.X under protest, stating, "we are doing so under protest, as otherwise we would be unable to distribute AnkiDroid to the majority of our users who use the Play Store."
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (7/7). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+The open-source Android flashcard application AnkiDroid faces removal from the Google Play Store on September eleventh, twenty twenty-six. This affects users worldwide except for India and Russia. The removal will happen unless the app removes its donation link. Google has rejected app updates since August twenty-eighth under its payments policy. The policy restricts external billing links unless directed to a validated tax-exempt organization. 
+
+The application has over ten million installs. It relies on donations to its fiscal host Open Source Collective for maintenance and development. The team submitted an Internal Revenue Service determination letter showing the collective holds tax-exempt status under Section five hundred one C six. Google rejected the documentation in an email. The email stated the app allows users to contribute donations to an organization that is not tax-exempt. Google did not explain why the determination is insufficient. 
+
+The development team announced they are removing the donation links immediately in version two point twenty-four point X under protest. They stated they are doing so under protest as otherwise they would be unable to distribute AnkiDroid to the majority of their users who use the Play Store.
+
+═══ 05_NORMALIZED ═══
+
+The open-source Android flashcard application AnkiDroid faces removal from the Google Play Store on September eleventh, twenty twenty-six. This affects users worldwide except for India and Russia. The removal will happen unless the app removes its donation link. Google has rejected app updates since August twenty-eighth under its payments policy. The policy restricts external billing links unless directed to a validated tax-exempt organization. The application has over ten million installs. It relies on donations to its fiscal host Open Source Collective for maintenance and development. The team submitted an Internal Revenue Service determination letter showing the collective holds tax-exempt status under Section five hundred one C six. Google rejected the documentation in an email. The email stated the app allows users to contribute donations to an organization that is not tax-exempt. Google did not explain why the determination is insufficient. The development team announced they are removing the donation links immediately in version two point twenty-four point X under protest. They stated they are doing so under protest as otherwise they would be unable to distribute AnkiDroid to the majority of their users who use the Play Store.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (7/7). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: sentence 10 over 30 words
+

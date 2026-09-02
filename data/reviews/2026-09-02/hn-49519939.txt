@@ -1,0 +1,57 @@
+═══ 00_KEY_POINTS ═══
+
+1. The author trained a small transformer from scratch in 1.5 hours on an RTX 5090 GPU.
+2. The newly upgraded model achieves 44 percent on the ARC-2 benchmark, matching TRM and HRM scores.
+3. The primary goal of this research is to find the limits of sample efficiency in deep learning and reduce iteration costs.
+4. Switching from 3D RoPE positional embeddings to 1D drops the evaluation score down to 24 percent.
+5. Removing the per-task embeddings drops the model score down to 24 percent.
+6. The total lifetime compute cost for training and running inference amounts to 67 cents on vast.ai.
+
+═══ 01_DRAFT ═══
+
+A researcher has released a small transformer trained from scratch in 1.5 hours on an RTX 5090 that scores 44 percent on the ARC-2 benchmark, performing on par with TRM and HRM models while beating many large language models. The work represents the third blog post in a series focused on the Abstraction and Reasoning Corpus.
+
+The model is trained autoregressively at test time on both training and evaluation puzzles using a supervised approach, omitting input tokens from the loss function. Key architectural and algorithmic updates include SwiGlu activation functions, RMSnorm, 3D RoPE positional embeddings, per-task additive embeddings, and the NorMuon optimizer. Training data was expanded using non-overlapping tasks from ARC-2, filtered carefully to avoid leakage from the 773 repeated puzzles present in ARC-1.
+
+Ablation tests revealed that switching from 3D RoPE to 1D positional embeddings drops the score to 24 percent, removing per-task embeddings similarly drops performance to 24 percent, and training on inputs yields a slightly lower score of around 39 percent. The open-source code and details are available on GitHub and Twitter, following discussions and critique from researchers including Lucas Beyer, Jeremy Howard, and Rohan Anil regarding test-time training validity and transductive reasoning. 
+
+The author stated, I think sample efficiency is the most important problem in AI today and I want to solve it, aiming to find the limits of sample efficiency within current deep learning methods while keeping computational costs low.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+A researcher trained a small transformer from scratch in 1.5 hours on a 5090, scoring 44 percent on ARC-2 and matching TRM and HRM models while beating many LLMs. This update marks the third blog in a series on ARC-AGI, following previous discussions and attention from researchers like Lucas Beyer, Jeremy Howard, and Rohan Anil.
+
+The approach involves converting input-output pairs into token sequences, trained autoregressively from scratch at test time on train and eval puzzles with hidden test labels. The loss function is supervised, including only output tokens. Updates include SwiGlu instead of GELU, RMSnorm, 3D RoPE positional embeddings, learnt per-task additive embeddings, the NorMuon optimizer, and careful addition of non-overlapping ARC-2 tasks to avoid data leakage.
+
+Ablations show that switching to 1D RoPE drops scores to 24 percent, removing per-task embeddings drops performance to 24 percent, and training on inputs yields ~39 percent. The author aims to solve sample efficiency, finding its limits in transformers while reducing costs for faster iteration. Code is available on GitHub and Twitter, with the goal of encouraging others to improve scores and reduce costs further.
+
+The author stated, I think sample efficiency is the most important problem in AI today and I want to solve it, intending to find the limits of sample efficiency when restricted to transformers and reduce costs for faster, cheaper iteration.
+
+═══ 02b_TRIMMED ═══
+
+A researcher trained a small transformer from scratch in 1.5 hours on a 5090, scoring 44 percent on ARC-2 and matching TRM and HRM models while beating many LLMs. This update marks the third blog in a series on ARC-AGI, following previous discussions and attention from researchers like Lucas Beyer, Jeremy Howard, and Rohan Anil. The approach involves converting input-output pairs into token sequences, trained autoregressively from scratch at test time on train and eval puzzles with hidden test labels. The loss function is supervised, including only output tokens. Ablations show that switching to 1D RoPE drops scores to 24 percent, removing per-task embeddings drops performance to 24 percent, and training on inputs yields ~39 percent. The author aims to solve sample efficiency, finding its limits in transformers while reducing costs for faster iteration. Code is available on GitHub and Twitter, with the goal of encouraging others to improve scores and reduce costs further. The author stated, I think sample efficiency is the most important problem in AI today and I want to solve it, intending to find the limits of sample efficiency when restricted to transformers and reduce costs for faster, cheaper iteration.
+
+═══ 03_COVERAGE_1 ═══
+
+83% covered (5/6). Missing: The total lifetime compute cost for training and running inference amounts to 67 cents on vast.ai.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+A researcher trained a small transformer from scratch in 1.5 hours on a 5090, scoring 44 percent on ARC-2 and matching TRM and HRM models while beating many LLMs. The total lifetime compute cost for training and running inference amounts to 67 cents on vast.ai. This update marks the third blog in a series on ARC-AGI, following previous discussions and attention from researchers like Lucas Beyer, Jeremy Howard, and Rohan Anil. The approach involves converting input-output pairs into token sequences, trained autoregressively from scratch at test time on train and eval puzzles with hidden test labels. The loss function is supervised, including only output tokens. Ablations show that switching to 1D RoPE drops scores to 24 percent, removing per-task embeddings drops performance to 24 percent, and training on inputs yields ~39 percent. The author aims to solve sample efficiency, finding its limits in transformers while reducing costs for faster iteration. Code is available on GitHub and Twitter, with the goal of encouraging others to improve scores and reduce costs further. The author stated, I think sample efficiency is the most important problem in AI today and I want to solve it, intending to find the limits of sample efficiency when restricted to transformers and reduce costs for faster, cheaper iteration.
+
+═══ 04_AUDIO_REWRITE ═══
+
+A researcher trained a small transformer from scratch in one point five hours on a five thousand ninety. It scored forty-four percent on A. R. C. dash two. This matched T. R. M. and H. R. M. models and beat many large language models. The total lifetime compute cost for training and running inference amounts to sixty-seven cents on vast dot a. i. This update marks the third blog in a series on A. R. C. dash A. G. I. It follows previous discussions and attention from researchers like, Lucas Beyer, Jeremy Howard, and Rohan Anil. The approach converts input-output pairs into token sequences. They are trained autoregressively from scratch at test time on train and eval puzzles with hidden test labels. The loss function is supervised and includes only output tokens. Ablations show that switching to one D. R. o. P. e. drops scores to twenty-four percent. Removing per-task embeddings drops performance to twenty-four percent. Training on inputs yields about thirty-nine percent. The author aims to solve sample efficiency, finding its limits in transformers while reducing costs for faster iteration. Code is available on GitHub and Twitter. The goal is to encourage others to improve scores and reduce costs further. The author stated, I think sample efficiency is the most important problem in A. I. today and I want to solve it. They intend to find the limits of sample efficiency when restricted to transformers and reduce costs for faster, cheaper iteration.
+
+═══ 05_NORMALIZED ═══
+
+A researcher trained a small transformer from scratch in one point five hours on a five thousand ninety. It scored forty-four percent on A. R. C. dash two. This matched T. R. M. and H. R. M. models and beat many large language models. The total lifetime compute cost for training and running inference amounts to sixty-seven cents on vast dot a. i. This update marks the third blog in a series on A. R. C. dash A. G. I. It follows previous discussions and attention from researchers like, Lucas Beyer, Jeremy Howard, and Rohan Anil. The approach converts input-output pairs into token sequences. They are trained autoregressively from scratch at test time on train and eval puzzles with hidden test labels. The loss function is supervised and includes only output tokens. Ablations show that switching to one D. R. o. P. e. drops scores to twenty-four percent. Removing per-task embeddings drops performance to twenty-four percent. Training on inputs yields about thirty-nine percent. The author aims to solve sample efficiency, finding its limits in transformers while reducing costs for faster iteration. Code is available on GitHub and Twitter. The goal is to encourage others to improve scores and reduce costs further. The author stated, I think sample efficiency is the most important problem in A. I. today and I want to solve it. They intend to find the limits of sample efficiency when restricted to transformers and reduce costs for faster, cheaper iteration.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: A. R. C. dash two, T. R. M., H. R. M., vast dot a. i., A. R. C. dash A. G. I., one D. R. o. P. e.
+

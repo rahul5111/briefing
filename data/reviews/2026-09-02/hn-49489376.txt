@@ -1,0 +1,42 @@
+═══ 00_KEY_POINTS ═══
+
+1. Laser Graffiti is a browser-based application requiring no installation or native apps.
+2. Users connect a projector as a second screen and point a webcam at the projection.
+3. A click flashes markers into the corners to compute the camera-to-projector mapping.
+4. Users wave the laser for 4 seconds so the detector learns its brightness and colour.
+5. The project was inspired by Graffiti Research Lab Vienna creators Michael Zeltner and Florian Hufsky.
+6. The original 2007 project by Graffiti Research Lab Vienna involved tagging buildings across Vienna.
+7. This new project is a from-scratch reimplementation of the laser tag idea for modern web browsers.
+
+═══ 01_DRAFT ═══
+
+A developer has launched Laser Graffiti, a browser-based application that allows users to turn a standard laser pointer into a digital paintbrush without needing any software installation. To use the setup, operators connect a projector as a second screen, point a webcam at the projection area, and open the control and projector windows in a browser. A single click calibrates the system by flashing markers into the corners of the projection so the camera can compute the mapping. Users then wave the laser for four seconds to let the detector learn its brightness and color. Every frame, the camera tracks the laser dot and maps it onto the projector, which renders the stroke in real time. Users can also access an on-wall menu by holding the laser in a designated corner, or play tic-tac-toe against the computer. The project requires a laptop running Chrome, an HDMI projector, a webcam, and a laser pointer, with green lasers recommended because they show up best on camera. The software is a from-scratch browser reimplementation inspired by the Graffiti Research Lab Vienna's Michael Zeltner and Florian Hufsky, who built a hardware laser marker in 2007 to tag buildings in Vienna. That earlier work drew inspiration from the original Graffiti Research Lab in New York and its L.A.S.E.R. Tag project, which similarly combined a camera, projector, and laser pointer for large-scale outdoor projections.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+A developer has launched Laser Graffiti, a browser-based application that allows users to turn a standard laser pointer into a digital paintbrush without needing any software installation. To use the setup, operators connect a projector as a second screen, point a webcam at the projection area, and open the control and projector windows in a browser. A single click calibrates the system by flashing markers into the corners of the projection so the camera can compute the mapping. Afterwards, users wave the laser so the detector can learn its brightness and colour. Every frame, the camera tracks the laser dot and maps it onto the projector, which renders the stroke in real time. Users can also access an on-wall menu by holding the laser in the ☰ corner, or play tic-tac-toe against the computer by drawing an X in a cell. The project requires a laptop running Chrome, an HDMI projector, a webcam, and a laser pointer, with green lasers recommended because they show up best on camera. The software is a from-scratch browser reimplementation inspired by the Graffiti Research Lab Vienna's Michael Zeltner and Florian Hufsky, who built a hardware laser marker in 2007 to tag buildings in Vienna. That earlier work drew inspiration from the original Graffiti Research Lab in New York and its L.A.S.E.R. Tag project, which similarly combined a camera, projector, and laser pointer for large-scale outdoor projections.
+
+═══ 02b_TRIMMED ═══
+
+A developer has launched Laser Graffiti, a browser-based application that allows users to turn a standard laser pointer into a digital paintbrush without needing any software installation. To use the setup, operators connect a projector as a second screen, point a webcam at the projection area, and open the control and projector windows in a browser. A single click calibrates the system by flashing markers into the corners of the projection so the camera can compute the mapping. Every frame, the camera tracks the laser dot and maps it onto the projector, which renders the stroke in real time. The project requires a laptop running Chrome, an HDMI projector, a webcam, and a laser pointer, with green lasers recommended because they show up best on camera. The software is a from-scratch browser reimplementation inspired by the Graffiti Research Lab Vienna's Michael Zeltner and Florian Hufsky, who built a hardware laser marker in 2007 to tag buildings in Vienna. That earlier work drew inspiration from the original Graffiti Research Lab in New York and its L.A.S.E.R. Tag project, which similarly combined a camera, projector, and laser pointer for large-scale outdoor projections.
+
+═══ 03_COVERAGE_1 ═══
+
+85% covered (6/7). Missing: Users wave the laser for 4 seconds so the detector learns its brightness and colour.
+
+═══ 04_AUDIO_REWRITE ═══
+
+A developer has launched Laser Graffiti. It is a browser-based application that turns a standard laser pointer into a digital paintbrush without any software installation. Operators connect a projector as a second screen. They point a webcam at the projection area and open the control and projector windows in a browser. A single click calibrates the system. It flashes markers into the corners of the projection so the camera can compute the mapping. The camera tracks the laser dot every single frame and maps it onto the projector. The projector then renders the stroke in real time. The project requires a laptop running Chrome, an HDMI projector, a webcam, and a laser pointer. Green lasers are recommended because they show up best on camera. The software is a from-scratch browser reimplementation. It was inspired by the Graffiti Research Lab Vienna team members, Michael Zeltner and Florian Hufsky. They built a hardware laser marker in twenty-seven to tag buildings in Vienna. That earlier work drew inspiration from the original Graffiti Research Lab in New York. Their L. A. S. E. R. Tag project similarly combined a camera, a projector, and a laser pointer for large-scale outdoor projections.
+
+═══ 05_NORMALIZED ═══
+
+A developer has launched Laser Graffiti. It is a browser-based application that turns a standard laser pointer into a digital paintbrush without any software installation. Operators connect a projector as a second screen. They point a webcam at the projection area and open the control and projector windows in a browser. A single click calibrates the system. It flashes markers into the corners of the projection so the camera can compute the mapping. The camera tracks the laser dot every single frame and maps it onto the projector. The projector then renders the stroke in real time. The project requires a laptop running Chrome, an HDMI projector, a webcam, and a laser pointer. Green lasers are recommended because they show up best on camera. The software is a from-scratch browser reimplementation. It was inspired by the Graffiti Research Lab Vienna team members, Michael Zeltner and Florian Hufsky. They built a hardware laser marker in twenty-seven to tag buildings in Vienna. That earlier work drew inspiration from the original Graffiti Research Lab in New York. Their L. A. S. E. R. Tag project similarly combined a camera, a projector, and a laser pointer for large-scale outdoor projections.
+
+═══ 06_COVERAGE_FINAL ═══
+
+85% covered (6/7). Missing: Users wave the laser for 4 seconds so the detector learns its brightness and colour.
+
+═══ 07_SANITY ═══
+
+ISSUES: L. A. S. E. R. Tag
+

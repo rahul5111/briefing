@@ -1,0 +1,49 @@
+═══ 00_KEY_POINTS ═══
+
+1. Mozilla introduced a new Ad Blocker feature built directly into Firefox on iOS.
+2. The new tool uses Apple WebKit Content Blocker technology and the EasyList filter list.
+3. Users can enable the feature by navigating to Settings, Browsing, and then Ad Blocker.
+4. The ad blocker is turned off by default so users can choose whether to use it.
+5. The feature does not block direct site ads, search results, or sponsored new tab shortcuts.
+6. Mozilla built the blocker directly into iOS because extensions are not available like on desktop.
+
+═══ 01_DRAFT ═══
+
+Mozilla has introduced a built-in Ad Blocker for Firefox on iOS designed to block many third-party ads and ad-related trackers before they load. The tool utilizes Apple’s WebKit Content Blocker technology alongside the EasyList filter list. 
+
+The feature is built directly into the browser because extensions are not available on iOS in the same way they are on desktop and Android. Users can enable the feature by navigating to Settings, selecting Browsing, and then Ad Blocker. The tool is turned off by default. 
+
+The ad blocker will not block every ad. Advertisements served directly by the visited site, ads appearing in search results, and sponsored shortcuts or content shown when opening a new tab will not be affected. The ad blocker functions alongside Firefox's existing privacy protections, including Enhanced Tracking Protection.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Mozilla has introduced a built-in Ad Blocker for Firefox on iOS designed to block many third-party ads and ad-related trackers before they load. The tool utilizes Apple’s WebKit Content Blocker technology alongside the EasyList filter list. 
+
+The feature is built directly into the browser because extensions are not available on iOS in the same way they are on desktop and Android. To use it, you can turn it on in Settings > Browsing > Ad Blocker. The tool is turned off by default, so you decide whether to use it. 
+
+The ad blocker won't block every ad. Ads served directly by the site you're visiting and ads shown in search results will still appear, and sponsored shortcuts or other sponsored content shown by Firefox when you open a new tab are not affected. The ad blocker works alongside Firefox's existing privacy protections, including Enhanced Tracking Protection.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Mozilla has introduced a built-in ad blocker for Firefox on I. O. S. The tool is designed to block many third-party ads and trackers before they load. It uses Apple's WebKit Content Blocker technology along with the EasyList filter list. 
+
+The feature is built directly into the browser because extensions are not available on I. O. S. in the same way they are on desktop and Android. To use it, you can turn it on in the settings menu under browsing and ad blocker. The tool is turned off by default, so you decide whether to use it. 
+
+The ad blocker will not block every ad. Ads served directly by the site you are visiting will still appear. Ads shown in search results will also still appear. Sponsored shortcuts or other sponsored content shown by Firefox when you open a new tab are not affected. The ad blocker works alongside Firefox's existing privacy protections, including Enhanced Tracking Protection.
+
+═══ 05_NORMALIZED ═══
+
+Mozilla has introduced a built-in ad blocker for Firefox on I. O. S. The tool is designed to block many third-party ads and trackers before they load. It uses Apple's WebKit Content Blocker technology along with the EasyList filter list. The feature is built directly into the browser because extensions are not available on I. O. S. in the same way they are on desktop and Android. To use it, you can turn it on in the settings menu under browsing and ad blocker. The tool is turned off by default, so you decide whether to use it. The ad blocker will not block every ad. Ads served directly by the site you are visiting will still appear. Ads shown in search results will also still appear. Sponsored shortcuts or other sponsored content shown by Firefox when you open a new tab are not affected. The ad blocker works alongside Firefox's existing privacy protections, including Enhanced Tracking Protection.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: I. O. S.
+

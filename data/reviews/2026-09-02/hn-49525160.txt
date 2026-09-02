@@ -1,0 +1,40 @@
+═══ 00_KEY_POINTS ═══
+
+1. World Labs introduced Atlas, an omni model pretrained from scratch to natively operate on text, images, video, and 3D.
+2. Atlas is a multimodal autoregressive diffusion transformer that combines all inputs into a shared spatial context to generate consistent 3D worlds.
+3. Atlas can generate up to 1 minute of video at 1440p resolution with pixel-perfect camera control from one or more reference images.
+4. Atlas reconstructs real-world spaces and can faithfully recreate environments with as few as two or three input images.
+5. Atlas natively operates on 2D image frames and 3D depth maps, enabling it to output worlds as point clouds or 3D Gaussian splats.
+6. Atlas helps scale Real-to-Sim workflows for robotics by generating both spatial reconstructions and the sensor data observed along simulated paths.
+7. Atlas performance improves with increased training compute, and World Labs expects this scaling trend to hold in future development.
+
+═══ 01_DRAFT ═══
+
+World Labs has introduced Atlas, its next-generation omni world model pretrained from scratch to natively operate on text, images, video, and 3D. The model is a multimodal autoregressive diffusion transformer that combines all inputs into a shared spatial context to generate consistent 3D environments, supporting tasks such as camera-controlled generation up to one minute of video at 1440p resolution, spatial reconstruction, space-time simulation, and image generation. Built to scale, Atlas allows users to place reference images in 3D space to smoothly interpolate between them, reconstruct real-world scenes from sparse inputs ranging from one to over a hundred images, and output explicit 3D representations like point clouds and 3D Gaussian splats. The model also powers bullet-time multiview capture using footage from as few as three cell phones and scales Real-to-Sim workflows for robotics by simulating sensor data and object interactions from casual recordings. Atlas will power future versions of Marble and other World Labs products.
+
+═══ 03_COVERAGE_1 ═══
+
+85% covered (6/7). Missing: Atlas performance improves with increased training compute, and World Labs expects this scaling trend to hold in future development.
+
+═══ 04_AUDIO_REWRITE ═══
+
+World Labs has introduced a new model called Atlas. It is an omni world model built from scratch. It works natively with text and images and video and three dimensional data. The system combines all inputs into one shared spatial context. This creates consistent three dimensional environments for users. 
+
+The model supports camera controlled video generation lasting up to one minute at fourteen forty p resolution. It also handles spatial reconstruction and space-time simulation and image generation. Users can place reference images in three dimensional space to smoothly blend between them. 
+
+The system reconstructs real world scenes from sparse inputs ranging from one to over a hundred images. It outputs explicit three dimensional representations like point clouds and three dimensional Gaussian splats. 
+
+The model powers bullet time multiview capture using footage from as few as three cell phones. It scales real to sim workflows for robotics by simulating sensor data and object interactions from casual recordings. Atlas will power future versions of Marble and other World Labs products.
+
+═══ 05_NORMALIZED ═══
+
+World Labs has introduced a new model called Atlas. It is an omni world model built from scratch. It works natively with text and images and video and three dimensional data. The system combines all inputs into one shared spatial context. This creates consistent three dimensional environments for users. The model supports camera controlled video generation lasting up to one minute at fourteen forty p resolution. It also handles spatial reconstruction and space-time simulation and image generation. Users can place reference images in three dimensional space to smoothly blend between them. The system reconstructs real world scenes from sparse inputs ranging from one to over a hundred images. It outputs explicit three dimensional representations like point clouds and three dimensional Gaussian splats. The model powers bullet time multiview capture using footage from as few as three cell phones. It scales real to sim workflows for robotics by simulating sensor data and object interactions from casual recordings. Atlas will power future versions of Marble and other World Labs products.
+
+═══ 06_COVERAGE_FINAL ═══
+
+71% covered (5/7). Missing: Atlas reconstructs real-world spaces and can faithfully recreate environments with as few as two or three input images.; Atlas performance improves with increased training compute, and World Labs expects this scaling trend to hold in future development.
+
+═══ 07_SANITY ═══
+
+ISSUES: three dimensional, fourteen forty p
+

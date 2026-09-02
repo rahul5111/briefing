@@ -1,0 +1,45 @@
+═══ 00_KEY_POINTS ═══
+
+1. Fastpotify is a lightweight native binary that operates without using any browser engine.
+2. The application starts in well under a second and uses 100 to 250 megabytes of RAM.
+3. Users can play audio locally up to 320 kilobits per second or control remote playback.
+4. The software supports browsing playlists, Liked Songs, albums, artists, podcasts, and the catalogue.
+5. Users can load classic Winamp skins from the Winamp Skin Museum into the application.
+6. Fastpotify automatically downloads MilkDrop 2 presets and projectM collections for visual reactions to music.
+
+═══ 01_DRAFT ═══
+
+Fastpotify is a new native binary Spotify client built without a browser engine that starts in well under a second and typically uses 100 to 250 megabytes of RAM. The application allows users to play music locally, gapless, and at up to 320 kilobits per second, or control playback on a speaker, phone, or television from the same window. Users can browse playlists, liked songs, albums, artists, and podcasts, as well as search the catalog and edit playlists they own. The interface supports light, dark, or system modes, with pages and the player bar able to adapt their color from album art. Additional features include keyboard shortcuts, Linux MPRIS media controls, and a tray option that keeps music playing after the window is closed. Users can also load classic Winamp skin files from the Winamp Skin Museum into a mini player equipped with a spectrum analyzer, equalizer, playlist, shade modes, and crisp integer pixel scaling. Upon first use, Fastpotify automatically downloads the original MilkDrop 2 presets and projectM Cream of the Crop collection, which react to local playback in either a resizable window or fullscreen mode.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Fastpotify is a native binary with no browser engine that starts in well under a second and typically uses 100–250 MB of RAM. The application allows users to play locally, gapless and at up to 320 kbps, or control playback on a speaker, phone, or TV from the same window. Users can browse playlists, Liked Songs, albums, artists, and podcasts, as well as search the catalogue and edit playlists you own. The interface supports light, dark, or system mode, with pages and the player bar able to take their colour from the album art. Additional features include keyboard shortcuts, MPRIS media controls on Linux, and a tray option that keeps music playing after you close the window. Users can also load a classic .wsz skin from the Winamp Skin Museum into a mini player that includes a spectrum analyser, equalizer, playlist, shade modes, and crisp integer pixel scaling. On first use, Fastpotify automatically downloads the original MilkDrop 2 presets and projectM’s Cream of the Crop collection, which react to local playback in a resizable window or fullscreen.
+
+═══ 02b_TRIMMED ═══
+
+Fastpotify is a native binary with no browser engine that starts in well under a second and typically uses 100–250 MB of RAM. The application allows users to play locally, gapless and at up to 320 kbps, or control playback on a speaker, phone, or TV from the same window. The interface supports light, dark, or system mode, with pages and the player bar able to take their colour from the album art. On first use, Fastpotify automatically downloads the original MilkDrop 2 presets and projectM’s Cream of the Crop collection, which react to local playback in a resizable window or fullscreen.
+
+═══ 03_COVERAGE_1 ═══
+
+66% covered (4/6). Missing: The software supports browsing playlists, Liked Songs, albums, artists, podcasts, and the catalogue.; Users can load classic Winamp skins from the Winamp Skin Museum into the application.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+Fastpotify is a native binary with no browser engine that starts in well under a second and typically uses 100–250 MB of RAM. The application allows users to play locally, gapless and at up to 320 kbps, or control playback on a speaker, phone, or TV from the same window. The software supports browsing playlists, Liked Songs, albums, artists, podcasts, and the catalogue. Users can load classic Winamp skins from the Winamp Skin Museum into the application. The interface supports light, dark, or system mode, with pages and the player bar able to take their colour from the album art. On first use, Fastpotify automatically downloads the original MilkDrop 2 presets and projectM’s Cream of the Crop collection, which react to local playback in a resizable window or fullscreen.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Fastpotify is a native binary with no browser engine. It starts in well under a second and typically uses one hundred to two hundred fifty megabytes of RAM. The application lets users play music locally with gapless playback at up to three hundred twenty kilobits per second. Users can also control playback on a speaker, phone, or television from the same window. The software supports browsing playlists, liked songs, albums, artists, podcasts, and the full catalogue. Users can load classic Winamp skins from the Winamp Skin Museum into the application. The interface supports light, dark, or system mode. The pages and the player bar can take their color from the album art. On first use, Fastpotify automatically downloads the original MilkDrop two presets and projectM’s Cream of the Crop collection. These visualizers react to local playback in a resizable window or in fullscreen.
+
+═══ 05_NORMALIZED ═══
+
+Fastpotify is a native binary with no browser engine. It starts in well under a second and typically uses one hundred to two hundred fifty megabytes of RAM. The application lets users play music locally with gapless playback at up to three hundred twenty kilobits per second. Users can also control playback on a speaker, phone, or television from the same window. The software supports browsing playlists, liked songs, albums, artists, podcasts, and the full catalogue. Users can load classic Winamp skins from the Winamp Skin Museum into the application. The interface supports light, dark, or system mode. The pages and the player bar can take their color from the album art. On first use, Fastpotify automatically downloads the original MilkDrop two presets and projectM’s Cream of the Crop collection. These visualizers react to local playback in a resizable window or in fullscreen.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: MilkDrop two
+
