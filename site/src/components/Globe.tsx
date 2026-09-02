@@ -46,26 +46,6 @@ export default function Globe({ stories, onSelect, playingId }: Props) {
     [stories, playingId]
   );
 
-  const arcs = useMemo(() => {
-    // Draw arcs from one pin to the next in chronological order, so the eye
-    // gets a sense of the "route" of today's news across the world.
-    if (pins.length < 2) return [];
-    const sorted = [...pins].sort(
-      (a, b) =>
-        new Date(a.story.published_at).getTime() - new Date(b.story.published_at).getTime()
-    );
-    const out = [];
-    for (let i = 0; i < sorted.length - 1; i++) {
-      const a = sorted[i], b = sorted[i + 1];
-      if (a.lat === b.lat && a.lng === b.lng) continue;
-      out.push({
-        startLat: a.lat, startLng: a.lng,
-        endLat: b.lat, endLng: b.lng,
-      });
-    }
-    return out;
-  }, [pins]);
-
   useEffect(() => {
     if (!containerRef.current) return;
     const el = containerRef.current;
@@ -119,14 +99,6 @@ export default function Globe({ stories, onSelect, playingId }: Props) {
         }
         onPointClick={(d: any) => onSelect(d.story)}
         onPointHover={(d: any) => setHoverId(d ? d.story.id : null)}
-
-        arcsData={arcs}
-        arcColor={() => "#ffb54755"}
-        arcAltitudeAutoScale={0.35}
-        arcStroke={0.35}
-        arcDashLength={0.4}
-        arcDashGap={0.15}
-        arcDashAnimateTime={4200}
       />
       <div className="globe-legend">
         <div className="globe-legend-count">

@@ -1,0 +1,11 @@
+import { chromium } from "playwright";
+const browser = await chromium.launch({ args: ["--autoplay-policy=no-user-gesture-required"] });
+const page = await browser.newContext({ viewport: { width: 1440, height: 900 }, deviceScaleFactor: 2 }).then(c => c.newPage());
+page.on("pageerror", (e) => console.log("PAGEERROR", e.message));
+await page.goto("https://briefing-psi-ten.vercel.app/", { waitUntil: "domcontentloaded" });
+await page.waitForTimeout(1500);
+await page.locator(".view-toggle button:nth-child(2)").click();
+await page.waitForTimeout(7000);
+await page.screenshot({ path: "globe-prod.png" });
+console.log("saved globe-prod.png");
+await browser.close();
