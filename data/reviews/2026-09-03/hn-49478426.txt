@@ -1,0 +1,59 @@
+═══ 00_KEY_POINTS ═══
+
+1. The project is a custom business card featuring twenty-one LEDs powered entirely by harvested NFC energy.
+2. The creator ordered thirty of these credit-card-sized PCBs manufactured and assembled by JLCPCB.
+3. An ATtiny816 microcontroller and an NXP NTAG I2C Plus NFC chip control the board's functions.
+4. The antenna was designed to have an inductance of close to 2.75 microhenries to resonate at 13.56 megahertz.
+5. A custom circuit with a 10 microfarad capacitor and a P-channel MOSFET manages inrush current and voltage drops.
+6. The project matters because it successfully combines NFC energy harvesting, Charlieplexed LEDs, and an MCU into a functional and aesthetically pleasing business card.
+
+═══ 01_DRAFT ═══
+
+An engineer has developed a battery-free NFC-powered business card featuring a microcontroller and twenty-one LEDs that execute an animation when tapped against a smartphone. The project utilizes an ATtiny816 microcontroller housed in a three by three millimeter QFN package and an NXP NTAG I2C Plus chip capable of harvesting energy from the magnetic field emitted by a phone. 
+
+To power the hardware without exceeding the 220 nanofarad capacitance limit specified in the chip datasheet, the designer implemented a startup circuit using a ten microfarad capacitor paired with a resistor to limit inrush current and a P-channel MOSFET acting as a switch after 120 milliseconds. The LEDs are managed using Charlieplexing across six GPIO pins, and the custom rectangular-spiral antenna was generated using a KiPython script to achieve an inductance close to 2.75 microhenries, resonating at 13.56 megahertz. 
+
+The listener ordered thirty fully RoHS-compliant, credit card-sized units manufactured with high-precision silkscreen printing and an ENIG finish through JLCPCB. Programming is executed via three exposed pads using a Pogo Pin Clip connected to an Adafruit UPDI Friend, while contact information and routing are handled by the NXP TagWriter app linking to connect.wilsonharper.net.
+
+Hardware is hard is a phrase I’ve heard frequently, and this project made me realize how true it is.
+
+═══ 03_COVERAGE_1 ═══
+
+83% covered (5/6). Missing: The project matters because it successfully combines NFC energy harvesting, Charlieplexed LEDs, and an MCU into a functional and aesthetically pleasing business card.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+An engineer has developed a battery-free NFC-powered business card featuring a microcontroller and twenty-one LEDs that execute an animation when tapped against a smartphone. The project matters because it successfully combines NFC energy harvesting, Charlieplexed LEDs, and an MCU into a functional and aesthetically pleasing business card. The project utilizes an ATtiny816 microcontroller housed in a three by three millimeter QFN package and an NXP NTAG I2C Plus chip capable of harvesting energy from the magnetic field emitted by a phone. 
+
+To power the hardware without exceeding the 220 nanofarad capacitance limit specified in the chip datasheet, the designer implemented a startup circuit using a ten microfarad capacitor paired with a resistor to limit inrush current and a P-channel MOSFET acting as a switch after 120 milliseconds. The LEDs are managed using Charlieplexing across six GPIO pins, and the custom rectangular-spiral antenna was generated using a KiPython script to achieve an inductance close to 2.75 microhenries, resonating at 13.56 megahertz. 
+
+The listener ordered thirty fully RoHS-compliant, credit card-sized units manufactured with high-precision silkscreen printing and an ENIG finish through JLCPCB. Programming is executed via three exposed pads using a Pogo Pin Clip connected to an Adafruit UPDI Friend, while contact information and routing are handled by the NXP TagWriter app linking to connect.wilsonharper.net.
+
+Hardware is hard is a phrase I’ve heard frequently, and this project made me realize how true it is.
+
+═══ 04_AUDIO_REWRITE ═══
+
+An engineer has built a battery-free near field communication business card. It uses twenty-one L. E. D. lights to run an animation when tapped against a phone. The design combines energy harvesting and a microcontroller in one credit card sized unit.
+
+The hardware uses an A. T. tiny eight sixteen microcontroller. It also features an N. X. P. N. T. A. G. I. two C. Plus chip. This chip harvests energy from the magnetic field of a smartphone.
+
+The designer added a startup circuit to manage power limits. It uses a ten microfarad capacitor and a resistor to limit inrush current. A P-channel MOSFET acts as a switch after one hundred twenty milliseconds.
+
+The L. E. D. lights are managed using six general purpose input output pins. The custom antenna was built using a Python script. It achieves an inductance of two point seven five microhenries and resonates at thirteen point fifty-six megahertz.
+
+The creator ordered thirty fully compliant units through J. L. C. P. C. B. Programming happens through three exposed pads using a special pin clip. Contact information and routing are handled by a mobile app linking to connect dot wilsonharper dot net.
+
+Hardware is hard is a phrase that rings true for this complex project.
+
+═══ 05_NORMALIZED ═══
+
+An engineer has built a battery-free near field communication business card. It uses twenty-one L. E. D. lights to run an animation when tapped against a phone. The design combines energy harvesting and a microcontroller in one credit card sized unit. The hardware uses an A. T. tiny eight sixteen microcontroller. It also features an N. X. P. N. T. A. G. I. two C. Plus chip. This chip harvests energy from the magnetic field of a smartphone. The designer added a startup circuit to manage power limits. It uses a ten microfarad capacitor and a resistor to limit inrush current. A P-channel MOSFET acts as a switch after one hundred twenty milliseconds. The L. E. D. lights are managed using six general purpose input output pins. The custom antenna was built using a Python script. It achieves an inductance of two point seven five microhenries and resonates at thirteen point fifty-six megahertz. The creator ordered thirty fully compliant units through J. L. C. P. C. B. Programming happens through three exposed pads using a special pin clip. Contact information and routing are handled by a mobile app linking to connect dot wilsonharper dot net. Hardware is hard is a phrase that rings true for this complex project.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: unspaced initials, unspaced acronyms, alphabet soup acronyms, URL written as words
+

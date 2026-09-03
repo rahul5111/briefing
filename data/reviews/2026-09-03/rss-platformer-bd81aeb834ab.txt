@@ -1,0 +1,53 @@
+═══ 00_KEY_POINTS ═══
+
+1. Former Salesforce AI CEO Clara Shih left Meta this spring after deployment of AI agents radicalized her career perspective.
+2. Shih observed that Meta AI agents collapsed a complex product development process down to just one or two people and a prototype.
+3. Seeing AI agents handle tasks across marketing, distribution, and privacy review led Shih to stop posting entry-level job openings.
+4. Following her departure from Meta, Shih co-founded the non-profit New Work Foundation and a consumer brand called Dear CC.
+5. Shih stated that the optimistic story about automating rote work to free customer support workers for higher-order tasks has "primarily not been true."
+6. Shih noted that the optimistic story she once told herself about her own products has "primarily not been true."
+
+═══ 01_DRAFT ═══
+
+Clara Shih, former CEO of Salesforce AI and former head of Meta's business AI group, has left Meta after being "radicalized" by observing how efficiently AI agents handle complex workplace tasks. Last fall at Meta, Shih watched AI agents compress a product development process involving user researchers, designers, product managers, and three types of engineers down to just one or two people and a prototype. 
+
+Seeing similar efficiency gains in marketing, distribution, and privacy review, Shih began canceling entry-level job postings because she no longer felt they were needed. This spring, she stepped down from her operational role to launch the New Work Foundation, a nonprofit, alongside a consumer brand called Dear CC that provides free tools, a podcast, a data tool called Field Report, and a mentoring app called Game Plan for entry-level workers. 
+
+Reflecting on her previous belief that automation would simply free workers for higher-order tasks, Shih stated that this optimistic narrative has "primarily not been true." Citing research from MIT economist David Autor, Shih outlined how AI reshapes jobs across three distinct cases, noting that one in five corporate roles is especially vulnerable to disruption.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Clara Shih, former CEO of Salesforce AI and former head of Meta's business AI group, has left Meta after being "radicalized" by observing how efficiently AI agents handle complex workplace tasks. Last fall at Meta, Shih watched AI agents compress a product development process involving user researchers, designers, product managers, and three types of engineers down to just one or two people and a prototype. 
+
+Seeing similar efficiency gains in marketing, distribution, and privacy review, Shih began canceling entry-level job postings because she no longer felt they were needed. This spring, she stepped down from her operational role to launch the New Work Foundation, a nonprofit, alongside a consumer brand called Dear CC that provides free tools, a podcast, a data tool called Field Report, and a mentoring app called Game Plan for entry-level workers. 
+
+Reflecting on her previous products, Shih noted that the optimistic story she once told herself—that automating rote work would free customer support workers for higher-order tasks—has "primarily not been true." Citing research from MIT economist David Autor, Shih outlined how AI reshapes jobs across three distinct cases, while predicting that one in five corporate roles is especially going to be challenged.
+
+═══ 02b_TRIMMED ═══
+
+Clara Shih, former CEO of Salesforce AI and former head of Meta's business AI group, has left Meta after being "radicalized" by observing how efficiently AI agents handle complex workplace tasks. Last fall at Meta, Shih watched AI agents compress a product development process involving user researchers, designers, product managers, and three types of engineers down to just one or two people and a prototype. Seeing similar efficiency gains in marketing, distribution, and privacy review, Shih began canceling entry-level job postings because she no longer felt they were needed. This spring, she stepped down from her operational role to launch the New Work Foundation, a nonprofit, alongside a consumer brand called Dear CC that provides free tools, a podcast, a data tool called Field Report, and a mentoring app called Game Plan for entry-level workers.
+
+═══ 03_COVERAGE_1 ═══
+
+66% covered (4/6). Missing: Shih stated that the optimistic story about automating rote work to free customer support workers for higher-order tasks has "primarily not been true."; Shih noted that the optimistic story she once told herself about her own products has "primarily not been true."
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+Clara Shih, former CEO of Salesforce AI and former head of Meta's business AI group, has left Meta after being "radicalized" by observing how efficiently AI agents handle complex workplace tasks. Last fall at Meta, Shih watched AI agents compress a product development process involving user researchers, designers, product managers, and three types of engineers down to just one or two people and a prototype. Seeing similar efficiency gains in marketing, distribution, and privacy review, Shih began canceling entry-level job postings because she no longer felt they were needed. Shih noted that the optimistic story she once told herself about her own products has "primarily not been true." Specifically, Shih stated that the optimistic story about automating rote work to free customer support workers for higher-order tasks has "primarily not been true." This spring, she stepped down from her operational role to launch the New Work Foundation, a nonprofit, alongside a consumer brand called Dear CC that provides free tools, a podcast, a data tool called Field Report, and a mentoring app called Game Plan for entry-level workers.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Clara Shih, former C. E. O. of Salesforce A. I., has left Meta after being radicalized by observing how efficiently A. I. agents handle complex workplace tasks. Last fall at Meta, Shih watched A. I. agents compress a product development process down to just one or two people and a prototype. That process used to involve user researchers, designers, product managers, and three types of engineers. Seeing similar efficiency gains in marketing, distribution, and privacy review, Shih began canceling entry-level job postings because she no longer felt they were needed. Shih noted that the optimistic story she once told herself about her own products has primarily not been true. Specifically, Shih stated that the optimistic story about automating rote work to free customer support workers for higher-order tasks has primarily not been true. This spring, she stepped down from her operational role to launch the New Work Foundation. That organization is a nonprofit. She also launched a consumer brand called Dear CC. That brand provides free tools, a podcast, a data tool called Field Report, and a mentoring app called Game Plan for entry-level workers.
+
+═══ 05_NORMALIZED ═══
+
+Clara Shih, former C. E. O. of Salesforce A. I., has left Meta after being radicalized by observing how efficiently A. I. agents handle complex workplace tasks. Last fall at Meta, Shih watched A. I. agents compress a product development process down to just one or two people and a prototype. That process used to involve user researchers, designers, product managers, and three types of engineers. Seeing similar efficiency gains in marketing, distribution, and privacy review, Shih began canceling entry-level job postings because she no longer felt they were needed. Shih noted that the optimistic story she once told herself about her own products has primarily not been true. Specifically, Shih stated that the optimistic story about automating rote work to free customer support workers for higher-order tasks has primarily not been true. This spring, she stepped down from her operational role to launch the New Work Foundation. That organization is a nonprofit. She also launched a consumer brand called Dear CC. That brand provides free tools, a podcast, a data tool called Field Report, and a mentoring app called Game Plan for entry-level workers.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+OK
+

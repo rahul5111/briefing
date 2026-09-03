@@ -1,0 +1,46 @@
+═══ 00_KEY_POINTS ═══
+
+1. The creators built an open-source model gateway to manage self-hosted, frontier, and open-source models.
+2. The gateway adds under 1 millisecond for BYOK requests and under 2 milliseconds for supplied keys.
+3. The platform supports every major inference provider and refreshes over 1000 models daily via a codex agent.
+4. The project charges zero markup on tokens compared to other similar routing services.
+5. The system uses standardized OTel traces and text world models to simulate rollouts for various models.
+6. An LLM judge and a nearest neighbor classifier help decide the optimal model for each request.
+7. Users can deploy the open-source software on their own infrastructure or use the hosted version.
+
+═══ 01_DRAFT ═══
+
+Developers have launched an open-source model gateway designed to manage self-hosted, frontier, and open-source artificial intelligence models from a single interface. Built natively in Rust for concurrency, the gateway standardizes configuration quirks across different models and providers, including streaming formats, tool calls, model parameters, rate limits, and error behaviors. The system adds under one millisecond of latency for bring-your-own-key requests and under two milliseconds when the platform supplies the provider key. It supports every major inference provider and offers over one thousand models refreshed daily through a codex agent that automatically opens pull requests. Unlike other routing services that charge a ten percent token markup, this project takes no markup, operates as open source for deployment on local infrastructure, and features an opt-in program to use user traffic for training custom models. To optimize routing, the gateway uses standardized OpenTelemetry traces to mine representative real tasks, simulates rollouts using text world models, applies an LLM judge, and fits a nearest neighbor classifier over prompt embeddings to determine the optimal model for each request. These simulations also enable suggestions for cache hit optimizations, new model options, and customized model training.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Developers have launched an open-source model gateway designed to manage self-hosted, frontier, and open-source models from a single interface. Built natively in Rust for concurrency, the gateway standardizes configuration quirks across different models and providers, including streaming formats, tool calls, model parameters, rate limits, and error behaviors. The system adds under one millisecond of latency for bring-your-own-key requests and under two milliseconds when the platform supplies the provider key. It supports every major inference provider and offers over one thousand models refreshed daily through a codex agent that automatically opens pull requests. Compared to similar projects, this open-source tool takes no token markup, allows users to mix local models with a marketplace, and includes an opt-in program to use traffic for training a custom model. To decide the optimal model for each request, the gateway uses standardized OpenTelemetry traces to mine representative real tasks, simulates rollouts using text world models, applies an LLM judge, and fits a nearest neighbor classifier on top of prompt embeddings. These simulations also enable suggestions for cache hit optimizations, new model options, and customized model training.
+
+═══ 02b_TRIMMED ═══
+
+Built natively in Rust for concurrency, the gateway standardizes configuration quirks across different models and providers, including streaming formats, tool calls, model parameters, rate limits, and error behaviors. The system adds under one millisecond of latency for bring-your-own-key requests and under two milliseconds when the platform supplies the provider key. It supports every major inference provider and offers over one thousand models refreshed daily through a codex agent that automatically opens pull requests. Compared to similar projects, this open-source tool takes no token markup, allows users to mix local models with a marketplace, and includes an opt-in program to use traffic for training a custom model. These simulations also enable suggestions for cache hit optimizations, new model options, and customized model training.
+
+═══ 03_COVERAGE_1 ═══
+
+57% covered (4/7). Missing: The system uses standardized OTel traces and text world models to simulate rollouts for various models.; An LLM judge and a nearest neighbor classifier help decide the optimal model for each request.; Users can deploy the open-source software on their own infrastructure or use the hosted version.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+Built natively in Rust for concurrency, the gateway standardizes configuration quirks across different models and providers, including streaming formats, tool calls, model parameters, rate limits, and error behaviors. The system adds under one millisecond of latency for bring-your-own-key requests and under two milliseconds when the platform supplies the provider key. It supports every major inference provider and offers over one thousand models refreshed daily through a codex agent that automatically opens pull requests. Compared to similar projects, this open-source tool takes no token markup, allows users to mix local models with a marketplace, and includes an opt-in program to use traffic for training a custom model. The system uses standardized OTel traces and text world models to simulate rollouts for various models. An LLM judge and a nearest neighbor classifier help decide the optimal model for each request. These simulations also enable suggestions for cache hit optimizations, new model options, and customized model training. Users can deploy the open-source software on their own infrastructure or use the hosted version.
+
+═══ 04_AUDIO_REWRITE ═══
+
+A new gateway is built natively in Rust for concurrency. It standardizes configuration quirks across different models and providers. This includes streaming formats, tool calls, model parameters, rate limits, and error behaviors. The system adds under one millisecond of latency for bring-your-own-key requests. It adds under two milliseconds when the platform supplies the provider key. It supports every major inference provider. It offers over one thousand models refreshed daily through a codex agent that automatically opens pull requests. This open-source tool takes no token markup compared to similar projects. It allows users to mix local models with a marketplace. It includes an opt-in program to use traffic for training a custom model. The system uses standardized O. Tel. traces and text world models to simulate rollouts for various models. An L. L. M. judge and a nearest neighbor classifier help decide the optimal model for each request. These simulations also enable suggestions for cache hit optimizations, new model options, and customized model training. Users can deploy the open-source software on their own infrastructure or use the hosted version.
+
+═══ 05_NORMALIZED ═══
+
+A new gateway is built natively in Rust for concurrency. It standardizes configuration quirks across different models and providers. This includes streaming formats, tool calls, model parameters, rate limits, and error behaviors. The system adds under one millisecond of latency for bring-your-own-key requests. It adds under two milliseconds when the platform supplies the provider key. It supports every major inference provider. It offers over one thousand models refreshed daily through a codex agent that automatically opens pull requests. This open-source tool takes no token markup compared to similar projects. It allows users to mix local models with a marketplace. It includes an opt-in program to use traffic for training a custom model. The system uses standardized O. Tel. traces and text world models to simulate rollouts for various models. An L. L. M. judge and a nearest neighbor classifier help decide the optimal model for each request. These simulations also enable suggestions for cache hit optimizations, new model options, and customized model training. Users can deploy the open-source software on their own infrastructure or use the hosted version.
+
+═══ 06_COVERAGE_FINAL ═══
+
+85% covered (6/7). Missing: The creators built an open-source model gateway to manage self-hosted, frontier, and open-source models.
+
+═══ 07_SANITY ═══
+
+ISSUES: O. Tel., L. L. M.
+

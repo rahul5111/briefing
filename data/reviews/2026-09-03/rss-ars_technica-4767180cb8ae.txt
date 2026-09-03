@@ -1,0 +1,40 @@
+═══ 00_KEY_POINTS ═══
+
+1. A new dark web service named Nexus offered more than 153 million driver's licenses for sale.
+2. The author discovered their driver's license was listed for sale within hours of renting an SUV.
+3. An exposé published Tuesday by KrebsOnSecurity detailed the massive database of stolen identification cards.
+4. The stolen licenses included image files of the front and back in infrared and ultraviolet spectrums.
+5. The stolen license images presumably allow cloned counterfeit IDs to successfully pass security hologram tests.
+
+═══ 01_DRAFT ═══
+
+An exposé published Tuesday by KrebsOnSecurity reveals that a journalist's driver's license, scanned by an employee at a well-known car rental company, was put up for sale on the dark web within hours of the rental. The license was among more than 153 million available through a new identity theft service named Nexus. According to the report, the exposed records included multiple image files showing the front and back of the IDs, captured in both infrared and ultraviolet spectrums. These specialized formats presumably allow cloned counterfeit IDs to pass hologram tests. The compromised licenses include those belonging to journalist Brian Krebs, his mother, an FBI assistant director, and several security researchers, while the Nexus service also offered a bevy of other forms of ID for sale.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+An exposé published Tuesday by KrebsOnSecurity reveals that a journalist's driver's license, scanned by an employee at a well-known car rental company, was put up for sale on the dark web within hours of the rental. The license was among more than 153 million available through a new identity theft service named Nexus. According to the report, the exposed records included multiple image files showing the front and back of the IDs, captured in both infrared and ultraviolet spectrums. The report notes that these additional formats presumably may allow cloned-based counterfeit IDs to pass hologram tests. The compromised licenses include those belonging to journalist Brian Krebs, his mother, an FBI assistant director, and several security researchers, while the Nexus service also offered a bevy of other forms of ID for sale.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (5/5). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+An exposé published on Tuesday by Krebs on Security reveals a serious breach. A journalist driver license scanned by an employee at a well known car rental company was put up for sale on the dark web within hours of the rental. 
+
+The license was among more than one hundred fifty-three million records available through a new identity theft service named Nexus. According to the report, the exposed records included multiple image files showing the front and back of the identification cards. These images were captured in both infrared and ultraviolet spectrums. 
+
+The report notes that these additional formats presumably may allow cloned based counterfeit identification cards to pass hologram tests. The compromised licenses include those belonging to journalist, Brian Krebs, his mother, an F. B. I. assistant director, and several security researchers. The Nexus service also offered a bevy of other forms of identification for sale.
+
+═══ 05_NORMALIZED ═══
+
+An exposé published on Tuesday by Krebs on Security reveals a serious breach. A journalist driver license scanned by an employee at a well known car rental company was put up for sale on the dark web within hours of the rental. The license was among more than one hundred fifty-three million records available through a new identity theft service named Nexus. According to the report, the exposed records included multiple image files showing the front and back of the identification cards. These images were captured in both infrared and ultraviolet spectrums. The report notes that these additional formats presumably may allow cloned based counterfeit identification cards to pass hologram tests. The compromised licenses include those belonging to journalist, Brian Krebs, his mother, an F. B. I. assistant director, and several security researchers. The Nexus service also offered a bevy of other forms of identification for sale.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (5/5). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: F. B. I., journalist driver license
+

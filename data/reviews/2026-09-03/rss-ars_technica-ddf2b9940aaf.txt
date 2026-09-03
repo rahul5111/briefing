@@ -1,0 +1,45 @@
+═══ 00_KEY_POINTS ═══
+
+1. The Federal Communications Commission announced plans to create a robocall mitigation scorecard.
+2. The scorecard will rate phone companies on how effectively they block illegal spam calls.
+3. Providers may be graded using a number scale, letter grades, or risk classifications.
+4. The proposed tool will apply to domestic voice service providers with retail customers.
+5. FCC Chairman Brendan Carr stated that fighting illegal robocalls remains the agency's top consumer protection priority.
+6. The scorecard will empower consumers and encourage providers to continue to combat illegal robocalls.
+
+═══ 01_DRAFT ═══
+
+The Federal Communications Commission announced plans to create a robocall mitigation scorecard to rate phone companies on their effectiveness in blocking illegal spam calls. The proposed tool would evaluate wireless, wireline, and VoIP providers that have retail customers, excluding those operating solely as wholesale or intermediate providers. Scorecards could grade providers using a number scale, letter grades, or risk classifications such as low, medium, or high risk. The metrics would incorporate call-blocking statistics, customer complaints, enforcement actions, and data on how often legitimate calls are mistakenly blocked. The evaluation aims to move beyond a simple administrative checklist to reflect operational practices and measurable outcomes. As FCC Chairman Brendan Carr stated, combatting illegal robocalls remains the agency's top consumer protection priority. The FCC Consumer and Governmental Affairs Bureau noted that the scorecard will empower consumers and encourage providers to continue combatting illegal robocalls by providing a public assessment of their protection efforts.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+The Federal Communications Commission announced plans to create a robocall mitigation scorecard. This scorecard will rate phone companies on their effectiveness in blocking illegal spam calls. 
+
+The proposed tool would evaluate wireless, wireline, and Voice over Internet Protocol providers that have retail customers. It will exclude companies that operate solely as wholesale or intermediate providers. 
+
+Scorecards could grade providers using a number scale or letter grades. They might also use risk classifications such as low, medium, or high risk. 
+
+The metrics would incorporate call-blocking statistics and customer complaints. They will also include enforcement actions and data on how often legitimate calls are mistakenly blocked. 
+
+The evaluation aims to move beyond a simple administrative checklist. It will reflect operational practices and measurable outcomes. 
+
+Federal Communications Commission Chairman, Brendan Carr stated that combatting illegal robocalls remains the agency's top consumer protection priority. 
+
+The Federal Communications Commission Consumer and Governmental Affairs Bureau noted that the scorecard will empower consumers. It will also encourage providers to continue combatting illegal robocalls by providing a public assessment of their protection efforts.
+
+═══ 05_NORMALIZED ═══
+
+The Federal Communications Commission announced plans to create a robocall mitigation scorecard. This scorecard will rate phone companies on their effectiveness in blocking illegal spam calls. The proposed tool would evaluate wireless, wireline, and Voice over Internet Protocol providers that have retail customers. It will exclude companies that operate solely as wholesale or intermediate providers. Scorecards could grade providers using a number scale or letter grades. They might also use risk classifications such as low, medium, or high risk. The metrics would incorporate call-blocking statistics and customer complaints. They will also include enforcement actions and data on how often legitimate calls are mistakenly blocked. The evaluation aims to move beyond a simple administrative checklist. It will reflect operational practices and measurable outcomes. Federal Communications Commission Chairman, Brendan Carr stated that combatting illegal robocalls remains the agency's top consumer protection priority. The Federal Communications Commission Consumer and Governmental Affairs Bureau noted that the scorecard will empower consumers. It will also encourage providers to continue combatting illegal robocalls by providing a public assessment of their protection efforts.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: unspoken acronyms
+
