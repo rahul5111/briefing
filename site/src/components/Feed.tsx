@@ -238,6 +238,26 @@ export default function Feed({ stories, cdnBase }: Props) {
     return c;
   }, [stories, activeCat]);
 
+  // PLAN D3: LIVE indicator. A category is "live" if it has a Sports > Major
+  // Events story from the last 24h. Applies to the SPORTS tab and the Major
+  // Events sub-chip.
+  const liveByMain = useMemo(() => {
+    const cutoff = Date.now() - 24 * 3600_000;
+    const out: Record<string, Set<string>> = {};
+    for (const s of stories) {
+      const t = new Date(s.published_at).getTime();
+      if (t < cutoff) continue;
+      const m = mainCategoryOf(s);
+      const sub = subCategoryOf(s) || "";
+      if (m === "SPORTS" && sub === "Major Events") {
+        (out[m] ||= new Set()).add(sub);
+      }
+    }
+    return out;
+  }, [stories]);
+  const isMainLive = (main: string) => !!liveByMain[main];
+  const isSubLive = (main: string, sub: string) => !!liveByMain[main]?.has(sub);
+
   useEffect(() => {
     const a = audioRef.current;
     if (!a || !current) return;
@@ -298,6 +318,7 @@ export default function Feed({ stories, cdnBase }: Props) {
             >
               <span className="tuner-label">{c}</span>
               <span className="tuner-count">{counts[c] ?? 0}</span>
+              {isMainLive(c) && <span className="live-dot" aria-label="live" />}
               {activeCat === c && (
                 <motion.span
                   layoutId="tuner-underline"
@@ -343,6 +364,7 @@ export default function Feed({ stories, cdnBase }: Props) {
               onClick={() => setActiveSub(activeSub === s ? null : s)}
             >
               {s} <span className="sub-chip-count">{subCounts[s]}</span>
+              {isSubLive(activeCat, s) && <span className="live-dot" aria-label="live" />}
             </button>
           ))}
         </nav>

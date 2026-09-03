@@ -218,6 +218,28 @@ a { color: inherit; text-decoration: none; }
 }
 .sub-chip-count { font-size: 0.58rem; opacity: 0.75; }
 
+/* LIVE dot (PLAN D3). One quiet pulse — the only intentional motion on
+   the whole page. Respects prefers-reduced-motion via the global
+   media query at the bottom of this file. */
+.live-dot {
+  display: inline-block;
+  width: 7px; height: 7px;
+  border-radius: 50%;
+  background: var(--accent);
+  margin-left: 6px;
+  vertical-align: middle;
+  position: relative;
+  animation: live-pulse 1.6s ease-out infinite;
+  box-shadow: 0 0 0 0 color-mix(in oklab, var(--accent) 60%, transparent);
+}
+@keyframes live-pulse {
+  0%   { box-shadow: 0 0 0 0 color-mix(in oklab, var(--accent) 60%, transparent); }
+  70%  { box-shadow: 0 0 0 7px color-mix(in oklab, var(--accent) 0%, transparent); }
+  100% { box-shadow: 0 0 0 0 color-mix(in oklab, var(--accent) 0%, transparent); }
+}
+.sub-chip.active .live-dot { background: var(--paper); box-shadow: 0 0 0 0 var(--paper); }
+.sub-chip.active .live-dot { animation-name: none; }
+
 /* View toggle (List / Globe) */
 .view-toggle {
   display: flex;

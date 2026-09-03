@@ -6,7 +6,7 @@ from datetime import datetime, timezone
 from urllib.parse import urlparse
 from slugify import slugify
 
-from . import config, extract, dedup, refine, tts, manifest, categorize, geolocate, significance
+from . import config, extract, dedup, refine, tts, manifest, categorize, geolocate, significance, enrich
 from .sources import fetch_all, Candidate
 
 DRY_RUN = os.environ.get("PIPELINE_DRY_RUN", "").lower() in ("1", "true", "yes")
@@ -58,6 +58,106 @@ def build_story(cand: Candidate, summary: str, image_url: str | None) -> dict:
     }
 
 
+def _enrich_from_dups(dup_log: list, candidates: list[Candidate], existing_manifest: dict) -> None:
+    """PLAN C4: when a new candidate is a semantic duplicate of a story
+    already in the manifest, extract its article body, check whether it
+    materially adds information, and if so re-synthesize + re-TTS the
+    stored story. Always appends the new URL to the story's sources[].
+
+    Safe by construction: any exception in extract, delta, synth, or TTS
+    leaves the existing story untouched — dropping the candidate is the
+    fallback, same as pre-Phase-2 behaviour.
+    """
+    published_dups = [h for h in dup_log if h.matched_kind == "published"]
+    if not published_dups:
+        return
+    stories_by_title = {s["title"]: s for s in existing_manifest.get("stories", [])}
+    merged = 0
+    appended = 0
+    for hit in published_dups:
+        cand = candidates[hit.new_index]
+        story = stories_by_title.get(hit.matched_title)
+        if not story or not cand.url:
+            continue
+
+        # Extract new article body — prefer pre-fetched RSS text when available.
+        text: str | None = None
+        if cand.text and len(cand.text.split()) > 120:
+            text = cand.text
+        else:
+            try:
+                text = extract.extract(cand.url)
+            except Exception as e:
+                print(f"  enrich extract failed for {cand.source}: {e}")
+                continue
+        if not text or len(text.split()) < 60:
+            continue
+
+        # Always credit the new source (unless we already have that URL).
+        now_iso = datetime.now(timezone.utc).isoformat()
+        new_entry = {
+            "name": cand.source,
+            "url": cand.url,
+            "domain": _domain(cand.url),
+            "added_at": now_iso,
+        }
+        srcs = story.setdefault("sources", [])
+        if not any(sr.get("url") == cand.url for sr in srcs):
+            srcs.append(new_entry)
+            appended += 1
+
+        # Delta detection — cheap Gemini call.
+        try:
+            delta = enrich.detect_delta(story.get("summary", ""), text)
+        except Exception as e:
+            print(f"  enrich delta failed: {e}")
+            continue
+        if not delta["adds_material"]:
+            print(f"  enrich [{cand.source[:12]:12s}]: delta {delta['delta_pct']}% — sources++ only")
+            continue
+
+        # Neutral synthesis (mid-weight call).
+        try:
+            synth = enrich.neutral_synthesize(
+                existing_summary=story.get("summary", ""),
+                existing_key_points=story.get("key_points"),
+                new_article_text=text,
+                new_facts=delta["new_facts"],
+            )
+        except Exception as e:
+            print(f"  enrich synth failed: {e}")
+            continue
+        if not synth:
+            continue
+
+        # Persist the merged summary + re-TTS. On any TTS failure, leave
+        # the summary/points patched but audio untouched — text feed is
+        # still improved.
+        story["summary"] = synth["summary"]
+        story["key_points"] = synth["key_points"]
+        story["word_count"] = len(synth["summary"].split())
+        story["estimated_duration_s"] = round(
+            len(synth["summary"].split()) / (config.TTS_WPM / 60)
+        )
+        audio_path = config.DATA_DIR / story["audio_path"]
+        try:
+            voice_cat = story.get("main") or story.get("category") or "default"
+            stats = tts.synth(synth["summary"], audio_path, voice_cat)
+            story["audio_bytes"] = audio_path.stat().st_size
+            story["audio_duration_s"] = round(stats["duration_s"], 1)
+            story["tts_chunks"] = stats["chunks_synthed"]
+            story["tts_voice"] = stats["voice"]
+            merged += 1
+            print(
+                f"  enrich [{cand.source[:12]:12s}]: MERGED delta {delta['delta_pct']}% → "
+                f"{stats['duration_s']:.1f}s re-TTS"
+            )
+        except Exception as e:
+            print(f"  enrich re-TTS failed for {story['id']}: {e}")
+    if merged or appended:
+        print(f"  enrich totals: {merged} merged+re-TTS'd, {appended} sources appended")
+
+
 def main() -> int:
     print("Fetching from all configured sources...")
     candidates = fetch_all()
@@ -79,6 +179,10 @@ def main() -> int:
     if dup_log:
         log_path = dedup.write_dup_log(dup_log)
         print(f"  observation-log: {len(dup_log)} duplicates → {log_path}")
+        # PLAN Phase 2 (C4): try to enrich the existing manifest story with
+        # facts from the new source instead of silently dropping it. Mutates
+        # `existing` in place; the manifest.save() at end persists it.
+        _enrich_from_dups(dup_log, candidates, existing)
     candidates = [candidates[i] for i in keep_idx]
     print(f"After semantic dedup: {len(candidates)}")
 

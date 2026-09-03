@@ -1,147 +1,122 @@
 # Ingestion sources. Add, remove, or toggle `enabled: false` freely.
 # Lookback is 168 hours (7 days) for all by default — matches retention.
 #
-# Types:
-#   hn      — Hacker News (Algolia API)
-#   rss     — any RSS or Atom feed (blogs, newsletters, Substack, Beehiiv...)
-#   reddit  — subreddit via public JSON (anonymous, rate-limited)
+# Quality tiers (for reference; not enforced in code):
+#   Tier A — high signal, edited by professional desks, low churn.
+#            Reuters · AP · BBC · WSJ · FT · The Guardian · The Hindu ·
+#            Indian Express · Bloomberg · MIT Tech Review · Nature ·
+#            Quanta · Ars Technica · Stratechery · NPR · Politico
+#   Tier B — good but sometimes trendy/click-driven. TechCrunch · Verge ·
+#            CNBC · MarketWatch · The Hill · TLDR · Axios · Wired
+#   Tier C — variable, community-driven, but occasionally exceptional.
+#            Reddit · HN · Substacks · DW · France 24
+#
+# Types: hn · rss · reddit · tldr · gmail
+#
+# Cross-source enrichment (PLAN Phase 2) means Tier-A duplicates of Tier-B
+# / Tier-C stories now UPGRADE the existing summary rather than being
+# dropped. The more high-quality sources we add, the richer each story
+# gets — this is what "hydrate the content" means in this pipeline.
 
 sources:
 
-  # ─── Hacker News ────────────────────────────────────────────────
-  - name: hackernews
-    type: hn
-    tags: story
-    min_score: 200
-    lookback_hours: 168
-    max_items: 40
+  # ═══════════════════════════════════════════════════════════════════
+  # AI — models, products, research, policy
+  # ═══════════════════════════════════════════════════════════════════
 
-  - name: hackernews_show
-    type: hn
-    tags: show_hn
-    min_score: 100
+  # Tier A — first-party model labs
+  - name: openai_blog
+    type: rss
+    url: https://openai.com/blog/rss.xml
+    lookback_hours: 168
+    max_items: 15
+  - name: google_ai_blog
+    type: rss
+    url: https://blog.google/technology/ai/rss/
+    lookback_hours: 168
+    max_items: 15
+  - name: deepmind_blog
+    type: rss
+    url: https://deepmind.google/blog/rss.xml
+    lookback_hours: 168
+    max_items: 10
+  - name: huggingface_blog
+    type: rss
+    url: https://huggingface.co/blog/feed.xml
     lookback_hours: 168
     max_items: 15
 
-  # ─── Tech blogs (RSS) ───────────────────────────────────────────
-  - name: verge
-    type: rss
-    url: https://www.theverge.com/rss/index.xml
-    lookback_hours: 168
-    max_items: 20
-
-  - name: ars_technica
-    type: rss
-    url: https://feeds.arstechnica.com/arstechnica/index
-    lookback_hours: 168
-    max_items: 20
-
-  - name: techcrunch
-    type: rss
-    url: https://techcrunch.com/feed/
-    lookback_hours: 168
-    max_items: 20
-
+  # Tier A — AI-desk journalism
   - name: mit_tech_review
     type: rss
     url: https://www.technologyreview.com/feed/
     lookback_hours: 168
     max_items: 15
-
-  # ─── Science ────────────────────────────────────────────────────
-  - name: sciencedaily_top
+  - name: the_batch
     type: rss
-    url: https://www.sciencedaily.com/rss/top.xml
+    url: https://www.deeplearning.ai/the-batch/feed/
+    lookback_hours: 168
+    max_items: 10
+
+  # ═══════════════════════════════════════════════════════════════════
+  # TECH — software, hardware, startups, security
+  # ═══════════════════════════════════════════════════════════════════
+
+  # Tier B — daily tech news
+  - name: verge
+    type: rss
+    url: https://www.theverge.com/rss/index.xml
+    lookback_hours: 168
+    max_items: 20
+  - name: ars_technica
+    type: rss
+    url: https://feeds.arstechnica.com/arstechnica/index
+    lookback_hours: 168
+    max_items: 20
+  - name: techcrunch
+    type: rss
+    url: https://techcrunch.com/feed/
+    lookback_hours: 168
+    max_items: 20
+  - name: wired
+    type: rss
+    url: https://www.wired.com/feed/rss
+    lookback_hours: 168
+    max_items: 15
+  - name: engadget
+    type: rss
+    url: https://www.engadget.com/rss.xml
     lookback_hours: 168
     max_items: 15
 
-  - name: sciencedaily_tech
-    type: rss
-    url: https://www.sciencedaily.com/rss/matter_energy/computer_science.xml
-    lookback_hours: 168
-    max_items: 15
-
-  # ─── Google News (RSS) ──────────────────────────────────────────
-  # Google News exposes RSS at every locale / topic. We slice by edition
-  # + topic to feed the new 8-cat taxonomy (US, India, World, Business,
-  # Sports, Tech). See PLAN.md § 2.
-  - name: google_news_top_us
-    type: rss
-    url: https://news.google.com/rss?hl=en-US&gl=US&ceid=US:en
-    lookback_hours: 48
-    max_items: 20
-
-  - name: google_news_us_topic
-    type: rss
-    url: https://news.google.com/rss/headlines/section/topic/NATION.en_us/US?hl=en-US&gl=US&ceid=US:en
-    lookback_hours: 48
-    max_items: 20
-
-  - name: google_news_india
-    type: rss
-    url: https://news.google.com/rss?hl=en-IN&gl=IN&ceid=IN:en
-    lookback_hours: 48
-    max_items: 20
-
-  - name: google_news_world
-    type: rss
-    url: https://news.google.com/rss/headlines/section/topic/WORLD?hl=en-US&gl=US&ceid=US:en
-    lookback_hours: 48
-    max_items: 20
-
-  - name: google_news_business
-    type: rss
-    url: https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=en-US&gl=US&ceid=US:en
-    lookback_hours: 48
-    max_items: 20
-
-  - name: google_news_sports
-    type: rss
-    url: https://news.google.com/rss/headlines/section/topic/SPORTS?hl=en-US&gl=US&ceid=US:en
-    lookback_hours: 48
-    max_items: 20
-
-  - name: google_news_tech
-    type: rss
-    url: https://news.google.com/rss/headlines/section/topic/TECHNOLOGY?hl=en-US&gl=US&ceid=US:en
-    lookback_hours: 48
-    max_items: 20
-
-  # ─── World news (RSS) ───────────────────────────────────────────
-  - name: bbc_world
-    type: rss
-    url: https://feeds.bbci.co.uk/news/world/rss.xml
-    lookback_hours: 168
-    max_items: 20
-
-  - name: reuters_world
-    type: rss
-    url: https://www.reutersagency.com/feed/?best-topics=world&post_type=best
-    lookback_hours: 168
-    max_items: 15
-
-  - name: aljazeera
-    type: rss
-    url: https://www.aljazeera.com/xml/rss/all.xml
-    lookback_hours: 168
-    max_items: 15
-
-  # ─── Newsletters / long-form (RSS) ──────────────────────────────
+  # Tier A — analysis / long-form
   - name: stratechery
     type: rss
     url: https://stratechery.com/feed/
     lookback_hours: 168
     max_items: 10
-
   - name: platformer
     type: rss
     url: https://www.platformer.news/feed
     lookback_hours: 168
     max_items: 10
 
-  # ─── Reddit ─────────────────────────────────────────────────────
+  # Tier C — community
+  - name: hackernews
+    type: hn
+    tags: story
+    min_score: 200
+    lookback_hours: 168
+    max_items: 40
+  - name: hackernews_show
+    type: hn
+    tags: show_hn
+    min_score: 100
+    lookback_hours: 168
+    max_items: 15
   - name: reddit_programming
     type: reddit
+    enabled: false
     subreddit: programming
     listing: top
     when: week
@@ -149,8 +124,230 @@ sources:
     lookback_hours: 168
     max_items: 15
 
+  # Tier B — curated dailies
+  - name: tldr_tech
+    type: tldr
+    variant: tech
+    lookback_days: 2
+    max_items: 20
+  - name: tldr_ai
+    type: tldr
+    variant: ai
+    lookback_days: 2
+    max_items: 20
+  - name: tldr_webdev
+    type: tldr
+    variant: webdev
+    lookback_days: 2
+    max_items: 15
+  - name: tldr_infosec
+    type: tldr
+    variant: infosec
+    lookback_days: 2
+    max_items: 15
+  - name: tldr_design
+    type: tldr
+    variant: design
+    lookback_days: 2
+    max_items: 10
+
+  # ═══════════════════════════════════════════════════════════════════
+  # SCIENCE — space · biology · climate · materials · robotics
+  # ═══════════════════════════════════════════════════════════════════
+
+  # Tier A — science journalism
+  - name: quanta_magazine
+    type: rss
+    url: https://www.quantamagazine.org/feed/
+    lookback_hours: 168
+    max_items: 10
+  - name: ars_science
+    type: rss
+    url: https://feeds.arstechnica.com/arstechnica/science
+    lookback_hours: 168
+    max_items: 15
+  - name: nasa_breaking
+    type: rss
+    url: https://www.nasa.gov/news-release/feed/
+    lookback_hours: 168
+    max_items: 15
+  - name: new_scientist
+    type: rss
+    url: https://www.newscientist.com/feed/home/
+    lookback_hours: 168
+    max_items: 15
+  - name: phys_org
+    type: rss
+    url: https://phys.org/rss-feed/
+    lookback_hours: 168
+    max_items: 15
+  - name: sciencedaily_top
+    type: rss
+    url: https://www.sciencedaily.com/rss/top.xml
+    lookback_hours: 168
+    max_items: 15
+  - name: sciencedaily_tech
+    type: rss
+    url: https://www.sciencedaily.com/rss/matter_energy/computer_science.xml
+    lookback_hours: 168
+    max_items: 15
+
+  # ═══════════════════════════════════════════════════════════════════
+  # SPORTS — Major Events · Badminton · T&F · Cricket · Tennis · etc.
+  # ═══════════════════════════════════════════════════════════════════
+
+  # Tier A / B — sports desks
+  - name: espn_top
+    type: rss
+    url: https://www.espn.com/espn/rss/news
+    lookback_hours: 168
+    max_items: 20
+  - name: bbc_sport
+    type: rss
+    url: http://feeds.bbci.co.uk/sport/rss.xml
+    lookback_hours: 168
+    max_items: 20
+  - name: guardian_sport
+    type: rss
+    url: https://www.theguardian.com/sport/rss
+    lookback_hours: 168
+    max_items: 20
+  - name: google_news_sports
+    type: rss
+    url: https://news.google.com/rss/headlines/section/topic/SPORTS?hl=en-US&gl=US&ceid=US:en
+    lookback_hours: 48
+    max_items: 20
+
+  # Cricket + India-focused sports (Tier B)
+  - name: espncricinfo
+    type: rss
+    url: https://www.espncricinfo.com/rss/content/story/feeds/0.xml
+    lookback_hours: 168
+    max_items: 15
+
+  # ═══════════════════════════════════════════════════════════════════
+  # US — Politics · Economy · Law · Health · Disasters · Society
+  # ═══════════════════════════════════════════════════════════════════
+
+  # Tier A — mainline political desks
+  - name: politico
+    type: rss
+    url: https://www.politico.com/rss/politics08.xml
+    lookback_hours: 96
+    max_items: 20
+  - name: npr_news
+    type: rss
+    url: https://feeds.npr.org/1001/rss.xml
+    lookback_hours: 96
+    max_items: 20
+  - name: the_hill
+    type: rss
+    url: https://thehill.com/rss/syndicator/19110
+    lookback_hours: 96
+    max_items: 15
+  # Reuters shut down public RSS in 2020; proxy via Google News search
+  # (still edited/wired copy, just re-indexed).
+  - name: reuters_us_gn
+    type: rss
+    url: https://news.google.com/rss/search?q=when:2d+site:reuters.com+US&hl=en-US&gl=US&ceid=US:en
+    lookback_hours: 48
+    max_items: 15
+  - name: google_news_top_us
+    type: rss
+    url: https://news.google.com/rss?hl=en-US&gl=US&ceid=US:en
+    lookback_hours: 48
+    max_items: 20
+  - name: google_news_us_topic
+    type: rss
+    url: https://news.google.com/rss/headlines/section/topic/NATION.en_us/US?hl=en-US&gl=US&ceid=US:en
+    lookback_hours: 48
+    max_items: 20
+
+  # ═══════════════════════════════════════════════════════════════════
+  # INDIA — Politics · Economy · Law · Health · Disasters · Society ·
+  #         Foreign Relations
+  # ═══════════════════════════════════════════════════════════════════
+
+  # Tier A — Indian desks
+  - name: the_hindu
+    type: rss
+    url: https://www.thehindu.com/news/feeder/default.rss
+    lookback_hours: 96
+    max_items: 20
+  - name: indian_express
+    type: rss
+    url: https://indianexpress.com/section/india/feed/
+    lookback_hours: 96
+    max_items: 20
+  - name: livemint
+    type: rss
+    url: https://www.livemint.com/rss/news
+    lookback_hours: 96
+    max_items: 15
+  - name: times_of_india
+    type: rss
+    url: https://timesofindia.indiatimes.com/rssfeedstopstories.cms
+    lookback_hours: 96
+    max_items: 20
+  # The Wire's public RSS was flaky; proxy via Google News search for a
+  # steady stream while still crediting the source.
+  - name: the_wire_gn
+    type: rss
+    url: https://news.google.com/rss/search?q=when:2d+site:thewire.in&hl=en-US&gl=US&ceid=US:en
+    lookback_hours: 48
+    max_items: 15
+  - name: google_news_india
+    type: rss
+    url: https://news.google.com/rss?hl=en-IN&gl=IN&ceid=IN:en
+    lookback_hours: 48
+    max_items: 20
+
+  # ═══════════════════════════════════════════════════════════════════
+  # WORLD — Non-US, Non-India
+  # ═══════════════════════════════════════════════════════════════════
+
+  # Tier A — wire services and public broadcasters
+  - name: bbc_world
+    type: rss
+    url: https://feeds.bbci.co.uk/news/world/rss.xml
+    lookback_hours: 168
+    max_items: 20
+  - name: reuters_world_gn
+    type: rss
+    url: https://news.google.com/rss/search?q=when:2d+site:reuters.com+world&hl=en-US&gl=US&ceid=US:en
+    lookback_hours: 48
+    max_items: 20
+  - name: aljazeera
+    type: rss
+    url: https://www.aljazeera.com/xml/rss/all.xml
+    lookback_hours: 168
+    max_items: 15
+  - name: guardian_world
+    type: rss
+    url: https://www.theguardian.com/world/rss
+    lookback_hours: 168
+    max_items: 20
+  - name: dw_top
+    type: rss
+    url: https://rss.dw.com/rdf/rss-en-all
+    lookback_hours: 168
+    max_items: 15
+  - name: france24_top
+    type: rss
+    url: https://www.france24.com/en/rss
+    lookback_hours: 168
+    max_items: 15
+  - name: google_news_world
+    type: rss
+    url: https://news.google.com/rss/headlines/section/topic/WORLD?hl=en-US&gl=US&ceid=US:en
+    lookback_hours: 48
+    max_items: 20
+
+  # Tier C — community. Reddit anon endpoint has started 403ing; disabled
+  # until we plumb the OAuth path.
   - name: reddit_worldnews
     type: reddit
+    enabled: false
     subreddit: worldnews
     listing: top
     when: week
@@ -158,52 +355,57 @@ sources:
     lookback_hours: 168
     max_items: 15
 
-  # ─── TLDR curated dailies (scraped, no login needed) ────────────
-  # Each variant is a distinct free daily newsletter from tldr.tech.
-  # Content is TLDR's own curation — high signal per issue.
-  - name: tldr_tech
-    type: tldr
-    variant: tech
-    lookback_days: 2
+  # ═══════════════════════════════════════════════════════════════════
+  # BUSINESS — M&A · Markets · Leadership · Finance · Regulation · Retail
+  # ═══════════════════════════════════════════════════════════════════
+
+  # Tier A — business wire
+  - name: reuters_business_gn
+    type: rss
+    url: https://news.google.com/rss/search?q=when:2d+site:reuters.com+business&hl=en-US&gl=US&ceid=US:en
+    lookback_hours: 48
+    max_items: 20
+  - name: wsj_gn
+    type: rss
+    url: https://news.google.com/rss/search?q=when:2d+site:wsj.com&hl=en-US&gl=US&ceid=US:en
+    lookback_hours: 48
+    max_items: 15
+  - name: bloomberg_gn
+    type: rss
+    url: https://news.google.com/rss/search?q=when:2d+site:bloomberg.com&hl=en-US&gl=US&ceid=US:en
+    lookback_hours: 48
+    max_items: 15
+  - name: ft_gn
+    type: rss
+    url: https://news.google.com/rss/search?q=when:2d+site:ft.com&hl=en-US&gl=US&ceid=US:en
+    lookback_hours: 48
+    max_items: 15
+  - name: marketwatch
+    type: rss
+    url: http://feeds.marketwatch.com/marketwatch/topstories/
+    lookback_hours: 96
+    max_items: 15
+  - name: cnbc_top
+    type: rss
+    url: https://www.cnbc.com/id/100003114/device/rss/rss.html
+    lookback_hours: 96
+    max_items: 20
+  - name: google_news_business
+    type: rss
+    url: https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=en-US&gl=US&ceid=US:en
+    lookback_hours: 48
     max_items: 20
 
-  - name: tldr_ai
-    type: tldr
-    variant: ai
-    lookback_days: 2
-    max_items: 20
-
-  - name: tldr_webdev
-    type: tldr
-    variant: webdev
-    lookback_days: 2
-    max_items: 15
-
-  - name: tldr_infosec
-    type: tldr
-    variant: infosec
-    lookback_days: 2
-    max_items: 15
-
-  - name: tldr_design
-    type: tldr
-    variant: design
-    lookback_days: 2
-    max_items: 10
-
-  # ─── Gmail newsletters ──────────────────────────────────────────
-  # Reads only emails from senders in the allowlist below. Needs three
-  # env vars: GMAIL_REFRESH_TOKEN / GMAIL_CLIENT_ID / GMAIL_CLIENT_SECRET.
-  # Run `python -m pipeline.gmail_auth credentials.json` once to generate.
-  # Add your newsletter sender addresses to `senders:` below.
+  # ═══════════════════════════════════════════════════════════════════
+  # Gmail newsletters — disabled until user completes OAuth
+  # ═══════════════════════════════════════════════════════════════════
   - name: gmail_newsletters
     type: gmail
-    enabled: false                # flip to true after OAuth setup + secrets
+    enabled: false
     lookback_hours: 168
     max_items: 25
-    default_score: 300            # newsletters are curated, so give them weight
+    default_score: 300
     senders:
       # - platformer@substack.com
       # - hi@morningbrew.com
       # - stratechery@stratechery.com
-      # - your-newsletter@example.com
