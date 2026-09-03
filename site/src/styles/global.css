@@ -298,10 +298,15 @@ a { color: inherit; text-decoration: none; }
   padding: 0;
   text-align: left;
   color: inherit;
-  transition: transform .22s ease;
   position: relative;
+  /* Belt-and-braces: prevent any inner text/flex row from bleeding
+     horizontally past the card's own grid cell into the neighbour. */
+  min-width: 0;
+  transition: transform .32s cubic-bezier(0.2, 0.9, 0.3, 1);
 }
-.card:hover .card-cover img { transform: scale(1.03); }
+.card > * { min-width: 0; max-width: 100%; }
+.card:hover { transform: translateY(-3px); z-index: 2; }
+.card:hover .card-cover img { transform: scale(1.04); }
 .card:hover .card-title { color: var(--accent); }
 .card.aged { opacity: 0.85; }
 .card.aged-more { opacity: 0.65; }
@@ -312,12 +317,29 @@ a { color: inherit; text-decoration: none; }
   background: var(--paper-2);
   border-radius: var(--radius);
   position: relative;
+  transition: box-shadow .32s cubic-bezier(0.2, 0.9, 0.3, 1);
 }
+.card:hover .card-cover {
+  box-shadow:
+    0 14px 32px -14px rgba(14, 17, 22, 0.24),
+    0 3px 10px -3px rgba(14, 17, 22, 0.10);
+}
+/* Vermilion hairline outline on hover — the single-accent lock's contribution */
+.card-cover::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border: 1px solid transparent;
+  border-radius: inherit;
+  transition: border-color .32s ease;
+  pointer-events: none;
+}
+.card:hover .card-cover::after { border-color: color-mix(in oklab, var(--accent) 45%, transparent); }
 .card-cover img {
   width: 100%; height: 100%;
   object-fit: cover;
   display: block;
-  transition: transform .35s ease;
+  transition: transform .5s cubic-bezier(0.2, 0.9, 0.3, 1);
 }
 .card-cover-fallback {
   width: 100%; height: 100%;
@@ -374,11 +396,14 @@ a { color: inherit; text-decoration: none; }
 .card:hover .card-cover-play { background: var(--accent); color: var(--paper); transform: scale(1.08); }
 .card.playing .card-cover-play { background: var(--accent); color: var(--paper); }
 
+/* Card meta is now two grouped rows so long "MAIN › SUB" strings can wrap
+   without pushing duration/time past the card's right edge. */
 .card-meta {
   display: flex;
-  gap: 10px;
-  align-items: center;
+  flex-direction: column;
+  gap: 6px;
   margin-top: 14px;
+  min-width: 0;
   font-family: var(--font-mono);
   font-size: 0.66rem;
   letter-spacing: 0.14em;
@@ -386,19 +411,48 @@ a { color: inherit; text-decoration: none; }
   text-transform: uppercase;
   font-variant-numeric: tabular-nums;
 }
-.card-meta .cat { color: var(--accent); font-weight: 500; }
-.card-meta .sub { color: var(--ink); font-weight: 500; letter-spacing: 0.08em; }
+.card-kicker {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 6px;
+  padding-left: 8px;
+  border-left: 2px solid var(--accent);
+  min-width: 0;
+  line-height: 1.35;
+}
+.card-kicker .cat { color: var(--accent); font-weight: 600; }
+.card-kicker .sub {
+  color: var(--ink);
+  font-weight: 500;
+  letter-spacing: 0.08em;
+}
+.card-details {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding-left: 8px;
+  color: var(--muted);
+  min-width: 0;
+  flex-wrap: wrap;
+}
+.card-details-sep { color: var(--muted-2); }
+.card-duration {
+  color: var(--ink);
+  font-weight: 500;
+}
 .card-meta-sep { color: var(--muted-2); }
 .sources-chip {
   color: var(--accent);
   border: 1px solid var(--accent-line);
-  padding: 1px 6px;
+  padding: 1px 8px;
   border-radius: 999px;
   background: var(--accent-soft);
   font-family: var(--font-mono);
-  font-size: 0.6rem;
-  letter-spacing: 0.08em;
+  font-size: 0.58rem;
+  letter-spacing: 0.09em;
   text-transform: uppercase;
+  white-space: nowrap;
 }
 
 .card-title {
@@ -409,26 +463,53 @@ a { color: inherit; text-decoration: none; }
   line-height: 1.2;
   letter-spacing: -0.015em;
   color: var(--ink);
-  margin-top: 8px;
-  transition: color .18s ease;
+  margin-top: 10px;
+  transition: color .22s ease;
   text-wrap: balance;
   display: -webkit-box;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
   overflow: hidden;
+  position: relative;
+  padding-bottom: 3px;
+  background-image: linear-gradient(var(--accent), var(--accent));
+  background-repeat: no-repeat;
+  background-size: 0% 1px;
+  background-position: 0 100%;
+  transition: color .22s ease, background-size .35s cubic-bezier(0.2, 0.9, 0.3, 1);
 }
-.card.playing .card-title { color: var(--accent); }
+.card:hover .card-title { background-size: 100% 1px; }
+.card.playing .card-title { color: var(--accent); background-size: 100% 1px; }
 
+/* Two rows again: source on top, actions below. Never overflows because
+   each row is width-bounded and actions use flex-wrap. */
 .card-sub {
   font-family: var(--font-mono);
   font-size: 0.66rem;
   color: var(--muted);
-  margin-top: 8px;
+  margin-top: 10px;
   display: flex;
-  gap: 10px;
-  align-items: center;
+  flex-direction: column;
+  gap: 6px;
+  min-width: 0;
   font-variant-numeric: tabular-nums;
   letter-spacing: 0.06em;
+}
+.card-source {
+  color: var(--muted);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  display: block;
+  min-width: 0;
+  max-width: 100%;
+}
+.card-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: center;
+  min-width: 0;
 }
 .card-sub a {
   border-bottom: 1px solid var(--hairline-2);

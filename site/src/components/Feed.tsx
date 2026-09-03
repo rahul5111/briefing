@@ -392,43 +392,40 @@ export default function Feed({ stories, cdnBase }: Props) {
                     </div>
                   </div>
                   <div className="card-meta">
-                    <span className="cat">{mainCategoryOf(s)}</span>
-                    {subCategoryOf(s) && (
-                      <>
-                        <span className="card-meta-sep" aria-hidden="true">›</span>
+                    <div className="card-kicker">
+                      <span className="cat">{mainCategoryOf(s)}</span>
+                      {subCategoryOf(s) && (
                         <span className="sub">{subCategoryOf(s)}</span>
-                      </>
-                    )}
-                    <span className="card-meta-sep" aria-hidden="true">·</span>
-                    <span>{fmtDuration(s.estimated_duration_s)}</span>
-                    <span className="card-meta-sep" aria-hidden="true">·</span>
-                    <span>{fmtTime(s.published_at)}</span>
+                      )}
+                    </div>
+                    <div className="card-details">
+                      <span className="card-duration">{fmtDuration(s.estimated_duration_s)}</span>
+                      <span className="card-details-sep" aria-hidden="true">·</span>
+                      <span>{fmtTime(s.published_at)}</span>
+                    </div>
                   </div>
                   <h2 className="card-title">{s.title}</h2>
                   <div className="card-sub">
-                    <span>{s.source_domain || s.source}</span>
-                    {(s.sources?.length ?? 0) > 1 && (
-                      <>
-                        <span className="card-meta-sep" aria-hidden="true">·</span>
+                    <span className="card-source">{s.source_domain || s.source}</span>
+                    <div className="card-actions">
+                      {(s.sources?.length ?? 0) > 1 && (
                         <span
                           className="sources-chip"
                           title={s.sources!.map((r) => r.domain || r.name).join(" · ")}
                         >
                           {s.sources!.length} sources
                         </span>
-                      </>
-                    )}
-                    <span className="card-meta-sep" aria-hidden="true">·</span>
-                    <a
-                      href={s.source_url || s.source_permalink || s.hn_permalink || "#"}
-                      target="_blank"
-                      rel="noreferrer"
-                      onClick={(e) => e.stopPropagation()}
-                    >article</a>
-                    <span className="card-meta-sep" aria-hidden="true">·</span>
-                    <a href="#" onClick={(e) => toggleOpen(s.id, e)}>
-                      {openId === s.id ? "hide" : "read"}
-                    </a>
+                      )}
+                      <a
+                        href={s.source_url || s.source_permalink || s.hn_permalink || "#"}
+                        target="_blank"
+                        rel="noreferrer"
+                        onClick={(e) => e.stopPropagation()}
+                      >article ↗</a>
+                      <a href="#" onClick={(e) => toggleOpen(s.id, e)}>
+                        {openId === s.id ? "hide" : "read"}
+                      </a>
+                    </div>
                   </div>
                   <AnimatePresence initial={false}>
                     {openId === s.id && (
