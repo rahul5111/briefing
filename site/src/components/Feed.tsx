@@ -55,15 +55,18 @@ const DAYS_LONG = ["SUNDAY","MONDAY","TUESDAY","WEDNESDAY","THURSDAY","FRIDAY","
 const MONTHS = ["JAN","FEB","MAR","APR","MAY","JUN","JUL","AUG","SEP","OCT","NOV","DEC"];
 
 function groupByDay(stories: Story[]) {
-  const groups: { label: string; items: Story[] }[] = [];
-  let cur = "";
+  const byLabel = new Map<string, Story[]>();
+  const order: string[] = [];
   for (const s of stories) {
     const d = new Date(s.published_at);
     const label = `${DAYS_LONG[d.getUTCDay()]}, ${MONTHS[d.getUTCMonth()]} ${d.getUTCDate()}`;
-    if (label !== cur) { groups.push({ label, items: [] }); cur = label; }
-    groups[groups.length - 1].items.push(s);
+    if (!byLabel.has(label)) {
+      byLabel.set(label, []);
+      order.push(label);
+    }
+    byLabel.get(label)!.push(s);
   }
-  return groups;
+  return order.map((label) => ({ label, items: byLabel.get(label)! }));
 }
 
 /**
@@ -257,18 +260,20 @@ export default function Feed({ stories, cdnBase }: Props) {
               {g.items.map((s, i) => (
                 <motion.article
                   key={s.id}
-                  className={`card ${ageBucket(s.published_at, nowMs)} ${current?.id === s.id ? "playing" : ""}`}
+                  className={`card ${ageBucket(s.published_at, nowMs)} ${current?.id === s.id ? "playing" : ""} ${i === 0 ? "featured" : ""}`}
                   onClick={() => onPlayClick(s)}
-                  initial={{ opacity: 0, y: 12 }}
-                  whileInView={{ opacity: 1, y: 0 }}
-                  viewport={{ once: true, amount: 0.2 }}
-                  transition={{ duration: 0.4, delay: Math.min(i, 8) * 0.04, ease: [0.16, 1, 0.3, 1] }}
+                  initial={{ opacity: 0, y: 8 }}
+                  animate={{ opacity: 1, y: 0 }}
+                  transition={{ duration: 0.35, delay: Math.min(i, 12) * 0.025, ease: [0.16, 1, 0.3, 1] }}
                 >
                   <div className="card-cover">
                     {s.image_url ? (
                       <img src={s.image_url} alt="" loading="lazy" />
                     ) : (
-                      <div className="card-cover-fallback">{s.category?.[0] ?? "•"}</div>
+                      <div className="card-cover-fallback">
+                        <span className="fallback-cat">{s.category || "News"}</span>
+                        <span className="fallback-domain">{s.source_domain || s.source || ""}</span>
+                      </div>
                     )}
                     <div className="card-cover-play" aria-hidden="true">
                       {current?.id === s.id && playing ? "❚❚" : "▶"}
@@ -346,7 +351,7 @@ export default function Feed({ stories, cdnBase }: Props) {
 
         <div className="player-body">
           <div className="player-title">
-            {current ? current.title : "Select a story to play"}
+            {current ? current.title : "Nothing playing"}
           </div>
           <div className="player-meta">
             {current ? (
@@ -361,11 +366,11 @@ export default function Feed({ stories, cdnBase }: Props) {
                   rel="noreferrer"
                   className="player-article-link"
                 >
-                  read full article ↗
+                  read the source article ↗
                 </a>
               </>
             ) : (
-              <span>tap any story above to begin</span>
+              <span>Tap any story above to start listening.</span>
             )}
           </div>
           <Scrubber now={now} dur={dur || (current?.estimated_duration_s ?? 0)} onSeek={seek} />
