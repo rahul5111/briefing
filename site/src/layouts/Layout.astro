@@ -8,8 +8,16 @@ const { title = "Briefing" } = Astro.props;
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="color-scheme" content="dark" />
+    <meta name="theme-color" content="#0b1220" />
     <title>{title}</title>
-    <link rel="alternate" type="application/rss+xml" title="Briefing" href="/rss.xml" />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+    <link rel="icon" type="image/png" sizes="64x64" href="/favicon-64.png" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <link rel="alternate" type="application/rss+xml" title="Briefing" href="/data/rss.xml" />
   </head>
   <body>
     <img src="/bg.svg" alt="" class="bg-svg" aria-hidden="true" />

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128">
+  <!-- Deep ink background with soft rounded corners, matches the site palette -->
+  <rect width="128" height="128" rx="20" fill="#0b1220"/>
+
+  <!-- Signal-glow gradient behind the mark — echoes the amber dusk in the bg SVG -->
+  <defs>
+    <radialGradient id="glow" cx="50%" cy="72%" r="55%">
+      <stop offset="0%"  stop-color="#e8a64b" stop-opacity="0.28"/>
+      <stop offset="60%" stop-color="#e8a64b" stop-opacity="0.05"/>
+      <stop offset="100%" stop-color="#e8a64b" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="128" height="128" rx="20" fill="url(#glow)"/>
+
+  <!-- Italic serif B — matches the Cormorant Garamond masthead. -->
+  <text x="64" y="92"
+        text-anchor="middle"
+        font-family="'Cormorant Garamond', 'Playfair Display', 'Times New Roman', Georgia, serif"
+        font-style="italic"
+        font-weight="700"
+        font-size="98"
+        fill="#e8a64b"
+        letter-spacing="-2">B</text>
+
+  <!-- Tiny broadcast tick under the mark — the dispatch signature -->
+  <line x1="42" y1="106" x2="86" y2="106" stroke="#e8a64b" stroke-width="1.6" opacity="0.85"/>
+</svg>
