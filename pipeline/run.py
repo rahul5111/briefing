@@ -131,6 +131,8 @@ def main() -> int:
         audio_path = config.DATA_DIR / story["audio_path"]
         print(f"  TTS -> {audio_path.name}")
         try:
+            # Category is filled after TTS in the current pipeline; use "default"
+            # for now so voicing at least follows the news-anchor palette.
             stats = tts.synth(refined.text, audio_path, "default")
             story["audio_bytes"] = audio_path.stat().st_size
             story["audio_duration_s"] = round(stats["duration_s"], 1)

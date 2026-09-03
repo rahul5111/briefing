@@ -1,4 +1,4 @@
-import { lazy, Suspense, useEffect, useMemo, useRef, useState } from "react";
+import { lazy, Suspense, useEffect, useMemo, useRef, useState, useCallback } from "react";
 import { AnimatePresence, motion } from "motion/react";
 
 const Globe = lazy(() => import("./Globe"));
@@ -67,112 +67,69 @@ function groupByDay(stories: Story[]) {
 }
 
 /**
- * Waveform canvas — the one authored moment. Draws either:
- *  - a live-audio spectrum (via WebAudio AnalyserNode) when playing, or
- *  - a subtle idle baseline (a low horizon line) when paused.
- * Falls back to idle if WebAudio setup fails (e.g. CORS on remote audio).
+ * Draggable scrubber. Shows played-portion as amber fill, has a handle you
+ * can drag along the track, click anywhere on the track to seek there.
+ * Deliberately quiet — the signature moment is on the globe view now.
  */
-function useWaveform(
-  audioEl: HTMLAudioElement | null,
-  playing: boolean
-) {
-  const canvasRef = useRef<HTMLCanvasElement | null>(null);
-  const ctxRef = useRef<AudioContext | null>(null);
-  const analyserRef = useRef<AnalyserNode | null>(null);
-  const sourceRef = useRef<MediaElementAudioSourceNode | null>(null);
-  const rafRef = useRef<number | null>(null);
+function Scrubber({
+  now,
+  dur,
+  onSeek,
+}: {
+  now: number;
+  dur: number;
+  onSeek: (t: number) => void;
+}) {
+  const trackRef = useRef<HTMLDivElement | null>(null);
+  const [dragging, setDragging] = useState(false);
+  const [dragPct, setDragPct] = useState(0);
 
-  useEffect(() => {
-    if (!audioEl || !canvasRef.current) return;
-    const canvas = canvasRef.current;
-    const cvsCtx = canvas.getContext("2d");
-    if (!cvsCtx) return;
+  const pct = dur > 0 ? Math.min(1, Math.max(0, now / dur)) : 0;
+  const shownPct = dragging ? dragPct : pct;
 
-    const setSize = () => {
-      const dpr = window.devicePixelRatio || 1;
-      const w = canvas.clientWidth;
-      const h = canvas.clientHeight;
-      canvas.width = w * dpr;
-      canvas.height = h * dpr;
-      cvsCtx.setTransform(dpr, 0, 0, dpr, 0, 0);
-    };
-    setSize();
-    const ro = new ResizeObserver(setSize);
-    ro.observe(canvas);
+  const pctFromEvent = useCallback((clientX: number) => {
+    const el = trackRef.current;
+    if (!el) return 0;
+    const rect = el.getBoundingClientRect();
+    return Math.min(1, Math.max(0, (clientX - rect.left) / rect.width));
+  }, []);
 
-    const drawIdle = () => {
-      const w = canvas.clientWidth;
-      const h = canvas.clientHeight;
-      cvsCtx.clearRect(0, 0, w, h);
-      cvsCtx.strokeStyle = "rgba(123,135,148,0.35)";
-      cvsCtx.lineWidth = 1;
-      cvsCtx.beginPath();
-      cvsCtx.moveTo(0, h / 2);
-      cvsCtx.lineTo(w, h / 2);
-      cvsCtx.stroke();
-    };
+  const beginDrag = (e: React.PointerEvent) => {
+    if (!dur) return;
+    (e.target as Element).setPointerCapture(e.pointerId);
+    setDragging(true);
+    setDragPct(pctFromEvent(e.clientX));
+  };
+  const moveDrag = (e: React.PointerEvent) => {
+    if (!dragging) return;
+    setDragPct(pctFromEvent(e.clientX));
+  };
+  const endDrag = (e: React.PointerEvent) => {
+    if (!dragging) return;
+    const p = pctFromEvent(e.clientX);
+    setDragging(false);
+    onSeek(p * dur);
+  };
 
-    const drawLive = () => {
-      if (!analyserRef.current) return;
-      const a = analyserRef.current;
-      const bins = a.frequencyBinCount;
-      const data = new Uint8Array(bins);
-      a.getByteFrequencyData(data);
-
-      const w = canvas.clientWidth;
-      const h = canvas.clientHeight;
-      cvsCtx.clearRect(0, 0, w, h);
-
-      const barCount = 64;
-      const step = Math.floor(bins / barCount);
-      const barW = w / barCount;
-      cvsCtx.fillStyle = "#e8a64b";
-      for (let i = 0; i < barCount; i++) {
-        let sum = 0;
-        for (let j = 0; j < step; j++) sum += data[i * step + j];
-        const v = sum / step / 255;
-        const barH = Math.max(1, v * h * 0.9);
-        cvsCtx.fillRect(i * barW + 0.5, (h - barH) / 2, barW - 1.5, barH);
-      }
-      rafRef.current = requestAnimationFrame(drawLive);
-    };
-
-    if (!playing) {
-      if (rafRef.current) cancelAnimationFrame(rafRef.current);
-      drawIdle();
-      return () => ro.disconnect();
-    }
-
-    // Lazy-init WebAudio graph
-    try {
-      if (!ctxRef.current) {
-        const AC = window.AudioContext || (window as any).webkitAudioContext;
-        ctxRef.current = new AC();
-      }
-      const ctx = ctxRef.current!;
-      if (ctx.state === "suspended") ctx.resume();
-
-      if (!sourceRef.current) {
-        sourceRef.current = ctx.createMediaElementSource(audioEl);
-        const analyser = ctx.createAnalyser();
-        analyser.fftSize = 256;
-        analyser.smoothingTimeConstant = 0.75;
-        sourceRef.current.connect(analyser);
-        analyser.connect(ctx.destination);
-        analyserRef.current = analyser;
-      }
-      rafRef.current = requestAnimationFrame(drawLive);
-    } catch (e) {
-      drawIdle();
-    }
-
-    return () => {
-      if (rafRef.current) cancelAnimationFrame(rafRef.current);
-      ro.disconnect();
-    };
-  }, [audioEl, playing]);
-
-  return canvasRef;
+  return (
+    <div
+      ref={trackRef}
+      className={`scrubber ${dragging ? "dragging" : ""} ${dur ? "" : "disabled"}`}
+      onPointerDown={beginDrag}
+      onPointerMove={moveDrag}
+      onPointerUp={endDrag}
+      onPointerCancel={endDrag}
+      role="slider"
+      aria-valuemin={0}
+      aria-valuemax={100}
+      aria-valuenow={Math.round(shownPct * 100)}
+      aria-label="Playback position"
+    >
+      <div className="scrubber-track" />
+      <div className="scrubber-fill" style={{ width: `${shownPct * 100}%` }} />
+      <div className="scrubber-handle" style={{ left: `${shownPct * 100}%` }} />
+    </div>
+  );
 }
 
 export default function Feed({ stories, cdnBase }: Props) {
@@ -188,7 +145,13 @@ export default function Feed({ stories, cdnBase }: Props) {
   );
   useEffect(() => { setNowMs(Date.now()); }, []);
   const audioRef = useRef<HTMLAudioElement | null>(null);
-  const canvasRef = useWaveform(audioRef.current, playing);
+
+  const seek = useCallback((t: number) => {
+    const a = audioRef.current;
+    if (!a || !isFinite(t)) return;
+    a.currentTime = t;
+    setNow(t);
+  }, []);
 
   const counts = useMemo(() => {
     const c: Record<string, number> = { ALL: stories.length };
@@ -380,7 +343,7 @@ export default function Feed({ stories, cdnBase }: Props) {
               <span>tap any story above to begin</span>
             )}
           </div>
-          <canvas ref={canvasRef} className="player-wave" aria-hidden="true" />
+          <Scrubber now={now} dur={dur || (current?.estimated_duration_s ?? 0)} onSeek={seek} />
         </div>
 
         <div className="player-time">

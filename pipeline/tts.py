@@ -21,17 +21,24 @@ _MODEL_URL = "https://github.com/thewh1teagle/kokoro-onnx/releases/download/mode
 _VOICES_URL = "https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/voices-v1.0.bin"
 
 
+# News-anchor voice palette. am_liam is mature, warm, and reads with the
+# cadence of an evening bulletin — the opposite of the previous soft-whisper
+# default. Kept a fallback map for future per-category voicing.
 VOICE_BY_CATEGORY = {
-    "tech":    "af_bella",
-    "world":   "am_michael",
-    "default": "af_nicole",
+    "WORLD":    "am_liam",       # anchor voice for hard news
+    "SECURITY": "am_liam",
+    "AI":       "am_michael",    # crisper, energetic
+    "STARTUPS": "am_michael",
+    "DEV":      "am_michael",
+    "RESEARCH": "bm_george",     # British, informative feel
+    "default":  "am_liam",
 }
 
-SPEED = 1.0
-GAP_SENTENCE_S = 0.28    # silence between sentences
-GAP_PARAGRAPH_S = 0.55   # silence between paragraphs (double-newline)
-GAP_OPEN_S = 0.20        # small pre-roll so the first word isn't clipped
-GAP_TAIL_S = 0.35        # tail so the last word isn't cut off
+SPEED = 1.08              # +8% brings it out of "whispering" territory
+GAP_SENTENCE_S = 0.32     # slightly longer for more dramatic pace
+GAP_PARAGRAPH_S = 0.60
+GAP_OPEN_S = 0.15
+GAP_TAIL_S = 0.35
 
 _kokoro = None
 
@@ -126,7 +133,7 @@ def synth(text: str, out_path: Path, category: str = "default") -> dict:
         raise ValueError("empty text")
 
     k = _get_kokoro()
-    voice = VOICE_BY_CATEGORY.get(category, VOICE_BY_CATEGORY["default"])
+    voice = VOICE_BY_CATEGORY.get((category or "").upper(), VOICE_BY_CATEGORY["default"])
 
     units = _split_into_units(text)
     if not units:

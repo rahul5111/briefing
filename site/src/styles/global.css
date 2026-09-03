@@ -404,12 +404,54 @@ header.masthead {
   border-bottom-color: var(--amber);
 }
 
-.player-wave {
-  display: block;
-  width: 100%;
-  height: 18px;
-  margin-top: 6px;
+/* Scrubber — thin track + amber fill + draggable handle */
+.scrubber {
+  position: relative;
+  height: 22px;
+  margin-top: 8px;
+  cursor: pointer;
+  touch-action: none;
+  user-select: none;
 }
+.scrubber.disabled { cursor: default; opacity: 0.4; }
+.scrubber-track {
+  position: absolute;
+  left: 0; right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 2px;
+  background: var(--hairline-2);
+  border-radius: 1px;
+}
+.scrubber-fill {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  height: 2px;
+  background: var(--amber);
+  border-radius: 1px;
+  transition: width 0.08s linear;
+}
+.scrubber.dragging .scrubber-fill { transition: none; }
+.scrubber-handle {
+  position: absolute;
+  top: 50%;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: var(--amber);
+  transform: translate(-50%, -50%);
+  transition: transform 0.15s ease, box-shadow 0.15s ease, width 0.15s ease, height 0.15s ease;
+  box-shadow: 0 0 0 0 rgba(232, 166, 75, 0.0);
+}
+.scrubber:hover .scrubber-handle,
+.scrubber.dragging .scrubber-handle {
+  width: 16px;
+  height: 16px;
+  box-shadow: 0 0 0 6px rgba(232, 166, 75, 0.14);
+}
+.scrubber.dragging .scrubber-handle { transition: none; }
 
 .player-time {
   font-family: var(--font-mono);
@@ -468,7 +510,8 @@ header.masthead {
   .player-title { font-size: 0.9rem; }
   .player-meta { font-size: 0.58rem; gap: 6px; margin-top: 3px; }
   .player-time { font-size: 0.66rem; }
-  .player-wave { height: 14px; margin-top: 4px; }
+  .scrubber { height: 18px; margin-top: 4px; }
+  .scrubber-handle { width: 10px; height: 10px; }
   .masthead { padding-bottom: 24px; }
   .masthead .meta { font-size: 0.64rem; letter-spacing: 0.1em; }
 }

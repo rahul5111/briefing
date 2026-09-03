@@ -48,6 +48,19 @@ sources:
     lookback_hours: 168
     max_items: 15
 
+  # ─── Science ────────────────────────────────────────────────────
+  - name: sciencedaily_top
+    type: rss
+    url: https://www.sciencedaily.com/rss/top.xml
+    lookback_hours: 168
+    max_items: 15
+
+  - name: sciencedaily_tech
+    type: rss
+    url: https://www.sciencedaily.com/rss/matter_energy/computer_science.xml
+    lookback_hours: 168
+    max_items: 15
+
   # ─── World news (RSS) ───────────────────────────────────────────
   - name: bbc_world
     type: rss
