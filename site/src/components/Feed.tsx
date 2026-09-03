@@ -35,8 +35,20 @@ type Story = {
 
 // PLAN.md § 1 — locked 8-cat taxonomy. Displayed left-to-right.
 // Legacy stories (with old cats AI/STARTUPS/DEV/SECURITY/RESEARCH/WORLD) are
-// bucketed via LEGACY_TO_MAIN until the classifier rewrite (PLAN A2) lands.
+// bucketed via LEGACY_TO_MAIN.
 const MAIN_CATEGORIES = ["AI", "TECH", "SCIENCE", "SPORTS", "US", "INDIA", "WORLD", "BUSINESS"];
+
+// Subcategory taxonomy mirrors pipeline/categorize.py (PLAN.md § 1).
+const SUB_BY_MAIN: Record<string, string[]> = {
+  AI: ["Models & Research", "Products & Tools", "Infrastructure", "Policy & Safety", "Industry"],
+  TECH: ["Software & Open Source", "Startups", "Consumer Tech", "Enterprise & Cloud", "Security & Privacy", "Gaming"],
+  SCIENCE: ["Space & Physics", "Biology & Medicine", "Climate & Environment", "Materials & Chemistry", "Engineering & Robotics", "Awards & Patents"],
+  SPORTS: ["Major Events", "Badminton", "Track & Field", "Cricket", "Tennis", "Cycling", "Boxing & MMA", "Marathons & Endurance", "Motorsport", "Soccer", "Basketball", "Golf", "Other"],
+  US: ["Politics", "Economy", "Law & Courts", "Health", "Disasters", "Policy Changes", "Society"],
+  INDIA: ["Politics", "Economy", "Law & Courts", "Health", "Disasters", "Policy Changes", "Society", "Foreign Relations"],
+  WORLD: ["Politics & Elections", "Conflict & Security", "Economy & Trade", "Climate & Disasters", "Society & Culture", "Health & Public Policy"],
+  BUSINESS: ["M&A & Deals", "Markets & IPOs", "Leadership & Layoffs", "Finance & Fintech", "Antitrust & Regulation", "Retail & Consumer"],
+};
 
 const LEGACY_TO_MAIN: Record<string, string> = {
   AI: "AI",
@@ -169,6 +181,7 @@ export default function Feed({ stories, cdnBase }: Props) {
   const [dur, setDur] = useState(0);
   const [openId, setOpenId] = useState<string | null>(null);
   const [activeCat, setActiveCat] = useState<string>("ALL");
+  const [activeSub, setActiveSub] = useState<string | null>(null);
   const [view, setView] = useState<"list" | "globe">("list");
   const [nowMs, setNowMs] = useState(() =>
     stories.length ? new Date(stories[0].published_at).getTime() : 0
@@ -203,10 +216,27 @@ export default function Feed({ stories, cdnBase }: Props) {
   }, [stories]);
 
   const filtered = useMemo(
-    () => (activeCat === "ALL" ? stories : stories.filter((s) => mainCategoryOf(s) === activeCat)),
-    [stories, activeCat]
+    () => {
+      let out = activeCat === "ALL" ? stories : stories.filter((s) => mainCategoryOf(s) === activeCat);
+      if (activeSub) out = out.filter((s) => subCategoryOf(s) === activeSub);
+      return out;
+    },
+    [stories, activeCat, activeSub]
   );
   const grouped = useMemo(() => groupByDay(filtered), [filtered]);
+
+  // Sub-counts within the currently-active main tab.
+  const subCounts = useMemo(() => {
+    if (activeCat === "ALL") return {} as Record<string, number>;
+    const c: Record<string, number> = {};
+    for (const s of stories) {
+      if (mainCategoryOf(s) !== activeCat) continue;
+      const sub = subCategoryOf(s);
+      if (!sub) continue;
+      c[sub] = (c[sub] || 0) + 1;
+    }
+    return c;
+  }, [stories, activeCat]);
 
   useEffect(() => {
     const a = audioRef.current;
@@ -264,7 +294,7 @@ export default function Feed({ stories, cdnBase }: Props) {
               key={c}
               type="button"
               className={`tuner-btn ${activeCat === c ? "active" : ""}`}
-              onClick={() => setActiveCat(c)}
+              onClick={() => { setActiveCat(c); setActiveSub(null); }}
             >
               <span className="tuner-label">{c}</span>
               <span className="tuner-count">{counts[c] ?? 0}</span>
@@ -295,6 +325,28 @@ export default function Feed({ stories, cdnBase }: Props) {
           >Globe</button>
         </div>
       </div>
+
+      {activeCat !== "ALL" && (SUB_BY_MAIN[activeCat]?.some((s) => (subCounts[s] ?? 0) > 0)) && (
+        <nav className="sub-strip" aria-label={`${activeCat} subcategories`}>
+          <button
+            type="button"
+            className={`sub-chip ${activeSub === null ? "active" : ""}`}
+            onClick={() => setActiveSub(null)}
+          >
+            All <span className="sub-chip-count">{filtered.length}</span>
+          </button>
+          {SUB_BY_MAIN[activeCat].filter((s) => (subCounts[s] ?? 0) > 0).map((s) => (
+            <button
+              key={s}
+              type="button"
+              className={`sub-chip ${activeSub === s ? "active" : ""}`}
+              onClick={() => setActiveSub(activeSub === s ? null : s)}
+            >
+              {s} <span className="sub-chip-count">{subCounts[s]}</span>
+            </button>
+          ))}
+        </nav>
+      )}
 
       {view === "globe" && (
         <Suspense fallback={<div className="empty">Loading globe…</div>}>

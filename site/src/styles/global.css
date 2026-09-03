@@ -170,6 +170,39 @@ a { color: inherit; text-decoration: none; }
   background: var(--accent);
 }
 
+/* Subcategory strip — appears under the tuner when a main cat is active */
+.sub-strip {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin: -8px 0 20px;
+  padding: 4px 0;
+}
+.sub-chip {
+  background: transparent;
+  border: 1px solid var(--hairline-2);
+  color: var(--muted);
+  padding: 5px 12px;
+  border-radius: 999px;
+  cursor: pointer;
+  font-family: var(--font-mono);
+  font-size: 0.66rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  transition: color .15s ease, border-color .15s ease, background .15s ease;
+  font-variant-numeric: tabular-nums;
+  display: inline-flex;
+  align-items: baseline;
+  gap: 6px;
+}
+.sub-chip:hover { color: var(--ink); border-color: var(--ink); }
+.sub-chip.active {
+  color: var(--paper);
+  background: var(--accent);
+  border-color: var(--accent);
+}
+.sub-chip-count { font-size: 0.58rem; opacity: 0.75; }
+
 /* View toggle (List / Globe) */
 .view-toggle {
   display: flex;
