@@ -1,105 +1,122 @@
 # Briefing
 
-A personal audio briefing of tech and world news. HN top stories are fetched,
-extracted, summarized as 150–360-word audio scripts, and rendered as MP3s via
-Kokoro TTS. A static Astro site lists them; the same feed is exposed as a
-podcast RSS.
+A personal audio briefing of the day's tech, science, and world news. Stories
+are pulled from ~20 sources (Hacker News, RSS blogs, Reddit, TLDR newsletters,
+Science Daily, world-news wires), filtered for significance, refined through a
+multi-pass LLM pipeline, validated end-to-end with Whisper, and rendered as
+MP3s via local Kokoro TTS.
 
-Everything runs on free tiers.
+Live at **https://briefing-psi-ten.vercel.app**. The pipeline runs three times
+a day on free tiers (GitHub Actions cron + Google Gemini free tier + Vercel
+hobby). Total monthly cost: $0.
+
+For the durable roadmap and category taxonomy see [`PLAN.md`](./PLAN.md) — it
+is authoritative across sessions. This README covers the shipped state.
 
 ## Stack
 
 | Layer | Tech |
 |---|---|
-| Source | HN Algolia API |
-| Extract | trafilatura |
-| Dedup | sentence-transformers (MiniLM-L6-v2) |
-| Summarize | Google Gemini 2.0 Flash |
-| TTS | Kokoro-82M via kokoro-onnx (local, CPU) |
-| Orchestration | GitHub Actions (cron every 4h) |
-| Storage | Git repo + jsDelivr CDN |
-| Site | Astro + React island (motion/react) |
-| Hosting | Cloudflare Pages |
-| Access | Cloudflare Access (password gate) |
+| Sources | HN (Algolia) · RSS (Verge, Ars, TechCrunch, MIT TR, BBC, Reuters, Al Jazeera, Stratechery, Platformer, Science Daily) · Reddit (programming, worldnews) · TLDR (tech / ai / webdev / infosec / design) |
+| Extract | trafilatura (article body + og:image) |
+| Dedup | sentence-transformers (MiniLM-L6-v2), threshold 0.82 |
+| Significance gate | Gemini scoring (IMPORTANT / INTERESTING / ORDINARY / TRIVIAL / PROMOTIONAL) |
+| Refinement | Multi-pass Gemini (`gemini-3.5-flash-lite`) — key-points → draft → hallucination check → coverage gate → audio rewrite → deterministic pronunciation normalize → sanity pass |
+| TTS | Kokoro-82M via `kokoro-onnx` (local CPU), `am_liam` at 1.08× with real silence gaps |
+| Audio validation | `faster-whisper` (`tiny.en`) round-trip: WER / CER / silence-gap analysis |
+| Orchestration | GitHub Actions cron `0 12,19,2 * * *` (3× daily UTC) |
+| Site | Astro 5 + React 19 island (Framer Motion), Bricolage Grotesque / Inter Tight / JetBrains Mono, react-globe.gl |
+| Hosting | Vercel (deployed from GHA via `VERCEL_TOKEN`) |
+| Storage | Repo-committed `site/public/data/` — single source of truth for feed + audio |
+
+## How the pipeline works
+
+1. **Fetch** — `pipeline/sources.yaml` drives per-source adapters
+   (`pipeline/sources/*.py`) with a round-robin cap so no single source drowns
+   the others.
+2. **Extract** — trafilatura pulls the article body + `og:image`.
+3. **Dedup** — MiniLM embeddings, cosine ≥ 0.82 → duplicate.
+4. **Significance gate** (`significance.py`) — cheap Gemini call scores each
+   title; only `IMPORTANT` + `INTERESTING` continue.
+5. **Refinement** (`refine.py`) — many cheap LLM passes before spending TTS
+   budget:
+   1. `key_points.distill` — extract 5–8 must-include facts
+   2. `_draft` — first-pass summary
+   3. `_local_verify` (regex) → `_redraft` if hallucinated numbers/names
+   4. `key_points.coverage` on draft; if <85 % → `_expand_for_coverage`
+   5. `_audio_rewrite` — spoken cadence (numbers spelled out, acronyms
+      letter-spaced, short sentences)
+   6. `_pronunciation` — deterministic regex normalize (`normalize.py`)
+   7. Final coverage check on normalized text
+   8. `_sanity` — final read-aloud LLM check
+   9. Write review to `data/reviews/YYYY-MM-DD/{id}.txt` for spot-check
+6. **TTS** (`tts.py`) — chunked Kokoro with real sentence pauses
+   (0.32s sentence, 0.60s paragraph). Voice mapped by category:
+   AI/STARTUPS/DEV → `am_michael`, WORLD/SECURITY → `am_liam`,
+   RESEARCH → `bm_george`, default `am_liam`. Speed `1.08×`.
+7. **Audio validation** (`audio_validate.py`) — Whisper transcribes the MP3
+   and compares to input. GOOD (WER <10 %) / ACCEPTABLE (<20 %) / POOR.
+8. **Manifest + RSS** — writes `feed.json` and `rss.xml`.
+9. **Commit + push** — the GHA workflow commits the new data back to the repo
+   and Vercel picks it up on the next build.
+
+Data path (single source of truth):
+```
+site/public/data/
+  feed.json
+  rss.xml
+  audio/YYYY-MM-DD/*.mp3
+```
+
+Reviews (per-story refinement transcripts, gitignored):
+```
+data/reviews/YYYY-MM-DD/*.txt
+```
 
 ## First-time setup
 
 ### 1. Get a Google Gemini API key (free)
 
-- Go to https://aistudio.google.com/app/apikey
-- Create an API key
-- Copy it — you'll add it to GitHub Secrets in step 3
+- https://aistudio.google.com/app/apikey → create key
+- The pipeline defaults to `gemini-3.5-flash-lite`. The `-lite` variant has a
+  separate, larger free-tier quota than the top-tier Flash models (which have
+  tightened to ~20 requests/day).
 
-Free tier: ~1,500 requests/day of `gemini-2.0-flash`. The pipeline uses ~20/run.
-
-### 2. Push this project to a new GitHub repo
+### 2. Push the repo
 
 ```bash
-cd /Users/rahul5111/Desktop/newsbriefing
-git init
-git add .
-git commit -m "initial commit"
 gh repo create briefing --public --source=. --push
 ```
 
-The repo needs to be **public** for jsDelivr to serve the audio files. If you
-want it private, swap `CDN_BASE` in the workflow to a signed URL scheme.
+### 3. Wire Vercel
 
-### 3. Add secrets in GitHub
+Link the repo to a Vercel project once via `vercel link` from `site/`. Then
+set these three GitHub Actions secrets so the workflow can deploy without an
+interactive Vercel Login Connection:
 
-Repo → Settings → Secrets and variables → Actions:
+- `GEMINI_API_KEY`
+- `VERCEL_TOKEN` (from https://vercel.com/account/tokens)
+- `VERCEL_ORG_ID`, `VERCEL_PROJECT_ID` (from `site/.vercel/project.json`)
 
-- **Secret** `GEMINI_API_KEY` = your key from step 1
-- **Variable** `SITE_URL` = the URL you'll get from Cloudflare Pages in step 4
-  (you can set this after step 4 finishes)
+### 4. Trigger the first run
 
-### 4. Deploy the site on Cloudflare Pages
+Repo → Actions → **briefing-pipeline** → Run workflow.
 
-- Cloudflare dashboard → Workers & Pages → Create → Pages → Connect to Git
-- Pick the `briefing` repo
-- Build settings:
-  - Framework preset: **Astro**
-  - Build command: `cd site && npm install && npm run build`
-  - Build output: `site/dist`
-  - Root directory: (leave blank)
-  - Environment variables:
-    - `PUBLIC_CDN_BASE` = `https://cdn.jsdelivr.net/gh/<your-user>/briefing@main/data`
-- Deploy
+First run downloads Kokoro (~350 MB) and takes ~8 minutes; subsequent runs
+finish in 3–5 minutes.
 
-You'll get a URL like `briefing-abc.pages.dev`. Set this as the `SITE_URL`
-variable in step 3.
+### 5. (Optional) Subscribe as a podcast
 
-### 5. Password-gate the site with Cloudflare Access (free)
-
-- Zero Trust dashboard → Access → Applications → Add an application → Self-hosted
-- Application domain: `briefing-abc.pages.dev`
-- Session duration: 1 month
-- Policy: name it "me", action = Allow, include = Emails → your email
-- Save. Now the site requires a one-time email code to view.
-
-### 6. Trigger the first run
-
-Repo → Actions → briefing-pipeline → Run workflow
-
-First run downloads the Kokoro model (~350 MB) and takes ~10 minutes. Subsequent
-runs use the cached model and finish in 3–5 minutes.
-
-After it completes, the site rebuilds automatically and your first batch of
-stories appears.
-
-### 7. (Optional) Subscribe as a podcast
-
-The workflow writes `data/rss.xml`. Add this URL in Overcast / Pocket Casts:
+The pipeline writes `site/public/data/rss.xml`. Point Overcast / Pocket Casts /
+Apple Podcasts at:
 
 ```
-https://cdn.jsdelivr.net/gh/<your-user>/briefing@main/data/rss.xml
+https://briefing-psi-ten.vercel.app/data/rss.xml
 ```
-
-Now you also get episodes pushed to your phone automatically.
 
 ## Running the pipeline locally
 
-Use Python 3.12 (Kokoro's ONNX runtime and torch have no wheels for 3.14+):
+Python 3.12 (Kokoro ONNX + torch have no wheels for 3.14+):
 
 ```bash
 cd /Users/rahul5111/Desktop/newsbriefing
@@ -107,73 +124,102 @@ python3.12 -m venv .venv
 source .venv/bin/activate
 pip install -r pipeline/requirements.txt
 
-# put your key in .env once (chmod 600, gitignored)
+# .env is gitignored; chmod 600
 printf 'GEMINI_API_KEY=your-key\n' > .env && chmod 600 .env
 
 set -a && source .env && set +a && python -m pipeline.run
 ```
 
-First run downloads the Kokoro model to `.models/` (~350 MB) and takes 5–10
-minutes. Subsequent runs finish in 3–5 minutes.
+Useful entry points:
 
-Audio files land in `data/audio/YYYY-MM-DD/`, manifest in `data/feed.json`,
-podcast feed in `data/rss.xml`.
-
-### Which Gemini model
-
-`pipeline/config.py` defaults to `gemini-3.5-flash-lite` because Google's free
-tier for the top-tier Flash models has tightened to ~20 requests/day per model.
-The `-lite` variant is a separate quota bucket and comfortably handles a
-20-story batch. Override with `GEMINI_MODEL=your-model` if a future model has a
-better free-tier fit.
+- `python -m pipeline.run` — full pipeline
+- `python -m pipeline.mock_test` — dry-run against fixtures (no TTS spend)
+- `python -m pipeline.test_one <story_id>` — re-synthesize a single story
+- `python -m pipeline.revalidate` — re-run Whisper validation on existing MP3s
 
 ## Running the site locally
 
 ```bash
 cd site
-pnpm install
-pnpm dev
-
-# in another terminal, symlink so the dev server can serve audio files
-# that live outside site/public
-ln -sfn ../../data site/public/data
+npm install
+npm run dev
 ```
 
-The symlink is needed for local dev because Astro only serves files under
-`site/public/`. In production, audio is served from jsDelivr via
-`PUBLIC_CDN_BASE`, so no symlink needed there.
+The site reads `public/data/feed.json` directly — no symlink or CDN indirection.
 
-## Tuning
+## Configuration
 
-All knobs are in `pipeline/config.py`:
+**Ingestion:** add / disable sources in `pipeline/sources.yaml`. RSS, HN,
+Reddit, and TLDR types need no code change. See PLAN.md § 2 for planned
+Google News feeds.
 
-- `HN_MIN_SCORE` — story score threshold (default 150)
-- `HN_LOOKBACK_HOURS` — how far back to look (default 24)
-- `HN_MAX_STORIES` — max stories per run (default 20)
-- `WORDS_MIN` / `WORDS_MAX` — summary length bounds (150–360)
-- `DEDUP_THRESHOLD` — cosine similarity above which stories are considered
-  duplicates (default 0.86)
-- `RETENTION_DAYS` — how long to keep old audio (default 14)
+**Pipeline knobs** (`pipeline/config.py`):
 
-Voice-per-category mapping is in `pipeline/tts.py` (`VOICE_BY_CATEGORY`).
+- `DEDUP_THRESHOLD = 0.82`
+- `MAX_NEW_PER_RUN = 60` (safety cap; significance gate normally limits volume)
+- `RETENTION_DAYS = 7`
+- `MAX_MANIFEST_STORIES = 400`
+- `WORDS_MIN / WORDS_MAX = 150 / 360`
+- `GEMINI_MODEL = "gemini-3.5-flash-lite"` (override via env var)
 
-## Adding more sources later
+**Voice** (`pipeline/tts.py`): `VOICE_BY_CATEGORY`, `SPEED = 1.08`, gap
+durations. Never change without approval — see the voice notes in PLAN.md.
 
-The pipeline is written around `fetch.Candidate`. To add RSS feeds (BBC,
-Reuters, Ars, etc.), write a `fetch_rss.py` that yields `Candidate` objects and
-merge its output with `fetch_top_stories()` in `run.py`. Everything downstream
-is source-agnostic.
+## Category taxonomy
+
+**Locked in PLAN.md § 1** (8 top-level with subcategories):
+
+`AI · Tech · Science · Sports · US · India · World · Business`
+
+The classifier in `pipeline/categorize.py` still uses the older 6-cat scheme
+(`AI / STARTUPS / SECURITY / DEV / RESEARCH / WORLD`). Rewriting it to emit
+`{main, sub}` is PLAN item **A2**; batch re-classification is **A3**.
+
+## Design
+
+Light theme only. Single vermilion accent `#E14522` everywhere (globe pins,
+tabs, links). Warm bone `#F1EEE6` background, charcoal ink text. Bricolage
+Grotesque display, Inter Tight body, JetBrains Mono meta. Full-width magazine
+grid (max 1600px, 5vw padding), first card of each day featured 2×2. Missing
+images render as Bauhaus-inspired `AbstractCover` SVGs — never a raw letter
+placeholder.
+
+See PLAN.md for the shipped-vs-pending UI work list.
 
 ## Known trade-offs
 
-- **Summarization accuracy** — Gemini Flash occasionally invents a detail. The
-  post-hoc verifier in `summarize.py` drops sentences with numbers or proper
-  nouns not present in the source and asks for one retry. Not perfect.
-- **Kokoro pronunciations** — non-English names get mangled. To fix, maintain a
-  `pronunciations.json` mapping and pre-process text in `tts.py`.
-- **jsDelivr caching** — audio files may take a few minutes to appear on the
-  CDN after commit. jsDelivr cache TTL is 12h; use `?v=<sha>` to bust if needed.
-- **Repo bloat** — retention keeps this to ~2 GB max. If it grows past that,
-  drop `RETENTION_DAYS` or move audio to Cloudflare R2 (10 GB free).
-- **Copyright** — the Cloudflare Access gate keeps this personal. Do not turn
-  off the gate and publish the URL.
+- **LLM hallucinations** — the coverage + sanity + Whisper round-trip catches
+  most, but a small residue survives. Review files in `data/reviews/` make
+  spot-checks cheap.
+- **Kokoro pronunciations** — `pipeline/normalize.py` handles the common
+  cases (numbers, acronyms, common tech terms). Non-English proper nouns can
+  still slip; extend the normalizer as needed.
+- **Free-tier quota** — Gemini free tier is generous for `-lite` models but a
+  large re-classification job (PLAN A3) will need to be chunked.
+- **Public URL** — the site currently has no auth gate. Turn on Vercel
+  Password Protection or a Cloudflare Access shim before sharing.
+
+## Layout
+
+```
+newsbriefing/
+├── PLAN.md                 # durable roadmap (read first)
+├── README.md               # this file
+├── .github/workflows/
+│   └── pipeline.yml        # cron 0 12,19,2 * * *
+├── pipeline/               # Python 3.12 pipeline
+│   ├── sources/            # per-source adapters (hn, rss, reddit, tldr, gmail)
+│   ├── sources.yaml        # ingestion config
+│   ├── run.py              # orchestrator
+│   ├── refine.py           # multi-pass content refinement
+│   ├── tts.py              # chunked Kokoro synthesis
+│   ├── audio_validate.py   # Whisper round-trip
+│   ├── significance.py     # importance gate
+│   ├── categorize.py       # category classifier (pending A2 rewrite)
+│   └── ...
+├── site/                   # Astro 5 + React 19
+│   ├── src/components/     # Feed, AbstractCover, Globe, Player, ...
+│   ├── src/styles/
+│   └── public/data/        # feed.json, rss.xml, audio/  (committed)
+└── data/reviews/           # per-story refinement transcripts (gitignored)
+```
