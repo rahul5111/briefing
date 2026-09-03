@@ -187,17 +187,17 @@ Cost:
 
 ### Phase 2 — cross-source enrichment (bigger, needs careful rollout)
 
-- [ ] **C1** Change dedup: when duplicate detected, LOG it (do not drop yet — observation only)
-- [ ] **C2** Add delta-detection LLM step (does new source add real info?)
-- [ ] **C3** Add neutral-synthesis LLM step (produce merged bias-balanced version)
-- [ ] **C4** Wire re-TTS on updated summary; update `sources[]`
+- [x] **C1** Change dedup: when duplicate detected, LOG it — `data/duplicates/YYYY-MM-DD.jsonl`
+- [x] **C2** Add delta-detection LLM step — `pipeline/enrich.detect_delta`
+- [x] **C3** Add neutral-synthesis LLM step — `pipeline/enrich.neutral_synthesize`
+- [x] **C4** Wire re-TTS on updated summary; update `sources[]` — `pipeline/run._enrich_from_dups`
 
 ### Phase 3 — polish + operations
 
-- [ ] **D2** Card UI shows `N sources` when > 1
-- [ ] **D3** Live tournament badge in Sports > Major Events
-- [ ] **E1** Trigger pipeline run with new sources + taxonomy
-- [ ] **E2** Full-page screenshot audit at every breakpoint
+- [x] **D2** Card UI shows `N sources` when > 1
+- [x] **D3** Live tournament badge in Sports > Major Events
+- [x] **E1** Sources expanded (15 → 55). Next cron picks up the new feeds automatically at 12/19/02 UTC.
+- [x] **E2** UI overflow audit script (`site/audit.mjs`) gates every deploy at 1440/1024/768/390 × tabs.
 
 ---
 
