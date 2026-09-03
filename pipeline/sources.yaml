@@ -112,6 +112,39 @@ sources:
     lookback_hours: 168
     max_items: 15
 
+  # ─── TLDR curated dailies (scraped, no login needed) ────────────
+  # Each variant is a distinct free daily newsletter from tldr.tech.
+  # Content is TLDR's own curation — high signal per issue.
+  - name: tldr_tech
+    type: tldr
+    variant: tech
+    lookback_days: 2
+    max_items: 20
+
+  - name: tldr_ai
+    type: tldr
+    variant: ai
+    lookback_days: 2
+    max_items: 20
+
+  - name: tldr_webdev
+    type: tldr
+    variant: webdev
+    lookback_days: 2
+    max_items: 15
+
+  - name: tldr_infosec
+    type: tldr
+    variant: infosec
+    lookback_days: 2
+    max_items: 15
+
+  - name: tldr_design
+    type: tldr
+    variant: design
+    lookback_days: 2
+    max_items: 10
+
   # ─── Gmail newsletters ──────────────────────────────────────────
   # Reads only emails from senders in the allowlist below. Needs three
   # env vars: GMAIL_REFRESH_TOKEN / GMAIL_CLIENT_ID / GMAIL_CLIENT_SECRET.
