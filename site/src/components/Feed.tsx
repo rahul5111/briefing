@@ -355,6 +355,17 @@ export default function Feed({ stories, cdnBase }: Props) {
                   <h2 className="card-title">{s.title}</h2>
                   <div className="card-sub">
                     <span>{s.source_domain || s.source}</span>
+                    {(s.sources?.length ?? 0) > 1 && (
+                      <>
+                        <span className="card-meta-sep" aria-hidden="true">·</span>
+                        <span
+                          className="sources-chip"
+                          title={s.sources!.map((r) => r.domain || r.name).join(" · ")}
+                        >
+                          {s.sources!.length} sources
+                        </span>
+                      </>
+                    )}
                     <span className="card-meta-sep" aria-hidden="true">·</span>
                     <a
                       href={s.source_url || s.source_permalink || s.hn_permalink || "#"}

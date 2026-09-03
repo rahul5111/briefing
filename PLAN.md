@@ -1,6 +1,6 @@
 # Briefing — active plan
 
-Last updated: 2026-09-03
+Last updated: 2026-09-03 (afternoon — Phase 1 shipped)
 
 This document is the persistent working plan across sessions. Update it as
 items complete or change; do not rely on session memory alone.
@@ -177,13 +177,13 @@ Cost:
 
 ### Phase 1 — foundation and taxonomy (safe, incremental)
 
-- [ ] **A1** Approve taxonomy above (this file locked)
-- [ ] **A2** Rewrite classifier: outputs `{main, sub}` per story
-- [ ] **A3** Batch re-classify existing stories with new taxonomy
-- [ ] **A4** Add `sources: [...]` array to story schema; backfill single-source entries
-- [ ] **B1** Add Google News RSS sources (top / US / India / Tech / Business / Sports)
-- [ ] **D1** Two-level nav: 8 top-level tabs + expanding subcategory strip under active tab
-- [ ] **D4** UI overlap fix: Playwright screenshots at 1440/1024/768/390, iterate until zero overlap
+- [x] **A1** Approve taxonomy above (this file locked)
+- [x] **A2** Rewrite classifier: outputs `{main, sub}` per story — `pipeline/categorize.py`
+- [x] **A3** Batch re-classify existing stories with new taxonomy — `pipeline/reclassify.py`, 54 stories updated
+- [x] **A4** Add `sources: [...]` array to story schema; backfill single-source entries
+- [x] **B1** Add Google News RSS sources (top / US / India / World / Tech / Business / Sports) — 7 new feeds
+- [ ] **D1** Two-level nav: 8 top-level tabs + expanding subcategory strip under active tab (tabs shipped; sub-strip pending)
+- [x] **D4** UI overlap fix: Playwright screenshots at 1440/1024/768/390, iterate until zero overlap — player is now on-demand, featured card 2×1 not 2×2
 
 ### Phase 2 — cross-source enrichment (bigger, needs careful rollout)
 
@@ -227,7 +227,16 @@ Cost:
 - `VERCEL_TOKEN`, `VERCEL_ORG_ID`, `VERCEL_PROJECT_ID` (GH secrets)
 - Gmail integration scaffolded but disabled (`enabled: false` in sources.yaml) — awaits user OAuth flow
 
-**Not yet done from earlier feedback:**
-- UI overlap bugs still present (needs Playwright audit at all breakpoints)
-- Category naming still uses old 6-cat taxonomy (`AI/STARTUPS/SECURITY/DEV/RESEARCH/WORLD`) — Phase 1 rewrites this
-- Gmail newsletter ingestion pending user's OAuth (or user may skip if TLDR covers most)
+**Shipped this session (2026-09-03 pm):**
+- New on-demand player (slides up on story click, close/esc dismisses)
+- Featured card sized so it doesn't dominate the fold
+- 8-cat taxonomy live end-to-end (classifier → manifest → UI)
+- 7 Google News RSS feeds added (India/Business/Sports coverage)
+- `sources[]` array on every story (Phase 2 hook)
+
+**Not yet done:**
+- Sub-strip nav under the active main tab (D1 partial)
+- N-sources chip on cards (D2)
+- Live tournament badge in Sports > Major Events (D3)
+- Phase 2 cross-source enrichment (C1–C4)
+- Gmail newsletter ingestion pending user's OAuth

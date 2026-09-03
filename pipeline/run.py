@@ -75,7 +75,10 @@ def main() -> int:
         return 0
 
     print("\nDeduping against manifest + within batch...")
-    keep_idx = dedup.dedup([c.title for c in candidates])
+    keep_idx, dup_log = dedup.dedup_with_log([c.title for c in candidates])
+    if dup_log:
+        log_path = dedup.write_dup_log(dup_log)
+        print(f"  observation-log: {len(dup_log)} duplicates → {log_path}")
     candidates = [candidates[i] for i in keep_idx]
     print(f"After semantic dedup: {len(candidates)}")
 
