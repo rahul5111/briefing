@@ -1,0 +1,50 @@
+═══ 00_KEY_POINTS ═══
+
+1. NeoMME is a new family of multilingual multimodal encoders available in 260M and 800M parameter sizes.
+2. NeoMME processes text tokens and raw image patches together using a single bidirectional Transformer trained from scratch.
+3. NeoMME-Retriever models achieve strong performance on the ViDoRe v3 benchmark for nDCG@10 and model size.
+4. The 260M model encodes about 51 pages per second on an NVIDIA L40S GPU at a 2048x2048 input size.
+5. Hierarchical token pooling and asymmetric quantization reduce late-interaction index storage from roughly 1.5 MB to 6 kB per page.
+6. The model checkpoints are released under the Apache 2.0 license on Hugging Face Transformers.
+7. NeoMME bypasses OCR steps by ranking document page screenshots to preserve visual clues like layout, charts, and tables.
+
+═══ 01_DRAFT ═══
+
+Developers have released NeoMME, a family of 260M and 800M multilingual multimodal foundation encoders that process text tokens and raw image patches through a single bidirectional Transformer without relying on a separate pretrained vision tower or causal language model. Trained from scratch using a masked discrete-diffusion objective on about 524 billion packed input tokens, the models feature a 16,384-token context length and dynamic image resolution.
+
+When fine-tuned for visual document retrieval using the page-image approach as NeoMME-Retriever, the models generate both dense and late-interaction embeddings in a single forward pass, bypassing OCR preprocessing steps. On an NVIDIA L40S GPU with a 2048 by 2048 image input size, the 260M model encodes about 51 pages per second, achieving roughly twice the throughput of ColModernVBERT. Combining hierarchical token pooling and asymmetric quantization reduces late-interaction index storage from roughly 1.5 megabytes to 6 kilobytes per page while retaining more than 95 percent of baseline nDCG@10. 
+
+On the ViDoRe v3 benchmark, NeoMME-Retriever-260M scores 0.523 for nDCG@10, representing the highest score among evaluated models strictly below 800M parameters, while the 800M model scores 0.556. Omar Khattab, who introduced late-interaction in ColBERT, explains why the term is more precise than multi-vector: It describes the granularity and learnability of the scoring function, not simply the number of stored vectors. Model checkpoints are available in Hugging Face Transformers under the Apache 2.0 license.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+NeoMME is a family of 260M and 800M multilingual multimodal encoders that process text tokens and raw image patches through a single bidirectional Transformer without relying on a separate pretrained vision tower or a causal language model. Trained from scratch using a masked discrete-diffusion objective on about 524 billion packed input tokens, the models feature a 16,384-token context length and dynamic image resolution.
+
+When fine-tuned for visual document retrieval using the page-image approach as NeoMME-Retriever, the models generate dense and late-interaction embeddings in one forward pass, bypassing OCR preprocessing steps. On an NVIDIA L40S GPU with a matched 2048×2048 image input size, the 260M model encodes about 51 pages per second, achieving roughly twice ColModernVBERT's throughput. Hierarchical token pooling and asymmetric quantization reduce late-interaction index storage to 6 kB per page (255× smaller) while retaining more than 95% of baseline nDCG@10. 
+
+On the ViDoRe v3 benchmark, NeoMME-Retriever-260M reaches 0.523 for nDCG@10, the highest score among evaluated models strictly below 800M parameters, while the 800M model reaches 0.556. Omar Khattab, who introduced late-interaction in ColBERT, explains why the term is more precise than multi-vector: It describes the granularity and learnability of the scoring function, not simply the number of stored vectors. Model checkpoints are available in Hugging Face Transformers under the Apache 2.0 license.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (7/7). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+NeoMME is a family of two hundred sixty million and eight hundred million multilingual multimodal encoders. They process text tokens and raw image patches through a single bidirectional Transformer. They do not rely on a separate pretrained vision tower or a causal language model. They were trained from scratch using a masked discrete-diffusion objective on about five hundred twenty-four billion packed input tokens. The models feature a sixteen thousand three hundred eighty-four token context length and dynamic image resolution.
+
+When fine-tuned for visual document retrieval using the page-image approach, they are called NeoMME-Retriever. The models generate dense and late-interaction embeddings in one forward pass, bypassing optical character recognition preprocessing steps. Running on an NVIDIA L40S GPU with a matched twenty forty-eight by twenty forty-eight image input size, the two hundred sixty million model encodes about fifty-one pages per second. This achieves roughly twice the throughput of ColModernVBERT. Hierarchical token pooling and asymmetric quantization reduce late-interaction index storage to six kilobytes per page. This is two hundred fifty-five times smaller while retaining more than ninety-five percent of baseline normalized discounted cumulative gain at ten.
+
+On the ViDoRe v3 benchmark, NeoMME-Retriever-Two-Hundred-Sixty-Million reaches zero point five two three for normalized discounted cumulative gain at ten. This is the highest score among evaluated models strictly below eight hundred million parameters. Meanwhile, the eight hundred million model reaches zero point five five six. Omar Khattab, who introduced late-interaction in ColBERT, explains why the term is more precise than multi-vector. It describes the granularity and learnability of the scoring function, not simply the number of stored vectors. Model checkpoints are available in Hugging Face Transformers under the Apache two point zero license.
+
+═══ 05_NORMALIZED ═══
+
+NeoMME is a family of two hundred sixty million and eight hundred million multilingual multimodal encoders. They process text tokens and raw image patches through a single bidirectional Transformer. They do not rely on a separate pretrained vision tower or a causal language model. They were trained from scratch using a masked discrete-diffusion objective on about five hundred twenty-four billion packed input tokens. The models feature a sixteen thousand three hundred eighty-four token context length and dynamic image resolution. When fine-tuned for visual document retrieval using the page-image approach, they are called NeoMME-Retriever. The models generate dense and late-interaction embeddings in one forward pass, bypassing optical character recognition preprocessing steps. Running on an NVIDIA L40S G P U. with a matched twenty forty-eight by twenty forty-eight image input size, the two hundred sixty million model encodes about fifty-one pages per second. This achieves roughly twice the throughput of ColModernVBERT. Hierarchical token pooling and asymmetric quantization reduce late-interaction index storage to six kilobytes per page. This is two hundred fifty-five times smaller while retaining more than ninety-five percent of baseline normalized discounted cumulative gain at ten. On the ViDoRe v3 benchmark, NeoMME-Retriever-Two-Hundred-Sixty-Million reaches zero point five two three for normalized discounted cumulative gain at ten. This is the highest score among evaluated models strictly below eight hundred million parameters. Meanwhile, the eight hundred million model reaches zero point five five six. Omar Khattab, who introduced late-interaction in ColBERT, explains why the term is more precise than multi-vector. It describes the granularity and learnability of the scoring function, not simply the number of stored vectors. Model checkpoints are available in Hugging Face Transformers under the Apache two point zero license.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (7/7). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: G P U.
+

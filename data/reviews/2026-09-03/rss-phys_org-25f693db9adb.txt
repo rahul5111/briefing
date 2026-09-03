@@ -1,0 +1,42 @@
+═══ 00_KEY_POINTS ═══
+
+1. Dr. Donate Weghorn led a research team at the Center for Genomic Regulation that tested fifty top prediction tools.
+2. The tools were tested against thirteen point five million mutations spread across six thousand six hundred fifty-nine human genes.
+3. Researchers found that almost all prediction programs overestimate the potential harm of rarer mutations and underestimate more likely ones.
+4. The study matters because software errors can misguide medical diagnoses, treatment options, and scientific research into human diseases.
+5. Starting points of genes were found to be thirty-five percent more prone to mutations than other genomic regions.
+6. The researchers suggest modifying computer software to include information from maps showing where the genome is mutation-prone.
+7. For some variants, it could be that if you take the biology of mutation rates into account, they could flip from harmless to harmful.
+
+═══ 01_DRAFT ═══
+
+A new study published in the American Journal of Human Genetics shows that almost all of the world's top computer software used to predict dangerous DNA mutations can confuse rare mutations with harmful ones. A research team led by Dr. Donate Weghorn at the Center for Genomic Regulation in Barcelona tested 50 prediction tools against 13.5 million mutations spread across 6,659 human genes. The programs evaluated included AlphaMissense, built by Google DeepMind, as well as EVE and popEVE, which were co-developed by other research groups at the Center for Genomic Regulation. The study found that almost all of the programs overestimate the potential harm of mutations that are less likely to occur than average and underestimate the effect of more likely mutations. This occurs because the software assumes that DNA spots remaining unchanged over millions of years matter and that changing them is harmful, failing to account for regional differences in how mutation-prone the genome is. For example, the starting points of genes are 35 percent more prone to mutations than other regions. The researchers found that mutations in genes for DNA repair, cilia, and sperm function are likely being overcalled as dangerous, while genes linked to intellectual disability and single-parent conditions are likely being undercalled. As Dr. Weghorn stated, both would be bad. To test the tools, the team used experimental data from the laboratory of Ben Lehner, where researchers physically made hundreds of thousands of mutations across 500 human protein fragments and measured the damage. The authors of the study state that a practical fix would involve modifying the computer software to include information from maps showing where the human genome is more or less mutation-prone.
+
+═══ 03_COVERAGE_1 ═══
+
+85% covered (6/7). Missing: For some variants, it could be that if you take the biology of mutation rates into account, they could flip from harmless to harmful.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Most computer software used to predict dangerous D. N. A. mutations can confuse rare mutations with harmful ones. A new study in the American Journal of Human Genetics reveals this major flaw. A research team led by, Dr. Donate Weghorn at the Center for Genomic Regulation in Barcelona tested fifty prediction tools. They used thirteen point five million mutations spread across six thousand six hundred fifty-nine human genes. 
+
+The tested programs included AlphaMissense built by Google DeepMind. They also tested E. V. E. and popE. V. E. co-developed by other research groups at the Center for Genomic Regulation. The study found that almost all the programs make critical errors. They overestimate the potential harm of mutations that are less likely to occur than average. They also underestimate the effect of more likely mutations. 
+
+This happens because the software makes a faulty assumption. It assumes that D. N. A. spots remaining unchanged over millions of years always matter. It assumes changing them is harmful. The software fails to account for regional differences in how mutation-prone the genome is. For instance, the starting points of genes are thirty-five percent more prone to mutations than other regions. 
+
+The researchers found that mutations in genes for D. N. A. repair, cilia, and sperm function are likely being overcalled as dangerous. Meanwhile, genes linked to intellectual disability and single-parent conditions are likely being undercalled. As, Dr. Weghorn stated, both outcomes would be bad. 
+
+To test the tools, the team used experimental data from the laboratory of, Ben Lehner. Researchers there physically made hundreds of thousands of mutations across five hundred human protein fragments and measured the damage. The authors of the study state that a practical fix is possible. It would involve modifying the computer software to include information from maps. These maps show where the human genome is more or less mutation-prone.
+
+═══ 05_NORMALIZED ═══
+
+Most computer software used to predict dangerous D. N. A. mutations can confuse rare mutations with harmful ones. A new study in the American Journal of Human Genetics reveals this major flaw. A research team led by, Doctor Donate Weghorn at the Center for Genomic Regulation in Barcelona tested fifty prediction tools. They used thirteen point five million mutations spread across six thousand six hundred fifty-nine human genes. The tested programs included AlphaMissense built by Google DeepMind. They also tested E. V. E. and popE. V. E. co-developed by other research groups at the Center for Genomic Regulation. The study found that almost all the programs make critical errors. They overestimate the potential harm of mutations that are less likely to occur than average. They also underestimate the effect of more likely mutations. This happens because the software makes a faulty assumption. It assumes that D. N. A. spots remaining unchanged over millions of years always matter. It assumes changing them is harmful. The software fails to account for regional differences in how mutation-prone the genome is. For instance, the starting points of genes are thirty-five percent more prone to mutations than other regions. The researchers found that mutations in genes for D. N. A. repair, cilia, and sperm function are likely being overcalled as dangerous. Meanwhile, genes linked to intellectual disability and single-parent conditions are likely being undercalled. As, Doctor Weghorn stated, both outcomes would be bad. To test the tools, the team used experimental data from the laboratory of, Ben Lehner. Researchers there physically made hundreds of thousands of mutations across five hundred human protein fragments and measured the damage. The authors of the study state that a practical fix is possible. It would involve modifying the computer software to include information from maps. These maps show where the human genome is more or less mutation-prone.
+
+═══ 06_COVERAGE_FINAL ═══
+
+71% covered (5/7). Missing: The study matters because software errors can misguide medical diagnoses, treatment options, and scientific research into human diseases.; For some variants, it could be that if you take the biology of mutation rates into account, they could flip from harmless to harmful.
+
+═══ 07_SANITY ═══
+
+ISSUES: D. N. A., D. Doctor Donate Weghorn, E. V. E., popE. V. E., As, Doctor Weghorn, of, Ben Lehner
+

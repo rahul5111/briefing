@@ -1,0 +1,36 @@
+═══ 00_KEY_POINTS ═══
+
+1. Stryker announced its Apple Vision Pro app was used in a hip surgery at Duke Health.
+2. The milestone procedure marked the first time Stryker's SportSuite Vision software was used in real-world practice.
+3. Stryker received De Novo authorization from the FDA for the SportSuite Vision software on July 17.
+4. The software gave the surgeon access to orthopedic planning tools, arthroscopic images, and CT imaging.
+5. Dr. Chad Mather III stated that spatial computing enabled him to customize clinical information placement within the sterile field.
+
+═══ 01_DRAFT ═══
+
+Medical technology company Stryker announced this week that its SportSuite Vision software for the Apple Vision Pro was used in a hip arthroscopy at Duke Health, marking the first time the software has been utilized in a real world practice. Stryker stated that it received De Novo authorization from the Food and Drug Administration for the software on July 17. During the inaugural operation, the mixed reality headset gave the surgeon access to Stryker orthopedic surgery planning tools, arthroscopic images, and CT imaging while performing the procedure. Dr. Chad Mather III, the orthopedic surgeon at Duke Health who conducted the surgery using the device, said that using spatial computing enabled him to customize the placement of key clinical information to fit his workflow and access it within the sterile field, helping create a more comfortable, streamlined operating room setup while keeping the information he needed in view.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Medical technology company Stryker announced this week that its SportSuite Vision software for the Apple Vision Pro was used in a hip arthroscopy at Duke Health, marking the first time the software has been utilized in a real world practice. Stryker says its SportSuite Vision software for the headset received De Novo authorization from the FDA in July. In the case of this inaugural SportSuite Vision operation, the mixed reality experience gave the surgeon access to Stryker's orthopedic surgery planning tools, arthroscopic images and CT imaging while performing the procedure. Dr. Chad Mather III, the orthopedic surgeon at Duke Health who conducted the surgery using the device, said that using spatial computing enabled him to customize the placement of key clinical information to fit his workflow and access it within the sterile field, helping create a more comfortable, streamlined operating room setup while keeping the information he needed in view.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (5/5). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Medical technology company Stryker announced that its SportSuite Vision software for the Apple Vision Pro was used in a hip arthroscopy at Duke Health. This marks the first time the software has been utilized in a real world practice. Stryker says its SportSuite Vision software for the headset received De Novo authorization from the Food and Drug Administration in July. In the case of this inaugural operation, the mixed reality experience gave the surgeon access to Stryker planning tools, arthroscopic images, and computed tomography imaging while performing the procedure. Orthopedic surgeon, Dr. Chad Mather III, conducted the surgery using the device at Duke Health. He said that using spatial computing enabled him to customize the placement of key clinical information. It helped fit his workflow and access it within the sterile field. This helped create a more comfortable and streamlined operating room setup while keeping the information he needed in view.
+
+═══ 05_NORMALIZED ═══
+
+Medical technology company Stryker announced that its SportSuite Vision software for the Apple Vision Pro was used in a hip arthroscopy at Duke Health. This marks the first time the software has been utilized in a real world practice. Stryker says its SportSuite Vision software for the headset received De Novo authorization from the Food and Drug Administration in July. In the case of this inaugural operation, the mixed reality experience gave the surgeon access to Stryker planning tools, arthroscopic images, and computed tomography imaging while performing the procedure. Orthopedic surgeon, Doctor Chad Mather III, conducted the surgery using the device at Duke Health. He said that using spatial computing enabled him to customize the placement of key clinical information. It helped fit his workflow and access it within the sterile field. This helped create a more comfortable and streamlined operating room setup while keeping the information he needed in view.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (5/5). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: Doctor Chad Mather III
+

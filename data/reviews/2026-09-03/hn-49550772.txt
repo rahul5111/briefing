@@ -1,0 +1,57 @@
+═══ 00_KEY_POINTS ═══
+
+1. On 15 April 2026 Verisign proposed destroying the entire third level of the name hierarchy.
+2. On 28 July 2026 ICANN approved Verisign's proposal to destroy the third level domains.
+3. Neil Fraser registered neil.fraser.name nearly twenty-five years ago for a stable Internet presence.
+4. This website and email address will vanish in February despite being paid for until 2040.
+5. Termination of the domains allows outsiders to seize fraser.name and hijack hundreds of linked accounts.
+6. Neil Fraser is just one of 22,000 people who will lose their domains in this action.
+
+═══ 01_DRAFT ═══
+
+On September 3, 2026, website owner Neil Fraser announced that his internet presence of nearly twenty-five years will be terminated following a decision by domain registry operators. Fraser registered neil.fraser.name and later beverly.fraser.name, utilizing the domains for his website, personal email address, API servers, and Internet of Things devices. 
+
+On April 15, 2026, Verisign proposed the destruction of the entire third level of the dot-name hierarchy to simplify its administration. Despite Fraser noting the proposal relied on numerous falsehoods, ICANN approved the action on July 28, 2026. Fraser learned of the decision through an email from his registrar. 
+
+Unlike third-party operations managed by individual resellers, the dot-name hierarchy was established exclusively as a third-level operation featuring full whois records. Although Fraser initially chose the domain because it was operated by Global Name Registry rather than Verisign, Verisign subsequently acquired Global Name Registry. 
+
+The termination means Fraser's website and email address will vanish in February, despite being registered and paid for until 2040, and IoT devices utilizing the domain will become unusable. Furthermore, once the third-level domains are terminated, the vacant second-level domains are expected to become available for registration. This creates a security risk where a third party could register fraser.name, recreate neil.fraser.name, hijack hundreds of linked accounts, commit code using Fraser's authentication, and seize control of connected IoT devices. 
+
+Fraser is one of 22,000 people who will lose their domains under this administrative change and is preparing legal action.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+On September 3, 2026, Neil Fraser published a post stating that his internet presence of nearly twenty-five years will end due to upcoming changes. Fraser registered neil.fraser.name long ago for his website, email, and an API server, and later registered beverly.fraser.name following his daughter's birth.
+
+On April 15, 2026, Verisign proposed destroying the entire third level of the '.name' hierarchy to simplify administration. ICANN approved this action on July 28, 2026, and Fraser learned of it when his registrar emailed him a few days prior to his announcement.
+
+Unlike shady third-party operations managed by individual resellers, '.name' was set up exclusively as a third-level operation with full whois records. Fraser originally chose the domain because Global Name Registry operated it rather than Verisign, but Verisign later acquired Global Name Registry and included numerous lies in its proposal.
+
+The upcoming termination means Fraser's website, email address, and connected IoT devices will vanish in February, even though his domain is paid for until 2040. Once the third-level domains are terminated, vacant second-level domains are assumed to become available for registration, allowing someone else to scoop up fraser.name, recreate neil.fraser.name, hijack hundreds of accounts, commit code, and seize control of his devices.
+
+Fraser notes he is just one of 22,000 people who will lose their domains in this change, and he concludes that it is time to lawyer up.
+
+═══ 02b_TRIMMED ═══
+
+Fraser registered neil.fraser.name long ago for his website, email, and an API server, and later registered beverly.fraser.name following his daughter's birth. On April 15, 2026, Verisign proposed destroying the entire third level of the '.name' hierarchy to simplify administration. ICANN approved this action on July 28, 2026, and Fraser learned of it when his registrar emailed him a few days prior to his announcement. Fraser originally chose the domain because Global Name Registry operated it rather than Verisign, but Verisign later acquired Global Name Registry and included numerous lies in its proposal. The upcoming termination means Fraser's website, email address, and connected IoT devices will vanish in February, even though his domain is paid for until 2040. Once the third-level domains are terminated, vacant second-level domains are assumed to become available for registration, allowing someone else to scoop up fraser.name, recreate neil.fraser.name, hijack hundreds of accounts, commit code, and seize control of his devices. Fraser notes he is just one of 22,000 people who will lose their domains in this change, and he concludes that it is time to lawyer up.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Fraser registered neil dot fraser dot name long ago for his website and his email and an application programming interface server. He later registered beverly dot fraser dot name following his daughter's birth. On April fifteenth, twenty twenty-six, Verisign proposed destroying the entire third level of the name hierarchy to simplify administration. The Internet Corporation for Assigned Names and Numbers approved this action on July twenty-eighth, twenty twenty-six. Fraser learned of it when his registrar emailed him a few days prior to his announcement. Fraser originally chose the domain because Global Name Registry operated it rather than Verisign. Verisign later acquired Global Name Registry and included numerous lies in its proposal. The upcoming termination means Fraser's website and his email address and his connected Internet of Things devices will vanish in February. This happens even though his domain is paid for until twenty forty. Once the third-level domains are terminated, vacant second-level domains are assumed to become available for registration. This allows someone else to scoop up fraser dot name and recreate neil dot fraser dot name. They can hijack hundreds of accounts and commit code and seize control of his devices. Fraser notes he is just one of twenty-two thousand people who will lose their domains in this change. He concludes that it is time to lawyer up.
+
+═══ 05_NORMALIZED ═══
+
+Fraser registered neil dot fraser dot name long ago for his website and his email and an application programming interface server. He later registered beverly dot fraser dot name following his daughter's birth. On April fifteenth, twenty twenty-six, Verisign proposed destroying the entire third level of the name hierarchy to simplify administration. The Internet Corporation for Assigned Names and Numbers approved this action on July twenty-eighth, twenty twenty-six. Fraser learned of it when his registrar emailed him a few days prior to his announcement. Fraser originally chose the domain because Global Name Registry operated it rather than Verisign. Verisign later acquired Global Name Registry and included numerous lies in its proposal. The upcoming termination means Fraser's website and his email address and his connected Internet of Things devices will vanish in February. This happens even though his domain is paid for until twenty forty. Once the third-level domains are terminated, vacant second-level domains are assumed to become available for registration. This allows someone else to scoop up fraser dot name and recreate neil dot fraser dot name. They can hijack hundreds of accounts and commit code and seize control of his devices. Fraser notes he is just one of twenty-two thousand people who will lose their domains in this change. He concludes that it is time to lawyer up.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+OK
+

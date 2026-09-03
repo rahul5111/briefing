@@ -1,0 +1,53 @@
+═══ 00_KEY_POINTS ═══
+
+1. Unknown hackers hijacked Internet space belonging to Softaculous using a BGP routing attack.
+2. The attackers pushed malware masquerading as software updates to unsuspecting users.
+3. Hosting provider Hetzner Online suffered from lax configuration of routing security during the incident.
+4. Softaculous failed to validate software updates using code signing before the security incident occurred.
+5. Hetzner Online reclaimed the hijacked address space 12 hours after the hijacking started.
+6. Softaculous warned that a modified package would not have been rejected on cryptographic grounds.
+
+═══ 01_DRAFT ═══
+
+Unknown hackers carried out a supply chain attack using BGP hijacking to install malware on networks relying on Virtualizor, a management platform for virtualized environments developed by Softaculous. The attackers exploited routing security weaknesses at hosting provider Hetzner Online and flaws in the TLS certificate issuance process to seize control of IP addresses assigned to Softaculous, which used the space to issue software updates and host a client and billing site. With this control, the attackers pushed malicious software disguised as legitimate updates to users. 
+
+The successful breach relied on lax configuration of routing security by Hetzner Online and Softaculous failing to implement code signing to validate software updates. During the incident, a 33-hour window saw traffic intermittently misdirected across two spans. Hetzner reclaimed the address space 12 hours after the hijacking started by announcing the correct path, but then stopped announcing it, allowing the attacker to execute the same hijack a second time. It took Hetzner nearly 10 hours to react during the second breach. 
+
+Softaculous warned Monday during the incident window, a Virtualizor installation whose traffic was diverted could have received a malicious update package from the attacker’s server, adding that product update clients did not yet cryptographically verify update packages so a modified package would not have been rejected on that basis. The company believes only a small number of servers were actually affected, but cannot produce a definitive list and advises treating every Virtualizor server as in scope for checks.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Unknown hackers carried out a supply chain attack. They used B. G. P. hijacking to install malware. The target was Virtualizor. That is a management platform for virtualized environments. It was developed by Softaculous. 
+
+The attackers exploited routing security weaknesses. They targeted hosting provider Hetzner Online. They also used flaws in the T. L. S. certificate issuance process. These actions seized control of I. P. addresses. The addresses belonged to Softaculous. 
+
+Softaculous used the space for software updates. They also hosted a client and billing site there. The attackers pushed malicious software disguised as legitimate updates. 
+
+The successful breach relied on two main failures. Hetzner Online had lax configuration of routing security. Softaculous failed to implement code signing to validate software updates. 
+
+A thirty-three-hour window saw traffic intermittently misdirected. This happened across two spans. Hetzner reclaimed the address space twelve hours after the hijacking started. They did this by announcing the correct path. 
+
+Then Hetzner stopped announcing it. This allowed the attacker to execute the same hijack a second time. It took Hetzner nearly ten hours to react during the second breach. 
+
+Softaculous warned on Monday during the incident window. Any Virtualizor installation with diverted traffic could have received a malicious update package. The package came from the attacker server. 
+
+Softaculous added that product update clients did not yet cryptographically verify update packages. A modified package would not have been rejected on that basis. 
+
+The company believes only a small number of servers were actually affected. They cannot produce a definitive list. They advise treating every Virtualizor server as in scope for checks.
+
+═══ 05_NORMALIZED ═══
+
+Unknown hackers carried out a supply chain attack. They used B. G. P. hijacking to install malware. The target was Virtualizor. That is a management platform for virtualized environments. It was developed by Softaculous. The attackers exploited routing security weaknesses. They targeted hosting provider Hetzner Online. They also used flaws in the T. L. S. certificate issuance process. These actions seized control of I. P. addresses. The addresses belonged to Softaculous. Softaculous used the space for software updates. They also hosted a client and billing site there. The attackers pushed malicious software disguised as legitimate updates. The successful breach relied on two main failures. Hetzner Online had lax configuration of routing security. Softaculous failed to implement code signing to validate software updates. A thirty-three-hour window saw traffic intermittently misdirected. This happened across two spans. Hetzner reclaimed the address space twelve hours after the hijacking started. They did this by announcing the correct path. Then Hetzner stopped announcing it. This allowed the attacker to execute the same hijack a second time. It took Hetzner nearly ten hours to react during the second breach. Softaculous warned on Monday during the incident window. Any Virtualizor installation with diverted traffic could have received a malicious update package. The package came from the attacker server. Softaculous added that product update clients did not yet cryptographically verify update packages. A modified package would not have been rejected on that basis. The company believes only a small number of servers were actually affected. They cannot produce a definitive list. They advise treating every Virtualizor server as in scope for checks.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: B. G. P., T. L. S., I. P.
+

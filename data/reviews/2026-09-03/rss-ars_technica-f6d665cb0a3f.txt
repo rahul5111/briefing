@@ -1,0 +1,45 @@
+═══ 00_KEY_POINTS ═══
+
+1. A prominent US senator is asking the National Security Agency to provide guidance on VPN best practices.
+2. The requested guidance aims to secure public communications from spying by foreign adversaries.
+3. VPNs funnel internet traffic through an encrypted connection to a remote server.
+4. US agencies have previously recommended VPN use but have not specified which ones offer adequate protection.
+5. Encrypted tunnels often terminate at a single server, exposing decrypted traffic to potential snooping.
+6. VPNs fail to encrypt certain metadata like time stamps, allowing nation-states to build profiles for intelligence gathering.
+
+═══ 01_DRAFT ═══
+
+A prominent US senator is asking the National Security Agency to provide public guidance on best practices for using virtual private networks to secure communications against foreign espionage. While US agencies have previously recommended VPNs, which route internet traffic through encrypted connections to remote servers and mask user IP addresses, none have issued recommendations on which services offer adequate protection. Technical limitations often undermine these security assurances, as encrypted tunnels typically terminate once a single server decrypts traffic to forward it to its final destination, potentially exposing decrypted data or IP addresses to hackers or rogue employees. Additionally, VPNs fail to encrypt certain metadata like timestamps, leaving users vulnerable to profiling by nation-states engaged in intelligence gathering.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+A prominent US senator is asking the National Security Agency to provide public guidance on best practices for using virtual private networks to secure communications against foreign espionage. While US agencies have previously recommended VPNs, which route internet traffic through encrypted connections to remote servers and mask user IP addresses, none have issued recommendations on which services offer adequate protection. However, a host of limitations can undo many expected protections, as encrypted tunnels often terminate once a single server decrypts traffic and sends it on to its final destination, making decrypted traffic or IP addresses available for snooping by rogue employees or attackers. Furthermore, VPNs do not encrypt certain types of metadata, such as timestamps, which allows nation-states to build profiles useful in intelligence gathering.
+
+═══ 02b_TRIMMED ═══
+
+A prominent US senator is asking the National Security Agency to provide public guidance on best practices for using virtual private networks to secure communications against foreign espionage. While US agencies have previously recommended VPNs, which route internet traffic through encrypted connections to remote servers and mask user IP addresses, none have issued recommendations on which services offer adequate protection. However, a host of limitations can undo many expected protections, as encrypted tunnels often terminate once a single server decrypts traffic and sends it on to its final destination, making decrypted traffic or IP addresses available for snooping by rogue employees or attackers.
+
+═══ 03_COVERAGE_1 ═══
+
+83% covered (5/6). Missing: VPNs fail to encrypt certain metadata like time stamps, allowing nation-states to build profiles for intelligence gathering.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+A prominent US senator is asking the National Security Agency to provide public guidance on best practices for using virtual private networks to secure communications against foreign espionage. While US agencies have previously recommended VPNs, which route internet traffic through encrypted connections to remote servers and mask user IP addresses, none have issued recommendations on which services offer adequate protection. However, a host of limitations can undo many expected protections, as encrypted tunnels often terminate once a single server decrypts traffic and sends it on to its final destination, making decrypted traffic or IP addresses available for snooping by rogue employees or attackers. Furthermore, VPNs fail to encrypt certain metadata like time stamps, allowing nation-states to build profiles for intelligence gathering.
+
+═══ 04_AUDIO_REWRITE ═══
+
+A prominent United States senator is asking the National Security Agency to provide public guidance on best practices for using virtual private networks. These tools secure communications against foreign espionage. United States agencies have previously recommended virtual private networks. They route internet traffic through encrypted connections to remote servers and mask user internet protocol addresses. However, none have issued recommendations on which services offer adequate protection. A host of limitations can undo many expected protections. Encrypted tunnels often terminate once a single server decrypts traffic and sends it on to its final destination. This makes decrypted traffic or internet protocol addresses available for snooping by rogue employees or attackers. Furthermore, virtual private networks fail to encrypt certain metadata like time stamps. This allows nation-states to build profiles for intelligence gathering.
+
+═══ 05_NORMALIZED ═══
+
+A prominent United States senator is asking the National Security Agency to provide public guidance on best practices for using virtual private networks. These tools secure communications against foreign espionage. United States agencies have previously recommended virtual private networks. They route internet traffic through encrypted connections to remote servers and mask user internet protocol addresses. However, none have issued recommendations on which services offer adequate protection. A host of limitations can undo many expected protections. Encrypted tunnels often terminate once a single server decrypts traffic and sends it on to its final destination. This makes decrypted traffic or internet protocol addresses available for snooping by rogue employees or attackers. Furthermore, virtual private networks fail to encrypt certain metadata like time stamps. This allows nation-states to build profiles for intelligence gathering.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+OK
+

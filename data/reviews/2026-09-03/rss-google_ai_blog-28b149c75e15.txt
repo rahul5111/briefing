@@ -1,0 +1,34 @@
+═══ 00_KEY_POINTS ═══
+
+1. Google launched the Fairwind Program to bring advanced AI cyber defense capabilities to trusted customers.
+2. The Fairwind Program grants defenders access to Gemini 3.8 Flash Cyber models and the CodeMender harness.
+3. Defenders can autonomously find and fix vulnerabilities, generating deployment-ready patches in minutes instead of weeks.
+4. More than 650 participating partners globally are staging initial access to harden critical systems before bad actors exploit them.
+5. Google.org released its 2026 US Cybersecurity Impact Report detailing $36 million in funding for 35 cyber clinics.
+6. Google's latest commitment brings total global cybersecurity funding to more than $100 million.
+7. Government and enterprise partners gain autonomous tools to repair systems faster and stay ahead of threats.
+
+═══ 01_DRAFT ═══
+
+Google is launching the Fairwind Program to provide a trusted group of Google Cloud customers, government agencies, and cybersecurity partners with access to advanced AI and cyber defense capabilities. The program features Gemini 3.8 Flash Cyber combined with the CodeMender harness, designed to help defenders autonomously find, verify, and fix code vulnerabilities in minutes rather than weeks within a secure cloud environment. Initial access is being staged for more than 650 participating partners globally, including governments and national cyber authorities, critical infrastructure operators across healthcare, telecommunications, energy, and financial networks, and core technology platforms. Participating organizations must agree to strict operational standards, such as limiting access to internal cybersecurity teams and deploying multi-factor authentication. Alongside the Fairwind launch, Google released its 2026 Google.org US Cybersecurity Impact Report, detailing $36 million in funding for 35 cyber clinics that provide free security support to over 1,250 U.S. hospitals, public school districts, and municipal utilities, bringing Google's total global cybersecurity funding to more than $100 million.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (7/7). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Google is launching the Fairwind Program. It gives trusted cloud customers and government agencies access to advanced A. I. and cyber defense tools. The program features Gemini three point eight Flash Cyber combined with the CodeMender harness. This technology helps defenders find and fix code vulnerabilities in minutes instead of weeks inside a secure cloud environment. Initial access is rolling out to more than six hundred fifty participating partners around the world. These partners include national cyber authorities and critical infrastructure operators across healthcare, telecommunications, energy, and financial networks. Participating groups must agree to strict operational standards. They must limit access to internal cybersecurity teams and deploy multi-factor authentication. Google also released the twenty twenty-six Google.org U. S. Cybersecurity Impact Report. The report details thirty-six million dollars in funding for thirty-five cyber clinics. These clinics provide free security support to over one thousand two hundred fifty U. S. hospitals, public school districts, and municipal utilities. This funding brings Google's total global cybersecurity investment to more than one hundred million dollars.
+
+═══ 05_NORMALIZED ═══
+
+Google is launching the Fairwind Program. It gives trusted cloud customers and government agencies access to advanced A. I. and cyber defense tools. The program features Gemini three point eight Flash Cyber combined with the CodeMender harness. This technology helps defenders find and fix code vulnerabilities in minutes instead of weeks inside a secure cloud environment. Initial access is rolling out to more than six hundred fifty participating partners around the world. These partners include national cyber authorities and critical infrastructure operators across healthcare, telecommunications, energy, and financial networks. Participating groups must agree to strict operational standards. They must limit access to internal cybersecurity teams and deploy multi-factor authentication. Google also released the twenty twenty-six Google.org U. S. Cybersecurity Impact Report. The report details thirty-six million dollars in funding for thirty-five cyber clinics. These clinics provide free security support to over one thousand two hundred fifty U. S. hospitals, public school districts, and municipal utilities. This funding brings Google's total global cybersecurity investment to more than one hundred million dollars.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (7/7). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: A. I.
+

@@ -1,0 +1,54 @@
+═══ 00_KEY_POINTS ═══
+
+1. ArtificialAnalysis publishes an Intelligence Index and tracks the cost of running various large language models.
+2. The author criticizes ArtificialAnalysis for using a logarithmic cost scale that obscures massive price differences.
+3. ArtificialAnalysis uses official API pricing, which can make open-weights models appear much more expensive than third-party providers.
+4. Local models appear on ArtificialAnalysis plots at expensive datacenter pricing rather than consumer hardware costs.
+5. The author created modified plots using a linear scale and cheaper OpenRouter pricing for open-weights models.
+6. Electricity costs for local models were calculated using a US residential electricity price of $0.2049 per kilowatt-hour.
+7. The author explains that paying for top-tier AI intelligence obeys the law of diminishing returns for most users.
+
+═══ 01_DRAFT ═══
+
+ArtificialAnalysis benchmarks LLM intelligence through a headline Intelligence Index derived from curated evaluations, while also tracking the cost to run each model. The website plots intelligence against cost using the Pareto frontier to show the cheapest model achieving each score. However, this plot uses a logarithmic cost scale that obscures massive price gaps between cheap and heavy models, relies on official API pricing rather than cheaper third-party options like OpenRouter for open-weights models, and displays local models at expensive datacenter rates. 
+
+To address these limitations, a revised analysis adjusts several factors as of September 1, 2026. It replaces logarithmic scales with a linear scale because human money is not logarithmic, updates pricing for models including Kimi K3, Qwen3.8 Max, DeepSeek V4 Flash 0731, GLM-5.3, GLM-5.3-Flash, and Hy3 to reflect OpenRouter rates, and calculates local costs for sub-35-billion-parameter models based on electricity rather than datacenter fees. Local electricity costs are estimated using output tokens per task, local decode speeds on a used RTX 3090 video card priced around $1,400, a US weighted average residential electricity price of $0.2049 per kilowatt-hour as of May 2026, and a 15 percent addition for uncached input tokens and tool calls, while treating hardware cost as zero for dual-purpose machines. 
+
+The comparison reveals steep diminishing returns in performance relative to cost. State-of-the-art models like Fable 5.1 reach an intelligence score of 66 at $3.69 per task, while the GLM-5.3 scores 60 at $0.49 per task, making it 7.5 times cheaper. Further down, GLM-5.3-Flash at high settings scores 55 at $0.023 per task, which is 160 times cheaper than Fable and sufficient for 90 percent of user needs. Additionally, enthusiasts can run models like Qwen3.8-27B locally on existing hardware for $0.015 in electricity per task.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+ArtificialAnalysis benchmarks LLM intelligence through a headline Intelligence Index derived from curated evaluations, while also tracking the cost to run each model. The website plots intelligence against cost using the Pareto frontier to show the cheapest model achieving each score. However, this plot uses a logarithmic cost scale that obscures massive price gaps between cheap and heavy models, relies on official API pricing rather than cheaper third-party options like OpenRouter for open-weights models, and displays local models at expensive datacenter rates. 
+
+To address these limitations, a revised analysis adjusts several factors as of September 1, 2026. It replaces logarithmic scales with a linear scale because human money is not logarithmic, updates pricing for models including Kimi K3, Qwen3.8 Max, DeepSeek V4 Flash 0731, GLM-5.3, GLM-5.3-Flash, and Hy3 to reflect OpenRouter rates, and calculates local costs for sub-35-billion-parameter models based on electricity rather than datacenter fees. Local electricity costs are estimated using output tokens per task, local decode speeds on a used RTX 3090 video card priced around $1,400, a US weighted average residential electricity price of $0.2049 per kilowatt-hour as of May 2026, and a 15 percent addition for uncached input tokens and tool calls, while treating hardware cost as zero for dual-purpose machines. 
+
+The comparison reveals steep diminishing returns in performance relative to cost. State-of-the-art models like Fable 5.1 reach an intelligence score of 66 at $3.69 per task, while the GLM-5.3 scores 60 at $0.49 per task, making it 7.5 times cheaper. Descending further, the GLM-5.3-Flash at high settings achieves an intelligence score of 55 at $0.023 per task—one hundred and sixty times cheaper than Fable—while Qwen3.8-27B delivers an intelligence score of 52 at $0.015 in electricity per task when run locally by an enthusiast gamer.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (7/7). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Artificial Analysis benchmarks large language model intelligence through a headline Intelligence Index. It also tracks the cost to run each model. The website plots intelligence against cost to show the cheapest model achieving each score. However, this plot uses a logarithmic cost scale. It obscures massive price gaps between cheap and heavy models. It relies on official API pricing instead of cheaper third party options like OpenRouter. It also displays local models at expensive datacenter rates. 
+
+A revised analysis adjusts these factors as of September first, twenty twenty-six. It replaces logarithmic scales with a linear scale because human money is not logarithmic. It updates pricing for models including Kimi K three, Qwen three point eight Max, DeepSeek V four Flash zero seven thirty-one, G. L. M. dash five point three, G. L. M. dash five point three Dash Flash, and Hy three to reflect OpenRouter rates. It calculates local costs for sub-thirty-five-billion-parameter models based on electricity instead of datacenter fees. 
+
+Local electricity costs use output tokens per task and local decode speeds on a used R. T. X. thirty ninety video card priced around fourteen hundred dollars. They use a U.S. weighted average residential electricity price of zero point two zero four nine dollars per kilowatt-hour as of May twenty twenty-six. They add fifteen percent for uncached input tokens and tool calls while treating hardware cost as zero for dual-purpose machines. 
+
+The comparison reveals steep diminishing returns in performance relative to cost. State-of-the-art models like, Fable five point one reach an intelligence score of sixty-six at three point six nine dollars per task. The G. L. M. dash five point three scores sixty at zero point four nine dollars per task. This makes it seven point five times cheaper. 
+
+Descending further, the G. L. M. dash five point three Dash Flash at high settings achieves an intelligence score of fifty-five at zero point zero two three dollars per task. This is one hundred and sixty times cheaper than Fable. Meanwhile, Qwen three point eight dash twenty-seven B delivers an intelligence score of fifty-two at zero point zero one five dollars in electricity per task when run locally by an enthusiast gamer.
+
+═══ 05_NORMALIZED ═══
+
+Artificial Analysis benchmarks large language model intelligence through a headline Intelligence Index. It also tracks the cost to run each model. The website plots intelligence against cost to show the cheapest model achieving each score. However, this plot uses a logarithmic cost scale. It obscures massive price gaps between cheap and heavy models. It relies on official A P I. pricing instead of cheaper third party options like OpenRouter. It also displays local models at expensive datacenter rates. A revised analysis adjusts these factors as of September first, twenty twenty-six. It replaces logarithmic scales with a linear scale because human money is not logarithmic. It updates pricing for models including Kimi K three, Qwen three point eight Max, DeepSeek V four Flash zero seven thirty-one, G. L. M. dash five point three, G. L. M. dash five point three Dash Flash, and Hy three to reflect OpenRouter rates. It calculates local costs for sub-thirty-five-billion-parameter models based on electricity instead of datacenter fees. Local electricity costs use output tokens per task and local decode speeds on a used R. T. X. thirty ninety video card priced around fourteen hundred dollars. They use a US weighted average residential electricity price of zero point two zero four nine dollars per kilowatt-hour as of May twenty twenty-six. They add fifteen percent for uncached input tokens and tool calls while treating hardware cost as zero for dual-purpose machines. The comparison reveals steep diminishing returns in performance relative to cost. State-of-the-art models like, Fable five point one reach an intelligence score of sixty-six at three point six nine dollars per task. The G. L. M. dash five point three scores sixty at zero point four nine dollars per task. This makes it seven point five times cheaper. Descending further, the G. L. M. dash five point three Dash Flash at high settings achieves an intelligence score of fifty-five at zero point zero two three dollars per task. This is one hundred and sixty times cheaper than Fable. Meanwhile, Qwen three point eight dash twenty-seven B delivers an intelligence score of fifty-two at zero point zero one five dollars in electricity per task when run locally by an enthusiast gamer.
+
+═══ 06_COVERAGE_FINAL ═══
+
+SKIPPED: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 500, model: gemini-3.5-flash-lite\nPlease retry in 29.497216438s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerDayPerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.5-flash-lite'}, 'quotaValue': '500'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '29s'}]}}
+
+═══ 07_SANITY ═══
+
+ISSUES: A P I., G. L. M. dash five point three, G. L. M. dash five point three Dash Flash, Hy three, R. T. X. thirty ninety, Qwen three point eight dash twenty-seven B
+

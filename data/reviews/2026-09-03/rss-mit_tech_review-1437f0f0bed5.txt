@@ -1,0 +1,54 @@
+═══ 00_KEY_POINTS ═══
+
+1. New York City has banned generative artificial intelligence in elementary and middle schools for one year.
+2. The one-year AI ban in New York City schools will directly affect 600,000 students.
+3. Taiwan uncovered a hidden Chinese network that linked 166 cases to illegal operations and talent poaching.
+4. Uber launched the United Kingdom's first commercial robotaxi service utilizing technology from the startup Wayve.
+5. A US judge rejected the government's demand to force a sale, allowing Google to avoid an ad tech breakup.
+6. The Trump administration formally backed OpenAI in its copyright lawsuit brought by the New York Times.
+7. Nikhil Lai stated that courts remain hesitant to dismantle complex tech systems even when finding anticompetitive conduct.
+
+═══ 01_DRAFT ═══
+
+New York City has implemented a one-year ban on generative artificial intelligence in elementary and middle schools, affecting 600,000 students. The moratorium applies to any software utilizing student-facing generative AI. In other technology news, a US judge rejected the Justice Department's demand to force a sale of Google's ad tech business, allowing the company to avoid a breakup while still facing requirements to alter how it treats rivals and shares information. Responding to the ruling, Forrester principal analyst Nikhil Lai told the New York Times, “I think this will be the end of an era of the US trying to break up platforms this complex. The courts remain hesitant to dismantle these really complex tech systems, even when finding conduct that is anticompetitive.” Additionally, Uber has launched the United Kingdom's first commercial robotaxi service in London using technology from British startup Wayve, initially deploying safety drivers. In Taiwan, authorities have uncovered a hidden Chinese network linked to 166 cases of illegal operations and talent poaching targeting the island's chip sector. Meanwhile, the Trump administration has backed OpenAI in its copyright lawsuit brought by the New York Times, with the Justice Department arguing that AI training can constitute fair use and that US national security depends on domestic technology dominance.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+New York City has implemented a one-year ban on generative artificial intelligence in elementary and middle schools, affecting 600,000 students. The moratorium applies to any software utilizing student-facing generative AI. In other technology news, a US judge rejected the government's demand to force a sale of Google's ad tech business, allowing the company to avoid a breakup while still facing requirements to change how it treats rivals and shares information. Responding to the ruling, Forrester principal analyst Nikhil Lai told the New York Times that Google's legal win against antitrust enforcers trying to break up its ad business is a seminal victory, and was quoted saying, “I think this will be the end of an era of the US trying to break up platforms this complex. The courts remain hesitant to dismantle these really complex tech systems, even when finding conduct that is anticompetitive.” Additionally, Uber has launched the UK's first commercial robotaxi service using technology from UK startup Wayve, initially deploying safety drivers. In Taiwan, authorities have uncovered a hidden Chinese network linked to 166 cases of illegal operations and talent poaching targeting the island's chip sector. Meanwhile, the Trump administration has backed OpenAI in its copyright lawsuit brought by the New York Times, with the Justice Department arguing that AI training can constitute fair use and adding that national security depended on US tech dominance.
+
+═══ 02b_TRIMMED ═══
+
+New York City has implemented a one-year ban on generative artificial intelligence in elementary and middle schools, affecting 600,000 students. The moratorium applies to any software utilizing student-facing generative AI. In other technology news, a US judge rejected the government's demand to force a sale of Google's ad tech business, allowing the company to avoid a breakup while still facing requirements to change how it treats rivals and shares information. In Taiwan, authorities have uncovered a hidden Chinese network linked to 166 cases of illegal operations and talent poaching targeting the island's chip sector. Meanwhile, the Trump administration has backed OpenAI in its copyright lawsuit brought by the New York Times, with the Justice Department arguing that AI training can constitute fair use and adding that national security depended on US tech dominance.
+
+═══ 03_COVERAGE_1 ═══
+
+71% covered (5/7). Missing: Uber launched the United Kingdom's first commercial robotaxi service utilizing technology from the startup Wayve.; Nikhil Lai stated that courts remain hesitant to dismantle complex tech systems even when finding anticompetitive conduct.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+New York City has implemented a one-year ban on generative artificial intelligence in elementary and middle schools, affecting 600,000 students. The moratorium applies to any software utilizing student-facing generative AI. In other technology news, Uber launched the United Kingdom's first commercial robotaxi service utilizing technology from the startup Wayve. Additionally, a US judge rejected the government's demand to force a sale of Google's ad tech business, allowing the company to avoid a breakup while still facing requirements to change how it treats rivals and shares information. Nikhil Lai stated that courts remain hesitant to dismantle complex tech systems even when finding anticompetitive conduct. In Taiwan, authorities have uncovered a hidden Chinese network linked to 166 cases of illegal operations and talent poaching targeting the island's chip sector. Meanwhile, the Trump administration has backed OpenAI in its copyright lawsuit brought by the New York Times, with the Justice Department arguing that AI training can constitute fair use and adding that national security depended on US tech dominance.
+
+═══ 04_AUDIO_REWRITE ═══
+
+New York City has implemented a one-year ban on generative A. I. in elementary and middle schools. The ban affects six hundred thousand students. The moratorium applies to any software utilizing student-facing generative A. I. 
+
+In other technology news, Uber launched the United Kingdom's first commercial robotaxi service. The service utilizes technology from the startup Wayve. 
+
+A United States judge rejected the government's demand to force a sale of Google's ad tech business. The ruling allows the company to avoid a breakup. Google still faces requirements to change how it treats rivals and shares information. Nikhil Lai stated that courts remain hesitant to dismantle complex tech systems even when finding anticompetitive conduct. 
+
+In Taiwan, authorities have uncovered a hidden Chinese network. The network is linked to one hundred sixty-six cases of illegal operations and talent poaching targeting the island's chip sector. 
+
+The Trump administration has backed OpenAI in its copyright lawsuit brought by the New York Times. The Justice Department argued that A. I. training can constitute fair use. The department added that national security depended on United States tech dominance.
+
+═══ 05_NORMALIZED ═══
+
+New York City has implemented a one-year ban on generative A. I. in elementary and middle schools. The ban affects six hundred thousand students. The moratorium applies to any software utilizing student-facing generative A. I. In other technology news, Uber launched the United Kingdom's first commercial robotaxi service. The service utilizes technology from the startup Wayve. A United States judge rejected the government's demand to force a sale of Google's ad tech business. The ruling allows the company to avoid a breakup. Google still faces requirements to change how it treats rivals and shares information. Nikhil Lai stated that courts remain hesitant to dismantle complex tech systems even when finding anticompetitive conduct. In Taiwan, authorities have uncovered a hidden Chinese network. The network is linked to one hundred sixty-six cases of illegal operations and talent poaching targeting the island's chip sector. The Trump administration has backed OpenAI in its copyright lawsuit brought by the New York Times. The Justice Department argued that A. I. training can constitute fair use. The department added that national security depended on United States tech dominance.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (7/7). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: A. I.
+

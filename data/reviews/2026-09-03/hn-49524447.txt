@@ -1,0 +1,54 @@
+═══ 00_KEY_POINTS ═══
+
+1. The model is a 125B-parameter mixture-of-experts requiring 105 GB on disk at 4-bit quantization.
+2. Slotstream is a single Swift binary that streams the model from SSD to run on limited memory Macs.
+3. Running on a 48 GB Mac achieves approximately 12 tokens per second warm decode speed.
+4. The engine requires Apple Silicon, macOS 14 or later, and approximately 110 GB of free disk space.
+5. Prompt plus completion is capped at 32,768 tokens per request with context state costing about 27 KiB per token.
+6. The tool implements chat and generate APIs compatible with Ollama clients and OpenAI SDKs on port 11434.
+7. Auto-sizing takes the lowest of three limits and continuously re-checks system memory every 15 seconds.
+
+═══ 01_DRAFT ═══
+
+A new project called slotstream enables users to run the 125 billion parameter mixture-of-experts model Qwen3.8-Flash-Next on memory-constrained Apple Silicon Macs. The utility is distributed as a single Swift binary without Python dependencies and supports the Ollama and OpenAI chat application programming interfaces.
+
+Running the model requires macOS 14 or later and approximately 110 GB of free disk space, making a 512 GB Mac the realistic minimum. The engine uses MLX and Metal, streaming experts from the SSD straight into unified memory. On a 48 GB MacBook Pro, the system achieves a warm decode speed of roughly 12 tokens per second.
+
+The tool features auto-sizing that limits memory consumption to prevent excessive swapping. It includes features such as speculative decoding via a 1.5 GB draft head that is correct 86 percent of the time, prefix caching for conversation turns, and a context cap of 32,768 tokens. Installation is available via a shell script, and assets can be verified using GitHub attestation.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+A new project called slotstream enables users to run the 125 billion parameter mixture-of-experts model Qwen3.8-Flash-Next on memory-constrained Apple Silicon Macs. The utility is distributed as a single Swift binary without Python dependencies and supports the Ollama and OpenAI chat application programming interfaces.
+
+Running the model requires macOS 14 or later and approximately 110 GB of free disk space, making a 512 GB Mac the realistic minimum. The engine uses MLX and Metal, streaming experts from the SSD straight into unified memory. On a 48 GB MacBook Pro, the system achieves a warm decode speed of roughly 12 tokens per second.
+
+The tool features auto-sizing that limits memory consumption to prevent excessive swapping. It includes features such as speculative decoding via a 1.5 GB draft head that is correct 86 percent of the time, prefix caching for conversation turns, and a context cap of 32,768 tokens. Installation is available via a shell script, and assets can be verified using GitHub attestation.
+
+═══ 02b_TRIMMED ═══
+
+The utility is distributed as a single Swift binary without Python dependencies and supports the Ollama and OpenAI chat application programming interfaces. Running the model requires macOS 14 or later and approximately 110 GB of free disk space, making a 512 GB Mac the realistic minimum. The engine uses MLX and Metal, streaming experts from the SSD straight into unified memory. On a 48 GB MacBook Pro, the system achieves a warm decode speed of roughly 12 tokens per second. The tool features auto-sizing that limits memory consumption to prevent excessive swapping. It includes features such as speculative decoding via a 1.5 GB draft head that is correct 86 percent of the time, prefix caching for conversation turns, and a context cap of 32,768 tokens.
+
+═══ 03_COVERAGE_1 ═══
+
+71% covered (5/7). Missing: The model is a 125B-parameter mixture-of-experts requiring 105 GB on disk at 4-bit quantization.; Auto-sizing takes the lowest of three limits and continuously re-checks system memory every 15 seconds.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+The utility is distributed as a single Swift binary without Python dependencies and supports the Ollama and OpenAI chat application programming interfaces. Running the model requires macOS 14 or later and approximately 110 GB of free disk space, making a 512 GB Mac the realistic minimum. The model is a 125B-parameter mixture-of-experts requiring 105 GB on disk at 4-bit quantization. The engine uses MLX and Metal, streaming experts from the SSD straight into unified memory. On a 48 GB MacBook Pro, the system achieves a warm decode speed of roughly 12 tokens per second. The tool features auto-sizing that takes the lowest of three limits and continuously re-checks system memory every 15 seconds to prevent excessive swapping. It includes features such as speculative decoding via a 1.5 GB draft head that is correct 86 percent of the time, prefix caching for conversation turns, and a context cap of 32,768 tokens.
+
+═══ 04_AUDIO_REWRITE ═══
+
+The utility is distributed as a single Swift binary without Python dependencies and supports the Ollama and Open A. I. chat application programming interfaces. Running the model requires Mac O. S. fourteen or later and approximately one hundred ten gigabytes of free disk space. This makes a five hundred twelve gigabyte Mac the realistic minimum. The model is a one hundred twenty-five billion parameter mixture of experts requiring one hundred five gigabytes on disk at four-bit quantization. The engine uses M. L. X. and Metal, streaming experts from the solid state drive straight into unified memory. On a forty-eight gigabyte MacBook Pro, the system achieves a warm decode speed of roughly twelve tokens per second. The tool features auto-sizing that takes the lowest of three limits. It continuously re-checks system memory every fifteen seconds to prevent excessive swapping. It includes features such as speculative decoding via a one point five gigabyte draft head. This draft head is correct eighty-six percent of the time. It also features prefix caching for conversation turns and a context cap of thirty-two thousand seven hundred sixty-eight tokens.
+
+═══ 05_NORMALIZED ═══
+
+The utility is distributed as a single Swift binary without Python dependencies and supports the Ollama and Open A. I. chat application programming interfaces. Running the model requires Mac O. S. fourteen or later and approximately one hundred ten gigabytes of free disk space. This makes a five hundred twelve gigabyte Mac the realistic minimum. The model is a one hundred twenty-five billion parameter mixture of experts requiring one hundred five gigabytes on disk at four-bit quantization. The engine uses M. L. X. and Metal, streaming experts from the solid state drive straight into unified memory. On a forty-eight gigabyte MacBook Pro, the system achieves a warm decode speed of roughly twelve tokens per second. The tool features auto-sizing that takes the lowest of three limits. It continuously re-checks system memory every fifteen seconds to prevent excessive swapping. It includes features such as speculative decoding via a one point five gigabyte draft head. This draft head is correct eighty-six percent of the time. It also features prefix caching for conversation turns and a context cap of thirty-two thousand seven hundred sixty-eight tokens.
+
+═══ 06_COVERAGE_FINAL ═══
+
+85% covered (6/7). Missing: Prompt plus completion is capped at 32,768 tokens per request with context state costing about 27 KiB per token.
+
+═══ 07_SANITY ═══
+
+ISSUES: Open A. I., Mac O. S., M. L. X.
+

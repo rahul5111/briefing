@@ -1,0 +1,36 @@
+═══ 00_KEY_POINTS ═══
+
+1. Meta is preparing to launch its planned agent superapp under the name Muse.
+2. An internal testing app on iOS has recently transitioned into a Muse waitlist experience.
+3. Meta has added a computer use setting and is testing a model variant called Ava.
+4. Computer use enables the agent to operate desktop applications for longer multi-step tasks.
+5. Meta has previously considered premium pricing for its agent product as high as $200 per month.
+
+═══ 01_DRAFT ═══
+
+Meta is preparing to launch its planned agent super app under the name Muse, aligning the product with the branding used for the company's new generation of artificial intelligence models. The project was previously known internally as Project Hatch. The clearest change has appeared on iOS, where an app used for internal testing has transitioned into a Muse waitlist experience. Joining the waitlist appears technically possible, though Meta has not yet opened it publicly. Meta is also updating its desktop app with theme support, secondary color selection, and a monochrome theme. More significantly, Meta has added a setting for computer use and is testing a model variant called Ava, which is described as supporting computer control, though Ava itself is not currently accessible. These additions indicate that Muse could allow an AI agent to operate desktop applications and browse the web as part of longer, multi-step tasks, placing the product closer to tools like Codex and Claude. This direction mirrors Meta's broader strategy, as Muse Spark 1.1 and 1.2 already emphasize tool use, coding, and computer control. Previous reports regarding Project Hatch indicated the product would be capable of using websites, managing schedules, sending emails, and building custom tools, with Meta reportedly considering premium pricing as high as $200 per month. The transition to a waitlist suggests a controlled rollout where Meta could announce the app first and gradually admit users while computer and browser control features mature.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (5/5). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Meta is preparing to launch a new agent super app named Muse. This aligns the product with the branding of the company's new generation of artificial intelligence models, known as A. I. models. The project was previously known internally as Project Hatch. The clearest change has appeared on iOS, where an internal testing app has transitioned into a Muse waitlist experience. Joining the waitlist appears technically possible, although Meta has not yet opened it publicly. 
+
+Meta is also updating its desktop app with theme support and secondary color selection along with a monochrome theme. More significantly, Meta has added a setting for computer use. The company is testing a model variant called Ava. This variant is described as supporting computer control, although Ava itself is not currently accessible. These additions indicate that Muse could allow an A. I. agent to operate desktop applications and browse the web as part of longer, multi-step tasks. This places the product closer to tools like Codex and Claude. 
+
+This direction mirrors the broader strategy at Meta. Versions one point one and one point two of Muse Spark already emphasize tool use, coding, and computer control. Previous reports regarding Project Hatch indicated the product would be capable of using websites and managing schedules. It would also handle sending emails and building custom tools. Meta was reportedly considering premium pricing as high as two hundred dollars per month. The transition to a waitlist suggests a controlled rollout. Meta could announce the app first and gradually admit users while computer and browser control features mature.
+
+═══ 05_NORMALIZED ═══
+
+Meta is preparing to launch a new agent super app named Muse. This aligns the product with the branding of the company's new generation of artificial intelligence models, known as A. I. models. The project was previously known internally as Project Hatch. The clearest change has appeared on iOS, where an internal testing app has transitioned into a Muse waitlist experience. Joining the waitlist appears technically possible, although Meta has not yet opened it publicly. Meta is also updating its desktop app with theme support and secondary color selection along with a monochrome theme. More significantly, Meta has added a setting for computer use. The company is testing a model variant called Ava. This variant is described as supporting computer control, although Ava itself is not currently accessible. These additions indicate that Muse could allow an A. I. agent to operate desktop applications and browse the web as part of longer, multi-step tasks. This places the product closer to tools like Codex and Claude. This direction mirrors the broader strategy at Meta. Versions one point one and one point two of Muse Spark already emphasize tool use, coding, and computer control. Previous reports regarding Project Hatch indicated the product would be capable of using websites and managing schedules. It would also handle sending emails and building custom tools. Meta was reportedly considering premium pricing as high as two hundred dollars per month. The transition to a waitlist suggests a controlled rollout. Meta could announce the app first and gradually admit users while computer and browser control features mature.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (5/5). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: A. I.
+

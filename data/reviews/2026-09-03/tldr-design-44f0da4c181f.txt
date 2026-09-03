@@ -1,0 +1,40 @@
+═══ 00_KEY_POINTS ═══
+
+1. Google is rolling out a new image creation and editing tool called Google Pics.
+2. The tool will be available to all Google AI Pro and Ultra subscribers.
+3. Google Pics is also being released to most Google Workspace business customers.
+4. The new tool is built on the company's Nano Banana image generation and editing model.
+5. Google Pics will integrate directly into Workspace apps starting with Slides, Docs, and Drive.
+
+═══ 01_DRAFT ═══
+
+Google is rolling out a new image creation and editing tool called Google Pics to all Google AI Pro and Ultra subscribers and most Workspace business customers over the coming weeks. Built on the Nano Banana image generation and editing model, the tool will function as both a standalone product and an integrated feature within Google Workspace apps, starting with Slides, Docs, and Drive. 
+
+Google Pics includes several fine-tuned editing capabilities designed for precise control. Object segmentation allows users to isolate and transform specific objects using text prompts without altering the rest of the image, while executing multiple edits at once. Users can also modify or translate text directly inside images without disrupting the design or changing the font. The tool generates multiple options from a single prompt and supports real-time collaboration, enabling users to share creations and edit the same image together with teammates or friends. 
+
+By integrating Google Pics directly into existing Workspace applications, the company aims to eliminate the need for users to jump between applications, copy and paste, or switch tabs when creating and sharing visuals.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (5/5). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Google is rolling out a new image creation and editing tool called Google Pics. It is coming to all Google A. I. Pro and Ultra subscribers over the coming weeks. Most Workspace business customers will also get the tool. The system runs on the Nano Banana image generation and editing model. It works as a standalone product and inside Google Workspace apps. The integration starts with Slides, Docs, and Drive.
+
+Google Pics includes fine-tuned editing capabilities for precise control. Object segmentation lets users isolate and transform specific objects with text prompts. It does this without altering the rest of the image. Users can execute multiple edits at the same time. People can also modify or translate text directly inside images. This happens without disrupting the design or changing the font. The tool generates multiple options from a single prompt. It supports real-time collaboration for teams and friends. Users can share creations and edit the same image together.
+
+Google built the tool directly into existing Workspace applications. The company wants to eliminate the need for users to jump between applications. People will no longer need to copy and paste or switch tabs when creating visuals.
+
+═══ 05_NORMALIZED ═══
+
+Google is rolling out a new image creation and editing tool called Google Pics. It is coming to all Google A. I. Pro and Ultra subscribers over the coming weeks. Most Workspace business customers will also get the tool. The system runs on the Nano Banana image generation and editing model. It works as a standalone product and inside Google Workspace apps. The integration starts with Slides, Docs, and Drive. Google Pics includes fine-tuned editing capabilities for precise control. Object segmentation lets users isolate and transform specific objects with text prompts. It does this without altering the rest of the image. Users can execute multiple edits at the same time. People can also modify or translate text directly inside images. This happens without disrupting the design or changing the font. The tool generates multiple options from a single prompt. It supports real-time collaboration for teams and friends. Users can share creations and edit the same image together. Google built the tool directly into existing Workspace applications. The company wants to eliminate the need for users to jump between applications. People will no longer need to copy and paste or switch tabs when creating visuals.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (5/5). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: Google A. I. Pro
+

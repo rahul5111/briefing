@@ -1,6 +1,788 @@
 {
   "stories": [
     {
+      "id": "rss-dw_top-fc8a14364d1b",
+      "title": "Berlin: BER Airport Terminal 1 reopened after security scare",
+      "summary": "Terminal one at Berlin Brandenburg Airport reopened on Thursday evening. Federal police had evacuated the building at around five forty-five p.m. following a security scare. An unidentified woman reportedly told security staff at a service point that she had a dangerous substance in her luggage. A police spokesperson told the dpa news agency that a potential threat from the substance could not be ruled out. Police gave the all-clear at around eight forty-five p.m. They confirmed that nobody had been in danger at any point. Analysis results for the substance are expected in the coming days. An airport spokeswoman stated that the police operation had ended. Despite the reopening, operations remained restricted on Thursday evening. Delays and some cancellations were expected until the end of the day. Flights were not stopped entirely. Incoming arrivals and prepared departures continued. Passenger processing was partially relocated to Terminal two. An airport press officer told D. W. that around thirty flights had been delayed. The incident also temporarily disrupted the city S-Bahn train service and Deutsche Bahn regional trains. Regular operations are scheduled to resume on Friday.",
+      "main": "WORLD",
+      "sub": "Conflict & Security",
+      "category": "WORLD",
+      "subcategory": "Conflict & Security",
+      "sources": [
+        {
+          "name": "dw_top",
+          "url": "https://www.dw.com/en/berlin-ber-airport-terminal-1-reopened-after-security-scare/a-78895207?maca=en-rss-en-all-1573-rdf",
+          "domain": "dw.com",
+          "added_at": "2026-09-03T22:06:52.733930+00:00"
+        }
+      ],
+      "source": "dw_top",
+      "source_url": "https://www.dw.com/en/berlin-ber-airport-terminal-1-reopened-after-security-scare/a-78895207?maca=en-rss-en-all-1573-rdf",
+      "source_domain": "dw.com",
+      "source_permalink": "https://www.dw.com/en/berlin-ber-airport-terminal-1-reopened-after-security-scare/a-78895207?maca=en-rss-en-all-1573-rdf",
+      "score": 100,
+      "author": "",
+      "published_at": "2026-09-03T22:06:52.733930+00:00",
+      "created_at_ts": 1788470700,
+      "audio_path": "audio/2026-09-03/rss-dw_top-fc8a14364d1b-berlin-ber-airport-terminal-1-reopened-after-security-scare.mp3",
+      "word_count": 183,
+      "estimated_duration_s": 73,
+      "image_url": null,
+      "location": null,
+      "audio_bytes": 561792,
+      "audio_duration_s": 73.2,
+      "tts_chunks": 19,
+      "tts_voice": "am_liam"
+    },
+    {
+      "id": "rss-phys_org-25f693db9adb",
+      "title": "Predictive tools can confuse rare mutations with dangerous ones",
+      "summary": "Most computer software used to predict dangerous D. N. A. mutations can confuse rare mutations with harmful ones. A new study in the American Journal of Human Genetics reveals this major flaw. A research team led by, Doctor Donate Weghorn at the Center for Genomic Regulation in Barcelona tested fifty prediction tools. They used thirteen point five million mutations spread across six thousand six hundred fifty-nine human genes. The tested programs included AlphaMissense built by Google DeepMind. They also tested E. V. E. and popE. V. E. co-developed by other research groups at the Center for Genomic Regulation. The study found that almost all the programs make critical errors. They overestimate the potential harm of mutations that are less likely to occur than average. They also underestimate the effect of more likely mutations. This happens because the software makes a faulty assumption. It assumes that D. N. A. spots remaining unchanged over millions of years always matter. It assumes changing them is harmful. The software fails to account for regional differences in how mutation-prone the genome is. For instance, the starting points of genes are thirty-five percent more prone to mutations than other regions. The researchers found that mutations in genes for D. N. A. repair, cilia, and sperm function are likely being overcalled as dangerous. Meanwhile, genes linked to intellectual disability and single-parent conditions are likely being undercalled. As, Doctor Weghorn stated, both outcomes would be bad. To test the tools, the team used experimental data from the laboratory of, Ben Lehner. Researchers there physically made hundreds of thousands of mutations across five hundred human protein fragments and measured the damage. The authors of the study state that a practical fix is possible. It would involve modifying the computer software to include information from maps. These maps show where the human genome is more or less mutation-prone.",
+      "main": "SCIENCE",
+      "sub": "Biology & Medicine",
+      "category": "SCIENCE",
+      "subcategory": "Biology & Medicine",
+      "sources": [
+        {
+          "name": "phys_org",
+          "url": "https://phys.org/news/2026-09-tools-rare-mutations-dangerous.html",
+          "domain": "phys.org",
+          "added_at": "2026-09-03T21:56:34.905829+00:00"
+        }
+      ],
+      "source": "phys_org",
+      "source_url": "https://phys.org/news/2026-09-tools-rare-mutations-dangerous.html",
+      "source_domain": "phys.org",
+      "source_permalink": "https://phys.org/news/2026-09-tools-rare-mutations-dangerous.html",
+      "score": 100,
+      "author": "",
+      "published_at": "2026-09-03T21:56:34.905829+00:00",
+      "created_at_ts": 1788470407,
+      "audio_path": "audio/2026-09-03/rss-phys_org-25f693db9adb-predictive-tools-can-confuse-rare-mutations-with-dangerous-o.mp3",
+      "word_count": 308,
+      "estimated_duration_s": 123,
+      "image_url": null,
+      "location": null,
+      "audio_bytes": 934104,
+      "audio_duration_s": 122.7,
+      "tts_chunks": 37,
+      "tts_voice": "am_liam"
+    },
+    {
+      "id": "rss-engadget-ce01da5ec95b",
+      "title": "The Apple Vision Pro was used for a successful hip surgery",
+      "summary": "Medical technology company Stryker announced that its SportSuite Vision software for the Apple Vision Pro was used in a hip arthroscopy at Duke Health. This marks the first time the software has been utilized in a real world practice. Stryker says its SportSuite Vision software for the headset received De Novo authorization from the Food and Drug Administration in July. In the case of this inaugural operation, the mixed reality experience gave the surgeon access to Stryker planning tools, arthroscopic images, and computed tomography imaging while performing the procedure. Orthopedic surgeon, Doctor Chad Mather III, conducted the surgery using the device at Duke Health. He said that using spatial computing enabled him to customize the placement of key clinical information. It helped fit his workflow and access it within the sterile field. This helped create a more comfortable and streamlined operating room setup while keeping the information he needed in view.",
+      "main": "SCIENCE",
+      "sub": "Engineering & Robotics",
+      "category": "SCIENCE",
+      "subcategory": "Engineering & Robotics",
+      "sources": [
+        {
+          "name": "engadget",
+          "url": "https://www.engadget.com/2250758/stryker-apple-vision-pro-sportsuite-app-in-hip-arthroscopy/",
+          "domain": "engadget.com",
+          "added_at": "2026-09-03T21:52:47.087147+00:00"
+        }
+      ],
+      "source": "engadget",
+      "source_url": "https://www.engadget.com/2250758/stryker-apple-vision-pro-sportsuite-app-in-hip-arthroscopy/",
+      "source_domain": "engadget.com",
+      "source_permalink": "https://www.engadget.com/2250758/stryker-apple-vision-pro-sportsuite-app-in-hip-arthroscopy/",
+      "score": 100,
+      "author": "staff@engadget.com (Anna Washenko)",
+      "published_at": "2026-09-03T21:52:47.087147+00:00",
+      "created_at_ts": 1788470051,
+      "audio_path": "audio/2026-09-03/rss-engadget-ce01da5ec95b-the-apple-vision-pro-was-used-for-a-successful-hip-surgery.mp3",
+      "word_count": 151,
+      "estimated_duration_s": 60,
+      "image_url": "https://www.engadget.com/img/gallery/apple-vision-pro-was-used-for-a-successful-hip-surgery/l-intro-1788469479.jpg",
+      "location": null,
+      "audio_bytes": 430776,
+      "audio_duration_s": 54.0,
+      "tts_chunks": 8,
+      "tts_voice": "am_liam"
+    },
+    {
+      "id": "rss-the_hindu-2e1ec3d8d898",
+      "title": "Home Secretary reviews Himalayan States’ preparedness for glacial lake outbursts",
+      "summary": "Union Home Secretary Govind Mohan chaired a high-level meeting on Thursday, September third, twenty twenty-six. He met with Himalayan states and union territories to review preparedness for glacial lake outburst floods and snow avalanches. This review follows deadly flash floods in Nepal that killed hundreds and left thousands missing. Chief Secretaries and State Disaster Management Authorities attended from Uttarakhand, Himachal Pradesh, Sikkim, Arunachal Pradesh, and Jammu and Kashmir. Senior officials also attended from the Ministry of Home Affairs and the National Disaster Management Authority. Representatives from the Central Water Commission and the India Meteorological Department joined them. Officials from the Defence Geoinformatics Research Establishment were present as well. Officials reviewed the evolving threat of glacial lake outburst floods. They focused on vulnerable glacial lakes, high-risk zones, flow path mapping, and alert dissemination. Mister Mohan stressed that preparedness must move beyond a response-oriented approach. He said it must focus on preventive mitigation, risk reduction, and community-level readiness. The Centre directed states to expedite mitigation projects sanctioned in twenty twenty-four. States must strengthen inter-agency coordination. They must ensure continuous surveillance and regular sharing of risk information to minimize potential loss of life and property.",
+      "main": "INDIA",
+      "sub": "Disasters",
+      "category": "INDIA",
+      "subcategory": "Disasters",
+      "sources": [
+        {
+          "name": "the_hindu",
+          "url": "https://www.thehindu.com/news/national/home-secy-reviews-himalayan-states-preparedness-for-glacial-lake-outbursts/article71424103.ece",
+          "domain": "thehindu.com",
+          "added_at": "2026-09-03T22:00:44.456058+00:00"
+        }
+      ],
+      "source": "the_hindu",
+      "source_url": "https://www.thehindu.com/news/national/home-secy-reviews-himalayan-states-preparedness-for-glacial-lake-outbursts/article71424103.ece",
+      "source_domain": "thehindu.com",
+      "source_permalink": "https://www.thehindu.com/news/national/home-secy-reviews-himalayan-states-preparedness-for-glacial-lake-outbursts/article71424103.ece",
+      "score": 100,
+      "author": "",
+      "published_at": "2026-09-03T22:00:44.456058+00:00",
+      "created_at_ts": 1788469574,
+      "audio_path": "audio/2026-09-03/rss-the_hindu-2e1ec3d8d898-home-secretary-reviews-himalayan-states-preparedness-for-gla.mp3",
+      "word_count": 192,
+      "estimated_duration_s": 77,
+      "image_url": "https://th-i.thgim.com/public/incoming/hcxhue/article71424602.ece/alternates/LANDSCAPE_1200/HRSDyyQbsAAIj24.jpg",
+      "location": null,
+      "audio_bytes": 623256,
+      "audio_duration_s": 79.2,
+      "tts_chunks": 14,
+      "tts_voice": "am_liam"
+    },
+    {
+      "id": "rss-techcrunch-4d3f0fcd63ae",
+      "title": "Startup ARR is less secure than ever, new research shows",
+      "summary": "Seventy-four percent of one hundred fifty enterprise information technology professionals surveyed by venture capital firm Madrona plan to expand their artificial intelligence budgets over the next twelve months. The rest of the surveyed professionals plan to hold their spending steady. Fewer than half of enterprise artificial intelligence pilots ever reach full production. Seventy-seven percent of enterprises re-evaluate their artificial intelligence vendors every six months or on a rolling basis. Market researcher I. D. C. predicts companies will spend four point two five trillion dollars on technology in twenty twenty-six. That spending will be driven almost entirely by artificial intelligence. Madrona states in its report that this creates a fast in and fast out dynamic. This dynamic differs fundamentally from traditional enterprise software as a service. Traditional multi-year contracts used to provide a moat of inertia. Switching costs are lower in enterprise artificial intelligence and the re-evaluation cadence is relentless. This frequent reassessment leaves startup annual recurring revenue insecure even after products graduate from the pilot phase. More than half of technical artificial intelligence buyers want fees tied to work produced or outcomes. According to a. one. six. z. partners Tugce Erten, and Sarah Wang, pricing around recognizable work makes the product economically valuable to both sides. Enterprises remain willing to try new technology, but long-term revenue security from standard enterprise contracts has disappeared.",
+      "main": "TECH",
+      "sub": "Startups",
+      "category": "TECH",
+      "subcategory": "Startups",
+      "sources": [
+        {
+          "name": "techcrunch",
+          "url": "https://techcrunch.com/2026/09/03/startup-arr-is-less-secure-than-ever-new-research-shows/",
+          "domain": "techcrunch.com",
+          "added_at": "2026-09-03T21:51:01.605965+00:00"
+        }
+      ],
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/09/03/startup-arr-is-less-secure-than-ever-new-research-shows/",
+      "source_domain": "techcrunch.com",
+      "source_permalink": "https://techcrunch.com/2026/09/03/startup-arr-is-less-secure-than-ever-new-research-shows/",
+      "score": 100,
+      "author": "Julie Bort",
+      "published_at": "2026-09-03T21:51:01.605965+00:00",
+      "created_at_ts": 1788469163,
+      "audio_path": "audio/2026-09-03/rss-techcrunch-4d3f0fcd63ae-startup-arr-is-less-secure-than-ever-new-research-shows.mp3",
+      "word_count": 223,
+      "estimated_duration_s": 89,
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/07/PM-Images.jpg?resize=1200,855",
+      "location": null,
+      "audio_bytes": 720912,
+      "audio_duration_s": 93.5,
+      "tts_chunks": 21,
+      "tts_voice": "am_liam"
+    },
+    {
+      "id": "rss-aljazeera-92e57dd26d2e",
+      "title": "ICE agent charged with lying under oath about Minnesota shooting",
+      "summary": "Federal prosecutors have charged an immigration officer with lying under oath. The officer is, Christian Castro. The charges involve the shooting of a twenty-four-year-old man named, Julio Cesar Sosa-Celis. The shooting happened in January during an immigration crackdown in Minnesota. This case marks a rare prosecution by the Justice Department during a major enforcement campaign. Prosecutors allege that, Christian Castro, lied about the events leading up to the shooting. He fired through the door of a Minnesota home and hit the victim in the leg., Christian Castro, is a former Department of Homeland Security agent. He also faces multiple state felony charges in Minnesota related to the nonfatal shooting. Those charges include assault with a dangerous weapon. Minnesota authorities tried to extradite the officer from Texas. Texas Governor Greg Abbott declined to cooperate with the extradition request. That refusal led to the officer being detained in Texas for ninety days before his release under state law. The federal indictment followed the release of surveillance video. That video contradicted the officer's account that the victim had attacked him. Todd Lyons was the acting head of Immigration and Customs Enforcement at the time. He stated that the footage revealed sworn testimony from separate officers appeared to contain untruthful statements. The incident started after the officer and a fellow agent chased a Venezuelan national named, Alfredo Aljorna. The chase followed a traffic stop and ended at a home shared with the victim. The officer shot through the closed door. He knew the home was occupied by several people. A witness stated that two children were also inside the home. Federal authorities have suspended the officer and dropped initial charges against the victim and his co-defendant. The other agent involved in the chase has also been suspended but has not yet been charged.",
+      "main": "US",
+      "sub": "Law & Courts",
+      "category": "US",
+      "subcategory": "Law & Courts",
+      "sources": [
+        {
+          "name": "aljazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/3/ice-agent-charged-with-lying-under-oath-about-minnesota-shooting?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "added_at": "2026-09-03T22:04:54.438990+00:00"
+        }
+      ],
+      "source": "aljazeera",
+      "source_url": "https://www.aljazeera.com/news/2026/9/3/ice-agent-charged-with-lying-under-oath-about-minnesota-shooting?traffic_source=rss",
+      "source_domain": "aljazeera.com",
+      "source_permalink": "https://www.aljazeera.com/news/2026/9/3/ice-agent-charged-with-lying-under-oath-about-minnesota-shooting?traffic_source=rss",
+      "score": 100,
+      "author": "",
+      "published_at": "2026-09-03T22:04:54.438990+00:00",
+      "created_at_ts": 1788468949,
+      "audio_path": "audio/2026-09-03/rss-aljazeera-92e57dd26d2e-ice-agent-charged-with-lying-under-oath-about-minnesota-shoo.mp3",
+      "word_count": 299,
+      "estimated_duration_s": 120,
+      "image_url": "https://www.aljazeera.com/wp-content/uploads/2026/09/reuters_6a99d440-1788466240.jpg?resize=1920%2C1440",
+      "location": null,
+      "audio_bytes": 849888,
+      "audio_duration_s": 108.5,
+      "tts_chunks": 23,
+      "tts_voice": "am_liam"
+    },
+    {
+      "id": "rss-npr_news-b4b970873c97",
+      "title": "Trump asks Supreme Court to lift block on USPS plan to restrict mail voting",
+      "summary": "The Trump administration has asked the Supreme Court to lift a block on a US Postal Service plan. The plan aims to restrict mail-in voting for the midterm elections. Key parts of the plan are currently frozen by a temporary restraining order. A federal judge in Boston issued that order. The plan stems from a March executive order by President Trump. It would require state election officials to provide lists of mail-in voters names and addresses to the Postal Service. It would also require specific barcodes on ballot envelopes. Voting by mail remains available to all eligible voters for now. The U. S. P. S. is expected to deliver ballots as usual while the legal battle continues. However, many election experts warn it is too late to implement the plan without causing major disruptions. A whistleblower report claims the agency has not properly tested the online portal system meant to collect voter information. The report adds the agency has established a verification policy that could prevent many voters from receiving their ballots on time. Trump stated he issued the directives to prevent illegal voting by non-US citizens. Studies and audits indicate that issue is extremely rare. Challengers argue the plan is illegal because the postal agency lacks the authority to control mail-in voting. The Supreme Court previously ruled on a procedural question regarding one of the lawsuits in August. The justices have not yet ruled on the legality of the underlying order or the U. S. P. S. plan. North Carolina is scheduled to begin mailing absentee ballots on Friday. That officially launches the voting season for the midterms. Many other states are following later this month.",
+      "main": "US",
+      "sub": "Law & Courts",
+      "category": "US",
+      "subcategory": "Law & Courts",
+      "sources": [
+        {
+          "name": "npr_news",
+          "url": "https://www.npr.org/2026/09/03/nx-s1-5955614/trump-mail-in-voting-ruling-court-usps",
+          "domain": "npr.org",
+          "added_at": "2026-09-03T21:59:20.174578+00:00"
+        }
+      ],
+      "source": "npr_news",
+      "source_url": "https://www.npr.org/2026/09/03/nx-s1-5955614/trump-mail-in-voting-ruling-court-usps",
+      "source_domain": "npr.org",
+      "source_permalink": "https://www.npr.org/2026/09/03/nx-s1-5955614/trump-mail-in-voting-ruling-court-usps",
+      "score": 100,
+      "author": "Hansi Lo Wang",
+      "published_at": "2026-09-03T21:59:20.174578+00:00",
+      "created_at_ts": 1788468501,
+      "audio_path": "audio/2026-09-03/rss-npr_news-b4b970873c97-trump-asks-supreme-court-to-lift-block-on-usps-plan-to-restr.mp3",
+      "word_count": 277,
+      "estimated_duration_s": 111,
+      "image_url": null,
+      "location": null,
+      "audio_bytes": 785880,
+      "audio_duration_s": 103.1,
+      "tts_chunks": 28,
+      "tts_voice": "am_liam"
+    },
+    {
+      "id": "rss-livemint-6db4633a8139",
+      "title": "Trump claims US has ‘virtually unlimited’ ammunition for Iran war, slams ‘treasonous’ critics",
+      "summary": "President Donald Trump rejected reports that the United States is running short of ammunition in Iran. He called claims of dwindling supplies one hundred percent wrong. He labeled critics spreading those claims as treasonous. President Trump posted on Truth Social. He stated that the country has virtually unlimited amounts of mid- to high-grade ammunition. He said the nation is producing munitions at levels never seen before. This production builds up stockpiles for future contingencies. The United States temporarily prioritized keeping ammunition for domestic needs. Foreign sales will resume soon. President Trump criticized the previous Biden administration. He said they provided hundreds of billions of dollars in assistance to Ukraine and the North Atlantic Treaty Organization without requiring European allies to pay for it. His comments responded to recent news reports. An August fourth Reuters story cited three people familiar with the data. The story indicated that the United States Army has used virtually all of two key surface-to-surface missile systems during its five-month war. The first system is the Army Tactical Missile System. The second system is the newer Precision Strike Missile. The depletion of these long-range missiles has raised concerns among United States officials. Each missile costs more than one million dollars. Officials worry about Pentagon readiness for potential future conflicts with major adversaries like Russia and China. Military leaders warned the president in recent weeks that supplies of defensive weapons were falling. This includes Patriot missile interceptors. A United States official disputed claims that stockpile concerns stopped a major offensive. The official said pressure from Gulf states influenced the decision instead. A source familiar with the situation noted Central Command faced challenges. The source added they have been able to draw from global military stockpiles to replenish supplies.",
+      "main": "US",
+      "sub": "Politics",
+      "category": "US",
+      "subcategory": "Politics",
+      "sources": [
+        {
+          "name": "livemint",
+          "url": "https://www.livemint.com/news/us-news/trump-claims-us-has-virtually-unlimited-ammunition-for-iran-war-slams-treasonous-critics-11788467179360.html",
+          "domain": "livemint.com",
+          "added_at": "2026-09-03T22:01:29.128051+00:00"
+        }
+      ],
+      "source": "livemint",
+      "source_url": "https://www.livemint.com/news/us-news/trump-claims-us-has-virtually-unlimited-ammunition-for-iran-war-slams-treasonous-critics-11788467179360.html",
+      "source_domain": "livemint.com",
+      "source_permalink": "https://www.livemint.com/news/us-news/trump-claims-us-has-virtually-unlimited-ammunition-for-iran-war-slams-treasonous-critics-11788467179360.html",
+      "score": 100,
+      "author": "",
+      "published_at": "2026-09-03T22:01:29.128051+00:00",
+      "created_at_ts": 1788467942,
+      "audio_path": "audio/2026-09-03/rss-livemint-6db4633a8139-trump-claims-us-has-virtually-unlimited-ammunition-for-iran-.mp3",
+      "word_count": 290,
+      "estimated_duration_s": 116,
+      "image_url": "https://www.livemint.com/lm-img/img/2026/09/03/1600x900/logo/PRESIDENT-TRUMP-HOLDS-CAMPAIGN-RALLY-WITH-DARLI_1788467394571_f3a71297-5555-4a58-abcc-18127afe8eb8_1788467394724_ab744190-81c5-4c39-8431-334b5d91bee8_643b0fd4-a320-4350-8ee4-6c08362cc610_8d103cc8-eaa5-400c-b196-badd1986add5.jpg",
+      "location": null,
+      "audio_bytes": 879936,
+      "audio_duration_s": 112.4,
+      "tts_chunks": 25,
+      "tts_voice": "am_liam"
+    },
+    {
+      "id": "rss-ars_technica-f6d665cb0a3f",
+      "title": "US senator calls on the NSA to give guidance for use of VPNs",
+      "summary": "A prominent United States senator is asking the National Security Agency to provide public guidance on best practices for using virtual private networks. These tools secure communications against foreign espionage. United States agencies have previously recommended virtual private networks. They route internet traffic through encrypted connections to remote servers and mask user internet protocol addresses. However, none have issued recommendations on which services offer adequate protection. A host of limitations can undo many expected protections. Encrypted tunnels often terminate once a single server decrypts traffic and sends it on to its final destination. This makes decrypted traffic or internet protocol addresses available for snooping by rogue employees or attackers. Furthermore, virtual private networks fail to encrypt certain metadata like time stamps. This allows nation-states to build profiles for intelligence gathering.",
+      "main": "US",
+      "sub": "Law & Courts",
+      "category": "US",
+      "subcategory": "Law & Courts",
+      "sources": [
+        {
+          "name": "ars_technica",
+          "url": "https://arstechnica.com/security/2026/09/us-senator-calls-on-the-nsa-to-give-guidance-for-use-of-vpns/",
+          "domain": "arstechnica.com",
+          "added_at": "2026-09-03T21:49:28.109790+00:00"
+        }
+      ],
+      "source": "ars_technica",
+      "source_url": "https://arstechnica.com/security/2026/09/us-senator-calls-on-the-nsa-to-give-guidance-for-use-of-vpns/",
+      "source_domain": "arstechnica.com",
+      "source_permalink": "https://arstechnica.com/security/2026/09/us-senator-calls-on-the-nsa-to-give-guidance-for-use-of-vpns/",
+      "score": 100,
+      "author": "Dan Goodin",
+      "published_at": "2026-09-03T21:49:28.109790+00:00",
+      "created_at_ts": 1788465126,
+      "audio_path": "audio/2026-09-03/rss-ars_technica-f6d665cb0a3f-us-senator-calls-on-the-nsa-to-give-guidance-for-use-of-vpns.mp3",
+      "word_count": 130,
+      "estimated_duration_s": 52,
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2024/05/vpn-tunnel-1000x648.jpg",
+      "location": null,
+      "audio_bytes": 426264,
+      "audio_duration_s": 54.5,
+      "tts_chunks": 10,
+      "tts_voice": "am_liam"
+    },
+    {
+      "id": "rss-cnbc_top-1b346a1fb220",
+      "title": "Vance says Fed should lower interest rates: 'Would be nice to have some help'",
+      "summary": "Vice President J. D. Vance said Thursday that the Federal Reserve should cut interest rates to help make homes more affordable. This adds to pressure from President Donald Trump on the central bank to lower borrowing costs. Vance said his administration is trying to keep interest rates down and would appreciate help from the Federal Reserve. These remarks follow comments made less than a week earlier in Jackson Hole, Wyoming, by Federal Reserve chair, Kevin Warsh. Warsh hinted at potentially hiking rates to address persistently high inflation and bring it down to the central bank target of two percent. Vance made his statements less than two weeks before the Federal Open Market Committee is set to convene. The committee will decide whether or not to adjust rates. Traders are currently about evenly split on the odds of a rate hike at the meeting scheduled for September fifteen to sixteen, according to data from the C. M. E. Group FedWatch gauge. On Tuesday, Fed Governor Michael Barr stated he would be prepared to back a rate increase if inflation stays elevated. Meanwhile, Governor Christopher Waller indicated Thursday morning that he is more likely to keep rates steady. The comments from Vance may add to concerns regarding the independence of the Federal Reserve under the Trump administration. The administration has aggressively pushed to slash rates and is trying to fire Governor Lisa Cook.",
+      "main": "US",
+      "sub": "Economy",
+      "category": "US",
+      "subcategory": "Economy",
+      "sources": [
+        {
+          "name": "cnbc_top",
+          "url": "https://www.cnbc.com/2026/09/03/vance-fed-interest-rates-trump-bond-yields.html",
+          "domain": "cnbc.com",
+          "added_at": "2026-09-03T22:07:36.919518+00:00"
+        }
+      ],
+      "source": "cnbc_top",
+      "source_url": "https://www.cnbc.com/2026/09/03/vance-fed-interest-rates-trump-bond-yields.html",
+      "source_domain": "cnbc.com",
+      "source_permalink": "https://www.cnbc.com/2026/09/03/vance-fed-interest-rates-trump-bond-yields.html",
+      "score": 100,
+      "author": "",
+      "published_at": "2026-09-03T22:07:36.919518+00:00",
+      "created_at_ts": 1788463139,
+      "audio_path": "audio/2026-09-03/rss-cnbc_top-1b346a1fb220-vance-says-fed-should-lower-interest-rates-would-be-nice-to-.mp3",
+      "word_count": 231,
+      "estimated_duration_s": 92,
+      "image_url": "https://image.cnbcfm.com/api/v1/image/108358544-1788458325945-gettyimages-2292759373-AFP_C7AP3JA.jpeg?v=1788458357&amp;w=1920&amp;h=1080",
+      "location": null,
+      "audio_bytes": 612744,
+      "audio_duration_s": 79.1,
+      "tts_chunks": 17,
+      "tts_voice": "am_liam"
+    },
+    {
+      "id": "rss-new_scientist-e89b58daf31c",
+      "title": "Psilocybin could prevent common and debilitating chemotherapy side effect",
+      "summary": "Psilocybin may prevent nerve damage caused by chemotherapy drugs. About seventy-five percent of cancer patients face this debilitating side effect. Chemotherapy drugs disrupt the transport of energy to nerve endings. The nerve endings wear out and retract as a result. Tests on nerve samples from mice and humans showed promising results. Psilocybin maintained the energy supply and caused less nerve damage. Mice with abdominal tumours received two injections of psilocybin. Each dose was equivalent to twenty-five milligrams in humans. The injections were spaced one week apart. The mice then received daily injections of the chemotherapy drug cisplatin for one week. Pain-sensitivity tests revealed important findings. Mice receiving psilocybin before cisplatin responded normally compared to a control group. Mice receiving cisplatin without psilocybin showed heightened sensitivity to pain. Researchers warn patients not to take psilocybin at home. The drug is not proven safe or effective during chemotherapy. It can also interact dangerously with cancer medications. A randomised controlled trial will begin in November. The study involves about eighty people with various types of cancer. Results are expected in about five years. Moran Amit at M. D. Anderson noted that no drug previously prevented this condition. Effective treatments currently lack beyond moderate pain relief from duloxetine. Maria Maiaru at the University of Reading spoke about the research. She was not involved in the study itself. She stated that successful clinical trials could help patients avoid chronic pain. Patients might also require fewer chemotherapy dose reductions and interruptions.",
+      "main": "SCIENCE",
+      "sub": "Biology & Medicine",
+      "category": "SCIENCE",
+      "subcategory": "Biology & Medicine",
+      "sources": [
+        {
+          "name": "new_scientist",
+          "url": "https://www.newscientist.com/article/2587451-psilocybin-prevents-common-and-debilitating-chemotherapy-side-effect/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+          "domain": "newscientist.com",
+          "added_at": "2026-09-03T21:55:35.513119+00:00"
+        }
+      ],
+      "source": "new_scientist",
+      "source_url": "https://www.newscientist.com/article/2587451-psilocybin-prevents-common-and-debilitating-chemotherapy-side-effect/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "source_domain": "newscientist.com",
+      "source_permalink": "https://www.newscientist.com/article/2587451-psilocybin-prevents-common-and-debilitating-chemotherapy-side-effect/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "score": 100,
+      "author": "Carissa Wong",
+      "published_at": "2026-09-03T21:55:35.513119+00:00",
+      "created_at_ts": 1788458400,
+      "audio_path": "audio/2026-09-03/rss-new_scientist-e89b58daf31c-psilocybin-could-prevent-common-and-debilitating-chemotherap.mp3",
+      "word_count": 245,
+      "estimated_duration_s": 98,
+      "image_url": "https://www.newscientist.com/wp-content/uploads/2026/09/SEI_310395142.jpg",
+      "location": null,
+      "audio_bytes": 767904,
+      "audio_duration_s": 99.6,
+      "tts_chunks": 27,
+      "tts_voice": "am_liam"
+    },
+    {
+      "id": "rss-nasa_breaking-72979e166170",
+      "title": "NASA to Cover Progress 96 Spacecraft Launch, Docking",
+      "summary": "National Aeronautics and Space Administration will provide live coverage of the launch and docking of the unpiloted Roscosmos Progress ninety-six cargo spacecraft. The spacecraft carries about three tons of food, fuel, and supplies for the crew aboard the International Space Station. The resupply spacecraft is scheduled to launch on a Soyuz rocket at twelve-fifteen p.m., or nine-fifteen p.m. Baikonur time, on Wednesday, September ninth. The launch happens from the Baikonur Cosmodrome in Kazakhstan. National Aeronautics and Space Administration live launch coverage begins at twelve p.m. After a two-day trip to the space station, the Progress spacecraft will dock autonomously to the Poisk module space-facing port. That docking happens at two-thirty-seven p.m. on Friday, September eleventh. National Aeronautics and Space Administration arrival coverage begins at one-forty-five p.m. The spacecraft will remain docked for about five months. Then it will depart to re-enter Earth atmosphere. It will harmlessly burn up over the Pacific Ocean. Before the Progress ninety-six spacecraft arrives, an older spacecraft will leave. The Progress ninety-four spacecraft will undock from the space station at approximately eleven-eighty-one a.m., wait, eleven-eighteen a.m., on Monday, September seventh. That is for its departure and planned destructive re-entry. National Aeronautics and Space Administration will not stream coverage of that undocking.",
+      "main": "SCIENCE",
+      "sub": "Space & Physics",
+      "category": "SCIENCE",
+      "subcategory": "Space & Physics",
+      "sources": [
+        {
+          "name": "nasa_breaking",
+          "url": "https://www.nasa.gov/news-release/nasa-to-cover-progress-96-spacecraft-launch-docking/",
+          "domain": "nasa.gov",
+          "added_at": "2026-09-03T21:54:43.276858+00:00"
+        }
+      ],
+      "source": "nasa_breaking",
+      "source_url": "https://www.nasa.gov/news-release/nasa-to-cover-progress-96-spacecraft-launch-docking/",
+      "source_domain": "nasa.gov",
+      "source_permalink": "https://www.nasa.gov/news-release/nasa-to-cover-progress-96-spacecraft-launch-docking/",
+      "score": 100,
+      "author": "Jessica Taveau",
+      "published_at": "2026-09-03T21:54:43.276858+00:00",
+      "created_at_ts": 1788455160,
+      "audio_path": "audio/2026-09-03/rss-nasa_breaking-72979e166170-nasa-to-cover-progress-96-spacecraft-launch-docking.mp3",
+      "word_count": 205,
+      "estimated_duration_s": 82,
+      "image_url": "https://images-assets.nasa.gov/image/iss074e0395792/iss074e0395792~large.jpg",
+      "location": null,
+      "audio_bytes": 655896,
+      "audio_duration_s": 85.0,
+      "tts_chunks": 17,
+      "tts_voice": "am_liam"
+    },
+    {
+      "id": "rss-wired-3e4d9b169121",
+      "title": "OpenAI Cut Off a Billion-Dollar Customer to Avoid Elon Musk",
+      "summary": "OpenA. I. is ending its partnership with the coding startup Cursor. The relationship was projected to bring in more than one billion dollars in annualized revenue by the spring of twenty twenty-six. Cursor was one of the top five customers for OpenA. I. at the start of twenty twenty-six. They paid fees to offer OpenA. I. models to developers. This decision follows a massive acquisition. SpaceX bought Cursor in a sixty billion dollar deal. The move helps OpenA. I. show investors a stable business as the company prepares to go public next year. OpenA. I. stated they cannot trust Elon Musk. They cited past experiences with his companies violating contracts. The blog post explained they cannot be confident that SpaceX will use their technology within the terms of service. OpenA. I. also noted an incident from earlier this year. Musk apparently admitted during a deposition that x. A. I. used OpenA. I. models to train its own models. That business is now part of SpaceX. Cursor leader, Michael Truell, responded to the news. He claimed that OpenA. I. models serve only about five percent of Cursor user traffic. OpenA. I. executive, Thibault Sottiaux, quickly pushed back. He stated that token usage is not a proxy for revenue or value created. He asked the leader to share the math. Meanwhile, Anthropic cofounder, Tom Brown, made an announcement. He stated that Anthropic will continue making Claude models available in Cursor.",
+      "main": "AI",
+      "sub": "Industry",
+      "category": "AI",
+      "subcategory": "Industry",
+      "sources": [
+        {
+          "name": "wired",
+          "url": "https://www.wired.com/story/openai-elon-musk-cursor-billion-revenue/",
+          "domain": "wired.com",
+          "added_at": "2026-09-03T21:51:53.379038+00:00"
+        }
+      ],
+      "source": "wired",
+      "source_url": "https://www.wired.com/story/openai-elon-musk-cursor-billion-revenue/",
+      "source_domain": "wired.com",
+      "source_permalink": "https://www.wired.com/story/openai-elon-musk-cursor-billion-revenue/",
+      "score": 100,
+      "author": "Maxwell Zeff",
+      "published_at": "2026-09-03T21:51:53.379038+00:00",
+      "created_at_ts": 1788453760,
+      "audio_path": "audio/2026-09-03/rss-wired-3e4d9b169121-openai-cut-off-a-billion-dollar-customer-to-avoid-elon-musk.mp3",
+      "word_count": 238,
+      "estimated_duration_s": 95,
+      "image_url": "https://media.wired.com/photos/6a9996ebd275abfc723b2792/191:100/w_1280,c_limit/Model-Behavior-Elon-Musk-Costs-OpenAI-Billion-Dollar-Customer-Business.jpg",
+      "location": null,
+      "audio_bytes": 753864,
+      "audio_duration_s": 101.2,
+      "tts_chunks": 41,
+      "tts_voice": "am_liam"
+    },
+    {
+      "id": "rss-deepmind_blog-56da2c8ef803",
+      "title": "Introducing WeatherNext 3, our most advanced and accurate global weather AI model",
+      "summary": "Google DeepMind and Google Research have introduced WeatherNext three. It is a global weather A. I. model that generates hourly forecasts at higher resolutions and improved accuracy. Independent live evaluations by Brightband show it is the most advanced and accurate global weather model to date. WeatherNext three trains directly on real-time observations and sparse weather station data. This avoids lagging physics simulations. The model produces surface variables like temperature and moisture at a five-kilometer resolution. Other surface variables appear at ten kilometers. Atmospheric variables like wind speed appear at twenty-five kilometers. This provides a global weather picture roughly five times sharper than its predecessor. That predecessor was WeatherNext two, which used a twenty-five-kilometer grid in six-hour increments. This setup enables the model to update hourly and bypass traditional modeling constraints. For precipitation forecasting, the model shows a Continuous Ranked Probability Score improvement of up to sixty percent against N. A. S. A. dot IMERG. It improves by thirty percent for M. R. M. S. It improves by ten percent against rain gauge measurements for early lead times. The model also features predictions engineered for renewable energy production. These include one-hundred-meter wind speeds for wind-energy output. They also include high-resolution cloud cover and sun radiation levels for solar farms. Starting today, WeatherNext three is powering weather experiences across Google Search. It is also in the Gemini app, Google Maps, the Google Maps Platform Weather A P I., and Google Earth Engine. When planning a day or more ahead, people will see up to fifty percent more accurate precipitation forecasts. The greatest improvements happen in regions where forecasts have historically been less reliable. The forecast data is also available to query in BigQuery and Earth Engine. Users can also access bulk downloads from Google Cloud Storage.",
+      "main": "AI",
+      "sub": "Models & Research",
+      "category": "AI",
+      "subcategory": "Models & Research",
+      "sources": [
+        {
+          "name": "deepmind_blog",
+          "url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
+          "domain": "deepmind.google",
+          "added_at": "2026-09-03T21:46:31.232199+00:00"
+        }
+      ],
+      "source": "deepmind_blog",
+      "source_url": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
+      "source_domain": "deepmind.google",
+      "source_permalink": "https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/",
+      "score": 100,
+      "author": "",
+      "published_at": "2026-09-03T21:46:31.232199+00:00",
+      "created_at_ts": 1788447728,
+      "audio_path": "audio/2026-09-03/rss-deepmind_blog-56da2c8ef803-introducing-weathernext-3-our-most-advanced-and-accurate-glo.mp3",
+      "word_count": 294,
+      "estimated_duration_s": 118,
+      "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/WeatherNext3_Title.width-1300.png",
+      "location": null,
+      "audio_bytes": 915288,
+      "audio_duration_s": 119.8,
+      "tts_chunks": 32,
+      "tts_voice": "am_liam"
+    },
+    {
+      "id": "hn-49550772",
+      "title": ".name Termination",
+      "summary": "Fraser registered neil dot fraser dot name long ago for his website and his email and an application programming interface server. He later registered beverly dot fraser dot name following his daughter's birth. On April fifteenth, twenty twenty-six, Verisign proposed destroying the entire third level of the name hierarchy to simplify administration. The Internet Corporation for Assigned Names and Numbers approved this action on July twenty-eighth, twenty twenty-six. Fraser learned of it when his registrar emailed him a few days prior to his announcement. Fraser originally chose the domain because Global Name Registry operated it rather than Verisign. Verisign later acquired Global Name Registry and included numerous lies in its proposal. The upcoming termination means Fraser's website and his email address and his connected Internet of Things devices will vanish in February. This happens even though his domain is paid for until twenty forty. Once the third-level domains are terminated, vacant second-level domains are assumed to become available for registration. This allows someone else to scoop up fraser dot name and recreate neil dot fraser dot name. They can hijack hundreds of accounts and commit code and seize control of his devices. Fraser notes he is just one of twenty-two thousand people who will lose their domains in this change. He concludes that it is time to lawyer up.",
+      "main": "TECH",
+      "sub": "Software & Open Source",
+      "category": "TECH",
+      "subcategory": "Software & Open Source",
+      "sources": [
+        {
+          "name": "hackernews",
+          "url": "https://neil.fraser.name/news/2026/09/03/",
+          "domain": "neil.fraser.name",
+          "added_at": "2026-09-03T21:39:29.238362+00:00"
+        }
+      ],
+      "source": "hackernews",
+      "source_url": "https://neil.fraser.name/news/2026/09/03/",
+      "source_domain": "neil.fraser.name",
+      "source_permalink": "https://news.ycombinator.com/item?id=49550772",
+      "score": 1087,
+      "author": "pavel_lishin",
+      "published_at": "2026-09-03T21:39:29.238362+00:00",
+      "created_at_ts": 1788447279,
+      "audio_path": "audio/2026-09-03/hn-49550772-name-termination.mp3",
+      "word_count": 219,
+      "estimated_duration_s": 88,
+      "image_url": null,
+      "location": null,
+      "audio_bytes": 630048,
+      "audio_duration_s": 79.5,
+      "tts_chunks": 14,
+      "tts_voice": "am_liam"
+    },
+    {
+      "id": "rss-quanta_magazine-2415588a484e",
+      "title": "Live from ICM 2026: What Is Math For in the Age of AI?",
+      "summary": "Artificial intelligence is changing mathematics quickly. This was the main topic on a live episode of The Joy of Why. The show was recorded on July twenty-sixth, twenty twenty-six, at the International Congress of Mathematicians in Philadelphia. Hosts Janna Levin and Steven Strogatz spoke with three experts. The guests were Akshay Venkatesh from the Institute for Advanced Study, Ravi Vakil from Stanford University, and Alex Kontorovich from Rutgers University. The panel discussed major recent milestones. Google’s AlphaProof won a silver medal at the twenty twenty-four International Mathematical Olympiads. Then a DeepThink model secured a gold medal in twenty twenty-five. Other recent A. I. solutions targeted problems in Tom Bloom’s database of Erdős problems. Kontorovich highlighted one specific breakthrough. An A. I. model autonomously built a counterexample that disproved the conjectured value of the Erdős unit distance conjecture. This solution inspired human mathematicians to solve an unrelated sum product problem using techniques exposed by the A. I. The panel also addressed challenges from machine-generated mathematics. Venkatesh and Vakil raised concerns about low-quality submissions. The flood of A. I. generated proofs threatens to overwhelm mathematical journals and strain community peer review systems. Vakil noted that mathematicians will face a massive influx of material. He joked about checking his inbox after the event and dreading the kind of A. I. slop people will send him. The discussion highlighted a broader philosophical shift in the field. Mathematicians are now grappling with a fundamental question. They wonder if the true value of mathematics lies strictly in the final destination of a solved theorem or in the human journey of discovery and learning.",
+      "main": "AI",
+      "sub": "Models & Research",
+      "category": "AI",
+      "subcategory": "Models & Research",
+      "sources": [
+        {
+          "name": "quanta_magazine",
+          "url": "https://www.quantamagazine.org/live-from-icm-2026-what-is-math-for-in-the-age-of-ai-20260903/",
+          "domain": "quantamagazine.org",
+          "added_at": "2026-09-03T21:53:22.065094+00:00"
+        }
+      ],
+      "source": "quanta_magazine",
+      "source_url": "https://www.quantamagazine.org/live-from-icm-2026-what-is-math-for-in-the-age-of-ai-20260903/",
+      "source_domain": "quantamagazine.org",
+      "source_permalink": "https://www.quantamagazine.org/live-from-icm-2026-what-is-math-for-in-the-age-of-ai-20260903/",
+      "score": 100,
+      "author": "Janna Levin and Steven Strogatz",
+      "published_at": "2026-09-03T21:53:22.065094+00:00",
+      "created_at_ts": 1788442908,
+      "audio_path": "audio/2026-09-03/rss-quanta_magazine-2415588a484e-live-from-icm-2026-what-is-math-for-in-the-age-of-ai.mp3",
+      "word_count": 267,
+      "estimated_duration_s": 107,
+      "image_url": "https://www.quantamagazine.org/wp-content/uploads/2026/09/JOW-S5-E7-Live-cr-ChanelleNibbelink-Social-LOGO.jpg",
+      "location": null,
+      "audio_bytes": 856008,
+      "audio_duration_s": 111.1,
+      "tts_chunks": 29,
+      "tts_voice": "am_liam"
+    },
+    {
+      "id": "rss-times_of_india-28f95ba96db5",
+      "title": "7.8% growth, but a Rs 6 lakh crore question: Why GDP data has sparked a debate",
+      "summary": "India's G. D. P. growth for the first quarter beat estimates at seven point eight percent. The figure has sparked a heated debate over calculation methodologies and downward revisions of previous quarters. Former finance secretary, Subhash Chandra Garg questioned the data. He argued that without downward revisions, nominal growth would be about two point six percent with real growth near zero. In February, the government shifted the G. D. P. base year from twenty eleven to twenty twelve, moving to twenty twenty-two to twenty twenty-three. This revised the first quarter fiscal twenty-six baseline from eighty-six point zero five lakh crore rupees down to eighty lakh crore rupees. The government maintains that old and new series figures cannot be directly compared. The revisions incorporate improved methodologies, updated data sources, and the recent Household Consumption Expenditure Survey of twenty twenty-two to twenty twenty-three. Soumya Kanti Ghosh, member of the sixteenth Finance Commission and group chief economic adviser at S. B. I., criticized critics who mix old and new series numbers. He stated this is completely unsolicited and a sure sign of intellectual dishonesty. Ghosh calculated that comparing the new first quarter fiscal twenty-seven nominal G. D. P. of eighty-eight point three lakh crore rupees against the updated base yields a nine point seven percent growth rate. This translates to a real growth of seven point four percent. Economists also addressed a puzzle surrounding the two point five percent implied G. D. P. deflator. It sits below the C. P. I. inflation rate of three point nine percent. Experts like, D. K. Srivastava of E. Y. India noted that the new series uses a double deflation method for selected sectors. This separates output and intermediate goods price adjustments. The methodology caused manufacturing nominal G. V. A. to grow seven point seven percent while real G. V. A. grew nine point two percent. This resulted in a negative implicit G. V. A. deflator because input prices rose faster than output prices amid the Middle East conflict and companies absorbed higher costs. Economists note that quarterly G. D. P. revisions are a periodic exercise. Ghosh points out that the latest first quarter fiscal twenty-seven number will get finalized by February twenty twenty-nine only. This means we have to wait for thirty months to finally know where the numbers stand.",
+      "main": "INDIA",
+      "sub": "Economy",
+      "category": "INDIA",
+      "subcategory": "Economy",
+      "sources": [
+        {
+          "name": "times_of_india",
+          "url": "https://timesofindia.indiatimes.com/business/india-business/explained-why-indias-7-8-gdp-growth-has-sparked-a-maths-debate/articleshow/133733370.cms",
+          "domain": "timesofindia.indiatimes.com",
+          "added_at": "2026-09-03T22:02:31.911959+00:00"
+        }
+      ],
+      "source": "times_of_india",
+      "source_url": "https://timesofindia.indiatimes.com/business/india-business/explained-why-indias-7-8-gdp-growth-has-sparked-a-maths-debate/articleshow/133733370.cms",
+      "source_domain": "timesofindia.indiatimes.com",
+      "source_permalink": "https://timesofindia.indiatimes.com/business/india-business/explained-why-indias-7-8-gdp-growth-has-sparked-a-maths-debate/articleshow/133733370.cms",
+      "score": 100,
+      "author": "SMRITI JAIN",
+      "published_at": "2026-09-03T22:02:31.911959+00:00",
+      "created_at_ts": 1788441793,
+      "audio_path": "audio/2026-09-03/rss-times_of_india-28f95ba96db5-7-8-growth-but-a-rs-6-lakh-crore-question-why-gdp-data-has-s.mp3",
+      "word_count": 384,
+      "estimated_duration_s": 154,
+      "image_url": "https://static.toiimg.com/thumb/msid-133733663,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+      "location": null,
+      "audio_bytes": 1181832,
+      "audio_duration_s": 159.5,
+      "tts_chunks": 54,
+      "tts_voice": "am_liam"
+    },
+    {
+      "id": "rss-openai_blog-5190d2a1dccd",
+      "title": "Daybreak for Frontline Defenders: $1B to protect essential services",
+      "summary": "OpenAI is launching a one billion dollar global initiative called Daybreak for Frontline Defenders. It will provide subsidized access to frontier A. I. cyber capabilities and training. The funding is targeted for consumption over the next six months. It focuses on resource constrained operators of essential services. These include water and wastewater systems and electric grid operators. State and local governments and community and regional banks are also included. Nonprofits and open-source maintainers are part of the effort. The program includes Daybreak for America. This features a new pilot with the Multi-State Information Sharing and Analysis Center. The pilot will train and support state and local cyber defenders. Partners in the Daybreak Defense Network are announcing more than thirty-five products and services. These bring the models directly into the enterprise. The initiative builds on previous support. That earlier effort offered up to one million dollars in no-cost A. P. I. credits. It also provided technical assistance to water systems following recent attacks. OpenAI states that A. I. enabled cyber attacks will become more widespread and sophisticated in the coming months. This creates a narrowing defender window to close security gaps before attackers exploit them. Eligible organizations can visit the Daybreak website to learn more about access and support.",
+      "main": "AI",
+      "sub": "Policy & Safety",
+      "category": "AI",
+      "subcategory": "Policy & Safety",
+      "sources": [
+        {
+          "name": "openai_blog",
+          "url": "https://openai.com/index/daybreak-for-frontline-defenders",
+          "domain": "openai.com",
+          "added_at": "2026-09-03T21:45:01.024882+00:00"
+        }
+      ],
+      "source": "openai_blog",
+      "source_url": "https://openai.com/index/daybreak-for-frontline-defenders",
+      "source_domain": "openai.com",
+      "source_permalink": "https://openai.com/index/daybreak-for-frontline-defenders",
+      "score": 100,
+      "author": "",
+      "published_at": "2026-09-03T21:45:01.024882+00:00",
+      "created_at_ts": 1788441300,
+      "audio_path": "audio/2026-09-03/rss-openai_blog-5190d2a1dccd-daybreak-for-frontline-defenders-1b-to-protect-essential-ser.mp3",
+      "word_count": 208,
+      "estimated_duration_s": 83,
+      "image_url": "https://images.ctfassets.net/kftzwdyauwt9/lvizepLUAiputffdSjtue/f89a11ed639405a45b491f70c882f0de/SEO_Card___short_copy_example__1_.png?w=1600&amp;h=900&amp;fit=fill",
+      "location": null,
+      "audio_bytes": 652920,
+      "audio_duration_s": 84.7,
+      "tts_chunks": 25,
+      "tts_voice": "am_liam"
+    },
+    {
+      "id": "rss-huggingface_blog-96a3500c5a4b",
+      "title": "NeoMME: an efficient Multimodal-native and Multilingual Encoder",
+      "summary": "NeoMME is a family of two hundred sixty million and eight hundred million multilingual multimodal encoders. They process text tokens and raw image patches through a single bidirectional Transformer. They do not rely on a separate pretrained vision tower or a causal language model. They were trained from scratch using a masked discrete-diffusion objective on about five hundred twenty-four billion packed input tokens. The models feature a sixteen thousand three hundred eighty-four token context length and dynamic image resolution. When fine-tuned for visual document retrieval using the page-image approach, they are called NeoMME-Retriever. The models generate dense and late-interaction embeddings in one forward pass, bypassing optical character recognition preprocessing steps. Running on an NVIDIA L40S G P U. with a matched twenty forty-eight by twenty forty-eight image input size, the two hundred sixty million model encodes about fifty-one pages per second. This achieves roughly twice the throughput of ColModernVBERT. Hierarchical token pooling and asymmetric quantization reduce late-interaction index storage to six kilobytes per page. This is two hundred fifty-five times smaller while retaining more than ninety-five percent of baseline normalized discounted cumulative gain at ten. On the ViDoRe v3 benchmark, NeoMME-Retriever-Two-Hundred-Sixty-Million reaches zero point five two three for normalized discounted cumulative gain at ten. This is the highest score among evaluated models strictly below eight hundred million parameters. Meanwhile, the eight hundred million model reaches zero point five five six. Omar Khattab, who introduced late-interaction in ColBERT, explains why the term is more precise than multi-vector. It describes the granularity and learnability of the scoring function, not simply the number of stored vectors. Model checkpoints are available in Hugging Face Transformers under the Apache two point zero license.",
+      "main": "AI",
+      "sub": "Models & Research",
+      "category": "AI",
+      "subcategory": "Models & Research",
+      "sources": [
+        {
+          "name": "huggingface_blog",
+          "url": "https://huggingface.co/blog/Hcompany/neomme",
+          "domain": "huggingface.co",
+          "added_at": "2026-09-03T21:47:45.786892+00:00"
+        }
+      ],
+      "source": "huggingface_blog",
+      "source_url": "https://huggingface.co/blog/Hcompany/neomme",
+      "source_domain": "huggingface.co",
+      "source_permalink": "https://huggingface.co/blog/Hcompany/neomme",
+      "score": 100,
+      "author": "",
+      "published_at": "2026-09-03T21:47:45.786892+00:00",
+      "created_at_ts": 1788441228,
+      "audio_path": "audio/2026-09-03/rss-huggingface_blog-96a3500c5a4b-neomme-an-efficient-multimodal-native-and-multilingual-encod.mp3",
+      "word_count": 278,
+      "estimated_duration_s": 111,
+      "image_url": "https://cdn-uploads.huggingface.co/production/uploads/6264f9655f6f2e14d6ac981c/GJ6FUbgFpq1x8RNOqzmz-.webp",
+      "location": null,
+      "audio_bytes": 884784,
+      "audio_duration_s": 112.1,
+      "tts_chunks": 18,
+      "tts_voice": "am_liam"
+    },
+    {
+      "id": "rss-guardian_world-11ae75dd6032",
+      "title": "Spain’s PM says no evidence ‘whatsoever’ Morocco behind Ceuta border breach",
+      "summary": "Spanish Prime Minister, Pedro Sánchez, told parliament that Spain has seen no evidence that Morocco planned the border breach in Ceuta. This followed a police report claiming Moroccan border forces actively aided about seventy thousand people to cross in late July. Sánchez stated that no institution, including the European Commission, has provided solid evidence of Moroccan involvement. He conceded that Moroccan forces allowed crossings during a ten hour period on the thirtieth of July. Moroccan officials have denied enabling the crossing. Sánchez also denied receiving any warning ahead of the influx. About fifty thousand people marched in Madrid on Wednesday to protest the handling of the crisis. As many as one hundred forty-one people are thought to have died trying to enter Ceuta during the event. The event triggered a political and humanitarian crisis. On August twenty-first, Spain summoned the ambassador from Morocco over unacceptable statements by two ministers regarding Ceuta and Melilla. This included sovereignty claims by Moroccan justice minister, Abdellatif Ouahbi. Sánchez appealed for European solidarity. He noted that ninety percent of crossers returned within twenty-four hours. Several thousand remain, including at least five hundred minors. Amid calls from the party Vox to return them, Sánchez reminded members of parliament that migrants have a right to individual treatment under the law. He stated you cannot just grab someone by the arm and drag them across the frontier as though they were a sack of dirt. Sánchez concluded by noting the economic disparity between Ceuta and Morocco. He stated that even if they build a wall one hundred metres high, people would still be prepared to throw themselves into the sea to get across.",
+      "main": "WORLD",
+      "sub": "Politics & Elections",
+      "category": "WORLD",
+      "subcategory": "Politics & Elections",
+      "sources": [
+        {
+          "name": "guardian_world",
+          "url": "https://www.theguardian.com/world/2026/sep/03/spain-pm-evidence-morocco-ceuta-border-breach",
+          "domain": "theguardian.com",
+          "added_at": "2026-09-03T22:05:58.279636+00:00"
+        }
+      ],
+      "source": "guardian_world",
+      "source_url": "https://www.theguardian.com/world/2026/sep/03/spain-pm-evidence-morocco-ceuta-border-breach",
+      "source_domain": "theguardian.com",
+      "source_permalink": "https://www.theguardian.com/world/2026/sep/03/spain-pm-evidence-morocco-ceuta-border-breach",
+      "score": 100,
+      "author": "Stephen Burgen in Barcelona",
+      "published_at": "2026-09-03T22:05:58.279636+00:00",
+      "created_at_ts": 1788439928,
+      "audio_path": "audio/2026-09-03/rss-guardian_world-11ae75dd6032-spains-pm-says-no-evidence-whatsoever-morocco-behind-ceuta-b.mp3",
+      "word_count": 275,
+      "estimated_duration_s": 110,
+      "image_url": "https://i.guim.co.uk/img/media/be4269b2ddb583217b97a8b9039e26613d47630f/706_0_4809_3847/master/4809.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=ca3d78412f7d58bdedde7a4f543215a3",
+      "location": null,
+      "audio_bytes": 769872,
+      "audio_duration_s": 98.0,
+      "tts_chunks": 18,
+      "tts_voice": "am_liam"
+    },
+    {
+      "id": "rss-sciencedaily_top-20654af92b3b",
+      "title": "NASA scientists discover a giant 10-sided pattern on Saturn",
+      "summary": "Scientists have discovered a giant ten sided atmospheric pattern circling Saturn's south pole. This gives the planet a surprising counterpart to its famous northern hexagon. The findings were published in Science Advances on September third, twenty twenty-six. The research reveals that the strange decagon is a vertically extended structure embedded inside a powerful jet stream. Researchers reconstructed the development of the feature using Hubble Space Telescope observations dating back to twenty twenty-three. They also used ground-based images from twenty twenty-four and twenty twenty-five. These images were submitted by amateur astronomers Trevor Barry and Jean-Paul Oger to the Planetary Virtual Observatory Laboratory. Study lead author, Agustín Sánchez-Lavega, from the University of the Basque Country helped confirm the findings. Data from the National Aeronautics and Space Administration spacecraft, known as Cassini, showed that no similar formation existed in the south between two thousand four and two thousand seventeen. Saturn's seasonal cycle made the south pole visible from Earth recently. The wave gradually strengthened from faint initial signs into a clear decagon. Amy Simon, a study co-author, noted the rarity of the event. She directs the Outer Planet Atmospheres Legacy program at the Goddard Space Flight Center. She stated that the northern hexagon has been present for over forty years. This new feature is different because it appears to be strengthening. Researchers now have the opportunity to watch a giant atmospheric pattern develop. Scientists do not yet know what triggered the decagon. They are also unsure whether it will persist like its northern counterpart. Continued observations will use the Hubble telescope and the James Webb Space Telescope. Computer modeling will also help determine its survival. These tools will reveal more about atmospheric dynamics on giant planets.",
+      "main": "SCIENCE",
+      "sub": "Space & Physics",
+      "category": "SCIENCE",
+      "subcategory": "Space & Physics",
+      "sources": [
+        {
+          "name": "sciencedaily_top",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260903064229.htm",
+          "domain": "sciencedaily.com",
+          "added_at": "2026-09-03T21:57:39.337960+00:00"
+        }
+      ],
+      "source": "sciencedaily_top",
+      "source_url": "https://www.sciencedaily.com/releases/2026/09/260903064229.htm",
+      "source_domain": "sciencedaily.com",
+      "source_permalink": "https://www.sciencedaily.com/releases/2026/09/260903064229.htm",
+      "score": 100,
+      "author": "",
+      "published_at": "2026-09-03T21:57:39.337960+00:00",
+      "created_at_ts": 1788439299,
+      "audio_path": "audio/2026-09-03/rss-sciencedaily_top-20654af92b3b-nasa-scientists-discover-a-giant-10-sided-pattern-on-saturn.mp3",
+      "word_count": 283,
+      "estimated_duration_s": 113,
+      "image_url": "https://www.sciencedaily.com/images/1920/decagon-encircling-saturns-south-pole.webp",
+      "location": null,
+      "audio_bytes": 846360,
+      "audio_duration_s": 107.1,
+      "tts_chunks": 21,
+      "tts_voice": "am_liam"
+    },
+    {
+      "id": "rss-mit_tech_review-1437f0f0bed5",
+      "title": "The Download: rethinking child safety and fossil-fueled farming",
+      "summary": "New York City has implemented a one-year ban on generative A. I. in elementary and middle schools. The ban affects six hundred thousand students. The moratorium applies to any software utilizing student-facing generative A. I. In other technology news, Uber launched the United Kingdom's first commercial robotaxi service. The service utilizes technology from the startup Wayve. A United States judge rejected the government's demand to force a sale of Google's ad tech business. The ruling allows the company to avoid a breakup. Google still faces requirements to change how it treats rivals and shares information. Nikhil Lai stated that courts remain hesitant to dismantle complex tech systems even when finding anticompetitive conduct. In Taiwan, authorities have uncovered a hidden Chinese network. The network is linked to one hundred sixty-six cases of illegal operations and talent poaching targeting the island's chip sector. The Trump administration has backed OpenAI in its copyright lawsuit brought by the New York Times. The Justice Department argued that A. I. training can constitute fair use. The department added that national security depended on United States tech dominance.",
+      "main": "AI",
+      "sub": "Policy & Safety",
+      "category": "AI",
+      "subcategory": "Policy & Safety",
+      "sources": [
+        {
+          "name": "mit_tech_review",
+          "url": "https://www.technologyreview.com/2026/09/03/1143385/the-download-rethinking-child-safety-online-fossil-fuels-farming/",
+          "domain": "technologyreview.com",
+          "added_at": "2026-09-03T21:48:45.950968+00:00"
+        }
+      ],
+      "source": "mit_tech_review",
+      "source_url": "https://www.technologyreview.com/2026/09/03/1143385/the-download-rethinking-child-safety-online-fossil-fuels-farming/",
+      "source_domain": "technologyreview.com",
+      "source_permalink": "https://www.technologyreview.com/2026/09/03/1143385/the-download-rethinking-child-safety-online-fossil-fuels-farming/",
+      "score": 100,
+      "author": "Thomas Macaulay",
+      "published_at": "2026-09-03T21:48:45.950968+00:00",
+      "created_at_ts": 1788437400,
+      "audio_path": "audio/2026-09-03/rss-mit_tech_review-1437f0f0bed5-the-download-rethinking-child-safety-and-fossil-fueled-farmi.mp3",
+      "word_count": 181,
+      "estimated_duration_s": 72,
+      "image_url": "https://wp.technologyreview.com/wp-content/uploads/2026/08/MIT-Tech_Review-Opener-FINAL-thumb.jpg?resize=1200,600",
+      "location": null,
+      "audio_bytes": 559848,
+      "audio_duration_s": 72.8,
+      "tts_chunks": 19,
+      "tts_voice": "am_liam"
+    },
+    {
+      "id": "rss-bbc_world-80ec5df80e2b",
+      "title": "Toxic wildfire haze spreads across South East Asia as 'super' El Niño intensifies",
+      "summary": "A toxic haze is blanketing parts of Indonesia and spreading into Malaysia, Singapore, and the Philippines. Weeks of wildfires have been burning across Sumatra and Indonesian Borneo since mid-July. The smog has exposed millions of people to pollution levels more than fifteen times the recommendation from the W. H. O. A super El Niño weather pattern is fueling these intense drought conditions. Between July and August, the Health Ministry in Indonesia recorded over fifty thousand respiratory infection cases linked to the fires. More than twelve thousand of these cases affected children under five years old. Malaysia has reported rising cases of asthma and conjunctivitis. Residents in the Philippine island province of Palawan reported mild headaches and itchy eyes, nose, and throat. The crisis is driven by both drought and human activity. This includes decades of land-use changes and drained peatlands along with industrial plantations. The fires are burning through one of the largest tropical peatland ecosystems in the world. When these areas are drained or burned, they can become carbon bombs, as warned by Doctor Nisa Novita, from Yayasan Konservasi Alam Nusantara. Professor Bambang Hero Saharjo, from Institut Pertanian Bogor University, cited research warning about the scale of the disaster. This year's El Niño could burn an area as large as eleven million hectares. This is comparable to the severe wildfire season from nineteen ninety-seven to nineteen ninety-eight in Indonesia. The forestry minister in Indonesia, Raja Juli Antoni, stated earlier this week that the battle to extinguish the fires is entering a critical phase. He noted that September marks the peak of the El Niño conditions. Rizma Nur Fatimah, a nineteen-year-old teaching assistant in South Kalimantan, described the grim conditions. She said that inside her house with everything closed, the haze still got in. It became so thick that you could not see your own feet.",
+      "main": "WORLD",
+      "sub": "Climate & Disasters",
+      "category": "WORLD",
+      "subcategory": "Climate & Disasters",
+      "sources": [
+        {
+          "name": "bbc_world",
+          "url": "https://www.bbc.co.uk/news/articles/clyqw44w142o?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "added_at": "2026-09-03T22:03:53.294209+00:00"
+        }
+      ],
+      "source": "bbc_world",
+      "source_url": "https://www.bbc.co.uk/news/articles/clyqw44w142o?at_medium=RSS&at_campaign=rss",
+      "source_domain": "bbc.co.uk",
+      "source_permalink": "https://www.bbc.co.uk/news/articles/clyqw44w142o?at_medium=RSS&at_campaign=rss",
+      "score": 100,
+      "author": "",
+      "published_at": "2026-09-03T22:03:53.294209+00:00",
+      "created_at_ts": 1788435352,
+      "audio_path": "audio/2026-09-03/rss-bbc_world-80ec5df80e2b-toxic-wildfire-haze-spreads-across-south-east-asia-as-super-.mp3",
+      "word_count": 306,
+      "estimated_duration_s": 122,
+      "image_url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/4952/live/e2983d40-a77b-11f1-b2d5-535b3b3d379f.jpg",
+      "location": null,
+      "audio_bytes": 892464,
+      "audio_duration_s": 114.4,
+      "tts_chunks": 22,
+      "tts_voice": "am_liam"
+    },
+    {
       "id": "rss-aljazeera-b9ded38e9237",
       "title": "NBA fines Clippers $30m, suspends several executives in Kawhi Leonard probe",
       "summary": "The National Basketball Association has fined the Los Angeles Clippers thirty million dollars. The league took away five first-round draft picks from twenty twenty-nine to twenty thirty-three. Multiple top executives are suspended after a one-year independent investigation into salary cap rules involving star forward, Kawhi Leonard. The probe found a pattern of misconduct by the organization. The team introduced Leonard to club sponsors for off-court income and endorsement deals. They offered companies team business as inducements and paid personal expenses for Leonard and his representatives. The businesses involved included Boingo Wireless, Daktronics, Lockton Insurance, and Aspiration Partners. Aspiration Partners allegedly signed Leonard to a twenty-eight million dollar endorsement deal. That same company held a twenty-three-year, three-hundred-million-dollar sponsorship with the Clippers. Owner Steve Ballmer received a one-year suspension from all league and team activities. He tried to help Leonard obtain off-court income. He approved a business deal that was a precondition for Aspiration and failed to enforce league rules. Team president of business operations, Gillian Zucker, was suspended without pay for one year. Basketball operations president, Lawrence Frank, was suspended without pay for six months. They were involved in the arrangements and approved impermissible expenses. Zucker also provided false statements to investigators. Leonard is thirty-five years old and was personally fined seven hundred thousand dollars. His uncle and former business manager, Dennis Robertson, was banned from league business for five years for failing to report improper solicitations. The Clippers issued a statement. They vehemently reject the findings as the result of a biased investigation. They intend to vigorously challenge the penalties through arbitration. Leonard stated through his agent, Harrison Gaines, that he had no knowledge of any intent to circumvent the salary cap. He accepted responsibility for lapses in judgment by his inner circle. The penalties are final and binding under an agreement between the N. B. A. and the National Basketball Players Association. The severity of the penalties reflects the seriousness of the violations of collectively bargained compensation systems. Meanwhile, the Toronto Raptors had agreed in principle on June thirty to a trade to bring Leonard back. The league statement did not clarify whether he has been cleared to join the team.",
@@ -267,6 +1049,176 @@
       "main": "US",
       "sub": "Disasters",
       "subcategory": "Disasters"
+    },
+    {
+      "id": "tldr-ai-965449a169a7",
+      "title": "Muse superapp from Meta and Ava model with computer use",
+      "summary": "Meta is preparing to launch a new agent super app named Muse. This aligns the product with the branding of the company's new generation of artificial intelligence models, known as A. I. models. The project was previously known internally as Project Hatch. The clearest change has appeared on iOS, where an internal testing app has transitioned into a Muse waitlist experience. Joining the waitlist appears technically possible, although Meta has not yet opened it publicly. Meta is also updating its desktop app with theme support and secondary color selection along with a monochrome theme. More significantly, Meta has added a setting for computer use. The company is testing a model variant called Ava. This variant is described as supporting computer control, although Ava itself is not currently accessible. These additions indicate that Muse could allow an A. I. agent to operate desktop applications and browse the web as part of longer, multi-step tasks. This places the product closer to tools like Codex and Claude. This direction mirrors the broader strategy at Meta. Versions one point one and one point two of Muse Spark already emphasize tool use, coding, and computer control. Previous reports regarding Project Hatch indicated the product would be capable of using websites and managing schedules. It would also handle sending emails and building custom tools. Meta was reportedly considering premium pricing as high as two hundred dollars per month. The transition to a waitlist suggests a controlled rollout. Meta could announce the app first and gradually admit users while computer and browser control features mature.",
+      "main": "AI",
+      "sub": "Products & Tools",
+      "category": "AI",
+      "subcategory": "Products & Tools",
+      "sources": [
+        {
+          "name": "tldr_ai",
+          "url": "https://www.testingcatalog.com/muse-superapp-from-meta-and-ava-model-with-computer-use/",
+          "domain": "testingcatalog.com",
+          "added_at": "2026-09-03T21:40:12.255896+00:00"
+        }
+      ],
+      "source": "tldr_ai",
+      "source_url": "https://www.testingcatalog.com/muse-superapp-from-meta-and-ava-model-with-computer-use/",
+      "source_domain": "testingcatalog.com",
+      "source_permalink": "https://tldr.tech/ai/2026-09-03",
+      "score": 350,
+      "author": "TLDR",
+      "published_at": "2026-09-03T21:40:12.255896+00:00",
+      "created_at_ts": 1788393600,
+      "audio_path": "audio/2026-09-03/tldr-ai-965449a169a7-muse-superapp-from-meta-and-ava-model-with-computer-use.mp3",
+      "word_count": 258,
+      "estimated_duration_s": 103,
+      "image_url": "https://storage.ghost.io/c/2a/1b/2a1b1782-8506-4d7d-bf53-ad3fb52e2a0f/content/images/size/w1200/2026/09/Screenshot-2026-09-01-at-21.42.20-1.webp",
+      "location": null,
+      "audio_bytes": 746064,
+      "audio_duration_s": 95.6,
+      "tts_chunks": 22,
+      "tts_voice": "am_liam"
+    },
+    {
+      "id": "tldr-webdev-83c6493a40c4",
+      "title": "How we could save petabytes of cache storage with Zstandard and Pingora",
+      "summary": "Cloudflare has built a new system called Cache Transcoding to expand effective cache capacity while memory costs go up. The architecture was built during the one point one point one point one Intern Program. It encodes eligible assets with the Zstandard lossless compression algorithm inside the Pingora proxy before writing them to disk. Initial testing over one million requests across ten cache servers showed strong results. The prototype shrunk eligible assets to one-third of their original on-disk size on average. The system uses zstd level three. It targets uncompressed compressible text responses such as H T M L., J S O N., C S S., and JavaScript. These files must have a known content length of at least four kibibytes. Media files like images, video, and fonts are excluded because they are typically compressed already. The architecture trades a small single-digit percentage increase in origin-facing C P U. usage for petabytes of effective cache capacity. It also reduces data transfer across data centers via Tiered Cache. The encoding cost is paid once upon cache entry. Storage and bandwidth savings recur every time the asset is reused. For next steps, Cloudflare plans to evaluate higher zstd levels. They will test a broader range of content types and object sizes. They want to tune different parameters from the eligibility criteria and examine range requests. They also plan to test pre-compressed origin responses and pass compressed objects directly to downstream components that support it.",
+      "main": "TECH",
+      "sub": "Enterprise & Cloud",
+      "category": "TECH",
+      "subcategory": "Enterprise & Cloud",
+      "sources": [
+        {
+          "name": "tldr_webdev",
+          "url": "https://blog.cloudflare.com/cache-transcoding/",
+          "domain": "blog.cloudflare.com",
+          "added_at": "2026-09-03T21:41:18.515050+00:00"
+        }
+      ],
+      "source": "tldr_webdev",
+      "source_url": "https://blog.cloudflare.com/cache-transcoding/",
+      "source_domain": "blog.cloudflare.com",
+      "source_permalink": "https://tldr.tech/dev/2026-09-03",
+      "score": 350,
+      "author": "TLDR",
+      "published_at": "2026-09-03T21:41:18.515050+00:00",
+      "created_at_ts": 1788393600,
+      "audio_path": "audio/2026-09-03/tldr-webdev-83c6493a40c4-how-we-could-save-petabytes-of-cache-storage-with-zstandard-.mp3",
+      "word_count": 241,
+      "estimated_duration_s": 96,
+      "image_url": "https://blog.cloudflare.com/_emdash/api/media/file/01M1DAPGD3MF590TVQC32X12TX.01M1DAPH1P5MKSPDY4VF9A3H3T.png",
+      "location": null,
+      "audio_bytes": 713400,
+      "audio_duration_s": 90.2,
+      "tts_chunks": 18,
+      "tts_voice": "am_liam"
+    },
+    {
+      "id": "tldr-infosec-a7064306b545",
+      "title": "BGP Hijack Infecting Networks Caused By a Comedy of Errors That's Not Funny at All",
+      "summary": "Unknown hackers carried out a supply chain attack. They used B. G. P. hijacking to install malware. The target was Virtualizor. That is a management platform for virtualized environments. It was developed by Softaculous. The attackers exploited routing security weaknesses. They targeted hosting provider Hetzner Online. They also used flaws in the T. L. S. certificate issuance process. These actions seized control of I. P. addresses. The addresses belonged to Softaculous. Softaculous used the space for software updates. They also hosted a client and billing site there. The attackers pushed malicious software disguised as legitimate updates. The successful breach relied on two main failures. Hetzner Online had lax configuration of routing security. Softaculous failed to implement code signing to validate software updates. A thirty-three-hour window saw traffic intermittently misdirected. This happened across two spans. Hetzner reclaimed the address space twelve hours after the hijacking started. They did this by announcing the correct path. Then Hetzner stopped announcing it. This allowed the attacker to execute the same hijack a second time. It took Hetzner nearly ten hours to react during the second breach. Softaculous warned on Monday during the incident window. Any Virtualizor installation with diverted traffic could have received a malicious update package. The package came from the attacker server. Softaculous added that product update clients did not yet cryptographically verify update packages. A modified package would not have been rejected on that basis. The company believes only a small number of servers were actually affected. They cannot produce a definitive list. They advise treating every Virtualizor server as in scope for checks.",
+      "main": "TECH",
+      "sub": "Security & Privacy",
+      "category": "TECH",
+      "subcategory": "Security & Privacy",
+      "sources": [
+        {
+          "name": "tldr_infosec",
+          "url": "https://arstechnica.com/security/2026/09/well-executed-bgp-attack-uses-hijacked-ips-to-infect-real-networks/",
+          "domain": "arstechnica.com",
+          "added_at": "2026-09-03T21:42:07.888356+00:00"
+        }
+      ],
+      "source": "tldr_infosec",
+      "source_url": "https://arstechnica.com/security/2026/09/well-executed-bgp-attack-uses-hijacked-ips-to-infect-real-networks/",
+      "source_domain": "arstechnica.com",
+      "source_permalink": "https://tldr.tech/infosec/2026-09-03",
+      "score": 350,
+      "author": "TLDR",
+      "published_at": "2026-09-03T21:42:07.888356+00:00",
+      "created_at_ts": 1788393600,
+      "audio_path": "audio/2026-09-03/tldr-infosec-a7064306b545-bgp-hijack-infecting-networks-caused-by-a-comedy-of-errors-t.mp3",
+      "word_count": 263,
+      "estimated_duration_s": 105,
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2022/09/GettyImages-11477585601-1000x648.jpg",
+      "location": null,
+      "audio_bytes": 847512,
+      "audio_duration_s": 111.4,
+      "tts_chunks": 39,
+      "tts_voice": "am_liam"
+    },
+    {
+      "id": "tldr-design-44f0da4c181f",
+      "title": "Try Google Pics: Easy Image Creation and Editing in Google Workspace",
+      "summary": "Google is rolling out a new image creation and editing tool called Google Pics. It is coming to all Google A. I. Pro and Ultra subscribers over the coming weeks. Most Workspace business customers will also get the tool. The system runs on the Nano Banana image generation and editing model. It works as a standalone product and inside Google Workspace apps. The integration starts with Slides, Docs, and Drive. Google Pics includes fine-tuned editing capabilities for precise control. Object segmentation lets users isolate and transform specific objects with text prompts. It does this without altering the rest of the image. Users can execute multiple edits at the same time. People can also modify or translate text directly inside images. This happens without disrupting the design or changing the font. The tool generates multiple options from a single prompt. It supports real-time collaboration for teams and friends. Users can share creations and edit the same image together. Google built the tool directly into existing Workspace applications. The company wants to eliminate the need for users to jump between applications. People will no longer need to copy and paste or switch tabs when creating visuals.",
+      "main": "AI",
+      "sub": "Products & Tools",
+      "category": "AI",
+      "subcategory": "Products & Tools",
+      "sources": [
+        {
+          "name": "tldr_design",
+          "url": "https://blog.google/products-and-platforms/products/workspace/google-pics/",
+          "domain": "blog.google",
+          "added_at": "2026-09-03T21:43:06.396377+00:00"
+        }
+      ],
+      "source": "tldr_design",
+      "source_url": "https://blog.google/products-and-platforms/products/workspace/google-pics/",
+      "source_domain": "blog.google",
+      "source_permalink": "https://tldr.tech/design/2026-09-03",
+      "score": 350,
+      "author": "TLDR",
+      "published_at": "2026-09-03T21:43:06.396377+00:00",
+      "created_at_ts": 1788393600,
+      "audio_path": "audio/2026-09-03/tldr-design-44f0da4c181f-try-google-pics-easy-image-creation-and-editing-in-google-wo.mp3",
+      "word_count": 194,
+      "estimated_duration_s": 78,
+      "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/GooglePics_Hero.width-1300.png",
+      "location": null,
+      "audio_bytes": 562656,
+      "audio_duration_s": 72.7,
+      "tts_chunks": 20,
+      "tts_voice": "am_liam"
+    },
+    {
+      "id": "tldr-ai-1c03991f8f8b",
+      "title": "LLMs: Intelligence vs. cost",
+      "summary": "Artificial Analysis benchmarks large language model intelligence through a headline Intelligence Index. It also tracks the cost to run each model. The website plots intelligence against cost to show the cheapest model achieving each score. However, this plot uses a logarithmic cost scale. It obscures massive price gaps between cheap and heavy models. It relies on official A P I. pricing instead of cheaper third party options like OpenRouter. It also displays local models at expensive datacenter rates. A revised analysis adjusts these factors as of September first, twenty twenty-six. It replaces logarithmic scales with a linear scale because human money is not logarithmic. It updates pricing for models including Kimi K three, Qwen three point eight Max, DeepSeek V four Flash zero seven thirty-one, G. L. M. dash five point three, G. L. M. dash five point three Dash Flash, and Hy three to reflect OpenRouter rates. It calculates local costs for sub-thirty-five-billion-parameter models based on electricity instead of datacenter fees. Local electricity costs use output tokens per task and local decode speeds on a used R. T. X. thirty ninety video card priced around fourteen hundred dollars. They use a US weighted average residential electricity price of zero point two zero four nine dollars per kilowatt-hour as of May twenty twenty-six. They add fifteen percent for uncached input tokens and tool calls while treating hardware cost as zero for dual-purpose machines. The comparison reveals steep diminishing returns in performance relative to cost. State-of-the-art models like, Fable five point one reach an intelligence score of sixty-six at three point six nine dollars per task. The G. L. M. dash five point three scores sixty at zero point four nine dollars per task. This makes it seven point five times cheaper. Descending further, the G. L. M. dash five point three Dash Flash at high settings achieves an intelligence score of fifty-five at zero point zero two three dollars per task. This is one hundred and sixty times cheaper than Fable. Meanwhile, Qwen three point eight dash twenty-seven B delivers an intelligence score of fifty-two at zero point zero one five dollars in electricity per task when run locally by an enthusiast gamer.",
+      "main": "AI",
+      "sub": "Models & Research",
+      "category": "AI",
+      "subcategory": "Models & Research",
+      "sources": [
+        {
+          "name": "tldr_ai",
+          "url": "https://openteams.com/intelligence-vs-cost/",
+          "domain": "openteams.com",
+          "added_at": "2026-09-03T22:08:31.198195+00:00"
+        }
+      ],
+      "source": "tldr_ai",
+      "source_url": "https://openteams.com/intelligence-vs-cost/",
+      "source_domain": "openteams.com",
+      "source_permalink": "https://tldr.tech/ai/2026-09-03",
+      "score": 350,
+      "author": "TLDR",
+      "published_at": "2026-09-03T22:08:31.198195+00:00",
+      "created_at_ts": 1788393600,
+      "audio_path": "audio/2026-09-03/tldr-ai-1c03991f8f8b-llms-intelligence-vs-cost.mp3",
+      "word_count": 363,
+      "estimated_duration_s": 145,
+      "image_url": null,
+      "location": null,
+      "audio_bytes": 1096032,
+      "audio_duration_s": 143.6,
+      "tts_chunks": 37,
+      "tts_voice": "am_liam"
     },
     {
       "id": "rss-techcrunch-2a69e71d9726",
@@ -558,7 +1510,7 @@
     {
       "id": "rss-ars_technica-b0c60d5e22ba",
       "title": "Google releases Gemini 3.8 Flash, its third Flash model in six weeks",
-      "summary": "Google has released the Gemini three point eight Flash model. This is the third Flash rollout from the company in six weeks. The new model comes in two variations. The first is a standard workhorse model built for tasks like agentic work and software development. The second variation is Gemini three point eight Flash Cyber. That version is tuned specifically for finding and fixing security vulnerabilities. Developers using application programming interface access get a special discount. The introductory price lasts through the end of the year. It costs zero point seven five dollars per million input tokens. Output tokens cost three point seven five dollars per million during this time. Regular pricing kicks in after the promotional period ends. Input tokens will then cost one point five zero dollars per million. Output tokens will increase to seven point five zero dollars per million.",
+      "summary": "Google has announced the release of the Gemini three point eight Flash model. This marks the third Flash model rollout from the company in six weeks. The new release arrives while the article notes that Google has not launched a frontier-level Gemini Pro model since early two thousand twenty six. Google states that Gemini three point eight Flash is its best reasoning and coding model yet. The model is released in two variations. The first is a standard workhorse model designed for tasks such as agentic work and software development. The second variation is Gemini three point eight Flash Cyber, which shares the same foundations but is specifically tuned for finding and fixing security vulnerabilities. Google reports that benchmark numbers show Gemini three point eight Flash competing with or beating larger models, displaying marginal improvements over Gemini three point seven Flash in most tests and larger gains in coding evaluations. For application programming interface access, Google offers a promotional introductory price through the end of the year. Input tokens cost zero point seven five dollars per million, while output tokens cost three point seven five dollars per million. The regular pricing will then increase to one point five zero dollars per million for input tokens and seven point five zero dollars per million for output tokens. The article notes that Google likely lowered these prices because other artificial intelligence labs recently dropped token pricing to keep businesses engaged.",
       "category": "AI",
       "source": "ars_technica",
       "source_url": "https://arstechnica.com/ai/2026/09/google-releases-gemini-3-8-flash-its-third-flash-model-in-six-weeks/",
@@ -569,25 +1521,75 @@
       "published_at": "2026-09-02T22:21:01.586427+00:00",
       "created_at_ts": 1788372834,
       "audio_path": "audio/2026-09-02/rss-ars_technica-b0c60d5e22ba-google-releases-gemini-3-8-flash-its-third-flash-model-in-si.mp3",
-      "word_count": 143,
-      "estimated_duration_s": 57,
+      "word_count": 238,
+      "estimated_duration_s": 95,
       "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-1-1152x648.jpg",
       "location": null,
-      "audio_bytes": 561840,
-      "audio_duration_s": 81.5,
-      "tts_chunks": 13,
-      "tts_voice": "af_nicole",
+      "audio_bytes": 772416,
+      "audio_duration_s": 101.1,
+      "tts_chunks": 12,
+      "tts_voice": "am_michael",
       "sources": [
         {
           "name": "ars_technica",
           "url": "https://arstechnica.com/ai/2026/09/google-releases-gemini-3-8-flash-its-third-flash-model-in-six-weeks/",
           "domain": "arstechnica.com",
           "added_at": "2026-09-02T22:21:01.586427+00:00"
+        },
+        {
+          "name": "tldr_ai",
+          "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
+          "domain": "blog.google",
+          "added_at": "2026-09-03T21:31:10.753250+00:00"
         }
       ],
       "main": "AI",
       "sub": "Models & Research",
-      "subcategory": "Models & Research"
+      "subcategory": "Models & Research",
+      "key_points": [
+        "Google released its third Flash model in six weeks, named Gemini three point eight Flash.",
+        "The article notes Google has not released a frontier-level Gemini Pro model since early two thousand twenty six.",
+        "Google describes the release as its best reasoning and coding model yet.",
+        "The model comes in standard and Cyber variations, with the latter tuned for vulnerability detection.",
+        "Benchmark numbers show marginal improvements over Gemini three point seven Flash with larger gains in coding.",
+        "Introductory application programming interface pricing lasts through the end of the year at zero point seven five dollars per million input tokens and three point seven five dollars per million output tokens.",
+        "Regular pricing will be one point five zero dollars per million input tokens and seven point five zero dollars per million output tokens.",
+        "The article notes price cuts may respond to other artificial intelligence labs dropping token pricing for wary businesses."
+      ]
+    },
+    {
+      "id": "rss-google_ai_blog-28b149c75e15",
+      "title": "Proactive cyber defense for governments and enterprises",
+      "summary": "Google is launching the Fairwind Program. It gives trusted cloud customers and government agencies access to advanced A. I. and cyber defense tools. The program features Gemini three point eight Flash Cyber combined with the CodeMender harness. This technology helps defenders find and fix code vulnerabilities in minutes instead of weeks inside a secure cloud environment. Initial access is rolling out to more than six hundred fifty participating partners around the world. These partners include national cyber authorities and critical infrastructure operators across healthcare, telecommunications, energy, and financial networks. Participating groups must agree to strict operational standards. They must limit access to internal cybersecurity teams and deploy multi-factor authentication. Google also released the twenty twenty-six Google.org U. S. Cybersecurity Impact Report. The report details thirty-six million dollars in funding for thirty-five cyber clinics. These clinics provide free security support to over one thousand two hundred fifty U. S. hospitals, public school districts, and municipal utilities. This funding brings Google's total global cybersecurity investment to more than one hundred million dollars.",
+      "main": "AI",
+      "sub": "Policy & Safety",
+      "category": "AI",
+      "subcategory": "Policy & Safety",
+      "sources": [
+        {
+          "name": "google_ai_blog",
+          "url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
+          "domain": "blog.google",
+          "added_at": "2026-09-03T21:45:46.802058+00:00"
+        }
+      ],
+      "source": "google_ai_blog",
+      "source_url": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
+      "source_domain": "blog.google",
+      "source_permalink": "https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/",
+      "score": 100,
+      "author": "Four Flynn",
+      "published_at": "2026-09-03T21:45:46.802058+00:00",
+      "created_at_ts": 1788363600,
+      "audio_path": "audio/2026-09-03/rss-google_ai_blog-28b149c75e15-proactive-cyber-defense-for-governments-and-enterprises.mp3",
+      "word_count": 170,
+      "estimated_duration_s": 68,
+      "image_url": "https://storage.googleapis.com/gweb-uniblog-publish-prod/images/gemini-3-8__fairwind-program__blog__header__1.width-1300.png",
+      "location": null,
+      "audio_bytes": 572880,
+      "audio_duration_s": 74.0,
+      "tts_chunks": 18,
+      "tts_voice": "am_liam"
     },
     {
       "id": "rss-bbc_world-bd4ab0ce31d2",
@@ -626,7 +1628,7 @@
     {
       "id": "hn-49537553",
       "title": "Gemini 3.8 Flash and 3.8 Flash Cyber",
-      "summary": "Google has released Gemini three point eight Flash and Gemini three point eight Flash Cyber. These two new variants are built on a shared reasoning and coding core. This marks the third Flash release in six weeks. Gemini three point eight Flash is an intelligent workhorse model. It is optimized for software engineering and agentic tasks and multi-step reasoning. It is available at an introductory price of zero point seven five dollars per million input tokens. The output tokens cost three point seven five dollars per million. This matches the pricing of version three point seven Flash. The model outperforms previous versions on several benchmarks. It beats larger frontier models on DeepSWE v one point one and Vals Finance Agent V two and Harvey's Legal Agent Benchmark. It also achieves fifty-four point nine percent on HLE-Verified. The model uses extra reasoning steps and iterative tool calls for complex tasks. Developers can adjust effort levels or use version three point seven Flash for efficiency-first workloads. The second variant is Gemini three point eight Flash Cyber. It is a specialized cybersecurity model focused on vulnerability detection and automated patching. The model achieved a success rate exceeding seventy percent in autonomous vulnerability discovery. This was measured on the CyberGym benchmark and an internal benchmark spanning twenty programming languages. The model recorded a pass at one score of forty-seven point two percent on the CWE-Bench patching benchmark. It is already deployed across Google. The Chrome Security team found it produced two point six times more correct patches than larger commercial models. Google's Cloud Vulnerability Research team used it to find a critical foundational vulnerability in less than two hours. Gemini three point eight Flash Cyber ships with a more permissive set of mitigations for cybersecurity. It is available to trusted defenders through the new Fairwind Program. This program provides access to government authorities and critical infrastructure operators and software maintainers. The standard version three point eight Flash is available immediately. It is for developers and enterprise customers and artificial intelligence Pro and Ultra subscribers.",
+      "summary": "Google has released Gemini three point eight Flash and Gemini three point eight Flash Cyber. The release comes three weeks after version three point seven Flash and marks the third Flash release in six weeks. Both variants share a reasoning and coding core accelerated by long-running agentic loops. Gemini three point eight Flash is an intelligent workhorse model optimized for software engineering and multi-step reasoning. It is priced at zero point seven five dollars per million input tokens and three point seven five dollars per million output tokens. The model outperforms previous versions on benchmarks including DeepSWE v one point one and Vals Finance Agent V two and Harvey's Legal Agent Benchmark, and achieves fifty-four point nine percent on HLE-Verified. It uses extra reasoning steps and iterative tool calls, while developers can adjust effort levels or use version three point seven Flash for efficiency. The second variant, Gemini three point eight Flash Cyber, is a specialized cybersecurity model focused on vulnerability detection and automated patching. It achieved a success rate exceeding seventy percent in autonomous vulnerability discovery across twenty programming languages on an internal benchmark. On CWE-Bench, the model recorded a pass at one score of forty-seven point two percent, compared to forty-seven point eight percent for a leading frontier model. Google reports the Chrome Security team found it produced two point six times more correct patches than larger commercial models, Wiz found it achieved higher recall for lower cost on penetration testing, and the Cloud Vulnerability Research team found a critical foundational vulnerability in less than two hours. Gemini three point eight Flash Cyber includes a more permissive set of mitigations for cybersecurity and is available through the Fairwind Program to trusted defenders, government authorities, critical infrastructure operators, and software maintainers. The standard version three point eight Flash is available immediately for developers, enterprise customers, and artificial intelligence Pro and Ultra subscribers.",
       "category": "AI",
       "source_url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
       "source_domain": "blog.google",
@@ -636,10 +1638,10 @@
       "published_at": "2026-09-02T17:48:25.799450+00:00",
       "created_at_ts": 1788361960,
       "audio_path": "audio/2026-09-02/49537553-gemini-3-8-flash-and-3-8-flash-cyber.mp3",
-      "word_count": 340,
-      "estimated_duration_s": 98,
-      "audio_bytes": 1168128,
-      "audio_duration_s": 98.9,
+      "word_count": 313,
+      "estimated_duration_s": 125,
+      "audio_bytes": 1100256,
+      "audio_duration_s": 144.6,
       "location": {
         "name": "Mountain View",
         "country": "United States",
@@ -653,11 +1655,28 @@
           "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/3-8-flash-and-3-8-flash-cyber/",
           "domain": "blog.google",
           "added_at": "2026-09-02T17:48:25.799450+00:00"
+        },
+        {
+          "name": "deepmind_blog",
+          "url": "https://deepmind.google/blog/introducing-gemini-3-8-flash-and-38-flash-cyber/",
+          "domain": "deepmind.google",
+          "added_at": "2026-09-03T21:38:04.862418+00:00"
         }
       ],
       "main": "AI",
       "sub": "Models & Research",
-      "subcategory": "Models & Research"
+      "subcategory": "Models & Research",
+      "key_points": [
+        "Google released Gemini three point eight Flash and Gemini three point eight Flash Cyber.",
+        "Gemini three point eight Flash is priced at zero point seven five dollars per million input tokens and three point seven five dollars per million output tokens.",
+        "Gemini three point eight Flash achieves fifty-four point nine percent on HLE-Verified and outperforms previous versions on DeepSWE v one point one.",
+        "Gemini three point eight Flash Cyber achieved a success rate exceeding seventy percent in autonomous vulnerability discovery across twenty programming languages.",
+        "Gemini three point eight Flash Cyber recorded a pass at one score of forty-seven point two percent on CWE-Bench, compared to forty-seven point eight percent for a leading frontier model.",
+        "The Chrome Security team found Gemini three point eight Flash Cyber produced two point six times more correct patches than larger commercial models.",
+        "Gemini three point eight Flash Cyber is available through the Fairwind Program for trusted defenders, government authorities, and critical infrastructure operators."
+      ],
+      "tts_chunks": 14,
+      "tts_voice": "am_michael"
     },
     {
       "id": "rss-mit_tech_review-974aea111189",
@@ -696,7 +1715,7 @@
     {
       "id": "hn-49536375",
       "title": "Three sites made 215,128 “best software” pages for AI. Perplexity cites them",
-      "summary": "On September 2, 2026, the models perplexity/sonar and perplexity/sonar-pro were tested through OpenRouter by putting 380 buyer intent categories to them, resulting in 760 calls in all. The prompts produced 7,534 citations spanning 2,055 distinct domains. Of those citations, 59.8% point at domains ranked worse than number 100,000 in the Tranco top one million list, and 23.4% point at domains not in the top million at all. \n\nThree sites under apparently common control—wifitalents.com, worldmetrics.org, and gitnux.org—were all registered through NameCheap between December 2023 and May 2024. None of the three existed before December 2023. Together they published 215,128 machine generated best category pages. Worldmetrics and Gitnux both return an HTML title of brand followed by Facts and Grounding Page. Grounding is the retrieval step models perform, and these pages are addressed in their titles and descriptions to the software that reads them. \n\nThe third largest source overall was a vendor marketing blog, guideflow.com, which sells interactive product demos and operates in none of the requested categories. Its blog was cited 194 times across 96 of the 380 categories, placing it ahead of Gartner. \n\nThe data and method are available at trellner.com.",
+      "summary": "On September two, 2026, web-grounded models perplexity/sonar and perplexity/sonar-pro were tested through OpenRouter by putting three hundred eighty buyer intent categories to them, resulting in seven hundred sixty calls in all. The prompts produced 7,534 citations spanning 2,055 distinct domains. Of those citations, 59.8% point at domains ranked worse than number 100,000 in the Tranco top one million list, and 23.4% point at domains not in the top million at all. \n\nThree sites under apparently common control—wifitalents.com, worldmetrics.org, and gitnux.org—were all registered through NameCheap between December 2023 and May 2024. None of the three existed before December 2023. Together they published 215,128 machine generated best category pages. Worldmetrics and Gitnux both return an HTML title of brand followed by Facts and Grounding Page. Grounding is the retrieval step models perform, and these pages are addressed in their titles and descriptions to the software that reads them. \n\nThe third largest source overall was a vendor marketing blog, guideflow.com, which sells interactive product demos and operates in none of the requested categories. Its blog was cited 194 times across 96 of the 380 categories, placing it ahead of Gartner. \n\nThe data and method are available at trellner.com.",
       "category": "AI",
       "source_url": "https://trellner.com/reports/manufactured-sources-behind-ai-recommendations/",
       "source_domain": "trellner.com",
@@ -706,9 +1725,9 @@
       "published_at": "2026-09-02T17:55:49.303367+00:00",
       "created_at_ts": 1788357599,
       "audio_path": "audio/2026-09-02/49536375-three-sites-made-215128-best-software-pages-for-ai-perplexit.mp3",
-      "word_count": 191,
-      "estimated_duration_s": 76,
-      "audio_bytes": 771648,
+      "word_count": 195,
+      "estimated_duration_s": 78,
+      "audio_bytes": 796560,
       "location": {
         "name": "San Francisco",
         "country": "United States",
@@ -726,7 +1745,19 @@
       ],
       "main": "AI",
       "sub": "Models & Research",
-      "subcategory": "Models & Research"
+      "subcategory": "Models & Research",
+      "key_points": [
+        "Tests were conducted on September two, 2026, using perplexity/sonar and perplexity/sonar-pro through OpenRouter with 380 buyer intent categories.",
+        "A total of 7,534 citations spanning 2,055 distinct domains were produced from 760 calls.",
+        "59.8% of citations point to domains ranked worse than number 100,000 in the Tranco top one million list, and 23.4% point to domains not in the top million at all.",
+        "Three sites—wifitalents.com, worldmetrics.org, and gitnux.org—were registered between December 2023 and May 2024, publishing 215,128 machine-generated best category pages.",
+        "Worldmetrics and Gitnux return HTML titles featuring Facts and Grounding Page to address the software that reads them during retrieval.",
+        "Vendor marketing blog guideflow.com was cited 194 times across 96 of the 380 categories, placing it third overall ahead of Gartner.",
+        "The data and methodology are made available at trellner.com."
+      ],
+      "audio_duration_s": 106.6,
+      "tts_chunks": 11,
+      "tts_voice": "am_michael"
     },
     {
       "id": "hn-49535752",
@@ -901,7 +1932,7 @@
     {
       "id": "hn-49529621",
       "title": "FBI Probes Service Selling 153M+ Drivers Licenses",
-      "summary": "A dark web service named Nexus launched on Monday, August thirty-first, on the Russian cybercrime forum Exploit. The service offered digital scans of more than one hundred fifty-three million driver licenses from the United States and Canada. The proprietor included a Virginia driver license as a free sample in the initial sales thread. Researchers and associates tested the data. They matched image timestamps to specific travel dates when individuals surrendered their physical IDs to rental car companies and businesses utilizing identity verification software. The suspected source of the breach is I. D. Scan dot net. This is a Louisiana-based identity verification company whose systems scan IDs using infrared and ultraviolet light. The company processes verifications for major brands such as Hertz and Planet Thirteen dispensaries. The New Orleans field office of the F. B. I. launched an official inquiry into the source of the images. Jillian Kossman, a marketing and operations leader at the company, stated that they were investigating the matter. Shortly after the initial story was published, the Nexus website vanished from the dark web. It displayed a message stating the service is no longer available.",
+      "summary": "On Monday, August thirty-first, a dark web service named Nexus launched on the Russian cybercrime forum Exploit. The service offered digital scans of more than one hundred fifty-three million driver licenses from the United States and Canada, alongside over ten million identification cards, more than three million travel documents, and at least five hundred seventy-nine thousand medical cards. KrebsOnSecurity reports that a blank search on the platform returned approximately eleven point five million pages, and that Canadian records totaled about one point one million. Some records carried notations such as commercial driver licenses and Common Access Cards. The proprietor included a Virginia driver license as a free sample in the initial sales thread. Researchers and associates tested the data, finding that image timestamps matched specific travel dates when individuals surrendered physical IDs to rental car companies, businesses, and marijuana dispensaries. The suspected source of the breach is I D Scan dot net, a Louisiana-based identity verification company whose systems scan IDs using infrared and ultraviolet light. The company processes verifications for major brands such as Hertz and Planet Thirteen dispensaries. The New Orleans field office of the F B I launched an official inquiry into the source of the images. Jillian Kossman, a marketing and operations leader at the company, stated that they were investigating the matter. Shortly after the initial story was published, the Nexus website vanished from the dark web, displaying a message stating the service is no longer available.",
       "category": "TECH",
       "source_url": "https://krebsonsecurity.com/2026/09/fbi-probes-service-selling-153m-drivers-licenses/",
       "source_domain": "krebsonsecurity.com",
@@ -911,9 +1942,9 @@
       "published_at": "2026-09-02T17:49:12.456905+00:00",
       "created_at_ts": 1788304663,
       "audio_path": "audio/2026-09-02/49529621-fbi-probes-service-selling-153m-drivers-licenses.mp3",
-      "word_count": 188,
-      "estimated_duration_s": 72,
-      "audio_bytes": 631968,
+      "word_count": 242,
+      "estimated_duration_s": 97,
+      "audio_bytes": 719064,
       "location": {
         "name": "Washington, D.C.",
         "country": "United States",
@@ -931,7 +1962,19 @@
       ],
       "main": "TECH",
       "sub": "Security & Privacy",
-      "subcategory": "Security & Privacy"
+      "subcategory": "Security & Privacy",
+      "key_points": [
+        "A dark web service named Nexus launched on August thirty-first on the Russian cybercrime forum Exploit.",
+        "The service offered digital scans of more than one hundred fifty-three million driver licenses from the United States and Canada.",
+        "Researchers and associates matched image timestamps to dates when individuals used physical IDs at rental car companies and businesses.",
+        "The suspected source of the breach is I D Scan dot net, a Louisiana-based identity verification company.",
+        "The New Orleans field office of the F B I launched an official inquiry into the source of the images.",
+        "Jillian Kossman stated that I D Scan dot net was investigating the matter.",
+        "The Nexus website vanished from the dark web shortly after the initial story was published."
+      ],
+      "audio_duration_s": 90.8,
+      "tts_chunks": 12,
+      "tts_voice": "am_liam"
     },
     {
       "id": "hn-49529132",
@@ -1031,7 +2074,7 @@
     {
       "id": "hn-49527595",
       "title": "Path to Astra: critical capabilities and frontier safeguards",
-      "summary": "OpenAI has designated its new artificial intelligence model, Astra, as meeting the critical cybersecurity capability threshold under its Preparedness Framework. This marks the first time a model has reached this level, meaning it can autonomously find unknown security flaws and develop exploits across protected systems without human guidance.\n\nEvaluations show Astra achieved a 100 percent score on ExploitBench, an evaluation of exploit development from known vulnerabilities. On an internal benchmark containing twenty high-severity V8 vulnerabilities disclosed between June and August 2026, Astra achieved higher arbitrary code-execution rates than GPT-5.6 Sol while using fewer output tokens, and discovered two zero-day vulnerabilities. In expert-led assessments, the model compromised a hardened browser, escaped its sandbox, and executed commands on the host, as well as executing a local privilege-escalation chain from an unprivileged user to root on a hardened operating system.\n\nOpenAI paused certain frontier training for two weeks following the OpenAI-Hugging Face incident. On August 28th, the company restarted large reinforcement learning runs for Astra after putting new safety requirements in place. For cyber jailbreak evaluations, Astra refuses 91.5 percent of requests, compared to 59 percent for GPT-5.6 Sol. \n\nAstra will be released soon with limited access. Advanced cybersecurity workflows will initially be available to a small group of alpha testers, with access through Daybreak Blue following to support defensive use.",
+      "summary": "OpenAI reports that its new artificial intelligence model, Astra, meets the critical cybersecurity capability threshold under the OpenAI Preparedness Framework. This represents the first time a model has reached this level, meaning it can autonomously find unknown security flaws and develop exploits across protected systems without human guidance. OpenAI states that Astra was not involved in the Hugging Face incident. OpenAI reports that Astra achieved a one hundred percent score on ExploitBench, an evaluation of exploit development from known vulnerabilities. On an internal benchmark containing twenty high-severity V8 vulnerabilities disclosed between June and August two thousand twenty-six, Astra achieved higher arbitrary code-execution rates than GPT-5.6 Sol while using fewer output tokens, and discovered two zero-day vulnerabilities. OpenAI is in the process of disclosing these two vulnerabilities to the maintainers. In expert-led assessments, the model compromised a hardened browser, escaped its sandbox, and executed commands on the host, as well as executing a local privilege-escalation chain from an unprivileged user to root on a hardened operating system. OpenAI paused certain frontier training for two weeks following the OpenAI-Hugging Face incident. On August twenty-eighth, the company restarted large reinforcement learning runs for Astra after putting new safety requirements in place. For cyber jailbreak evaluations, Astra refuses ninety-one point five percent of requests, compared to fifty-nine percent for GPT-5.6 Sol. Astra will be released soon with limited access. Advanced cybersecurity workflows will initially be available to a small group of alpha testers, with access through Daybreak Blue following to support defensive use.",
       "category": "AI",
       "source_url": "https://openai.com/index/path-to-astra/",
       "source_domain": "openai.com",
@@ -1041,9 +2084,9 @@
       "published_at": "2026-09-02T17:56:40.654319+00:00",
       "created_at_ts": 1788294041,
       "audio_path": "audio/2026-09-02/49527595-path-to-astra-critical-capabilities-and-frontier-safeguards.mp3",
-      "word_count": 218,
-      "estimated_duration_s": 87,
-      "audio_bytes": 816912,
+      "word_count": 249,
+      "estimated_duration_s": 100,
+      "audio_bytes": 956832,
       "location": {
         "name": "San Francisco",
         "country": "United States",
@@ -1057,11 +2100,28 @@
           "url": "https://openai.com/index/path-to-astra/",
           "domain": "openai.com",
           "added_at": "2026-09-02T17:56:40.654319+00:00"
+        },
+        {
+          "name": "openai_blog",
+          "url": "https://openai.com/index/path-to-astra",
+          "domain": "openai.com",
+          "added_at": "2026-09-03T21:38:02.883786+00:00"
         }
       ],
       "main": "AI",
       "sub": "Policy & Safety",
-      "subcategory": "Policy & Safety"
+      "subcategory": "Policy & Safety",
+      "key_points": [
+        "Astra is the first model designated as meeting the critical cybersecurity capability threshold under the OpenAI Preparedness Framework.",
+        "Astra achieved a one hundred percent score on ExploitBench.",
+        "Astra discovered two zero-day vulnerabilities during evaluations on an internal benchmark containing twenty high-severity V8 vulnerabilities.",
+        "OpenAI states that Astra was not involved in the Hugging Face incident.",
+        "OpenAI restarted large reinforcement learning runs for Astra on August twenty-eighth after a two-week pause and new safety requirements.",
+        "Astra refuses ninety-one point five percent of cyber jailbreak requests, compared to fifty-nine percent for GPT-5.6 Sol."
+      ],
+      "audio_duration_s": 125.7,
+      "tts_chunks": 13,
+      "tts_voice": "am_michael"
     },
     {
       "id": "hn-49527573",
@@ -1133,6 +2193,40 @@
       "subcategory": "Space & Physics"
     },
     {
+      "id": "rss-ars_science-7b391dea3ce2",
+      "title": "Research roundup: 7 cool science stories we almost missed",
+      "summary": "Astronomers using the James Webb Space Telescope have found a new object called a black hole star. Back in twenty twenty-four, researchers looked at telescope data and saw hundreds of red dots. These dots were in the early universe when it was just a few hundred million years old. One special object caught their attention because it did not match any known things in space. Scientists now say this object is the size of a big star. It makes much more energy than normal stars can make. Its energy matches the power of an active black hole., Rohan Naidu of the University of Hawai'i shared the image for this discovery.",
+      "main": "SCIENCE",
+      "sub": "Space & Physics",
+      "category": "SCIENCE",
+      "subcategory": "Space & Physics",
+      "sources": [
+        {
+          "name": "ars_science",
+          "url": "https://arstechnica.com/science/2026/09/august-research-roundup-7-cool-science-stories-we-almost-missed/",
+          "domain": "arstechnica.com",
+          "added_at": "2026-09-03T21:54:20.219767+00:00"
+        }
+      ],
+      "source": "ars_science",
+      "source_url": "https://arstechnica.com/science/2026/09/august-research-roundup-7-cool-science-stories-we-almost-missed/",
+      "source_domain": "arstechnica.com",
+      "source_permalink": "https://arstechnica.com/science/2026/09/august-research-roundup-7-cool-science-stories-we-almost-missed/",
+      "score": 100,
+      "author": "Jennifer Ouellette",
+      "published_at": "2026-09-03T21:54:20.219767+00:00",
+      "created_at_ts": 1788289570,
+      "audio_path": "audio/2026-09-03/rss-ars_science-7b391dea3ce2-research-roundup-7-cool-science-stories-we-almost-missed.mp3",
+      "word_count": 110,
+      "estimated_duration_s": 44,
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/blackholestar1-1152x648.jpg",
+      "location": null,
+      "audio_bytes": 271920,
+      "audio_duration_s": 34.5,
+      "tts_chunks": 7,
+      "tts_voice": "am_liam"
+    },
+    {
       "id": "hn-49526069",
       "title": "How accurate have Ed Zitron's AI skeptic predictions been?",
       "summary": "In a November 2024 talk, AI skeptic Ed Zitron argued that major tech companies like Meta, Google, and Microsoft do not know how to grow and are desperately shoving artificial intelligence into everything. Zitron specifically claimed that Meta was a dying company and cited an alleged monthly active users drop for Facebook using third-party tracking numbers from Similarweb. However, Meta and Alphabet, Google's parent company, have continued to grow their revenue and profit, and Facebook stopped reporting monthly active users publicly in December 2023. \n\nZitron also targeted Google executive Prabhakar Raghavan, claiming he caused severe damage to Google search, though he never credibly established that Raghavan is doing severe harm, and Google has other major products like YouTube and Google Cloud to drive growth. \n\nWhen analyst Timothy B. Lee examined a spreadsheet Zitron used to project Anthropic's revenue at roughly 3.6 billion dollars for 2025, he found multiple basic date errors, including not counting February 1 to 10, counting March 1 to 10 twice, counting August 21 to October 21 as one month instead of two, missing October 21 to November 1, and including February 30. Once those errors were fixed, the numbers worked out. \n\nZitron has also made backwards-looking claims about artificial intelligence capabilities, stating in December 2024 that products had effectively been trapped in amber for over a year, and claiming in January 2026 that models were basically the same as they were a year prior with the same efficacy, despite frequently contradicting himself. \n\nCommentator Juho Snellman weighed in on Zitron's output, noting that his writing is flamboyant and that the aggression and expletives seem more targeted at hyping up people who already believe what he writes rather than changing minds. Snellman wrote, \"You might want to actually fact-check a few of the things he says that convince you, because at least for his written articles basically everything is made up or misrepresented.\"",
@@ -1165,7 +2259,7 @@
     {
       "id": "hn-49525378",
       "title": "Claude Fable 5.1 and Claude Mythos 5.1",
-      "summary": "Anthropic has introduced two new artificial intelligence models named Claude Fable 5.1 and Claude Mythos 5.1. These models are essentially the same underlying technology, but they feature different levels of safeguards. Fable 5.1 is generally available to the public, while Mythos 5.1 is restricted to trusted access programs designed for work in cybersecurity and the life sciences. \n\nFable 5.1 costs roughly twenty-five percent less than the previous Fable 5 model for typical workloads billed by token, and up to forty-five percent less for highly agentic work, largely due to reduced pricing on cache reads. To address data privacy, the company is introducing Enterprise Frontier Safeguards, which store data on cloud infrastructure controlled entirely by the customer rather than Anthropic. This system begins rolling out in phases this fall, and eligible customers can use Fable 5.1 with zero data retention until it becomes available.\n\nThe new models demonstrate significant advances in performance and scientific research. In testing by the investment firm Millennium, Fable 5.1 identified the root cause of a rare internal system crash that human engineers and other AI models had failed to explain after several years of trying. \n\nIn molecular design tests using open-source protein design and folding tools, Claude Mythos 5.1 produced binding affinities ten times higher than the best designs submitted to Adaptyv Bio protein design competitions. Its hit rate reached nearly fifty percent across twelve targets, compared to typical protein design hit rates of ten to fifteen percent. Additionally, Claude Fable 5.1 trained a neural network to create a new high-resolution elevation map covering one-third of the planet Venus. The work utilized radar images captured by the National Aeronautics and Space Administration Magellan mission more than thirty years ago and an existing map covering one-fifth of the planet. The new map reveals details down to two to three kilometers and shows heights up to twenty-five percent more accurately than before. In computational biology, Mythos 5.1 wrote custom graphics processing unit kernels that sped up seven open-source deep learning models by up to two and a half times while cutting estimated graphics processing unit costs by thirty to sixty percent.",
+      "summary": "Anthropic has introduced two artificial intelligence models named Claude Fable 5.1 and Claude Mythos 5.1. These models share the same underlying technology but feature different safeguard levels. Fable 5.1 is generally available to the public, while Mythos 5.1 is restricted to trusted access programs for cybersecurity and the life sciences. Fable 5.1 costs roughly twenty-five percent less than the previous Fable 5 model for typical token workloads, and up to forty-five percent less for highly agentic work due to reduced cache read pricing. Anthropic introduces Enterprise Frontier Safeguards to store customer data on infrastructure controlled entirely by the customer, rolling out in phases this fall, with zero data retention available to eligible customers beforehand. In testing by Millennium, Fable 5.1 identified the root cause of a rare internal system crash that human engineers and other models failed to explain over several years. In molecular design tests using open-source tools, Claude Mythos 5.1 produced binding affinities ten times higher than best designs submitted to Adaptyv Bio competitions, achieving a hit rate of nearly fifty percent across twelve targets compared to typical rates of ten to fifteen percent. Furthermore, Fable 5.1 trained a neural network to create a new high-resolution elevation map covering one-third of Venus, utilizing radar images from the National Aeronautics and Space Administration Magellan mission over thirty years ago. The new map reveals details down to two to three kilometers and shows heights up to twenty-five percent more accurately than before. In computational biology, Mythos 5.1 wrote custom graphics processing unit kernels that sped up seven open-source deep learning models by up to two and a half times while cutting estimated graphics processing unit costs by thirty to sixty percent.",
       "category": "AI",
       "source_url": "https://www.anthropic.com/claude-fable-and-mythos-5-1",
       "source_domain": "anthropic.com",
@@ -1175,9 +2269,9 @@
       "published_at": "2026-09-02T17:45:52.709788+00:00",
       "created_at_ts": 1788285233,
       "audio_path": "audio/2026-09-02/49525378-claude-fable-5-1-and-claude-mythos-5-1.mp3",
-      "word_count": 353,
-      "estimated_duration_s": 141,
-      "audio_bytes": 1193448,
+      "word_count": 281,
+      "estimated_duration_s": 112,
+      "audio_bytes": 1004856,
       "location": {
         "name": "San Francisco",
         "country": "United States",
@@ -1195,7 +2289,19 @@
       ],
       "main": "AI",
       "sub": "Models & Research",
-      "subcategory": "Models & Research"
+      "subcategory": "Models & Research",
+      "key_points": [
+        "Claude Fable 5.1 and Claude Mythos 5.1 share the same core technology with differing safeguard levels.",
+        "Fable 5.1 costs twenty-five percent less for typical workloads and up to forty-five percent less for agentic work.",
+        "Enterprise Frontier Safeguards allow customers to store data on infrastructure controlled entirely by the customer.",
+        "Millennium testing showed Fable 5.1 identified the root cause of a rare system crash unsolved by humans for years.",
+        "Mythos 5.1 achieved a nearly fifty percent hit rate in molecular design across twelve targets.",
+        "Fable 5.1 trained a neural network to map one-third of Venus using National Aeronautics and Space Administration Magellan radar data.",
+        "Mythos 5.1 wrote custom graphics processing unit kernels that accelerated seven deep learning models by up to two and a half times."
+      ],
+      "audio_duration_s": 131.9,
+      "tts_chunks": 11,
+      "tts_voice": "am_michael"
     },
     {
       "id": "hn-49525297",
@@ -1230,7 +2336,7 @@
     {
       "id": "hn-49525160",
       "title": "Atlas: A World Model for Spatial Intelligence",
-      "summary": "World Labs has introduced a new model called Atlas. It is an omni world model built from scratch. It works natively with text and images and video and three dimensional data. The system combines all inputs into one shared spatial context. This creates consistent three dimensional environments for users. The model supports camera controlled video generation lasting up to one minute at fourteen forty p resolution. It also handles spatial reconstruction and space-time simulation and image generation. Users can place reference images in three dimensional space to smoothly blend between them. The system reconstructs real world scenes from sparse inputs ranging from one to over a hundred images. It outputs explicit three dimensional representations like point clouds and three dimensional Gaussian splats. The model powers bullet time multiview capture using footage from as few as three cell phones. It scales real to sim workflows for robotics by simulating sensor data and object interactions from casual recordings. Atlas will power future versions of Marble and other World Labs products.",
+      "summary": "World Labs has introduced a new model called Atlas. World Labs reports that Atlas is an omni world model built from scratch. It works natively with text and images and video and three dimensional data. The system combines all inputs into one shared spatial context. World Labs states that Atlas functions as a multimodal autoregressive diffusion transformer. This creates consistent three dimensional environments for users. The model supports camera controlled video generation lasting up to one minute at fourteen forty p resolution. World Labs highlights that Atlas uses precise camera geometry as a native input type rather than coarse text instructions. It also handles spatial reconstruction and space time simulation and image generation. World Labs reports that Atlas can generate three hundred sixty degree panoramas from text. Users can place reference images in three dimensional space to smoothly blend between them. The system reconstructs real world scenes from sparse inputs ranging from one to over a hundred images. World Labs notes that Atlas can use two to twenty five ground level input images to reconstruct locations such as Stanford's Main Quad. It outputs explicit three dimensional representations like point clouds and three dimensional Gaussian splats. The model powers bullet time multiview capture using footage from as few as three cell phones. World Labs states that Atlas scales real to sim workflows for robotics by simulating sensor data and object interactions from casual recordings. Atlas will power future versions of Marble and other World Labs products. World Labs expects that the model's performance will continue to improve as training compute is increased.",
       "category": "AI",
       "source": "hackernews",
       "source_url": "https://www.worldlabs.ai/blog/atlas",
@@ -1241,8 +2347,8 @@
       "published_at": "2026-09-02T20:58:13.188632+00:00",
       "created_at_ts": 1788284162,
       "audio_path": "audio/2026-09-02/hn-49525160-atlas-a-world-model-for-spatial-intelligence.mp3",
-      "word_count": 168,
-      "estimated_duration_s": 67,
+      "word_count": 261,
+      "estimated_duration_s": 104,
       "image_url": "https://www.worldlabs.ai/images/atlas-og.jpg",
       "location": {
         "name": "San Francisco",
@@ -1250,10 +2356,10 @@
         "lat": 37.77,
         "lng": -122.42
       },
-      "audio_bytes": 739008,
-      "audio_duration_s": 106.0,
-      "tts_chunks": 13,
-      "tts_voice": "af_nicole",
+      "audio_bytes": 882240,
+      "audio_duration_s": 116.1,
+      "tts_chunks": 18,
+      "tts_voice": "am_michael",
       "sources": [
         {
           "name": "hackernews",
@@ -1264,7 +2370,50 @@
       ],
       "main": "AI",
       "sub": "Models & Research",
-      "subcategory": "Models & Research"
+      "subcategory": "Models & Research",
+      "key_points": [
+        "World Labs introduced Atlas, an omni world model built from scratch.",
+        "Atlas is described as a multimodal autoregressive diffusion transformer that natively operates on text, images, video, and three dimensional data.",
+        "The model supports camera-controlled video generation lasting up to one minute at fourteen forty p resolution.",
+        "Atlas can reconstruct real world scenes from sparse inputs ranging from one to over a hundred images, including building up Stanford's Main Quad from two to twenty-five ground-level images.",
+        "The system outputs explicit three dimensional representations such as point clouds and three dimensional Gaussian splats.",
+        "Atlas powers bullet time multiview capture using footage from as few as three cell phones and scales real to sim workflows for robotics.",
+        "World Labs states that Atlas performance improves with increased training compute."
+      ]
+    },
+    {
+      "id": "hn-49524447",
+      "title": "Show HN: Running 104GB Qwen3.8-Flash-Next on 48GB Mac with at ~12 tok/s",
+      "summary": "The utility is distributed as a single Swift binary without Python dependencies and supports the Ollama and Open A. I. chat application programming interfaces. Running the model requires Mac O. S. fourteen or later and approximately one hundred ten gigabytes of free disk space. This makes a five hundred twelve gigabyte Mac the realistic minimum. The model is a one hundred twenty-five billion parameter mixture of experts requiring one hundred five gigabytes on disk at four-bit quantization. The engine uses M. L. X. and Metal, streaming experts from the solid state drive straight into unified memory. On a forty-eight gigabyte MacBook Pro, the system achieves a warm decode speed of roughly twelve tokens per second. The tool features auto-sizing that takes the lowest of three limits. It continuously re-checks system memory every fifteen seconds to prevent excessive swapping. It includes features such as speculative decoding via a one point five gigabyte draft head. This draft head is correct eighty-six percent of the time. It also features prefix caching for conversation turns and a context cap of thirty-two thousand seven hundred sixty-eight tokens.",
+      "main": "AI",
+      "sub": "Models & Research",
+      "category": "AI",
+      "subcategory": "Models & Research",
+      "sources": [
+        {
+          "name": "hackernews_show",
+          "url": "https://github.com/carloslfu/slotstream",
+          "domain": "github.com",
+          "added_at": "2026-09-03T21:43:50.873936+00:00"
+        }
+      ],
+      "source": "hackernews_show",
+      "source_url": "https://github.com/carloslfu/slotstream",
+      "source_domain": "github.com",
+      "source_permalink": "https://news.ycombinator.com/item?id=49524447",
+      "score": 229,
+      "author": "carloslfu",
+      "published_at": "2026-09-03T21:43:50.873936+00:00",
+      "created_at_ts": 1788280966,
+      "audio_path": "audio/2026-09-03/hn-49524447-show-hn-running-104gb-qwen3-8-flash-next-on-48gb-mac-with-at.mp3",
+      "word_count": 182,
+      "estimated_duration_s": 73,
+      "image_url": null,
+      "location": null,
+      "audio_bytes": 554880,
+      "audio_duration_s": 71.2,
+      "tts_chunks": 18,
+      "tts_voice": "am_liam"
     },
     {
       "id": "hn-49524320",
@@ -1914,5 +3063,5 @@
       "subcategory": "Models & Research"
     }
   ],
-  "updated_at": "2026-09-03T08:46:24.297230+00:00"
+  "updated_at": "2026-09-03T22:11:34.627794+00:00"
 }

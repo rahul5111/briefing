@@ -1,0 +1,51 @@
+═══ 00_KEY_POINTS ═══
+
+1. Cloudflare prototyped Cache Transcoding to expand effective cache capacity using Zstandard inside Pingora.
+2. Initial testing shrunk eligible assets to one third of their original on disk size on average.
+3. The prototype uses zstd level 3 to balance compression benefits with a small CPU cost.
+4. Transcoding targets uncompressed compressible text at or above 4 kibibytes while skipping media files.
+5. The architecture saves petabytes of storage and reduces data transferred between Cloudflare data centers.
+6. This optimization matters because memory and hardware costs are increasing dramatically across distributed storage products.
+
+═══ 01_DRAFT ═══
+
+Cloudflare has prototyped a new system called Cache Transcoding to expand effective cache capacity amidst rising memory costs. Built during the 1.1.1.1 Intern Program, the architecture encodes eligible assets with the Zstandard lossless compression algorithm inside the Pingora proxy before writing them to disk. 
+
+In initial testing over a million requests across ten cache servers, the prototype shrunk eligible assets to one-third of their original on-disk size on average. The system uses zstd level 3 and targets uncompressed compressible text responses such as HTML, JSON, CSS, and JavaScript with a known content length of at least 4 kibibytes. Media files like images, video, and fonts are excluded because they are typically compressed already. 
+
+The architecture trades a small, single-digit percentage increase in origin-facing CPU usage for petabytes of effective cache capacity and reduced data transfer across data centers via Tiered Cache. The encoding cost is paid once upon cache entry, while storage and bandwidth savings recur every time the asset is reused. Moving forward, Cloudflare plans to evaluate higher zstd levels, test a broader content range, and tune eligibility criteria.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Cloudflare has prototyped a new system called Cache Transcoding to expand effective cache capacity amidst rising memory costs. Built during the 1.1.1.1 Intern Program, the architecture encodes eligible assets with the Zstandard lossless compression algorithm inside the Pingora proxy before writing them to disk. 
+
+In initial testing over a million requests across ten cache servers, the prototype shrunk eligible assets to one-third of their original on-disk size on average. The system uses zstd level 3 and targets uncompressed compressible text responses such as HTML, JSON, CSS, and JavaScript with a known content length of at least 4 kibibytes. Media files like images, video, and fonts are excluded because they are typically compressed already. 
+
+The architecture trades a small, single-digit percentage increase in origin-facing CPU usage for petabytes of effective cache capacity and reduced data transfer across data centers via Tiered Cache. The encoding cost is paid once upon cache entry, while storage and bandwidth savings recur every time the asset is reused. For next steps, Cloudflare plans to evaluate higher zstd levels, test a broader range of content types and object sizes, tune different parameters from the eligibility criteria, examine range requests, test pre-compressed origin responses, and pass compressed objects directly to downstream components that support it.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Cloudflare has built a new system called Cache Transcoding to expand effective cache capacity while memory costs go up. The architecture was built during the one point one point one point one Intern Program. It encodes eligible assets with the Zstandard lossless compression algorithm inside the Pingora proxy before writing them to disk. 
+
+Initial testing over one million requests across ten cache servers showed strong results. The prototype shrunk eligible assets to one-third of their original on-disk size on average. The system uses zstd level three. It targets uncompressed compressible text responses such as HTML, JSON, CSS, and JavaScript. These files must have a known content length of at least four kibibytes. Media files like images, video, and fonts are excluded because they are typically compressed already. 
+
+The architecture trades a small single-digit percentage increase in origin-facing CPU usage for petabytes of effective cache capacity. It also reduces data transfer across data centers via Tiered Cache. The encoding cost is paid once upon cache entry. Storage and bandwidth savings recur every time the asset is reused. 
+
+For next steps, Cloudflare plans to evaluate higher zstd levels. They will test a broader range of content types and object sizes. They want to tune different parameters from the eligibility criteria and examine range requests. They also plan to test pre-compressed origin responses and pass compressed objects directly to downstream components that support it.
+
+═══ 05_NORMALIZED ═══
+
+Cloudflare has built a new system called Cache Transcoding to expand effective cache capacity while memory costs go up. The architecture was built during the one point one point one point one Intern Program. It encodes eligible assets with the Zstandard lossless compression algorithm inside the Pingora proxy before writing them to disk. Initial testing over one million requests across ten cache servers showed strong results. The prototype shrunk eligible assets to one-third of their original on-disk size on average. The system uses zstd level three. It targets uncompressed compressible text responses such as H T M L., J S O N., C S S., and JavaScript. These files must have a known content length of at least four kibibytes. Media files like images, video, and fonts are excluded because they are typically compressed already. The architecture trades a small single-digit percentage increase in origin-facing C P U. usage for petabytes of effective cache capacity. It also reduces data transfer across data centers via Tiered Cache. The encoding cost is paid once upon cache entry. Storage and bandwidth savings recur every time the asset is reused. For next steps, Cloudflare plans to evaluate higher zstd levels. They will test a broader range of content types and object sizes. They want to tune different parameters from the eligibility criteria and examine range requests. They also plan to test pre-compressed origin responses and pass compressed objects directly to downstream components that support it.
+
+═══ 06_COVERAGE_FINAL ═══
+
+SKIPPED: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+
+═══ 07_SANITY ═══
+
+ISSUES: Unspoken acronyms, Awkward punctuation
+
