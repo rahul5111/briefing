@@ -1,5 +1,6 @@
 import { lazy, Suspense, useEffect, useMemo, useRef, useState, useCallback } from "react";
 import { AnimatePresence, motion } from "motion/react";
+import AbstractCover from "./AbstractCover";
 
 const Globe = lazy(() => import("./Globe"));
 
@@ -270,10 +271,12 @@ export default function Feed({ stories, cdnBase }: Props) {
                     {s.image_url ? (
                       <img src={s.image_url} alt="" loading="lazy" />
                     ) : (
-                      <div className="card-cover-fallback">
-                        <span className="fallback-cat">{s.category || "News"}</span>
-                        <span className="fallback-domain">{s.source_domain || s.source || ""}</span>
-                      </div>
+                      <AbstractCover
+                        storyId={s.id}
+                        category={s.category}
+                        sourceDomain={s.source_domain || s.source}
+                        variant={i === 0 ? "featured" : "card"}
+                      />
                     )}
                     <div className="card-cover-play" aria-hidden="true">
                       {current?.id === s.id && playing ? "❚❚" : "▶"}
@@ -342,10 +345,15 @@ export default function Feed({ stories, cdnBase }: Props) {
         <div className="player-cover" aria-hidden="true">
           {current?.image_url ? (
             <img src={current.image_url} alt="" loading="lazy" />
+          ) : current ? (
+            <AbstractCover
+              storyId={current.id}
+              category={current.category}
+              sourceDomain={current.source_domain || current.source}
+              variant="player"
+            />
           ) : (
-            <div className="player-cover-fallback">
-              {current ? (current.category?.[0] ?? "•") : "•"}
-            </div>
+            <div className="player-cover-fallback">•</div>
           )}
         </div>
 
