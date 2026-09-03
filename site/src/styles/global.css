@@ -259,12 +259,15 @@ a { color: inherit; text-decoration: none; }
 .day-group { margin-bottom: 12px; }
 .card-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  /* minmax(0, 1fr) forces equal-width columns. Without it, min-content
+     of long titles or wide images can blow out a column and make the
+     row visibly uneven. */
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 40px 28px;
 }
-@media (min-width: 1400px) { .card-grid { grid-template-columns: repeat(5, 1fr); } }
-@media (max-width: 1024px) { .card-grid { grid-template-columns: repeat(3, 1fr); gap: 32px 22px; } }
-@media (max-width: 640px)  { .card-grid { grid-template-columns: repeat(2, 1fr); gap: 24px 14px; } }
+@media (min-width: 1400px) { .card-grid { grid-template-columns: repeat(5, minmax(0, 1fr)); } }
+@media (max-width: 1024px) { .card-grid { grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 32px 22px; } }
+@media (max-width: 640px)  { .card-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 24px 14px; } }
 
 /* First card of the day = editorial featured. Wider (2 cols) but same row
    height as siblings, so it doesn't crush the other cards below the fold. */
