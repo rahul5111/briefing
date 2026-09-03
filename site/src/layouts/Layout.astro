@@ -8,7 +8,7 @@ const { title = "Briefing" } = Astro.props;
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="color-scheme" content="dark" />
-    <meta name="theme-color" content="#0b1220" />
+    <meta name="theme-color" content="#f1eee6" />
     <title>{title}</title>
 
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -20,7 +20,6 @@ const { title = "Briefing" } = Astro.props;
     <link rel="alternate" type="application/rss+xml" title="Briefing" href="/data/rss.xml" />
   </head>
   <body>
-    <img src="/bg.svg" alt="" class="bg-svg" aria-hidden="true" />
     <slot />
   </body>
 </html>

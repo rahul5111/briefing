@@ -4,7 +4,6 @@ import Feed from "../components/Feed";
 import fs from "node:fs";
 import path from "node:path";
 
-// Pipeline writes directly into site/public/data — single source of truth.
 const dataPath = path.resolve("public/data/feed.json");
 let manifest: any = { stories: [] };
 if (fs.existsSync(dataPath)) {
@@ -13,17 +12,39 @@ if (fs.existsSync(dataPath)) {
 
 const stories = manifest.stories ?? [];
 const today = new Date();
-const DAYS = ["SUN","MON","TUE","WED","THU","FRI","SAT"];
-const MONTHS = ["JAN","FEB","MAR","APR","MAY","JUN","JUL","AUG","SEP","OCT","NOV","DEC"];
-const dateLine = `${DAYS[today.getUTCDay()]}, ${MONTHS[today.getUTCMonth()]} ${String(today.getUTCDate()).padStart(2,"0")}`;
+const DAYS = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+const MONTHS = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"];
+const dateLine = `${DAYS[today.getUTCDay()]} ${today.getUTCDate()} ${MONTHS[today.getUTCMonth()]} ${today.getUTCFullYear()}`;
+
+const totalMinutes = Math.round(
+  stories.reduce((a: number, s: any) => a + (s.estimated_duration_s ?? 60), 0) / 60
+);
+
+const uniqueSources = new Set(stories.map((s: any) => s.source_domain || s.source)).size;
 
 const cdnBase = import.meta.env.PUBLIC_CDN_BASE ?? "/data";
 ---
 <Layout title="Briefing">
   <div class="wrap">
     <header class="masthead">
-      <h1>Briefing</h1>
-      <div class="meta">{dateLine} · {stories.length} STORIES</div>
+      <div class="masthead-top">
+        <div class="lhs">
+          <span>Vol. 01</span>
+          <span>{dateLine}</span>
+        </div>
+        <div class="rhs">
+          <span>{stories.length} stories</span>
+          <span>{totalMinutes} min listen</span>
+          <span>{uniqueSources} sources</span>
+        </div>
+      </div>
+      <h1>Briefing<span class="accent">.</span></h1>
+      <div class="sub">
+        <span class="tagline">
+          A daily audio briefing of world news, tech, security and research. Read aloud in under a minute a story.
+        </span>
+        <span>updated 3× daily</span>
+      </div>
     </header>
     <Feed client:load stories={stories} cdnBase={cdnBase} />
   </div>

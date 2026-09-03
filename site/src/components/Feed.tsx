@@ -248,26 +248,52 @@ export default function Feed({ stories, cdnBase }: Props) {
       {view === "list" && (
       <div className="feed">
         {grouped.map((g) => (
-          <div key={g.label}>
-            <div className="time-marker">{g.label}</div>
-            {g.items.map((s) => (
-              <article
-                key={s.id}
-                className={`card ${ageBucket(s.published_at, nowMs)} ${current?.id === s.id ? "playing" : ""}`}
-                onClick={() => onPlayClick(s)}
-              >
-                <span className="cat">{s.category === "world" ? "WORLD" : "TECH"}</span>
-                <div>
-                  <h2>{s.title}</h2>
-                  <div className="sub">
+          <section key={g.label} className="day-group">
+            <div className="day-header">
+              <span className="day-label">{g.label.toLowerCase().replace(/(^|\s)\S/g, l => l.toUpperCase())}</span>
+              <span className="day-count">{g.items.length} stories</span>
+            </div>
+            <div className="card-grid">
+              {g.items.map((s, i) => (
+                <motion.article
+                  key={s.id}
+                  className={`card ${ageBucket(s.published_at, nowMs)} ${current?.id === s.id ? "playing" : ""}`}
+                  onClick={() => onPlayClick(s)}
+                  initial={{ opacity: 0, y: 12 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true, amount: 0.2 }}
+                  transition={{ duration: 0.4, delay: Math.min(i, 8) * 0.04, ease: [0.16, 1, 0.3, 1] }}
+                >
+                  <div className="card-cover">
+                    {s.image_url ? (
+                      <img src={s.image_url} alt="" loading="lazy" />
+                    ) : (
+                      <div className="card-cover-fallback">{s.category?.[0] ?? "•"}</div>
+                    )}
+                    <div className="card-cover-play" aria-hidden="true">
+                      {current?.id === s.id && playing ? "❚❚" : "▶"}
+                    </div>
+                  </div>
+                  <div className="card-meta">
+                    <span className="cat">{s.category || "NEWS"}</span>
+                    <span className="card-meta-sep" aria-hidden="true">·</span>
+                    <span>{fmtDuration(s.estimated_duration_s)}</span>
+                    <span className="card-meta-sep" aria-hidden="true">·</span>
                     <span>{fmtTime(s.published_at)}</span>
-                    <span aria-hidden="true">·</span>
-                    <span>{s.source_domain}</span>
-                    <span aria-hidden="true">·</span>
-                    <a href={s.source_url || s.hn_permalink} target="_blank" rel="noreferrer" onClick={(e) => e.stopPropagation()}>source</a>
-                    <span aria-hidden="true">·</span>
+                  </div>
+                  <h2 className="card-title">{s.title}</h2>
+                  <div className="card-sub">
+                    <span>{s.source_domain || s.source}</span>
+                    <span className="card-meta-sep" aria-hidden="true">·</span>
+                    <a
+                      href={s.source_url || s.source_permalink || s.hn_permalink || "#"}
+                      target="_blank"
+                      rel="noreferrer"
+                      onClick={(e) => e.stopPropagation()}
+                    >article</a>
+                    <span className="card-meta-sep" aria-hidden="true">·</span>
                     <a href="#" onClick={(e) => toggleOpen(s.id, e)}>
-                      {openId === s.id ? "hide transcript" : "read transcript"}
+                      {openId === s.id ? "hide" : "read"}
                     </a>
                   </div>
                   <AnimatePresence initial={false}>
@@ -285,11 +311,10 @@ export default function Feed({ stories, cdnBase }: Props) {
                       </motion.div>
                     )}
                   </AnimatePresence>
-                </div>
-                <div className="duration">{fmtDuration(s.estimated_duration_s)}</div>
-              </article>
-            ))}
-          </div>
+                </motion.article>
+              ))}
+            </div>
+          </section>
         ))}
       </div>
       )}
