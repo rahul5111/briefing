@@ -2,7 +2,10 @@ name: briefing-pipeline
 
 on:
   schedule:
-    - cron: "0 */4 * * *"
+    # 3× daily, spaced to catch morning/afternoon/night cycles
+    # 12:00 UTC = 07:00 US Central, 19:00 UTC = 14:00 US Central,
+    # 02:00 UTC = 21:00 US Central (previous day).
+    - cron: "0 12,19,2 * * *"
   workflow_dispatch: {}
 
 concurrency:

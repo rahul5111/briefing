@@ -6,7 +6,7 @@ from datetime import datetime, timezone
 from urllib.parse import urlparse
 from slugify import slugify
 
-from . import config, extract, dedup, refine, tts, manifest, categorize, geolocate
+from . import config, extract, dedup, refine, tts, manifest, categorize, geolocate, significance
 from .sources import fetch_all, Candidate
 
 DRY_RUN = os.environ.get("PIPELINE_DRY_RUN", "").lower() in ("1", "true", "yes")
@@ -68,9 +68,28 @@ def main() -> int:
     candidates = [candidates[i] for i in keep_idx]
     print(f"After semantic dedup: {len(candidates)}")
 
-    # Cap TTS work per run. Round-robin across sources so no single source
-    # (HN with its inflated scores) squeezes out RSS or Reddit. Within each
-    # source we pick the highest-scoring items first.
+    # SIGNIFICANCE FILTER — the real quality gate. Drops trivial, promotional,
+    # ordinary, or off-theme stories BEFORE we spend refine + TTS on them.
+    # Cheap: one LLM call for the whole batch of titles.
+    if candidates:
+        print("\nRunning significance filter...")
+        verdicts = significance.score_batch(
+            {"title": c.title, "source": c.source} for c in candidates
+        )
+        kept: list[Candidate] = []
+        counts = {"IMPORTANT": 0, "INTERESTING": 0, "ORDINARY": 0,
+                  "TRIVIAL": 0, "PROMOTIONAL": 0}
+        for c, v in zip(candidates, verdicts):
+            counts[v] = counts.get(v, 0) + 1
+            if v in significance.KEEP:
+                kept.append(c)
+            else:
+                print(f"  DROP [{v:11s}] {c.title[:80]}")
+        candidates = kept
+        print(f"Verdicts: {counts} → {len(candidates)} kept")
+
+    # Safety cap — only fires if the significance filter kept an unusual
+    # amount (misconfigured filter or LLM outage returning all INTERESTING).
     if len(candidates) > config.MAX_NEW_PER_RUN:
         by_source: dict[str, list] = {}
         for c in candidates:
@@ -86,7 +105,7 @@ def main() -> int:
                 if len(picked) >= config.MAX_NEW_PER_RUN:
                     break
         candidates = picked
-        print(f"Round-robin capped to {len(candidates)} across "
+        print(f"Runaway-safety cap: {len(candidates)} across "
               f"{len(set(c.source for c in candidates))} sources.")
 
     new_stories: list[dict] = []
