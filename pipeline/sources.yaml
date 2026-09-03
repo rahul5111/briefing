@@ -61,6 +61,52 @@ sources:
     lookback_hours: 168
     max_items: 15
 
+  # ─── Google News (RSS) ──────────────────────────────────────────
+  # Google News exposes RSS at every locale / topic. We slice by edition
+  # + topic to feed the new 8-cat taxonomy (US, India, World, Business,
+  # Sports, Tech). See PLAN.md § 2.
+  - name: google_news_top_us
+    type: rss
+    url: https://news.google.com/rss?hl=en-US&gl=US&ceid=US:en
+    lookback_hours: 48
+    max_items: 20
+
+  - name: google_news_us_topic
+    type: rss
+    url: https://news.google.com/rss/headlines/section/topic/NATION.en_us/US?hl=en-US&gl=US&ceid=US:en
+    lookback_hours: 48
+    max_items: 20
+
+  - name: google_news_india
+    type: rss
+    url: https://news.google.com/rss?hl=en-IN&gl=IN&ceid=IN:en
+    lookback_hours: 48
+    max_items: 20
+
+  - name: google_news_world
+    type: rss
+    url: https://news.google.com/rss/headlines/section/topic/WORLD?hl=en-US&gl=US&ceid=US:en
+    lookback_hours: 48
+    max_items: 20
+
+  - name: google_news_business
+    type: rss
+    url: https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=en-US&gl=US&ceid=US:en
+    lookback_hours: 48
+    max_items: 20
+
+  - name: google_news_sports
+    type: rss
+    url: https://news.google.com/rss/headlines/section/topic/SPORTS?hl=en-US&gl=US&ceid=US:en
+    lookback_hours: 48
+    max_items: 20
+
+  - name: google_news_tech
+    type: rss
+    url: https://news.google.com/rss/headlines/section/topic/TECHNOLOGY?hl=en-US&gl=US&ceid=US:en
+    lookback_hours: 48
+    max_items: 20
+
   # ─── World news (RSS) ───────────────────────────────────────────
   - name: bbc_world
     type: rss

@@ -4,11 +4,19 @@ import AbstractCover from "./AbstractCover";
 
 const Globe = lazy(() => import("./Globe"));
 
+type StoryRef = { name: string; url: string | null; domain: string; added_at: string };
+
 type Story = {
   id: string;
   title: string;
   summary: string;
+  // Legacy single-string category (kept as fallback).
   category: string;
+  // PLAN A2 — canonical taxonomy fields.
+  main?: string;
+  sub?: string;
+  subcategory?: string;
+  sources?: StoryRef[];
   source?: string;
   source_url: string | null;
   source_domain: string;
@@ -39,11 +47,17 @@ const LEGACY_TO_MAIN: Record<string, string> = {
   WORLD: "WORLD",
 };
 
-function mainCategory(raw: string | undefined | null): string {
+function mainCategoryOf(s: Story): string {
+  // Prefer the canonical field when the classifier has been re-run.
+  const raw = s.main ?? s.category;
   if (!raw) return "WORLD";
   const upper = raw.toUpperCase();
   if (MAIN_CATEGORIES.includes(upper)) return upper;
   return LEGACY_TO_MAIN[upper] ?? "WORLD";
+}
+
+function subCategoryOf(s: Story): string | null {
+  return s.sub ?? s.subcategory ?? null;
 }
 
 type Props = { stories: Story[]; cdnBase: string };
@@ -182,14 +196,14 @@ export default function Feed({ stories, cdnBase }: Props) {
   const counts = useMemo(() => {
     const c: Record<string, number> = { ALL: stories.length };
     for (const s of stories) {
-      const main = mainCategory(s.category);
+      const main = mainCategoryOf(s);
       c[main] = (c[main] || 0) + 1;
     }
     return c;
   }, [stories]);
 
   const filtered = useMemo(
-    () => (activeCat === "ALL" ? stories : stories.filter((s) => mainCategory(s.category) === activeCat)),
+    () => (activeCat === "ALL" ? stories : stories.filter((s) => mainCategoryOf(s) === activeCat)),
     [stories, activeCat]
   );
   const grouped = useMemo(() => groupByDay(filtered), [filtered]);
@@ -326,7 +340,13 @@ export default function Feed({ stories, cdnBase }: Props) {
                     </div>
                   </div>
                   <div className="card-meta">
-                    <span className="cat">{mainCategory(s.category)}</span>
+                    <span className="cat">{mainCategoryOf(s)}</span>
+                    {subCategoryOf(s) && (
+                      <>
+                        <span className="card-meta-sep" aria-hidden="true">›</span>
+                        <span className="sub">{subCategoryOf(s)}</span>
+                      </>
+                    )}
                     <span className="card-meta-sep" aria-hidden="true">·</span>
                     <span>{fmtDuration(s.estimated_duration_s)}</span>
                     <span className="card-meta-sep" aria-hidden="true">·</span>
@@ -412,7 +432,7 @@ export default function Feed({ stories, cdnBase }: Props) {
               <div className="player-meta">
                 <span>{current.source_domain || current.source}</span>
                 <span aria-hidden="true">·</span>
-                <span>{mainCategory(current.category)}</span>
+                <span>{mainCategoryOf(current)}{subCategoryOf(current) ? ` › ${subCategoryOf(current)}` : ""}</span>
                 <span aria-hidden="true">·</span>
                 <a
                   href={current.source_url || current.source_permalink || current.hn_permalink || "#"}

@@ -30,7 +30,18 @@ def build_story(cand: Candidate, summary: str, image_url: str | None) -> dict:
         "id": cand.id,
         "title": cand.title,
         "summary": summary,
-        "category": "DEV",              # filled by classifier below
+        "main": "WORLD",                # filled by classifier below (PLAN A2)
+        "sub": "Society & Culture",     # filled by classifier below
+        "category": "WORLD",            # back-compat mirror of `main`
+        "subcategory": "Society & Culture",
+        "sources": [                    # PLAN A4 — cross-source enrichment
+            {
+                "name": cand.source,
+                "url": cand.url,
+                "domain": _domain(cand.url) or cand.extra.get("feed_domain", ""),
+                "added_at": now.isoformat(),
+            }
+        ],
         "source": cand.source,
         "source_url": cand.url,
         "source_domain": _domain(cand.url) or cand.extra.get("feed_domain", ""),
@@ -171,11 +182,20 @@ def main() -> int:
     # Batch-classify categories and geolocate all new stories in 2 LLM calls
     print(f"\nCategorizing {len(new_stories)} new stories...")
     try:
-        cats = categorize.classify_batch(
-            {"title": s["title"], "domain": s["source_domain"]} for s in new_stories
+        labels = categorize.classify_batch(
+            {
+                "title": s["title"],
+                "domain": s["source_domain"],
+                "summary": s.get("summary", ""),
+            }
+            for s in new_stories
         )
-        for s, c in zip(new_stories, cats):
-            s["category"] = c
+        for s, lbl in zip(new_stories, labels):
+            s["main"] = lbl["main"]
+            s["sub"] = lbl["sub"]
+            # Back-compat mirrors used by existing UI/tests.
+            s["category"] = lbl["main"]
+            s["subcategory"] = lbl["sub"]
     except Exception as e:
         print(f"  categorization failed: {e}")
 
