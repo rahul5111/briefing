@@ -111,3 +111,20 @@ sources:
     min_score: 5000
     lookback_hours: 168
     max_items: 15
+
+  # ─── Gmail newsletters ──────────────────────────────────────────
+  # Reads only emails from senders in the allowlist below. Needs three
+  # env vars: GMAIL_REFRESH_TOKEN / GMAIL_CLIENT_ID / GMAIL_CLIENT_SECRET.
+  # Run `python -m pipeline.gmail_auth credentials.json` once to generate.
+  # Add your newsletter sender addresses to `senders:` below.
+  - name: gmail_newsletters
+    type: gmail
+    enabled: false                # flip to true after OAuth setup + secrets
+    lookback_hours: 168
+    max_items: 25
+    default_score: 300            # newsletters are curated, so give them weight
+    senders:
+      # - platformer@substack.com
+      # - hi@morningbrew.com
+      # - stratechery@stratechery.com
+      # - your-newsletter@example.com

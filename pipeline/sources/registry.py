@@ -15,13 +15,14 @@ from __future__ import annotations
 from pathlib import Path
 import yaml
 
-from . import hn, rss, reddit
+from . import hn, rss, reddit, gmail
 from .base import Candidate
 
 ADAPTERS = {
     "hn": hn.fetch,
     "rss": rss.fetch,
     "reddit": reddit.fetch,
+    "gmail": gmail.fetch,
 }
 
 _CONFIG_PATH = Path(__file__).parent.parent / "sources.yaml"
