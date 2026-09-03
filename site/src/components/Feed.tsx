@@ -25,7 +25,26 @@ type Story = {
   location?: { name: string; country: string; lat: number; lng: number } | null;
 };
 
-const CATEGORY_ORDER = ["ALL", "AI", "STARTUPS", "SECURITY", "DEV", "RESEARCH", "WORLD"];
+// PLAN.md § 1 — locked 8-cat taxonomy. Displayed left-to-right.
+// Legacy stories (with old cats AI/STARTUPS/DEV/SECURITY/RESEARCH/WORLD) are
+// bucketed via LEGACY_TO_MAIN until the classifier rewrite (PLAN A2) lands.
+const MAIN_CATEGORIES = ["AI", "TECH", "SCIENCE", "SPORTS", "US", "INDIA", "WORLD", "BUSINESS"];
+
+const LEGACY_TO_MAIN: Record<string, string> = {
+  AI: "AI",
+  STARTUPS: "TECH",
+  DEV: "TECH",
+  SECURITY: "TECH",
+  RESEARCH: "SCIENCE",
+  WORLD: "WORLD",
+};
+
+function mainCategory(raw: string | undefined | null): string {
+  if (!raw) return "WORLD";
+  const upper = raw.toUpperCase();
+  if (MAIN_CATEGORIES.includes(upper)) return upper;
+  return LEGACY_TO_MAIN[upper] ?? "WORLD";
+}
 
 type Props = { stories: Story[]; cdnBase: string };
 
@@ -37,7 +56,6 @@ function fmtDuration(s: number) {
 }
 
 function fmtTime(iso: string) {
-  // Use fixed UTC formatting so SSR and client render identically.
   const d = new Date(iso);
   const h = String(d.getUTCHours()).padStart(2, "0");
   const m = String(d.getUTCMinutes()).padStart(2, "0");
@@ -51,7 +69,6 @@ function ageBucket(iso: string, now: number): "" | "aged" | "aged-more" {
   return "";
 }
 
-const DAYS = ["SUN","MON","TUE","WED","THU","FRI","SAT"];
 const DAYS_LONG = ["SUNDAY","MONDAY","TUESDAY","WEDNESDAY","THURSDAY","FRIDAY","SATURDAY"];
 const MONTHS = ["JAN","FEB","MAR","APR","MAY","JUN","JUL","AUG","SEP","OCT","NOV","DEC"];
 
@@ -70,11 +87,6 @@ function groupByDay(stories: Story[]) {
   return order.map((label) => ({ label, items: byLabel.get(label)! }));
 }
 
-/**
- * Draggable scrubber. Shows played-portion as amber fill, has a handle you
- * can drag along the track, click anywhere on the track to seek there.
- * Deliberately quiet — the signature moment is on the globe view now.
- */
 function Scrubber({
   now,
   dur,
@@ -157,14 +169,27 @@ export default function Feed({ stories, cdnBase }: Props) {
     setNow(t);
   }, []);
 
+  const closePlayer = useCallback(() => {
+    const a = audioRef.current;
+    if (a) { a.pause(); a.currentTime = 0; }
+    setPlaying(false);
+    setNow(0);
+    setDur(0);
+    setCurrent(null);
+  }, []);
+
+  // Count per main-cat (bucketing legacy stories).
   const counts = useMemo(() => {
     const c: Record<string, number> = { ALL: stories.length };
-    for (const s of stories) c[s.category] = (c[s.category] || 0) + 1;
+    for (const s of stories) {
+      const main = mainCategory(s.category);
+      c[main] = (c[main] || 0) + 1;
+    }
     return c;
   }, [stories]);
 
   const filtered = useMemo(
-    () => (activeCat === "ALL" ? stories : stories.filter((s) => s.category === activeCat)),
+    () => (activeCat === "ALL" ? stories : stories.filter((s) => mainCategory(s.category) === activeCat)),
     [stories, activeCat]
   );
   const grouped = useMemo(() => groupByDay(filtered), [filtered]);
@@ -177,6 +202,22 @@ export default function Feed({ stories, cdnBase }: Props) {
       .then(() => setPlaying(true))
       .catch(() => setPlaying(false));
   }, [current, cdnBase]);
+
+  // ESC closes the player.
+  useEffect(() => {
+    if (!current) return;
+    const onKey = (e: KeyboardEvent) => {
+      if (e.key === "Escape") closePlayer();
+      if (e.key === " " && e.target === document.body) {
+        e.preventDefault();
+        const a = audioRef.current!;
+        if (playing) { a.pause(); setPlaying(false); }
+        else { a.play(); setPlaying(true); }
+      }
+    };
+    window.addEventListener("keydown", onKey);
+    return () => window.removeEventListener("keydown", onKey);
+  }, [current, playing, closePlayer]);
 
   const onPlayClick = (s: Story) => {
     if (current?.id === s.id) {
@@ -198,11 +239,13 @@ export default function Feed({ stories, cdnBase }: Props) {
     return <div className="empty">No stories yet · check back after the next run</div>;
   }
 
+  const visibleCats = ["ALL", ...MAIN_CATEGORIES.filter((c) => (counts[c] ?? 0) > 0)];
+
   return (
     <>
-      <div className="controls-row">
+      <div className={`controls-row ${current ? "with-player" : ""}`}>
         <nav className="tuner" aria-label="Categories">
-          {CATEGORY_ORDER.filter((c) => c === "ALL" || counts[c]).map((c) => (
+          {visibleCats.map((c) => (
             <button
               key={c}
               type="button"
@@ -283,7 +326,7 @@ export default function Feed({ stories, cdnBase }: Props) {
                     </div>
                   </div>
                   <div className="card-meta">
-                    <span className="cat">{s.category || "NEWS"}</span>
+                    <span className="cat">{mainCategory(s.category)}</span>
                     <span className="card-meta-sep" aria-hidden="true">·</span>
                     <span>{fmtDuration(s.estimated_duration_s)}</span>
                     <span className="card-meta-sep" aria-hidden="true">·</span>
@@ -327,46 +370,49 @@ export default function Feed({ stories, cdnBase }: Props) {
       </div>
       )}
 
-      <div className={`player ${playing ? "playing" : ""} ${current ? "loaded" : "empty"}`} role="region" aria-label="Now playing">
-        <button
-          className="player-btn"
-          onClick={() => {
-            if (!current) return;
-            const a = audioRef.current!;
-            if (playing) { a.pause(); setPlaying(false); }
-            else { a.play(); setPlaying(true); }
-          }}
-          disabled={!current}
-          aria-label={playing ? "Pause" : "Play"}
-        >
-          {playing ? "❚❚" : "▶"}
-        </button>
+      <AnimatePresence>
+        {current && (
+          <motion.aside
+            key="player"
+            className={`player ${playing ? "playing" : ""}`}
+            role="region"
+            aria-label="Now playing"
+            initial={{ y: 120, opacity: 0 }}
+            animate={{ y: 0, opacity: 1 }}
+            exit={{ y: 120, opacity: 0 }}
+            transition={{ type: "spring", stiffness: 340, damping: 34 }}
+          >
+            <button
+              className="player-btn"
+              onClick={() => {
+                const a = audioRef.current!;
+                if (playing) { a.pause(); setPlaying(false); }
+                else { a.play(); setPlaying(true); }
+              }}
+              aria-label={playing ? "Pause" : "Play"}
+            >
+              {playing ? "❚❚" : "▶"}
+            </button>
 
-        <div className="player-cover" aria-hidden="true">
-          {current?.image_url ? (
-            <img src={current.image_url} alt="" loading="lazy" />
-          ) : current ? (
-            <AbstractCover
-              storyId={current.id}
-              category={current.category}
-              sourceDomain={current.source_domain || current.source}
-              variant="player"
-            />
-          ) : (
-            <div className="player-cover-fallback">•</div>
-          )}
-        </div>
+            <div className="player-cover" aria-hidden="true">
+              {current.image_url ? (
+                <img src={current.image_url} alt="" loading="lazy" />
+              ) : (
+                <AbstractCover
+                  storyId={current.id}
+                  category={current.category}
+                  sourceDomain={current.source_domain || current.source}
+                  variant="player"
+                />
+              )}
+            </div>
 
-        <div className="player-body">
-          <div className="player-title">
-            {current ? current.title : "Nothing playing"}
-          </div>
-          <div className="player-meta">
-            {current ? (
-              <>
+            <div className="player-body">
+              <div className="player-title">{current.title}</div>
+              <div className="player-meta">
                 <span>{current.source_domain || current.source}</span>
                 <span aria-hidden="true">·</span>
-                <span>{current.category}</span>
+                <span>{mainCategory(current.category)}</span>
                 <span aria-hidden="true">·</span>
                 <a
                   href={current.source_url || current.source_permalink || current.hn_permalink || "#"}
@@ -376,31 +422,38 @@ export default function Feed({ stories, cdnBase }: Props) {
                 >
                   read the source article ↗
                 </a>
-              </>
-            ) : (
-              <span>Tap any story above to start listening.</span>
-            )}
-          </div>
-          <Scrubber now={now} dur={dur || (current?.estimated_duration_s ?? 0)} onSeek={seek} />
-        </div>
+              </div>
+              <Scrubber now={now} dur={dur || (current.estimated_duration_s ?? 0)} onSeek={seek} />
+            </div>
 
-        <div className="player-time">
-          <span className="player-time-cur">{fmtDuration(now)}</span>
-          <span className="player-time-sep">/</span>
-          <span className="player-time-total">
-            {fmtDuration(dur || (current?.estimated_duration_s ?? 0))}
-          </span>
-        </div>
+            <div className="player-time">
+              <span className="player-time-cur">{fmtDuration(now)}</span>
+              <span className="player-time-sep">/</span>
+              <span className="player-time-total">
+                {fmtDuration(dur || (current.estimated_duration_s ?? 0))}
+              </span>
+            </div>
 
-        <audio
-          ref={audioRef}
-          crossOrigin="anonymous"
-          onTimeUpdate={(e) => setNow((e.target as HTMLAudioElement).currentTime)}
-          onLoadedMetadata={(e) => setDur((e.target as HTMLAudioElement).duration)}
-          onEnded={() => setPlaying(false)}
-          preload="metadata"
-        />
-      </div>
+            <button
+              className="player-close"
+              onClick={closePlayer}
+              aria-label="Close player"
+              title="Close (Esc)"
+            >
+              ✕
+            </button>
+          </motion.aside>
+        )}
+      </AnimatePresence>
+
+      <audio
+        ref={audioRef}
+        crossOrigin="anonymous"
+        onTimeUpdate={(e) => setNow((e.target as HTMLAudioElement).currentTime)}
+        onLoadedMetadata={(e) => setDur((e.target as HTMLAudioElement).duration)}
+        onEnded={() => setPlaying(false)}
+        preload="metadata"
+      />
     </>
   );
 }

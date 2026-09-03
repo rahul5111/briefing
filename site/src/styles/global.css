@@ -46,13 +46,15 @@ html, body {
   -moz-osx-font-smoothing: grayscale;
   font-feature-settings: "ss01", "cv11", "kern";
 }
-body { padding-bottom: 120px; }
+body { padding-bottom: 40px; }
+body:has(.player) { padding-bottom: 120px; }
 a { color: inherit; text-decoration: none; }
 
 .wrap {
   max-width: 1600px;
   margin: 0 auto;
   padding: 44px 5vw 28px;
+  overflow-x: clip;
 }
 @media (min-width: 1800px) { .wrap { padding-left: 88px; padding-right: 88px; } }
 
@@ -231,26 +233,24 @@ a { color: inherit; text-decoration: none; }
 @media (max-width: 1024px) { .card-grid { grid-template-columns: repeat(3, 1fr); gap: 32px 22px; } }
 @media (max-width: 640px)  { .card-grid { grid-template-columns: repeat(2, 1fr); gap: 24px 14px; } }
 
-/* First card of the day = editorial featured, spans 2 columns and 2 rows */
+/* First card of the day = editorial featured. Wider (2 cols) but same row
+   height as siblings, so it doesn't crush the other cards below the fold. */
 .card.featured {
   grid-column: span 2;
-  grid-row: span 2;
-  display: grid;
-  grid-template-rows: 1fr auto;
 }
-.card.featured .card-cover { aspect-ratio: 16 / 10; height: 100%; }
+.card.featured .card-cover { aspect-ratio: 16 / 9; }
 .card.featured .card-title {
-  font-size: clamp(1.75rem, 2.6vw, 2.4rem);
-  line-height: 1.08;
+  font-size: clamp(1.4rem, 1.8vw, 1.85rem);
+  line-height: 1.1;
   letter-spacing: -0.02em;
   font-weight: 600;
-  -webkit-line-clamp: 4;
+  -webkit-line-clamp: 3;
 }
-.card.featured .card-cover-play { width: 44px; height: 44px; font-size: 0.85rem; top: 16px; right: 16px; }
+.card.featured .card-cover-play { width: 44px; height: 44px; font-size: 0.85rem; top: 14px; right: 14px; }
 @media (max-width: 640px) {
-  .card.featured { grid-column: span 2; grid-row: auto; }
-  .card.featured .card-cover { aspect-ratio: 4 / 3; height: auto; }
-  .card.featured .card-title { font-size: 1.4rem; }
+  .card.featured { grid-column: span 2; }
+  .card.featured .card-cover { aspect-ratio: 4 / 3; }
+  .card.featured .card-title { font-size: 1.3rem; }
 }
 
 .card {
@@ -403,22 +403,43 @@ a { color: inherit; text-decoration: none; }
 }
 .transcript p + p { margin-top: 0.7em; }
 
-/* ─────────────────────────── PLAYER ───────────────────────────── */
+/* ─────────────────────────── PLAYER ─────────────────────────────
+   Only rendered when a story is selected (see Feed.tsx). Slides up
+   from below via motion. Includes a close (✕) button to dismiss. */
 .player {
   position: fixed;
-  bottom: 0; left: 0; right: 0;
-  background: color-mix(in oklab, var(--paper) 96%, transparent);
+  bottom: 16px;
+  left: 5vw;
+  right: 5vw;
+  max-width: 1440px;
+  margin: 0 auto;
+  background: color-mix(in oklab, var(--paper) 97%, transparent);
   backdrop-filter: saturate(140%) blur(14px);
   -webkit-backdrop-filter: saturate(140%) blur(14px);
-  border-top: 1px solid var(--ink);
-  padding: 12px 32px 14px;
+  border: 1px solid var(--ink);
+  border-radius: 10px;
+  padding: 12px 20px 14px;
   display: grid;
-  grid-template-columns: auto 56px 1fr auto;
+  grid-template-columns: auto 56px 1fr auto auto;
   gap: 16px;
   align-items: center;
   z-index: 50;
   min-height: 86px;
+  box-shadow: 0 10px 40px -12px rgba(14,17,22,0.22), 0 2px 8px -2px rgba(14,17,22,0.10);
 }
+.player-close {
+  background: transparent;
+  border: 1px solid var(--hairline-2);
+  color: var(--muted);
+  width: 32px; height: 32px;
+  border-radius: 50%;
+  cursor: pointer;
+  font-size: 0.8rem;
+  display: flex; align-items: center; justify-content: center;
+  transition: color .15s ease, border-color .15s ease, background .15s ease;
+  flex-shrink: 0;
+}
+.player-close:hover { color: var(--paper); background: var(--ink); border-color: var(--ink); }
 
 .player-btn {
   background: var(--ink);
@@ -456,7 +477,6 @@ a { color: inherit; text-decoration: none; }
   color: var(--accent);
   background: linear-gradient(135deg, var(--paper-2), var(--paper));
 }
-.player.empty .player-cover { opacity: 0.4; }
 
 .player-body { min-width: 0; overflow: hidden; }
 .player-title {
@@ -470,7 +490,6 @@ a { color: inherit; text-decoration: none; }
   white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
 }
 .player.playing .player-title { color: var(--accent); }
-.player.empty .player-title { color: var(--muted); font-style: italic; }
 
 .player-meta {
   font-family: var(--font-mono);
@@ -606,9 +625,10 @@ a { color: inherit; text-decoration: none; }
   .card-cover-play { width: 30px; height: 30px; font-size: 0.6rem; top: 8px; right: 8px; }
   .day-header .day-label { font-size: 1.25rem; }
   .player {
-    padding: 10px 14px 12px;
+    left: 10px; right: 10px; bottom: 10px;
+    padding: 10px 12px 12px;
     gap: 10px;
-    grid-template-columns: auto 44px 1fr auto;
+    grid-template-columns: auto 44px 1fr auto auto;
     min-height: 74px;
   }
   .player-btn { width: 40px; height: 40px; font-size: 0.78rem; }
@@ -616,6 +636,7 @@ a { color: inherit; text-decoration: none; }
   .player-title { font-size: 0.9rem; }
   .player-meta { font-size: 0.56rem; gap: 6px; margin-top: 2px; }
   .player-time { font-size: 0.64rem; }
+  .player-close { width: 28px; height: 28px; font-size: 0.72rem; }
   .scrubber { height: 16px; margin-top: 4px; }
   .scrubber-handle { width: 10px; height: 10px; }
 }
