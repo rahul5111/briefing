@@ -59,11 +59,37 @@ def _normalize_for_diff(s: str) -> list[str]:
     Whisper outputs "153 million" while our TTS input was "one hundred fifty-
     three million". Both need to end up as the same word list to fairly
     measure whether the audio matches the input.
+
+    Extra: collapse runs of single-letter tokens ("k l two" or "n b a")
+    into a single joined token ("kltwo", "nba") so Whisper's tendency to
+    concatenate letter-spaced acronyms (e.g. "kl2" for "K L two") stops
+    inflating WER against correctly-pronounced audio.
     """
     s = _norm.normalize(s)
     s = re.sub(r"[^\w\s']", " ", s.lower())
     s = re.sub(r"\s+", " ", s).strip()
-    return s.split()
+    tokens = s.split()
+
+    # Collapse runs of >=2 single-character tokens into one joined token.
+    # A "run" ends when we hit a token that is not single-char alnum.
+    out: list[str] = []
+    buf: list[str] = []
+    def _flush() -> None:
+        if not buf:
+            return
+        if len(buf) >= 2:
+            out.append("".join(buf))       # k l two → kltwo
+        else:
+            out.extend(buf)                # bare single letters stay
+        buf.clear()
+    for tok in tokens:
+        if len(tok) <= 2 and tok.isalnum():
+            buf.append(tok)
+        else:
+            _flush()
+            out.append(tok)
+    _flush()
+    return out
 
 
 def _wer(ref: list[str], hyp: list[str]) -> tuple[float, list[tuple[str, str]]]:

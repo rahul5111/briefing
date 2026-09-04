@@ -23,14 +23,25 @@ _VOICES_URL = "https://github.com/thewh1teagle/kokoro-onnx/releases/download/mod
 
 # News-anchor voice palette. am_liam is mature, warm, and reads with the
 # cadence of an evening bulletin — the opposite of the previous soft-whisper
-# default. Kept a fallback map for future per-category voicing.
+# default. Category-mapped so long listening sessions don't sound uniform.
+#
+# 8-cat taxonomy (PLAN.md § 1) + a few legacy keys still in the manifest.
 VOICE_BY_CATEGORY = {
-    "WORLD":    "am_liam",       # anchor voice for hard news
+    # ── new 8-cat taxonomy ───────────────────────────────
+    "AI":       "am_michael",    # crisper, energetic — matches product velocity
+    "TECH":     "am_michael",
+    "SCIENCE":  "bm_george",     # British, informative feel for research
+    "SPORTS":   "am_liam",       # broadcaster gravitas
+    "US":       "am_liam",       # anchor voice for hard news
+    "INDIA":    "am_liam",
+    "WORLD":    "am_liam",
+    "BUSINESS": "am_michael",    # a touch more energetic than pure news
+    # ── legacy keys still on some pre-migration stories ──
     "SECURITY": "am_liam",
-    "AI":       "am_michael",    # crisper, energetic
     "STARTUPS": "am_michael",
     "DEV":      "am_michael",
-    "RESEARCH": "bm_george",     # British, informative feel
+    "RESEARCH": "bm_george",
+    # ── fallback ────────────────────────────────────────
     "default":  "am_liam",
 }
 
