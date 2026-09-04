@@ -65,12 +65,27 @@ def _get_kokoro():
     return _kokoro
 
 
+_SENTENCE_SPLIT = re.compile(r"(?<=[.!?])\s+")
+
+# A fragment ending in " X." (single capital letter + period, preceded by
+# whitespace or start-of-string) is almost certainly a letter-spaced
+# acronym mid-sentence, not a real sentence end. We use this to re-merge
+# fragments that a naive sentence split would incorrectly break up.
+#
+# Matches:  "N."   " B."   "The N. B. A."   "The K. L. two"
+# Rejects:  "LLC." "USA." "3.14." — the letter isn't isolated
+_ACRONYM_TAIL = re.compile(r"(?:^|\s)[A-Z]\.$")
+
+
 def _split_into_units(text: str) -> list[tuple[str, str]]:
     """Return [(kind, chunk)] where kind is 'sentence' or 'paragraph_break'.
 
     Paragraphs are split on double-newline. Within a paragraph, we split on
     sentence-ending punctuation but keep the punctuation attached to the
-    preceding chunk so the TTS keeps the intonation.
+    preceding chunk so the TTS keeps the intonation. Fragments that were
+    split inside a letter-spaced acronym (e.g. "N. B. A. and the league"
+    → "N.", "B.", "A.", "and the league") get re-merged so the acronym is
+    read as one continuous sequence.
     """
     units: list[tuple[str, str]] = []
     paragraphs = re.split(r"\n\s*\n", text.strip())
@@ -78,16 +93,19 @@ def _split_into_units(text: str) -> list[tuple[str, str]]:
         para = para.strip()
         if not para:
             continue
-        sentences = re.split(r"(?<=[.!?])\s+", para)
-        for s in sentences:
-            s = s.strip()
-            if not s:
+        raw = _SENTENCE_SPLIT.split(para)
+        merged: list[str] = []
+        for frag in raw:
+            frag = frag.strip()
+            if not frag:
                 continue
-            # Guard against overlong sentences (Kokoro clipping risk)
+            if merged and _ACRONYM_TAIL.search(merged[-1]):
+                merged[-1] = merged[-1] + " " + frag
+            else:
+                merged.append(frag)
+        for s in merged:
             if len(s) > 280:
-                # Soft-split on comma if we can
-                parts = _soft_split_long(s)
-                for p in parts:
+                for p in _soft_split_long(s):
                     units.append(("sentence", p))
             else:
                 units.append(("sentence", s))

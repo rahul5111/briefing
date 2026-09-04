@@ -226,8 +226,14 @@ a listener. Report ONE of exactly two things:
 
 Only flag issues that will genuinely trip a neural TTS voice or sound wrong to
 a human ear: digits or symbols that were not spelled out, sentences over 30
-words, awkward punctuation, unspoken acronyms, mid-sentence cutoffs. Do not
-flag stylistic preferences.
+words, awkward punctuation, unspoken/unspaced acronyms, mid-sentence cutoffs.
+
+DO NOT flag any of the following — they are the deliberate TTS-ready format:
+- Letter-spaced acronyms in "N. B. A." or "N B A" or "N B A." form
+- Numbers spelled out in words ("thirty million dollars")
+- Years spelled as "twenty twenty-six" or "nineteen ninety-seven"
+
+Do not flag stylistic preferences.
 
 Text:
 {text}

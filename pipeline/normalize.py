@@ -12,14 +12,34 @@ import re
 from num2words import num2words
 
 
-# Acronyms we always spell out letter-by-letter (Kokoro reads these as words otherwise)
+# Acronyms we always spell out letter-by-letter. Kokoro reads NBA as "nubba"
+# and IPL as "ipple" if we let it — the letter-spaced form ("N. B. A.") is
+# read correctly. Order-agnostic set; matched case-sensitively via a
+# whole-word regex in normalize() below.
 SPELL_OUT = {
+    # tech / product
     "AI", "API", "ML", "LLM", "CPU", "GPU", "TPU", "SDK", "CLI", "URL", "SQL",
     "HTTP", "HTTPS", "CSS", "HTML", "JSON", "XML", "YAML", "AWS", "GCP", "IBM",
-    "NASA", "FBI", "CIA", "SEC", "IRS", "IPO", "CEO", "CFO", "CTO", "COO",
-    "VP", "PhD", "MBA", "USA", "UK", "EU", "UN", "NATO", "WHO", "GDP", "USB",
-    "iOS", "OS", "OSS", "RAG", "RSS", "PDF", "PNG", "JPG", "MP3", "MP4",
-    "RSC", "SSR", "SSG", "TLS", "SSL", "SSH", "DNS", "CDN", "VPN", "VPS",
+    "NASA", "USB", "iOS", "OS", "OSS", "RAG", "RSS", "PDF", "PNG", "JPG",
+    "MP3", "MP4", "RSC", "SSR", "SSG", "TLS", "SSL", "SSH", "DNS", "CDN",
+    "VPN", "VPS", "ONNX", "CUDA", "ROCm",
+    # US agencies + political
+    "FBI", "CIA", "NSA", "DOJ", "DOD", "TSA", "ICE", "DEA", "ATF", "USSS",
+    "SEC", "IRS", "FDA", "CDC", "FEMA", "EPA", "FTC", "FCC", "USDA", "HHS",
+    "GAO", "CBO", "OMB", "SCOTUS", "GOP", "DNC", "RNC",
+    # business / finance
+    "IPO", "CEO", "CFO", "CTO", "COO", "CMO", "CIO", "VP", "MBA", "PhD",
+    "USA", "UK", "EU", "UN", "NATO", "WHO", "GDP", "IMF", "WTO", "OPEC",
+    "BRICS", "G7", "G20", "PE", "VC", "M&A", "AUM", "EBITDA", "APR", "APY",
+    # sports (biggest cause of mispronunciation in the current feed)
+    "NBA", "NFL", "NHL", "MLB", "MLS", "NCAA", "FIFA", "UEFA", "IOC", "WWE",
+    "UFC", "PGA", "LPGA", "USGA", "ATP", "WTA", "BWF", "IPL", "ODI", "T20",
+    "IPL", "BCCI", "WBC", "WBO", "IBF", "WBA",
+    # india-specific (about to start appearing with the new sources)
+    "RBI", "GST", "SEBI", "ISRO", "DRDO", "NITI", "CBI", "ED", "PMO", "CM",
+    "MLA", "MP", "BJP", "INC", "AAP", "SP", "BSP", "PIB",
+    # scientific orgs
+    "ESA", "JAXA", "NOAA", "CERN", "JPL", "NIH", "NSF",
 }
 
 # Common abbreviations that should be expanded (spoken versions)
@@ -190,11 +210,17 @@ def normalize(text: str) -> str:
         return _space_out_acronym(m)
     t = re.sub(r"\b[A-Z]{2,5}\b", _acr, t)
 
-    # 10. Clean up whitespace and stray commas
-    t = re.sub(r"\s+", " ", t)
+    # 10. Clean up whitespace and stray commas — but PRESERVE paragraph breaks
+    #     (blank line = \n\n) so tts.py can insert its longer 0.60s paragraph
+    #     pauses. Collapsing all whitespace here used to destroy every
+    #     paragraph in the input, turning every briefing into one flat blob
+    #     with only 0.32s sentence gaps.
+    t = re.sub(r"[ \t]+", " ", t)                         # collapse horizontal whitespace
+    t = re.sub(r"[ \t]*\n[ \t]*\n[ \t\n]*", "\n\n", t)    # normalize any blank-line run to exactly one
+    t = re.sub(r"(?<!\n)\n(?!\n)", " ", t)                # single newline → space
     t = re.sub(r"\s+,", ",", t)
     t = re.sub(r",{2,}", ",", t)
-    t = re.sub(r"\s+\.", ".", t)
+    t = re.sub(r" +\.", ".", t)
 
     return t.strip()
 

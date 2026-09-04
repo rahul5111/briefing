@@ -6,7 +6,7 @@ from datetime import datetime, timezone
 from urllib.parse import urlparse
 from slugify import slugify
 
-from . import config, extract, dedup, refine, tts, manifest, categorize, geolocate, significance, enrich
+from . import config, extract, dedup, refine, tts, manifest, categorize, geolocate, significance, enrich, audio_validate
 from .sources import fetch_all, Candidate
 
 DRY_RUN = os.environ.get("PIPELINE_DRY_RUN", "").lower() in ("1", "true", "yes")
@@ -268,8 +268,6 @@ def main() -> int:
         audio_path = config.DATA_DIR / story["audio_path"]
         print(f"  TTS -> {audio_path.name}")
         try:
-            # Category is filled after TTS in the current pipeline; use "default"
-            # for now so voicing at least follows the news-anchor palette.
             stats = tts.synth(refined.text, audio_path, "default")
             story["audio_bytes"] = audio_path.stat().st_size
             story["audio_duration_s"] = round(stats["duration_s"], 1)
@@ -279,6 +277,26 @@ def main() -> int:
         except Exception as e:
             print(f"  TTS failed: {e}")
             continue
+
+        # Whisper round-trip: transcribe the MP3 we just wrote and compare
+        # to the input. Cheap on tiny.en (~5s per 90s of audio). If it comes
+        # back POOR, log and store the verdict — future work: auto-retry
+        # with a slower speed. For now surface it in the manifest so the UI
+        # can flag / hide poor audio.
+        try:
+            val = audio_validate.validate(audio_path, refined.text)
+            story["audio_wer"] = val.wer
+            story["audio_verdict"] = val.verdict
+            story["audio_notes"] = val.notes
+            if val.verdict == "poor":
+                print(f"    ⚠︎ Whisper verdict POOR (WER {val.wer:.2f}) — {val.notes}")
+                if val.mismatched_words:
+                    print(f"    ⚠︎ first diffs: {val.mismatched_words[:5]}")
+            else:
+                print(f"    ✓ Whisper {val.verdict} (WER {val.wer:.2f})")
+        except Exception as e:
+            print(f"  audio_validate failed: {e}")
+            story["audio_verdict"] = "unchecked"
 
         new_stories.append(story)
 
