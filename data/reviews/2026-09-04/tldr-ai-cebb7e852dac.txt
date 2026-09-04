@@ -1,0 +1,40 @@
+═══ 00_KEY_POINTS ═══
+
+1. Microsoft has released the new speech recognition model named MAI-Transcribe-2.
+2. The model ranks first on the FLEURS benchmark across 60 languages with a 5.2 percent Word-Error-Rate.
+3. MAI-Transcribe-2 delivers processing speeds up to ten times faster than leading competitor models.
+4. The model is priced at zero dollars and ten cents per hour as a limited-time launch offer.
+5. The launch offer for MAI-Transcribe-2 runs until the end of the year.
+
+═══ 01_DRAFT ═══
+
+Microsoft has released MAI-Transcribe-2, a new speech recognition model that ranks first on the FLEURS benchmark across 60 languages with an average Word-Error-Rate of 5.2 percent. The model features speaker diarization, word-level timestamps, keyword biasing, configurable transcription styles, code switching, and automatic language identification. According to evaluations run by Artificial Analysis, MAI-Transcribe-2 is 10 times faster than OpenAI’s GPT-Transcribe, 7 times faster than ElevenLabs’ Scribe v2, and 5 times faster than Gemini 3.5 Transcribe. It also defines the Pareto Frontier for accuracy and latency on Artificial Analysis and ranks second on its Word-Error-Rate leaderboard. At launch, MAI-Transcribe-2 is available as a limited-time offer priced at $0.10 per hour until the end of the year.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+MAI-Transcribe-2 is a new speech recognition model that ranks first on the FLEURS benchmark across 60 languages with an average Word-Error-Rate of 5.2 percent. The model features speaker diarization, word-level timestamps, keyword biasing, configurable transcription styles, code switching, and automatic language identification. According to evaluations run by Artificial Analysis, MAI-Transcribe-2 is 10 times faster than OpenAI’s GPT-Transcribe, 7 times faster than ElevenLabs’ Scribe v2, and 5 times faster than Gemini 3.5 Transcribe. It also defines the Pareto Frontier for accuracy and latency on Artificial Analysis and ranks second on its Word-Error-Rate leaderboard. At launch, MAI-Transcribe-2 is available as a limited-time offer priced at $0.10 per hour until the end of the year.
+
+═══ 03_COVERAGE_1 ═══
+
+80% covered (4/5). Missing: Microsoft has released the new speech recognition model named MAI-Transcribe-2.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+Microsoft has released the new speech recognition model named MAI-Transcribe-2, which ranks first on the FLEURS benchmark across 60 languages with an average Word-Error-Rate of 5.2 percent. The model features speaker diarization, word-level timestamps, keyword biasing, configurable transcription styles, code switching, and automatic language identification. According to evaluations run by Artificial Analysis, MAI-Transcribe-2 is 10 times faster than OpenAI’s GPT-Transcribe, 7 times faster than ElevenLabs’ Scribe v2, and 5 times faster than Gemini 3.5 Transcribe. It also defines the Pareto Frontier for accuracy and latency on Artificial Analysis and ranks second on its Word-Error-Rate leaderboard. At launch, MAI-Transcribe-2 is available as a limited-time offer priced at $0.10 per hour until the end of the year.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Microsoft has released a new speech recognition model called M. A. I. Transcribe Two. It ranks first on the F. L. E. U. R. S. benchmark across sixty languages. The average word error rate is five point two percent. The model includes speaker diarization and word-level timestamps. It also features keyword biasing and configurable transcription styles. Users get code switching and automatic language identification. Evaluations by Artificial Analysis show impressive speed results. M. A. I. Transcribe Two is ten times faster than OpenAI. That is OpenAI G. P. T. Transcribe. It is seven times faster than ElevenLabs Scribe version two. It is five times faster than Gemini three point five Transcribe. The model defines the Pareto Frontier for accuracy and latency on Artificial Analysis. It also ranks second on the word error rate leaderboard. The model is available as a limited-time offer at launch. The price is ten cents per hour until the end of the year.
+
+═══ 05_NORMALIZED ═══
+
+Microsoft has released a new speech recognition model called M. A. I. Transcribe Two. It ranks first on the F. L. E. U. R. S. benchmark across sixty languages. The average word error rate is five point two percent. The model includes speaker diarization and word-level timestamps. It also features keyword biasing and configurable transcription styles. Users get code switching and automatic language identification. Evaluations by Artificial Analysis show impressive speed results. M. A. I. Transcribe Two is ten times faster than OpenAI. That is OpenAI G. P. T. Transcribe. It is seven times faster than ElevenLabs Scribe version two. It is five times faster than Gemini three point five Transcribe. The model defines the Pareto Frontier for accuracy and latency on Artificial Analysis. It also ranks second on the word error rate leaderboard. The model is available as a limited-time offer at launch. The price is ten cents per hour until the end of the year.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (5/5). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: M. A. I., F. L. E. U. R. S., G. P. T.
+

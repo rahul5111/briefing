@@ -1,0 +1,45 @@
+═══ 00_KEY_POINTS ═══
+
+1. Turbopack generates dozens of JavaScript chunks for Next.js apps, holding app code, dependencies, and runtimes.
+2. Chunking balances the competing goals of achieving the lowest possible download size and the fewest network requests.
+3. Turbopack solves the over-shipping problem by only merging smaller chunks that belong to the same chunk group.
+4. Next.js estimates that two-thirds of user sessions are a single page visit while one-third involve two or more.
+5. Next.js 16.3 introduces experimental features that let developers optimize chunking using real site analytics and user navigation data.
+6. New runtime capabilities in Next.js 16.3 let the browser pick whichever is cheaper between a merged chunk or missing pieces.
+
+═══ 01_DRAFT ═══
+
+Turbopack manages JavaScript delivery for Next.js applications by balancing download size and request count through a process called chunking, which groups code into files loaded by the browser. Basic strategies like putting all code into a single chunk hurt initial load performance, while giving every module its own chunk creates excessive network overhead. Turbopack solves this by merging smaller chunks within shared chunk groups, weighing the probability that users will stay on a single page or navigate to a second page. According to Next.js data, default chunking cut requests by more than half compared to no merging while shipping slightly less code, whereas maximum merging reduced requests further but increased total code downloaded by 10 percent. To address the limitation that build-time merging cannot react to browser caches, Next.js version 16.3 introduces experimental features including generateComponentChunks, which emits un-merged versions of chunks alongside merged ones so the runtime can fetch only missing pieces. Additional configurations in next.config.js allow developers to customize traffic assumptions using firstPageLoadPriority, priorityRoutes, and clusters. The release also brings code-reduction updates, such as tree-shaking for CommonJS modules, expanded ESM module analysis, and a shared Turbopack runtime that saves approximately 10 kilobytes of client-side JavaScript and a blocking request on navigations after the first.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Turbopack manages JavaScript delivery for Next.js applications by balancing download size and request count through a process called chunking, which groups code into files loaded by the browser. A single chunk containing all app code loads for every page, while giving every module its own chunk results in hundreds of network requests that carry overhead. Turbopack solves this by merging smaller chunks within shared chunk groups, weighing the probability that users will stay on a single page or navigate to a second page. According to Next.js data, default chunking cut requests by more than half compared to no merging while shipping slightly less code, whereas maximum merging reduced requests further but increased total code downloaded by 10 percent. To address the limitation that build-time merging cannot react to browser caches, Next.js version 16.3 introduces experimental features including generateComponentChunks, which emits un-merged versions of chunks alongside merged ones so the runtime can fetch only missing pieces. Developers can also configure chunking behavior in next.config.js using settings such as firstPageLoadPriority, priorityRoutes, and clusters. The release brings code-reduction updates, including tree-shaking for CommonJS modules, expanded ESM module analysis, and a shared Turbopack runtime that saves approximately 10 kilobytes of client-side JavaScript and a blocking request on navigations after the first.
+
+═══ 02b_TRIMMED ═══
+
+Turbopack manages JavaScript delivery for Next.js applications by balancing download size and request count through a process called chunking, which groups code into files loaded by the browser. A single chunk containing all app code loads for every page, while giving every module its own chunk results in hundreds of network requests that carry overhead. Turbopack solves this by merging smaller chunks within shared chunk groups, weighing the probability that users will stay on a single page or navigate to a second page. According to Next.js data, default chunking cut requests by more than half compared to no merging while shipping slightly less code, whereas maximum merging reduced requests further but increased total code downloaded by 10 percent. To address the limitation that build-time merging cannot react to browser caches, Next.js version 16.3 introduces experimental features including generateComponentChunks, which emits un-merged versions of chunks alongside merged ones so the runtime can fetch only missing pieces.
+
+═══ 03_COVERAGE_1 ═══
+
+83% covered (5/6). Missing: Next.js estimates that two-thirds of user sessions are a single page visit while one-third involve two or more.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+Turbopack manages JavaScript delivery for Next.js applications by balancing download size and request count through a process called chunking, which groups code into files loaded by the browser. A single chunk containing all app code loads for every page, while giving every module its own chunk results in hundreds of network requests that carry overhead. Turbopack solves this by merging smaller chunks within shared chunk groups, weighing the probability that users will stay on a single page or navigate to a second page. Next.js estimates that two-thirds of user sessions are a single page visit while one-third involve two or more. According to Next.js data, default chunking cut requests by more than half compared to no merging while shipping slightly less code, whereas maximum merging reduced requests further but increased total code downloaded by 10 percent. To address the limitation that build-time merging cannot react to browser caches, Next.js version 16.3 introduces experimental features including generateComponentChunks, which emits un-merged versions of chunks alongside merged ones so the runtime can fetch only missing pieces.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Turbopack manages JavaScript delivery for Next.js applications. It balances download size and request count through chunking. Chunking groups code into files loaded by the browser. A single chunk containing all app code loads for every page. Giving every module its own chunk results in hundreds of network requests. These requests carry heavy overhead. Turbopack solves this by merging smaller chunks within shared chunk groups. It weighs the probability that users will stay on a single page or navigate to a second page. Next.js estimates that two-thirds of user sessions are a single page visit. One-third of user sessions involve two or more pages. Next.js data shows default chunking cut requests by more than half compared to no merging. Default chunking also shipped slightly less code. Maximum merging reduced requests further. However, maximum merging increased total code downloaded by ten percent. Build-time merging cannot react to browser caches. Next.js version sixteen point three introduces experimental features to address this limitation. One feature is generateComponentChunks. This feature emits un-merged versions of chunks alongside merged ones. The runtime can then fetch only missing pieces.
+
+═══ 05_NORMALIZED ═══
+
+Turbopack manages JavaScript delivery for Next.js applications. It balances download size and request count through chunking. Chunking groups code into files loaded by the browser. A single chunk containing all app code loads for every page. Giving every module its own chunk results in hundreds of network requests. These requests carry heavy overhead. Turbopack solves this by merging smaller chunks within shared chunk groups. It weighs the probability that users will stay on a single page or navigate to a second page. Next.js estimates that two-thirds of user sessions are a single page visit. One-third of user sessions involve two or more pages. Next.js data shows default chunking cut requests by more than half compared to no merging. Default chunking also shipped slightly less code. Maximum merging reduced requests further. However, maximum merging increased total code downloaded by ten percent. Build-time merging cannot react to browser caches. Next.js version sixteen point three introduces experimental features to address this limitation. One feature is generateComponentChunks. This feature emits un-merged versions of chunks alongside merged ones. The runtime can then fetch only missing pieces.
+
+═══ 06_COVERAGE_FINAL ═══
+
+83% covered (5/6). Missing: Turbopack generates dozens of JavaScript chunks for Next.js apps, holding app code, dependencies, and runtimes.
+
+═══ 07_SANITY ═══
+
+ISSUES: version sixteen point three
+

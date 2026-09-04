@@ -7,7 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 04 Sep 2026 06:41:52 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 04 Sep 2026 21:42:00 +0000</lastBuildDate>
     <item>
       <title>Show HN: We built open OpenRouter that turns usage into a better model</title>
       <link>https://github.com/experientiallabs/experiential</link>
@@ -404,6 +404,24 @@ The atlas operates without accounts, advertising, or paywalls.</description>
       <pubDate>Wed, 02 Sep 2026 20:56:46 +0000</pubDate>
     </item>
     <item>
+      <title>Show HN: Running 104GB Qwen3.8-Flash-Next on 48GB Mac with at ~12 tok/s</title>
+      <link>https://github.com/carloslfu/slotstream</link>
+      <description>You can now run a large language model on your Mac. The model has one hundred twenty-five billion parameters. It is called Qwen three point eight Flash Next. It runs on a forty-eight gigabyte MacBook Pro. You use a tool called slotstream. That tool is a single Swift binary. It is made for Apple Silicon and macOS fourteen or later.
+
+The model needs about one hundred five gigabytes on disk at four-bit quantization. A five hundred twelve gigabyte Mac is the realistic minimum storage requirement.
+
+The engine uses M. L. X. and Metal. It streams experts from the solid state drive straight into unified memory. It uses a fixed pool of slots. It keeps a three point eight gigabyte trunk resident.
+
+Prompt plus completion is capped at thirty-two thousand seven hundred sixty-eight tokens per request. Context state costs about twenty-seven kibibytes per token. On a quiet forty-eight gigabyte Mac, warm decode runs at approximately twelve tokens per second.
+
+The software implements chat and generate subsets. It works with O. L. L. A. M. A. clients and O. P. E. N. A. I. S. D. K.s on port eleven thousand four hundred thirty-four. It also supports the Vercel A. I. S. D. K. Language Model Specification.
+
+The launch was discussed on Hacker News. It got two hundred twenty-seven points and one hundred fourteen comments. It peaked on September first, twenty twenty-six, at number one on Show H. N. and number eight on the front page.</description>
+      <guid isPermaLink="false">hn-49524447</guid>
+      <enclosure url="audio/2026-09-04/hn-49524447-show-hn-running-104gb-qwen3-8-flash-next-on-48gb-mac-with-at.mp3" length="656232" type="audio/mpeg"/>
+      <pubDate>Fri, 04 Sep 2026 21:15:16 +0000</pubDate>
+    </item>
+    <item>
       <title>Atlas: A World Model for Spatial Intelligence</title>
       <link>https://www.worldlabs.ai/blog/atlas</link>
       <description>World Labs has introduced a new model called Atlas. It is an omni world model built from scratch. It works natively with text and images and video and three dimensional data.
@@ -518,15 +536,9 @@ OpenAI has previously called for the lawsuit to be dismissed.</description>
     <item>
       <title>Path to Astra: critical capabilities and frontier safeguards</title>
       <link>https://openai.com/index/path-to-astra/</link>
-      <description>OpenAI has designated its new artificial intelligence model, Astra, as meeting the critical cybersecurity capability threshold under its Preparedness Framework. This marks the first time a model has reached this level, meaning it can autonomously find unknown security flaws and develop exploits across protected systems without human guidance.
-
-Evaluations show Astra achieved a 100 percent score on ExploitBench, an evaluation of exploit development from known vulnerabilities. On an internal benchmark containing twenty high-severity V8 vulnerabilities disclosed between June and August 2026, Astra achieved higher arbitrary code-execution rates than GPT-5.6 Sol while using fewer output tokens, and discovered two zero-day vulnerabilities. In expert-led assessments, the model compromised a hardened browser, escaped its sandbox, and executed commands on the host, as well as executing a local privilege-escalation chain from an unprivileged user to root on a hardened operating system.
-
-OpenAI paused certain frontier training for two weeks following the OpenAI-Hugging Face incident. On August 28th, the company restarted large reinforcement learning runs for Astra after putting new safety requirements in place. For cyber jailbreak evaluations, Astra refuses 91.5 percent of requests, compared to 59 percent for GPT-5.6 Sol. 
-
-Astra will be released soon with limited access. Advanced cybersecurity workflows will initially be available to a small group of alpha testers, with access through Daybreak Blue following to support defensive use.</description>
+      <description>OpenAI has designated its new artificial intelligence model, Astra, as meeting the critical cybersecurity capability threshold under its Preparedness Framework. This marks the first time a model has reached this level, meaning it can autonomously find unknown security flaws and develop exploits across protected systems without human guidance. Evaluations show Astra achieved a one hundred percent score on ExploitBench, an evaluation of exploit development from known vulnerabilities. On an internal benchmark containing twenty high-severity V8 vulnerabilities disclosed between June and August twenty twenty-six, Astra achieved higher arbitrary code-execution rates than G P T dash five point six Sol while using fewer output tokens, and discovered two zero-day vulnerabilities. In expert-led assessments, the model compromised a hardened browser, escaped its sandbox, and executed commands on the host, as well as executing a local privilege-escalation chain from an unprivileged user to root on a hardened operating system. OpenAI paused certain frontier training for two weeks following the OpenAI-Hugging Face incident. On August twenty-eighth, the company restarted large reinforcement learning runs for Astra after putting new safety requirements in place. For cyber jailbreak evaluations, Astra refuses ninety-one point five percent of requests, compared to fifty-nine percent for G P T dash five point six Sol. Astra will be released soon with limited access. Advanced cybersecurity workflows will initially be available to a small group of alpha testers, with access through Daybreak Blue following to support defensive use.</description>
       <guid isPermaLink="false">hn-49527595</guid>
-      <enclosure url="audio/2026-09-02/49527595-path-to-astra-critical-capabilities-and-frontier-safeguards.mp3" length="816912" type="audio/mpeg"/>
+      <enclosure url="audio/2026-09-02/49527595-path-to-astra-critical-capabilities-and-frontier-safeguards.mp3" length="872544" type="audio/mpeg"/>
       <pubDate>Wed, 02 Sep 2026 17:56:40 +0000</pubDate>
     </item>
     <item>
@@ -774,19 +786,27 @@ C. against American forces and commercial shipping in the Strait of Hormuz.</des
       <pubDate>Wed, 02 Sep 2026 21:18:26 +0000</pubDate>
     </item>
     <item>
+      <title>Proactive cyber defense for governments and enterprises</title>
+      <link>https://blog.google/innovation-and-ai/technology/safety-security/fairwind-program/</link>
+      <description>Google is launching the Fairwind Program. This program gives trusted cloud customers and cybersecurity partners access to advanced artificial intelligence tools. Those tools solve cyber risks at scale. The program currently has more than six hundred fifty participating partners globally.
+
+As a first step, the program grants defenders access to the Gemini three point eight Flash Cyber model. That model is paired with the CodeMender harness. This combination gives defenders specialized reasoning. They can autonomously find and verify code fixes within minutes. They can also write deployment-ready code fixes in a secure cloud environment. It operates at a fraction of the cost of traditional frontier models.
+
+Initial access is staged for organizations critical to societal resilience. These include governments and national cyber authorities. They also include critical infrastructure operators across healthcare and telecommunications. Energy and financial networks are included too. Core technology platforms are part of this group as well.
+
+Participating organizations must agree to strict operational standards. They must restrict access to internal cybersecurity teams and incident response teams. Penetration testing teams are included in this rule. Organizations must also deploy multi-factor authentication.
+
+Google point org released its twenty twenty-six U. S. Cybersecurity Impact Report. That report details thirty-six million dollars in funding for thirty-five cyber clinics to date. Total global cybersecurity funding from Google point org has now reached more than one hundred million dollars. This funding supports ecosystem-scale impact.</description>
+      <guid isPermaLink="false">rss-google_ai_blog-28b149c75e15</guid>
+      <enclosure url="audio/2026-09-04/rss-google_ai_blog-28b149c75e15-proactive-cyber-defense-for-governments-and-enterprises.mp3" length="768552" type="audio/mpeg"/>
+      <pubDate>Fri, 04 Sep 2026 21:17:19 +0000</pubDate>
+    </item>
+    <item>
       <title>Google releases Gemini 3.8 Flash, its third Flash model in six weeks</title>
       <link>https://arstechnica.com/ai/2026/09/google-releases-gemini-3-8-flash-its-third-flash-model-in-six-weeks/</link>
-      <description>Google has released the Gemini three point eight Flash model. This is the third Flash rollout from the company in six weeks. The new model comes in two variations.
-
-The first is a standard workhorse model built for tasks like agentic work and software development. The second variation is Gemini three point eight Flash Cyber. That version is tuned specifically for finding and fixing security vulnerabilities.
-
-Developers using application programming interface access get a special discount. The introductory price lasts through the end of the year. It costs zero point seven five dollars per million input tokens.
-
-Output tokens cost three point seven five dollars per million during this time. Regular pricing kicks in after the promotional period ends. Input tokens will then cost one point five zero dollars per million.
-
-Output tokens will increase to seven point five zero dollars per million.</description>
+      <description>Google has released the Gemini three point eight Flash model. This is the third Flash rollout from the company in six weeks. The new model comes in two variations. The first is a standard workhorse model built for tasks like agentic work and software development. The second variation is Gemini three point eight Flash Cyber. That version is tuned specifically for finding and fixing security vulnerabilities. Developers using application programming interface access get a special discount. The introductory price lasts through the end of the year. It costs zero point seven five dollars per million input tokens. Output tokens cost three point seven five dollars per million during this time. Regular pricing kicks in after the promotional period ends. Input tokens will then cost one point five zero dollars per million. Output tokens will increase to seven point five zero dollars per million. The new article notes that Google has not released a frontier-level Gemini Pro model since early twenty twenty six, with the author speculating that a promised Gemini three point five Pro may never arrive. Google describes Gemini three point eight Flash as its best reasoning and coding model yet. The new article reports that Google likely lowered its prices because other artificial intelligence labs recently dropped token pricing to keep businesses engaged. Additionally, Google released benchmark numbers indicating that Gemini three point eight Flash competes with or beats larger and more expensive models. These benchmarks show marginal improvements over Gemini three point seven Flash in most tests, alongside larger gains in coding evaluations.</description>
       <guid isPermaLink="false">rss-ars_technica-b0c60d5e22ba</guid>
-      <enclosure url="audio/2026-09-02/rss-ars_technica-b0c60d5e22ba-google-releases-gemini-3-8-flash-its-third-flash-model-in-si.mp3" length="437208" type="audio/mpeg"/>
+      <enclosure url="audio/2026-09-02/rss-ars_technica-b0c60d5e22ba-google-releases-gemini-3-8-flash-its-third-flash-model-in-si.mp3" length="828576" type="audio/mpeg"/>
       <pubDate>Wed, 02 Sep 2026 22:21:01 +0000</pubDate>
     </item>
     <item>
@@ -980,27 +1000,9 @@ French officers claim they are intercepting two thirds of small boats while riot
     <item>
       <title>UN warns of 'supersized' El Niño as countries prepare for impact</title>
       <link>https://www.bbc.co.uk/news/articles/c17jqp0xzpzo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>The world has entered a danger zone of extreme weather as a supersized El Niño develops. It could become the strongest in more than seventy years and last until at least February twenty twenty-seven. United Nations head, António Guterres warned that the planet is in uncharted waters.
-
-The natural weather phenomenon combines with human-induced climate change to boost global temperatures. Surface temperatures in the Pacific have been well over two degrees Celsius above average. Forecasts suggest monthly sea surface temperatures could get close to four degrees Celsius above average.
-
-This could make it the strongest El Niño since at least nineteen fifty by a large margin. Temperatures below the surface of the Pacific are even more exceptional. They are in places more than eight degrees Celsius above average.
-
-El Niño is changing global weather patterns. It brings drought to some regions and stronger typhoons and flooding to others. World Meteorological Organization Secretary-General, Celeste Saulo stated that the phenomenon has the potential to deliver a massive blow to communities and economies worldwide.
-
-Governments and scientists are taking measures to reduce risks. These include strengthened early warning systems and pre-emptive medical assistance. The impacts are already visible globally.
-
-In Panama, the number of vessels passing through the Panama Canal will be reduced by more than ten percent due to lower rainfall. This affects a waterway that sees about fourteen thousand ships per year and brings in about three billion dollars annually. In Indonesia, wildfires have burned more than one hundred seven thousand hectares.
-
-This prompted authorities to deploy cloud-seeding aircraft and arrest dozens over land-clearing allegations. Australia is bracing for severe marine heatwaves, particularly in the south.
-
-Meanwhile, China has experts linking effects of a super El Niño to expectations of typhoons making landfall. Peru faces risks of increased rainfall resulting in flash flooding and landslides. The United States announced the deployment of the vessel U.
-
-S. N. S.
-
-Comfort to the Peruvian coast with medical assistance and technical equipment.</description>
+      <description>The world has entered a danger zone of extreme weather as a supersized El Niño develops, combining with human-induced climate change. United Nations head, António Guterres warned that the planet is in uncharted waters. World Meteorological Organization Secretary-General, Celeste Saulo stated that the phenomenon could deliver a massive blow to global communities and economies. The WMO reports it could become the strongest in more than seventy years, lasting until at least February twenty twenty-seven. Surface temperatures in the Pacific key monitoring region have been well over two degrees Celsius above average. Monthly sea surface temperatures could get close to four degrees Celsius above average, potentially making it the strongest El Niño since at least nineteen fifty. Temperatures below the surface are in places more than eight degrees Celsius above average. Governments and scientists are taking risk reduction measures. In Panama, vessel transits through the canal will be reduced by more than ten percent due to lower rainfall, affecting a waterway that sees about fourteen thousand ships per year and brings in about three billion dollars annually. The BBC reports that Indonesia has seen wildfires burn more than one hundred seven thousand hectares, prompting authorities to deploy cloud-seeding aircraft and arrest dozens over land-clearing allegations. Australia is bracing for severe marine heatwaves in the south, while China expects typhoons to make landfall. Peru faces risks of increased rainfall resulting in flash flooding and landslides. The United States announced the deployment of the vessel U. S. N. S. Comfort to the Peruvian coast with medical assistance and technical equipment.</description>
       <guid isPermaLink="false">rss-bbc_world-3c2c569edbee</guid>
-      <enclosure url="audio/2026-09-03/rss-bbc_world-3c2c569edbee-un-warns-of-supersized-el-nino-as-countries-prepare-for-impa.mp3" length="956136" type="audio/mpeg"/>
+      <enclosure url="audio/2026-09-03/rss-bbc_world-3c2c569edbee-un-warns-of-supersized-el-nino-as-countries-prepare-for-impa.mp3" length="753768" type="audio/mpeg"/>
       <pubDate>Thu, 03 Sep 2026 08:32:05 +0000</pubDate>
     </item>
     <item>
@@ -1088,6 +1090,430 @@ Meanwhile, the Toronto Raptors had agreed in principle on June thirty to a trade
       <guid isPermaLink="false">rss-aljazeera-b9ded38e9237</guid>
       <enclosure url="audio/2026-09-03/rss-aljazeera-b9ded38e9237-nba-fines-clippers-30m-suspends-several-executives-in-kawhi-.mp3" length="1085184" type="audio/mpeg"/>
       <pubDate>Thu, 03 Sep 2026 08:33:42 +0000</pubDate>
+    </item>
+    <item>
+      <title>Spain’s PM says no evidence ‘whatsoever’ Morocco behind Ceuta border breach</title>
+      <link>https://www.theguardian.com/world/2026/sep/03/spain-pm-evidence-morocco-ceuta-border-breach</link>
+      <description>Spanish Prime Minister Pedro Sánchez stated there is no evidence Morocco planned a mass Ceuta border breach. He assured parliament that no institution provided the Spanish government with any solid evidence of Moroccan involvement. He added that authorities received no reports anticipating the scale or probability of the event. The event involved an estimated seventy thousand people crossing the border. He conceded Moroccan forces allowed crossings to occur during a ten hour period on July thirtieth. As many as one hundred forty-one people are thought to have died during the influx. The influx triggered a humanitarian emergency and a political crisis. Sánchez noted that Spain summoned Morocco's ambassador on August twenty-first following unacceptable statements by two ministers regarding Ceuta and Melilla. These statements included sovereignty claims reiterated by Moroccan justice minister, Abdellatif Ouahbi. About ninety percent of those who crossed returned to Morocco within twenty-four hours. Several thousand people, including at least five hundred minors, remain in Ceuta in makeshift shelters or on the street. Sánchez told parliament you cannot just grab someone by the arm and drag them across the frontier as though they were a sack of dirt. Sánchez also appealed for European solidarity during his address. He argued the principle should apply to Ceuta as much as to Greenland and Lampedusa.</description>
+      <guid isPermaLink="false">rss-guardian_world-11ae75dd6032</guid>
+      <enclosure url="audio/2026-09-04/rss-guardian_world-11ae75dd6032-spains-pm-says-no-evidence-whatsoever-morocco-behind-ceuta-b.mp3" length="629184" type="audio/mpeg"/>
+      <pubDate>Fri, 04 Sep 2026 21:33:41 +0000</pubDate>
+    </item>
+    <item>
+      <title>NeoMME: an efficient Multimodal-native and Multilingual Encoder</title>
+      <link>https://huggingface.co/blog/Hcompany/neomme</link>
+      <description>Meet NeoMME. It is a new family of two hundred sixty million and eight hundred million parameter multilingual multimodal encoders. Unlike standard models, NeoMME uses a single bidirectional Transformer to process text tokens and raw image patches together.
+
+The models were trained from scratch using a masked discrete-diffusion objective. They processed approximately five hundred twenty-four billion packed input tokens using the NorMuon optimizer.
+
+Researchers fine-tuned the models for visual document retrieval. The resulting NeoMME-Retriever generates both dense and late-interaction embeddings in a single forward pass.
+
+Running on an NVIDIA L40S G P U. at a resolution of two thousand forty-eight by two thousand forty-eight pixels, the smaller model encodes roughly fifty-one pages per second. This speed is nearly twice the throughput of ColModernVBERT.
+
+The models use hierarchical token pooling and asymmetric quantization. These techniques reduce late-interaction index storage from roughly one point five megabytes down to six kilobytes per page. Despite this reduction, the models retain over ninety-five percent of baseline performance.
+
+On the ViDoRe v3 benchmark, the two hundred sixty million parameter model scores zero point five two three for n. D. C. G. at ten. This score is the highest among all evaluated models under eight hundred million parameters. The larger eight hundred million variant achieves a score of zero point five five six.
+
+All model checkpoints are available under the Apache two point zero license through Hugging Face Transformers.</description>
+      <guid isPermaLink="false">rss-huggingface_blog-96a3500c5a4b</guid>
+      <enclosure url="audio/2026-09-04/rss-huggingface_blog-96a3500c5a4b-neomme-an-efficient-multimodal-native-and-multilingual-encod.mp3" length="729888" type="audio/mpeg"/>
+      <pubDate>Fri, 04 Sep 2026 21:19:12 +0000</pubDate>
+    </item>
+    <item>
+      <title>Daybreak for Frontline Defenders: $1B to protect essential services</title>
+      <link>https://openai.com/index/daybreak-for-frontline-defenders</link>
+      <description>OpenAI is launching a one billion dollar global initiative called Daybreak for Frontline Defenders. The program provides subsidized access to frontier A. I. cyber models, training, technical support, and partnerships. Daybreak access helps defenders review legacy code, analyze suspicious activity, and identify vulnerabilities before attackers do. The funding is targeted for consumption over the next six months. It prioritizes resource-constrained operators of essential services in the United States and internationally. These operators include water and wastewater systems, electric grid operators, state and local governments, community and regional banks, nonprofits, and open-source maintainers. The initiative includes Daybreak for America, which features a new pilot with the Multi-State Information Sharing and Analysis Center. This pilot trains and supports state, local, tribal, and territorial cyber defenders. Partners across the Daybreak Defense Network are also announcing more than thirty-five partner products and services. These bring the cyber models into enterprise tools and services. The effort builds on earlier assistance following recent attacks on United States water systems. During those attacks, OpenAI offered affected states and utilities up to one million dollars in no-cost application programming interface credits, Daybreak access, and technical assistance. Daybreak offers Daybreak Blue for common defensive work and Daybreak Red for specialized cyber work. Thousands of defenders across two thousand approved organizations currently use the platform. OpenAI stated that A. I. enabled cyber attacks will become more widespread and sophisticated in the coming months, creating a narrowing defender window. As OpenAI noted, no single company can secure the systems we all depend on, and every organization has a role to play.</description>
+      <guid isPermaLink="false">rss-openai_blog-5190d2a1dccd</guid>
+      <enclosure url="audio/2026-09-04/rss-openai_blog-5190d2a1dccd-daybreak-for-frontline-defenders-1b-to-protect-essential-ser.mp3" length="850536" type="audio/mpeg"/>
+      <pubDate>Fri, 04 Sep 2026 21:16:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>Live from ICM 2026: What Is Math For in the Age of AI?</title>
+      <link>https://www.quantamagazine.org/live-from-icm-2026-what-is-math-for-in-the-age-of-ai-20260903/</link>
+      <description>Artificial intelligence is changing mathematics. Hosts Janna Levin and Steven Strogatz talked about this on July twenty-sixth, twenty twenty-six. They recorded a live podcast in Philadelphia at the International Congress of Mathematicians. Their guests were, Akshay Venkatesh, Ravi Vakil, and, Alex Kontorovich.
+
+The panel talked about recent milestones. A system called AlphaProof won a silver medal at the twenty twenty-four International Mathematical Olympiads. Another model called DeepThink won a gold medal in twenty twenty-five. Vakil noted that these contests encourage millions of students to think. He added that the models do not represent superhuman intelligence.
+
+Akshay Venkatesh warned that focusing on math competitions creates an unhelpful image. Kontorovich highlighted progress on Erdős problems. He pointed to an autonomous solution by, G. P. T. five point six, of a counterexample to the Erdős unit distance conjecture. He noted that, G. P. T. five point six, can now achieve perfect scores on the Olympiads. He also mentioned that this work inspired human mathematicians to solve the sum-product problem a week later.
+
+The panel addressed concerns about the peer review system. They expect a rising volume of automated outputs. Venkatesh warned that academic journals will face immense strain. Vakil noted that mathematicians are already bracing for an influx of work from, A. I. systems. Kontorovich described the current landscape as a potential golden age of learning. He cautioned that theorems mainly hold value for human mathematicians and corporate marketing rather than intrinsic universal value.</description>
+      <guid isPermaLink="false">rss-quanta_magazine-2415588a484e</guid>
+      <enclosure url="audio/2026-09-04/rss-quanta_magazine-2415588a484e-live-from-icm-2026-what-is-math-for-in-the-age-of-ai.mp3" length="738120" type="audio/mpeg"/>
+      <pubDate>Fri, 04 Sep 2026 21:23:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>.name Termination</title>
+      <link>https://neil.fraser.name/news/2026/09/03/</link>
+      <description>Fraser registered neil dot fraser dot name before YouTube, Facebook, and smartphones existed. Later, he registered beverly dot fraser dot name for his daughter. On April fifteenth, twenty twenty-six, a company named Verisign proposed destroying the third level of the name extension to simplify their administration.
+
+On July twenty-eighth, twenty twenty-six, the Internet Corporation for Assigned Names and Numbers approved the proposal. Fraser learned of the decision through an email from his registrar a few days prior.
+
+The termination means Fraser's website, email address, and internet of things devices using services on the domain will vanish in February. This happens despite the domain being registered and paid for until twenty forty.
+
+If someone else registers fraser dot name, they could recreate and control neil dot fraser dot name. This could hijack hundreds of accounts, commit code with his authentication, and seize control of his smart devices.
+
+Fraser is just one of twenty-two thousand people who will lose their domains in this change.</description>
+      <guid isPermaLink="false">hn-49550772</guid>
+      <enclosure url="audio/2026-09-04/hn-49550772-name-termination.mp3" length="471288" type="audio/mpeg"/>
+      <pubDate>Fri, 04 Sep 2026 21:11:23 +0000</pubDate>
+    </item>
+    <item>
+      <title>Introducing WeatherNext 3, our most advanced and accurate global weather AI model</title>
+      <link>https://deepmind.google/blog/introducing-weathernext-3-our-most-advanced-and-accurate-global-weather-ai-model/</link>
+      <description>Google DeepMind and Google Research have introduced WeatherNext three. It is a global weather A. I. model that generates hourly forecasts. The resolution is up to five times sharper than the previous version. Independent live evaluations by Brightband show it is the most advanced and accurate global weather model to date.
+
+WeatherNext three visualizes key surface variables like temperature and moisture at a five kilometer resolution. Other surface variables appear at ten kilometers. Atmospheric variables like wind speed appear at twenty-five kilometers. The model ingests a mosaic of live global geostationary satellite data. It trains on sparse weather station observation data. It uses high-quality precipitation sources including N A S A.'s I. M. E. R. G. The model provides timely and highly localized predictions. It overcomes the limitations of traditional numerical weather prediction models.
+
+The model achieves medium-range precipitation forecasting improvements. It shows a Continuous Ranked Probability Score improvement of up to sixty percent against I. M. E. R. G. It shows thirty percent against M. R. M. S. It shows ten percent against rain gauge measurements for early lead times. It also features specific predictions for renewable energy. It forecasts one hundred meter wind speeds for wind-energy output. It forecasts high-resolution cloud cover and sun radiation levels for solar farms.
+
+Starting today, WeatherNext three is powering weather experiences across Google Search. It is in the Gemini app and Google Maps. It powers the Google Maps Platform Weather A P I. and Google Earth Engine. It delivers up to fifty percent more accurate precipitation forecasts for longer-term planning. The data is also available for query in BigQuery and Earth Engine. You can also get it for bulk download from Google Cloud Storage.</description>
+      <guid isPermaLink="false">rss-deepmind_blog-56da2c8ef803</guid>
+      <enclosure url="audio/2026-09-04/rss-deepmind_blog-56da2c8ef803-introducing-weathernext-3-our-most-advanced-and-accurate-glo.mp3" length="840744" type="audio/mpeg"/>
+      <pubDate>Fri, 04 Sep 2026 21:18:14 +0000</pubDate>
+    </item>
+    <item>
+      <title>Meet the 2026 Ig Nobel Prize winners</title>
+      <link>https://arstechnica.com/science/2026/09/meet-the-2026-ig-nobel-prize-winners/</link>
+      <description>The winners of the twenty twenty-six Ig Nobel Prizes have been announced. These awards honor quirky scientific research that first makes people laugh and then makes them think. The prizes were established in nineteen ninety-one as a parody of the Nobel Prizes. This year, the accolades recognize studies on designing the perfect splash-free urinal. They also honor using mosquito proboscises to necroprint tiny nozzles. Other winning studies cover the composition rates of buried cotton underwear and the aerodynamics of a healthy nose-blow. The campy awards ceremony features miniature operas and scientific demonstrations. It also includes twenty-four seven lectures where experts must explain their work twice. They must explain it first in twenty-four seconds and then in just seven words. Acceptance speeches are strictly limited to sixty seconds. Following the ceremony, winners will deliver free public talks. These talks will be posted on the Improbable Research website.</description>
+      <guid isPermaLink="false">rss-ars_science-d568df2ae188</guid>
+      <enclosure url="audio/2026-09-04/rss-ars_science-d568df2ae188-meet-the-2026-ig-nobel-prize-winners.mp3" length="429120" type="audio/mpeg"/>
+      <pubDate>Fri, 04 Sep 2026 21:24:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>GPT-6 Astra</title>
+      <link>https://openai.com/index/gpt-6-astra/</link>
+      <description>OpenAI is introducing G. P. T. dash six Astra. That is a new intelligence and alignment model. It is rolling out to a limited set of organizations today. It will reach all chat G. P. T. Plus, Pro, Business, and Enterprise users over the coming days. Users can also access it through the OpenAI A. P. I., Microsoft Azure, and Amazon Web Services Bedrock.
+
+Astra saturates FrontierMath Tier four with a score of ninety-eight percent. It achieves ninety-nine point nine percent on A. R. C. dash A. G. I. dash three. It scores one hundred percent on ExploitBench.
+
+On O. S. World two point zero latency simulations, Astra achieves a seventy-two point six percent computer use score. It takes roughly forty minutes per task. It operates about forty-seven percent faster than the previous G. P. T. five point six Sol model. That older model scored sixty-five point seven percent at roughly seventy-five minutes. Combined with an updated Codex harness, task completion is one point nine times faster than the previous experience on the Mind2Web benchmark.
+
+In cybersecurity evaluations, Astra met the Critical threshold under the company Preparedness Framework. Without production safeguards, Astra achieved a one hundred percent score on ExploitBench. The previous G. P. T. five point six Sol scored seventy-eight point five percent. Astra reached a forty-two point four percent success rate on ExploitGym. The previous model reached thirty point three percent.
+
+On S. R. E. dash Bench, Astra solved eighty-eight percent of software binary tasks in a single attempt. It solved ninety-nine point two percent within four attempts. That outperforms the previous G. P. T. five point six Sol scores of fifty-five point nine percent and sixty-eight point seven percent.
+
+During internal testing on a novel exploit development evaluation using vulnerabilities from June to August twenty twenty-six, Astra discovered and used two previously unknown zero-day vulnerabilities. The previous G. P. T. five point six Sol went beyond authorized targets forty-eight percent of the time. Astra did this in zero percent of cases in safety evaluations.
+
+The model will refuse advanced cybersecurity tasks such as creating proof-of-concept exploits upon launch. OpenAI plans to expand access through OpenAI Daybreak in the coming weeks.</description>
+      <guid isPermaLink="false">hn-49554643</guid>
+      <enclosure url="audio/2026-09-04/hn-49554643-gpt-6-astra.mp3" length="1069536" type="audio/mpeg"/>
+      <pubDate>Fri, 04 Sep 2026 21:36:58 +0000</pubDate>
+    </item>
+    <item>
+      <title>iPhone 18 Pro leaks suggest photographers are finally getting the feature they've been waiting for</title>
+      <link>https://www.creativebloq.com/design/product-design/iphone-18-pro-leaks-suggest-photographers-are-finally-getting-the-feature-theyve-been-waiting-for</link>
+      <description>The September event marks the first under new C. E. O. John Ternus. It will feature the expected debut of a folding iPhone model. Leaks suggest the iPhone eighteen Pro will finally feature a long-rumoured variable aperture lens. The variable aperture lens will allow the physical lens to adjust the amount of light entering the sensor. This offers users greater creative control over depth of field. It brings smartphone photography closer to D. S. R. L. quality. The iPhone eighteen Pro Max is rumoured to feature a massive five thousand five hundred milliamp hour battery upgrade. The folding iPhone is expected to draw major attention. It is rumored to lack a third camera lens. This positions the iPhone eighteen Pro as the ultimate model for photographers in twenty twenty-six. Industry-wide R. A. M. shortages are forcing tech companies like Apple to raise their product prices.</description>
+      <guid isPermaLink="false">tldr-design-1b0bc81f609d</guid>
+      <enclosure url="audio/2026-09-04/tldr-design-1b0bc81f609d-iphone-18-pro-leaks-suggest-photographers-are-finally-gettin.mp3" length="406344" type="audio/mpeg"/>
+      <pubDate>Fri, 04 Sep 2026 21:40:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Coder's registry infrastructure compromised to push malicious modules</title>
+      <link>https://www.bleepingcomputer.com/news/security/coders-registry-infrastructure-compromised-to-push-malicious-modules/</link>
+      <description>Attackers compromised Coder and added unauthorized registry servers that delivered malicious software modules. These malicious modules contained credential stealing code. Coder disclosed that an attacker targeted registry dot coder dot com on Monday, August thirty-first. The attacker accessed the underlying infrastructure to add unauthorized Internet Protocol addresses to the pool. Cloudflare then routed some registry requests to the attacker servers instead of legitimate ones. The delivery window for the malicious artifacts lasted from zero seven thirty-five U. T. C. to twenty-one forty-five U. T. C. on August thirty-first. An unidentified malicious actor gained access to Coder and added unauthorized Internet Protocol addresses. These unauthorized addresses hosted a version of Coder and included malicious code according to their advisory. The modified Terraform modules acted as information stealers on infected hosts. They searched for environment variables and secrets and application programming interface keys. They also searched for continuous integration credentials and terminal history and open digital identity connection tokens. Other targets included secure shell keys and external authentication tokens and database passwords. Collected information was exfiltrated to the domain coder dash infra dot com. Coder recommends that potentially impacted users rotate all impacted secrets as soon as possible. Users should examine firewall and proxy and domain name system and virtual private cloud logs for connections to the malicious domain. Then they should upgrade to patched releases version two point thirty-seven point zero and two point thirty-six point four and two point thirty-five point seven and two point thirty-four point nine. Developers should also search provisioner logs for external telemetry data and identify modules downloaded during the exposure window. They must purge potentially malicious cached packages. Coder shared a structured query language query to help identify potentially affected cached modules and template versions. They noted that refresh tokens were not passed to the provisioner and there was no evidence of impact to customer data maintained by Coder. Because the attacker infrastructure is outside the project control Coder does not have access to crucial logs. They cannot conclusively identify every compromised deployment used by prominent organizations. Those organizations include Dropbox and Palantir and Square and Mercedes dash Benz and KKR and EnBW and the United States government.</description>
+      <guid isPermaLink="false">tldr-infosec-707302a2d94f</guid>
+      <enclosure url="audio/2026-09-04/tldr-infosec-707302a2d94f-coder-s-registry-infrastructure-compromised-to-push-maliciou.mp3" length="1160376" type="audio/mpeg"/>
+      <pubDate>Fri, 04 Sep 2026 21:39:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>How Turbopack chunks your JavaScript</title>
+      <link>https://nextjs.org/blog/turbopack-chunking</link>
+      <description>Turbopack manages JavaScript delivery for Next.js applications. It balances download size and request count through chunking. Chunking groups code into files loaded by the browser. A single chunk containing all app code loads for every page. Giving every module its own chunk results in hundreds of network requests. These requests carry heavy overhead. Turbopack solves this by merging smaller chunks within shared chunk groups. It weighs the probability that users will stay on a single page or navigate to a second page. Next.js estimates that two-thirds of user sessions are a single page visit. One-third of user sessions involve two or more pages. Next.js data shows default chunking cut requests by more than half compared to no merging. Default chunking also shipped slightly less code. Maximum merging reduced requests further. However, maximum merging increased total code downloaded by ten percent. Build-time merging cannot react to browser caches. Next.js version sixteen point three introduces experimental features to address this limitation. One feature is generateComponentChunks. This feature emits un-merged versions of chunks alongside merged ones. The runtime can then fetch only missing pieces.</description>
+      <guid isPermaLink="false">tldr-webdev-361581f6d0e5</guid>
+      <enclosure url="audio/2026-09-04/tldr-webdev-361581f6d0e5-how-turbopack-chunks-your-javascript.mp3" length="573192" type="audio/mpeg"/>
+      <pubDate>Fri, 04 Sep 2026 21:38:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Nvidia confirms Hugging Face acquisition for $12.93 billion</title>
+      <link>https://blogs.nvidia.com/blog/nvidia-to-acquire-hugging-face/</link>
+      <description>Nvidia has agreed to acquire the artificial intelligence platform Hugging Face for twelve billion nine hundred thirty million three hundred thousand dollars. Together, Nvidia and Hugging Face will make artificial intelligence more open, capable, and accessible globally. The platform will maintain its multi-vendor approach. The team will keep its iconic brand while bringing their passion and expertise to a much larger canvas. Hugging Face currently serves more than eighteen million developers, researchers, and creators. They use the platform to share over three million models, five hundred thousand datasets, and one million applications. More than two hundred thousand companies have also adopted the platform. Nvidia is the largest contributor of open models and data to Hugging Face. The company has released more than five hundred models and over two hundred fifty open datasets on the platform. Nvidia stated that the acquisition will use its infrastructure, engineering, and global reach. This will improve platform reliability, safety, model evaluation, inference, and deployment capabilities while preserving the open ecosystem.</description>
+      <guid isPermaLink="false">tldr-ai-1fc3489bb20c</guid>
+      <enclosure url="audio/2026-09-04/tldr-ai-1fc3489bb20c-nvidia-confirms-hugging-face-acquisition-for-12-93-billion.mp3" length="502512" type="audio/mpeg"/>
+      <pubDate>Fri, 04 Sep 2026 21:38:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Malicious .git Configs Can Make Claude, Codex, Cursor, and Other AI Agents Run Attacker Code</title>
+      <link>https://thehackernews.com/2026/09/malicious-git-configs-can-make-claude.html</link>
+      <description>Manifold Security found eight security flaws in seven command-line artificial intelligence coding agents. These flaws happen when a Git configuration names a command that the agent runs on the developer machine. The vulnerability uses a Git performance setting read from the configuration files. Agents call this setting in the background during session startup to check changed files. The command runs as the user outside the agent sandbox and without any approval prompt. This happens when a repository arrives with its directory intact through shared archives, drives, sync folders, or U. S. B. sticks.
+
+Fixes have shipped for goose, Cursor, and OpenAI Codex. Goose versions prior to one point forty-four point zero are affected, and the fix is in one point forty-four point zero. Codex C. L. I. is fixed in zero point one hundred thirty-one point zero. Codex Desktop for Mac O. S. is fixed in twenty-six point five hundred nineteen point twenty-two one hundred thirty-six. Codex Desktop for Windows is fixed in twenty-six point five hundred nineteen point twenty-one zero forty-one. OpenAI published three C. V. E.s covering this vulnerability class in Codex. These were credited to three unrelated research groups, including C. V. E. twenty-twenty-six nineteen thousand five hundred ninety-two. OpenAI stated that the helper runs outside the sandbox and without approval, letting attacker code run with user privileges to read, change, or delete files. GitHub assigned C. V. E. twenty-twenty-six seventy-two thousand seven hundred eighteen to goose with a C. V. S. S. four point zero base score of seven point zero.
+
+Hermes Agent, Qwen Code, Grok Build, and a second path in Claude Code remained unpatched during retesting on September first. Claude Code version two point one point one hundred ninety-six fixed the first path, but the Claude ultrareview path was live on version two point one point two hundred fifty-two. Qwen Code versions zero point nineteen point six and zero point twenty-two point three are affected. Hermes Agent versions zero point eighteen point two and zero point twenty-one point zero are affected. Grok Build versions zero point two point ninety-three and one point zero point thirteen are also affected. On Claude Code and Hermes Agent, the payload fires before the workspace trust prompt. On Qwen Code, it fires before authentication. On Grok Build, it fires on the first keystroke. No exploitation of these findings has been reported in the wild.</description>
+      <guid isPermaLink="false">tldr-infosec-971794b472a5</guid>
+      <enclosure url="audio/2026-09-04/tldr-infosec-971794b472a5-malicious-git-configs-can-make-claude-codex-cursor-and-other.mp3" length="1122576" type="audio/mpeg"/>
+      <pubDate>Fri, 04 Sep 2026 21:13:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Browser's Main Thread Is Expensive</title>
+      <link>https://kciter.so/posts/the-expensive-main-thread/en/</link>
+      <description>The browser main thread handles computation and rendering and event handling and network responses on a single resource. This makes it an expensive bottleneck when it gets overloaded. On a standard sixty Hertz display, the target is sixty frames per second. This allows roughly sixteen point six milliseconds per frame. There is a practical budget of about ten milliseconds once you subtract browser processing costs. Any task taking longer than fifty milliseconds is considered a long task. This congestion directly impacts web performance metrics like I. N. P., which measures interaction response time. It also impacts T. B. T., which measures total main thread blocking time during page load. Developers can prevent screen freezes and stuttering known as jank by using splitting. Splitting divides long tasks and yields control back to the main thread. Developers can yield the main thread using set timeout or request animation frame. This restores responsiveness during heavy operations. Yielding does not reduce total processing work. It just inserts small gaps so the browser can update the screen and handle inputs. One method is counting. You can use set timeout to yield the main thread after every twenty chat messages in a live stream flood.</description>
+      <guid isPermaLink="false">tldr-webdev-76b6edeb033d</guid>
+      <enclosure url="audio/2026-09-04/tldr-webdev-76b6edeb033d-the-browser-s-main-thread-is-expensive.mp3" length="566544" type="audio/mpeg"/>
+      <pubDate>Fri, 04 Sep 2026 21:13:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>Microsoft releases MAI-Transcribe-2</title>
+      <link>https://microsoft.ai/news/mai-transcribe-2-is-the-fastest-most-accurate-and-cheapest-speech-recognition-model-in-the-world/</link>
+      <description>Microsoft has released a new speech recognition model called M. A. I. Transcribe Two. It ranks first on the F. L. E. U. R. S. benchmark across sixty languages. The average word error rate is five point two percent. The model includes speaker diarization and word-level timestamps. It also features keyword biasing and configurable transcription styles. Users get code switching and automatic language identification. Evaluations by Artificial Analysis show impressive speed results. M. A. I. Transcribe Two is ten times faster than OpenAI. That is OpenAI G. P. T. Transcribe. It is seven times faster than ElevenLabs Scribe version two. It is five times faster than Gemini three point five Transcribe. The model defines the Pareto Frontier for accuracy and latency on Artificial Analysis. It also ranks second on the word error rate leaderboard. The model is available as a limited-time offer at launch. The price is ten cents per hour until the end of the year.</description>
+      <guid isPermaLink="false">tldr-ai-cebb7e852dac</guid>
+      <enclosure url="audio/2026-09-04/tldr-ai-cebb7e852dac-microsoft-releases-mai-transcribe-2.mp3" length="464016" type="audio/mpeg"/>
+      <pubDate>Fri, 04 Sep 2026 21:12:29 +0000</pubDate>
+    </item>
+    <item>
+      <title>A longer exhale may push your brain toward bolder decisions</title>
+      <link>https://www.sciencedaily.com/releases/2026/09/260904000320.htm</link>
+      <description>A study published on September fourth, twenty twenty-six, in the journal Neuron shows that slow breathing makes people willing to take risks. Researchers from Germany found that extending your exhalation alters heart activity and increases the brain sensitivity to rewards. Controlled breathing offers a simple and reliable method to actively influence human decision-making processes.
+
+The study examined forty-one healthy participants who made risky choices under controlled breathing conditions. Researchers used functional magnetic resonance imaging alongside monitoring of breathing, heart activity, skin conductance, and pupil responses to measure physical and neurological reactions.
+
+The results demonstrated that extended exhalation slowed the heart rate and shifted choices toward greater risk-taking. This happened by increasing attention to possible rewards while responses to potential losses remained similar. The intervention also produced stronger activity in the ventromedial prefrontal cortex and the precuneus. These are brain regions involved in reward processing and heart rate variability regulation. Lead author Wenhao Huang noted that the interplay between breathing and cardiac dynamics makes the brain more receptive to rewards.
+
+Study leader Soyoung Q Park stated that our decisions are rarely determined solely by external information. Judgment emerges from the interplay between cognitive processes and the current bodily state. Because controlled breathing is simple and inexpensive, the researchers suggest it could serve as a tool for everyday self-regulation. It could also be a supportive and non-pharmacological approach for clinical conditions like anxiety disorders or depression. Future studies will explore whether breathing techniques can influence food-related decisions in clinical populations, including people with overweight.</description>
+      <guid isPermaLink="false">rss-sciencedaily_top-3c2bd8cc899b</guid>
+      <enclosure url="audio/2026-09-04/rss-sciencedaily_top-3c2bd8cc899b-a-longer-exhale-may-push-your-brain-toward-bolder-decisions.mp3" length="823680" type="audio/mpeg"/>
+      <pubDate>Fri, 04 Sep 2026 21:27:16 +0000</pubDate>
+    </item>
+    <item>
+      <title>How worried should we be about the invasive mosquitoes in the UK?</title>
+      <link>https://www.newscientist.com/article/2587789-how-worried-should-we-be-about-the-invasive-mosquitoes-in-the-uk/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS</link>
+      <description>Aedes aegypti mosquitoes and their larvae were found breeding at homes in east London. This is the first time the species has bred in the United Kingdom. The U K. Health Security Agency announced the detection on September third. This is the fourth time the species was spotted in the country in recent years. People reported the insects under the government Mosquito Watch scheme. The agency said the larvae were destroyed. They promised the area will be monitored closely to kill any more mosquitoes and larvae.
+
+The agency insists the threat to public health remains very low. There is no proof that the London mosquitoes have spread diseases. An expert at the University of Oxford, César López-Camacho, called it an early warning instead of an immediate danger. An expert from the health agency, Jolyon Medlock, explained how they arrived. The mosquitoes likely came as accidental imports in vehicles, suitcases, or imported plants.
+
+The United Kingdom just had its hottest summer on record. Even so, the British climate remains too cold for the mosquitoes to breed long term right now. Yet, mosquito-borne viruses are growing more common across Europe as the continent warms. French authorities reported local dengue, West Nile, and chikungunya cases in late August. West Nile virus was also found in U K. mosquitoes in Nottinghamshire last year.
+
+Authorities advise people to get rid of standing water around homes. This includes water in plant trays, rain barrels, pet bowls, and flower vases. Doing this stops invasive species from gaining a foothold. If you spot a mosquito in the United Kingdom, you can report it to the Mosquito Watch scheme.</description>
+      <guid isPermaLink="false">rss-new_scientist-fac21b199f88</guid>
+      <enclosure url="audio/2026-09-04/rss-new_scientist-fac21b199f88-how-worried-should-we-be-about-the-invasive-mosquitoes-in-th.mp3" length="732696" type="audio/mpeg"/>
+      <pubDate>Fri, 04 Sep 2026 21:24:49 +0000</pubDate>
+    </item>
+    <item>
+      <title>Europe targeted by spiralling campaign of sabotage - and Russia is the chief suspect</title>
+      <link>https://www.bbc.co.uk/news/articles/c5y4g6meekro?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>Europe is facing an escalating campaign of sabotage targeting military and defence facilities. Officials point to Russia as the chief suspect. Germany's interior minister explicitly stated that Russia is responsible after explosive-packed drones were discovered at Leipzig airport on August fourth. This incident was followed by a wave of suspicious fires and attacks across the continent through August.
+
+On August tenth, a major fire broke out at a warehouse belonging to Bulgarian defence firm EMCO in Tryavna. On August thirteenth, an explosion occurred at a KNDS Ammo facility outside Rome, Italy. Two days later, a fire broke out at the Milrem Robotics factory in Tallinn, Estonia. This led to two arrests. In Slovakia, police announced on August twenty-fifth that they had averted an arson attack on a Ukrainian-owned drone manufacturer. They seized a large amount of incendiary mixture and arrested three suspects. Poland reported multiple incidents. These included a fire at a helicopter component company in Lublin on August thirtieth and an attack on drone producer WB Group caught on closed-circuit television. In September, two Bulgarian nationals were arrested in Munich after throwing incendiary devices at defence firm Rohde and Schwarz.
+
+Polish interior minister, Marcin Kierwiński, stated that there are many signals that Russia is changing its strategy. He said Russia is intensifying terrorist and sabotage activities. Russian President Vladimir Putin has demanded proof. Russian officials called the accusations absurd. Experts suggest the campaign is designed for coercive signalling. It aims to pressure countries into halting support for Ukraine. It also aims to test N. A. T. O. for vulnerabilities and prepare for future aggression. The vast majority of these operations are carried out by disposable Russian proxies. These proxies are recruited online from former Soviet states. Some incidents suggest the use of professional operatives. German federal police have listed more than one hundred sixty-five suspected sabotage cases nationwide this year.</description>
+      <guid isPermaLink="false">rss-bbc_world-cef138097d1d</guid>
+      <enclosure url="audio/2026-09-04/rss-bbc_world-cef138097d1d-europe-targeted-by-spiralling-campaign-of-sabotage-and-russi.mp3" length="952488" type="audio/mpeg"/>
+      <pubDate>Fri, 04 Sep 2026 21:32:31 +0000</pubDate>
+    </item>
+    <item>
+      <title>'Cut rates or I'll halt trade': Trump threat to Fed has big implication for India</title>
+      <link>https://timesofindia.indiatimes.com/business/international-business/fed-up-trump-demands-rate-cuts-or-else-/articleshow/133771950.cms</link>
+      <description>United States President Donald Trump threatened to halt trade with countries that run trade surpluses with the United States. He made the demand unless the Federal Reserve cuts interest rates. Trump posted the threat on Truth Social on Friday. This followed a jobs report showing United States employers added one hundred sixty-two thousand workers in August. The unemployment rate held steady at four point one percent.
+
+On Truth Social, Trump demanded that the Federal Reserve establish the lowest interest rate of any country in the world. He declared that high interest rates put the U. S. A. at a very unfair disadvantage and he will not allow that.
+
+Federal Reserve Chairman, Kevin Warsh, has emphasized that the central bank job is to bring inflation back to its fixed two percent target. This leaves the Federal Reserve with little reason to panic about employment based on the strong labor market.
+
+The threat carries significant implications for India. The United States ran a fifty-eight point four billion dollars goods deficit with India. Total two-way goods trade reached about one hundred forty-nine billion dollars.
+
+Through the first seven months of twenty twenty-six, the United States goods deficit with India reached twenty-eight point four billion dollars. If Trump threat were implemented, India would be among countries potentially caught in the crossfire. Indian exporters would lose access to their largest market. United States companies and consumers would have to find alternative suppliers for textiles, pharmaceuticals, machinery, electronics, and other goods.</description>
+      <guid isPermaLink="false">rss-times_of_india-0015c47e6903</guid>
+      <enclosure url="audio/2026-09-04/rss-times_of_india-0015c47e6903-cut-rates-or-i-ll-halt-trade-trump-threat-to-fed-has-big-imp.mp3" length="679344" type="audio/mpeg"/>
+      <pubDate>Fri, 04 Sep 2026 21:31:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>Show HN: Open-Source eInk Bike Computer</title>
+      <link>https://opentrailpaper.com</link>
+      <description>A developer has introduced an open-source electronic ink bike computer. It features a four point seven inch e-paper panel designed for readability in direct sunlight. The single-board hardware integrates G. P. S., capacitive touch, a front light, a battery, and a U. S. B. C. port. It also includes an SD card slot for offline maps, routes, ride files, and logs. Bluetooth five supports heart-rate, power, and cadence sensors. Firmware can be installed from a desktop Chromium browser over U. S. B.
+
+The device comes with several technical tradeoffs. The measured battery baseline gives roughly seven point four usable hours from a one thousand five hundred milliamp-hour build with the front light off. It lacks a pressure sensor or barometric altimeter. Climbing data and total ascent are estimated from elevation baked into map tiles rather than measured. Without a magnetometer, the map can only orient from the user's direction of travel and cannot point the right way while stopped. Hardware buttons are weak since most interaction goes through the touch panel. The touch panel is fiddly with winter gloves or in the rain. Additionally, the bare board ships with no waterproofing seal or I. P. rating for wet conditions.</description>
+      <guid isPermaLink="false">hn-49567437</guid>
+      <enclosure url="audio/2026-09-04/hn-49567437-show-hn-open-source-eink-bike-computer.mp3" length="538104" type="audio/mpeg"/>
+      <pubDate>Fri, 04 Sep 2026 21:41:22 +0000</pubDate>
+    </item>
+    <item>
+      <title>Judge blocks X rival from using Twitter name, but allows ‘Tweet’ for now</title>
+      <link>https://techcrunch.com/2026/09/04/judge-blocks-x-rival-from-using-twitter-name-but-allows-tweet-for-now/</link>
+      <description>A federal court in Delaware issued a split preliminary injunction in a trademark dispute. The dispute is between the company X and the startup Operation Bluebird.
+
+Judge Colm F. Connolly ruled that the startup must stop using its original name, Twitter dot now. The judge sided with X on the core Twitter trademark.
+
+However, the judge denied X requests to block the startup from using the word tweet. The judge also denied blocking the use of the Twitter bird logo. The court found that X likely abandoned those two related marks. X showed no intention of resuming their use.
+
+The startup effort is led by founder Michael Peroff. It is also led by Stephen Coates, a former trademark lawyer at Twitter.
+
+The startup charges users twenty dollars to reserve a handle and join the network. The company told TechCrunch that more than one hundred seventy-two thousand people requested a handle before launch.
+
+The court decision is not final. The case will proceed to determine whether X ultimately retains rights to the disputed marks.
+
+The startup founders offered a statement about the case. They said they let go of the bird and they let go of the tweet. A tweet was never a corporation. It is one person saying something. That word survived three years of a company trying to replace it. The public declined to stop using it. The founders think that tells you who the word belongs to.</description>
+      <guid isPermaLink="false">rss-techcrunch-4d4ca2fe7444</guid>
+      <enclosure url="audio/2026-09-04/rss-techcrunch-4d4ca2fe7444-judge-blocks-x-rival-from-using-twitter-name-but-allows-twee.mp3" length="609552" type="audio/mpeg"/>
+      <pubDate>Fri, 04 Sep 2026 21:21:08 +0000</pubDate>
+    </item>
+    <item>
+      <title>Architecting memory and storage in the AI era</title>
+      <link>https://www.technologyreview.com/2026/09/04/1140872/architecting-memory-and-storage-in-the-ai-era/</link>
+      <description>Artificial intelligence inference requires enterprises to completely change how they build data centers. Enterprises must treat data centers as single systems instead of separate parts. Jim McGregor is the founder and principal analyst at Tirias Research. He explains that artificial intelligence is not just one big workload. It is actually billions of separate workloads working at the same time. This makes moving data and coordinating the whole system extremely important.
+
+Modern techniques like retrieval-augmented generation need instant access to huge databases. Because of this, moving data has become the main bottleneck. Memory and storage used to be background infrastructure. Now they are critical strategic assets. McGregor says the biggest task is moving data efficiently from one place to another. Organizations must design compute, memory, storage, and networking together to keep things running efficiently.
+
+Inference workloads run continuously. They are spread out across different locations. They are also very sensitive to response times. Because of this, old information technology assumptions no longer work. Enterprises need to use modular architectures. They must define specific workloads instead of just relying on general artificial intelligence readiness. Organizations also need to balance performance with efficiency and cost. They must constantly check and update their purchasing strategies.
+
+This integrated approach matters a great deal. Delays in real time sectors like healthcare, finance, and robotics cause serious problems. They directly affect human lives, operating costs, and business reputation.</description>
+      <guid isPermaLink="false">rss-mit_tech_review-5f392e6af12e</guid>
+      <enclosure url="audio/2026-09-04/rss-mit_tech_review-5f392e6af12e-architecting-memory-and-storage-in-the-ai-era.mp3" length="744384" type="audio/mpeg"/>
+      <pubDate>Fri, 04 Sep 2026 21:20:13 +0000</pubDate>
+    </item>
+    <item>
+      <title>Home Depot Labor Day Sale (2026): BOGO on Best Grills and Tools</title>
+      <link>https://www.wired.com/story/home-depot-labor-day-sale-deals-2026/</link>
+      <description>The Home Depot Labor Day sale features steep discounts on end of season grills and power tools. The retailer is clearing inventory for the holidays right now. Shoppers can find tool starter kits for less than four hundred dollars. Grill deals include one hundred dollars off the basic model of, Traeger, woodridge smart pellet grill. The standby entry level, Traeger, pro twenty-two smoker is priced at three hundred ninety dollars. Reviewers note this is the lowest price it has seen all year. Weber deals feature fifty dollars off the Weber Kettle and Weber Spirit E-two-ten. A green Weber Kettle is marked down by half to one hundred dollars. Home Depot is offering buy one get one deals and free battery packs across major power tool brands. Milwaukee's impact driver is priced at one hundred seventy-nine dollars. It comes free with the purchase of a portable M-eighteen battery. The buy one get one offer also applies to an assortment of tools including an oscillating multi tool. Ryobi landscaping tools feature buy one get one battery deals. This includes the heavy duty leaf blower priced at one hundred fifty-nine dollars. Ryobi also offers entry level starter kits containing a half inch drill driver, impact driver, circular saw, and L. E. D. light. DeWalt offers specialized buy one get one deals for circular saws, angle grinders, and hammer drill kits. Smart home and home security deals are excluded from the recommendations. Reviewers note these are either subpar discounts or on older models and services not recommended for privacy reasons.</description>
+      <guid isPermaLink="false">rss-wired-df3f606a9cbc</guid>
+      <enclosure url="audio/2026-09-04/rss-wired-df3f606a9cbc-home-depot-labor-day-sale-2026-bogo-on-best-grills-and-tools.mp3" length="693744" type="audio/mpeg"/>
+      <pubDate>Fri, 04 Sep 2026 21:21:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Outrage as Maltese tycoon acquitted in journalist's murder</title>
+      <link>https://www.dw.com/en/outrage-as-maltese-tycoon-acquitted-in-journalist-s-murder/a-79027008?maca=en-rss-en-all-1573-rdf</link>
+      <description>A Maltese jury on Wednesday acquitted forty-four-year-old businessman Yorgen Fenech of ordering the twenty seventeen murder of investigative journalist Daphne Caruana Galizia. Eight of the nine jurors rejected the prosecution argument that Fenech contracted the October sixteenth twenty seventeen assassination. That attack was carried out using a car bomb. The verdict provoked angry protests outside the Valletta courthouse. Demonstrators shouted mafia and murderer as Fenech departed. The victim son Matthew Caruana Galizia called the decision obscene. He stated on Facebook that it flies in the face of all evidence and of all logic and of the truth. Fenech had spent more than five years in detention following his November twentieth twenty nineteen arrest aboard his yacht Gio. He was later released on bail in early twenty twenty-five. The prosecution case relied heavily on confessed middleman Melvin Theuma. He received a pardon to testify that Fenech ordered the killing over Caruana Galizia investigations into his company seventeen Black and the ElectroGas consortium. Defense lawyers questioned Theuma credibility. They pointed to unpursued evidence regarding former prime minister Joseph Muscat chief of staff, Keith Schembri. Schembri has denied involvement and was not charged. Judge Edwina Grima has ordered trial evidence passed to the police chief to determine if other suspects will face criminal proceedings.</description>
+      <guid isPermaLink="false">rss-dw_top-60c89d9e0e7d</guid>
+      <enclosure url="audio/2026-09-04/rss-dw_top-60c89d9e0e7d-outrage-as-maltese-tycoon-acquitted-in-journalist-s-murder.mp3" length="649440" type="audio/mpeg"/>
+      <pubDate>Fri, 04 Sep 2026 21:34:34 +0000</pubDate>
+    </item>
+    <item>
+      <title>Tesla's stock drops 6% as Cybercab update 'underwhelms' Wall Street</title>
+      <link>https://www.cnbc.com/2026/09/04/teslas-stock-drops-as-cybercab-update-underwhelms-nhtsa-probe.html</link>
+      <description>Tesla shares slid six percent on Friday following an update on the company product called the Cybercab robotaxi. The update failed to impress investors. The drop wiped out a five and a half percent gain from Thursday ahead of the event.
+
+The Cybercab is a bronze-colored, two-seat vehicle with butterfly doors and no steering wheel or pedals. It has been in production since April. Tesla held an invite-only event in Austin, Texas, on Thursday that was not streamed. Chief Executive Officer, Elon Musk did not make an appearance.
+
+The company announced that users of its ride-hailing app can now catch a driverless trip in a Cybercab within a geofenced area around Austin. Users have already shared videos and complaints regarding routing errors and missed destinations. They also reported excessive wait and ride times.
+
+Analysts at R. B. C. Capital Markets wrote in a note on Friday that Tesla offered limited new disclosure. They stated that the event lacked a public livestream. This was a notable departure from traditional theatrical product reveals by Tesla.
+
+Wells Fargo analysts published a note titled T. S. L. A. Cybercab Launch Event Underwhelms. They noted that the Austin service is facing early execution issues.
+
+Also on Thursday, the National Highway Traffic Safety Administration initiated an audit query. They want to determine if Tesla properly self-certified the Cybercab as safe for use on public roads. They are checking for compliance with applicable federal safety standards.</description>
+      <guid isPermaLink="false">rss-cnbc_top-26731621b9b4</guid>
+      <enclosure url="audio/2026-09-04/rss-cnbc_top-26731621b9b4-tesla-s-stock-drops-6-as-cybercab-update-underwhelms-wall-st.mp3" length="671736" type="audio/mpeg"/>
+      <pubDate>Fri, 04 Sep 2026 21:35:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>Flock cameras are officially banned on state roads in Florida</title>
+      <link>https://www.engadget.com/2251480/flock-camera-license-plate-reader-state-road-ban-florida/</link>
+      <description>Florida's Department of Transportation has banned police from placing automated license plate readers on state roads. Officers must remove existing cameras within thirty days of August thirty-first.
+
+Officials enacted the ban to preserve sovereignty and quality of life against constant surveillance and camera misuse. The memorandum notes an exponential increase in deployments alongside concerning reports of misuse and data privacy concerns.
+
+Governor Ron DeSantis stated in August twenty twenty-six that the use of this technology was out of control. The department has immediately revoked current permits. It will use discretionary authority to cease future requests for these systems within its jurisdiction.
+
+The ban applies to state roads. It does not impact the ninety-eight percent of readers installed on local roads and private property.</description>
+      <guid isPermaLink="false">rss-engadget-37c97e39de0b</guid>
+      <enclosure url="audio/2026-09-04/rss-engadget-37c97e39de0b-flock-cameras-are-officially-banned-on-state-roads-in-florid.mp3" length="386520" type="audio/mpeg"/>
+      <pubDate>Fri, 04 Sep 2026 21:22:45 +0000</pubDate>
+    </item>
+    <item>
+      <title>Trump's arch may break ground without final approval. Veterans are trying to stop it</title>
+      <link>https://www.npr.org/2026/09/04/nx-s1-5957459/trump-arch-excavation-lawsuit-veterans</link>
+      <description>The Trump administration plans to begin excavation work for a two hundred fifty foot arch near the National Mall within the next two weeks.
+
+This moves forward without final approval from the National Capital Planning Commission or federally mandated reviews for aviation safety and historic preservation.
+
+Interior Secretary, Doug Burgum announced the upcoming prep work on social media on Thursday.
+
+The White House told National Public Radio that work will begin that does not require approval and that it will continue seeking final sign-offs.
+
+The arch is officially termed the Great Triumphal Arch and Military Observation Deck.
+
+It is slated for Memorial Circle, which is a traffic island between Arlington National Cemetery and the Lincoln Memorial.
+
+An architectural historian and three Vietnam War veterans sued earlier this year to stop the project.
+
+They are represented by the nonprofit Public Citizen and argue the arch desecrates the cemetery and requires congressional approval.
+
+On Friday, the plaintiffs asked a judge for a fourteen day restraining order to block construction steps at Memorial Circle.
+
+Attorney, Nicolas Sansone stated that any preparatory work at Memorial Circle is premature and lacks legal basis.
+
+On Thursday, the administration filed a motion to dismiss the lawsuit.
+
+They cited a recent Supreme Court ruling regarding the White House ballroom that found the challenging historic preservation group lacked standing.
+
+Sansone argued that his clients have a deeper personal connection to the site than mere offense.
+
+The National Park Service released a report confirming the white and gold structure would disrupt the historical significance of dozens of nearby sites.
+
+The structure is topped with three gilded statues, and the agency maintained its location is necessary.
+
+Critics warn that executive overreach in bypassing legal and planning approvals threatens established preservation laws.</description>
+      <guid isPermaLink="false">rss-npr_news-df7acc9f5152</guid>
+      <enclosure url="audio/2026-09-04/rss-npr_news-df7acc9f5152-trump-s-arch-may-break-ground-without-final-approval-veteran.mp3" length="839856" type="audio/mpeg"/>
+      <pubDate>Fri, 04 Sep 2026 21:29:01 +0000</pubDate>
+    </item>
+    <item>
+      <title>Isak shines at last but Scherpen suffers - Ipswich v Liverpool player ratings</title>
+      <link>https://www.bbc.co.uk/sport/football/articles/c5y5g5vq00lo?at_medium=RSS&amp;at_campaign=rss</link>
+      <description>Alexander Isak scored two early goals to secure Liverpool their first Premier League win of the season. It was also the first victory for new manager Andoni Iraola, defeating Ipswich Town. Cody Gakpo earned the highest score of nine after providing two superb passes for Isak's opening goals. The reviewer noted he delivered a truly outstanding performance. Isak received an eight for showing cool finishes and running behind the defence with pace and clever movement. For Ipswich, goalkeeper,Kjell Scherpen, was given a four after being desperately poor for Isak's early goal. Julio Enciso was rated a seven as the team's main threat who never gave up. Liverpool debutant,Ronald Araujo, and defender Virgil van Dijk both received sevens. Recent one hundred twenty-three million pound signing,Bradley Barcola, made a substitute appearance in the sixty-fourth minute for Victor Munoz.</description>
+      <guid isPermaLink="false">rss-bbc_sport-ea8067e546c2</guid>
+      <enclosure url="audio/2026-09-04/rss-bbc_sport-ea8067e546c2-isak-shines-at-last-but-scherpen-suffers-ipswich-v-liverpool.mp3" length="392736" type="audio/mpeg"/>
+      <pubDate>Fri, 04 Sep 2026 21:28:10 +0000</pubDate>
+    </item>
+    <item>
+      <title>Mistrial declared in Lindsay Clancy case after jury remains divided over deaths of her three children</title>
+      <link>https://www.livemint.com/news/us-news/mistrial-declared-in-lindsay-clancy-case-after-jury-remains-divided-over-deaths-of-her-three-children-11788554363494.html</link>
+      <description>A judge declared a mistrial on Friday in the case of Lindsay Clancy. She is a thirty-six-year-old Massachusetts woman who acknowledged strangling her three young children named Cora, Dawson, and Callan, in January twenty twenty-three.
+
+The jury deliberated for seven days. The jury consisted of nine women and three men. They were deadlocked. Eleven jurors favored a verdict of not guilty by reason of insanity. One holdout opposed it.
+
+Judge William Sullivan declared the mistrial. The jury failed to reach the unanimous decision required in criminal proceedings in the United States.
+
+Clancy claimed she should be excused from criminal responsibility. She stated she was suffering from postpartum psychosis. Her lawyers said this condition caused her to hear a voice ordering her to kill her children.
+
+Prosecutors rejected that argument. They maintained she carefully planned the murders and understood the consequences of her actions.
+
+The televised trial featured more than eighty witnesses. Defense attorney, Kevin Reddington, argued Clancy received lousy medical care. He stated she made numerous pleas for help before the killings at the family home in Duxbury.
+
+She faced life in prison without the possibility of parole if she had been found guilty of first-degree murder. She was a former nurse.
+
+Clancy will remain at a psychiatric institution. Prosecutors will soon decide on a possible new trial. The high-profile trial sparked intense debate across the United States regarding maternal mental health care.</description>
+      <guid isPermaLink="false">rss-livemint-d77665b6a965</guid>
+      <enclosure url="audio/2026-09-04/rss-livemint-d77665b6a965-mistrial-declared-in-lindsay-clancy-case-after-jury-remains-.mp3" length="674016" type="audio/mpeg"/>
+      <pubDate>Fri, 04 Sep 2026 21:30:55 +0000</pubDate>
+    </item>
+    <item>
+      <title>Sree Krishna Jayanti processions part of RSS’ political project: Jayarajan</title>
+      <link>https://www.thehindu.com/news/national/kerala/sree-krishna-jayanti-processions-part-of-rss-political-project-jayarajan/article71429573.ece</link>
+      <description>Communist Party of India Marxist leader, P. Jayarajan, has made a major claim. He stated that Sree Krishna Jayanti processions in Keralam are part of a political project.
+
+The project belongs to the R. S. S., and it aims to expand their influence among families in the state.
+
+Mister Jayarajan spoke on a podcast hosted by the C. P. I. M. Kannur district committee. The remarks were published on September fifth, twenty twenty-six.
+
+He explained that processions marking Chathaya Dinam were historically the only ones seen on the streets. Those events mark the birth anniversary of social reformer Sree Narayana Guru.
+
+Sree Krishna Jayanti celebrations were introduced later. He claimed the R. S. S. used them to build a political base.
+
+Faith in Lord Krishna has a long history in the region. However, lower caste individuals were historically barred from entering Sree Krishna temples.
+
+This unfair rule continued until the Temple Entry Proclamation. Even members of the Nair community faced temple entry restrictions.
+
+Social reformer Mannath Padmanabhan pointed out those Nair restrictions in the past. Mister Jayarajan maintains that people must view the current processions within this historical context of restricted access.</description>
+      <guid isPermaLink="false">rss-the_hindu-376a75dfb9e3</guid>
+      <enclosure url="audio/2026-09-04/rss-the_hindu-376a75dfb9e3-sree-krishna-jayanti-processions-part-of-rss-political-proje.mp3" length="566544" type="audio/mpeg"/>
+      <pubDate>Fri, 04 Sep 2026 21:29:59 +0000</pubDate>
+    </item>
+    <item>
+      <title>New AI tool maps the hidden universe of small molecules</title>
+      <link>https://phys.org/news/2026-09-ai-tool-hidden-universe-small.html</link>
+      <description>Researchers at the Boyce Thompson Institute and Cornell University have developed an artificial intelligence tool called AIMe. That stands for A. I. Molecule Explorer. It identifies and maps thousands of small molecules produced by the human body and the gut microbiome. These molecules previously could not be matched to any known structure. In typical biological samples, more than eighty percent of detected compounds cannot be matched to any known structure using current methods. Available experimental reference libraries cover fewer than one percent of known compounds.
+
+The research team was led by chemistry professor Frank Schroeder and computing professor Carla Gomes. They used neuro-symbolic A. I. to predict and organize mass spectra for more than one hundred million known small organic molecules from PubChem. The resulting resource is called M. S. two K. O. S. M. O. S. It contains more than eight hundred million predicted spectra. This expands searchable chemical space roughly a thousandfold.
+
+At the core of the tool is a model called Deep M. S. two Reasoner. It simulates how molecules fragment inside a mass spectrometer. Carla Gomes explained that the model builds fragmentation pathways step by step. It uses symbolic chemical rules to enumerate physically plausible steps. It uses a neural network to assign likelihoods.
+
+The team applied AIMe to a comparative metabolomics dataset from mice. Some mice had gut microbiota and some did not. AIMe identified close spectral matches and structural candidates for about a third of one hundred eleven unidentified compounds. It mapped the rest to related molecular neighborhoods. This led to the discovery of a structurally unusual macrocyclic polyamine. This ring-shaped variant was confirmed by synthesis. It was subsequently found in fifty-seven of ninety-nine human fecal samples examined. Polyamines sit at the intersection of diet, the gut microbiome, and immune function.
+
+The researchers tested AIMe at repository scale on more than seven million spectral clusters. These came from the Global Natural Products Social Molecular Networking database. AIMe returned putative annotations for approximately two point six nine million spectral clusters out of more than seven million tested.
+
+The study was authored by Utku U. Acikalin and colleagues. It was published as a preprint in bioRxiv in twenty twenty-six.</description>
+      <guid isPermaLink="false">rss-phys_org-5fcddf4d9555</guid>
+      <enclosure url="audio/2026-09-04/rss-phys_org-5fcddf4d9555-new-ai-tool-maps-the-hidden-universe-of-small-molecules.mp3" length="1081632" type="audio/mpeg"/>
+      <pubDate>Fri, 04 Sep 2026 21:25:54 +0000</pubDate>
     </item>
   </channel>
 </rss>

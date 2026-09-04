@@ -1,0 +1,61 @@
+═══ 00_KEY_POINTS ═══
+
+1. Google DeepMind and Google Research introduced WeatherNext 3 as their most advanced global weather model.
+2. WeatherNext 3 generates hourly forecasts at a 5-kilometer resolution for key surface variables like temperature.
+3. The new AI model delivers a global weather picture roughly five times sharper than WeatherNext 2.
+4. WeatherNext 3 ingests live global geostationary satellite data to bypass the six-hour data lag of traditional physics simulations.
+5. The model provides up to 50 percent more accurate precipitation forecasts for longer-term planning.
+6. WeatherNext 3 starts powering weather experiences within Google Search, the Gemini app, and Google Maps today.
+
+═══ 01_DRAFT ═══
+
+Google DeepMind and Google Research have introduced WeatherNext 3, a global weather AI model that generates hourly forecasts at a resolution up to five times sharper than its predecessor. According to independent live evaluations by Brightband, the model is the most advanced and accurate global weather model to date. 
+
+WeatherNext 3 visualizes key surface variables like temperature and moisture at a 5-kilometer resolution, other surface variables at 10 kilometers, and atmospheric variables like wind speed at 25 kilometers. Unlike previous models trained on numerical weather prediction simulations that carry a six-hour data lag, WeatherNext 3 ingests live global geostationary satellite data and trains directly on sparse weather station observation data and high-quality precipitation sources, including NASA’s IMERG. 
+
+The model achieves medium-range precipitation forecasting improvements, showing a Continuous Ranked Probability Score improvement of up to 60 percent against IMERG, 30 percent against MRMS, and 10 percent against rain gauge measurements for early lead times. It also features specific predictions for renewable energy, forecasting 100-meter wind speeds for wind-energy output alongside high-resolution cloud cover and sun radiation levels for solar farms. 
+
+Starting today, WeatherNext 3 is powering weather experiences across Google Search, the Gemini app, Google Maps, the Google Maps Platform Weather API, and Google Earth Engine, delivering up to 50 percent more accurate precipitation forecasts for longer-term planning. The data is also available for query in BigQuery and Earth Engine, or for bulk download from Google Cloud Storage.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Google DeepMind and Google Research have introduced WeatherNext 3, a global weather AI model that generates hourly forecasts at a resolution up to five times sharper than its predecessor. According to independent live evaluations by Brightband, the model is the most advanced and accurate global weather model to date. 
+
+WeatherNext 3 visualizes key surface variables like temperature and moisture at a 5-kilometer resolution, other surface variables at 10 kilometers, and atmospheric variables like wind speed at 25 kilometers. By ingesting a mosaic of live, global geostationary satellite data, training on sparse weather station observation data, and using high-quality precipitation sources including NASA’s IMERG, the model provides timely, highly localized predictions while overcoming the limitations of traditional numerical weather prediction models. 
+
+The model achieves medium-range precipitation forecasting improvements, showing a Continuous Ranked Probability Score improvement of up to 60 percent against IMERG, 30 percent against MRMS, and 10 percent against rain gauge measurements for early lead times. It also features specific predictions for renewable energy, forecasting 100-meter wind speeds for wind-energy output alongside high-resolution cloud cover and sun radiation levels for solar farms. 
+
+Starting today, WeatherNext 3 is powering weather experiences across Google Search, the Gemini app, Google Maps, the Google Maps Platform Weather API, and Google Earth Engine, delivering up to 50 percent more accurate precipitation forecasts for longer-term planning. The data is also available for query in BigQuery and Earth Engine, or for bulk download from Google Cloud Storage.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Google DeepMind and Google Research have introduced WeatherNext three. It is a global weather A. I. model that generates hourly forecasts. The resolution is up to five times sharper than the previous version. Independent live evaluations by Brightband show it is the most advanced and accurate global weather model to date. 
+
+WeatherNext three visualizes key surface variables like temperature and moisture at a five kilometer resolution. Other surface variables appear at ten kilometers. Atmospheric variables like wind speed appear at twenty-five kilometers. The model ingests a mosaic of live global geostationary satellite data. It trains on sparse weather station observation data. It uses high-quality precipitation sources including NASA's I. M. E. R. G. The model provides timely and highly localized predictions. It overcomes the limitations of traditional numerical weather prediction models. 
+
+The model achieves medium-range precipitation forecasting improvements. It shows a Continuous Ranked Probability Score improvement of up to sixty percent against I. M. E. R. G. It shows thirty percent against M. R. M. S. It shows ten percent against rain gauge measurements for early lead times. It also features specific predictions for renewable energy. It forecasts one hundred meter wind speeds for wind-energy output. It forecasts high-resolution cloud cover and sun radiation levels for solar farms. 
+
+Starting today, WeatherNext three is powering weather experiences across Google Search. It is in the Gemini app and Google Maps. It powers the Google Maps Platform Weather API and Google Earth Engine. It delivers up to fifty percent more accurate precipitation forecasts for longer-term planning. The data is also available for query in BigQuery and Earth Engine. You can also get it for bulk download from Google Cloud Storage.
+
+═══ 05_NORMALIZED ═══
+
+Google DeepMind and Google Research have introduced WeatherNext three. It is a global weather A. I. model that generates hourly forecasts. The resolution is up to five times sharper than the previous version. Independent live evaluations by Brightband show it is the most advanced and accurate global weather model to date.
+
+WeatherNext three visualizes key surface variables like temperature and moisture at a five kilometer resolution. Other surface variables appear at ten kilometers. Atmospheric variables like wind speed appear at twenty-five kilometers. The model ingests a mosaic of live global geostationary satellite data. It trains on sparse weather station observation data. It uses high-quality precipitation sources including N A S A.'s I. M. E. R. G. The model provides timely and highly localized predictions. It overcomes the limitations of traditional numerical weather prediction models.
+
+The model achieves medium-range precipitation forecasting improvements. It shows a Continuous Ranked Probability Score improvement of up to sixty percent against I. M. E. R. G. It shows thirty percent against M. R. M. S. It shows ten percent against rain gauge measurements for early lead times. It also features specific predictions for renewable energy. It forecasts one hundred meter wind speeds for wind-energy output. It forecasts high-resolution cloud cover and sun radiation levels for solar farms.
+
+Starting today, WeatherNext three is powering weather experiences across Google Search. It is in the Gemini app and Google Maps. It powers the Google Maps Platform Weather A P I. and Google Earth Engine. It delivers up to fifty percent more accurate precipitation forecasts for longer-term planning. The data is also available for query in BigQuery and Earth Engine. You can also get it for bulk download from Google Cloud Storage.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: N A S A.'s I. M. E. R. G., Weather A P I.
+

@@ -1,0 +1,69 @@
+═══ 00_KEY_POINTS ═══
+
+1. Researchers introduced NeoMME, a family of 260M and 800M multilingual multimodal encoders trained from scratch.
+2. NeoMME uses a single bidirectional Transformer to process both text tokens and raw image patches together.
+3. NeoMME-Retriever was fine-tuned for visual document retrieval to bypass expensive preprocessing optical character recognition steps.
+4. At a 2048x2048 input size on an NVIDIA L40S, the 260M model encodes about 51 pages per second.
+5. Hierarchical token pooling and asymmetric quantization reduce late-interaction index storage from roughly 1.5 MB to 6 kB per page.
+6. The 260M and 800M models are released under the Apache 2.0 license and are available on Hugging Face Transformers.
+
+═══ 01_DRAFT ═══
+
+Researchers have introduced NeoMME, a family of multilingual multimodal foundation encoders available in 260M and 800M parameter sizes. Unlike generative visual language models that rely on separate pretrained vision towers and causal language decoders, NeoMME uses a single bidirectional Transformer to process text tokens and raw image patches together. The models were trained from scratch using a masked discrete-diffusion objective on approximately 524 billion packed input tokens, utilizing the NorMuon optimizer. 
+
+When fine-tuned for visual document retrieval using the page-image methodology, the resulting NeoMME-Retriever generates both dense and late-interaction embeddings in a single forward pass. On an NVIDIA L40S GPU at a 2048 by 2048 image input size, the 260M model encodes roughly 51 pages per second, delivering nearly twice the throughput of ColModernVBERT. By combining hierarchical token pooling and asymmetric quantization, the models reduce late-interaction index storage from roughly 1.5 megabytes down to 6 kilobytes per page while retaining over 95 percent of baseline nDCG@10 performance on the ViDoRe v3 benchmark. 
+
+On ViDoRe v3, the 260M model scores 0.523 for nDCG@10, representing the highest score among evaluated models under 800M parameters, while the 800M variant achieves 0.556. All model checkpoints are released under the Apache 2.0 license via Hugging Face Transformers.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+We introduce NeoMME, a family of 260M and 800M multilingual multimodal encoders. Unlike generative visual language models that rely on separate pretrained vision towers and causal language decoders, NeoMME uses a single bidirectional Transformer to process text tokens and raw image patches together. The models were trained from scratch using a masked discrete-diffusion objective on approximately 524 billion packed input tokens, utilizing the NorMuon optimizer. 
+
+When fine-tuned for visual document retrieval using the page-image methodology, the resulting NeoMME-Retriever generates both dense and late-interaction embeddings in a single forward pass. On an NVIDIA L40S GPU at a 2048 by 2048 image input size, the 260M model encodes roughly 51 pages per second, delivering nearly twice the throughput of ColModernVBERT. By combining hierarchical token pooling and asymmetric quantization, the models reduce late-interaction index storage from roughly 1.5 megabytes down to 6 kilobytes per page while retaining over 95 percent of baseline nDCG@10 performance on the ViDoRe v3 benchmark. 
+
+On ViDoRe v3, the 260M model scores 0.523 for nDCG@10, representing the highest score among evaluated models under 800M parameters, while the 800M variant achieves 0.556. All model checkpoints are released under the Apache 2.0 license via Hugging Face Transformers.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Meet NeoMME. It is a new family of two hundred sixty million and eight hundred million parameter multilingual multimodal encoders. Unlike standard models, NeoMME uses a single bidirectional Transformer to process text tokens and raw image patches together. 
+
+The models were trained from scratch using a masked discrete-diffusion objective. They processed approximately five hundred twenty-four billion packed input tokens using the NorMuon optimizer. 
+
+Researchers fine-tuned the models for visual document retrieval. The resulting NeoMME-Retriever generates both dense and late-interaction embeddings in a single forward pass. 
+
+Running on an NVIDIA L40S GPU at a resolution of two thousand forty-eight by two thousand forty-eight pixels, the smaller model encodes roughly fifty-one pages per second. This speed is nearly twice the throughput of ColModernVBERT. 
+
+The models use hierarchical token pooling and asymmetric quantization. These techniques reduce late-interaction index storage from roughly one point five megabytes down to six kilobytes per page. Despite this reduction, the models retain over ninety-five percent of baseline performance. 
+
+On the ViDoRe v3 benchmark, the two hundred sixty million parameter model scores zero point five two three for n. D. C. G. at ten. This score is the highest among all evaluated models under eight hundred million parameters. The larger eight hundred million variant achieves a score of zero point five five six. 
+
+All model checkpoints are available under the Apache two point zero license through Hugging Face Transformers.
+
+═══ 05_NORMALIZED ═══
+
+Meet NeoMME. It is a new family of two hundred sixty million and eight hundred million parameter multilingual multimodal encoders. Unlike standard models, NeoMME uses a single bidirectional Transformer to process text tokens and raw image patches together.
+
+The models were trained from scratch using a masked discrete-diffusion objective. They processed approximately five hundred twenty-four billion packed input tokens using the NorMuon optimizer.
+
+Researchers fine-tuned the models for visual document retrieval. The resulting NeoMME-Retriever generates both dense and late-interaction embeddings in a single forward pass.
+
+Running on an NVIDIA L40S G P U. at a resolution of two thousand forty-eight by two thousand forty-eight pixels, the smaller model encodes roughly fifty-one pages per second. This speed is nearly twice the throughput of ColModernVBERT.
+
+The models use hierarchical token pooling and asymmetric quantization. These techniques reduce late-interaction index storage from roughly one point five megabytes down to six kilobytes per page. Despite this reduction, the models retain over ninety-five percent of baseline performance.
+
+On the ViDoRe v3 benchmark, the two hundred sixty million parameter model scores zero point five two three for n. D. C. G. at ten. This score is the highest among all evaluated models under eight hundred million parameters. The larger eight hundred million variant achieves a score of zero point five five six.
+
+All model checkpoints are available under the Apache two point zero license through Hugging Face Transformers.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: G P U., n. D. C. G.
+

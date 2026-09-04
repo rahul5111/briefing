@@ -1,0 +1,53 @@
+═══ 00_KEY_POINTS ═══
+
+1. The open-source e-ink bike computer features a readable 4.7-inch e-paper panel.
+2. An integrated SD card slot supports offline maps, routes, ride files, and logs.
+3. Connectivity options include Bluetooth 5 for heart-rate, power, and cadence sensors.
+4. A 1,500 mAh battery build achieved a measured baseline of about eight hours.
+5. The device lacks a barometric altimeter, so climbing elevation is estimated from map tiles.
+6. The bare board ships with no waterproofing seal or IP rating for wet conditions.
+
+═══ 01_DRAFT ═══
+
+A developer has introduced an open-source electronic ink bike computer featuring a four-point-seven-inch e-paper panel designed for readability in direct sunlight. The single-board hardware integrates GPS, capacitive touch, a front light, a battery, and a USB-C port, alongside an SD card slot intended for offline maps, routes, ride files, and logs. Connectivity is handled via Bluetooth five to support heart-rate, power, and cadence sensors, while firmware updates can be installed directly from a desktop Chromium browser over USB. 
+
+The device comes with several technical tradeoffs, including a measured battery baseline of roughly seven point four hours of usable life from a one thousand five hundred milliamp-hour build with the front light off. It lacks a barometric altimeter, meaning climbing data and total ascent are estimated from elevation baked into map tiles rather than measured. Navigation is further limited by a basic GPS receiver that lacks modern multi-band capabilities, and the absence of a magnetometer prevents the map from orienting via compass while the user is stopped. Physical interaction relies primarily on the touch panel rather than hardware buttons, presenting potential challenges when using winter gloves or riding in the rain. Additionally, the bare board ships without a seal or an IP rating, requiring a custom case or bag for wet-weather use.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+A developer has introduced an open-source electronic ink bike computer featuring a four-point-seven-inch e-paper panel designed for readability in direct sunlight. The single-board hardware integrates GPS, capacitive touch, a front light, a battery, and a USB-C port, alongside an SD card slot intended for offline maps, routes, ride files, and logs. Bluetooth 5 supports heart-rate, power, and cadence sensors, while firmware can be installed from a desktop Chromium browser over USB. 
+
+The device comes with several technical tradeoffs, including a measured battery baseline of roughly seven point four usable hours from a one thousand five hundred milliamp-hour build with the front light off. It lacks a pressure sensor or barometric altimeter, meaning climbing data and total ascent are estimated from elevation baked into map tiles rather than measured. Navigation relies on a basic GPS receiver rather than a modern multi-band module that would lock on faster and hold a fix better under tree cover or between buildings. Without a magnetometer, the map can only orient from the user's direction of travel and cannot point the right way while stopped. Hardware buttons are weak since most interaction goes through the touch panel, which is fiddly with winter gloves or in the rain. Finally, there is no waterproofing as the board ships bare with no seal or IP rating, requiring a case or bag before riding in the wet.
+
+═══ 02b_TRIMMED ═══
+
+A developer has introduced an open-source electronic ink bike computer featuring a four-point-seven-inch e-paper panel designed for readability in direct sunlight. The single-board hardware integrates GPS, capacitive touch, a front light, a battery, and a USB-C port, alongside an SD card slot intended for offline maps, routes, ride files, and logs. Bluetooth 5 supports heart-rate, power, and cadence sensors, while firmware can be installed from a desktop Chromium browser over USB. The device comes with several technical tradeoffs, including a measured battery baseline of roughly seven point four usable hours from a one thousand five hundred milliamp-hour build with the front light off. It lacks a pressure sensor or barometric altimeter, meaning climbing data and total ascent are estimated from elevation baked into map tiles rather than measured. Without a magnetometer, the map can only orient from the user's direction of travel and cannot point the right way while stopped. Hardware buttons are weak since most interaction goes through the touch panel, which is fiddly with winter gloves or in the rain.
+
+═══ 03_COVERAGE_1 ═══
+
+83% covered (5/6). Missing: The bare board ships with no waterproofing seal or IP rating for wet conditions.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+A developer has introduced an open-source electronic ink bike computer featuring a four-point-seven-inch e-paper panel designed for readability in direct sunlight. The single-board hardware integrates GPS, capacitive touch, a front light, a battery, and a USB-C port, alongside an SD card slot intended for offline maps, routes, ride files, and logs. Bluetooth 5 supports heart-rate, power, and cadence sensors, while firmware can be installed from a desktop Chromium browser over USB. The device comes with several technical tradeoffs, including a measured battery baseline of roughly seven point four usable hours from a one thousand five hundred milliamp-hour build with the front light off. It lacks a pressure sensor or barometric altimeter, meaning climbing data and total ascent are estimated from elevation baked into map tiles rather than measured. Without a magnetometer, the map can only orient from the user's direction of travel and cannot point the right way while stopped. Hardware buttons are weak since most interaction goes through the touch panel, which is fiddly with winter gloves or in the rain. Additionally, the bare board ships with no waterproofing seal or IP rating for wet conditions.
+
+═══ 04_AUDIO_REWRITE ═══
+
+A developer has introduced an open-source electronic ink bike computer. It features a four point seven inch e-paper panel designed for readability in direct sunlight. The single-board hardware integrates G. P. S., capacitive touch, a front light, a battery, and a U. S. B. C. port. It also includes an SD card slot for offline maps, routes, ride files, and logs. Bluetooth five supports heart-rate, power, and cadence sensors. Firmware can be installed from a desktop Chromium browser over U. S. B. 
+
+The device comes with several technical tradeoffs. The measured battery baseline gives roughly seven point four usable hours from a one thousand five hundred milliamp-hour build with the front light off. It lacks a pressure sensor or barometric altimeter. Climbing data and total ascent are estimated from elevation baked into map tiles rather than measured. Without a magnetometer, the map can only orient from the user's direction of travel and cannot point the right way while stopped. Hardware buttons are weak since most interaction goes through the touch panel. The touch panel is fiddly with winter gloves or in the rain. Additionally, the bare board ships with no waterproofing seal or I. P. rating for wet conditions.
+
+═══ 05_NORMALIZED ═══
+
+A developer has introduced an open-source electronic ink bike computer. It features a four point seven inch e-paper panel designed for readability in direct sunlight. The single-board hardware integrates G. P. S., capacitive touch, a front light, a battery, and a U. S. B. C. port. It also includes an SD card slot for offline maps, routes, ride files, and logs. Bluetooth five supports heart-rate, power, and cadence sensors. Firmware can be installed from a desktop Chromium browser over U. S. B.
+
+The device comes with several technical tradeoffs. The measured battery baseline gives roughly seven point four usable hours from a one thousand five hundred milliamp-hour build with the front light off. It lacks a pressure sensor or barometric altimeter. Climbing data and total ascent are estimated from elevation baked into map tiles rather than measured. Without a magnetometer, the map can only orient from the user's direction of travel and cannot point the right way while stopped. Hardware buttons are weak since most interaction goes through the touch panel. The touch panel is fiddly with winter gloves or in the rain. Additionally, the bare board ships with no waterproofing seal or I. P. rating for wet conditions.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: U. S. B. C., U. S. B.
+

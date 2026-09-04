@@ -1,0 +1,45 @@
+═══ 00_KEY_POINTS ═══
+
+1. NVIDIA has officially agreed to acquire Hugging Face for the massive sum of $12,930,300,000.
+2. More than 18 million developers and researchers utilize Hugging Face to share models and datasets.
+3. Over 200,000 companies currently use the Hugging Face platform to discover and deploy artificial intelligence.
+4. Hugging Face will remain an open platform, and NVIDIA compute will not be required for developers.
+5. NVIDIA has already released more than 500 models and over 250 open datasets on Hugging Face.
+6. Together, NVIDIA and Hugging Face will make artificial intelligence more open, capable, and accessible globally.
+
+═══ 01_DRAFT ═══
+
+NVIDIA has agreed to acquire the artificial intelligence platform Hugging Face for $12,930,300,000. Following the acquisition, Hugging Face will remain an open platform for the entire AI ecosystem, continuing to support open source and open weight models from all builders, as well as multi-cloud and multi-accelerator development. The platform will maintain its multi-vendor approach, meaning NVIDIA compute will not be required to build on or deploy through Hugging Face, and the team will keep its iconic brand. Hugging Face currently serves more than 18 million developers, researchers, and creators who use the platform to share over 3 million models, 500,000 datasets, and 1 million applications, alongside adoption by more than 200,000 companies. NVIDIA is the largest contributor of open models and data to Hugging Face, having released more than 500 models and over 250 open datasets on the platform. NVIDIA stated that the acquisition will use its infrastructure, engineering, and global reach to improve platform reliability, safety, model evaluation, inference, and deployment capabilities while preserving the open ecosystem.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+NVIDIA has agreed to acquire the artificial intelligence platform Hugging Face for $12,930,300,000. Following the acquisition, Hugging Face will remain an open platform where developers can choose the models, frameworks, clouds, inference service providers, and computing platforms they want, and NVIDIA compute will not be required to build on or deploy through Hugging Face. The platform will maintain its multi-vendor approach, meaning the team will keep its iconic brand while bringing their passion and expertise to a much larger canvas. Hugging Face currently serves more than 18 million developers, researchers, and creators who use the platform to share over 3 million models, 500,000 datasets, and 1 million applications, alongside adoption by more than 200,000 companies. NVIDIA is the largest contributor of open models and data to Hugging Face, having released more than 500 models and over 250 open datasets on the platform. NVIDIA stated that the acquisition will use its infrastructure, engineering, and global reach to improve platform reliability, safety, model evaluation, inference, and deployment capabilities while preserving the open ecosystem.
+
+═══ 02b_TRIMMED ═══
+
+NVIDIA has agreed to acquire the artificial intelligence platform Hugging Face for $12,930,300,000. The platform will maintain its multi-vendor approach, meaning the team will keep its iconic brand while bringing their passion and expertise to a much larger canvas. Hugging Face currently serves more than 18 million developers, researchers, and creators who use the platform to share over 3 million models, 500,000 datasets, and 1 million applications, alongside adoption by more than 200,000 companies. NVIDIA is the largest contributor of open models and data to Hugging Face, having released more than 500 models and over 250 open datasets on the platform. NVIDIA stated that the acquisition will use its infrastructure, engineering, and global reach to improve platform reliability, safety, model evaluation, inference, and deployment capabilities while preserving the open ecosystem.
+
+═══ 03_COVERAGE_1 ═══
+
+83% covered (5/6). Missing: Together, NVIDIA and Hugging Face will make artificial intelligence more open, capable, and accessible globally.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+NVIDIA has agreed to acquire the artificial intelligence platform Hugging Face for $12,930,300,000. Together, NVIDIA and Hugging Face will make artificial intelligence more open, capable, and accessible globally. The platform will maintain its multi-vendor approach, meaning the team will keep its iconic brand while bringing their passion and expertise to a much larger canvas. Hugging Face currently serves more than 18 million developers, researchers, and creators who use the platform to share over 3 million models, 500,000 datasets, and 1 million applications, alongside adoption by more than 200,000 companies. NVIDIA is the largest contributor of open models and data to Hugging Face, having released more than 500 models and over 250 open datasets on the platform. NVIDIA stated that the acquisition will use its infrastructure, engineering, and global reach to improve platform reliability, safety, model evaluation, inference, and deployment capabilities while preserving the open ecosystem.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Nvidia has agreed to acquire the artificial intelligence platform Hugging Face for twelve billion nine hundred thirty million three hundred thousand dollars. Together, Nvidia and Hugging Face will make artificial intelligence more open, capable, and accessible globally. The platform will maintain its multi-vendor approach. The team will keep its iconic brand while bringing their passion and expertise to a much larger canvas. Hugging Face currently serves more than eighteen million developers, researchers, and creators. They use the platform to share over three million models, five hundred thousand datasets, and one million applications. More than two hundred thousand companies have also adopted the platform. Nvidia is the largest contributor of open models and data to Hugging Face. The company has released more than five hundred models and over two hundred fifty open datasets on the platform. Nvidia stated that the acquisition will use its infrastructure, engineering, and global reach. This will improve platform reliability, safety, model evaluation, inference, and deployment capabilities while preserving the open ecosystem.
+
+═══ 05_NORMALIZED ═══
+
+Nvidia has agreed to acquire the artificial intelligence platform Hugging Face for twelve billion nine hundred thirty million three hundred thousand dollars. Together, Nvidia and Hugging Face will make artificial intelligence more open, capable, and accessible globally. The platform will maintain its multi-vendor approach. The team will keep its iconic brand while bringing their passion and expertise to a much larger canvas. Hugging Face currently serves more than eighteen million developers, researchers, and creators. They use the platform to share over three million models, five hundred thousand datasets, and one million applications. More than two hundred thousand companies have also adopted the platform. Nvidia is the largest contributor of open models and data to Hugging Face. The company has released more than five hundred models and over two hundred fifty open datasets on the platform. Nvidia stated that the acquisition will use its infrastructure, engineering, and global reach. This will improve platform reliability, safety, model evaluation, inference, and deployment capabilities while preserving the open ecosystem.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+OK
+

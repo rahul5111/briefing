@@ -1,0 +1,77 @@
+═══ 00_KEY_POINTS ═══
+
+1. Researchers developed AIMe, a neuro-symbolic AI tool designed to map the hidden universe of small molecules.
+2. AIMe uses DeepMS2Reasoner to predict spectra and organize over 800 million computationally generated mass spectra.
+3. Frank Schroeder and Carla Gomes led the collaborative development of AIMe at Boyce Thompson Institute and Cornell University.
+4. At the core of AIMe is DeepMS2Reasoner, a model that simulates how molecules fragment inside a mass spectrometer.
+5. AIMe returned putative annotations for approximately 2.69 million spectral clusters out of more than 7 million tested.
+6. This AI tool matters because it overcomes a persistent biomedical bottleneck by dramatically expanding searchable chemical space.
+
+═══ 01_DRAFT ═══
+
+Researchers at the Boyce Thompson Institute and Cornell University have developed an artificial intelligence tool called AIMe, or AI Molecule Explorer, to identify and map thousands of small molecules produced by the human body and gut microbiome that previously could not be matched to any known structure. Currently, more than 80% of compounds found in biological samples go unidentified because experimental reference libraries cover less than 1% of known compounds. 
+
+Led by chemistry professor Frank Schroeder and computing professor Carla Gomes, the research team used neuro-symbolic AI to predict and organize mass spectra for more than 100 million known small organic molecules from PubChem. The resulting resource, called MS2KOSMOS, contains more than 800 million predicted spectra, expanding searchable chemical space roughly a thousandfold. At the core of the tool is a model called DeepMS2Reasoner, which simulates how molecules fragment inside a mass spectrometer. Carla Gomes explained that the model builds fragmentation pathways step by step by using symbolic chemical rules to enumerate physically plausible steps and a neural network to assign likelihoods.
+
+When applied to a comparative metabolomics dataset from mice with and without gut microbiota, AIMe identified close spectral matches and structural candidates for about a third of 111 unidentified compounds and mapped the rest to related molecular neighborhoods. This led to the discovery of a structurally unusual macrocyclic polyamine, a ring-shaped variant confirmed by synthesis and subsequently found in 57 of 99 human fecal samples examined. Polyamines sit at the intersection of diet, the gut microbiome, and immune function. Furthermore, when tested at a repository scale on more than 7 million spectral clusters from the Global Natural Products Social Molecular Networking database, AIMe returned putative annotations for approximately 2.69 million clusters, compared to roughly 416,000 annotated through prior efforts.
+
+The study, authored by Utku U. Acikalin and colleagues, was published as a preprint in bioRxiv in 2026.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Researchers at the Boyce Thompson Institute and Cornell University have developed an artificial intelligence tool called AIMe, or AI Molecule Explorer, to identify and map thousands of small molecules produced by the human body and gut microbiome that previously could not be matched to any known structure. In typical biological samples, more than 80% of detected compounds cannot be matched to any known structure using current methods, as available experimental reference libraries cover fewer than 1% of known compounds. 
+
+Led by chemistry professor Frank Schroeder and computing professor Carla Gomes, the research team used neuro-symbolic AI to predict and organize mass spectra for more than 100 million known small organic molecules from PubChem. The resulting resource, called MS2KOSMOS, contains more than 800 million predicted spectra, expanding searchable chemical space roughly a thousandfold. At the core of the tool is a model called DeepMS2Reasoner, which simulates how molecules fragment inside a mass spectrometer. Carla Gomes explained that the model builds fragmentation pathways step by step by using symbolic chemical rules to enumerate physically plausible steps and a neural network to assign likelihoods.
+
+When applied to a comparative metabolomics dataset from mice with and without gut microbiota, AIMe identified close spectral matches and structural candidates for about a third of 111 unidentified compounds and mapped the rest to related molecular neighborhoods. This led to the discovery of a structurally unusual macrocyclic polyamine, a ring-shaped variant confirmed by synthesis and subsequently found in 57 of 99 human fecal samples examined. Polyamines sit at the intersection of diet, the gut microbiome, and immune function. Additionally, when tested at a repository scale on more than 7 million spectral clusters from the Global Natural Products Social Molecular Networking database—where prior efforts had annotated roughly 416,000 clusters—AIMe returned putative annotations for approximately 2.69 million using the same similarity threshold.
+
+The study, authored by Utku U. Acikalin and colleagues, was published as a preprint in bioRxiv in 2026.
+
+═══ 02b_TRIMMED ═══
+
+Researchers at the Boyce Thompson Institute and Cornell University have developed an artificial intelligence tool called AIMe, or AI Molecule Explorer, to identify and map thousands of small molecules produced by the human body and gut microbiome that previously could not be matched to any known structure. In typical biological samples, more than 80% of detected compounds cannot be matched to any known structure using current methods, as available experimental reference libraries cover fewer than 1% of known compounds. Led by chemistry professor Frank Schroeder and computing professor Carla Gomes, the research team used neuro-symbolic AI to predict and organize mass spectra for more than 100 million known small organic molecules from PubChem. The resulting resource, called MS2KOSMOS, contains more than 800 million predicted spectra, expanding searchable chemical space roughly a thousandfold. At the core of the tool is a model called DeepMS2Reasoner, which simulates how molecules fragment inside a mass spectrometer. Carla Gomes explained that the model builds fragmentation pathways step by step by using symbolic chemical rules to enumerate physically plausible steps and a neural network to assign likelihoods. When applied to a comparative metabolomics dataset from mice with and without gut microbiota, AIMe identified close spectral matches and structural candidates for about a third of 111 unidentified compounds and mapped the rest to related molecular neighborhoods. This led to the discovery of a structurally unusual macrocyclic polyamine, a ring-shaped variant confirmed by synthesis and subsequently found in 57 of 99 human fecal samples examined. Polyamines sit at the intersection of diet, the gut microbiome, and immune function. The study, authored by Utku U. Acikalin and colleagues, was published as a preprint in bioRxiv in 2026.
+
+═══ 03_COVERAGE_1 ═══
+
+83% covered (5/6). Missing: AIMe returned putative annotations for approximately 2.69 million spectral clusters out of more than 7 million tested.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+Researchers at the Boyce Thompson Institute and Cornell University have developed an artificial intelligence tool called AIMe, or AI Molecule Explorer, to identify and map thousands of small molecules produced by the human body and gut microbiome that previously could not be matched to any known structure. In typical biological samples, more than 80% of detected compounds cannot be matched to any known structure using current methods, as available experimental reference libraries cover fewer than 1% of known compounds. Led by chemistry professor Frank Schroeder and computing professor Carla Gomes, the research team used neuro-symbolic AI to predict and organize mass spectra for more than 100 million known small organic molecules from PubChem. The resulting resource, called MS2KOSMOS, contains more than 800 million predicted spectra, expanding searchable chemical space roughly a thousandfold. At the core of the tool is a model called DeepMS2Reasoner, which simulates how molecules fragment inside a mass spectrometer. Carla Gomes explained that the model builds fragmentation pathways step by step by using symbolic chemical rules to enumerate physically plausible steps and a neural network to assign likelihoods. When applied to a comparative metabolomics dataset from mice with and without gut microbiota, AIMe identified close spectral matches and structural candidates for about a third of 111 unidentified compounds and mapped the rest to related molecular neighborhoods. This led to the discovery of a structurally unusual macrocyclic polyamine, a ring-shaped variant confirmed by synthesis and subsequently found in 57 of 99 human fecal samples examined. Polyamines sit at the intersection of diet, the gut microbiome, and immune function. Testing AIMe at repository scale on more than 7 million spectral clusters from the Global Natural Products Social Molecular Networking database, AIMe returned putative annotations for approximately 2.69 million spectral clusters out of more than 7 million tested. The study, authored by Utku U. Acikalin and colleagues, was published as a preprint in bioRxiv in 2026.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Researchers at the Boyce Thompson Institute and Cornell University have developed an artificial intelligence tool called AIMe. That stands for A. I. Molecule Explorer. It identifies and maps thousands of small molecules produced by the human body and the gut microbiome. These molecules previously could not be matched to any known structure. In typical biological samples, more than eighty percent of detected compounds cannot be matched to any known structure using current methods. Available experimental reference libraries cover fewer than one percent of known compounds. 
+
+The research team was led by chemistry professor Frank Schroeder and computing professor Carla Gomes. They used neuro-symbolic A. I. to predict and organize mass spectra for more than one hundred million known small organic molecules from PubChem. The resulting resource is called M. S. two K. O. S. M. O. S. It contains more than eight hundred million predicted spectra. This expands searchable chemical space roughly a thousandfold. 
+
+At the core of the tool is a model called Deep M. S. two Reasoner. It simulates how molecules fragment inside a mass spectrometer. Carla Gomes explained that the model builds fragmentation pathways step by step. It uses symbolic chemical rules to enumerate physically plausible steps. It uses a neural network to assign likelihoods. 
+
+The team applied AIMe to a comparative metabolomics dataset from mice. Some mice had gut microbiota and some did not. AIMe identified close spectral matches and structural candidates for about a third of one hundred eleven unidentified compounds. It mapped the rest to related molecular neighborhoods. This led to the discovery of a structurally unusual macrocyclic polyamine. This ring-shaped variant was confirmed by synthesis. It was subsequently found in fifty-seven of ninety-nine human fecal samples examined. Polyamines sit at the intersection of diet, the gut microbiome, and immune function. 
+
+The researchers tested AIMe at repository scale on more than seven million spectral clusters. These came from the Global Natural Products Social Molecular Networking database. AIMe returned putative annotations for approximately two point six nine million spectral clusters out of more than seven million tested. 
+
+The study was authored by Utku U. Acikalin and colleagues. It was published as a preprint in bioRxiv in twenty twenty-six.
+
+═══ 05_NORMALIZED ═══
+
+Researchers at the Boyce Thompson Institute and Cornell University have developed an artificial intelligence tool called AIMe. That stands for A. I. Molecule Explorer. It identifies and maps thousands of small molecules produced by the human body and the gut microbiome. These molecules previously could not be matched to any known structure. In typical biological samples, more than eighty percent of detected compounds cannot be matched to any known structure using current methods. Available experimental reference libraries cover fewer than one percent of known compounds.
+
+The research team was led by chemistry professor Frank Schroeder and computing professor Carla Gomes. They used neuro-symbolic A. I. to predict and organize mass spectra for more than one hundred million known small organic molecules from PubChem. The resulting resource is called M. S. two K. O. S. M. O. S. It contains more than eight hundred million predicted spectra. This expands searchable chemical space roughly a thousandfold.
+
+At the core of the tool is a model called Deep M. S. two Reasoner. It simulates how molecules fragment inside a mass spectrometer. Carla Gomes explained that the model builds fragmentation pathways step by step. It uses symbolic chemical rules to enumerate physically plausible steps. It uses a neural network to assign likelihoods.
+
+The team applied AIMe to a comparative metabolomics dataset from mice. Some mice had gut microbiota and some did not. AIMe identified close spectral matches and structural candidates for about a third of one hundred eleven unidentified compounds. It mapped the rest to related molecular neighborhoods. This led to the discovery of a structurally unusual macrocyclic polyamine. This ring-shaped variant was confirmed by synthesis. It was subsequently found in fifty-seven of ninety-nine human fecal samples examined. Polyamines sit at the intersection of diet, the gut microbiome, and immune function.
+
+The researchers tested AIMe at repository scale on more than seven million spectral clusters. These came from the Global Natural Products Social Molecular Networking database. AIMe returned putative annotations for approximately two point six nine million spectral clusters out of more than seven million tested.
+
+The study was authored by Utku U. Acikalin and colleagues. It was published as a preprint in bioRxiv in twenty twenty-six.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: bioRxiv
+

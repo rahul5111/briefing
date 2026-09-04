@@ -1,0 +1,53 @@
+═══ 00_KEY_POINTS ═══
+
+1. Manifold Security disclosed eight security flaws where command-line AI coding agents execute malicious repository commands.
+2. The command executes outside the agent's sandbox and without an approval prompt, running with the user's privileges.
+3. Fixes have shipped for goose, Claude Code, and Cursor, while Hermes Agent, Qwen Code, and Grok Build remained unpatched.
+4. OpenAI published three CVEs covering the identical vulnerability class in Codex, credited to three unrelated research groups.
+5. The vulnerability exploits the core.fsmonitor Git performance setting, which executes a command when refreshing the index.
+6. OpenAI stated that the helper runs outside the command sandbox allowing attacker-controlled code to run with user privileges.
+
+═══ 01_DRAFT ═══
+
+Manifold Security disclosed eight security flaws across seven command-line AI coding agents where a repository's Git configuration names a command that the agent executes on the developer's machine. The vulnerability relies on core.fsmonitor, a Git performance setting read from the repository's .git/config, which agents call in the background during session startup to check changed files. The command runs as the user, outside the agent's sandbox, and without an approval prompt when a repository arrives with its .git directory intact via shared archives, drives, sync folders, or USB sticks. 
+
+Fixes have shipped for goose, Cursor, and OpenAI's Codex. Goose versions prior to 1.44.0 are affected, with a fix in 1.44.0. Codex CLI is fixed in 0.131.0, Codex Desktop for macOS in 26.519.22136, and Codex Desktop for Windows in 26.519.21041. OpenAI published three CVEs covering Codex, including CVE-2026-19592, with OpenAI stating that the helper runs outside the command sandbox and without a user-approval prompt, allowing attacker-controlled code to run with user privileges to read, change, or delete files. GitHub assigned CVE-2026-72718 to goose with a CVSS 4.0 base score of 7.0.
+
+Hermes Agent, Qwen Code, Grok Build, and a second path in Claude Code remained unpatched during retesting on September 1. Claude Code version 2.1.196 fixed the core.fsmonitor path, but the claude ultrareview path was confirmed live on version 2.1.252. Qwen Code versions 0.19.6 and 0.22.3, Hermes Agent versions 0.18.2 and 0.21.0, and Grok Build versions 0.2.93 and 1.0.13 were also confirmed affected. On Claude Code and Hermes Agent, the payload fires before the workspace-trust prompt; on Qwen Code, before authentication; and on Grok Build, on the first keystroke. No exploitation of these findings has been reported in the wild.
+
+═══ 03_COVERAGE_1 ═══
+
+83% covered (5/6). Missing: OpenAI published three CVEs covering the identical vulnerability class in Codex, credited to three unrelated research groups.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+Manifold Security disclosed eight security flaws across seven command-line AI coding agents where a repository's Git configuration names a command that the agent executes on the developer's machine. The vulnerability relies on core.fsmonitor, a Git performance setting read from the repository's .git/config, which agents call in the background during session startup to check changed files. The command runs as the user, outside the agent's sandbox, and without an approval prompt when a repository arrives with its .git directory intact via shared archives, drives, sync folders, or USB sticks. 
+
+Fixes have shipped for goose, Cursor, and OpenAI's Codex. Goose versions prior to 1.44.0 are affected, with a fix in 1.44.0. Codex CLI is fixed in 0.131.0, Codex Desktop for macOS in 26.519.22136, and Codex Desktop for Windows in 26.519.21041. OpenAI published three CVEs covering the identical vulnerability class in Codex, credited to three unrelated research groups, including CVE-2026-19592, with OpenAI stating that the helper runs outside the command sandbox and without a user-approval prompt, allowing attacker-controlled code to run with user privileges to read, change, or delete files. GitHub assigned CVE-2026-72718 to goose with a CVSS 4.0 base score of 7.0.
+
+Hermes Agent, Qwen Code, Grok Build, and a second path in Claude Code remained unpatched during retesting on September 1. Claude Code version 2.1.196 fixed the core.fsmonitor path, but the claude ultrareview path was confirmed live on version 2.1.252. Qwen Code versions 0.19.6 and 0.22.3, Hermes Agent versions 0.18.2 and 0.21.0, and Grok Build versions 0.2.93 and 1.0.13 were also confirmed affected. On Claude Code and Hermes Agent, the payload fires before the workspace-trust prompt; on Qwen Code, before authentication; and on Grok Build, on the first keystroke. No exploitation of these findings has been reported in the wild.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Manifold Security found eight security flaws in seven command-line artificial intelligence coding agents. These flaws happen when a Git configuration names a command that the agent runs on the developer machine. The vulnerability uses a Git performance setting read from the configuration files. Agents call this setting in the background during session startup to check changed files. The command runs as the user outside the agent sandbox and without any approval prompt. This happens when a repository arrives with its directory intact through shared archives, drives, sync folders, or U. S. B. sticks.
+
+Fixes have shipped for goose, Cursor, and OpenAI Codex. Goose versions prior to one point forty-four point zero are affected, and the fix is in one point forty-four point zero. Codex C. L. I. is fixed in zero point one hundred thirty-one point zero. Codex Desktop for Mac O. S. is fixed in twenty-six point five hundred nineteen point twenty-two one hundred thirty-six. Codex Desktop for Windows is fixed in twenty-six point five hundred nineteen point twenty-one zero forty-one. OpenAI published three C. V. E.s covering this vulnerability class in Codex. These were credited to three unrelated research groups, including C. V. E. twenty-twenty-six nineteen thousand five hundred ninety-two. OpenAI stated that the helper runs outside the sandbox and without approval, letting attacker code run with user privileges to read, change, or delete files. GitHub assigned C. V. E. twenty-twenty-six seventy-two thousand seven hundred eighteen to goose with a C. V. S. S. four point zero base score of seven point zero.
+
+Hermes Agent, Qwen Code, Grok Build, and a second path in Claude Code remained unpatched during retesting on September first. Claude Code version two point one point one hundred ninety-six fixed the first path, but the Claude ultrareview path was live on version two point one point two hundred fifty-two. Qwen Code versions zero point nineteen point six and zero point twenty-two point three are affected. Hermes Agent versions zero point eighteen point two and zero point twenty-one point zero are affected. Grok Build versions zero point two point ninety-three and one point zero point thirteen are also affected. On Claude Code and Hermes Agent, the payload fires before the workspace trust prompt. On Qwen Code, it fires before authentication. On Grok Build, it fires on the first keystroke. No exploitation of these findings has been reported in the wild.
+
+═══ 05_NORMALIZED ═══
+
+Manifold Security found eight security flaws in seven command-line artificial intelligence coding agents. These flaws happen when a Git configuration names a command that the agent runs on the developer machine. The vulnerability uses a Git performance setting read from the configuration files. Agents call this setting in the background during session startup to check changed files. The command runs as the user outside the agent sandbox and without any approval prompt. This happens when a repository arrives with its directory intact through shared archives, drives, sync folders, or U. S. B. sticks.
+
+Fixes have shipped for goose, Cursor, and OpenAI Codex. Goose versions prior to one point forty-four point zero are affected, and the fix is in one point forty-four point zero. Codex C. L. I. is fixed in zero point one hundred thirty-one point zero. Codex Desktop for Mac O. S. is fixed in twenty-six point five hundred nineteen point twenty-two one hundred thirty-six. Codex Desktop for Windows is fixed in twenty-six point five hundred nineteen point twenty-one zero forty-one. OpenAI published three C. V. E.s covering this vulnerability class in Codex. These were credited to three unrelated research groups, including C. V. E. twenty-twenty-six nineteen thousand five hundred ninety-two. OpenAI stated that the helper runs outside the sandbox and without approval, letting attacker code run with user privileges to read, change, or delete files. GitHub assigned C. V. E. twenty-twenty-six seventy-two thousand seven hundred eighteen to goose with a C. V. S. S. four point zero base score of seven point zero.
+
+Hermes Agent, Qwen Code, Grok Build, and a second path in Claude Code remained unpatched during retesting on September first. Claude Code version two point one point one hundred ninety-six fixed the first path, but the Claude ultrareview path was live on version two point one point two hundred fifty-two. Qwen Code versions zero point nineteen point six and zero point twenty-two point three are affected. Hermes Agent versions zero point eighteen point two and zero point twenty-one point zero are affected. Grok Build versions zero point two point ninety-three and one point zero point thirteen are also affected. On Claude Code and Hermes Agent, the payload fires before the workspace trust prompt. On Qwen Code, it fires before authentication. On Grok Build, it fires on the first keystroke. No exploitation of these findings has been reported in the wild.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: unspoken/unspaced acronyms
+

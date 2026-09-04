@@ -1,0 +1,46 @@
+═══ 00_KEY_POINTS ═══
+
+1. The browser's single-threaded event loop processes computation, rendering, and event handling on one main thread.
+2. On a standard 60Hz display, the total frame budget is about 16.6 milliseconds, leaving a practical budget of roughly 10 milliseconds.
+3. A long task running for over 50 milliseconds blocks the main thread, freezing the screen and causing visible UI jank.
+4. Web performance metrics like INP and TBT directly measure how long the main thread was blocked by tasks.
+5. Yielding the main thread breaks down heavy workloads into smaller pieces, allowing queued user inputs and animations to run.
+6. Developers can yield the main thread using setTimeout or requestAnimationFrame to restore responsiveness during heavy operations.
+7. Yielding does not reduce total processing work, but it inserts small gaps so the browser can update the screen and handle inputs.
+
+═══ 01_DRAFT ═══
+
+The browser's main thread handles computation, rendering, event handling, network responses, and framework internals on a single resource, making it an expensive bottleneck when overloaded. On a standard 60Hz display, the target is 60 frames per second, allowing roughly 16.6 milliseconds per frame, with a practical budget of about 10 milliseconds once browser processing costs are subtracted. Any task taking longer than 50 milliseconds is considered a long task. This congestion directly impacts web performance metrics like INP, which measures interaction response time, and TBT, which measures total main thread blocking time during page load. To prevent screen freezes and stuttering known as jank, developers can use splitting to divide long tasks and yield control back to the main thread. One method is counting, such as using setTimeout to yield the main thread after every 20 chat messages in a live stream flood. Alternatively, developers can split work by time using performance.now and requestAnimationFrame, limiting background work to a specific duration like 5 milliseconds per frame to preserve smooth animations.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+The browser's main thread handles computation, rendering, event handling, network responses, and framework internals on a single resource, making it an expensive bottleneck when overloaded. On a standard 60Hz display, the target is 60 frames per second, allowing roughly 16.6 milliseconds per frame, with a practical budget of about 10 milliseconds once browser processing costs are subtracted. Any task taking longer than 50 milliseconds is considered a long task. This congestion directly impacts web performance metrics like INP, which measures interaction response time, and TBT, which measures total main thread blocking time during page load. To prevent screen freezes and stuttering known as jank, developers can use splitting to divide long tasks and yield control back to the main thread. One method is counting, such as using setTimeout to yield the main thread after every 20 chat messages in a live stream flood. Another approach splits work by time using performance.now and requestAnimationFrame, using a heuristic like 5 milliseconds per frame to leave room for animations and browser processing.
+
+═══ 02b_TRIMMED ═══
+
+The browser's main thread handles computation, rendering, event handling, network responses, and framework internals on a single resource, making it an expensive bottleneck when overloaded. On a standard 60Hz display, the target is 60 frames per second, allowing roughly 16.6 milliseconds per frame, with a practical budget of about 10 milliseconds once browser processing costs are subtracted. Any task taking longer than 50 milliseconds is considered a long task. This congestion directly impacts web performance metrics like INP, which measures interaction response time, and TBT, which measures total main thread blocking time during page load. To prevent screen freezes and stuttering known as jank, developers can use splitting to divide long tasks and yield control back to the main thread. One method is counting, such as using setTimeout to yield the main thread after every 20 chat messages in a live stream flood.
+
+═══ 03_COVERAGE_1 ═══
+
+71% covered (5/7). Missing: Developers can yield the main thread using setTimeout or requestAnimationFrame to restore responsiveness during heavy operations.; Yielding does not reduce total processing work, but it inserts small gaps so the browser can update the screen and handle inputs.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+The browser's main thread handles computation, rendering, event handling, network responses, and framework internals on a single resource, making it an expensive bottleneck when overloaded. On a standard 60Hz display, the target is 60 frames per second, allowing roughly 16.6 milliseconds per frame, with a practical budget of about 10 milliseconds once browser processing costs are subtracted. Any task taking longer than 50 milliseconds is considered a long task. This congestion directly impacts web performance metrics like INP, which measures interaction response time, and TBT, which measures total main thread blocking time during page load. To prevent screen freezes and stuttering known as jank, developers can use splitting to divide long tasks and yield control back to the main thread. Developers can yield the main thread using setTimeout or requestAnimationFrame to restore responsiveness during heavy operations. Yielding does not reduce total processing work, but it inserts small gaps so the browser can update the screen and handle inputs. One method is counting, such as using setTimeout to yield the main thread after every 20 chat messages in a live stream flood.
+
+═══ 04_AUDIO_REWRITE ═══
+
+The browser main thread handles computation and rendering and event handling and network responses on a single resource. This makes it an expensive bottleneck when it gets overloaded. On a standard sixty Hertz display, the target is sixty frames per second. This allows roughly sixteen point six milliseconds per frame. There is a practical budget of about ten milliseconds once you subtract browser processing costs. Any task taking longer than fifty milliseconds is considered a long task. This congestion directly impacts web performance metrics like I. N. P., which measures interaction response time. It also impacts T. B. T., which measures total main thread blocking time during page load. Developers can prevent screen freezes and stuttering known as jank by using splitting. Splitting divides long tasks and yields control back to the main thread. Developers can yield the main thread using set timeout or request animation frame. This restores responsiveness during heavy operations. Yielding does not reduce total processing work. It just inserts small gaps so the browser can update the screen and handle inputs. One method is counting. You can use set timeout to yield the main thread after every twenty chat messages in a live stream flood.
+
+═══ 05_NORMALIZED ═══
+
+The browser main thread handles computation and rendering and event handling and network responses on a single resource. This makes it an expensive bottleneck when it gets overloaded. On a standard sixty Hertz display, the target is sixty frames per second. This allows roughly sixteen point six milliseconds per frame. There is a practical budget of about ten milliseconds once you subtract browser processing costs. Any task taking longer than fifty milliseconds is considered a long task. This congestion directly impacts web performance metrics like I. N. P., which measures interaction response time. It also impacts T. B. T., which measures total main thread blocking time during page load. Developers can prevent screen freezes and stuttering known as jank by using splitting. Splitting divides long tasks and yields control back to the main thread. Developers can yield the main thread using set timeout or request animation frame. This restores responsiveness during heavy operations. Yielding does not reduce total processing work. It just inserts small gaps so the browser can update the screen and handle inputs. One method is counting. You can use set timeout to yield the main thread after every twenty chat messages in a live stream flood.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (7/7). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: unspaced acronyms
+

@@ -1,0 +1,46 @@
+═══ 00_KEY_POINTS ═══
+
+1. The era of AI inference requires shifting focus from raw compute to coordinated infrastructure.
+2. Jim McGregor states that AI is not a single workload, but consists of thousands, millions, or billions of different workloads.
+3. Data movement has become the most pressing constraint and an opportunity for competitive advantage in AI deployment.
+4. Memory and storage must be treated as active strategic assets at the heart of the system rather than passive hardware.
+5. Organizations must balance performance with efficiency, cost, and scalability to prevent bottlenecks from limiting growth.
+6. Jim McGregor notes that data centers must support continuous, distributed, and increasingly real-time AI services that require different system-level requirements.
+7. Enterprises must treat compute, memory, storage, and networking as an integrated system to deliver AI efficiently at scale.
+
+═══ 01_DRAFT ═══
+
+The shift toward continuous AI inference requires enterprises to rearchitect data centers as integrated systems rather than optimizing memory, storage, compute, and networking in silos. According to Jim McGregor, founder and principal analyst at Tirias Research, AI is not a single workload but billions of distinct workloads, making data movement and system-level coordination critical. As modern techniques like retrieval-augmented generation demand immediate access to massive databases, data movement has emerged as the primary bottleneck, elevating memory and storage from background infrastructure to strategic assets. McGregor notes that the biggest task is efficiently moving data from one place to another to ensure it can be used effectively, stating that organizations must architect compute, memory, storage, and networking together to maintain efficiency. Because inference workloads are continuous, geographically distributed, and highly sensitive to response time, legacy IT assumptions no longer suffice. Enterprises must adopt modular architectures, define specific workloads rather than relying on generic AI readiness, balance performance with efficiency and cost, and continuously reassess procurement strategies. This integrated approach matters because delays in real-time sectors like healthcare, finance, and robotics directly affect human outcomes, operating costs, and business reputation.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (7/7). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Artificial intelligence inference requires enterprises to completely change how they build data centers. Enterprises must treat data centers as single systems instead of separate parts. Jim McGregor is the founder and principal analyst at Tirias Research. He explains that artificial intelligence is not just one big workload. It is actually billions of separate workloads working at the same time. This makes moving data and coordinating the whole system extremely important. 
+
+Modern techniques like retrieval-augmented generation need instant access to huge databases. Because of this, moving data has become the main bottleneck. Memory and storage used to be background infrastructure. Now they are critical strategic assets. McGregor says the biggest task is moving data efficiently from one place to another. Organizations must design compute, memory, storage, and networking together to keep things running efficiently. 
+
+Inference workloads run continuously. They are spread out across different locations. They are also very sensitive to response times. Because of this, old information technology assumptions no longer work. Enterprises need to use modular architectures. They must define specific workloads instead of just relying on general artificial intelligence readiness. Organizations also need to balance performance with efficiency and cost. They must constantly check and update their purchasing strategies. 
+
+This integrated approach matters a great deal. Delays in real time sectors like healthcare, finance, and robotics cause serious problems. They directly affect human lives, operating costs, and business reputation.
+
+═══ 05_NORMALIZED ═══
+
+Artificial intelligence inference requires enterprises to completely change how they build data centers. Enterprises must treat data centers as single systems instead of separate parts. Jim McGregor is the founder and principal analyst at Tirias Research. He explains that artificial intelligence is not just one big workload. It is actually billions of separate workloads working at the same time. This makes moving data and coordinating the whole system extremely important.
+
+Modern techniques like retrieval-augmented generation need instant access to huge databases. Because of this, moving data has become the main bottleneck. Memory and storage used to be background infrastructure. Now they are critical strategic assets. McGregor says the biggest task is moving data efficiently from one place to another. Organizations must design compute, memory, storage, and networking together to keep things running efficiently.
+
+Inference workloads run continuously. They are spread out across different locations. They are also very sensitive to response times. Because of this, old information technology assumptions no longer work. Enterprises need to use modular architectures. They must define specific workloads instead of just relying on general artificial intelligence readiness. Organizations also need to balance performance with efficiency and cost. They must constantly check and update their purchasing strategies.
+
+This integrated approach matters a great deal. Delays in real time sectors like healthcare, finance, and robotics cause serious problems. They directly affect human lives, operating costs, and business reputation.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (7/7). Missing: none
+
+═══ 07_SANITY ═══
+
+OK
+

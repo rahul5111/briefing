@@ -1,0 +1,73 @@
+═══ 00_KEY_POINTS ═══
+
+1. The model being run is Qwen3.8-Flash-Next, a 125B-parameter mixture-of-experts requiring 105 GB on disk at 4-bit.
+2. Slotstream achieves a warm decode speed of approximately 12 tokens per second on a 48GB Mac.
+3. The engine is built exclusively for Apple Silicon using MLX and Metal, assuming unified memory architecture.
+4. The system implements a memory design that keeps a 3.8 GB trunk resident while streaming experts through a fixed pool.
+5. The application speaks Ollama and OpenAI chat APIs, allowing existing development tools to work unchanged.
+6. Prompt plus completion is capped at 32,768 tokens per request, with context state costing about 27 KiB per token.
+
+═══ 01_DRAFT ═══
+
+Running the 125 billion parameter mixture of experts model Qwen3.8-Flash-Next on a 48GB MacBook Pro is now possible using slotstream, a single Swift binary designed specifically for Apple Silicon and macOS 14 or later. The model requires about 105 GB on disk at 4-bit, meaning a 512 GB Mac is the realistic minimum storage requirement.
+
+The engine utilizes MLX and Metal, streaming experts from the SSD straight into unified memory through a fixed pool of slots while keeping a 3.8 GB trunk resident. On a quiet 48GB Mac, the warm decode runs at approximately 12 tokens per second. The software implements the chat and generate subsets used by Ollama clients and OpenAI SDKs on port 11434, alongside support for the Vercel AI SDK Language Model Specification.
+
+The launch gained significant traction on Hacker News on September 1, 2026, peaking at No. 1 on Show HN and No. 8 on the front page with 227 points and 114 comments.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Running the 125 billion parameter mixture of experts model Qwen3.8-Flash-Next on a 48GB MacBook Pro is now possible using slotstream, a single Swift binary designed specifically for Apple Silicon and macOS 14 or later. The model requires about 105 GB on disk at 4-bit, meaning a 512 GB Mac is the realistic minimum storage requirement.
+
+The engine utilizes MLX and Metal, streaming experts from the SSD straight into unified memory through a fixed pool of slots while keeping a 3.8 GB trunk resident. On a quiet 48GB Mac, the warm decode runs at approximately 12 tokens per second. The software implements the chat and generate subsets used by Ollama clients and OpenAI SDKs on port 11434, alongside support for the Vercel AI SDK Language Model Specification.
+
+The launch was discussed on Hacker News with 227 points and 114 comments, peaking on 2026-09-01 at No. 1 on Show HN and No. 8 on the front page.
+
+═══ 03_COVERAGE_1 ═══
+
+83% covered (5/6). Missing: Prompt plus completion is capped at 32,768 tokens per request, with context state costing about 27 KiB per token.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+Running the 125 billion parameter mixture of experts model Qwen3.8-Flash-Next on a 48GB MacBook Pro is now possible using slotstream, a single Swift binary designed specifically for Apple Silicon and macOS 14 or later. The model requires about 105 GB on disk at 4-bit, meaning a 512 GB Mac is the realistic minimum storage requirement.
+
+The engine utilizes MLX and Metal, streaming experts from the SSD straight into unified memory through a fixed pool of slots while keeping a 3.8 GB trunk resident. Prompt plus completion is capped at 32,768 tokens per request, with context state costing about 27 KiB per token. On a quiet 48GB Mac, the warm decode runs at approximately 12 tokens per second. The software implements the chat and generate subsets used by Ollama clients and OpenAI SDKs on port 11434, alongside support for the Vercel AI SDK Language Model Specification.
+
+The launch was discussed on Hacker News with 227 points and 114 comments, peaking on 2026-09-01 at No. 1 on Show HN and No. 8 on the front page.
+
+═══ 04_AUDIO_REWRITE ═══
+
+You can now run a large language model on your Mac. The model has one hundred twenty-five billion parameters. It is called Qwen three point eight Flash Next. It runs on a forty-eight gigabyte MacBook Pro. You use a tool called slotstream. That tool is a single Swift binary. It is made for Apple Silicon and macOS fourteen or later.
+
+The model needs about one hundred five gigabytes on disk at four-bit quantization. A five hundred twelve gigabyte Mac is the realistic minimum storage requirement.
+
+The engine uses M. L. X. and Metal. It streams experts from the solid state drive straight into unified memory. It uses a fixed pool of slots. It keeps a three point eight gigabyte trunk resident.
+
+Prompt plus completion is capped at thirty-two thousand seven hundred sixty-eight tokens per request. Context state costs about twenty-seven kibibytes per token. On a quiet forty-eight gigabyte Mac, warm decode runs at approximately twelve tokens per second.
+
+The software implements chat and generate subsets. It works with O. L. L. A. M. A. clients and O. P. E. N. A. I. S. D. K.s on port eleven thousand four hundred thirty-four. It also supports the Vercel A. I. S. D. K. Language Model Specification.
+
+The launch was discussed on Hacker News. It got two hundred twenty-seven points and one hundred fourteen comments. It peaked on September first, twenty twenty-six, at number one on Show H. N. and number eight on the front page.
+
+═══ 05_NORMALIZED ═══
+
+You can now run a large language model on your Mac. The model has one hundred twenty-five billion parameters. It is called Qwen three point eight Flash Next. It runs on a forty-eight gigabyte MacBook Pro. You use a tool called slotstream. That tool is a single Swift binary. It is made for Apple Silicon and macOS fourteen or later.
+
+The model needs about one hundred five gigabytes on disk at four-bit quantization. A five hundred twelve gigabyte Mac is the realistic minimum storage requirement.
+
+The engine uses M. L. X. and Metal. It streams experts from the solid state drive straight into unified memory. It uses a fixed pool of slots. It keeps a three point eight gigabyte trunk resident.
+
+Prompt plus completion is capped at thirty-two thousand seven hundred sixty-eight tokens per request. Context state costs about twenty-seven kibibytes per token. On a quiet forty-eight gigabyte Mac, warm decode runs at approximately twelve tokens per second.
+
+The software implements chat and generate subsets. It works with O. L. L. A. M. A. clients and O. P. E. N. A. I. S. D. K.s on port eleven thousand four hundred thirty-four. It also supports the Vercel A. I. S. D. K. Language Model Specification.
+
+The launch was discussed on Hacker News. It got two hundred twenty-seven points and one hundred fourteen comments. It peaked on September first, twenty twenty-six, at number one on Show H. N. and number eight on the front page.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+OK
+
