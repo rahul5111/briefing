@@ -200,6 +200,40 @@ def normalize(text: str) -> str:
     # 7. Big numbers with commas: 40,000 → forty thousand
     t = re.sub(r"\b\d{1,3}(?:,\d{3})+\b", _expand_big_number, t)
 
+    # 7a. Times: 3:45pm → three forty-five pee em; 9am → nine ay em
+    t = re.sub(r"\b(\d{1,2}):(\d{2})\s*([ap])m\b",
+               lambda m: f"{_num_to_words(int(m.group(1)))} {_num_to_words(int(m.group(2)))} {'p' if m.group(3).lower()=='p' else 'a'} m",
+               t, flags=re.IGNORECASE)
+    t = re.sub(r"\b(\d{1,2})\s*([ap])m\b",
+               lambda m: f"{_num_to_words(int(m.group(1)))} {'p' if m.group(2).lower()=='p' else 'a'} m",
+               t, flags=re.IGNORECASE)
+
+    # 7b. Ordinals: 1st, 2nd, 3rd, 4th, 21st …
+    _ORD = {1: "first", 2: "second", 3: "third", 4: "fourth", 5: "fifth",
+            6: "sixth", 7: "seventh", 8: "eighth", 9: "ninth", 10: "tenth",
+            11: "eleventh", 12: "twelfth", 13: "thirteenth", 14: "fourteenth",
+            15: "fifteenth", 16: "sixteenth", 17: "seventeenth",
+            18: "eighteenth", 19: "nineteenth", 20: "twentieth",
+            21: "twenty-first", 22: "twenty-second", 23: "twenty-third",
+            30: "thirtieth", 31: "thirty-first", 40: "fortieth",
+            50: "fiftieth", 60: "sixtieth", 70: "seventieth",
+            80: "eightieth", 90: "ninetieth", 100: "hundredth"}
+    def _ord(m: re.Match) -> str:
+        n = int(m.group(1))
+        return _ORD.get(n, _num_to_words(n) + "th")
+    t = re.sub(r"\b(\d+)(?:st|nd|rd|th)\b", _ord, t, flags=re.IGNORECASE)
+
+    # 7c. Ranges: 5-10 million → five to ten million; 20-30% (already handled
+    #     by % rule per side). Only fire when both sides are pure integers.
+    t = re.sub(r"\b(\d+)\s*[–-]\s*(\d+)\b(?=\s+(?:million|billion|thousand|percent|years?|days?|hours?|weeks?|months?|people|users?|companies|dollars?))",
+               lambda m: f"{_num_to_words(int(m.group(1)))} to {_num_to_words(int(m.group(2)))}",
+               t, flags=re.IGNORECASE)
+
+    # 7d. Multipliers: 3x, 10× → three times, ten times
+    t = re.sub(r"\b(\d+)\s*[x×]\b(?!\d)",
+               lambda m: f"{_num_to_words(int(m.group(1)))} times",
+               t)
+
     # 8. Symbols
     for sym, repl in SYMBOLS:
         t = t.replace(sym, repl)
