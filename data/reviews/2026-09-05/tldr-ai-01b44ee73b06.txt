@@ -1,0 +1,58 @@
+═══ 00_KEY_POINTS ═══
+
+1. OpenAI's GPT-6 Astra scored 62.7% for $26K on ARC-AGI-3 Semi-Private using the Standard harness.
+2. Using the Provider Adapter harness, GPT-6 Astra achieved a 99.9% score for $19K on ARC-AGI-3 Semi-Private.
+3. GPT-6 Astra surpassed the human baseline in action efficiency by using fewer actions on 96% of levels.
+4. A key behavior observed in GPT-6 Astra was its ability to turn unfamiliar environments into compact symbolic world models.
+5. ARC-AGI-3 measures agentic intelligence through four components: exploration, modeling, goal-setting, and planning and execution.
+6. Human participants in controlled testing were paid $115 per 90-minute session plus $5 per game completed.
+7. While Astra represents meaningful progress towards generalization, the authors state, "we are not claiming that it is AGI."
+
+═══ 01_DRAFT ═══
+
+OpenAI's GPT-6 Astra has achieved state-of-the-art results on the ARC-AGI-3 benchmark, scoring 62.7% for $26,000 using a Standard harness and 99.9% for $19,000 using a Provider Adapter harness on the ARC-AGI-3 Semi-Private test. The benchmark evaluates agentic intelligence through abstract, turn-based environments testing exploration, modeling, goal-setting, and planning without explicit instructions. Astra surpassed the human baseline in action efficiency, utilizing fewer actions than the median tested human on 96% of levels and averaging 51.7% fewer actions per level. During testing, Astra demonstrated the ability to convert unfamiliar environments into compact symbolic world models by creating a custom domain-specific language shorthand to track state, objects, coordinates, and rules. In an evaluation using the PRO-LONG harness with a code interpreter sandbox, Astra generated custom game-specific software libraries including board parsers, search algorithms, and solver scripts. Provider Adapter runs were approximately 3.66 times faster by aggregate recorded elapsed time and used 49% fewer total tokens compared to the Standard harness across the 167 game-reasoning pairs solved by both configurations. While the developers noted that Astra represents a step-function change in frontier capabilities, they stated that saturating the benchmark does not prove the achievement of artificial general intelligence, as ARC-AGI-3 environments feature bounded scope and deterministic mechanics.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+OpenAI's Astra has achieved state-of-the-art results on the ARC-AGI-3 benchmark, scoring 62.7% for $26K using a Standard harness and 99.9% for $19K using a Provider Adapter harness on the ARC-AGI-3 Semi-Private test. The benchmark evaluates agentic intelligence through abstract, turn-based environments testing exploration, modeling, goal-setting, and planning without explicit instructions. Astra surpassed the human baseline in action efficiency, utilizing fewer actions than the median tested human on 96% of levels and averaging 51.7% fewer actions per level. During testing, Astra demonstrated the ability to convert unfamiliar environments into compact symbolic world models by creating a custom domain-specific language shorthand to track state, objects, coordinates, and rules. In an evaluation using the PRO-LONG harness with a code interpreter sandbox, Astra generated custom game-specific software libraries including board parsers, search algorithms, and solver scripts. Provider Adapter runs were approximately 3.66 times faster by aggregate recorded elapsed time and used 49% fewer total tokens compared to the Standard harness across the 167 game-reasoning pairs solved by both configurations. While the developers noted that Astra represents a step-function change in frontier capabilities, they stated that saturating the benchmark does not prove the achievement of artificial general intelligence, as ARC-AGI-3 environments feature bounded scope and deterministic mechanics.
+
+═══ 03_COVERAGE_1 ═══
+
+85% covered (6/7). Missing: Human participants in controlled testing were paid $115 per 90-minute session plus $5 per game completed.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Open A. I. point Astra has achieved top results on the A. R. C. dash A. G. I. dash three benchmark. It scored sixty-two point seven percent for twenty-six thousand dollars using a Standard harness. It scored ninety-nine point nine percent for nineteen thousand dollars using a Provider Adapter harness on the Semi-Private test.
+
+The benchmark evaluates agentic intelligence through abstract environments. These environments test exploration and modeling and goal-setting and planning without explicit instructions. Astra surpassed the human baseline in action efficiency. It used fewer actions than the median tested human on ninety-six percent of levels. It averaged fifty-one point seven percent fewer actions per level.
+
+Astra demonstrated the ability to convert unfamiliar environments into compact symbolic world models. It created a custom domain-specific language shorthand to track state and objects and coordinates and rules.
+
+Developers used the PRO-LONG harness with a code interpreter sandbox. Astra generated custom game-specific software libraries including board parsers and search algorithms and solver scripts.
+
+Provider Adapter runs were approximately three point six six times faster by aggregate recorded elapsed time. They used forty-nine percent fewer total tokens compared to the Standard harness across the one hundred sixty-seven game-reasoning pairs solved by both configurations.
+
+Developers noted that Astra represents a step-function change in frontier capabilities. They stated that saturating the benchmark does not prove the achievement of artificial general intelligence. This is because the test environments feature bounded scope and deterministic mechanics.
+
+═══ 05_NORMALIZED ═══
+
+Open A. I. point Astra has achieved top results on the A. R. C. dash A. G. I. dash three benchmark. It scored sixty-two point seven percent for twenty-six thousand dollars using a Standard harness. It scored ninety-nine point nine percent for nineteen thousand dollars using a Provider Adapter harness on the Semi-Private test.
+
+The benchmark evaluates agentic intelligence through abstract environments. These environments test exploration and modeling and goal-setting and planning without explicit instructions. Astra surpassed the human baseline in action efficiency. It used fewer actions than the median tested human on ninety-six percent of levels. It averaged fifty-one point seven percent fewer actions per level.
+
+Astra demonstrated the ability to convert unfamiliar environments into compact symbolic world models. It created a custom domain-specific language shorthand to track state and objects and coordinates and rules.
+
+Developers used the PRO-LONG harness with a code interpreter sandbox. Astra generated custom game-specific software libraries including board parsers and search algorithms and solver scripts.
+
+Provider Adapter runs were approximately three point six six times faster by aggregate recorded elapsed time. They used forty-nine percent fewer total tokens compared to the Standard harness across the one hundred sixty-seven game-reasoning pairs solved by both configurations.
+
+Developers noted that Astra represents a step-function change in frontier capabilities. They stated that saturating the benchmark does not prove the achievement of artificial general intelligence. This is because the test environments feature bounded scope and deterministic mechanics.
+
+═══ 06_COVERAGE_FINAL ═══
+
+85% covered (6/7). Missing: Human participants in controlled testing were paid $115 per 90-minute session plus $5 per game completed.
+
+═══ 07_SANITY ═══
+
+ISSUES: A. I., A. R. C., A. G. I.
+

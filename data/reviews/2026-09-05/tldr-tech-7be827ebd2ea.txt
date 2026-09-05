@@ -1,0 +1,97 @@
+═══ 00_KEY_POINTS ═══
+
+1. Invented in 1971, email provided a free-form way to send data to a server and served as a stand-in for accounts.
+2. Jack Dongarra and Eric Grosse built Netlib in 1985 as a software distribution system operating entirely over email.
+3. Netlib was sending nearly 4,000 software downloads a month over email within two years of its launch.
+4. Early platforms like IMDb in its pre-web days relied entirely on email queries to return database search results.
+5. Applications leverage email as a universal interface because everyone already has email and it requires less build-out for developers.
+6. Ray Ozzie noted that bringing Lotus Notes to market required managing resource allocation across multiple disparate computing platforms.
+
+═══ 01_DRAFT ═══
+
+Long before modern web platforms standardized computing, developers turned to email as a universal interface to reach distant computers without building dedicated apps for every operating system. In 1985, Jack Dongarra and Eric Grosse launched Netlib to distribute mathematical software to researchers over ARPANET. Users could send an email requesting specific numerical routines, and Netlib’s server would parse the text, package the code, and reply with the download. Within two years of its launch, Netlib was handling nearly 4,000 software downloads a month.
+
+This model of using email to control machines expanded through the decades. In the early 1990s, FTPmail allowed users to fetch files from FTP servers, MCI Mail enabled faxing, and IMDb founder Alan Jay used email to let users query databases for cast lists and filmographies. The approach endured as software evolved. Applications such as Remember the Milk, Instapaper, Readwise, and WordPress integrated email workflows to let users manage tasks, forward articles, and publish content directly from their inboxes. Beyond acting as an interface, email also serves as a universal online passport and identity system, powering automated bug-fix notifications and streamlining registrations through methods like Japan's Karamail blank-email signups.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Long before modern web platforms standardized computing, developers turned to email as a universal interface to reach distant computers without building dedicated apps for every operating system. In 1985, Jack Dongarra and Eric Grosse launched Netlib to distribute mathematical software to researchers over ARPANET. Users could send an email requesting specific numerical routines, and Netlib’s server would parse the text, package the code, and reply with the download. Netlib was sending nearly 4,000 software downloads a month, over email, two years after launch.
+
+This model of using email to control machines expanded through the decades. In the early 1990s, FTPmail allowed users to fetch files from FTP servers, MCI Mail enabled faxing, and IMDb founder Alan Jay used email to let users query databases for cast lists and filmographies. The approach endured as software evolved. Applications such as Remember the Milk, Instapaper, Readwise, and WordPress integrated email workflows to let users manage tasks, forward articles, and publish content directly from their inboxes. Beyond acting as an interface, email also serves as a universal online passport and identity system, powering automated bug-fix notifications and streamlining registrations through methods like Japan's Karamail blank-email signups.
+
+═══ 02b_TRIMMED ═══
+
+Long before modern web platforms standardized computing, developers turned to email as a universal interface to reach distant computers without building dedicated apps for every operating system. In 1985, Jack Dongarra and Eric Grosse launched Netlib to distribute mathematical software to researchers over ARPANET. Users could send an email requesting specific numerical routines, and Netlib’s server would parse the text, package the code, and reply with the download. Netlib was sending nearly 4,000 software downloads a month, over email, two years after launch. This model of using email to control machines expanded through the decades. In the early 1990s, FTPmail allowed users to fetch files from FTP servers, MCI Mail enabled faxing, and IMDb founder Alan Jay used email to let users query databases for cast lists and filmographies. The approach endured as software evolved.
+
+═══ 03_COVERAGE_1 ═══
+
+66% covered (4/6). Missing: Invented in 1971, email provided a free-form way to send data to a server and served as a stand-in for accounts.; Ray Ozzie noted that bringing Lotus Notes to market required managing resource allocation across multiple disparate computing platforms.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+Long before modern web platforms standardized computing, developers turned to email as a universal interface to reach distant computers without building dedicated apps for every operating system. Invented in 1971, email provided a free-form way to send data to a server and served as a stand-in for accounts. Ray Ozzie noted that bringing Lotus Notes to market required managing resource allocation across multiple disparate computing platforms. In 1985, Jack Dongarra and Eric Grosse launched Netlib to distribute mathematical software to researchers over ARPANET. Users could send an email requesting specific numerical routines, and Netlib’s server would parse the text, package the code, and reply with the download. Netlib was sending nearly 4,000 software downloads a month, over email, two years after launch. This model of using email to control machines expanded through the decades. In the early 1990s, FTPmail allowed users to fetch files from FTP servers, MCI Mail enabled faxing, and IMDb founder Alan Jay used email to let users query databases for cast lists and filmographies. The approach endured as software evolved.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Developers once used email as a universal interface to reach distant computers without building dedicated apps for every operating system. 
+
+Email was invented in nineteen seventy-one. 
+
+It provided a free-form way to send data to a server and served as a stand-in for accounts. 
+
+Ray Ozzie noted that bringing Lotus Notes to market required managing resource allocation across multiple disparate computing platforms. 
+
+Jack Dongarra and Eric Grosse launched Netlib in nineteen eighty-five to distribute mathematical software to researchers over A. R. P. A. N. E. T. 
+
+Users could send an email requesting specific numerical routines. 
+
+The Netlib server would parse the text and package the code before replying with the download. 
+
+Netlib was sending nearly four thousand software downloads a month over email just two years after launch. 
+
+This model of using email to control machines expanded through the decades. 
+
+F. T. P. mail allowed users to fetch files from file transfer protocol servers in the early nineteen nineties. 
+
+M. C. I. Mail enabled faxing during the same period. 
+
+Internet Movie Database founder Alan Jay used email to let users query databases for cast lists and filmographies. 
+
+The approach endured as software evolved.
+
+═══ 05_NORMALIZED ═══
+
+Developers once used email as a universal interface to reach distant computers without building dedicated apps for every operating system.
+
+Email was invented in nineteen seventy-one.
+
+It provided a free-form way to send data to a server and served as a stand-in for accounts.
+
+Ray Ozzie noted that bringing Lotus Notes to market required managing resource allocation across multiple disparate computing platforms.
+
+Jack Dongarra and Eric Grosse launched Netlib in nineteen eighty-five to distribute mathematical software to researchers over A. R. P. A. N. E. T.
+
+Users could send an email requesting specific numerical routines.
+
+The Netlib server would parse the text and package the code before replying with the download.
+
+Netlib was sending nearly four thousand software downloads a month over email just two years after launch.
+
+This model of using email to control machines expanded through the decades.
+
+F. T. P. mail allowed users to fetch files from file transfer protocol servers in the early nineteen nineties.
+
+M. C. I. Mail enabled faxing during the same period.
+
+Internet Movie Database founder Alan Jay used email to let users query databases for cast lists and filmographies.
+
+The approach endured as software evolved.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+OK
+

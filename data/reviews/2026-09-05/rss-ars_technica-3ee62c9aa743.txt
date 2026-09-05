@@ -1,0 +1,44 @@
+═══ 00_KEY_POINTS ═══
+
+1. The BepiColombo mission completed a major milestone in its eight-year voyage to Mercury.
+2. The robotic science mission carries a total price tag of nearly $2 billion.
+3. The mission is led by the European Space Agency with contributions from Japan and the United States.
+4. The spacecraft launched in 2018 and used plasma propulsion and planetary flybys.
+5. BepiColombo will be captured into Mercury's orbit during its final encounter later this year.
+
+═══ 01_DRAFT ═══
+
+The BepiColombo mission has cleared a major milestone in the final stretch of its eight-year interplanetary voyage to Mercury. Led by the European Space Agency with contributions from Japan and the United States, the robotic science mission carries a price tag of nearly $2 billion. Since launching in 2018, BepiColombo has used a combination of plasma propulsion and flybys of Earth, Venus, and Mercury to alter its velocity and steer toward a final encounter with the planet later this year. When it reaches Mercury next, the spacecraft will be traveling at the precise speed required for the planet's gravity to capture it into orbit. Reaching and entering orbit around Mercury requires more energy, or delta-v, than sending a probe to fly by Pluto.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+The BepiColombo mission has cleared a major milestone in the final stretch of its eight-year interplanetary voyage to Mercury. Led by the European Space Agency with contributions from Japan and the United States, the robotic science mission carries a price tag of nearly $2 billion. Since launching in 2018, BepiColombo has used a combination of plasma propulsion and flybys of Earth, Venus, and Mercury to alter its velocity and steer toward a final encounter with the planet later this year. Next time it reaches Mercury, BepiColombo will be traveling at just the right speed for the planet's gravity to capture the spacecraft into orbit. It turns out traveling to fleet-footed Mercury and then entering orbit requires more energy, or delta-v, than sending a probe to fly by Pluto.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (5/5). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+The BepiColombo mission cleared a major milestone in the final stretch of its eight-year interplanetary voyage to Mercury. The European Space Agency leads the mission with contributions from Japan and the United States. The robotic science mission carries a price tag of nearly two billion dollars. 
+
+Since launching in twenty eighteen, the spacecraft has used plasma propulsion and flybys of Earth, Venus, and Mercury. These maneuvers alter its velocity to steer toward a final encounter with the planet later this year. 
+
+Next time it reaches Mercury, the spacecraft will travel at just the right speed. The planet's gravity will capture the spacecraft into orbit. Traveling to fleet-footed Mercury and then entering orbit requires more energy than sending a probe to fly by Pluto.
+
+═══ 05_NORMALIZED ═══
+
+The BepiColombo mission cleared a major milestone in the final stretch of its eight-year interplanetary voyage to Mercury. The European Space Agency leads the mission with contributions from Japan and the United States. The robotic science mission carries a price tag of nearly two billion dollars.
+
+Since launching in twenty eighteen, the spacecraft has used plasma propulsion and flybys of Earth, Venus, and Mercury. These maneuvers alter its velocity to steer toward a final encounter with the planet later this year.
+
+Next time it reaches Mercury, the spacecraft will travel at just the right speed. The planet's gravity will capture the spacecraft into orbit. Traveling to fleet-footed Mercury and then entering orbit requires more energy than sending a probe to fly by Pluto.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (5/5). Missing: none
+
+═══ 07_SANITY ═══
+
+OK
+

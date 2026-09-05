@@ -1,0 +1,37 @@
+═══ 00_KEY_POINTS ═══
+
+1. Three-LLM runs local language models in the browser by converting inference graphs into Three.js TSL compute shaders on WebGPU.
+2. The library recognizes five model architectures including GPT-2, Llama-style, Gemma 3, Phi, and Qwen3.5.
+3. Supported checkpoints range from the 3-million parameter TinyStories GPT-2 to the 1.3-billion parameter Phi-1.5.
+4. Three-LLM loads ordinary Hugging Face configurations, tokenizers, and SafeTensors checkpoints directly in the browser without server-side runtimes.
+5. The project was built to test how far the general compute capabilities of Three.js and WebGPU can be pushed.
+6. Model files range in size from 15 MB to 2.8 GB before Three-LLM expands their weights to 32-bit floats.
+
+═══ 01_DRAFT ═══
+
+The Three-LLM library runs large language models locally in the browser by translating their inference graphs into Three.js TSL compute shaders on WebGPU without requiring a server-side inference runtime or model-specific WebAssembly binary. The project supports models ranging from a 3-million parameter story generator to a modern 800-million parameter chat model, specifically recognizing GPT-2, Llama-style, Gemma 3, Phi, and Qwen3.5 architectures. A quick chat application included with the library allows users to try five checkpoints, which are TinyStories GPT-2 3M, GPT-2 124M, SmolLM2 135M, Qwen3.5 0.8B, and Phi-1.5 1.3B. Model files range in size from 15 megabytes to 2.8 gigabytes before Three-LLM expands their weights to 32-bit floats. The library reads standard Hugging Face config.json files, tokenizer files, and SafeTensors weights at runtime, using CPU reference implementations for validation and GPU implementations for actual use.
+
+═══ 03_COVERAGE_1 ═══
+
+66% covered (4/6). Missing: Supported checkpoints range from the 3-million parameter TinyStories GPT-2 to the 1.3-billion parameter Phi-1.5.; The project was built to test how far the general compute capabilities of Three.js and WebGPU can be pushed.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+The Three-LLM library runs large language models locally in the browser by translating their inference graphs into Three.js TSL compute shaders on WebGPU without requiring a server-side inference runtime or model-specific WebAssembly binary. The project was built to test how far the general compute capabilities of Three.js and WebGPU can be pushed. Supported checkpoints range from the 3-million parameter TinyStories GPT-2 to the 1.3-billion parameter Phi-1.5, and the project specifically recognizes GPT-2, Llama-style, Gemma 3, Phi, and Qwen3.5 architectures. A quick chat application included with the library allows users to try five checkpoints, which are TinyStories GPT-2 3M, GPT-2 124M, SmolLM2 135M, Qwen3.5 0.8B, and Phi-1.5 1.3B. Model files range in size from 15 megabytes to 2.8 gigabytes before Three-LLM expands their weights to 32-bit floats. The library reads standard Hugging Face config.json files, tokenizer files, and SafeTensors weights at runtime, using CPU reference implementations for validation and GPU implementations for actual use.
+
+═══ 04_AUDIO_REWRITE ═══
+
+The Three L. L. M. library runs large language models locally in the browser. It translates inference graphs into Three.js T. S. L. compute shaders on Web. G. P. U. This works without a server-side inference runtime or model-specific Web. Assembly binaries. The project was built to test the general compute capabilities of Three.js and Web. G. P. U. Supported checkpoints range from the three million parameter TinyStories G. P. T. dash two to the one point three billion parameter Phi one point five. The project specifically recognizes G. P. T. dash two, Llama-style, Gemma three, Phi, and Qwen three point five architectures. A quick chat application included with the library lets users try five checkpoints. These are TinyStories G. P. T. dash two three M, G. P. T. dash two one hundred twenty-four M, Smol L. M. two one hundred thirty-five M, Qwen three point five zero point eight B, and Phi one point five one point three B. Model files range in size from fifteen megabytes to two point eight gigabytes before Three L. L. M. expands their weights to thirty-two-bit floats. The library reads standard Hugging Face config dot json files, tokenizer files, and SafeTensors weights at runtime. It uses C. P. U. reference implementations for validation and G. P. U. implementations for actual use.
+
+═══ 05_NORMALIZED ═══
+
+The Three L. L. M. library runs large language models locally in the browser. It translates inference graphs into Three.js T. S. L. compute shaders on Web. G. P. U. This works without a server-side inference runtime or model-specific Web. Assembly binaries. The project was built to test the general compute capabilities of Three.js and Web. G. P. U. Supported checkpoints range from the three million parameter TinyStories G. P. T. dash two to the one point three billion parameter Phi one point five. The project specifically recognizes G. P. T. dash two, Llama-style, Gemma three, Phi, and Qwen three point five architectures. A quick chat application included with the library lets users try five checkpoints. These are TinyStories G. P. T. dash two three M, G. P. T. dash two one hundred twenty-four M, Smol L. M. two one hundred thirty-five M, Qwen three point five zero point eight B, and Phi one point five one point three B. Model files range in size from fifteen megabytes to two point eight gigabytes before Three L. L. M. expands their weights to thirty-two-bit floats. The library reads standard Hugging Face config dot json files, tokenizer files, and SafeTensors weights at runtime. It uses C. P. U. reference implementations for validation and G. P. U. implementations for actual use.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: Web. G. P. U., G. P. T. dash two, Web. Assembly, G. P. T. dash two, Phi one point five, G. P. T. dash two, Qwen three point five, TinyStories G. P. T. dash two three M, G. P. T. dash two one hundred twenty-four M, Smol L. M. two one hundred thirty-five M, Qwen three point five zero point eight B, Phi one point five one point three B, config dot json
+

@@ -1,0 +1,50 @@
+═══ 00_KEY_POINTS ═══
+
+1. Google launched agentic video understanding across Gemini 3.7 Flash, 3.6 Flash, and 3.5 Flash-Lite models today.
+2. The new video processing feature reduces analysis costs by up to 66 percent.
+3. Activating agentic video understanding drops token consumption by up to 88 percent.
+4. The feature improves video analysis accuracy by up to 7 percent across standard benchmarks.
+5. Developers can access the feature today through the Gemini API in Google AI Studio and Gemini Enterprise.
+6. The new capability matters because it eliminates the tradeoff between high token costs and dropped critical video details.
+7. Agentic video understanding will soon power the Ask YouTube feature on the video watch page.
+
+═══ 01_DRAFT ═══
+
+Google launched agentic video understanding across three of its latest models: Gemini 3.7 Flash, Gemini 3.6 Flash, and Gemini 3.5 Flash-Lite. The new capability shifts video analysis away from traditional static processing at a fixed frame rate, instead using native video tools and an agentic loop to dynamically search, scan, and inspect target video segments across visual frames, audio, and transcripts. 
+
+According to the company, the feature reduces analysis costs by up to 66 percent and token consumption by up to 88 percent while improving accuracy by up to 7 percent. These efficiency gains are designed to help developers process long-form video content—ranging from ten-minute how-to guides to multi-hour recordings—without forcing a choice between high token costs or dropped details. Supported use cases include sub-second moment retrieval, long-form needle-in-a-haystack searches, anomaly detection, and precise counting of actions and objects. 
+
+The feature is available starting today for video uploads and YouTube videos via the Gemini API in Google AI Studio and the Gemini Enterprise Agent Platform, using standard token pricing with no additional feature fee. Developers can activate it by setting processing to agentic in the API configuration. Google also stated that the capability will soon roll out to all users in the Gemini app and will power the Ask YouTube feature on the video watch page in the coming months.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (7/7). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Google just launched agentic video understanding across three new models. Those models are Gemini three point seven Flash, Gemini three point six Flash, and Gemini three point five Flash-Lite. 
+
+This new capability shifts video analysis away from traditional static processing at a fixed frame rate. It uses native video tools and an agentic loop instead. This loop dynamically searches, scans, and inspects target video segments across visual frames, audio, and transcripts. 
+
+According to the company, the feature reduces analysis costs by up to sixty-six percent. It also cuts token consumption by up to eighty-eight percent while improving accuracy by up to seven percent. These efficiency gains help developers process long-form video content without forcing a choice between high token costs or dropped details. Content can range from ten-minute how-to guides to multi-hour recordings. Supported use cases include sub-second moment retrieval, long-form searches, anomaly detection, and precise counting of actions and objects. 
+
+The feature is available starting today for video uploads and YouTube videos. Developers can use it through the Gemini A. I. Application Programming Interface in Google A. I. Studio and the Gemini Enterprise Agent Platform. It uses standard token pricing with no additional feature fee. Developers can activate it by setting processing to agentic in the Application Programming Interface configuration. Google also stated that the capability will soon roll out to all users in the Gemini app. It will also power the Ask YouTube feature on the video watch page in the coming months.
+
+═══ 05_NORMALIZED ═══
+
+Google just launched agentic video understanding across three new models. Those models are Gemini three point seven Flash, Gemini three point six Flash, and Gemini three point five Flash-Lite.
+
+This new capability shifts video analysis away from traditional static processing at a fixed frame rate. It uses native video tools and an agentic loop instead. This loop dynamically searches, scans, and inspects target video segments across visual frames, audio, and transcripts.
+
+According to the company, the feature reduces analysis costs by up to sixty-six percent. It also cuts token consumption by up to eighty-eight percent while improving accuracy by up to seven percent. These efficiency gains help developers process long-form video content without forcing a choice between high token costs or dropped details. Content can range from ten-minute how-to guides to multi-hour recordings. Supported use cases include sub-second moment retrieval, long-form searches, anomaly detection, and precise counting of actions and objects.
+
+The feature is available starting today for video uploads and YouTube videos. Developers can use it through the Gemini A. I. Application Programming Interface in Google A. I. Studio and the Gemini Enterprise Agent Platform. It uses standard token pricing with no additional feature fee. Developers can activate it by setting processing to agentic in the Application Programming Interface configuration. Google also stated that the capability will soon roll out to all users in the Gemini app. It will also power the Ask YouTube feature on the video watch page in the coming months.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (7/7). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: unspoken/unspaced acronyms
+

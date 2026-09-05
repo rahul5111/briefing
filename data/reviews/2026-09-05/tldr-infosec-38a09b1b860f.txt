@@ -1,0 +1,54 @@
+═══ 00_KEY_POINTS ═══
+
+1. Threat actors targeted Latin American organizations in two distinct campaigns tracked as CL-CRI-1131 and CL-CRI-1163.
+2. Attackers leveraged commercial large language models like Claude and GPT-4.1 to orchestrate operations and troubleshoot technical failures.
+3. The Mexican transportation campaign used iterative batch scripts and self-hosted NextChat instances on operational infrastructure.
+4. The Brazilian financial campaign utilized custom remote access Trojans and a Go-based SOCKS5 tunneling tool named SockTz.
+5. Attackers attempted to install versions one through nine of the SockTz proxy tool within a two-hour window.
+6. Exposed staging infrastructure and unsecured NextChat directories revealed attacker prompt histories, scripts, and targeting profiles to researchers.
+7. This news matters because integrating AI into threat actor workflows serves as a force multiplier that lowers technical barriers for complex cyberattacks.
+
+═══ 01_DRAFT ═══
+
+Two ongoing network intrusion and data-exfiltration campaigns targeting organizations in Latin America have been analyzed, revealing that attackers are using commercial large language models to orchestrate operations and overcome execution failures. The activity spans two distinct clusters. The first, tracked as CL-CRI-1131 and also known as Operation Escaneo, targeted a transportation organization, federal government ministries, and municipal water utilities in Mexico and Ecuador during compromises observed in April and June 2026. This campaign utilized living-off-the-land techniques, batch scripts, and self-hosted NextChat instances on infrastructure hosted at the IP addresses 178.128.87.160 and 62.171.185.97, utilizing the domain m-doxa-apodo.duckdns.org. The second cluster, tracked as CL-CRI-1163, targeted the Brazilian financial sector starting in February 2026 following a job-themed phishing campaign. Attackers in this cluster deployed custom remote access Trojans and a Go-based SOCKS5 proxy named SockTz, attempting to install versions 1 through 9 within a two-hour window from an open directory at 167.148.195.53. In both campaigns, iterative script naming conventions, descriptive adjectives like exploit_creative.py and exploit_careful.py, and trial-and-error troubleshooting indicated the use of artificial intelligence to generate workaround scripts and streamline execution. According to the analysis, this integration serves as a force multiplier for threat actors, but foundational operational security failures, such as exposed staging directories and unsecured NextChat interfaces, left their playbook and prompt history visible to researchers and provide defenders with a clear roadmap to track and disrupt the campaigns.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Two ongoing network intrusion and data-exfiltration campaigns targeting organizations in Latin America have been analyzed, revealing that attackers are using commercial large language models to orchestrate operations and overcome execution failures. The activity spans two distinct clusters. The first, tracked as CL-CRI-1131 and also known as Operation Escaneo, targeted a transportation organization, federal government ministries, and municipal water utilities in Mexico and Ecuador during compromises observed in April and June 2026. This campaign utilized living-off-the-land techniques, iterative batch scripts, and self-hosted NextChat instances. The second cluster, tracked as CL-CRI-1163, targeted the Brazilian financial sector starting in February 2026 following a job-themed phishing campaign. Attackers in this cluster deployed custom remote access Trojans and a Go-based SOCKS5 proxy named SockTz, with installation attempts of iterative versions observed. In both campaigns, iterative script naming conventions, descriptive adjectives like exploit_creative.py and exploit_careful.py, and trial-and-error troubleshooting indicated the use of artificial intelligence to generate workaround scripts and streamline execution. According to the analysis, this integration serves as a force multiplier for threat actors, but foundational operational security failures, such as exposed staging directories and unsecured NextChat interfaces, left their playbook and prompt history visible to researchers and provide defenders with a clear roadmap to track and disrupt the campaigns.
+
+═══ 03_COVERAGE_1 ═══
+
+85% covered (6/7). Missing: Attackers attempted to install versions one through nine of the SockTz proxy tool within a two-hour window.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Attackers are using commercial large language models to run network intrusions in Latin America. Researchers analyzed two separate campaigns that used artificial intelligence to overcome execution failures. 
+
+The first campaign is tracked as C. L. dash C. R. I. dash eleven thirty-one. It is also known as Operation Escaneo. It targeted a transportation organization, federal government ministries, and municipal water utilities in Mexico and Ecuador. These compromises happened in April and June of twenty twenty-six. The attackers used living-off-the-land techniques and iterative batch scripts. They also used self-hosted NextChat instances. 
+
+The second campaign is tracked as C. L. dash C. R. I. dash eleven sixty-three. It targeted the Brazilian financial sector starting in February of twenty twenty-six. The attacks began with a job-themed phishing campaign. Attackers deployed custom remote access Trojans and a Go-based proxy named SockTz. Researchers saw installation attempts of iterative versions of this tool. 
+
+Both campaigns showed signs of artificial intelligence use. The attackers used iterative script naming conventions and descriptive adjectives like exploit underscore creative dot py and exploit underscore careful dot py. They also relied on trial-and-error troubleshooting to generate workaround scripts. 
+
+This integration serves as a force multiplier for threat actors. However, foundational operational security failures exposed their playbook and prompt history. Exposed staging directories and unsecured NextChat interfaces let researchers see the prompts. This gives defenders a clear roadmap to track and disrupt the campaigns.
+
+═══ 05_NORMALIZED ═══
+
+Attackers are using commercial large language models to run network intrusions in Latin America. Researchers analyzed two separate campaigns that used artificial intelligence to overcome execution failures.
+
+The first campaign is tracked as C. L. dash C. R. I. dash eleven thirty-one. It is also known as Operation Escaneo. It targeted a transportation organization, federal government ministries, and municipal water utilities in Mexico and Ecuador. These compromises happened in April and June of twenty twenty-six. The attackers used living-off-the-land techniques and iterative batch scripts. They also used self-hosted NextChat instances.
+
+The second campaign is tracked as C. L. dash C. R. I. dash eleven sixty-three. It targeted the Brazilian financial sector starting in February of twenty twenty-six. The attacks began with a job-themed phishing campaign. Attackers deployed custom remote access Trojans and a Go-based proxy named SockTz. Researchers saw installation attempts of iterative versions of this tool.
+
+Both campaigns showed signs of artificial intelligence use. The attackers used iterative script naming conventions and descriptive adjectives like exploit underscore creative dot py and exploit underscore careful dot py. They also relied on trial-and-error troubleshooting to generate workaround scripts.
+
+This integration serves as a force multiplier for threat actors. However, foundational operational security failures exposed their playbook and prompt history. Exposed staging directories and unsecured NextChat interfaces let researchers see the prompts. This gives defenders a clear roadmap to track and disrupt the campaigns.
+
+═══ 06_COVERAGE_FINAL ═══
+
+85% covered (6/7). Missing: Attackers attempted to install versions one through nine of the SockTz proxy tool within a two-hour window.
+
+═══ 07_SANITY ═══
+
+ISSUES: C. L. dash C. R. I. dash eleven thirty-one, C. L. dash C. R. I. dash eleven sixty-three, exploit underscore creative dot py, exploit underscore careful dot py
+

@@ -1,0 +1,72 @@
+═══ 00_KEY_POINTS ═══
+
+1. A short GRPO run with about 500 samples and 100 steps can lift a small 350M parameter model from 22.6% to 29.7% on IFStruct.
+2. The base model LiquidAI/LFM2.5-350M achieved an overall score of 22.6% on the 2000-sample IFStruct benchmark.
+3. After GRPO fine-tuning, the fine-tuned model reached an overall score of 29.7% on the IFStruct benchmark evaluation.
+4. The JSON format pass rate rose significantly by nearly 14 points from 18.0% to 31.9% after fine-tuning.
+5. Task-specific fine-tuning of smaller models can improve performance and match that of far larger models.
+
+═══ 01_DRAFT ═══
+
+Task-specific fine-tuning of the 350-million parameter LiquidAI LFM2.5 model using 100 steps of Group Relative Policy Optimization significantly improves its schema compliance and structured output reliability. Evaluated on the open-source IFStruct benchmark dataset available on Hugging Face as LiquidAI/ifstruct-v1.0, the base model achieved an overall pass rate of 22.6 percent across 2,000 samples, closely matching the 21.1 percent score reported in the IFStruct release blog. 
+
+The fine-tuning pipeline used about 500 samples from nvidia/Nemotron-RL-instruction_following-structured_outputs, augmented with format instructions and top-level-array tasks. Training attached a LoRA adapter targeting approximately 6 million parameters, or 1.66 percent of the model, using three reward functions scored on a zero to one scale for JSON formatting, field count, and schema validation with weights set to 1.0, 0.5, and 2.0 respectively. The GRPO configuration ran with a learning rate of 5e-5, a batch size of 4, gradient accumulation steps of 8, and 8 generations per prompt group.
+
+After converting the merged checkpoint into a BF16 GGUF format and serving it locally via llama.cpp, the fine-evaluated model scored an overall pass rate of 29.7 percent on the 2,000 IFStruct samples. Specifically, the JSON pass rate jumped by nearly 14 points from 18.0 percent to 31.9 percent, while YAML performance remained stable. This performance closes much of the gap to larger models, bringing the small architecture close to the Qwen3.5-2B score of 33.15 percent.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Fine-tuning a 350M model using Group Relative Policy Optimization can improve structured output performance. Evaluated on the open-source IFStruct benchmark dataset available on Hugging Face at LiquidAI/ifstruct-v1.0, the base model achieved an overall pass rate of 22.6 percent across 2,000 samples, close to the 21.1 percent score reported in the IFStruct release blog. 
+
+The fine-tuning pipeline used about 500 samples from nvidia/Nemotron-RL-instruction_following-structured_outputs, augmented with format instructions and top-level-array tasks. Training attached a LoRA adapter targeting approximately 6 million parameters, or 1.66 percent of the model, using three reward functions scored on a zero to one scale for JSON formatting, field count, and schema validation with weights set to 1.0, 0.5, and 2.0 respectively. The GRPO configuration ran with a learning rate of 5e-5, a batch size of 4, gradient accumulation steps of 8, and 8 generations per prompt group.
+
+After converting the merged checkpoint into a BF16 GGUF format and serving it locally via llama.cpp, the fine-tuned model scored an overall pass rate of 29.7 percent on the 2,000 IFStruct samples. The gains land where the training aimed, with the JSON pass rate rising by nearly 14 points (18.0% to 31.9%), while YAML stays mostly the same. This performance closes much of the gap to larger models, bringing the small architecture close to the Qwen3.5-2B score of 33.15%.
+
+═══ 02b_TRIMMED ═══
+
+The fine-tuning pipeline used about 500 samples from nvidia/Nemotron-RL-instruction_following-structured_outputs, augmented with format instructions and top-level-array tasks. Training attached a LoRA adapter targeting approximately 6 million parameters, or 1.66 percent of the model, using three reward functions scored on a zero to one scale for JSON formatting, field count, and schema validation with weights set to 1.0, 0.5, and 2.0 respectively. The GRPO configuration ran with a learning rate of 5e-5, a batch size of 4, gradient accumulation steps of 8, and 8 generations per prompt group. After converting the merged checkpoint into a BF16 GGUF format and serving it locally via llama.cpp, the fine-tuned model scored an overall pass rate of 29.7 percent on the 2,000 IFStruct samples. The gains land where the training aimed, with the JSON pass rate rising by nearly 14 points (18.0% to 31.9%), while YAML stays mostly the same. This performance closes much of the gap to larger models, bringing the small architecture close to the Qwen3.5-2B score of 33.15%.
+
+═══ 03_COVERAGE_1 ═══
+
+80% covered (4/5). Missing: A short GRPO run with about 500 samples and 100 steps can lift a small 350M parameter model from 22.6% to 29.7% on IFStruct.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+The fine-tuning pipeline used about 500 samples from nvidia/Nemotron-RL-instruction_following-structured_outputs, augmented with format instructions and top-level-array tasks. Training attached a LoRA adapter targeting approximately 6 million parameters, or 1.66 percent of the model, using three reward functions scored on a zero to one scale for JSON formatting, field count, and schema validation with weights set to 1.0, 0.5, and 2.0 respectively. The GRPO configuration ran with a learning rate of 5e-5, a batch size of 4, gradient accumulation steps of 8, and 8 generations per prompt group. A short GRPO run with about 500 samples and 100 steps can lift a small 350M parameter model from 22.6% to 29.7% on IFStruct. After converting the merged checkpoint into a BF16 GGUF format and serving it locally via llama.cpp, the fine-tuned model scored an overall pass rate of 29.7 percent on the 2,000 IFStruct samples. The gains land where the training aimed, with the JSON pass rate rising by nearly 14 points (18.0% to 31.9%), while YAML stays mostly the same. This performance closes much of the gap to larger models, bringing the small architecture close to the Qwen3.5-2B score of 33.15%.
+
+═══ 04_AUDIO_REWRITE ═══
+
+The fine-tuning pipeline used about five hundred samples from nvidia slash Nemotron dash R. L. dash instruction underscore following underscore structured underscore outputs. The data was augmented with format instructions and top level array tasks. Training attached a L. O. R. A. adapter targeting approximately six million parameters. This represents one point six six percent of the model. 
+
+The process used three reward functions scored on a zero to one scale. The functions evaluated J. S. O. N. formatting, field count, and schema validation. The weights were set to one point zero, zero point five, and two point zero respectively. 
+
+The G. R. P. O. configuration ran with a learning rate of five e to the minus five. The batch size was four with eight gradient accumulation steps. There were eight generations per prompt group. A short G. R. P. O. run with about five hundred samples and one hundred steps can lift a small three hundred fifty million parameter model from twenty-two point six percent to twenty-nine point seven percent on I. F. Struct. 
+
+The merged checkpoint was converted into a B. F. sixteen G. G. U. F. format. It was served locally via llama dot c. p. p. 
+
+The fine-tuned model scored an overall pass rate of twenty-nine point seven percent on the two thousand I. F. Struct samples. The gains land where the training aimed. The J. S. O. N. pass rate rose by nearly fourteen points moving from eighteen point zero percent to thirty-one point nine percent. Meanwhile, Y. A. M. L. stays mostly the same. 
+
+This performance closes much of the gap to larger models. It brings the small architecture close to the Qwen three point five dash two B. score of thirty-three point one five percent.
+
+═══ 05_NORMALIZED ═══
+
+The fine-tuning pipeline used about five hundred samples from nvidia slash Nemotron dash R. L. dash instruction underscore following underscore structured underscore outputs. The data was augmented with format instructions and top level array tasks. Training attached a L. O. R. A. adapter targeting approximately six million parameters. This represents one point six six percent of the model.
+
+The process used three reward functions scored on a zero to one scale. The functions evaluated J. S. O. N. formatting, field count, and schema validation. The weights were set to one point zero, zero point five, and two point zero respectively.
+
+The G. R. P. O. configuration ran with a learning rate of five e to the minus five. The batch size was four with eight gradient accumulation steps. There were eight generations per prompt group. A short G. R. P. O. run with about five hundred samples and one hundred steps can lift a small three hundred fifty million parameter model from twenty-two point six percent to twenty-nine point seven percent on I. F. Struct.
+
+The merged checkpoint was converted into a B. F. sixteen G. G. U. F. format. It was served locally via llama dot c. p. p.
+
+The fine-tuned model scored an overall pass rate of twenty-nine point seven percent on the two thousand I. F. Struct samples. The gains land where the training aimed. The J. S. O. N. pass rate rose by nearly fourteen points moving from eighteen point zero percent to thirty-one point nine percent. Meanwhile, Y. A. M. L. stays mostly the same.
+
+This performance closes much of the gap to larger models. It brings the small architecture close to the Qwen three point five dash two B. score of thirty-three point one five percent.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (5/5). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: nvidia slash Nemotron dash R. L. dash instruction underscore following underscore structured underscore outputs, five e to the minus five, llama dot c. p. p.
+

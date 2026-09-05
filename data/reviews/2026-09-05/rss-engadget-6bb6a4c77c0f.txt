@@ -1,0 +1,61 @@
+═══ 00_KEY_POINTS ═══
+
+1. Press Win plus I to open the Settings panel and go to System Storage.
+2. Change the Sort by box to Size Large to Small under Installed apps.
+3. Run Command Prompt as administrator and type powercfg hibernate off to disable hibernation.
+4. Use the third-party tool TreeSize Free to visualize what uses the most space.
+5. Enable Storage Sense in Windows Settings to automatically clean up junk files over time.
+6. Weeding out what monopolizes your computer storage gives you more breathing room.
+
+═══ 01_DRAFT ═══
+
+To clean up space on a Windows PC, users can start by using the built-in storage management tool by pressing Win plus I to open the Settings panel and navigating to System then Storage. From there, reviewing Installed apps allows users to sort items by size from large to small and uninstall unneeded programs, or move them if multiple drives are available. The Temporary Files section provides checkboxes for easily removable items like thumbnails, while Cleanup System Files reveals additional clutter. 
+
+For system features, users can disable hibernation to remove the hiberfil.sys file by opening the Command Prompt as an administrator and entering powercfg space forward slash hibernate space off. System restore usage can also be reduced by adjusting the Max Usage slider or deleting restore points. 
+
+To analyze individual files and folders, third-party tools like TreeSize Free allow users to scan their main drive and view the largest folders at the top. For finding duplicate files that waste space, dupeGuru is recommended. 
+
+To automate future cleanups, users can enable Storage Sense under the Storage settings to regularly remove temporary files and clear user content automatically.
+
+═══ 03_COVERAGE_1 ═══
+
+83% covered (5/6). Missing: Weeding out what monopolizes your computer storage gives you more breathing room.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+To clean up space on a Windows PC, users can start by using the built-in storage management tool by pressing Win plus I to open the Settings panel and navigating to System then Storage. Don't go digging into folders at random; weeding out what monopolizes your computer storage gives you more breathing room. From there, reviewing Installed apps allows users to sort items by size from large to small and uninstall unneeded programs, or move them if multiple drives are available. The Temporary Files section provides checkboxes for easily removable items like thumbnails, while Cleanup System Files reveals additional clutter. 
+
+For system features, users can disable hibernation to remove the hiberfil.sys file by opening the Command Prompt as an administrator and entering powercfg space forward slash hibernate space off. System restore usage can also be reduced by adjusting the Max Usage slider or deleting restore points. 
+
+To analyze individual files and folders, third-party tools like TreeSize Free allow users to scan their main drive and view the largest folders at the top. For finding duplicate files that waste space, dupeGuru is recommended. 
+
+To automate future cleanups, users can enable Storage Sense under the Storage settings to regularly remove temporary files and clear user content automatically.
+
+═══ 04_AUDIO_REWRITE ═══
+
+You can clean up space on a Windows personal computer using the built-in storage management tool. Press the Windows key and the I key together to open the settings panel. Then go to system and storage. Reviewing your installed apps lets you sort items by size from large to small. You can uninstall unneeded programs or move them if you have multiple drives. The temporary files section provides checkboxes for easily removable items like thumbnails. Selecting cleanup system files reveals additional clutter. 
+
+You can disable hibernation to remove the main hibernation file. Open the command prompt as an administrator and enter powercfg space forward slash hibernate space off. You can also reduce system restore usage. Adjust the max usage slider or delete old restore points. 
+
+To analyze individual files and folders, third party tools help you scan your main drive. TreeSize Free allows you view the largest folders at the top. For finding duplicate files that waste space, dupeGuru is recommended. 
+
+To automate future cleanups, you can enable storage sense under your storage settings. This feature regularly removes temporary files and clears user content automatically.
+
+═══ 05_NORMALIZED ═══
+
+You can clean up space on a Windows personal computer using the built-in storage management tool. Press the Windows key and the I key together to open the settings panel. Then go to system and storage. Reviewing your installed apps lets you sort items by size from large to small. You can uninstall unneeded programs or move them if you have multiple drives. The temporary files section provides checkboxes for easily removable items like thumbnails. Selecting cleanup system files reveals additional clutter.
+
+You can disable hibernation to remove the main hibernation file. Open the command prompt as an administrator and enter powercfg space forward slash hibernate space off. You can also reduce system restore usage. Adjust the max usage slider or delete old restore points.
+
+To analyze individual files and folders, third party tools help you scan your main drive. TreeSize Free allows you view the largest folders at the top. For finding duplicate files that waste space, dupeGuru is recommended.
+
+To automate future cleanups, you can enable storage sense under your storage settings. This feature regularly removes temporary files and clears user content automatically.
+
+═══ 06_COVERAGE_FINAL ═══
+
+83% covered (5/6). Missing: Weeding out what monopolizes your computer storage gives you more breathing room.
+
+═══ 07_SANITY ═══
+
+ISSUES: powercfg space forward slash hibernate space off
+
