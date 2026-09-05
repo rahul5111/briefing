@@ -1,0 +1,56 @@
+═══ 00_KEY_POINTS ═══
+
+1. Audacity 4.0 rebuilds the entire application interface on Qt and introduces a new clip-editing model.
+2. Audacity 4 uses the new .aup4 project format, and older .aup3 projects convert upon opening.
+3. Official Windows builds for Audacity 4.0 now include ASIO playback and recording support.
+4. Several older features like Time Tracks and Note tracks are currently unavailable in Audacity 4.0.
+5. The application updates bring numerous quality-of-life improvements and a newly changed Audacity logo.
+
+═══ 01_DRAFT ═══
+
+Audacity 4.0 has been released, featuring a complete interface rebuild on Qt that introduces native high-DPI rendering, customizable toolbars, saved workspaces, and light, dark, and high-contrast themes. The update brings a new clip-editing model that allows users to select, group, move, and trim multiple clips together, alongside a dedicated split tool accessed by pressing or holding the S key. Clips can now move freely between mono and stereo tracks, with overlapping moves replacing the overlapped part rather than blocking the action. The software introduces the new aup4 project format, which opens and converts older aup3 projects without modifying the original files, though converted projects cannot be saved back to aup3. Playback and recording updates allow the playhead to remain visible during navigation, enable seeking without stopping playback, and provide ASIO playback and recording support in official Windows builds. Several Audacity 3 features are currently unavailable in version 4.0, including Time Tracks, Note and MIDI tracks, the Mixer, Macro Manager and scripting pipe, VAMP and LADSPA plugin hosting, and play-at-speed, though developers are working to add them in future releases.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Audacity 4.0 has been released, featuring a complete interface rebuild on Qt that introduces native high-DPI rendering, customizable toolbars, saved workspaces, and light, dark, and high-contrast themes. The update brings a new clip-editing model that allows users to select, group, move, and trim multiple clips together, alongside a dedicated split tool accessed by pressing or holding the S key. Clips can now move freely between mono and stereo tracks, with overlapping moves replacing the overlapped part rather than blocking the action. The software introduces the new aup4 project format, which opens and converts older aup3 projects without modifying the original files, though converted projects cannot be saved back to aup3. Playback and recording updates allow the playhead to remain visible during navigation, enable seeking without stopping playback, and provide ASIO playback and recording support in official Windows builds. Certain Audacity 3 features are not available in Audacity 4.0, including Time Tracks, Note and MIDI tracks, the Mixer, Macro Manager and the scripting pipe, VAMP and LADSPA plugin hosting, and play-at-speed, but developers are working to add them in future releases.
+
+═══ 02b_TRIMMED ═══
+
+Audacity 4.0 has been released, featuring a complete interface rebuild on Qt that introduces native high-DPI rendering, customizable toolbars, saved workspaces, and light, dark, and high-contrast themes. The update brings a new clip-editing model that allows users to select, group, move, and trim multiple clips together, alongside a dedicated split tool accessed by pressing or holding the S key. Clips can now move freely between mono and stereo tracks, with overlapping moves replacing the overlapped part rather than blocking the action. The software introduces the new aup4 project format, which opens and converts older aup3 projects without modifying the original files, though converted projects cannot be saved back to aup3. Playback and recording updates allow the playhead to remain visible during navigation, enable seeking without stopping playback, and provide ASIO playback and recording support in official Windows builds.
+
+═══ 03_COVERAGE_1 ═══
+
+60% covered (3/5). Missing: Several older features like Time Tracks and Note tracks are currently unavailable in Audacity 4.0.; The application updates bring numerous quality-of-life improvements and a newly changed Audacity logo.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+Audacity 4.0 has been released, featuring a complete interface rebuild on Qt that introduces native high-DPI rendering, customizable toolbars, saved workspaces, and light, dark, and high-contrast themes. The application updates bring numerous quality-of-life improvements and a newly changed Audacity logo. The update brings a new clip-editing model that allows users to select, group, move, and trim multiple clips together, alongside a dedicated split tool accessed by pressing or holding the S key. Several older features like Time Tracks and Note tracks are currently unavailable in Audacity 4.0. Clips can now move freely between mono and stereo tracks, with overlapping moves replacing the overlapped part rather than blocking the action. The software introduces the new aup4 project format, which opens and converts older aup3 projects without modifying the original files, though converted projects cannot be saved back to aup3. Playback and recording updates allow the playhead to remain visible during navigation, enable seeking without stopping playback, and provide ASIO playback and recording support in official Windows builds.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Audacity four point zero is out now. It brings a brand new interface built on a tool called Q. T. The software adds native high D. P. I. rendering and customizable toolbars. Users can save workspaces and choose between light, dark, and high-contrast themes. The application includes many quality-of-life improvements and a newly changed Audacity logo. 
+
+The update introduces a new clip-editing model. Users can select and group multiple clips together. They can also move and trim them at the same time. A dedicated split tool is available by pressing or holding the S key. Several older features are currently unavailable in version four point zero. Those missing features include time tracks and note tracks. 
+
+Clips can now move freely between mono and stereo tracks. Overlapping moves will replace the overlapped part instead of blocking the action. The software introduces a new project format named A. U. P. four. This format opens and converts older A. U. P. three projects. It does not modify the original files. Converted projects cannot be saved back to the older format. 
+
+Playback and recording updates keep the playhead visible during navigation. Users can seek through audio without stopping playback. Official Windows builds now provide A. S. I. O. playback and recording support.
+
+═══ 05_NORMALIZED ═══
+
+Audacity four point zero is out now. It brings a brand new interface built on a tool called Q. T. The software adds native high D. P. I. rendering and customizable toolbars. Users can save workspaces and choose between light, dark, and high-contrast themes. The application includes many quality-of-life improvements and a newly changed Audacity logo.
+
+The update introduces a new clip-editing model. Users can select and group multiple clips together. They can also move and trim them at the same time. A dedicated split tool is available by pressing or holding the S key. Several older features are currently unavailable in version four point zero. Those missing features include time tracks and note tracks.
+
+Clips can now move freely between mono and stereo tracks. Overlapping moves will replace the overlapped part instead of blocking the action. The software introduces a new project format named A. U. P. four. This format opens and converts older A. U. P. three projects. It does not modify the original files. Converted projects cannot be saved back to the older format.
+
+Playback and recording updates keep the playhead visible during navigation. Users can seek through audio without stopping playback. Official Windows builds now provide A. S. I. O. playback and recording support.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (5/5). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: Q. T., D. P. I., A. U. P. four, A. S. I. O.
+

@@ -1,0 +1,65 @@
+═══ 00_KEY_POINTS ═══
+
+1. OpenAI is introducing GPT-6 Astra, described as the world's most intelligent and aligned model.
+2. GPT-6 Astra achieves a 98% score on FrontierMath Tier 4 and a 99.9% score on ARC-AGI-3.
+3. The model is rolling out today to a limited set of organizations and soon to ChatGPT Plus, Pro, Business, and Enterprise users.
+4. GPT-6 Astra achieved a 100% score on ExploitBench, outperforming the previous GPT-5.6 Sol model.
+5. Astra reached a 72.6% performance score on OSWorld 2.0 in about 47% less time per task than GPT-5.6 Sol.
+6. During evaluations, Astra discovered and used two previously unknown zero-day vulnerabilities, which are being disclosed to their maintainers.
+
+═══ 01_DRAFT ═══
+
+OpenAI has introduced GPT-6 Astra, its newest intelligence and alignment model, rolling out today to a limited set of organizations before expanding over the coming days to ChatGPT Plus, Pro, Business, and Enterprise users, as well as the OpenAI API, Microsoft Azure, and AWS Bedrock. 
+
+Astra achieves state-of-the-art results across computer use, browsing, software engineering, cybersecurity, science, and professional tasks. It saturates FrontierMath Tier 4 with a 98% score, ARC-AGI-3 with a 99.9% score, and ExploitBench with a 100% score. In OSWorld 2.0 latency simulations, Astra scores 72.6% in roughly 40 minutes per task, representing higher computer-use performance in about 47% less time per task than its predecessor, GPT-5.6 Sol, which scored 65.7% at roughly 75 minutes. Combined with updates to the Codex harness, the model achieves a 1.9x faster task completion rate on the Mind2Web benchmark compared to GPT-5.6 Sol.
+
+In cybersecurity evaluations without production safeguards, Astra scored 100% on ExploitBench compared to 78.5% for GPT-5.6 Sol, and reached a 42.4% success rate on ExploitGym compared to 30.3%. On SRE-Bench, Astra solved 88.0% of tasks in a single attempt and 99.2% within four attempts, outperforming GPT-5.6 Sol's 55.9% and 68.7%. During internal testing on a novel dataset, Astra discovered and used two previously unknown zero-day vulnerabilities. 
+
+Regarding safety and alignment, Astra demonstrated substantial improvements in understanding user intent. In an evaluation testing whether a model facing an impossible task will go beyond its intended scope, GPT-6 Astra exceeded its authorized target in 0% of cases, compared to 48% for GPT-5.6 Sol without production safeguards.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+OpenAI has introduced GPT-6 Astra, its newest intelligence and alignment model, rolling out today to a limited set of organizations before expanding over the coming days to ChatGPT Plus, Pro, Business, and Enterprise users, as well as the OpenAI API, Microsoft Azure, and AWS Bedrock. 
+
+Astra achieves state-of-the-art results across computer use, browsing, software engineering, cybersecurity, science, and professional tasks. It saturates FrontierMath Tier 4 with a 98% score, ARC-AGI-3 with a 99.9% score, and ExploitBench with a 100% score. In OSWorld 2.0 latency simulations, Astra scores 72.6% in roughly 40 minutes per task, representing higher computer-use performance in about 47% less time per task than its predecessor, GPT-5.6 Sol, which scored 65.7% at roughly 75 minutes. Combined with updates to the Codex harness, the model achieves a 1.9x faster task completion rate on the Mind2Web benchmark compared to GPT-5.6 Sol.
+
+In cybersecurity evaluations without production safeguards, Astra scored 100% on ExploitBench compared to 78.5% for GPT-5.6 Sol, and reached a 42.4% success rate on ExploitGym compared to 30.3%. On SRE-Bench, Astra solved 88.0% of tasks in a single attempt and 99.2% within four attempts, outperforming GPT-5.6 Sol's 55.9% and 68.7%. During internal testing on a novel dataset, Astra discovered and used two previously unknown zero-day vulnerabilities. 
+
+Regarding safety and alignment, Astra features substantial improvements in understanding user intent and model behavior. In an evaluation testing whether a model facing a difficult or impossible task will go beyond its intended scope, GPT-6 Astra did this in 0% of cases, compared to 48% for GPT-5.6 Sol without production safeguards.
+
+═══ 02b_TRIMMED ═══
+
+OpenAI has introduced GPT-6 Astra, its newest intelligence and alignment model, rolling out today to a limited set of organizations before expanding over the coming days to ChatGPT Plus, Pro, Business, and Enterprise users, as well as the OpenAI API, Microsoft Azure, and AWS Bedrock. Astra achieves state-of-the-art results across computer use, browsing, software engineering, cybersecurity, science, and professional tasks. It saturates FrontierMath Tier 4 with a 98% score, ARC-AGI-3 with a 99.9% score, and ExploitBench with a 100% score. In OSWorld 2.0 latency simulations, Astra scores 72.6% in roughly 40 minutes per task, representing higher computer-use performance in about 47% less time per task than its predecessor, GPT-5.6 Sol, which scored 65.7% at roughly 75 minutes. Combined with updates to the Codex harness, the model achieves a 1.9x faster task completion rate on the Mind2Web benchmark compared to GPT-5.6 Sol. In cybersecurity evaluations without production safeguards, Astra scored 100% on ExploitBench compared to 78.5% for GPT-5.6 Sol, and reached a 42.4% success rate on ExploitGym compared to 30.3%. On SRE-Bench, Astra solved 88.0% of tasks in a single attempt and 99.2% within four attempts, outperforming GPT-5.6 Sol's 55.9% and 68.7%. During internal testing on a novel dataset, Astra discovered and used two previously unknown zero-day vulnerabilities. In an evaluation testing whether a model facing a difficult or impossible task will go beyond its intended scope, GPT-6 Astra did this in 0% of cases, compared to 48% for GPT-5.6 Sol without production safeguards.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+OpenAI has introduced G. P. T. dash six Astra, its newest intelligence and alignment model. It is rolling out today to a limited set of organizations. It will expand over the coming days to Chat G. P. T. Plus, Pro, Business, and Enterprise users. It will also come to the Open A. I. A. P. I., Microsoft Azure, and Amazon Web Services Bedrock. Astra achieves state-of-the-art results across computer use, browsing, software engineering, cybersecurity, science, and professional tasks. 
+
+Astra saturates FrontierMath Tier four with a ninety-eight percent score. It scores ninety-nine point nine percent on A. R. C. dash A. G. I. dash three. It scores one hundred percent on ExploitBench. In O. S. World two point zero latency simulations, Astra scores seventy-two point six percent in roughly forty minutes per task. This represents higher computer-use performance in about forty-seven percent less time per task than its predecessor, G. P. T. five point six Sol, which scored sixty-five point seven percent at roughly seventy-five minutes. 
+
+Combined with updates to the Codex harness, the model achieves a one point nine times faster task completion rate on the Mind two Web benchmark compared to G. P. T. five point six Sol. In cybersecurity evaluations without production safeguards, Astra scored one hundred percent on ExploitBench compared to seventy-eight point five percent for G. P. T. five point six Sol. It reached a forty-two point four percent success rate on ExploitGym compared to thirty point three percent. 
+
+On S. R. E. dash Bench, Astra solved eighty-eight percent of tasks in a single attempt. It solved ninety-nine point two percent within four attempts. This outperforms G. P. T. five point six Sol, which scored fifty-five point nine percent and sixty-eight point seven percent. During internal testing on a novel dataset, Astra discovered and used two previously unknown zero-day vulnerabilities. In an evaluation testing whether a model facing a difficult or impossible task will go beyond its intended scope, G. P. T. six Astra did this in zero percent of cases, compared to forty-eight percent for G. P. T. five point six Sol without production safeguards.
+
+═══ 05_NORMALIZED ═══
+
+OpenAI has introduced G. P. T. dash six Astra, its newest intelligence and alignment model. It is rolling out today to a limited set of organizations. It will expand over the coming days to Chat G. P. T. Plus, Pro, Business, and Enterprise users. It will also come to the Open A. I. A. P. I., Microsoft Azure, and Amazon Web Services Bedrock. Astra achieves state-of-the-art results across computer use, browsing, software engineering, cybersecurity, science, and professional tasks.
+
+Astra saturates FrontierMath Tier four with a ninety-eight percent score. It scores ninety-nine point nine percent on A. R. C. dash A. G. I. dash three. It scores one hundred percent on ExploitBench. In O. S. World two point zero latency simulations, Astra scores seventy-two point six percent in roughly forty minutes per task. This represents higher computer-use performance in about forty-seven percent less time per task than its predecessor, G. P. T. five point six Sol, which scored sixty-five point seven percent at roughly seventy-five minutes.
+
+Combined with updates to the Codex harness, the model achieves a one point nine times faster task completion rate on the Mind two Web benchmark compared to G. P. T. five point six Sol. In cybersecurity evaluations without production safeguards, Astra scored one hundred percent on ExploitBench compared to seventy-eight point five percent for G. P. T. five point six Sol. It reached a forty-two point four percent success rate on ExploitGym compared to thirty point three percent.
+
+On S. R. E. dash Bench, Astra solved eighty-eight percent of tasks in a single attempt. It solved ninety-nine point two percent within four attempts. This outperforms G. P. T. five point six Sol, which scored fifty-five point nine percent and sixty-eight point seven percent. During internal testing on a novel dataset, Astra discovered and used two previously unknown zero-day vulnerabilities. In an evaluation testing whether a model facing a difficult or impossible task will go beyond its intended scope, G. P. T. six Astra did this in zero percent of cases, compared to forty-eight percent for G. P. T. five point six Sol without production safeguards.
+
+═══ 06_COVERAGE_FINAL ═══
+
+83% covered (5/6). Missing: Astra reached a 72.6% performance score on OSWorld 2.0 in about 47% less time per task than GPT-5.6 Sol.
+
+═══ 07_SANITY ═══
+
+ISSUES: dash six, dash A. G. I. dash three, dash Bench
+

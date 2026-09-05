@@ -1,0 +1,40 @@
+═══ 00_KEY_POINTS ═══
+
+1. Cerebras now offers the Qwen 3.8 27B model on its platform.
+2. The Qwen 3.8 27B model runs at an impressive speed of 1500 tokens per second.
+3. Cerebras exclusively hosts original, unpruned versions of open-source community models on public endpoints.
+4. Pruned models developed through REAP research are shared on Hugging Face instead of the shared API.
+5. Cerebras applies selective weight-only quantization during storage to maintain maximal model quality.
+
+═══ 01_DRAFT ═══
+
+Cerebras has made the Qwen 3.8 27B model available on its platform running at a speed of 1500 tokens per second. The platform hosts original, unpruned versions of open-source community models on its public endpoints rather than pruned variants. While Cerebras conducts research on pruning techniques such as Router-weighted Expert Activation Pruning, or REAP, those specific pruned models are shared exclusively with the research community on Hugging Face and are not offered through the shared API. For storage, Cerebras applies selective weight-only quantization using partial 16-bit, 8-bit, and 4-bit formats to reduce memory usage without altering model architecture. To maintain output quality, sensitive layers are stored at full precision and dequantized on the fly so that core operations execute in high precision, while activations, attention, and the KV cache remain entirely unquantized and in full precision.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Cerebras hosts a variety of open-source community models on its public endpoints rather than pruned variants, maintaining the original, unpruned versions. While Cerebras conducts research on pruning techniques such as Router-weighted Expert Activation Pruning, or REAP, those specific pruned models are shared exclusively with the research community on Hugging Face and are not offered through the shared API. For storage, Cerebras applies selective weight-only quantization using partial 16-bit, 8-bit, and 4-bit formats in line with industry standards to preserve maximal quality without altering model architecture. To maintain output quality, sensitive layers are stored at full precision and dequantized on the fly so that core operations execute in high precision, while activations, attention, and the KV cache remain entirely unquantized and in full precision.
+
+═══ 03_COVERAGE_1 ═══
+
+60% covered (3/5). Missing: Cerebras now offers the Qwen 3.8 27B model on its platform.; The Qwen 3.8 27B model runs at an impressive speed of 1500 tokens per second.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+Cerebras now offers the Qwen 3.8 27B model on its platform, which runs at an impressive speed of 1500 tokens per second. Cerebras hosts a variety of open-source community models on its public endpoints rather than pruned variants, maintaining the original, unpruned versions. While Cerebras conducts research on pruning techniques such as Router-weighted Expert Activation Pruning, or REAP, those specific pruned models are shared exclusively with the research community on Hugging Face and are not offered through the shared API. For storage, Cerebras applies selective weight-only quantization using partial 16-bit, 8-bit, and 4-bit formats in line with industry standards to preserve maximal quality without altering model architecture. To maintain output quality, sensitive layers are stored at full precision and dequantized on the fly so that core operations execute in high precision, while activations, attention, and the KV cache remain entirely unquantized and in full precision.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Cerebras now offers the Qwen three point eight twenty-seven B model on its platform. It runs at an impressive speed of fifteen hundred tokens per second. Cerebras hosts a variety of open-source community models on its public endpoints. It uses original and unpruned versions instead of pruned variants. Cerebras conducts research on pruning techniques such as Router-weighted Expert Activation Pruning, also known as R. E. A. P. Those specific pruned models are shared exclusively with the research community on Hugging Face. They are not offered through the shared API. For storage, Cerebras applies selective weight-only quantization. It uses partial sixteen-bit, eight-bit, and four-bit formats in line with industry standards. This preserves maximal quality without altering model architecture. To maintain output quality, sensitive layers are stored at full precision. They are dequantized on the fly so that core operations execute in high precision. Activations, attention, and the K. V. cache remain entirely unquantized and in full precision.
+
+═══ 05_NORMALIZED ═══
+
+Cerebras now offers the Qwen three point eight twenty-seven B model on its platform. It runs at an impressive speed of fifteen hundred tokens per second. Cerebras hosts a variety of open-source community models on its public endpoints. It uses original and unpruned versions instead of pruned variants. Cerebras conducts research on pruning techniques such as Router-weighted Expert Activation Pruning, also known as R. E. A. P. Those specific pruned models are shared exclusively with the research community on Hugging Face. They are not offered through the shared A P I.. For storage, Cerebras applies selective weight-only quantization. It uses partial sixteen-bit, eight-bit, and four-bit formats in line with industry standards. This preserves maximal quality without altering model architecture. To maintain output quality, sensitive layers are stored at full precision. They are dequantized on the fly so that core operations execute in high precision. Activations, attention, and the K. V. cache remain entirely unquantized and in full precision.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (5/5). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: A P I.
+

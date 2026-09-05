@@ -1,0 +1,54 @@
+═══ 00_KEY_POINTS ═══
+
+1. Group-IB researchers uncovered the Outsider Phishing Kit, a sophisticated Phishing-as-a-Service platform operated by threat actor ChenLun.
+2. From December 2025 to May 2026, researchers identified over 100,000 phishing pages targeting more than 54 countries.
+3. Google filed a civil lawsuit against the Outsider group on June 12 to combat the widespread threat.
+4. The FBI announced a partnership with Google and Lumen's Black Lotus Labs on June 13 called Operation Ghost Hook.
+5. Group-IB identified over 700 new phishing pages created within just one month after the civil lawsuit.
+6. The phishing kit incorporates Adversary-in-the-Middle capabilities enabling attackers to intercept authentication flows and bypass multi-factor authentication.
+7. This news matters because it exposes how resilient modern phishing syndicates rapidly adapt and scale operations despite major law enforcement takedowns.
+
+═══ 01_DRAFT ═══
+
+Group-IB researchers have uncovered the Outsider Phishing Kit, a sophisticated Phishing-as-a-Service platform operated by a threat actor known as ChenLun. The kit features Adversary-in-the-Middle capabilities that intercept authentication flows and bypass multi-factor authentication. Between December 2025 and May 2026, researchers identified more than 100,000 phishing pages targeting over 54 countries using 267 templates. Campaigns are typically delivered via SMS using a dedicated Telegram ecosystem.
+
+In response to the threat, Google filed a civil lawsuit against the Outsider group on June 12. On June 13, the FBI cyber division announced a coordinated partnership with Google and Lumen’s Black Lotus Labs to dismantle the infrastructure through an effort designated Operation Ghost Hook. Despite these actions, the threat persists. Group-IB identified more than 700 new phishing pages created within a single month following the lawsuit, demonstrating that affiliates continue to actively utilize the kit. 
+
+Operators of the platform employ a WebSocket connection for live keylogging and to dynamically manipulate multi-factor authentication challenges. The phishing pages utilize a consistent naming convention with alphabetical prefixes that function as status codes to trace victims through the attack flow, lowering the technical barrier for affiliates. JavaScript components such as common.js manage campaign configurations and branding, while main.js utilizes AES-CTR encryption via the Web Crypto API to transmit harvested credit card data, personal identity details, and security credentials directly to the operator command panel in real time.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Group-IB researchers have uncovered the Outsider Phishing Kit, a sophisticated Phishing-as-a-Service platform operated by a threat actor known as ChenLun. The kit features Adversary-in-the-Middle capabilities that intercept authentication flows and bypass multi-factor authentication. From December 2025 to May 2026, Group-IB identified over 100,000 phishing pages targeting 54+ countries, leveraging 267 templates. Campaigns are typically delivered via SMS using a dedicated Telegram ecosystem.
+
+In response to the threat, Google filed a civil lawsuit against the Outsider group on June 12. On June 13, the FBI cyber division announced a coordinated partnership with Google and Lumen’s Black Lotus Labs to dismantle the infrastructure through an effort designated Operation Ghost Hook. Despite these actions, the threat persists. Group-IB identified more than 700 new phishing pages created within a single month following the lawsuit, demonstrating that affiliates continue to actively utilize the kit. 
+
+Operators of the platform employ a WebSocket connection for live keylogging and to dynamically manipulate multi-factor authentication challenges. The phishing pages utilize a consistent naming convention with alphabetical prefixes that function as status codes to trace victims through the attack flow, lowering the technical barrier for affiliates. JavaScript components such as common.js manage campaign configurations and branding, while main.js utilizes AES-CTR encryption via the Web Crypto API to transmit harvested credit card data, personal identity details, and security credentials directly to the operator command panel in real time.
+
+═══ 03_COVERAGE_1 ═══
+
+85% covered (6/7). Missing: This news matters because it exposes how resilient modern phishing syndicates rapidly adapt and scale operations despite major law enforcement takedowns.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Group-I. B. researchers have uncovered the Outsider Phishing Kit. This is a sophisticated phishing as a service platform. It is operated by a threat actor known as ChenLun. The kit features adversary in the middle capabilities. These capabilities intercept authentication flows and bypass multi factor authentication. Between December twenty twenty-five and May twenty twenty-six, Group-I. B. identified over one hundred thousand phishing pages. These pages targeted fifty-four plus countries and used two hundred sixty-seven templates. Campaigns are typically delivered via text message using a dedicated Telegram ecosystem.
+
+Google filed a civil lawsuit against the Outsider group on June twelfth. The Federal Bureau of Investigation cyber division announced a coordinated partnership with Google and Lumen’s Black Lotus Labs on June thirteenth. They planned to dismantle the infrastructure through an effort designated Operation Ghost Hook. The threat still persists despite these actions. Group-I. B. identified more than seven hundred new phishing pages created within a single month following the lawsuit. This shows that affiliates continue to actively utilize the kit.
+
+Operators of the platform employ a WebSocket connection for live keylogging. This connection also dynamically manipulates multi factor authentication challenges. The phishing pages use a consistent naming convention with alphabetical prefixes. These prefixes function as status codes to trace victims through the attack flow and lower the technical barrier for affiliates. JavaScript components such as common dot j. s. manage campaign configurations and branding. Meanwhile, main dot j. s. uses A. E. S. C. T. R. encryption via the Web Crypto A. P. I. This encryption transmits harvested credit card data, personal identity details, and security credentials directly to the operator command panel in real time.
+
+═══ 05_NORMALIZED ═══
+
+Group-I. B. researchers have uncovered the Outsider Phishing Kit. This is a sophisticated phishing as a service platform. It is operated by a threat actor known as ChenLun. The kit features adversary in the middle capabilities. These capabilities intercept authentication flows and bypass multi factor authentication. Between December twenty twenty-five and May twenty twenty-six, Group-I. B. identified over one hundred thousand phishing pages. These pages targeted fifty-four plus countries and used two hundred sixty-seven templates. Campaigns are typically delivered via text message using a dedicated Telegram ecosystem.
+
+Google filed a civil lawsuit against the Outsider group on June twelfth. The Federal Bureau of Investigation cyber division announced a coordinated partnership with Google and Lumen’s Black Lotus Labs on June thirteenth. They planned to dismantle the infrastructure through an effort designated Operation Ghost Hook. The threat still persists despite these actions. Group-I. B. identified more than seven hundred new phishing pages created within a single month following the lawsuit. This shows that affiliates continue to actively utilize the kit.
+
+Operators of the platform employ a WebSocket connection for live keylogging. This connection also dynamically manipulates multi factor authentication challenges. The phishing pages use a consistent naming convention with alphabetical prefixes. These prefixes function as status codes to trace victims through the attack flow and lower the technical barrier for affiliates. JavaScript components such as common dot j. s. manage campaign configurations and branding. Meanwhile, main dot j. s. uses A. E. S. C. T. R. encryption via the Web Crypto A. P. I. This encryption transmits harvested credit card data, personal identity details, and security credentials directly to the operator command panel in real time.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (7/7). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: common dot j. s., main dot j. s., A. E. S. C. T. R.
+

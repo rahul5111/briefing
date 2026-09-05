@@ -1,0 +1,56 @@
+═══ 00_KEY_POINTS ═══
+
+1. Amazon recently increased the prices of many Echo devices by amounts ranging from twenty to one hundred dollars.
+2. Amazon blamed the product price increases on rising costs, chip shortages, and increased storage and memory expenses.
+3. The Echo Dot is priced at eighty dollars, while the newer Echo Dot Max costs one hundred twenty dollars.
+4. Amazon's new Alexa+ assistant costs twenty dollars monthly after a free trial unless users are Prime members.
+5. The Echo Show 21 is Amazon's most expensive smart display, carrying a price tag of five hundred dollars.
+
+═══ 01_DRAFT ═══
+
+Amazon increased prices across much of its Echo smart speaker and display lineup last month, citing rising costs for storage, memory, and chips. The price hikes range from $20 to $100 depending on the model. The Echo Dot fifth generation rose $30 to $80, the Echo Spot second generation went up $30 to $110, the Echo Dot Max increased $20 to $120, the Echo Show 8 fourth generation rose $20 to $200, the Echo Show 11 increased $30 to $250, the Echo Show 15 went up $50 to $350, and the largest increase hit the Echo Show 21, which climbed $100 to $500. 
+
+Alongside the hardware price adjustments, Amazon rolled out Alexa+, a generative AI assistant available via a free 30-day trial followed by either a $20 monthly fee or an Amazon Prime membership. The introduction of Alexa+ also changed privacy settings, requiring all voice recordings to be sent to Amazon for processing. A previous feature allowing local processing of voice requests was discontinued on March 28, 2025.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Amazon increased prices across much of its Echo smart speaker and display lineup last month, citing rising costs for storage, memory, and chips. The price hikes range from $20 to $100 depending on the model. The Echo Dot fifth generation rose $30 to $80, the Echo Spot second generation went up $30 to $110, the Echo Dot Max increased $20 to $120, the Echo Show 8 fourth generation rose $20 to $200, the Echo Show 11 increased $30 to $250, the Echo Show 15 went up $50 to $350, and the largest increase hit the Echo Show 21, which climbed $100 to $500. 
+
+Alongside the hardware price adjustments, Amazon rolled out Alexa+, a new generative AI assistant available with a free 30-day trial, after which users can either pay a $20 monthly fee or have an Amazon Prime membership. The introduction of Alexa+ also changed privacy settings, requiring all voice recordings to be sent to Amazon for processing. A previous feature allowing local processing of voice requests was discontinued on March 28, 2025.
+
+═══ 02b_TRIMMED ═══
+
+Amazon increased prices across much of its Echo smart speaker and display lineup last month, citing rising costs for storage, memory, and chips. The price hikes range from $20 to $100 depending on the model. The Echo Dot fifth generation rose $30 to $80, the Echo Spot second generation went up $30 to $110, the Echo Dot Max increased $20 to $120, the Echo Show 8 fourth generation rose $20 to $200, the Echo Show 11 increased $30 to $250, the Echo Show 15 went up $50 to $350, and the largest increase hit the Echo Show 21, which climbed $100 to $500. The introduction of Alexa+ also changed privacy settings, requiring all voice recordings to be sent to Amazon for processing. A previous feature allowing local processing of voice requests was discontinued on March 28, 2025.
+
+═══ 03_COVERAGE_1 ═══
+
+80% covered (4/5). Missing: Amazon's new Alexa+ assistant costs twenty dollars monthly after a free trial unless users are Prime members.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+Amazon increased prices across much of its Echo smart speaker and display lineup last month, citing rising costs for storage, memory, and chips. The price hikes range from $20 to $100 depending on the model. The Echo Dot fifth generation rose $30 to $80, the Echo Spot second generation went up $30 to $110, the Echo Dot Max increased $20 to $120, the Echo Show 8 fourth generation rose $20 to $200, the Echo Show 11 increased $30 to $250, the Echo Show 15 went up $50 to $350, and the largest increase hit the Echo Show 21, which climbed $100 to $500. Amazon's new Alexa+ assistant costs twenty dollars monthly after a free trial unless users are Prime members. The introduction of Alexa+ also changed privacy settings, requiring all voice recordings to be sent to Amazon for processing. A previous feature allowing local processing of voice requests was discontinued on March 28, 2025.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Amazon increased prices across much of its Echo smart speaker and display lineup last month. The company cited rising costs for storage and memory and chips. The price hikes range from twenty dollars to one hundred dollars depending on the model. 
+
+The Echo Dot fifth generation rose thirty dollars to eighty dollars. The Echo Spot second generation went up thirty dollars to one hundred ten dollars. The Echo Dot Max increased twenty dollars to one hundred twenty dollars. The Echo Show eight fourth generation rose twenty dollars to two hundred dollars. The Echo Show eleven increased thirty dollars to two hundred fifty dollars. The Echo Show fifteen went up fifty dollars to three hundred fifty dollars. The largest increase hit the Echo Show twenty-one which climbed one hundred dollars to five hundred dollars.
+
+Amazon introduced a new assistant called Alexa Plus. It costs twenty dollars monthly after a free trial unless users are Prime members. The introduction of Alexa Plus also changed privacy settings. It requires all voice recordings to be sent to Amazon for processing. A previous feature allowed local processing of voice requests. That feature was discontinued on March twenty-eighth, twenty twenty-five.
+
+═══ 05_NORMALIZED ═══
+
+Amazon increased prices across much of its Echo smart speaker and display lineup last month. The company cited rising costs for storage and memory and chips. The price hikes range from twenty dollars to one hundred dollars depending on the model.
+
+The Echo Dot fifth generation rose thirty dollars to eighty dollars. The Echo Spot second generation went up thirty dollars to one hundred ten dollars. The Echo Dot Max increased twenty dollars to one hundred twenty dollars. The Echo Show eight fourth generation rose twenty dollars to two hundred dollars. The Echo Show eleven increased thirty dollars to two hundred fifty dollars. The Echo Show fifteen went up fifty dollars to three hundred fifty dollars. The largest increase hit the Echo Show twenty-one which climbed one hundred dollars to five hundred dollars.
+
+Amazon introduced a new assistant called Alexa Plus. It costs twenty dollars monthly after a free trial unless users are Prime members. The introduction of Alexa Plus also changed privacy settings. It requires all voice recordings to be sent to Amazon for processing. A previous feature allowed local processing of voice requests. That feature was discontinued on March twenty-eighth, twenty twenty-five.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (5/5). Missing: none
+
+═══ 07_SANITY ═══
+
+OK
+

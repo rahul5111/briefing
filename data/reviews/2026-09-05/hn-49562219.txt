@@ -1,0 +1,68 @@
+═══ 00_KEY_POINTS ═══
+
+1. The creator developed TERMy during two months focused on personal projects starting in early July.
+2. TERMy is a fast terminal assistant built on top of the NPC-Forge framework without using LLMs.
+3. The tool runs on a CPU and translates natural language into shell commands within milliseconds.
+4. The lightweight NLU pipeline is written in approximately one thousand lines of Python code.
+5. Permission gating is hardcoded into the dataset to safely restrict potentially destructive terminal commands.
+
+═══ 01_DRAFT ═══
+
+The developer behind the PJON network protocol has released TERMy, a new terminal assistant built on top of the NPC-Forge framework that operates entirely without large language models, machine learning, or embeddings. Developed over two months starting in early July amid rising AI costs, the tool runs locally on a CPU, including on a Raspberry Pi Zero, or client-side in a browser tab, and returns responses in milliseconds. TERMy uses a lightweight natural language understanding pipeline written in approximately one thousand lines of Python to translate natural language into Linux shell commands. The pipeline processes prompts through five stages: noise removal by stripping interjections and expletives, sentiment analysis, exact matching, template matching, and probabilistic matching. The probabilistic stage utilizes Inverse Document Frequency to identify rare words, a Bag of Words approach to handle word inversions, and IDF-weighted Levenshtein distance to account for typos. Unlike unpredictable language models, TERMy features hardcoded permission gating within its dataset to enforce safety for potentially destructive commands. The creator built the assistant to eliminate monthly subscription costs for trivial operations like activating virtual environments, questioning whether trillions of parameters are truly necessary for such tasks. The source code is available on GitHub under the NPC-Forge repository, and video demonstrations showcasing its operation, typo tolerance, and Copilot integration have been published online.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+The developer behind the PJON network protocol has released TERMy, a new terminal assistant built on top of the NPC-Forge framework that operates entirely without large language models, machine learning, or embeddings. Focused on for two months starting in early July during a time of AI price hikes and the end of subsidized tokenmaxing, the tool runs on the CPU (even on a Raspberry Pi Zero) both in the terminal or client-side in a browser tab and responds in milliseconds. TERMy uses a lightweight natural language understanding pipeline written in approximately one thousand lines of Python to translate natural language into Linux shell commands. The pipeline processes prompts through five stages: noise removal by stripping interjections and expletives, sentiment analysis, exact matching, template matching, and probabilistic matching. The probabilistic stage utilizes Inverse Document Frequency to identify rare words, a Bag of Words approach to handle word inversions, and IDF-weighted Levenshtein distance to account for typos. Unlike unpredictable language models, TERMy features hardcoded permission gating within its dataset to enforce safety for potentially destructive commands. The creator built the assistant to eliminate monthly spending on trivial operations like activating virtual environments, questioning whether trillions of parameters are truly necessary for such tasks. The source code is available on GitHub under the NPC-Forge repository, and video demonstrations showcasing its operation, typo tolerance, and Copilot integration have been published online.
+
+═══ 02b_TRIMMED ═══
+
+The developer behind the PJON network protocol has released TERMy, a new terminal assistant built on top of the NPC-Forge framework that operates entirely without large language models, machine learning, or embeddings. TERMy uses a lightweight natural language understanding pipeline written in approximately one thousand lines of Python to translate natural language into Linux shell commands. The pipeline processes prompts through five stages: noise removal by stripping interjections and expletives, sentiment analysis, exact matching, template matching, and probabilistic matching. The probabilistic stage utilizes Inverse Document Frequency to identify rare words, a Bag of Words approach to handle word inversions, and IDF-weighted Levenshtein distance to account for typos. Unlike unpredictable language models, TERMy features hardcoded permission gating within its dataset to enforce safety for potentially destructive commands. The creator built the assistant to eliminate monthly spending on trivial operations like activating virtual environments, questioning whether trillions of parameters are truly necessary for such tasks. The source code is available on GitHub under the NPC-Forge repository, and video demonstrations showcasing its operation, typo tolerance, and Copilot integration have been published online.
+
+═══ 03_COVERAGE_1 ═══
+
+80% covered (4/5). Missing: The creator developed TERMy during two months focused on personal projects starting in early July.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+The developer behind the PJON network protocol has released TERMy, a new terminal assistant built on top of the NPC-Forge framework that operates entirely without large language models, machine learning, or embeddings. The creator developed TERMy during two months focused on personal projects starting in early July. TERMy uses a lightweight natural language understanding pipeline written in approximately one thousand lines of Python to translate natural language into Linux shell commands. The pipeline processes prompts through five stages: noise removal by stripping interjections and expletives, sentiment analysis, exact matching, template matching, and probabilistic matching. The probabilistic stage utilizes Inverse Document Frequency to identify rare words, a Bag of Words approach to handle word inversions, and IDF-weighted Levenshtein distance to account for typos. Unlike unpredictable language models, TERMy features hardcoded permission gating within its dataset to enforce safety for potentially destructive commands. The creator built the assistant to eliminate monthly spending on trivial operations like activating virtual environments, questioning whether trillions of parameters are truly necessary for such tasks. The source code is available on GitHub under the NPC-Forge repository, and video demonstrations showcasing its operation, typo tolerance, and Copilot integration have been published online.
+
+═══ 04_AUDIO_REWRITE ═══
+
+The developer behind the P. J. O. N. network protocol has released TERMy. It is a new terminal assistant built on the N. P. C. dash Forge framework. It operates entirely without large language models. It also skips machine learning and embeddings. 
+
+The creator built TERMy during two months focused on personal projects. This work started in early July. TERMy uses a lightweight natural language understanding pipeline. It is written in about one thousand lines of Python. The code translates natural language into Linux shell commands. 
+
+The pipeline processes prompts through five stages. The first stage removes noise by stripping interjections and expletives. The second stage performs sentiment analysis. The third stage uses exact matching. The fourth stage handles template matching. The fifth stage relies on probabilistic matching. 
+
+The probabilistic stage uses several tools. It utilizes Inverse Document Frequency to identify rare words. It uses a Bag of Words approach to handle word inversions. It also applies I. D. F. weighted Levenshtein distance to account for typos. 
+
+Language models can be unpredictable. TERMy avoids this by featuring hardcoded permission gating inside its dataset. This enforces safety for potentially destructive commands. 
+
+The creator built the assistant to eliminate monthly spending. This spending usually goes toward trivial operations like activating virtual environments. The creator questioned whether trillions of parameters are truly necessary for such tasks. 
+
+The source code is available on GitHub under the N. P. C. dash Forge repository. Video demonstrations are also available online. These videos showcase its operation and typo tolerance alongside Copilot integration.
+
+═══ 05_NORMALIZED ═══
+
+The developer behind the P. J. O. N. network protocol has released TERMy. It is a new terminal assistant built on the N. P. C. dash Forge framework. It operates entirely without large language models. It also skips machine learning and embeddings.
+
+The creator built TERMy during two months focused on personal projects. This work started in early July. TERMy uses a lightweight natural language understanding pipeline. It is written in about one thousand lines of Python. The code translates natural language into Linux shell commands.
+
+The pipeline processes prompts through five stages. The first stage removes noise by stripping interjections and expletives. The second stage performs sentiment analysis. The third stage uses exact matching. The fourth stage handles template matching. The fifth stage relies on probabilistic matching.
+
+The probabilistic stage uses several tools. It utilizes Inverse Document Frequency to identify rare words. It uses a Bag of Words approach to handle word inversions. It also applies I. D. F. weighted Levenshtein distance to account for typos.
+
+Language models can be unpredictable. TERMy avoids this by featuring hardcoded permission gating inside its dataset. This enforces safety for potentially destructive commands.
+
+The creator built the assistant to eliminate monthly spending. This spending usually goes toward trivial operations like activating virtual environments. The creator questioned whether trillions of parameters are truly necessary for such tasks.
+
+The source code is available on GitHub under the N. P. C. dash Forge repository. Video demonstrations are also available online. These videos showcase its operation and typo tolerance alongside Copilot integration.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (5/5). Missing: none
+
+═══ 07_SANITY ═══
+
+OK
+

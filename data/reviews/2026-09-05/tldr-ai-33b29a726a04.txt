@@ -1,0 +1,54 @@
+═══ 00_KEY_POINTS ═══
+
+1. Big American companies currently utilize hundreds or thousands of different software pieces, scripts, and databases.
+2. AI allows making tools in five minutes without writing code, but most people are not tool builders.
+3. Carta is a 4 billion dollar company that manages a single spreadsheet for a company CFO.
+4. Enterprise AI deployment data shows that giving employees tools like Copilot, ChatGPT, or Claude results in uneven usage.
+5. Roughly half of software and AI pilots successfully work, aligning with normal historical expectations.
+6. The fundamental challenge of automation is recognizing the existence of a problem and knowing what the tool should do.
+7. AI changes choices and moves thresholds, but it does not fundamentally alter how companies change or adopt new technology.
+
+═══ 01_DRAFT ═══
+
+Large American companies typically operate with hundreds or thousands of software products, ranging from systems of record like SAP and Workday to vertical SaaS applications, spreadsheets, and scripts, often without fully knowing what is used or paid for. While artificial intelligence makes it easier and cheaper to build tools without writing code, this capability confronts the reality that most people are not tool-builders focused on changing how their jobs are done, but are instead focused on clients, cases, or sales. 
+
+Enterprise AI adoption over the past three years reflects this friction. When companies give employees access to tools like Copilot, ChatGPT, or Claude, a small group uses them heavily, a larger set uses them occasionally, and many do not use them at all. This dynamic mirrors the introduction of personal computers with Lotus 123 in 1983 or web browsers in 1997, where widespread tool access did not automatically transform structural processes like invoice processing or supply chain management. Companies currently rely on pilots to automate previously unautomatable processes, with roughly half of these trials succeeding. However, as the source notes, giving everyone ChatGPT scales theoretically, but "most people aren't really finding ways to use it."
+
+Software adoption exists on a spectrum from institutionalized systems managed centrally for compliance and audit to improvised, bottom-up solutions built in spreadsheets and email. AI expands both existing applications and freeform spaces like chatbots, creating new choices and shifting thresholds rather than eliminating the need for structured company decisions. Transforming how a company operates around a generational technology requires addressing three distinct categories of questions: how to buy, build, and deploy the technology; how deeply it changes operations; and whether it introduces new economic challenges, competitive pressures, or existential threats.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+The typical big American company today has hundreds, and perhaps thousands, of different pieces of software, ranging from giant horizontal systems of record like SAP and Workday to vertical SaaS applications, workflows, scripts, automations, databases, and spreadsheets. Very often, the company doesn't know quite how much it has, what's actually being used, and what it's paying for. While artificial intelligence makes it easier and cheaper to build tools without writing code, this capability confronts the reality that most people are not tool-builders focused on changing how their jobs are done, but are instead focused on clients, cases, or sales. 
+
+Enterprise AI adoption over the past three years reflects this friction. When companies give employees access to tools like Copilot, ChatGPT, or Claude, a small group uses them heavily, a larger set uses them occasionally, and many do not use them at all. This dynamic mirrors the introduction of personal computers with Lotus 123 in 1983 or web browsers in 1997, where widespread tool access did not automatically transform structural processes like invoice processing or supply chain management. Companies currently rely on pilots to automate previously unautomatable processes, with roughly half of these trials succeeding. However, as the source notes, giving everyone ChatGPT scales theoretically, but "most people aren't really finding ways to use it."
+
+Software adoption exists on a spectrum from institutionalized systems managed centrally for compliance and audit to improvised, bottom-up solutions built in spreadsheets and email. AI expands both existing applications and freeform spaces like chatbots, creating new choices and shifting thresholds rather than eliminating the need for structured company decisions. Transforming how a company operates around a generational technology requires addressing three distinct categories of questions: how to buy, build, and deploy the technology; how deeply it changes operations; and whether it introduces new economic challenges, competitive pressures, or existential threats.
+
+═══ 03_COVERAGE_1 ═══
+
+85% covered (6/7). Missing: Carta is a 4 billion dollar company that manages a single spreadsheet for a company CFO.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Large American companies use hundreds or even thousands of different software tools. These range from giant systems like SAP and Workday to simple spreadsheets and scripts. Often companies do not know how much software they have or what they are paying for. Artificial intelligence makes building tools cheaper and easier without writing code. However most workers focus on clients and sales rather than building tools. 
+
+Enterprise A. I. adoption over the past three years shows this exact friction. When companies provide tools like Copilot, ChatGPT, or Claude, only a small group uses them heavily. A larger set uses them occasionally, and many people do not use them at all. This dynamic mirrors the introduction of personal computers with Lotus one two three in nineteen eighty-three. It also mirrors web browsers in nineteen ninety-seven, where tool access did not automatically change business processes. Companies currently rely on pilots to automate processes with roughly half of these trials succeeding. Giving everyone ChatGPT scales theoretically, but most people are not finding ways to use it.
+
+Software adoption exists on a spectrum from central systems to bottom-up solutions built in spreadsheets. A. I. expands both existing applications and freeform spaces like chatbots. This creates new choices rather than eliminating the need for structured company decisions. Transforming how a company operates around a new technology requires answering three categories of questions. Companies must decide how to buy, build, and deploy the technology. They must decide how deeply it changes operations. Finally they must determine if it introduces new economic challenges or existential threats.
+
+═══ 05_NORMALIZED ═══
+
+Large American companies use hundreds or even thousands of different software tools. These range from giant systems like SAP and Workday to simple spreadsheets and scripts. Often companies do not know how much software they have or what they are paying for. Artificial intelligence makes building tools cheaper and easier without writing code. However most workers focus on clients and sales rather than building tools.
+
+Enterprise A. I. adoption over the past three years shows this exact friction. When companies provide tools like Copilot, ChatGPT, or Claude, only a small group uses them heavily. A larger set uses them occasionally, and many people do not use them at all. This dynamic mirrors the introduction of personal computers with Lotus one two three in nineteen eighty-three. It also mirrors web browsers in nineteen ninety-seven, where tool access did not automatically change business processes. Companies currently rely on pilots to automate processes with roughly half of these trials succeeding. Giving everyone ChatGPT scales theoretically, but most people are not finding ways to use it.
+
+Software adoption exists on a spectrum from central systems to bottom-up solutions built in spreadsheets. A. I. expands both existing applications and freeform spaces like chatbots. This creates new choices rather than eliminating the need for structured company decisions. Transforming how a company operates around a new technology requires answering three categories of questions. Companies must decide how to buy, build, and deploy the technology. They must decide how deeply it changes operations. Finally they must determine if it introduces new economic challenges or existential threats.
+
+═══ 06_COVERAGE_FINAL ═══
+
+71% covered (5/7). Missing: Carta is a 4 billion dollar company that manages a single spreadsheet for a company CFO.; The fundamental challenge of automation is recognizing the existence of a problem and knowing what the tool should do.
+
+═══ 07_SANITY ═══
+
+ISSUES: A. I., A. I.
+

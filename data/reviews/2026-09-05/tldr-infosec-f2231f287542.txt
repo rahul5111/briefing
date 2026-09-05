@@ -1,0 +1,66 @@
+═══ 00_KEY_POINTS ═══
+
+1. On September 3, ConnectWise published an advisory identifying an issue impacting file transfer behavior in ScreenConnect.
+2. Huntress observed rogue ScreenConnect instances deployed on victim machines following social engineering attacks in late August.
+3. Attackers used wscript.exe to execute four different VBScript files used for profiling hosts and concealing activity.
+4. The attack chain utilized modified ScreenConnect clients to propagate VBScript files, creating worm-like spread across systems.
+5. An August 20 incident involved a threat actor deploying a rogue ScreenConnect client communicating with command-and-control server 45.13.237.190.
+6. The first script, 1.vbs, created a three-bit state variable by profiling system aspects and checking for security products.
+7. Decrypted payloads delivered via map.txt included user-level backdoors, persistence tools, tunneling utilities, and a cryptocurrency miner.
+
+═══ 01_DRAFT ═══
+
+Security researchers at Huntress have uncovered a series of attacks deploying rogue ScreenConnect remote access installations across unrelated endpoints to execute multi-stage VBScript chains. The incidents, observed in late August, began with social engineering tactics such as fake tech-support scams using Windows Quick Assist, phishing via Microsoft Edge downloads, and deceptive Geek Squad refund searches. 
+
+Once initiated, the rogue ScreenConnect clients spawned Windows Script Host child processes to execute four sequential VBScript files named 1.vbs through 4.vbs. The first script profiles the host system, checking for existing ScreenConnect installations, enumerating security software such as Microsoft Defender and CrowdStrike, and verifying that system RAM exceeds five gigabytes. The subsequent scripts coordinate with a Dropbox URL to download, decode, and decrypt secondary payloads using AES-CBC and single-byte XOR routines. Depending on the host's environmental profile, the campaign delivers user-level ScreenConnect backdoors, privilege escalation tooling, or cryptocurrency miners and tunneling utilities. 
+
+Attackers established persistence across the victims' machines by creating a WindowsServiceHost user registry run key pointing to a VBScript file inside the user AppData directory. Operations were further supplemented by auxiliary remote monitoring and management tools, including UltraViewer. Huntress stopped the affected sessions before malicious execution could fully progress. Meanwhile, ConnectWise published an advisory on September 3, 2026, warning of an issue impacting file transfer behavior in ScreenConnect sessions and advising partners to temporarily disable file transfer permissions until an official Common Vulnerabilities and Exposures fix is released within the week.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Security researchers at Huntress have uncovered a series of attacks deploying rogue ScreenConnect remote access installations across unrelated endpoints to execute multi-stage VBScript chains. The incidents, observed in late August, began with social engineering tactics involving Windows Quick Assist, Microsoft Edge downloads, and deceptive Geek Squad refund searches. 
+
+Once initiated, the rogue ScreenConnect clients spawned Windows Script Host child processes to execute four sequential VBScript files named 1.vbs through 4.vbs. The first script profiles the host system, checking for existing ScreenConnect installations, enumerating security software such as Microsoft Defender and CrowdStrike, and verifying that system RAM exceeds five gigabytes. The subsequent scripts coordinate with a Dropbox URL to download, decode, and decrypt secondary payloads using AES-CBC and single-byte XOR routines. Depending on the host's environmental profile, the campaign delivers secondary payloads including a user-level ScreenConnect backdoor, tooling for persistence and privilege escalation, or tunneling utilities and a cryptocurrency miner. 
+
+Attackers established persistence across the victims' machines by creating a WindowsServiceHost user registry run key pointing to a VBScript file inside the user AppData directory. Operations were further supplemented by auxiliary remote monitoring and management tools, including UltraViewer. Huntress stopped the affected sessions before malicious execution could fully progress. Meanwhile, ConnectWise published an advisory on September 3, 2026, warning of an issue impacting file transfer behavior in ScreenConnect sessions and advising partners to temporarily disable file transfer permissions until an official fix is released within the week.
+
+═══ 02b_TRIMMED ═══
+
+Security researchers at Huntress have uncovered a series of attacks deploying rogue ScreenConnect remote access installations across unrelated endpoints to execute multi-stage VBScript chains. Once initiated, the rogue ScreenConnect clients spawned Windows Script Host child processes to execute four sequential VBScript files named 1.vbs through 4.vbs. The first script profiles the host system, checking for existing ScreenConnect installations, enumerating security software such as Microsoft Defender and CrowdStrike, and verifying that system RAM exceeds five gigabytes. The subsequent scripts coordinate with a Dropbox URL to download, decode, and decrypt secondary payloads using AES-CBC and single-byte XOR routines. Operations were further supplemented by auxiliary remote monitoring and management tools, including UltraViewer. Huntress stopped the affected sessions before malicious execution could fully progress.
+
+═══ 03_COVERAGE_1 ═══
+
+57% covered (4/7). Missing: On September 3, ConnectWise published an advisory identifying an issue impacting file transfer behavior in ScreenConnect.; The attack chain utilized modified ScreenConnect clients to propagate VBScript files, creating worm-like spread across systems.; An August 20 incident involved a threat actor deploying a rogue ScreenConnect client communicating with command-and-control server 45.13.237.190.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+Security researchers at Huntress have uncovered a series of attacks deploying rogue ScreenConnect remote access installations across unrelated endpoints to execute multi-stage VBScript chains. On September 3, ConnectWise published an advisory identifying an issue impacting file transfer behavior in ScreenConnect. Once initiated, the rogue ScreenConnect clients spawned Windows Script Host child processes to execute four sequential VBScript files named 1.vbs through 4.vbs. The attack chain utilized modified ScreenConnect clients to propagate VBScript files, creating worm-like spread across systems. An August 20 incident involved a threat actor deploying a rogue ScreenConnect client communicating with command-and-control server 45.13.237.190. The first script profiles the host system, checking for existing ScreenConnect installations, enumerating security software such as Microsoft Defender and CrowdStrike, and verifying that system RAM exceeds five gigabytes. The subsequent scripts coordinate with a Dropbox URL to download, decode, and decrypt secondary payloads using AES-CBC and single-byte XOR routines. Operations were further supplemented by auxiliary remote monitoring and management tools, including UltraViewer. Huntress stopped the affected sessions before malicious execution could fully progress.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Security researchers at Huntress uncovered attacks deploying rogue ScreenConnect remote access tools across unrelated endpoints to execute multi-stage VBScript chains. On September third, ConnectWise published an advisory identifying an issue impacting file transfer behavior in ScreenConnect. 
+
+Once initiated, the rogue clients spawned Windows Script Host child processes to execute four sequential VBScript files named one through four dot vbs. The attack chain utilized modified clients to propagate VBScript files, creating worm-like spread across systems. An August twentieth incident involved a threat actor deploying a rogue client communicating with command-and-control server forty-five point thirteen point two hundred thirty-seven point one hundred ninety. 
+
+The first script profiles the host system, checking for existing installations, enumerating security software, and verifying that system RAM exceeds five gigabytes. The subsequent scripts coordinate with a Dropbox URL to download, decode, and decrypt secondary payloads using A. E. S. dash C. B. C. and single-byte XOR routines. 
+
+Operations were further supplemented by auxiliary remote monitoring and management tools, including UltraViewer. Huntress stopped the affected sessions before malicious execution could fully progress.
+
+═══ 05_NORMALIZED ═══
+
+Security researchers at Huntress uncovered attacks deploying rogue ScreenConnect remote access tools across unrelated endpoints to execute multi-stage VBScript chains. On September third, ConnectWise published an advisory identifying an issue impacting file transfer behavior in ScreenConnect.
+
+Once initiated, the rogue clients spawned Windows Script Host child processes to execute four sequential VBScript files named one through four dot vbs. The attack chain utilized modified clients to propagate VBScript files, creating worm-like spread across systems. An August twentieth incident involved a threat actor deploying a rogue client communicating with command-and-control server forty-five point thirteen point two hundred thirty-seven point one hundred ninety.
+
+The first script profiles the host system, checking for existing installations, enumerating security software, and verifying that system RAM exceeds five gigabytes. The subsequent scripts coordinate with a Dropbox U R L. to download, decode, and decrypt secondary payloads using A. E. S. dash C. B. C. and single-byte XOR routines.
+
+Operations were further supplemented by auxiliary remote monitoring and management tools, including UltraViewer. Huntress stopped the affected sessions before malicious execution could fully progress.
+
+═══ 06_COVERAGE_FINAL ═══
+
+85% covered (6/7). Missing: Decrypted payloads delivered via map.txt included user-level backdoors, persistence tools, tunneling utilities, and a cryptocurrency miner.
+
+═══ 07_SANITY ═══
+
+ISSUES: Dropbox U R L.
+

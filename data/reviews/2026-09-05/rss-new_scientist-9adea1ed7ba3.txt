@@ -1,0 +1,33 @@
+═══ 00_KEY_POINTS ═══
+
+1. AI company Anthropic created a formalised proof of Fermat's last theorem in just 11 days.
+2. Mathematician Andrew Wiles famously proved Fermat's last theorem in 1995 after working in secret.
+3. Anthropic used its Claude model running continuously and autonomously with numerous separate AI agents.
+4. The formalisation runs to 13 million lines of Lean and covers roughly 29,500 intermediate theorems.
+5. Kevin Buzzard stated that the company's proof leaves no assumptions other than the axioms of mathematics.
+6. This matters because the automated formalisation represents a big step towards automatic formalisation of modern mathematical literature.
+
+═══ 01_DRAFT ═══
+
+AI company Anthropic has used a group of AI agents to create a formalised proof of Fermat’s last theorem in just 11 days, confirming the correctness of the human-found proof proposed in the 1990s by Andrew Wiles. Fermat posed the puzzle in the 17th century, and it remained unproven until Wiles succeeded in 1995 after working on it for seven years in secret, later requiring a year to fix a flaw in the original 1993 breakthrough with collaborator Richard Taylor. Anthropic’s Claude model worked continuously and autonomously for 11 days, with numerous separate AI agents tackling smaller chunks of the theorem while human experts occasionally issued high-level instructions to keep the work on track. Success came after the company began using a tool designed for human mathematical collaboration called Prove2Me, which helped the agents track their work and decide on next tasks. The resulting formalisation runs to 13 million lines of the programming language Lean and covers roughly 29,500 intermediate theorems, making the proof over five times the size of all previous work stored in the central Mathlib repository and the largest Lean proof ever written. Kevin Buzzard of Imperial College London, who had been leading a separate five-year project to formalise Wiles and Taylor’s 100-page proof in Lean before Anthropic’s announcement overtook the effort, stated that the company’s proof leaves no assumptions other than the axioms of mathematics. Buzzard noted in a statement published by Anthropic that along the way they saw autoformalisation of algebra, harmonic analysis, geometry, and number theory, demonstrating that AI autoformalisation artefacts are now robust enough to be built upon. If the automatic formalisation of the theorem is possible now, Buzzard added, a big step has been taken towards the automatic formalisation of modern mathematical literature.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+A. I. company Anthropic used a group of A. I. agents to create a formal proof of Fermat's last theorem in just eleven days. The work confirmed the correctness of the human proof proposed in the nineteen nineties by , Andrew Wiles. Fermat posed the puzzle in the seventeenth century, and it remained unproven until Wiles succeeded in nineteen ninety-five after working on it for seven years in secret. Wiles later required a year to fix a flaw in the original nineteen ninety-three breakthrough with collaborator , Richard Taylor. The Claude model from Anthropic worked continuously and autonomously for eleven days. Numerous separate A. I. agents tackled smaller chunks of the theorem while human experts occasionally issued high-level instructions to keep the work on track. Success came after the company began using a tool designed for human mathematical collaboration called Prove-two-Me. That tool helped the agents track their work and decide on next tasks. The resulting formalisation runs to thirteen million lines of the programming language Lean. It covers roughly twenty-nine thousand five hundred intermediate theorems, making the proof over five times the size of all previous work stored in the central Mathlib repository and the largest Lean proof ever written. , Kevin Buzzard of Imperial College London had been leading a separate five-year project to formalize the proof in Lean before the announcement overtook the effort. He stated that the company proof leaves no assumptions other than the axioms of mathematics. Buzzard noted in a statement published by Anthropic that along the way they saw autoformalisation of algebra, harmonic analysis, geometry, and number theory. This demonstrates that A. I. autoformalisation artifacts are now robust enough to be built upon. If the automatic formalisation of the theorem is possible now, Buzzard added, a big step has been taken towards the automatic formalisation of modern mathematical literature.
+
+═══ 05_NORMALIZED ═══
+
+A. I. company Anthropic used a group of A. I. agents to create a formal proof of Fermat's last theorem in just eleven days. The work confirmed the correctness of the human proof proposed in the nineteen nineties by, Andrew Wiles. Fermat posed the puzzle in the seventeenth century, and it remained unproven until Wiles succeeded in nineteen ninety-five after working on it for seven years in secret. Wiles later required a year to fix a flaw in the original nineteen ninety-three breakthrough with collaborator, Richard Taylor. The Claude model from Anthropic worked continuously and autonomously for eleven days. Numerous separate A. I. agents tackled smaller chunks of the theorem while human experts occasionally issued high-level instructions to keep the work on track. Success came after the company began using a tool designed for human mathematical collaboration called Prove-two-Me. That tool helped the agents track their work and decide on next tasks. The resulting formalisation runs to thirteen million lines of the programming language Lean. It covers roughly twenty-nine thousand five hundred intermediate theorems, making the proof over five times the size of all previous work stored in the central Mathlib repository and the largest Lean proof ever written., Kevin Buzzard of Imperial College London had been leading a separate five-year project to formalize the proof in Lean before the announcement overtook the effort. He stated that the company proof leaves no assumptions other than the axioms of mathematics. Buzzard noted in a statement published by Anthropic that along the way they saw autoformalisation of algebra, harmonic analysis, geometry, and number theory. This demonstrates that A. I. autoformalisation artifacts are now robust enough to be built upon. If the automatic formalisation of the theorem is possible now, Buzzard added, a big step has been taken towards the automatic formalisation of modern mathematical literature.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: awkward punctuation
+

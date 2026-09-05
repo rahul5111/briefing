@@ -1,0 +1,53 @@
+═══ 00_KEY_POINTS ═══
+
+1. On 23 August, Surya Narreddi posted a viral video of watercolours painted by a language model writing JavaScript.
+2. The author successfully reproduced the watercolour training project using TRL and OpenEnv on Hugging Face.
+3. The reward mechanism combines the open 7B preference model HPSv3 with a pairwise vision model judge.
+4. The training dataset consists of 178 model-generated paintings divided into two preference tiers named love and okay.
+5. The model uses the p5.brush library restricted to exactly ten specific methods to achieve the watercolour aesthetic.
+6. This project explores whether reinforcement learning can successfully operate over subjective human taste and artistic preference.
+
+═══ 01_DRAFT ═══
+
+On 23 August, a video posted by Surya Narreddi showing language model-generated watercolour paintings written in JavaScript through the p5.brush library went viral, garnering over 1.5 million views. Following his work, an open reproduction project was launched using TRL and OpenEnv on Hugging Face, utilizing Qwen/Qwen3.5-35B-A3B as the base model. The entire pipeline, including the RL environment, scorer model, pairwise judge, and trained models, has been published in a Hugging Face collection.
+
+The project explores whether reinforcement learning can be driven by aesthetic preference rather than verifiable correctness. The reward system combines two judges. HPSv3, an open 7-billion parameter preference model, scores images based on general human choices, while a pairwise judge, Qwen3-VL-30B-A3B-Instruct, compares candidate paintings against four references drawn from a curated pool of 178 model-generated images. The reference pool is divided into two tiers, love and okay, ensuring that early policies receive gradient signal. 
+
+Training is performed through an environment that wraps the p5.brush library, restricting the model to a specific allowlist of ten methods out of 47 to maintain the watercolour style. The final pipeline executes via a Hugging Face Jobs command using specific training parameters, including a learning rate of 5e-5, a batch size of 1 with gradient accumulation steps of 8, and 110 steps across 240 episodes. The implementation demonstrates that smaller models can be successfully steered toward personal artistic preferences by curating the underlying reference dataset.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+On 23 August, a video posted by Surya Narreddi showing language model-generated watercolour paintings written in JavaScript through the p5.brush library went viral, garnering over 1.5 million views. The article describes an attempt to reproduce his idea using TRL and OpenEnv, with the reference pool dataset, RL environment, training scripts, and trained models all published openly on Hugging Face. The entire pipeline runs on Hugging Face end to end, with training on Jobs, the RL environment and scorer model as Spaces, the pairwise judge through Inference Providers, and every artifact gathered in one collection.
+
+The project explores whether reinforcement learning can be driven by aesthetic preference rather than verifiable correctness. The reward system combines two judges. HPSv3, an open 7B preference model, scores images based on general human choices, while a pairwise judge, Qwen3-VL-30B-A3B-Instruct, compares candidate paintings against four references randomly selected from a pool of 178 model-generated images. The reference pool is divided into two tiers based on personal preferences, love and okay, with the pairwise judge drawing half from each tier so that a weak early policy still gets signal. 
+
+Training is performed through an environment that wraps the p5.brush library, restricting the model to a strict allowlist of ten methods out of 47 to maintain the watercolour style. The pipeline runs using a command that specifies parameters such as the H200 flavor, a learning rate of 5e-5, 110 steps, 240 episodes, 8 num-generations, a per-device-batch-size of 1, and gradient-accumulation-steps of 8. The implementation demonstrates that smaller models can be successfully steered toward personal artistic preferences by curating the underlying reference dataset.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+On August twenty-third, a video by , Surya Narreddi, showed language model generated watercolour paintings written in JavaScript through the p five brush library. The video went viral and gained over one point five million views. An article now describes an attempt to reproduce this idea using T. R. L. and OpenEnv. The reference pool dataset, reinforcement learning environment, training scripts, and trained models are all published openly on Hugging Face. The entire pipeline runs on Hugging Face end to end. Training runs on Jobs, the reinforcement learning environment and scorer model run as Spaces, and the pairwise judge runs through Inference Providers. Every artifact is gathered in one collection.
+
+The project explores whether reinforcement learning can be driven by aesthetic preference rather than verifiable correctness. The reward system combines two judges. H. P. S. v. three, an open seven billion parameter preference model, scores images based on general human choices. A pairwise judge named , Qwen three V. L. thirty B A three B Instruct, compares candidate paintings against four references. These references are randomly selected from a pool of one hundred seventy-eight model generated images. The reference pool is divided into two tiers based on personal preferences called love and okay. The pairwise judge draws half from each tier so that a weak early policy still gets signal.
+
+Training is performed through an environment that wraps the p five brush library. This restricts the model to a strict allowlist of ten methods out of forty-seven to maintain the watercolour style. The pipeline runs using a command that specifies several parameters. It uses the H two hundred flavor, a learning rate of five e minus five, one hundred ten steps, two-hundred-forty episodes, eight num-generations, a per-device-batch-size of one, and gradient-accumulation-steps of eight. The implementation demonstrates that smaller models can be successfully steered toward personal artistic preferences by curating the underlying reference dataset.
+
+═══ 05_NORMALIZED ═══
+
+On August twenty-third, a video by, Surya Narreddi, showed language model generated watercolour paintings written in JavaScript through the p five brush library. The video went viral and gained over one point five million views. An article now describes an attempt to reproduce this idea using T. R. L. and OpenEnv. The reference pool dataset, reinforcement learning environment, training scripts, and trained models are all published openly on Hugging Face. The entire pipeline runs on Hugging Face end to end. Training runs on Jobs, the reinforcement learning environment and scorer model run as Spaces, and the pairwise judge runs through Inference Providers. Every artifact is gathered in one collection.
+
+The project explores whether reinforcement learning can be driven by aesthetic preference rather than verifiable correctness. The reward system combines two judges. H. P. S. v. three, an open seven billion parameter preference model, scores images based on general human choices. A pairwise judge named, Qwen three V. L. thirty B A three B Instruct, compares candidate paintings against four references. These references are randomly selected from a pool of one hundred seventy-eight model generated images. The reference pool is divided into two tiers based on personal preferences called love and okay. The pairwise judge draws half from each tier so that a weak early policy still gets signal.
+
+Training is performed through an environment that wraps the p five brush library. This restricts the model to a strict allowlist of ten methods out of forty-seven to maintain the watercolour style. The pipeline runs using a command that specifies several parameters. It uses the H two hundred flavor, a learning rate of five e minus five, one hundred ten steps, two-hundred-forty episodes, eight num-generations, a per-device-batch-size of one, and gradient-accumulation-steps of eight. The implementation demonstrates that smaller models can be successfully steered toward personal artistic preferences by curating the underlying reference dataset.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: awkward punctuation
+

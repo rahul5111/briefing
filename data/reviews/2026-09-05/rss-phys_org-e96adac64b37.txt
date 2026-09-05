@@ -1,0 +1,66 @@
+═══ 00_KEY_POINTS ═══
+
+1. Researchers from the University of Toulouse-CNRS and the University of Leeds published a mathematical framework in the Journal of the Royal Society Interface.
+2. The study investigates how groups of experts make decisions and whether dissent influences the reliability of their choices.
+3. Findings reveal that high levels of agreement or unanimity during group decision-making are not always signs of expertise and trustworthiness.
+4. First author Aurèle Boussard stated that the more confident a group seems under certain conditions, the less trustworthy it is.
+5. The researchers used four distinct formulations across sixteen model cases to cover plausible real-life group decisions.
+6. The study introduces the phenomenon of credibility-enhancing dissent, where groups appearing more confident are actually less trustworthy.
+7. This matters because consensus alone is not a strong enough marker of a decision's quality when conformity bias is considered.
+
+═══ 01_DRAFT ═══
+
+Researchers at the University of Toulouse-CNRS and the University of Leeds have developed a mathematical framework showing that high levels of agreement or unanimity among decision-making groups are not always reliable indicators of expertise and trustworthiness. Published in the Journal of the Royal Society Interface, the study found that when conformity bias is factored into realistic scenarios, groups that appear entirely confident can actually be less trustworthy than those exhibiting some dissent. 
+
+First author Aurèle Boussard explained that while a purely rational view might lead one to assume that increased agreement means a group is more likely to be right, reality is more complex. As Boussard stated, "While reading a previous paper, we realized that a paradoxical—yet intuitive—result could emerge from Bayesian decision-making. In this framework, individuals balance private and social information in an optimal way. From that, it reasonably follows that the more individuals agree, the more likely the group is to be right. However, we found situations leading to the opposite conclusion, in which the more confident a group seems, the less trustworthy it is."
+
+To cover plausible real-life group decisions, the researchers used 16 model cases varying conformity formulations and decision complexities. Their findings indicate that high agreement is a sign of trustworthiness primarily when decisions are fairly simple. For more difficult choices, the presence of dissent suggests that members were less influenced by conformity bias, making disagreement a better hint of reliability when evaluating collective decisions from the outside.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (7/7). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Researchers at the University of Toulouse C. N. R. S. and the University of Leeds have developed a new mathematical framework. It shows that high levels of agreement among decision-making groups are not always reliable indicators of expertise. 
+
+Published in the Journal of the Royal Society Interface, the study found that conformity bias changes everything. Groups that appear entirely confident can actually be less trustworthy than those exhibiting some dissent. 
+
+First author, Aurèle Boussard, explained that a purely rational view might lead one to assume that increased agreement means a group is more likely to be right. However, reality is much more complex. 
+
+Boussard stated that individuals balance private and social information in an optimal way. From that, it reasonably follows that the more individuals agree, the more likely the group is to be right. 
+
+However, the researchers found situations leading to the exact opposite conclusion. They discovered that the more confident a group seems, the less trustworthy it is. 
+
+To cover plausible real-life group decisions, the researchers used sixteen model cases. These cases varied conformity formulations and decision complexities. 
+
+Their findings indicate that high agreement is a sign of trustworthiness primarily when decisions are fairly simple. For more difficult choices, the presence of dissent suggests that members were less influenced by conformity bias. 
+
+This makes disagreement a better hint of reliability when evaluating collective decisions from the outside.
+
+═══ 05_NORMALIZED ═══
+
+Researchers at the University of Toulouse C. N. R. S. and the University of Leeds have developed a new mathematical framework. It shows that high levels of agreement among decision-making groups are not always reliable indicators of expertise.
+
+Published in the Journal of the Royal Society Interface, the study found that conformity bias changes everything. Groups that appear entirely confident can actually be less trustworthy than those exhibiting some dissent.
+
+First author, Aurèle Boussard, explained that a purely rational view might lead one to assume that increased agreement means a group is more likely to be right. However, reality is much more complex.
+
+Boussard stated that individuals balance private and social information in an optimal way. From that, it reasonably follows that the more individuals agree, the more likely the group is to be right.
+
+However, the researchers found situations leading to the exact opposite conclusion. They discovered that the more confident a group seems, the less trustworthy it is.
+
+To cover plausible real-life group decisions, the researchers used sixteen model cases. These cases varied conformity formulations and decision complexities.
+
+Their findings indicate that high agreement is a sign of trustworthiness primarily when decisions are fairly simple. For more difficult choices, the presence of dissent suggests that members were less influenced by conformity bias.
+
+This makes disagreement a better hint of reliability when evaluating collective decisions from the outside.
+
+═══ 06_COVERAGE_FINAL ═══
+
+85% covered (6/7). Missing: The researchers used four distinct formulations across sixteen model cases to cover plausible real-life group decisions.
+
+═══ 07_SANITY ═══
+
+ISSUES: C. N. R. S.
+

@@ -1,0 +1,52 @@
+═══ 00_KEY_POINTS ═══
+
+1. Google Pics is rolling out over the coming weeks to Google AI Pro and Ultra subscribers.
+2. The new tool is also rolling out to most Google Workspace business customers.
+3. Google Pics is built upon the Nano Banana image generation and editing model.
+4. The tool will be available as a standalone product and integrated into Slides, Docs, and Drive.
+5. Google Pics lets users easily isolate an object and transform it without altering the rest.
+
+═══ 01_DRAFT ═══
+
+Google is rolling out a new image creation and editing tool called Google Pics over the coming weeks to all Google AI Pro and Ultra subscribers and most Workspace business customers. Built on the Nano Banana image generation and editing model, the tool is designed for tasks such as designing posters, producing social media posts, and editing digital illustrations. 
+
+Google Pics will function as both a standalone product and an integrated feature within Workspace applications, starting with Slides, Docs, and Drive. The software includes fine-tuned editing capabilities, featuring object segmentation to isolate and transform specific parts of an image using text comments, in-image text editing and translation that preserves design and fonts, collaborative editing features for shared creations, and multiple generation options that provide several iterations from a single prompt. 
+
+Millions of users interact with billions of images across Workspace products every month. The integration aims to eliminate the need to jump between applications, allowing users to harness AI image generation and editing directly within their existing workflows without copying, pasting, or switching tabs.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (5/5). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Google is rolling out a new tool called Google Pics over the coming weeks. It is for all Google A. I. Pro and Ultra subscribers and most Workspace business customers. 
+
+The software is built on the Nano Banana image generation and editing model. It helps people design posters and produce social media posts and edit digital illustrations. 
+
+Google Pics functions as both a standalone product and an integrated feature within Workspace applications. These applications start with Slides and Docs and Drive. 
+
+The software includes fine tuned editing capabilities. It features object segmentation to isolate and transform specific parts of an image using text comments. It also has in-image text editing and translation that preserves design and fonts. Users get collaborative editing features for shared creations and multiple generation options that provide several iterations from a single prompt. 
+
+Millions of users interact with billions of images across Workspace products every month. The integration aims to eliminate the need to jump between applications. Users can harness A. I. image generation and editing directly within their existing workflows without copying or pasting or switching tabs.
+
+═══ 05_NORMALIZED ═══
+
+Google is rolling out a new tool called Google Pics over the coming weeks. It is for all Google A. I. Pro and Ultra subscribers and most Workspace business customers.
+
+The software is built on the Nano Banana image generation and editing model. It helps people design posters and produce social media posts and edit digital illustrations.
+
+Google Pics functions as both a standalone product and an integrated feature within Workspace applications. These applications start with Slides and Docs and Drive.
+
+The software includes fine tuned editing capabilities. It features object segmentation to isolate and transform specific parts of an image using text comments. It also has in-image text editing and translation that preserves design and fonts. Users get collaborative editing features for shared creations and multiple generation options that provide several iterations from a single prompt.
+
+Millions of users interact with billions of images across Workspace products every month. The integration aims to eliminate the need to jump between applications. Users can harness A. I. image generation and editing directly within their existing workflows without copying or pasting or switching tabs.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (5/5). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: fine tuned
+

@@ -1,0 +1,49 @@
+═══ 00_KEY_POINTS ═══
+
+1. Android Auto automatically lowers your audio volume through a feature known as audio ducking.
+2. Audio ducking has been an Android feature since release 8.0 to prioritize important notifications and alerts.
+3. Android 14 introduced hearing safety features that automatically lower volume to protect your hearing from loud audio.
+4. Notifications, incoming calls, and navigation apps like Google Maps are the two biggest triggers for volume dipping.
+5. Popular apps like Spotify, YouTube Music, Google Maps, and Waze do not allow users to disable audio ducking.
+6. Using do not disturb mode can stop message notifications from triggering volume drops while driving.
+
+═══ 01_DRAFT ═══
+
+Android Auto users experiencing sudden drops in volume are likely encountering a built-in feature called audio ducking, which has been part of the operating system since release 8.0. The system uses a focus mechanism to temporarily lower media audio, such as music playing from apps like Spotify or YouTube Music, so that important alerts can be heard clearly. The primary triggers for this behavior are incoming notifications, including SMS messages, social media alerts, phone calls, and navigation instructions or speed warnings from apps like Google Maps and Waze. This audio dip is designed to last only a few seconds and is intentional rather than a bug.
+
+A secondary cause for automatic volume reduction is Android's hearing safety feature introduced in Android 14. This feature tracks loud audio and automatically lowers the volume to protect the user's hearing, which can be managed by toggling off the media volume limit setting on the device. Because major apps do not offer settings to disable audio ducking or change app volume priority, users cannot easily turn off the behavior without disabling notifications entirely or using do not disturb mode, which stops messages and calls while still allowing map alerts. If volume changes occur based on vehicle speed, the issue may be tied to a speed-sensitive setting within the car's own audio system rather than the phone.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Android Auto users experiencing sudden drops in volume are likely encountering a built-in feature called audio ducking, which has been part of the operating system since release 8.0. The system uses a focus mechanism to temporarily lower media audio, such as music playing from apps like Spotify or YouTube Music, so that important alerts can be heard clearly. The primary triggers for this behavior are incoming notifications, including SMS messages, social media alerts, phone calls, and navigation instructions or speed warnings from apps like Google Maps and Waze. This audio dip is designed to last only a few seconds and is intentional rather than a bug.
+
+A secondary cause for automatic volume reduction is Android's hearing safety feature introduced in Android 14. This feature tracks loud audio and automatically lowers the volume to protect the user's hearing, which can be managed by toggling off the media volume limit setting on the device. Because major apps like Spotify, YouTube Music, Google Maps, and Waze do not allow users to stop audio ducking or determine app volume priority, stopping the behavior requires switching off app notifications entirely or using do not disturb mode, which stops messages and calls while leaving map alerts active. If volume changes occur based on vehicle speed, the issue may be tied to a speed-sensitive setting within the car's own audio system rather than the phone.
+
+═══ 02b_TRIMMED ═══
+
+Android Auto users experiencing sudden drops in volume are likely encountering a built-in feature called audio ducking, which has been part of the operating system since release 8.0. The system uses a focus mechanism to temporarily lower media audio, such as music playing from apps like Spotify or YouTube Music, so that important alerts can be heard clearly. The primary triggers for this behavior are incoming notifications, including SMS messages, social media alerts, phone calls, and navigation instructions or speed warnings from apps like Google Maps and Waze. This audio dip is designed to last only a few seconds and is intentional rather than a bug. A secondary cause for automatic volume reduction is Android's hearing safety feature introduced in Android 14. This feature tracks loud audio and automatically lowers the volume to protect the user's hearing, which can be managed by toggling off the media volume limit setting on the device. If volume changes occur based on vehicle speed, the issue may be tied to a speed-sensitive setting within the car's own audio system rather than the phone.
+
+═══ 03_COVERAGE_1 ═══
+
+66% covered (4/6). Missing: Popular apps like Spotify, YouTube Music, Google Maps, and Waze do not allow users to disable audio ducking.; Using do not disturb mode can stop message notifications from triggering volume drops while driving.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+Android Auto users experiencing sudden drops in volume are likely encountering a built-in feature called audio ducking, which has been part of the operating system since release 8.0. The system uses a focus mechanism to temporarily lower media audio, such as music playing from apps like Spotify or YouTube Music, so that important alerts can be heard clearly. Popular apps like Spotify, YouTube Music, Google Maps, and Waze do not allow users to disable audio ducking. The primary triggers for this behavior are incoming notifications, including SMS messages, social media alerts, phone calls, and navigation instructions or speed warnings from apps like Google Maps and Waze. This audio dip is designed to last only a few seconds and is intentional rather than a bug. A secondary cause for automatic volume reduction is Android's hearing safety feature introduced in Android 14. This feature tracks loud audio and automatically lowers the volume to protect the user's hearing, which can be managed by toggling off the media volume limit setting on the device. Using do not disturb mode can stop message notifications from triggering volume drops while driving. If volume changes occur based on vehicle speed, the issue may be tied to a speed-sensitive setting within the car's own audio system rather than the phone.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Android Auto users facing sudden drops in volume are likely seeing a built-in feature called audio ducking. This feature has been part of the system since release eight point zero. The system uses a focus mechanism to temporarily lower media audio so that important alerts can be heard clearly. Affected apps include Spotify and YouTube Music and Google Maps and Waze. These apps do not allow users to turn off audio ducking. The primary triggers for this behavior are incoming notifications like text messages and social media alerts and phone calls. Navigation instructions and speed warnings from Google Maps and Waze also trigger it. This audio dip is designed to last only a few seconds and is intentional rather than a bug. A secondary cause for automatic volume reduction is a hearing safety feature introduced in Android fourteen. This feature tracks loud audio and lowers the volume to protect your hearing. You can manage this by turning off the media volume limit setting on your device. Using do not disturb mode can stop message notifications from triggering volume drops while driving. If volume changes occur based on vehicle speed the issue may be tied to a speed-sensitive setting within your car audio system rather than the phone.
+
+═══ 05_NORMALIZED ═══
+
+Android Auto users facing sudden drops in volume are likely seeing a built-in feature called audio ducking. This feature has been part of the system since release eight point zero. The system uses a focus mechanism to temporarily lower media audio so that important alerts can be heard clearly. Affected apps include Spotify and YouTube Music and Google Maps and Waze. These apps do not allow users to turn off audio ducking. The primary triggers for this behavior are incoming notifications like text messages and social media alerts and phone calls. Navigation instructions and speed warnings from Google Maps and Waze also trigger it. This audio dip is designed to last only a few seconds and is intentional rather than a bug. A secondary cause for automatic volume reduction is a hearing safety feature introduced in Android fourteen. This feature tracks loud audio and lowers the volume to protect your hearing. You can manage this by turning off the media volume limit setting on your device. Using do not disturb mode can stop message notifications from triggering volume drops while driving. If volume changes occur based on vehicle speed the issue may be tied to a speed-sensitive setting within your car audio system rather than the phone.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: sentence over 30 words
+

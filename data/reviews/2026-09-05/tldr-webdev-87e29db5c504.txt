@@ -1,0 +1,68 @@
+═══ 00_KEY_POINTS ═══
+
+1. Prominent frontend web educators and luminary figures are bowing out, dialing back efforts, or pivoting to other topics entirely.
+2. The author used Claude Sonnet to analyze a Chrome trace with high Style calculation costs and received a comprehensive optimization guide.
+3. The Style recalculation phase is expensive when matching CSS selectors against the DOM over many elements, independent of geometry changes.
+4. AI coding tools prioritize React because it is heavily overrepresented in training weights, making 'agent experience' matter more than developer experience.
+5. Frontend development is facing a major shift as AI agents increasingly handle code generation, reducing overall investment in traditional frontend knowledge.
+
+═══ 01_DRAFT ═══
+
+Educators and experts in the frontend web development space are stepping back or pivoting their focus as artificial intelligence changes the industry. Figures like Axel Rauschmayer, Salma Alam-Naylor, and Josh W. Comeau are dialing back their efforts, while Kent C. Dodds, Addy Osmani, Rachel Nabors, and Lydia Hallie have shifted their topics away from traditional frontend development. 
+
+The shift is driven by the capability of AI tools like Claude Sonnet to handle complex frontend analysis, such as diagnosing Chrome traces with high Style Calculation costs. Rather than manual troubleshooting, developers can now rely on AI agents to identify performance bottlenecks, including complex selectors, broad invalidation scopes, and property propagation issues.
+
+This technological evolution is altering the landscape in several ways. Frontend code is generally considered less risky to hand off to an agent compared to database migrations, leading to more unsupervised deployment. Additionally, developer experience is taking a back seat to agent experience. Companies like Cursor and Viget have migrated codebases to React simply because AI agents are more heavily trained on it and know it better. Furthermore, web standards focused solely on ergonomics, such as new CSS shorthands or JavaScript syntax, are expected to decline in perceived importance relative to performance capabilities.
+
+To adapt to this environment, frontend education may need to focus on teaching agents architectural big-picture concepts, such as choosing multi-page application frameworks over single-page applications. Another potential direction is optimizing websites for agents by emphasizing server-rendered content, accessibility, and page speed. Finally, as massive amounts of AI-generated code are produced, consulting opportunities may emerge to fix slow, non-compliant, and poorly structured digital outputs.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Educators and experts in the frontend web development space are stepping back or pivoting their focus as artificial intelligence changes the industry. Figures like Axel Rauschmayer, Salma Alam-Naylor, and Josh W. Comeau are dialing back their efforts, while Kent C. Dodds, Addy Osmani, Rachel Nabors, and Lydia Hallie have shifted their topics away from traditional frontend development. 
+
+The shift is driven by the capability of AI tools like Claude Sonnet to handle complex frontend analysis, such as diagnosing Chrome traces with high Style Calculation costs. Rather than manual troubleshooting, developers can now rely on AI agents to identify performance bottlenecks, including complex selectors, broad invalidation scopes, and property propagation issues.
+
+This technological evolution is altering the landscape in several ways. Frontend code is generally considered less risky to hand off to an agent compared to database migrations, leading to more unsupervised deployment. At the same time, tools like React are chosen for migrations because agents know them better from their training data. Furthermore, efforts to improve web ergonomics are expected to decline in perceived importance relative to capabilities and performance.
+
+To adapt to this environment, frontend education may need to focus on teaching agents architectural big-picture concepts, such as choosing multi-page application frameworks over single-page applications. Another potential direction is optimizing websites for agents by emphasizing server-rendered content, accessibility, and page speed. Finally, as massive amounts of AI-generated code are produced, consulting opportunities may emerge to fix slow, non-compliant, and poorly structured digital outputs.
+
+═══ 02b_TRIMMED ═══
+
+Educators and experts in the frontend web development space are stepping back or pivoting their focus as artificial intelligence changes the industry. Comeau are dialing back their efforts, while Kent C. Dodds, Addy Osmani, Rachel Nabors, and Lydia Hallie have shifted their topics away from traditional frontend development. The shift is driven by the capability of AI tools like Claude Sonnet to handle complex frontend analysis, such as diagnosing Chrome traces with high Style Calculation costs. Rather than manual troubleshooting, developers can now rely on AI agents to identify performance bottlenecks, including complex selectors, broad invalidation scopes, and property propagation issues. This technological evolution is altering the landscape in several ways. Frontend code is generally considered less risky to hand off to an agent compared to database migrations, leading to more unsupervised deployment. At the same time, tools like React are chosen for migrations because agents know them better from their training data. To adapt to this environment, frontend education may need to focus on teaching agents architectural big-picture concepts, such as choosing multi-page application frameworks over single-page applications. Another potential direction is optimizing websites for agents by emphasizing server-rendered content, accessibility, and page speed. Finally, as massive amounts of AI-generated code are produced, consulting opportunities may emerge to fix slow, non-compliant, and poorly structured digital outputs.
+
+═══ 03_COVERAGE_1 ═══
+
+80% covered (4/5). Missing: The Style recalculation phase is expensive when matching CSS selectors against the DOM over many elements, independent of geometry changes.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+Educators and experts in the frontend web development space are stepping back or pivoting their focus as artificial intelligence changes the industry. Comeau are dialing back their efforts, while Kent C. Dodds, Addy Osmani, Rachel Nabors, and Lydia Hallie have shifted their topics away from traditional frontend development. The shift is driven by the capability of AI tools like Claude Sonnet to handle complex frontend analysis, such as diagnosing Chrome traces with high Style Calculation costs. The Style recalculation phase is expensive when matching CSS selectors against the DOM over many elements, independent of geometry changes. Rather than manual troubleshooting, developers can now rely on AI agents to identify performance bottlenecks, including complex selectors, broad invalidation scopes, and property propagation issues. This technological evolution is altering the landscape in several ways. Frontend code is generally considered less risky to hand off to an agent compared to database migrations, leading to more unsupervised deployment. At the same time, tools like React are chosen for migrations because agents know them better from their training data. To adapt to this environment, frontend education may need to focus on teaching agents architectural big-picture concepts, such as choosing multi-page application frameworks over single-page applications. Another potential direction is optimizing websites for agents by emphasizing server-rendered content, accessibility, and page speed. Finally, as massive amounts of AI-generated code are produced, consulting opportunities may emerge to fix slow, non-compliant, and poorly structured digital outputs.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Frontend web development educators and experts are stepping back or pivoting their focus as artificial intelligence changes the industry. Comeau are dialing back their efforts. Kent C. Dodds, Addy Osmani, Rachel Nabors, and Lydia Hallie have shifted their topics away from traditional frontend development. 
+
+The shift is driven by the capability of artificial intelligence tools like Claude Sonnet to handle complex frontend analysis. These tools can diagnose Chrome traces with high Style Calculation costs. The style recalculation phase is expensive when matching Cascading Style Sheets selectors against the Document Object Model over many elements, independent of geometry changes. Rather than manual troubleshooting, developers can now rely on artificial intelligence agents to identify performance bottlenecks. These include complex selectors, broad invalidation scopes, and property propagation issues. 
+
+This technological evolution is altering the landscape in several ways. Frontend code is generally considered less risky to hand off to an agent compared to database migrations. This leads to more unsupervised deployment. At the same time, tools like React are chosen for migrations because agents know them better from their training data. 
+
+To adapt to this environment, frontend education may need to focus on teaching agents architectural big-picture concepts. Examples include choosing multi-page application frameworks over single-page applications. Another potential direction is optimizing websites for agents by emphasizing server-rendered content, accessibility, and page speed. Finally, as massive amounts of artificial intelligence-generated code are produced, consulting opportunities may emerge to fix slow, non-compliant, and poorly structured digital outputs.
+
+═══ 05_NORMALIZED ═══
+
+Frontend web development educators and experts are stepping back or pivoting their focus as artificial intelligence changes the industry. Comeau are dialing back their efforts. Kent C. Dodds, Addy Osmani, Rachel Nabors, and Lydia Hallie have shifted their topics away from traditional frontend development.
+
+The shift is driven by the capability of artificial intelligence tools like Claude Sonnet to handle complex frontend analysis. These tools can diagnose Chrome traces with high Style Calculation costs. The style recalculation phase is expensive when matching Cascading Style Sheets selectors against the Document Object Model over many elements, independent of geometry changes. Rather than manual troubleshooting, developers can now rely on artificial intelligence agents to identify performance bottlenecks. These include complex selectors, broad invalidation scopes, and property propagation issues.
+
+This technological evolution is altering the landscape in several ways. Frontend code is generally considered less risky to hand off to an agent compared to database migrations. This leads to more unsupervised deployment. At the same time, tools like React are chosen for migrations because agents know them better from their training data.
+
+To adapt to this environment, frontend education may need to focus on teaching agents architectural big-picture concepts. Examples include choosing multi-page application frameworks over single-page applications. Another potential direction is optimizing websites for agents by emphasizing server-rendered content, accessibility, and page speed. Finally, as massive amounts of artificial intelligence-generated code are produced, consulting opportunities may emerge to fix slow, non-compliant, and poorly structured digital outputs.
+
+═══ 06_COVERAGE_FINAL ═══
+
+80% covered (4/5). Missing: AI coding tools prioritize React because it is heavily overrepresented in training weights, making 'agent experience' matter more than developer experience.
+
+═══ 07_SANITY ═══
+
+ISSUES: Missing name before Comeau
+

@@ -1,0 +1,46 @@
+═══ 00_KEY_POINTS ═══
+
+1. Anthropic released Fable 5.1 and walked back controversial data retention policies due to the need to make money.
+2. OpenAI is competing hard against Anthropic and recently had a model release discussed with Greg Brockman.
+3. Apple successfully produced an immersive video broadcast of Friday Night Baseball on the Vision Pro.
+4. Meta settled with 29 states to implement sweeping changes restricting Instagram and Meta use among teens.
+5. Anthropic altered and entirely removed its hated Fable data retention policy in the Fable 5.1 release.
+
+═══ 01_DRAFT ═══
+
+Anthropic has released Fable 5.1 alongside a major policy pivot, walking back its controversial data retention policies following significant backlash earlier in the year. The company reversed course because it needs to generate revenue while facing intense competition from OpenAI, which recently released its own model discussed in a Stratechery interview with OpenAI President Greg Brockman. 
+
+In other tech developments, Apple successfully produced a live immersive video broadcast of Friday Night Baseball on the Vision Pro, drawing praise for nailing an approach it had previously struggled with. Meanwhile, Meta announced a settlement with 29 states that includes sweeping changes to restrict Instagram and Meta usage for teens, sparking broader discussions about content regulation and the societal impacts of technology that removes friction. Additionally, Nvidia reported earnings described as both remarkable and boring, reflecting a corporate strategy aimed at avoiding a consolidated world.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (5/5). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Anthropic has released Fable five point one alongside a major policy pivot. The company is walking back its controversial data retention policies following significant backlash earlier in the year. The company reversed course because it needs to generate revenue. It is facing intense competition from OpenAI. OpenAI recently released its own model discussed in a Stratechery interview with OpenAI President, Greg Brockman. 
+
+In other tech developments, Apple successfully produced a live immersive video broadcast of Friday Night Baseball on the Vision Pro. The broadcast drew praise for nailing an approach it had previously struggled with. 
+
+Meanwhile, Meta announced a settlement with twenty-nine states. The settlement includes sweeping changes to restrict Instagram and Meta usage for teens. This is sparking broader discussions about content regulation and the societal impacts of technology that removes friction. 
+
+Additionally, Nvidia reported earnings described as both remarkable and boring. This reflects a corporate strategy aimed at avoiding a consolidated world.
+
+═══ 05_NORMALIZED ═══
+
+Anthropic has released Fable five point one alongside a major policy pivot. The company is walking back its controversial data retention policies following significant backlash earlier in the year. The company reversed course because it needs to generate revenue. It is facing intense competition from OpenAI. OpenAI recently released its own model discussed in a Stratechery interview with OpenAI President, Greg Brockman.
+
+In other tech developments, Apple successfully produced a live immersive video broadcast of Friday Night Baseball on the Vision Pro. The broadcast drew praise for nailing an approach it had previously struggled with.
+
+Meanwhile, Meta announced a settlement with twenty-nine states. The settlement includes sweeping changes to restrict Instagram and Meta usage for teens. This is sparking broader discussions about content regulation and the societal impacts of technology that removes friction.
+
+Additionally, Nvidia reported earnings described as both remarkable and boring. This reflects a corporate strategy aimed at avoiding a consolidated world.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (5/5). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: Fable five point one
+

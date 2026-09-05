@@ -1,0 +1,52 @@
+═══ 00_KEY_POINTS ═══
+
+1. Researchers published a complete wiring diagram of the male fruit fly brain and central nervous system.
+2. The new map features over 166,000 neurons and 125 million synaptic connections.
+3. Google Research partnered with HHMI Janelia and other collaborators on the decade-long project.
+4. The study was published in the journal Cell under the title Sexual dimorphism in the complete connectome.
+5. This map is the largest cellular-scale brain map by number of neurons produced to date.
+6. The research helps scientists decipher how nervous systems perceive the world and repair damaged pathways.
+7. Having both male and female maps allows researchers to study biological mechanisms for courtship and aggression.
+
+═══ 01_DRAFT ═══
+
+Google Research, the Howard Hughes Medical Institute Janelia Research Campus, and other collaborators have published a complete wiring diagram of the male fruit fly brain and central nervous system in the journal Cell. The study, titled Sexual dimorphism in the complete connectome of the Drosophila male central nervous system, marks a milestone as the largest brain map by number of neurons to date. 
+
+The map encompasses over 166,000 neurons and 125 million synaptic connections. It includes the ventral nerve cord, which functions analogously to the spinal cord. Human experts at HHMI Janelia proofread the annotations, and the dataset is publicly available for exploration and download via the open-source tool Neuroglancer. 
+
+The project relied on computing and AI to process thin brain slices into three-dimensional reconstructions, utilizing systems such as flood-filling networks and the PATHFINDER reconstruction system. This male map complements previously released female fruit fly brain maps. Having both sexes mapped enables researchers to compare neuronal differences related to courtship and aggression, and to study individual variability in overlapping brain regions. Three companion papers published alongside the map detail its application to research on visual systems, taste, and social behavior. 
+
+This work advances the field of connectomics as researchers progressively target larger organisms to better understand how nervous systems perceive the world, react to stimuli, and how damaged neural pathways might eventually be repaired.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (7/7). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Researchers from Google Research and the Howard Hughes Medical Institute Janelia Research Campus have published a complete wiring diagram of the male fruit fly brain. This appears in the journal Cell. The study is titled Sexual dimorphism in the complete connectome of the Drosophila male central nervous system. It marks a milestone as the largest brain map by number of neurons to date. 
+
+The map encompasses over one hundred sixty-six thousand neurons and one hundred twenty-five million synaptic connections. It includes the ventral nerve cord. This cord functions analogously to the spinal cord. Human experts proofread the annotations. The dataset is publicly available for exploration and download via the open-source tool Neuroglancer. 
+
+The project relied on computing and artificial intelligence, or A. I., to process thin brain slices. It made three-dimensional reconstructions using systems such as flood-filling networks and the PATHFINDER reconstruction system. This male map complements previously released female fruit fly brain maps. Having both sexes mapped enables researchers to compare neuronal differences related to courtship and aggression. It also lets them study individual variability in overlapping brain regions. Three companion papers published alongside the map detail its application to research on visual systems, taste, and social behavior. 
+
+This work advances the field of connectomics. Researchers progressively target larger organisms to better understand how nervous systems perceive the world and react to stimuli. They also want to understand how damaged neural pathways might eventually be repaired.
+
+═══ 05_NORMALIZED ═══
+
+Researchers from Google Research and the Howard Hughes Medical Institute Janelia Research Campus have published a complete wiring diagram of the male fruit fly brain. This appears in the journal Cell. The study is titled Sexual dimorphism in the complete connectome of the Drosophila male central nervous system. It marks a milestone as the largest brain map by number of neurons to date.
+
+The map encompasses over one hundred sixty-six thousand neurons and one hundred twenty-five million synaptic connections. It includes the ventral nerve cord. This cord functions analogously to the spinal cord. Human experts proofread the annotations. The dataset is publicly available for exploration and download via the open-source tool Neuroglancer.
+
+The project relied on computing and artificial intelligence, or A. I., to process thin brain slices. It made three-dimensional reconstructions using systems such as flood-filling networks and the PATHFINDER reconstruction system. This male map complements previously released female fruit fly brain maps. Having both sexes mapped enables researchers to compare neuronal differences related to courtship and aggression. It also lets them study individual variability in overlapping brain regions. Three companion papers published alongside the map detail its application to research on visual systems, taste, and social behavior.
+
+This work advances the field of connectomics. Researchers progressively target larger organisms to better understand how nervous systems perceive the world and react to stimuli. They also want to understand how damaged neural pathways might eventually be repaired.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (7/7). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: A. I.
+

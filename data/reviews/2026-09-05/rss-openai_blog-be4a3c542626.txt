@@ -1,0 +1,33 @@
+═══ 00_KEY_POINTS ═══
+
+1. Legora reviewed forty-one documents in minutes using GPT-6 Astra during a single agent run.
+2. GPT-6 Astra achieved a forty percent improvement against the Legora benchmark in financial-statement workflows.
+3. The AI agent successfully found all four planted errors in the financial-statement tie-out test.
+4. Legora is an agentic operating system used by over one hundred thousand professionals across more than eighteen hundred organizations.
+5. Legal engineer Percevale Perks stated that traditional tie-out work can take an entire evening or sometimes days.
+6. This technology matters because it automates tedious document comparison while keeping final judgment with legal professionals.
+
+═══ 01_DRAFT ═══
+
+Legal and professional operating system Legora used GPT-6 Astra to review 41 documents in a single agent run lasting minutes during a financial-statement tie-out. Legora legal engineer Percevale Perks noted that the workflow normally takes an entire evening or sometimes days. The agent checked every figure in draft accounts against trial balances, a consolidation schedule, and the previous year’s accounts, successfully finding all four planted errors, including a £500,000 gap hidden in the revenue note. Evaluated using the Legora Benchmark for Agentic Reasoning, GPT-6 Astra improved performance by nearly 40% on the financial-statement workflow compared to the previous model, while averaging a 3% improvement across all tasks in the benchmark. Perks stated that the key change between the models is the processing power and the ability to ingest a large number of documents, digest complex information, and handle different line items and figures. Legora uses the agent to handle exhaustive comparisons while keeping human legal professionals responsible for final judgments, supporting the platform's expansion into audit, tax, compliance, and risk. Legora is currently used by more than 100,000 professionals across over 1,800 in-house legal departments and law firms in more than 50 markets.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+The legal and professional operating system Legora used G. P. T. dash six Astra to review forty-one documents. The single agent run lasted minutes during a financial-statement tie-out. Legora legal engineer, Percevale Perks noted that the workflow normally takes an entire evening or sometimes days. The agent checked every figure in draft accounts against trial balances and a consolidation schedule. It also checked the previous year's accounts. The agent successfully found all four planted errors. This included a five hundred thousand pound gap hidden in the revenue note. The evaluation used the Legora Benchmark for Agentic Reasoning. G. P. T. dash six Astra improved performance by nearly forty percent on the financial-statement workflow compared to the previous model. It averaged a three percent improvement across all tasks in the benchmark. Perks stated that the key change between the models is the processing power. Another key change is the ability to ingest a large number of documents and digest complex information. The models can also handle different line items and figures. Legora uses the agent to handle exhaustive comparisons. Human legal professionals remain responsible for final judgments. This supports the platform's expansion into audit, tax, compliance, and risk. Legora is currently used by more than one hundred thousand professionals. These users span over one thousand eight hundred in-house legal departments and law firms in more than fifty markets.
+
+═══ 05_NORMALIZED ═══
+
+The legal and professional operating system Legora used G. P. T. dash six Astra to review forty-one documents. The single agent run lasted minutes during a financial-statement tie-out. Legora legal engineer, Percevale Perks noted that the workflow normally takes an entire evening or sometimes days. The agent checked every figure in draft accounts against trial balances and a consolidation schedule. It also checked the previous year's accounts. The agent successfully found all four planted errors. This included a five hundred thousand pound gap hidden in the revenue note. The evaluation used the Legora Benchmark for Agentic Reasoning. G. P. T. dash six Astra improved performance by nearly forty percent on the financial-statement workflow compared to the previous model. It averaged a three percent improvement across all tasks in the benchmark. Perks stated that the key change between the models is the processing power. Another key change is the ability to ingest a large number of documents and digest complex information. The models can also handle different line items and figures. Legora uses the agent to handle exhaustive comparisons. Human legal professionals remain responsible for final judgments. This supports the platform's expansion into audit, tax, compliance, and risk. Legora is currently used by more than one hundred thousand professionals. These users span over one thousand eight hundred in-house legal departments and law firms in more than fifty markets.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: G. P. T. dash six Astra
+
