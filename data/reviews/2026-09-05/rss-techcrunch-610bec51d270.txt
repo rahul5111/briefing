@@ -1,0 +1,46 @@
+═══ 00_KEY_POINTS ═══
+
+1. Three hikers were rescued from California’s Mount Shasta after planning their trip with Google Gemini.
+2. The young men started hiking at 3 am and reached the summit at 7 pm instead of noon.
+3. The trio called the sheriff's office for directions and spent the night in Mud Creek Canyon.
+4. Forest Service rangers and volunteers rescued the hikers the following morning.
+5. Gemini advised the group to bring far less food and water than their expedition required.
+6. Hikers should never rely solely on artificial intelligence for trip planning.
+7. The sheriff warned that people must always call the local ranger station for accurate information.
+
+═══ 01_DRAFT ═══
+
+Three hikers were rescued from California’s Mount Shasta this week after using Google’s AI chatbot Gemini to plan their expedition. According to the Siskiyou County sheriff’s office, the three young men set off on their hike at 3am. Although hikers are instructed to turn around if they have not reached the summit by noon, the group made it to the top at 7pm. The trio then tried to descend in the dark, called the sheriff’s office to ask for directions, and spent the night in Mud Creek Canyon before being rescued the next morning by Forest Service rangers and volunteers. The sheriff’s office stated that the hikers were advised by Gemini to bring far less food and water than their group required, especially when their planned eight-hour ascent became a multiday ordeal. Issuing a warning regarding the incident, the sheriff’s office said, It is always advisable to call the local USFS Mount Shasta ranger station ahead of your trip to ensure you have the most accurate information, and to never rely solely on AI for your trip planning.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Three hikers were rescued from California’s Mount Shasta this week after using Google’s AI chatbot Gemini to plan their expedition. According to the Siskiyou County sheriff’s office, the three young men set off on their hike at 3am. Although hikers are instructed to turn around if they have not reached the summit by noon, the group made it to the top at 7pm. The trio then tried to descend in the dark, called the sheriff’s office to ask for directions, and spent the night in Mud Creek Canyon before being rescued the next morning by Forest Service rangers and volunteers. The sheriff’s office stated that the hikers were advised by Gemini to bring far less food and water than their group required, especially when their planned eight-hour ascent became a multiday ordeal. Concluding its report on the incident, the sheriff’s office noted that it is always advisable to call the local USFS Mount Shasta ranger station ahead of a trip to ensure the most accurate information, and to never rely solely on AI for trip planning.
+
+═══ 02b_TRIMMED ═══
+
+Three hikers were rescued from California’s Mount Shasta this week after using Google’s AI chatbot Gemini to plan their expedition. According to the Siskiyou County sheriff’s office, the three young men set off on their hike at 3am. Although hikers are instructed to turn around if they have not reached the summit by noon, the group made it to the top at 7pm. The trio then tried to descend in the dark, called the sheriff’s office to ask for directions, and spent the night in Mud Creek Canyon before being rescued the next morning by Forest Service rangers and volunteers. The sheriff’s office stated that the hikers were advised by Gemini to bring far less food and water than their group required, especially when their planned eight-hour ascent became a multiday ordeal.
+
+═══ 03_COVERAGE_1 ═══
+
+71% covered (5/7). Missing: Hikers should never rely solely on artificial intelligence for trip planning.; The sheriff warned that people must always call the local ranger station for accurate information.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+Three hikers were rescued from California’s Mount Shasta this week after using Google’s AI chatbot Gemini to plan their expedition. According to the Siskiyou County sheriff’s office, the three young men set off on their hike at 3am. Although hikers are instructed to turn around if they have not reached the summit by noon, the group made it to the top at 7pm. The trio then tried to descend in the dark, called the sheriff’s office to ask for directions, and spent the night in Mud Creek Canyon before being rescued the next morning by Forest Service rangers and volunteers. The sheriff’s office stated that the hikers were advised by Gemini to bring far less food and water than their group required, especially when their planned eight-hour ascent became a multiday ordeal. The sheriff warned that people must always call the local ranger station for accurate information, and noted that hikers should never rely solely on artificial intelligence for trip planning.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Three hikers were rescued from California’s Mount Shasta this week. They used a chatbot from Google called Gemini to plan their trip. The Siskiyou County sheriff’s office shared the story. Three young men started their hike at three in the morning. Hikers must usually turn around if they miss the summit by noon. This group reached the top at seven in the evening. The trio tried to descend in the dark. They called the sheriff’s office to ask for directions. They spent the night in Mud Creek Canyon. Forest Service rangers and volunteers rescued them the next morning. The sheriff’s office stated that the chatbot told the hikers to bring less food and water. Their group needed much more supplies for a trip that lasted multiple days instead of eight hours. The sheriff warned people to always call the local ranger station for accurate information. He noted that hikers should never rely solely on artificial intelligence for trip planning.
+
+═══ 05_NORMALIZED ═══
+
+Three hikers were rescued from California’s Mount Shasta this week. They used a chatbot from Google called Gemini to plan their trip. The Siskiyou County sheriff’s office shared the story. Three young men started their hike at three in the morning. Hikers must usually turn around if they miss the summit by noon. This group reached the top at seven in the evening. The trio tried to descend in the dark. They called the sheriff’s office to ask for directions. They spent the night in Mud Creek Canyon. Forest Service rangers and volunteers rescued them the next morning. The sheriff’s office stated that the chatbot told the hikers to bring less food and water. Their group needed much more supplies for a trip that lasted multiple days instead of eight hours. The sheriff warned people to always call the local ranger station for accurate information. He noted that hikers should never rely solely on artificial intelligence for trip planning.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (7/7). Missing: none
+
+═══ 07_SANITY ═══
+
+OK
+

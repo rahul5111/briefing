@@ -1,0 +1,47 @@
+═══ 00_KEY_POINTS ═══
+
+1. On August 12, NASA's WB-57F research aircraft observed a total solar eclipse off Iceland's coast.
+2. Flying at 50,000 feet allowed the aircraft to maximize its time inside the Moon's shadow.
+3. Onboard high-resolution cameras recorded eclipse data from above interfering atmospheric water vapor, dust, and clouds.
+4. The high-altitude flight enables crucial scientific observations that ground-based instruments cannot easily achieve.
+5. Venus, Jupiter, and Mercury were visible around the eclipsed Sun while the sky appeared dark in the shadow.
+
+═══ 01_DRAFT ═══
+
+On August 12, 2026, NASA's WB-57F high altitude research aircraft flew off the coast of Iceland to observe a total solar eclipse by chasing the shadow of a New Moon. Operating at 50,000 feet along a precisely determined path of totality, the aircraft carried a suite of high-resolution cameras designed to record eclipse data from above the clouds, dust, and atmospheric water vapor that typically interfere with ground-based observations. An inflight video from the cockpit captured the solar corona emerging at the beginning of totality against a dark sky in the Moon's shadow, with Venus shining to the left of center and Jupiter and Mercury visible to the right of the eclipsed Sun, while the distant horizon remained bright beyond the shadow's reach.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+On August 12, 2026, NASA's WB-57F high altitude research aircraft flew off the coast of Iceland to observe a total solar eclipse by chasing the shadow of a New Moon. At 50,000 feet the aircraft was piloted along the precisely determined path of totality, and a suite of high-resolution cameras on board was able to record eclipse data from above the clouds, dust, and atmospheric water vapor. An inflight video from the cockpit captured the solar corona emerging at the beginning of totality against a dark sky in the Moon's shadow, with Venus shining to the left of center and Jupiter and Mercury visible to the right of the eclipsed Sun, while the distant horizon remained bright beyond the shadow's reach.
+
+═══ 03_COVERAGE_1 ═══
+
+80% covered (4/5). Missing: The high-altitude flight enables crucial scientific observations that ground-based instruments cannot easily achieve.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+On August 12, 2026, NASA's WB-57F high altitude research aircraft flew off the coast of Iceland to observe a total solar eclipse by chasing the shadow of a New Moon. At 50,000 feet the aircraft was piloted along the precisely determined path of totality, and a suite of high-resolution cameras on board was able to record eclipse data from above the clouds, dust, and atmospheric water vapor. The high-altitude flight enables crucial scientific observations that ground-based instruments cannot easily achieve. An inflight video from the cockpit captured the solar corona emerging at the beginning of totality against a dark sky in the Moon's shadow, with Venus shining to the left of center and Jupiter and Mercury visible to the right of the eclipsed Sun, while the distant horizon remained bright beyond the shadow's reach.
+
+═══ 04_AUDIO_REWRITE ═══
+
+On August twelfth, twenty twenty-six, the National Aeronautics and Space Administration, known as N. A. S. A., flew a research aircraft off the coast of Iceland. 
+The W. B. dash fifty-seven F aircraft chased the shadow of a new moon to observe a total solar eclipse. 
+At fifty thousand feet, the plane followed the precisely determined path of totality. 
+High-resolution cameras on board recorded eclipse data from high above clouds, dust, and atmospheric water vapor. 
+This high-altitude flight enables crucial scientific observations that ground-based instruments cannot easily achieve. 
+An inflight video from the cockpit captured the solar corona emerging against a dark sky in the moon shadow. 
+Venus shone to the left of center while Jupiter and Mercury were visible to the right of the eclipsed sun. 
+The distant horizon remained bright beyond the reach of the shadow.
+
+═══ 05_NORMALIZED ═══
+
+On August twelfth, twenty twenty-six, the National Aeronautics and Space Administration, known as N. A. S. A., flew a research aircraft off the coast of Iceland.  The W. B. dash fifty-seven F aircraft chased the shadow of a new moon to observe a total solar eclipse.  At fifty thousand feet, the plane followed the precisely determined path of totality.  High-resolution cameras on board recorded eclipse data from high above clouds, dust, and atmospheric water vapor.  This high-altitude flight enables crucial scientific observations that ground-based instruments cannot easily achieve.  An inflight video from the cockpit captured the solar corona emerging against a dark sky in the moon shadow.  Venus shone to the left of center while Jupiter and Mercury were visible to the right of the eclipsed sun.  The distant horizon remained bright beyond the reach of the shadow.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (5/5). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: W. B. dash fifty-seven F
+

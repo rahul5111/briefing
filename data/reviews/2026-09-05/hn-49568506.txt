@@ -1,0 +1,50 @@
+═══ 00_KEY_POINTS ═══
+
+1. Anthropic researchers used Claude to produce the first complete computer-checked proof of Fermat's Last Theorem in eleven days.
+2. Claude wrote thirteen million lines of Lean code and proved 29,500 intermediate theorems during the formalization process.
+3. The AI system collaborated using Prove2Me and a multi-agent harness, consuming about six billion output tokens.
+4. Kevin Buzzard stated that the achievement proves the theorem with no assumptions other than mathematics axioms.
+5. Automatic formalization of complex mathematical proofs is a significant step toward a future where all mathematics can be readily checked.
+
+═══ 01_DRAFT ═══
+
+Anthropic researchers have produced the first complete, computer-checked formalization of Fermat’s Last Theorem. Working largely autonomously over an 11-day period, the AI model Claude wrote the proof in the Lean programming language, generating 13 million lines of code and proving 29,500 intermediate theorems before reaching a verified end-to-end result.
+
+First conjectured by Pierre de Fermat around 1637, the theorem states that no positive integers satisfy a to the power of n plus b to the power of n equals c to the power of n for any integer n greater than 2. Sir Andrew Wiles published the first successful human proof in 1995, relying on modern mathematical techniques. While a community effort led by Kevin Buzzard at Imperial College London had been working to formalize the proof in Lean over several years, the Anthropic project achieved completion in under two weeks by pairing Claude with Prove2Me, an open collaborative formalization platform developed at Columbia University. 
+
+Human input during the process was limited to occasional high-level instructions, and the final output was checked using Lean's three standard axioms. Reviewing the achievement, Kevin Buzzard stated: "This extraordinary autoformalization achievement, which Anthropic researchers say only took 11 days, proves Fermat’s Last Theorem with no assumptions other than the axioms of mathematics. Along the way we see autoformalization of algebra, harmonic analysis, geometry and number theory, and we learn that AI autoformalization artefacts are now robust enough to be built upon; the proof is multi-layered."
+
+The project matters because automatically formalizing complex proofs offers a reliable way to verify mathematical correctness algorithmically, potentially reducing the multi-year burden historically required for human referees to check new work and helping maintain trust in the growing body of mathematical literature.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (5/5). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Researchers at Anthropic have produced the first complete, computer-checked formalization of Fermat’s Last Theorem. Working largely autonomously over an eleven-day period, the A. I. model Claude wrote the proof in the Lean programming language. It generated thirteen million lines of code and proved twenty-nine thousand five hundred intermediate theorems before reaching a verified end-to-end result.
+
+First conjectured by Pierre de Fermat around sixteen thirty-seven, the theorem states that no positive integers satisfy a to the power of n plus b to the power of n equals c to the power of n for any integer n greater than two. Sir Andrew Wiles published the first successful human proof in nineteen ninety-five, relying on modern mathematical techniques. While a community effort led by Kevin Buzzard at Imperial College London had been working to formalize the proof in Lean over several years, the Anthropic project achieved completion in under two weeks by pairing Claude with Prove2Me, an open collaborative formalization platform developed at Columbia University.
+
+Human input during the process was limited to occasional high-level instructions, and the final output was checked using Lean's three standard axioms. Reviewing the achievement, Kevin Buzzard stated that this extraordinary autoformalization achievement, which Anthropic researchers say only took eleven days, proves Fermat’s Last Theorem with no assumptions other than the axioms of mathematics. Along the way we see autoformalization of algebra, harmonic analysis, geometry and number theory, and we learn that A. I. autoformalization artefacts are now robust enough to be built upon, because the proof is multi-layered.
+
+The project matters because automatically formalizing complex proofs offers a reliable way to verify mathematical correctness algorithmically. This potentially reduces the multi-year burden historically required for human referees to check new work and helps maintain trust in the growing body of mathematical literature.
+
+═══ 05_NORMALIZED ═══
+
+Researchers at Anthropic have produced the first complete, computer-checked formalization of Fermat’s Last Theorem. Working largely autonomously over an eleven-day period, the A. I. model Claude wrote the proof in the Lean programming language. It generated thirteen million lines of code and proved twenty-nine thousand five hundred intermediate theorems before reaching a verified end-to-end result.
+
+First conjectured by Pierre de Fermat around sixteen thirty-seven, the theorem states that no positive integers satisfy a to the power of n plus b to the power of n equals c to the power of n for any integer n greater than two. Sir Andrew Wiles published the first successful human proof in nineteen ninety-five, relying on modern mathematical techniques. While a community effort led by Kevin Buzzard at Imperial College London had been working to formalize the proof in Lean over several years, the Anthropic project achieved completion in under two weeks by pairing Claude with Prove2Me, an open collaborative formalization platform developed at Columbia University.
+
+Human input during the process was limited to occasional high-level instructions, and the final output was checked using Lean's three standard axioms. Reviewing the achievement, Kevin Buzzard stated that this extraordinary autoformalization achievement, which Anthropic researchers say only took eleven days, proves Fermat’s Last Theorem with no assumptions other than the axioms of mathematics. Along the way we see autoformalization of algebra, harmonic analysis, geometry and number theory, and we learn that A. I. autoformalization artefacts are now robust enough to be built upon, because the proof is multi-layered.
+
+The project matters because automatically formalizing complex proofs offers a reliable way to verify mathematical correctness algorithmically. This potentially reduces the multi-year burden historically required for human referees to check new work and helps maintain trust in the growing body of mathematical literature.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (5/5). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: A. I.
+

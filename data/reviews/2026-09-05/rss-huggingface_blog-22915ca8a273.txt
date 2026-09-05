@@ -1,0 +1,62 @@
+═══ 00_KEY_POINTS ═══
+
+1. IBM and Confluent partnered to bring IBM Granite Time Series foundation models to Confluent Cloud.
+2. The integration allows teams to run real-time forecasting and anomaly detection directly inside Apache Flink SQL.
+3. IBM Granite time series models have accumulated over 44 million downloads prior to this integration.
+4. The collaboration offers a portfolio of four complementary time series foundation models currently in Early Access.
+5. Native inference eliminates the need to provision dedicated model-serving infrastructure or manage cloud ingress and egress fees.
+6. Productivity gains from using these integrated models run 5 to 10 times higher according to IBM.
+7. The partnership matters because it bridges operational and analytical estates to turn live business events into immediate, actionable intelligence.
+
+═══ 01_DRAFT ═══
+
+IBM and Confluent are partnering to bring real-time time series intelligence to streaming data through the integration of IBM Granite Time Series models and Confluent Cloud. The offering enables native model inference directly within Apache Flink on Confluent, allowing teams to run forecasting and anomaly detection on live data without provisioning separate machine learning infrastructure or moving data to a data warehouse.
+
+The integration provides zero configuration, built-in governance, and cost efficiency by eliminating cloud ingress and egress fees and running natively on CPUs. Access to the capabilities opens on Confluent Cloud on AWS, with Confluent Platform following for on-premises and hybrid environments. 
+
+The offering includes four complementary time series foundation models available in Early Access, which can be called through Confluent AI_FORECAST and AI_DETECT_ANOMALIES Flink SQL functions. The portfolio includes PatchTST-FM, FlowState, TTM, and TSPulse, which together back a range of use cases from demand planning across hundreds of thousands of SKUs to real-time fraud detection and anomaly identification. With over 44 million downloads behind the underlying foundation models, the collaboration aims to compress the time between a live business event and an actionable decision from days to seconds.
+
+═══ 03_COVERAGE_1 ═══
+
+85% covered (6/7). Missing: Productivity gains from using these integrated models run 5 to 10 times higher according to IBM.
+
+═══ 04_AUDIO_REWRITE ═══
+
+International Business Machines and Confluent are partnering. They want to bring real-time time series intelligence to streaming data. They are integrating I. B. M. Granite Time Series models with Confluent Cloud. 
+
+This offering enables native model inference directly within Apache Flink on Confluent. Teams can now run forecasting and anomaly detection on live data. They do not need to provision separate machine learning infrastructure. They also do not need to move data to a data warehouse. 
+
+The integration provides zero configuration and built-in governance. It also brings cost efficiency by eliminating cloud ingress and egress fees. The system runs natively on central processing units. 
+
+Access to these capabilities opens first on Confluent Cloud on Amazon Web Services. Confluent Platform will follow for on-premises and hybrid environments. 
+
+The offering includes four complementary time series foundation models. These models are available now in Early Access. Developers can call them through new structured query language functions. These are A. I. underscore FORECAST and A. I. underscore DETECT_ANOMALIES. 
+
+The portfolio includes four specific models. They are PatchTST-FM, FlowState, TTM, and TSPulse. Together they support a range of use cases. These include demand planning across hundreds of thousands of stock keeping units. They also include real-time fraud detection and anomaly identification. 
+
+The underlying foundation models have over forty-four million downloads. This collaboration aims to compress a business timeline. It cuts the time between a live event and an actionable decision from days down to seconds.
+
+═══ 05_NORMALIZED ═══
+
+International Business Machines and Confluent are partnering. They want to bring real-time time series intelligence to streaming data. They are integrating I. B. M. Granite Time Series models with Confluent Cloud.
+
+This offering enables native model inference directly within Apache Flink on Confluent. Teams can now run forecasting and anomaly detection on live data. They do not need to provision separate machine learning infrastructure. They also do not need to move data to a data warehouse.
+
+The integration provides zero configuration and built-in governance. It also brings cost efficiency by eliminating cloud ingress and egress fees. The system runs natively on central processing units.
+
+Access to these capabilities opens first on Confluent Cloud on Amazon Web Services. Confluent Platform will follow for on-premises and hybrid environments.
+
+The offering includes four complementary time series foundation models. These models are available now in Early Access. Developers can call them through new structured query language functions. These are A. I. underscore FORECAST and A. I. underscore DETECTANOMALIES.
+
+The portfolio includes four specific models. They are PatchTST-FM, FlowState, TTM, and TSPulse. Together they support a range of use cases. These include demand planning across hundreds of thousands of stock keeping units. They also include real-time fraud detection and anomaly identification.
+
+The underlying foundation models have over forty-four million downloads. This collaboration aims to compress a business timeline. It cuts the time between a live event and an actionable decision from days down to seconds.
+
+═══ 06_COVERAGE_FINAL ═══
+
+85% covered (6/7). Missing: Productivity gains from using these integrated models run 5 to 10 times higher according to IBM.
+
+═══ 07_SANITY ═══
+
+ISSUES: A. I. underscore FORECAST, A. I. underscore DETECTANOMALIES
+

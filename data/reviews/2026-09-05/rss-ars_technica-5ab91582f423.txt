@@ -1,0 +1,38 @@
+═══ 00_KEY_POINTS ═══
+
+1. Tesla has deployed its distinctive two-seater Cybercab without a steering wheel or brake pedals.
+2. The driverless Cybercabs are starting to pick up members of the public in two states.
+3. The US federal government is investigating whether the Cybercab currently meets federal safety standards.
+4. Tesla welcomed hundreds of fans to downtown Austin to ride in the driverless Cybercabs.
+5. Tesla plans to deploy the vehicles on its Robotaxi ride-hail network operating in Texas and Florida.
+6. The National Highway Traffic Safety Administration is updating vehicle standards for driverless cars.
+7. The safety agency is tweaking eight rules including requirements for brake pedals and rearview mirrors.
+
+═══ 01_DRAFT ═══
+
+Tesla has officially deployed its Cybercab, a two-seater vehicle featuring no steering wheel or brake pedals, to begin picking up members of the public in two states. The deployment follows an event in downtown Austin where hundreds of fans rode in the driverless vehicles. Tesla plans to operate the Cybercabs on its Robotaxi ride-hail network, which is currently active in a handful of cities across Texas and Florida. Hours after the debut, the United States federal government launched an investigation into the vehicle to probe whether it meets current federal safety standards. The National Highway Traffic Safety Administration is in the process of updating vehicle standards to accommodate driverless cars more quickly on public roads, specifically tweaking eight rules that currently mandate parts driverless cars do not need, such as brake pedals, windshield wipers, and rearview mirrors. However, the years-old standards remain in place for now while the investigation proceeds.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Tesla has officially deployed its Cybercab, a two-seater vehicle featuring no steering wheel or brake pedals, to begin picking up members of the public in two states. The deployment follows an event in downtown Austin where hundreds of fans rode in the driverless vehicles. Tesla plans to operate the Cybercabs on its Robotaxi ride-hail network, which is currently active in a handful of cities across Texas and Florida. The vehicle is already under investigation by the US federal government, which is probing whether it meets federal safety standards. The National Highway Traffic Safety Administration is in the process of updating vehicle standards to accommodate driverless cars more quickly on public roads, specifically tweaking eight rules that currently mandate parts driverless cars do not need, such as brake pedals, windshield wipers, and rearview mirrors. However, the years-old standards remain in place for now while the investigation proceeds.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (7/7). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Tesla has deployed its Cybercab to pick up members of the public in two states. The vehicle is a two seater with no steering wheel or brake pedals. This follows an event in downtown Austin where hundreds of fans rode in the driverless vehicles. Tesla plans to operate the Cybercabs on its robotaxi ride hail network. That network is active in a handful of cities across Texas and Florida. The vehicle is already under investigation by the United States federal government. Officials are probing whether it meets federal safety standards. The National Highway Traffic Safety Administration is updating vehicle standards to accommodate driverless cars more quickly on public roads. The agency is tweaking eight rules that currently mandate parts driverless cars do not need. Those missing parts include brake pedals, windshield wipers, and rearview mirrors. The years old standards remain in place for now while the investigation proceeds.
+
+═══ 05_NORMALIZED ═══
+
+Tesla has deployed its Cybercab to pick up members of the public in two states. The vehicle is a two seater with no steering wheel or brake pedals. This follows an event in downtown Austin where hundreds of fans rode in the driverless vehicles. Tesla plans to operate the Cybercabs on its robotaxi ride hail network. That network is active in a handful of cities across Texas and Florida. The vehicle is already under investigation by the United States federal government. Officials are probing whether it meets federal safety standards. The National Highway Traffic Safety Administration is updating vehicle standards to accommodate driverless cars more quickly on public roads. The agency is tweaking eight rules that currently mandate parts driverless cars do not need. Those missing parts include brake pedals, windshield wipers, and rearview mirrors. The years old standards remain in place for now while the investigation proceeds.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (7/7). Missing: none
+
+═══ 07_SANITY ═══
+
+OK
+

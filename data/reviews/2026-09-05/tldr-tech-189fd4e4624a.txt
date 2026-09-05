@@ -1,0 +1,52 @@
+═══ 00_KEY_POINTS ═══
+
+1. Zoom detects third-party meetings by monitoring system-level microphone usage rather than accessing the microphone directly.
+2. On macOS, Zoom monitors Control Center sensor-indicators log streams to track active microphone applications without requiring special permissions.
+3. On Windows, Zoom enumerates per-user Capability Access Manager microphone registry records to identify active application usage.
+4. Zoom utilizes these OS monitoring techniques to display a Take Note prompt for its My Notes feature.
+5. Reading these system metadata records requires neither administrator privileges nor user microphone permissions on either operating system.
+
+═══ 01_DRAFT ═══
+
+Zoom detects when applications like Google Meet, Microsoft Teams, and Slack are in use without needing microphone access, administrator privileges, or audio analysis, allowing the platform to prompt users to start its My Notes feature. 
+
+On macOS, analysis of the arm64 build of Zoom Workplace 7.1.5 shows that the application uses a class named PrivacyEventMonitor within viper.framework to run the command /usr/bin/log stream with a predicate targeting the com.apple.controlcenter subsystem and sensor-indicators category. By parsing human-readable Unified Logging output that tracks the orange and green privacy indicators, Zoom extracts application display names and bundle IDs when microphone use starts or stops. 
+
+On Windows, static analysis of Zoom Workplace for Windows x64 7.1.8.46825 indicates that the software reads the per-user registry key HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\microphone. By opening the key with KEY_READ permissions, Zoom enumerates packaged applications and the NonPackaged subtree used by classic desktop applications, checking for a LastUsedTimeStop value of zero to determine if an application is currently active. 
+
+Reading these records requires neither special permissions nor elevation on either operating system.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Zoom detects when applications like Google Meet, Microsoft Teams, and Slack are in use without needing microphone access, administrator privileges, or audio analysis, allowing the platform to prompt users to start its My Notes feature. 
+
+On macOS, analysis of the arm64 build of Zoom Workplace 7.1.5 shows that the application uses a class named PrivacyEventMonitor within viper.framework to run the command /usr/bin/log stream with a predicate targeting the com.apple.controlcenter subsystem and sensor-indicators category. By keeping entries marked [mic], parsing application display names and bundle IDs, and comparing attribution lists, Zoom detects when microphone use starts or stops. 
+
+On Windows, static analysis of Zoom Workplace for Windows x64 7.1.8.46825 indicates that the software reads the per-user registry key HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\microphone. By opening the key with KEY_READ permissions, Zoom enumerates packaged applications and the NonPackaged subtree used by classic desktop applications, checking for a LastUsedTimeStop value of zero to determine if an application is currently active. 
+
+Reading these records requires neither special permissions nor elevation on either operating system.
+
+═══ 02b_TRIMMED ═══
+
+Zoom detects when applications like Google Meet, Microsoft Teams, and Slack are in use without needing microphone access, administrator privileges, or audio analysis, allowing the platform to prompt users to start its My Notes feature. On macOS, analysis of the arm64 build of Zoom Workplace 7.1.5 shows that the application uses a class named PrivacyEventMonitor within viper.framework to run the command /usr/bin/log stream with a predicate targeting the com.apple.controlcenter subsystem and sensor-indicators category. On Windows, static analysis of Zoom Workplace for Windows x64 7.1.8.46825 indicates that the software reads the per-user registry key HKCU\SOFTWARE\Microsoft\Windows\CurrentVersion\CapabilityAccessManager\ConsentStore\microphone. By opening the key with KEY_READ permissions, Zoom enumerates packaged applications and the NonPackaged subtree used by classic desktop applications, checking for a LastUsedTimeStop value of zero to determine if an application is currently active. Reading these records requires neither special permissions nor elevation on either operating system.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (5/5). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Zoom can now detect when other communication apps are running. It does this without needing microphone access or administrator privileges. This ability allows the platform to prompt users to start its My Notes feature. On Apple computers, a specific system monitors control center logs to spot active sensors. On Windows computers, the software checks a system registry key to track microphone usage. By reading these records, the application can see which desktop programs are currently active. Checking these records requires no special permissions on either operating system.
+
+═══ 05_NORMALIZED ═══
+
+Zoom can now detect when other communication apps are running. It does this without needing microphone access or administrator privileges. This ability allows the platform to prompt users to start its My Notes feature. On Apple computers, a specific system monitors control center logs to spot active sensors. On Windows computers, the software checks a system registry key to track microphone usage. By reading these records, the application can see which desktop programs are currently active. Checking these records requires no special permissions on either operating system.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (5/5). Missing: none
+
+═══ 07_SANITY ═══
+
+OK
+

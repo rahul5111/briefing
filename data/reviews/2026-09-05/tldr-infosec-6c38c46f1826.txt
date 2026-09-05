@@ -1,0 +1,86 @@
+═══ 00_KEY_POINTS ═══
+
+1. Using Claude Opus, a researcher spent ninety minutes utilizing AI to reverse engineer a PaperCut NG zero-day vulnerability.
+2. Claude processed two hundred twenty-four million tokens across ten prompts and two hundred ninety-three tool calls.
+3. The AI successfully identified critical vulnerabilities, bypassed authentication filters, and built a functional proof of concept.
+4. The experiment aimed to test how quickly an advanced language model can turn public exploit details into a zero-day exploit.
+5. The researcher utilized a custom harness equipped with root permissions, Ghidra, Playwright, and Proxmox infrastructure integration.
+6. Claude encountered a safety guardrail during the process, which triggered a seamless transition to a different model version.
+7. The AI initially produced a flawed exploit chain using local credentials before discovering the correct unauthenticated access control flaw.
+
+═══ 01_DRAFT ═══
+
+Using Claude Opus within a specialized code-server harness, a researcher took an actively exploited zero-day patch for PaperCut NG and, in roughly 90 minutes across 10 prompts, 293 tool calls, and 224 million tokens, identified three critical vulnerabilities, built a full-chain proof of concept for unauthenticated code execution, and found bypasses for the released patches. 
+
+Operating on August 27, 2026, the AI agent began by extracting installers with the -e flag for patch diffing and deploying an Ubuntu 24.04 cloud template on Proxmox to replicate the issue. By 23:05, the model located the root cause in the ExternalUserLookupDb class, noting that version 26.0.4 blocked SQL template injection strings such as CALL, EXEC, EXECUTE, and SYSCS_* against PaperCut's bundled Apache Derby database.
+
+After encountering an authentication filter mismatch in WebConfig, Claude tested various routes before confirming an active bypass at 23:18. Specifically, the path `/api/web;x/footer` returned an unauthenticated HTTP 200, whereas `/api/web/footer` returned 401, demonstrating that a matrix parameter on an earlier segment defeats the filter's `.contains()` check while Spring strips it to route to the controller.
+
+When an initial attempt to chain the SQL component failed because the bypass did not reach the required endpoints, the human operator challenged the AI's reliance on localhost credentials. At 23:57, just under an hour into the session, Claude identified the missing link in BasePaperCutPage.pageValidate. The patch showed that version 26.0.3 checked access rights only for the single page Tapestry resolved while permitting the service request parameter to name a different, privileged page.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Ten prompts, 293 tool calls, 224 million tokens, 90 minutes, one guardrail, and Claude Opus was able to take a patch for a zero-day, identify 3 critical vulnerabilities and create a full chain proof of concept resulting in unauthenticated code execution on a Papercut NG. Before then finding a bypass for the patches that had been released. What follows is a more detailed view of the process that Claude took to achieve this. Note that I will show the key conversations not all of them, there were a few hundred thinking sessions and no one needs to read all of them, so I have cherry picked the key phases.
+
+Its late in the evening for me in the UK, around 11PM, catching up on some news feeds, I see there is an actively exploited vulnerability in Papercut, a commercial print management software stack. It had been public for a few hours and patches were out, but I had not spotted any public Proof of Concepts yet. This seemed like a perfect opportunity to test Claude's N Day capabilities. Given the details in the public reports and with access to the patches, how quickly can an LLM turn around a zero-day into a functional exploit?
+
+Luckily, I already have a harness set up for this kind of vulnerability research. My Harness is deployed in to a code-server instance so I have some isolation if the AI runs anything silly and has a number of custom skills, commands and tools. I won't go into all the details here but a summary of the Skills and Capabilities my harness has above the standard tools that ship with Claude Code. The Agents also have full root permissions on the harness to install any additional tools it may need. In terms of Model and Claude Code setup I always start with Opus 5 (1 Million Context) Effort (Extra High). Depending on what my goal is i will alternate between starting in Plan mode or Auto. In this instance I just handed over to Auto
+
+It looks like a new vulnerabilty has been reported as explotied in the wild for paprecut NG, lets dig in to this see if we can build a lab and replicate the issue. Start by identifying if there is a patch and what version is vulnerabel. Deploy a vulenrabel version to the proxmox range then lets take to patch diffing based on any repotrs and iocs etc
+
+A lot happened in this first round. The agents researched the vulnerability pulling the advisory details and checking what was available on the proxmox node. The time is now 22:58 in the first two minutes we had identified the RCA, found the patches and had started to build a test instance. While one agent is standing up the infrastructure another agent immediately starts to think about patch differing and decompiling. The time is now 23:05 Claude has found the root cause The next 15 or so minutes the LLM starts to figure out the exposure, having identified the likely SQL issue how does an attacker reach it. The next few minutes are spent decompiling java bytecode and diffing between files tracing code paths, sinks and sources.
+
+At around 23:12 one of the agents thinks it has found a way to bypass authentication and starts to check the virtual instance to validate its findings. So it found what it believes is a way to manipulate the path to bypass auth and its testing it against the instance reading logs from teh server to help valiadate. At this point it also notes the server is "installed" but not "configured" And so it fires up another agent and uses the Playwright MCP to drive the installation. A few minutes later the agent has succesfuly installed and is now retesting.
+
+At 23:17 we hit a Guardrail. Not very clear what triggered the guardrail so lets look at the request immediately before on the assumption that this is the one that caused it. Checking Web logs, so writing exploits was fine but at the point Claude went hunting for signs of exploitation it said no, thats too much! Annoying but doesn't block us the harness transitions us over to Opus 4.8 and it carrys on. Then at 23:18 we confirm the first auth bypass mechanism. A few minutes later at 23:23:39 Claude triumphantly declares that it has the full
+
+═══ 02b_TRIMMED ═══
+
+Ten prompts, 293 tool calls, 224 million tokens, 90 minutes, one guardrail, and Claude Opus was able to take a patch for a zero-day, identify 3 critical vulnerabilities and create a full chain proof of concept resulting in unauthenticated code execution on a Papercut NG. Before then finding a bypass for the patches that had been released. What follows is a more detailed view of the process that Claude took to achieve this. Note that I will show the key conversations not all of them, there were a few hundred thinking sessions and no one needs to read all of them, so I have cherry picked the key phases. Its late in the evening for me in the UK, around 11PM, catching up on some news feeds, I see there is an actively exploited vulnerability in Papercut, a commercial print management software stack. It had been public for a few hours and patches were out, but I had not spotted any public Proof of Concepts yet. This seemed like a perfect opportunity to test Claude's N Day capabilities. Given the details in the public reports and with access to the patches, how quickly can an LLM turn around a zero-day into a functional exploit? Luckily, I already have a harness set up for this kind of vulnerability research. My Harness is deployed in to a code-server instance so I have some isolation if the AI runs anything silly and has a number of custom skills, commands and tools. I won't go into all the details here but a summary of the Skills and Capabilities my harness has above the standard tools that ship with Claude Code. The Agents also have full root permissions on the harness to install any additional tools it may need. In terms of Model and Claude Code setup I always start with Opus 5 (1 Million Context) Effort (Extra High). Depending on what my goal is i will alternate between starting in Plan mode or Auto. Start by identifying if there is a patch and what version is vulnerabel. Deploy a vulenrabel version to the proxmox range then lets take to patch diffing based on any repotrs and iocs etc
+
+A lot happened in this first round. The agents researched the vulnerability pulling the advisory details and checking what was available on the proxmox node. The time is now 22:58 in the first two minutes we had identified the RCA, found the patches and had started to build a test instance. While one agent is standing up the infrastructure another agent immediately starts to think about patch differing and decompiling. The time is now 23:05 Claude has found the root cause The next 15 or so minutes the LLM starts to figure out the exposure, having identified the likely SQL issue how does an attacker reach it. The next few minutes are spent decompiling java bytecode and diffing between files tracing code paths, sinks and sources. At around 23:12 one of the agents thinks it has found a way to bypass authentication and starts to check the virtual instance to validate its findings. So it found what it believes is a way to manipulate the path to bypass auth and its testing it against the instance reading logs from teh server to help valiadate. At this point it also notes the server is "installed" but not "configured" And so it fires up another agent and uses the Playwright MCP to drive the installation. A few minutes later the agent has succesfuly installed and is now retesting. At 23:17 we hit a Guardrail. Not very clear what triggered the guardrail so lets look at the request immediately before on the assumption that this is the one that caused it. Checking Web logs, so writing exploits was fine but at the point Claude went hunting for signs of exploitation it said no, thats too much! Annoying but doesn't block us the harness transitions us over to Opus 4.8 and it carrys on. Then at 23:18 we confirm the first auth bypass mechanism. A few minutes later at 23:23:39 Claude triumphantly declares that it has the full
+
+═══ 03_COVERAGE_1 ═══
+
+85% covered (6/7). Missing: The AI initially produced a flawed exploit chain using local credentials before discovering the correct unauthenticated access control flaw.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Ten prompts. Two hundred ninety-three tool calls. Two hundred twenty-four million tokens. Ninety minutes. One guardrail. Claude Opus took a patch for a zero-day. It identified three critical vulnerabilities. It created a full chain proof of concept. This resulted in unauthenticated code execution on a Papercut N. G. software stack. Then it found a bypass for the patches that had already been released. 
+
+The researcher was in the United Kingdom around eleven p.m. catching up on news feeds. An actively exploited vulnerability had been public for a few hours. Patches were out but no public proof of concepts existed yet. This was a perfect opportunity to test the model on N-day capabilities. 
+
+The harness was deployed in a code-server instance for isolation. The agents had full root permissions to install any additional tools they needed. The setup started with Opus five using a one million context and extra high effort. The first step was identifying the patch and the vulnerable version. A vulnerable version was deployed to the Proxmox range. Then patch diffing began based on reports and indicators of compromise.
+
+Agents researched the vulnerability by pulling advisory details and checking the Proxmox node. Within two minutes they identified the root cause analysis, found the patches, and started building a test instance. While one agent stood up infrastructure, another agent started patch diffing and decompiling. By twenty-three o five, Claude found the root cause. 
+
+Over the next fifteen minutes, the model figured out exposure. It identified a likely S. Q. L. issue and how an attacker could reach it. The agents spent a few minutes decompiling Java bytecode and diffing files to trace code paths, sinks, and sources. At twenty-three twelve, an agent found a way to bypass authentication and checked the virtual instance to validate the findings. 
+
+The agent tested path manipulation against the instance and read server logs. It noticed the server was installed but not configured. It fired up another agent and used the Playwright M. C. P. to drive the installation. A few minutes later the installation succeeded and the agent retested. 
+
+At twenty-three seventeen, the system hit a guardrail. Writing exploits was permitted, but hunting for signs of exploitation triggered the block. The harness transitioned the task over to Opus four point eight and work continued. At twenty-three eighteen, the first auth bypass mechanism was confirmed. At twenty-three twenty-three and thirty-nine seconds, Claude triumphantly declared it had the full exploit chain.
+
+═══ 05_NORMALIZED ═══
+
+Ten prompts. Two hundred ninety-three tool calls. Two hundred twenty-four million tokens. Ninety minutes. One guardrail. Claude Opus took a patch for a zero-day. It identified three critical vulnerabilities. It created a full chain proof of concept. This resulted in unauthenticated code execution on a Papercut N. G. software stack. Then it found a bypass for the patches that had already been released.
+
+The researcher was in the United Kingdom around eleven p.m. catching up on news feeds. An actively exploited vulnerability had been public for a few hours. Patches were out but no public proof of concepts existed yet. This was a perfect opportunity to test the model on N-day capabilities.
+
+The harness was deployed in a code-server instance for isolation. The agents had full root permissions to install any additional tools they needed. The setup started with Opus five using a one million context and extra high effort. The first step was identifying the patch and the vulnerable version. A vulnerable version was deployed to the Proxmox range. Then patch diffing began based on reports and indicators of compromise.
+
+Agents researched the vulnerability by pulling advisory details and checking the Proxmox node. Within two minutes they identified the root cause analysis, found the patches, and started building a test instance. While one agent stood up infrastructure, another agent started patch diffing and decompiling. By twenty-three o five, Claude found the root cause.
+
+Over the next fifteen minutes, the model figured out exposure. It identified a likely S. Q. L. issue and how an attacker could reach it. The agents spent a few minutes decompiling Java bytecode and diffing files to trace code paths, sinks, and sources. At twenty-three twelve, an agent found a way to bypass authentication and checked the virtual instance to validate the findings.
+
+The agent tested path manipulation against the instance and read server logs. It noticed the server was installed but not configured. It fired up another agent and used the Playwright M. C. P. to drive the installation. A few minutes later the installation succeeded and the agent retested.
+
+At twenty-three seventeen, the system hit a guardrail. Writing exploits was permitted, but hunting for signs of exploitation triggered the block. The harness transitioned the task over to Opus four point eight and work continued. At twenty-three eighteen, the first auth bypass mechanism was confirmed. At twenty-three twenty-three and thirty-nine seconds, Claude triumphantly declared it had the full exploit chain.
+
+═══ 06_COVERAGE_FINAL ═══
+
+71% covered (5/7). Missing: The experiment aimed to test how quickly an advanced language model can turn public exploit details into a zero-day exploit.; The AI initially produced a flawed exploit chain using local credentials before discovering the correct unauthenticated access control flaw.
+
+═══ 07_SANITY ═══
+
+ISSUES: N. G., S. Q. L., M. C. P.
+
