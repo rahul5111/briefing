@@ -1,0 +1,75 @@
+═══ 00_KEY_POINTS ═══
+
+1. Researchers analyzed 75 custom repositories across 10 programming languages using various AI coding agents.
+2. An orchestrator powered by Gemini 3.7 Flash acted as a simulated human in the loop.
+3. From 16,893 total runs, researchers published an initial wave of 5,292 valid sessions.
+4. Cursor based its tool decisions on the web in two thirds of the sessions.
+5. Codex used web search in 94 percent of sessions, frequently employing specific site operators.
+6. Claude Code relied primarily on its training priors and searched the web in about 30 percent of cases.
+7. All three AI agents picked the exact same tool in only 42 percent of the evaluated cells.
+8. Stripe won in 9 out of 10 cases within the payment service provider sector.
+
+═══ 01_DRAFT ═══
+
+Researchers analyzing how artificial intelligence coding agents select third-party tools have published findings from 16,893 experimental runs across 75 simulated repositories spanning 10 programming languages. The study tested agents including Cursor, Codex, and Claude Code using real-world tasks prompted by four distinct user profiles ranging from junior engineers to enterprise staff. An orchestrator powered by Gemini 3.7 Flash acted as a simulated human in the loop, while another instance of Gemini 3.7 Flash judged the valid sessions. From the initial runs, researchers retained 5,292 valid sessions across 51 codebases and 18 sectors. The data revealed distinct behaviors among the coding assistants. Cursor based its decisions on the web in two-thirds of sessions. Codex used web search in 94 percent of sessions, employing operators like site: to target trusted domains. Claude Code relied primarily on its training priors, searching the web in approximately 30 percent of cases, though that figure rose to about 80 percent in newer sectors such as sandboxes. All three agents picked the exact same tool in only 42 percent of the cells. Furthermore, Claude Code chose to build in-house in 19 percent of sessions, nearly twice as often as Codex and Cursor at 10 percent. The experiments also highlighted discrepancies between brand mentions and actual selections. PayPal was cited 139 times without being picked, while Stripe won 124 of those specific sessions. LangChain received 194 mentions but was chosen only 4 times, and Supabase accumulated 242 mentions while being largely dominated by Neon. Market dominance varied by sector, with Stripe winning in nine out of ten cases, Neon taking 66 percent of database selections, and Amazon S3 leading file storage at 45 percent. All traces and analysis results have been made publicly available.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+The study tested artificial intelligence coding agents including Cursor, Codex, and Claude Code using real-world tasks prompted by four distinct user profiles ranging from junior engineers to enterprise staff across 75 simulated repositories spanning 10 programming languages. An orchestrator powered by Gemini 3.7 Flash acted as a simulated human in the loop, while another instance of Gemini 3.7 Flash judged the valid sessions from the 16,893 total experimental runs. Researchers retained 5,292 valid sessions across 51 codebases and 18 sectors for this first wave of insights. The data revealed distinct behaviors among the coding assistants. Cursor based its decisions on the web in two-thirds of sessions. Codex used web search in 94 percent of sessions, employing operators like site: to target trusted domains. Claude Code relied primarily on its priors, searching the web in approximately 30 percent of cases, though that figure rose to about 80 percent in newer sectors such as sandboxes. All three agents picked the exact same tool in only 42 percent of the cells, and Claude Code built in-house in 19 percent of sessions compared to 10 percent for Codex and Cursor. The experiments also highlighted discrepancies between brand mentions and actual selections. PayPal was cited 139 times without being picked, while Stripe won 124 of those specific sessions. LangChain received 194 mentions but was chosen only 4 times, and Supabase accumulated 242 mentions while being largely dominated by Neon. Market dominance varied by sector, with Stripe winning in nine out of ten cases, Neon taking 66 percent of database selections, and Amazon S3 leading file storage at 45 percent. All traces and analysis results have been made publicly available.
+
+═══ 02b_TRIMMED ═══
+
+The study tested artificial intelligence coding agents including Cursor, Codex, and Claude Code using real-world tasks prompted by four distinct user profiles ranging from junior engineers to enterprise staff across 75 simulated repositories spanning 10 programming languages. An orchestrator powered by Gemini 3.7 Flash acted as a simulated human in the loop, while another instance of Gemini 3.7 Flash judged the valid sessions from the 16,893 total experimental runs. The data revealed distinct behaviors among the coding assistants. Cursor based its decisions on the web in two-thirds of sessions. Codex used web search in 94 percent of sessions, employing operators like site: to target trusted domains. Claude Code relied primarily on its priors, searching the web in approximately 30 percent of cases, though that figure rose to about 80 percent in newer sectors such as sandboxes. All three agents picked the exact same tool in only 42 percent of the cells, and Claude Code built in-house in 19 percent of sessions compared to 10 percent for Codex and Cursor. The experiments also highlighted discrepancies between brand mentions and actual selections. PayPal was cited 139 times without being picked, while Stripe won 124 of those specific sessions. LangChain received 194 mentions but was chosen only 4 times, and Supabase accumulated 242 mentions while being largely dominated by Neon. Market dominance varied by sector, with Stripe winning in nine out of ten cases, Neon taking 66 percent of database selections, and Amazon S3 leading file storage at 45 percent. All traces and analysis results have been made publicly available.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (8/8). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+A new study tested artificial intelligence coding agents on real tasks. The agents included Cursor, Codex, and Claude Code. Four different user profiles gave them tasks across seventy-five simulated repositories in ten programming languages. 
+
+An orchestrator powered by Gemini three point seven Flash acted as a human in the loop. Another instance of Gemini three point seven Flash judged valid sessions from sixteen thousand eight hundred ninety-three total experimental runs. 
+
+The data showed different behaviors among the coding assistants. Cursor used the web in two-thirds of its sessions. Codex used web search in ninety-four percent of sessions. Codex also used operators like site to target trusted domains. 
+
+Claude Code relied mostly on its own training data. It searched the web in about thirty percent of cases. That figure rose to about eighty percent in newer sectors like sandboxes. 
+
+All three agents picked the exact same tool in only forty-two percent of the cells. Claude Code built in-house solutions in nineteen percent of sessions. Codex and Cursor did that in only ten percent of sessions. 
+
+The experiments also showed differences between brand mentions and actual choices. PayPal was mentioned one hundred thirty-nine times without being picked. Stripe won one hundred twenty-four of those specific sessions. 
+
+LangChain received one hundred ninety-four mentions but was chosen only four times. Supabase accumulated two hundred forty-two mentions while being largely dominated by Neon. 
+
+Market dominance varied by sector. Stripe won in nine out of ten cases. Neon took sixty-six percent of database selections. Amazon S3 led file storage at forty-five percent. 
+
+All traces and analysis results are now publicly available.
+
+═══ 05_NORMALIZED ═══
+
+A new study tested artificial intelligence coding agents on real tasks. The agents included Cursor, Codex, and Claude Code. Four different user profiles gave them tasks across seventy-five simulated repositories in ten programming languages.
+
+An orchestrator powered by Gemini three point seven Flash acted as a human in the loop. Another instance of Gemini three point seven Flash judged valid sessions from sixteen thousand eight hundred ninety-three total experimental runs.
+
+The data showed different behaviors among the coding assistants. Cursor used the web in two-thirds of its sessions. Codex used web search in ninety-four percent of sessions. Codex also used operators like site to target trusted domains.
+
+Claude Code relied mostly on its own training data. It searched the web in about thirty percent of cases. That figure rose to about eighty percent in newer sectors like sandboxes.
+
+All three agents picked the exact same tool in only forty-two percent of the cells. Claude Code built in-house solutions in nineteen percent of sessions. Codex and Cursor did that in only ten percent of sessions.
+
+The experiments also showed differences between brand mentions and actual choices. PayPal was mentioned one hundred thirty-nine times without being picked. Stripe won one hundred twenty-four of those specific sessions.
+
+LangChain received one hundred ninety-four mentions but was chosen only four times. Supabase accumulated two hundred forty-two mentions while being largely dominated by Neon.
+
+Market dominance varied by sector. Stripe won in nine out of ten cases. Neon took sixty-six percent of database selections. Amazon S3 led file storage at forty-five percent.
+
+All traces and analysis results are now publicly available.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (8/8). Missing: none
+
+═══ 07_SANITY ═══
+
+OK
+

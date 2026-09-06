@@ -1,0 +1,32 @@
+═══ 00_KEY_POINTS ═══
+
+1. Frontier firms generate 8.3 times as many output tokens per active user as typical firms do.
+2. At startup Basis, first-day employee onboarding now takes 30 minutes instead of two hours.
+3. Clay uses a dedicated subagent and persistent workspace to update deal folders overnight for engineers.
+4. Exa Labs uses Codex to monitor for integration opportunities, create pull requests, and run tests.
+5. The shift to AI execution requires enterprise leaders to turn workflow depth into trusted and measurable work.
+
+═══ 01_DRAFT ═══
+
+OpenAI enterprise data shows top tier firms now generate 8.3 times as many output tokens per active user as typical firms, up from 2.6 times in January, signaling a shift from AI assistance to execution. Startups Basis, Clay, and Exa Labs are implementing this shift by deploying agents into core operations like onboarding, account management, and developer integrations. Basis reduced employee onboarding from two hours to 30 minutes by using Codex to handle integration setups and deliver company-specific skills on day one. Clay deployed dedicated subagents that review primary CRM, Slack, and email sources overnight to update deal folders, saving go-to-market engineers roughly an hour of inbox triage each night. Exa Labs uses Codex to monitor integration opportunities, create pull requests, run tests, and prepare weekly updates while keeping human review points before shipping. Enterprise leaders are advised to target consequential workflows, define clear measurement metrics, write specific agent job descriptions, build supporting human oversight systems, and capture successful experiments as reusable skills to scale operating capability.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (5/5). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+OpenAI enterprise data shows top tier firms now generate eight point three times as many output tokens per active user as typical firms. This is up from two point six times in January. It signals a shift from A. I. assistance to execution. Startups Basis, Clay, and Exa Labs are implementing this shift. They deploy agents into core operations like onboarding, account management, and developer integrations. Basis reduced employee onboarding from two hours to thirty minutes. It used Codex to handle integration setups and deliver company specific skills on day one. Clay deployed dedicated subagents that review primary C. R. M., Slack, and email sources overnight to update deal folders. This saves go to market engineers roughly an hour of inbox triage each night. Exa Labs uses Codex to monitor integration opportunities, create pull requests, run tests, and prepare weekly updates. It keeps human review points before shipping. Enterprise leaders are advised to target consequential workflows and define clear measurement metrics. They should write specific agent job descriptions and build supporting human oversight systems. They must also capture successful experiments as reusable skills to scale operating capability.
+
+═══ 05_NORMALIZED ═══
+
+OpenAI enterprise data shows top tier firms now generate eight point three times as many output tokens per active user as typical firms. This is up from two point six times in January. It signals a shift from A. I. assistance to execution. Startups Basis, Clay, and Exa Labs are implementing this shift. They deploy agents into core operations like onboarding, account management, and developer integrations. Basis reduced employee onboarding from two hours to thirty minutes. It used Codex to handle integration setups and deliver company specific skills on day one. Clay deployed dedicated subagents that review primary C. R. M., Slack, and email sources overnight to update deal folders. This saves go to market engineers roughly an hour of inbox triage each night. Exa Labs uses Codex to monitor integration opportunities, create pull requests, run tests, and prepare weekly updates. It keeps human review points before shipping. Enterprise leaders are advised to target consequential workflows and define clear measurement metrics. They should write specific agent job descriptions and build supporting human oversight systems. They must also capture successful experiments as reusable skills to scale operating capability.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (5/5). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: A. I., C. R. M.
+

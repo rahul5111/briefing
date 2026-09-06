@@ -1,0 +1,75 @@
+═══ 00_KEY_POINTS ═══
+
+1. New York City has banned student-facing generative artificial intelligence in elementary and middle schools.
+2. The one-year New York City school artificial intelligence ban affects a total of 600,000 students.
+3. Taiwan has uncovered 166 cases linked to illegal operations and talent poaching by a hidden Chinese network.
+4. Uber has officially launched the United Kingdom’s very first commercial robotaxi service in London.
+5. Google successfully avoided a court-ordered breakup of its dominant advertising technology business.
+6. The Trump administration has formally backed OpenAI by arguing that artificial intelligence training can be fair use.
+7. Colossal Biosciences previously announced that it had successfully cloned four endangered red wolves.
+8. This news matters because it captures the most important technology developments, policy changes, and industry controversies globally.
+
+═══ 01_DRAFT ═══
+
+New York City has implemented a one-year ban on generative artificial intelligence in elementary and middle schools, affecting 600,000 students. The restriction applies to any software utilizing student-facing generative AI. In other technology news, a US federal judge rejected the Justice Department's demand to force a sale of Google's ad tech business, avoiding a corporate breakup while still requiring the company to alter how it treats rivals and shares information. Commenting on the decision, Forrester principal analyst Nikhil Lai told the New York Times, I think this will be the end of an era of the US trying to break up platforms this complex. The courts remain hesitant to dismantle these really complex tech systems, even when finding conduct that is anticompetitive. Meanwhile, Uber has launched the United Kingdom's first commercial robotaxi service in London using technology from British startup Wayve, initially deploying safety drivers. In Taiwan, authorities uncovered a hidden Chinese network linked to 166 cases involving illegal operations and talent poaching targeting the island nation's chip sector. Additionally, more than a dozen Serbian student activists, lawmakers, and a local councilor were targeted with mercenary spyware following elections, and the Trump administration backed OpenAI in its copyright lawsuit brought by the New York Times, arguing that artificial intelligence training can qualify as fair use.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+New York City has implemented a one-year ban on generative artificial intelligence in elementary and middle schools, affecting 600,000 students. The restriction applies to any software utilizing student-facing generative AI. In other technology news, a US judge rejected the government's demand to force a sale of Google's ad tech business, avoiding a breakup of its dominant ad tech business while still requiring the company to change how it treats rivals and shares information. Commenting on the decision, Forrester principal analyst Nikhil Lai told the New York Times, I think this will be the end of an era of the US trying to break up platforms this complex. The courts remain hesitant to dismantle these really complex tech systems, even when finding conduct that is anticompetitive. Meanwhile, Uber has launched the UK's first commercial robotaxi service using technology from UK startup Wayve and, initially, safety drivers. In Taiwan, authorities uncovered a hidden Chinese network linked to 166 cases of illegal operations and talent poaching targeting its chip sector. Additionally, more than a dozen Serbians were targeted with mercenary spyware after elections, including student activists, lawmakers, and a local councilor, and the Trump administration backed OpenAI in its copyright lawsuit brought by the New York Times, arguing that artificial intelligence training can qualify as fair use.
+
+═══ 02b_TRIMMED ═══
+
+New York City has implemented a one-year ban on generative artificial intelligence in elementary and middle schools, affecting 600,000 students. The restriction applies to any software utilizing student-facing generative AI. In other technology news, a US judge rejected the government's demand to force a sale of Google's ad tech business, avoiding a breakup of its dominant ad tech business while still requiring the company to change how it treats rivals and shares information. The courts remain hesitant to dismantle these really complex tech systems, even when finding conduct that is anticompetitive. Meanwhile, Uber has launched the UK's first commercial robotaxi service using technology from UK startup Wayve and, initially, safety drivers. In Taiwan, authorities uncovered a hidden Chinese network linked to 166 cases of illegal operations and talent poaching targeting its chip sector.
+
+═══ 03_COVERAGE_1 ═══
+
+62% covered (5/8). Missing: The Trump administration has formally backed OpenAI by arguing that artificial intelligence training can be fair use.; Colossal Biosciences previously announced that it had successfully cloned four endangered red wolves.; This news matters because it captures the most important technology developments, policy changes, and industry controversies globally.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+New York City has implemented a one-year ban on generative artificial intelligence in elementary and middle schools, affecting 600,000 students. The restriction applies to any software utilizing student-facing generative AI. In other technology news, a US judge rejected the government's demand to force a sale of Google's ad tech business, avoiding a breakup of its dominant ad tech business while still requiring the company to change how it treats rivals and shares information. The Trump administration has formally backed OpenAI by arguing that artificial intelligence training can be fair use. Colossal Biosciences previously announced that it had successfully cloned four endangered red wolves. The courts remain hesitant to dismantle these really complex tech systems, even when finding conduct that is anticompetitive. Meanwhile, Uber has launched the UK's first commercial robotaxi service using technology from UK startup Wayve and, initially, safety drivers. In Taiwan, authorities uncovered a hidden Chinese network linked to 166 cases of illegal operations and talent poaching targeting its chip sector. This news matters because it captures the most important technology developments, policy changes, and industry controversies globally.
+
+═══ 04_AUDIO_REWRITE ═══
+
+New York City has implemented a one-year ban on generative artificial intelligence in elementary and middle schools. This rule affects six hundred thousand students. The restriction applies to any software using student-facing generative artificial intelligence. 
+
+A United States judge rejected the government demand to force a sale of the Google ad technology business. This avoids a breakup of the dominant ad technology business. The court still requires the company to change how it treats rivals and shares information. 
+
+The Trump administration formally backed OpenAI by arguing that artificial intelligence training can be fair use. 
+
+Colossal Biosciences previously announced that it successfully cloned four endangered red wolves. 
+
+The courts remain hesitant to dismantle these really complex technology systems. They stay hesitant even when finding conduct that is anticompetitive. 
+
+Uber launched the United Kingdom commercial robotaxi service. It uses technology from United Kingdom startup Wayve and initially uses safety drivers. 
+
+Authorities in Taiwan uncovered a hidden Chinese network linked to one hundred sixty-six cases of illegal operations. The network also targeted its chip sector with talent poaching. 
+
+This news matters because it captures the most important technology developments, policy changes, and industry controversies globally.
+
+═══ 05_NORMALIZED ═══
+
+New York City has implemented a one-year ban on generative artificial intelligence in elementary and middle schools. This rule affects six hundred thousand students. The restriction applies to any software using student-facing generative artificial intelligence.
+
+A United States judge rejected the government demand to force a sale of the Google ad technology business. This avoids a breakup of the dominant ad technology business. The court still requires the company to change how it treats rivals and shares information.
+
+The Trump administration formally backed OpenAI by arguing that artificial intelligence training can be fair use.
+
+Colossal Biosciences previously announced that it successfully cloned four endangered red wolves.
+
+The courts remain hesitant to dismantle these really complex technology systems. They stay hesitant even when finding conduct that is anticompetitive.
+
+Uber launched the United Kingdom commercial robotaxi service. It uses technology from United Kingdom startup Wayve and initially uses safety drivers.
+
+Authorities in Taiwan uncovered a hidden Chinese network linked to one hundred sixty-six cases of illegal operations. The network also targeted its chip sector with talent poaching.
+
+This news matters because it captures the most important technology developments, policy changes, and industry controversies globally.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (8/8). Missing: none
+
+═══ 07_SANITY ═══
+
+OK
+

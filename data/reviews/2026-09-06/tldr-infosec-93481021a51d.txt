@@ -1,0 +1,72 @@
+═══ 00_KEY_POINTS ═══
+
+1. AWSHound is a read-only collector that maps AWS access permissions into a BloodHound Community Edition OpenGraph dataset.
+2. AWSHound runs an offline IAM policy evaluation so that edges only exist when permissions resolve to Allow.
+3. AWSHound is free, self-hosted, and requires no license gate or SaaS tenant registration.
+4. SpecterOps is currently accepting applications for the official enterprise AWS beta program.
+5. AWSHound helps defenders discover hidden multi-hop attack pathways across complex multi-account AWS environments.
+
+═══ 01_DRAFT ═══
+
+Daniel Heinsen and a colleague have released AWSHound, a free, self-hosted, read-only open-source collector that maps AWS accounts or entire AWS Organizations into BloodHound Community Edition OpenGraph datasets to uncover complex attack pathways. 
+
+Evaluating access in AWS is notoriously difficult because a permission depends on four intersecting elements: the principal, the action, the resource, and the request context. This information is scattered across inline and managed policies, group inheritances, permissions boundaries, multi-level service control policies, and resource-specific policies like S3 bucket policies or role trust policies. Furthermore, different services handle identity and resource policy composition differently, and KMS uses a distinct three-layer evaluation. 
+
+AWSHound solves this by running an offline identity access management policy evaluation before drawing any edges, ensuring an edge only exists when effective permissions resolve to Allow. During evaluation, unknowns in conditional policies lean toward the attacker by keeping unprovable allows and dropping unconfirmable denies. 
+
+The tool operates in three distinct phases managed via sub-commands. The collect phase strictly uses read-only list, get, and describe API calls across profiles, marked AWS config sections, or entire organizations via the --org-role OrganizationAccountAccessRole flag. The process phase compiles actions and wildcards against a built-in IAM action catalog, consolidates identity policies, evaluates permissions boundaries and service control policies, resolves denies before allows, and applies service-specific composition drivers. Finally, the resulting dataset exports as a JSON file to be loaded into BloodHound, allowing security analysts to leverage built-in pathfinding and Cypher queries to map multi-hop attack chains across accounts.
+
+AWSHound runs on both the Community Edition and Enterprise Edition of BloodHound. SpecterOps is currently accepting applications from enterprise customers for an official enterprise AWS beta program.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Evaluating access in AWS is notoriously difficult because a permission depends on four intersecting elements: the principal, the action, the resource, and the request context. This information is scattered across inline and managed policies, group inheritances, permissions boundaries, multi-level service control policies, and resource-specific policies like S3 bucket policies or role trust policies. Different services handle this composition differently, and KMS uses a distinct evaluation approach. 
+
+AWSHound solves this by running an offline identity access management policy evaluation before drawing any edges, ensuring an edge only exists when effective permissions resolve to Allow. During evaluation, unknowns in conditional policies lean toward the attacker by keeping unprovable allows and dropping unconfirmable denies. 
+
+The tool operates in three distinct phases managed via sub-commands. The collect phase strictly uses read-only list, get, and describe API calls across profiles, marked AWS config sections, or entire organizations via the --org-role OrganizationAccountAccessRole flag. The process phase compiles actions and wildcards against a built-in IAM action catalog, consolidates identity policies, evaluates permissions boundaries and service control policies, resolves denies before allows, and applies service-specific composition drivers. AWSHound turns an AWS account or entire AWS Organization into a BloodHound dataset, allowing security analysts to map attack pathways from one principal to another.
+
+AWSHound runs on both the Community Edition and Enterprise Edition of BloodHound. SpecterOps is currently accepting applications from enterprise customers for an official enterprise AWS beta program.
+
+═══ 03_COVERAGE_1 ═══
+
+80% covered (4/5). Missing: AWSHound is free, self-hosted, and requires no license gate or SaaS tenant registration.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+Evaluating access in AWS is notoriously difficult because a permission depends on four intersecting elements: the principal, the action, the resource, and the request context. This information is scattered across inline and managed policies, group inheritances, permissions boundaries, multi-level service control policies, and resource-specific policies like S3 bucket policies or role trust policies. Different services handle this composition differently, and KMS uses a distinct evaluation approach. 
+
+AWSHound solves this by running an offline identity access management policy evaluation before drawing any edges, ensuring an edge only exists when effective permissions resolve to Allow. AWSHound is free, self-hosted, and requires no license gate or SaaS tenant registration. During evaluation, unknowns in conditional policies lean toward the attacker by keeping unprovable allows and dropping unconfirmable denies. 
+
+The tool operates in three distinct phases managed via sub-commands. The collect phase strictly uses read-only list, get, and describe API calls across profiles, marked AWS config sections, or entire organizations via the --org-role OrganizationAccountAccessRole flag. The process phase compiles actions and wildcards against a built-in IAM action catalog, consolidates identity policies, evaluates permissions boundaries and service control policies, resolves denies before allows, and applies service-specific composition drivers. AWSHound turns an AWS account or entire AWS Organization into a BloodHound dataset, allowing security analysts to map attack pathways from one principal to another.
+
+AWSHound runs on both the Community Edition and Enterprise Edition of BloodHound. SpecterOps is currently accepting applications from enterprise customers for an official enterprise AWS beta program.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Evaluating access in Amazon Web Services is notoriously difficult because a permission depends on four intersecting elements. Those elements are the principal, the action, the resource, and the request context. This information is scattered across inline and managed policies, group inheritances, and permissions boundaries. It also spans multi-level service control policies and resource-specific policies like simple storage service bucket policies or role trust policies. Different services handle this composition differently, and Key Management Service uses a distinct evaluation approach.
+
+A new tool called AWSHound solves this problem. It runs an offline identity access management policy evaluation before drawing any edges. This ensures an edge only exists when effective permissions resolve to allow. AWSHound is free, self-hosted, and requires no license gate or software-as-a-service tenant registration. During evaluation, unknowns in conditional policies lean toward the attacker by keeping unprovable allows and dropping unconfirmable denies.
+
+The tool operates in three distinct phases managed through sub-commands. The collect phase strictly uses read-only list, get, and describe application programming interface calls across profiles, marked Amazon Web Services config sections, or entire organizations. This is done via a specific organization role flag. The process phase compiles actions and wildcards against a built-in identity and access management action catalog. It consolidates identity policies, evaluates permissions boundaries and service control policies, resolves denies before allows, and applies service-specific composition drivers. AWSHound turns an Amazon Web Services account or an entire organization into a BloodHound dataset. This allows security analysts to map attack pathways from one principal to another.
+
+AWSHound runs on both the Community Edition and the Enterprise Edition of BloodHound. SpecterOps is currently accepting applications from enterprise customers for an official enterprise Amazon Web Services beta program.
+
+═══ 05_NORMALIZED ═══
+
+Evaluating access in Amazon Web Services is notoriously difficult because a permission depends on four intersecting elements. Those elements are the principal, the action, the resource, and the request context. This information is scattered across inline and managed policies, group inheritances, and permissions boundaries. It also spans multi-level service control policies and resource-specific policies like simple storage service bucket policies or role trust policies. Different services handle this composition differently, and Key Management Service uses a distinct evaluation approach.
+
+A new tool called AWSHound solves this problem. It runs an offline identity access management policy evaluation before drawing any edges. This ensures an edge only exists when effective permissions resolve to allow. AWSHound is free, self-hosted, and requires no license gate or software-as-a-service tenant registration. During evaluation, unknowns in conditional policies lean toward the attacker by keeping unprovable allows and dropping unconfirmable denies.
+
+The tool operates in three distinct phases managed through sub-commands. The collect phase strictly uses read-only list, get, and describe application programming interface calls across profiles, marked Amazon Web Services config sections, or entire organizations. This is done via a specific organization role flag. The process phase compiles actions and wildcards against a built-in identity and access management action catalog. It consolidates identity policies, evaluates permissions boundaries and service control policies, resolves denies before allows, and applies service-specific composition drivers. AWSHound turns an Amazon Web Services account or an entire organization into a BloodHound dataset. This allows security analysts to map attack pathways from one principal to another.
+
+AWSHound runs on both the Community Edition and the Enterprise Edition of BloodHound. SpecterOps is currently accepting applications from enterprise customers for an official enterprise Amazon Web Services beta program.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (5/5). Missing: none
+
+═══ 07_SANITY ═══
+
+OK
+

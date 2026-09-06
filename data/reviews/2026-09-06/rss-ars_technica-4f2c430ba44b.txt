@@ -1,0 +1,40 @@
+═══ 00_KEY_POINTS ═══
+
+1. German startup Isar Aerospace was founded in 2018 by three university students.
+2. The 92-foot-tall Spectrum rocket successfully reached low-Earth orbit on Saturday.
+3. The launch took place at 4:12 pm EST from Andoya Spaceport in northern Norway.
+4. Spectrum became the very first fully commercial launch vehicle in Europe to reach orbit.
+5. This successful launch establishes Isar as the leader among European space startups.
+
+═══ 01_DRAFT ═══
+
+Isar Aerospace, a company founded in 2018 by three students at a German university, successfully launched a privately-developed rocket into low-Earth orbit on Saturday from a Norwegian spaceport inside the Arctic Circle. The two-stage, 92-foot-tall or 28-meter rocket named Spectrum lifted off at 4:12 pm EST or 20:12 UTC from Andøya Spaceport in northern Norway, where it was 10:12 pm local time. Seven minutes after the 4:12 pm liftoff, the vehicle reached orbit, becoming the first fully commercial launch vehicle in Europe to do so. The milestone establishes Isar as the leader among several European launch startups competing to inject competition into Europe's stagnant launch market.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (5/5). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Isar Aerospace was founded in twenty eighteen by three students at a German university. 
+On Saturday, the company successfully launched a privately developed rocket into low Earth orbit from a Norwegian spaceport inside the Arctic Circle. 
+The two-stage rocket is twenty eight meters, or ninety-two feet, tall and is named Spectrum. 
+It lifted off at four twelve p. m. Eastern Standard Time, which was twenty twelve Universal Time, from Andøya Spaceport in northern Norway. 
+At the launch site in northern Norway, the local time was ten twelve p. m. 
+Seven minutes after liftoff, the vehicle reached orbit. 
+It is now the first fully commercial launch vehicle in Europe to achieve that goal. 
+This milestone establishes Isar as the leader among several European launch startups. 
+These startups are all competing to inject competition into Europe and its stagnant launch market.
+
+═══ 05_NORMALIZED ═══
+
+Isar Aerospace was founded in twenty eighteen by three students at a German university.  On Saturday, the company successfully launched a privately developed rocket into low Earth orbit from a Norwegian spaceport inside the Arctic Circle.  The two-stage rocket is twenty eight meters, or ninety-two feet, tall and is named Spectrum.  It lifted off at four twelve p. m. Eastern Standard Time, which was twenty twelve Universal Time, from Andøya Spaceport in northern Norway.  At the launch site in northern Norway, the local time was ten twelve p. m.  Seven minutes after liftoff, the vehicle reached orbit.  It is now the first fully commercial launch vehicle in Europe to achieve that goal.  This milestone establishes Isar as the leader among several European launch startups.  These startups are all competing to inject competition into Europe and its stagnant launch market.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (5/5). Missing: none
+
+═══ 07_SANITY ═══
+
+OK
+

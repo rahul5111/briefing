@@ -1,0 +1,62 @@
+═══ 00_KEY_POINTS ═══
+
+1. Storage drives tend to fail unexpectedly, which can lead to corrupted files, system crashes, or disappearing drives.
+2. Users should immediately back up important files if their PC experiences slow access, errors, or unusual drive sounds.
+3. Windows 11 settings can display estimated remaining life and temperature for supported NVMe solid-state drives.
+4. Windows health monitoring does not cover SATA solid-state drives or traditional mechanical hard drives.
+5. Users can check their drive status using PowerShell by opening a terminal tab and typing Get-PhysicalDisk.
+6. CrystalDiskInfo is a free third-party tool that reads SMART data and provides health statuses like Good or Bad.
+7. If a drive receives a Caution or Bad result, backing up data immediately becomes the absolute priority.
+
+═══ 01_DRAFT ═══
+
+Storage drives can fail unexpectedly, with traditional hard drives sometimes producing clicking or grinding sounds while solid-state drives have no moving parts to warn users. Problems with either type can appear as corrupted files, slow access, read or write errors, crashes, or a drive disappearing from Windows. Users experiencing these issues should back up important files immediately before running diagnostics. Windows 11 offers built-in methods to check drive health, though available information depends on the hardware. Users can open Settings, navigate to System, Storage, Advanced storage settings, Disks and volumes, and select a drive and its properties to view estimated remaining life, available spare capacity, and temperature for supported NVMe solid-state drives. Windows can alert users if spare capacity is low, reliability decreases, or the drive enters read-only mode, though Microsoft states this monitoring does not cover SATA solid-state drives or traditional hard drives. Another quick check involves opening a PowerShell tab in Windows Terminal, typing Get-PhysicalDisk, and checking the HealthStatus column for a result of Healthy, Warning, Unhealthy, or Unknown. Microsoft recommends PowerShell because older commands like wmic have been removed from supported versions of Windows 11. For a second opinion, the free tool CrystalDiskInfo reads SMART data from many drives and assigns a health status of Good, Caution, Bad, or Unknown. Users receiving Caution or Bad results should prioritize backing up data and verify issues using manufacturer diagnostic software such as Seagate SeaTools or Samsung Magician. Persistent warnings, unhealthy results, or mechanical symptoms mean users should stop trusting the drive with unique copies of important data and consider a replacement. Additionally, the CHKDSK utility checks file systems and metadata for errors, with the f option fixing file-system errors and the r option locating bad sectors and attempting to recover readable data. However, correcting file-system problems with CHKDSK does not repair questionable hardware.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Storage drives can fail unexpectedly, with traditional hard drives sometimes producing clicking or grinding sounds while solid-state drives have no moving parts to warn users. Problems with either type can appear as corrupted files, slow access, read or write errors, crashes, or a drive disappearing from Windows. If any of that is already occurring, back up your important files before doing much else. Windows 11 offers built-in methods to check drive health, though available information depends on the hardware. The simplest way to get started is to open Settings, choose System, go to Storage, Advanced storage settings, and Disks & volumes, then select your drive and choose Properties to view estimated remaining life, available spare capacity, and temperature for supported NVMe SSDs. Windows can alert you if spare capacity is low, reliability has decreased, or the drive has gone into read-only mode, though Microsoft states this health monitoring doesn't cover SATA SSDs or traditional hard drives. Another quick check involves opening a PowerShell tab in Windows Terminal, typing Get-PhysicalDisk, and checking the HealthStatus column for a result of Healthy, Warning, Unhealthy, or Unknown. Microsoft recommends PowerShell because older guides using wmic are obsolete, as WMIC has been removed from supported versions of Windows 11. For a second opinion, the free tool CrystalDiskInfo reads SMART data from many drives and gives the drive a health status of Good, Caution, Bad, or Unknown. If you get a Caution or Bad result, backing up becomes the priority, and you can verify the issue using manufacturer diagnostic software such as Seagate SeaTools or Samsung Magician. Persistent warnings, Unhealthy results, or mechanical symptoms mean you should stop trusting that drive with the only copy of important data and start considering a replacement. Additionally, CHKDSK checks a volume's file system and metadata for errors, with the /f option fixing file-system errors and the /r option locating bad sectors and attempting to recover readable data. However, correcting file-system problems with CHKDSK does not make questionable hardware healthy.
+
+═══ 02b_TRIMMED ═══
+
+Storage drives can fail unexpectedly, with traditional hard drives sometimes producing clicking or grinding sounds while solid-state drives have no moving parts to warn users. Problems with either type can appear as corrupted files, slow access, read or write errors, crashes, or a drive disappearing from Windows. If any of that is already occurring, back up your important files before doing much else. Windows 11 offers built-in methods to check drive health, though available information depends on the hardware. The simplest way to get started is to open Settings, choose System, go to Storage, Advanced storage settings, and Disks & volumes, then select your drive and choose Properties to view estimated remaining life, available spare capacity, and temperature for supported NVMe SSDs. Windows can alert you if spare capacity is low, reliability has decreased, or the drive has gone into read-only mode, though Microsoft states this health monitoring doesn't cover SATA SSDs or traditional hard drives. Another quick check involves opening a PowerShell tab in Windows Terminal, typing Get-PhysicalDisk, and checking the HealthStatus column for a result of Healthy, Warning, Unhealthy, or Unknown. Microsoft recommends PowerShell because older guides using wmic are obsolete, as WMIC has been removed from supported versions of Windows 11. For a second opinion, the free tool CrystalDiskInfo reads SMART data from many drives and gives the drive a health status of Good, Caution, Bad, or Unknown. Persistent warnings, Unhealthy results, or mechanical symptoms mean you should stop trusting that drive with the only copy of important data and start considering a replacement. However, correcting file-system problems with CHKDSK does not make questionable hardware healthy.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (7/7). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Traditional hard drives might make clicking noises before they fail. Solid-state drives have no moving parts and give no warning at all. Problems with either type show up as corrupted files or slow access or read and write errors. You might also experience system crashes or a drive disappearing from Windows. Back up your important files immediately if any of those issues are already happening. 
+
+Windows eleven offers built-in methods to check drive health. The simplest way starts in the Settings app. Choose System and go to Storage and Advanced storage settings. Open Disks and volumes and select your drive. Choose Properties to view estimated remaining life and available spare capacity. You can also see the temperature for supported N. V. M. E. S. S. D. drives. 
+
+Windows can alert you if spare capacity gets low or reliability decreases. It can also warn you if the drive enters read-only mode. Microsoft states this monitoring does not cover S. A. T. A. S. S. D. drives or traditional hard drives. 
+
+Another quick check involves opening a PowerShell tab in Windows Terminal. Type Get-PhysicalDisk and check the HealthStatus column for your results. You will see a status of Healthy or Warning or Unhealthy or Unknown. Microsoft recommends PowerShell because older guides using W. M. I. C. are obsolete. W. M. I. C. has been removed from supported versions of Windows eleven. 
+
+You can also use a free tool named, CrystalDiskInfo for a second opinion. It reads S. M. A. R. T. data from many drives. The program gives the drive a health status of Good or Caution or Bad or Unknown. 
+
+Persistent warnings or Unhealthy results mean you should stop trusting that drive. You must start considering a hardware replacement immediately. Running a file-system repair tool does not make questionable hardware healthy.
+
+═══ 05_NORMALIZED ═══
+
+Traditional hard drives might make clicking noises before they fail. Solid-state drives have no moving parts and give no warning at all. Problems with either type show up as corrupted files or slow access or read and write errors. You might also experience system crashes or a drive disappearing from Windows. Back up your important files immediately if any of those issues are already happening.
+
+Windows eleven offers built-in methods to check drive health. The simplest way starts in the Settings app. Choose System and go to Storage and Advanced storage settings. Open Disks and volumes and select your drive. Choose Properties to view estimated remaining life and available spare capacity. You can also see the temperature for supported N. V. M. E. S. S. D. drives.
+
+Windows can alert you if spare capacity gets low or reliability decreases. It can also warn you if the drive enters read-only mode. Microsoft states this monitoring does not cover S. A. T. A. S. S. D. drives or traditional hard drives.
+
+Another quick check involves opening a PowerShell tab in Windows Terminal. Type Get-PhysicalDisk and check the HealthStatus column for your results. You will see a status of Healthy or Warning or Unhealthy or Unknown. Microsoft recommends PowerShell because older guides using W. M. I. C. are obsolete. W. M. I. C. has been removed from supported versions of Windows eleven.
+
+You can also use a free tool named, CrystalDiskInfo for a second opinion. It reads S. M. A. R. T. data from many drives. The program gives the drive a health status of Good or Caution or Bad or Unknown.
+
+Persistent warnings or Unhealthy results mean you should stop trusting that drive. You must start considering a hardware replacement immediately. Running a file-system repair tool does not make questionable hardware healthy.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (7/7). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: "Windows eleven", "Windows eleven"
+

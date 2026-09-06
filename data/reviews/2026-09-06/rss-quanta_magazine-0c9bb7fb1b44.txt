@@ -1,0 +1,75 @@
+═══ 00_KEY_POINTS ═══
+
+1. Five mathematicians at ETH Zurich solved a decades-old puzzle about phase transitions in percolation theory.
+2. The research team consisted of Sahar Diskin, Philip Easo, Ritvik Ramanan Radhakrishnan, Benny Sudakov, and Vincent Tassion.
+3. The group finalized their breakthrough proof during the week before Christmas in 2025.
+4. Their proof successfully resolves the supercritical half of the sharpness conjecture for all infinite transitive graphs.
+5. Mathematician Asaf Nachmias described the new mathematical proof as stunning.
+6. This breakthrough answers how fast a percolation network floods and how pools of fluid grow above the critical probability.
+
+═══ 01_DRAFT ═══
+
+In December 2025, five mathematicians at ETH Zurich solved a decades-old open problem in percolation theory by proving the supercritical half of the sharpness conjecture for all infinite transitive graphs. The research team included postdocs Sahar Diskin and Philip Easo, graduate student Ritvik Ramanan Radhakrishnan, Benny Sudakov, and Vincent Tassion. 
+
+Percolation studies flow in networks, originally inspired by Rosalind Franklin's 1940s research into coal porosity at the British Coal Utilization Research Association. In the 1950s, Simon Broadbent and John Hammersley modeled this using lattices and coin flips to represent open or blocked pathways. When the probability of open pathways passes a critical threshold, a phase transition occurs and the network is suddenly dominated by large seas of fluid. While sharpness—proving that pools grow rapidly and predictably past this point—was established for standard grids in the 1980s, proving it for the vastly broader class of infinite transitive graphs remained elusive after foundational work in the late 1990s by Itai Benjamini and Oded Schramm. The subcritical half was solved in 2007, but the supercritical half remained an open fortress.
+
+The ETH Zurich team initially set out to study how critical probability scales with edge numbers in the fall of 2025. Nearing the end of the semester, Easo suggested pivoting to sharpness. Tassion then realized their strategy could potentially apply to all infinite transitive graphs. Working through the night toward Christmas, the group devised a simple proof demonstrating that above the critical probability, the shoreline of any supposed large isolated pool creates contradictions making it nearly impossible for the pool to remain disconnected from infinite seas. 
+
+Asaf Nachmias of Tel Aviv University said of the breakthrough, I find great joy in this proof, it's stunning.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+In December 2025, five mathematicians at ETH Zurich solved a decades-old open problem in percolation theory by proving the supercritical half of the sharpness conjecture for all infinite transitive graphs. The research team included postdocs Sahar Diskin and Philip Easo, graduate student Ritvik Ramanan Radhakrishnan, Benny Sudakov, and Vincent Tassion. 
+
+Percolation studies flow in networks, originally inspired by Rosalind Franklin's 1940s research into coal porosity at the British Coal Utilization Research Association. In the 1950s, Simon Broadbent and John Hammersley modeled this using lattices and coin flips to represent open or blocked pathways. When the probability of open pathways passes a critical threshold, a phase transition occurs and the network is suddenly dominated by large seas of fluid. While sharpness—proving that pools grow rapidly and predictably past this point—was established for standard grids in the 1980s, proving it for the vastly broader class of infinite transitive graphs remained elusive after foundational work in the late 1990s by Itai Benjamini and Oded Schramm. The subcritical half was solved in 2007, but the supercritical half remained an open fortress.
+
+The ETH Zurich team initially set out during the fall of 2025 to understand how critical probability scales with edge numbers in graphs. As the semester neared its end with no proof, Easo, Diskin, and Radhakrishnan had made some progress and brought results to Sudakov and Tassion, leading Tassion to realize their strategy could potentially apply to all infinite transitive graphs. Working through the night toward Christmas, the group devised a simple proof demonstrating that above the critical probability, the shoreline of any supposed large isolated pool creates contradictions making it nearly impossible for the pool to remain disconnected from infinite seas. 
+
+Asaf Nachmias of Tel Aviv University said of the breakthrough, I find great joy in this proof, it's stunning.
+
+═══ 03_COVERAGE_1 ═══
+
+83% covered (5/6). Missing: The group finalized their breakthrough proof during the week before Christmas in 2025.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+In December 2025, five mathematicians at ETH Zurich solved a decades-old open problem in percolation theory by proving the supercritical half of the sharpness conjecture for all infinite transitive graphs. The research team included postdocs Sahar Diskin and Philip Easo, graduate student Ritvik Ramanan Radhakrishnan, Benny Sudakov, and Vincent Tassion. 
+
+Percolation studies flow in networks, originally inspired by Rosalind Franklin's 1940s research into coal porosity at the British Coal Utilization Research Association. In the 1950s, Simon Broadbent and John Hammersley modeled this using lattices and coin flips to represent open or blocked pathways. When the probability of open pathways passes a critical threshold, a phase transition occurs and the network is suddenly dominated by large seas of fluid. While sharpness—proving that pools grow rapidly and predictably past this point—was established for standard grids in the 1980s, proving it for the vastly broader class of infinite transitive graphs remained elusive after foundational work in the late 1990s by Itai Benjamini and Oded Schramm. The subcritical half was solved in 2007, but the supercritical half remained an open fortress.
+
+The ETH Zurich team initially set out during the fall of 2025 to understand how critical probability scales with edge numbers in graphs. As the semester neared its end with no proof, Easo, Diskin, and Radhakrishnan had made some progress and brought results to Sudakov and Tassion, leading Tassion to realize their strategy could potentially apply to all infinite transitive graphs. Working through the night toward Christmas, the group finalized their breakthrough proof during the week before Christmas in 2025, demonstrating that above the critical probability, the shoreline of any supposed large isolated pool creates contradictions making it nearly impossible for the pool to remain disconnected from infinite seas. 
+
+Asaf Nachmias of Tel Aviv University said of the breakthrough, I find great joy in this proof, it's stunning.
+
+═══ 04_AUDIO_REWRITE ═══
+
+In December twenty twenty-five, five mathematicians at E. T. H. Zurich solved a decades-old open problem in percolation theory. They proved the supercritical half of the sharpness conjecture for all infinite transitive graphs. The research team included postdocs, Sahar Diskin, and Philip Easo. It also included graduate student, Ritvik Ramanan Radhakrishnan, along with Benny Sudakov, and Vincent Tassion. 
+
+Percolation studies flow in networks. The field was originally inspired by Rosalind Franklin's nineteen forties research into coal porosity at the British Coal Utilization Research Association. In the nineteen fifties, Simon Broadbent and John Hammersley modeled this using lattices and coin flips to represent open or blocked pathways. When the probability of open pathways passes a critical threshold, a phase transition occurs. The network is suddenly dominated by large seas of fluid. 
+
+Sharpness means proving that pools grow rapidly and predictably past this point. This was established for standard grids in the nineteen eighties. Proving it for the vastly broader class of infinite transitive graphs remained elusive. This followed foundational work in the late nineteen nineties by, Itai Benjamini, and Oded Schramm. The subcritical half was solved in two thousand seven. The supercritical half remained an open fortress. 
+
+The E. T. H. Zurich team initially set out during the fall of twenty twenty-five to understand how critical probability scales with edge numbers in graphs. As the semester neared its end with no proof, Easo, Diskin, and Radhakrishnan had made some progress. They brought results to Sudakov and Tassion. This led Tassion to realize their strategy could potentially apply to all infinite transitive graphs. Working through the night toward Christmas, the group finalized their breakthrough proof during the week before Christmas in twenty twenty-five. They demonstrated that above the critical probability, the shoreline of any supposed large isolated pool creates contradictions. These contradictions make it nearly impossible for the pool to remain disconnected from infinite seas. 
+
+Asaf Nachmias of Tel Aviv University said of the breakthrough, I find great joy in this proof, it's stunning.
+
+═══ 05_NORMALIZED ═══
+
+In December twenty twenty-five, five mathematicians at E. T. H. Zurich solved a decades-old open problem in percolation theory. They proved the supercritical half of the sharpness conjecture for all infinite transitive graphs. The research team included postdocs, Sahar Diskin, and Philip Easo. It also included graduate student, Ritvik Ramanan Radhakrishnan, along with Benny Sudakov, and Vincent Tassion.
+
+Percolation studies flow in networks. The field was originally inspired by Rosalind Franklin's nineteen forties research into coal porosity at the British Coal Utilization Research Association. In the nineteen fifties, Simon Broadbent and John Hammersley modeled this using lattices and coin flips to represent open or blocked pathways. When the probability of open pathways passes a critical threshold, a phase transition occurs. The network is suddenly dominated by large seas of fluid.
+
+Sharpness means proving that pools grow rapidly and predictably past this point. This was established for standard grids in the nineteen eighties. Proving it for the vastly broader class of infinite transitive graphs remained elusive. This followed foundational work in the late nineteen nineties by, Itai Benjamini, and Oded Schramm. The subcritical half was solved in two thousand seven. The supercritical half remained an open fortress.
+
+The E. T. H. Zurich team initially set out during the fall of twenty twenty-five to understand how critical probability scales with edge numbers in graphs. As the semester neared its end with no proof, Easo, Diskin, and Radhakrishnan had made some progress. They brought results to Sudakov and Tassion. This led Tassion to realize their strategy could potentially apply to all infinite transitive graphs. Working through the night toward Christmas, the group finalized their breakthrough proof during the week before Christmas in twenty twenty-five. They demonstrated that above the critical probability, the shoreline of any supposed large isolated pool creates contradictions. These contradictions make it nearly impossible for the pool to remain disconnected from infinite seas.
+
+Asaf Nachmias of Tel Aviv University said of the breakthrough, I find great joy in this proof, it's stunning.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: awkward punctuation, awkward punctuation, awkward punctuation
+

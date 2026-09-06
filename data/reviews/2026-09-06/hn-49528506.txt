@@ -1,0 +1,44 @@
+═══ 00_KEY_POINTS ═══
+
+1. The creator built a new app named OwnTime to balance competing daily life priorities.
+2. OwnTime functions essentially as a chess clock with configurable countdown timers for multiple roles.
+3. All daily timers automatically reset every night at midnight local device time.
+4. The app stores all user data locally without requiring any account or subscription.
+5. OwnTime is available on the App Store for a small one-time fee of $1.99.
+
+═══ 01_DRAFT ═══
+
+An independent developer has launched OwnTime, an iOS and watchOS application designed to help users balance competing daily priorities using the mechanics of a chess clock. The app, which requires a one-time fee of one dollar and ninety-nine cents, functions through mutually exclusive countdown timers that represent different life roles or tasks. When a timer's allocated daily budget runs out, the app forces the user to switch priorities. The software utilizes Apple AlarmKit alarms, which became available in iOS version twenty-six point one, and features local synchronization between the iPhone and Apple Watch. All data remains stored locally in an SQLite database that users can export for personal evaluation, eliminating the need for user accounts, subscriptions, or cloud services. The creator has stated that they do not plan to expand the application into a subscription service or add built-in statistics dashboards.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+An independent developer has launched OwnTime, an iOS and watchOS application designed to help users balance competing daily priorities using the mechanics of a chess clock. The app, which requires a one-time fee of one dollar and ninety-nine cents, functions through mutually exclusive countdown timers that represent different life roles or tasks. When a timer's allocated daily budget runs out, the app forces the user to switch priorities. The software utilizes AlarmKit alarms, which became possible last year for versions greater than or equal to iOS twenty-six point one, and features local synchronization between the iPhone and Apple Watch. All data remains stored locally in an SQLite database that users can export for personal evaluation, eliminating the need for user accounts, subscriptions, or cloud services. The creator has stated that they do not plan to expand the application into a subscription service or add built-in statistics dashboards.
+
+═══ 02b_TRIMMED ═══
+
+An independent developer has launched OwnTime, an iOS and watchOS application designed to help users balance competing daily priorities using the mechanics of a chess clock. The app, which requires a one-time fee of one dollar and ninety-nine cents, functions through mutually exclusive countdown timers that represent different life roles or tasks. When a timer's allocated daily budget runs out, the app forces the user to switch priorities. All data remains stored locally in an SQLite database that users can export for personal evaluation, eliminating the need for user accounts, subscriptions, or cloud services. The creator has stated that they do not plan to expand the application into a subscription service or add built-in statistics dashboards.
+
+═══ 03_COVERAGE_1 ═══
+
+80% covered (4/5). Missing: All daily timers automatically reset every night at midnight local device time.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+An independent developer has launched OwnTime, an iOS and watchOS application designed to help users balance competing daily priorities using the mechanics of a chess clock. The app, which requires a one-time fee of one dollar and ninety-nine cents, functions through mutually exclusive countdown timers that represent different life roles or tasks. When a timer's allocated daily budget runs out, the app forces the user to switch priorities. All daily timers automatically reset every night at midnight local device time. All data remains stored locally in an SQLite database that users can export for personal evaluation, eliminating the need for user accounts, subscriptions, or cloud services. The creator has stated that they do not plan to expand the application into a subscription service or add built-in statistics dashboards.
+
+═══ 04_AUDIO_REWRITE ═══
+
+An independent developer has launched a new app called OwnTime. It works on I. O. S. and watch O. S. devices. The app helps users balance daily priorities using chess clock mechanics. It costs one dollar and ninety-nine cents as a one-time fee. The application uses mutually exclusive countdown timers for different life roles and tasks. A timer runs out of its daily budget and forces the user to switch tasks. Every single daily timer resets automatically at midnight in the local device time zone. All user data stays stored locally in an S. Q. L. lite database. Users can export this data for their own personal evaluation. The design removes any need for user accounts or subscriptions or cloud services. The creator states they will never expand the application into a subscription service. They also refuse to add any built-in statistics dashboards.
+
+═══ 05_NORMALIZED ═══
+
+An independent developer has launched a new app called OwnTime. It works on I. O. S. and watch O. S. devices. The app helps users balance daily priorities using chess clock mechanics. It costs one dollar and ninety-nine cents as a one-time fee. The application uses mutually exclusive countdown timers for different life roles and tasks. A timer runs out of its daily budget and forces the user to switch tasks. Every single daily timer resets automatically at midnight in the local device time zone. All user data stays stored locally in an S. Q. L. lite database. Users can export this data for their own personal evaluation. The design removes any need for user accounts or subscriptions or cloud services. The creator states they will never expand the application into a subscription service. They also refuse to add any built-in statistics dashboards.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (5/5). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: S Q L
+

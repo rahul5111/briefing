@@ -1,0 +1,75 @@
+═══ 00_KEY_POINTS ═══
+
+1. Grok Bot is designed for persistent AI agents that carry responsibility over time rather than disposable chat sessions.
+2. The main interface objects are Bots with individual names, avatars, titles, and their own computers and tools.
+3. Bot avatars use consistent simple shapes and expressive eyes with controlled variations and accessories to remain recognizable at a glance.
+4. Avatars visually communicate the Bot's lifecycle state, showing whether it is idle, thinking, working, waiting, blocked, or done.
+5. Each Bot has its own computer workspace with three access levels, allowing users to inspect activity without operating it directly.
+6. Tools and skills live at the account level for broad sharing, while memory and routines belong to individual Bots.
+7. Routines allow users to give a Bot standing responsibilities that execute on a schedule or event without requiring a prompt.
+8. Grok Bot enforces practical limits of roughly fifty Bots per account and six Bots per group chat.
+
+═══ 01_DRAFT ═══
+
+The design of Grok Bot shifts the focus of AI interaction away from disposable chat sessions and toward persistent agents that maintain responsibility over time. Rather than organizing the product around questions and answers, the main interface objects are individual Bots, each featuring a name, avatar, memory, and its own computer. 
+
+To manage multiple agents without clutter, the system limits accounts to roughly 50 Bots and six per group chat. Avatars use consistent construction with controlled variations and accessories for at-a-glance recognition, while their motion visually communicates operational states such as idle, working, waiting, or done. The Bot workspace includes a computer for web browsing, file handling, and running software, accessible across three levels of user visibility alongside wallpapers that shift from morning to night.
+
+Responses incorporate inline cards and widgets rather than defaulting exclusively to prose, and a heterogeneous transcript combines conversation, system events, interactive objects, and visualizations into a single timeline. Capabilities like tools and skills are shared at the account level, while memory and routines remain tied to specific Bot roles. For collaboration, group chats allow roles like designers, engineers, product managers, and data scientists to work together. Standing responsibilities are handled through Routines that operate on a schedule or react to events without requiring a manual prompt.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+The design of Grok Bot shifts the focus of AI interaction away from disposable chat sessions and toward persistent agents that maintain responsibility over time. Rather than organizing the product around questions and answers, the main interface objects are individual Bots, each featuring a name, avatar, memory, and its own computer. 
+
+To manage multiple agents without clutter, the system limits accounts to roughly 50 Bots and six per group chat. Avatars use consistent construction with controlled variations and accessories for at-a-glance recognition, while their motion visually communicates operational states such as idle, working, waiting, or done. The Bot workspace includes a computer for web browsing, file handling, and running software, accessible across three levels of user visibility alongside wallpapers that shift from morning to night.
+
+Bots can answer in prose when prose fits the information and use structured UI when it does not, allowing events to appear directly in the transcript for inspection. Capabilities like tools and skills are shared at the account level, while memory and routines remain tied to specific Bot roles. For collaboration, group chats allow roles like designers, engineers, product managers, and data scientists to work together. Standing responsibilities are handled through Routines that operate on a schedule or react to events without requiring a manual prompt.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (8/8). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+The design of Grok Bot shifts artificial intelligence interaction away from disposable chat sessions. It moves toward persistent agents that maintain responsibility over time. 
+
+The main interface objects are individual Bots instead of basic questions and answers. Each Bot features a name, avatar, memory, and its own computer. 
+
+Accounts are limited to roughly fifty Bots to manage multiple agents without clutter. Group chats are limited to six Bots at a time. 
+
+Avatars use consistent construction with controlled variations and accessories for quick recognition. Their motion visually communicates operational states like idle, working, waiting, or done. 
+
+The Bot workspace includes a computer for web browsing and file handling. It runs software across three levels of user visibility. The wallpapers shift from morning to night. 
+
+Bots can answer in prose when prose fits the information. They use structured user interfaces when prose does not fit. This allows events to appear directly in the transcript for inspection. 
+
+Abilities like tools and skills are shared at the account level. Memory and routines remain tied to specific Bot roles. 
+
+Group chats allow collaboration between roles like designers, engineers, product managers, and data scientists. Standing responsibilities are handled through Routines. These routines operate on a schedule or react to events without requiring a manual prompt.
+
+═══ 05_NORMALIZED ═══
+
+The design of Grok Bot shifts artificial intelligence interaction away from disposable chat sessions. It moves toward persistent agents that maintain responsibility over time.
+
+The main interface objects are individual Bots instead of basic questions and answers. Each Bot features a name, avatar, memory, and its own computer.
+
+Accounts are limited to roughly fifty Bots to manage multiple agents without clutter. Group chats are limited to six Bots at a time.
+
+Avatars use consistent construction with controlled variations and accessories for quick recognition. Their motion visually communicates operational states like idle, working, waiting, or done.
+
+The Bot workspace includes a computer for web browsing and file handling. It runs software across three levels of user visibility. The wallpapers shift from morning to night.
+
+Bots can answer in prose when prose fits the information. They use structured user interfaces when prose does not fit. This allows events to appear directly in the transcript for inspection.
+
+Abilities like tools and skills are shared at the account level. Memory and routines remain tied to specific Bot roles.
+
+Group chats allow collaboration between roles like designers, engineers, product managers, and data scientists. Standing responsibilities are handled through Routines. These routines operate on a schedule or react to events without requiring a manual prompt.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (8/8). Missing: none
+
+═══ 07_SANITY ═══
+
+OK
+
