@@ -1,0 +1,62 @@
+═══ 00_KEY_POINTS ═══
+
+1. iOS 18 introduced RCS support on the iPhone to solve media sharing quality discrepancies.
+2. iPhone users can verify RCS is enabled by navigating to Settings, Apps, Messages, and RCS Messaging.
+3. Android users can prevent photo compression in Google Messages by selecting the HD or HD+ button.
+4. Users should choose HD+ Original Quality rather than HD Optimized for Chat to maintain file fidelity.
+5. Google Photos and Google Drive serve as effective alternatives for sharing larger files and videos.
+6. RCS messaging maintains an attachment size limit of 100MB for media files.
+7. Android Quick Share now supports AirDrop on compatible Pixel and Samsung devices.
+
+═══ 01_DRAFT ═══
+
+Historically, sharing media between Android and Apple devices resulted in degraded image quality due to differing messaging systems, with Apple using SMS and Android using RCS. The release of iOS 18 introduced RCS support on iPhones, resolving this gap and enabling higher image quality. 
+
+To ensure quality when sending from an iPhone, users can verify RCS is enabled by navigating to Settings, then Apps, then Messages, and checking that RCS Messaging is toggled green, as it is turned on by default in iOS 18. On the Android side, Google Messages compresses photos by default. Senders must press the HD or HD+ button and select "HD+ Original Quality" instead of "HD Optimized for Chat" to avoid compression.
+
+For larger files and videos, users must navigate the RCS attachment size limit of 100MB. Alternative options include email, alternative messaging services, Google Drive, or Google Photos by selecting "Send in Google Photos" within the app. Additionally, Android Quick Share now supports AirDrop on Pixel phones from the 8a model onward and various Samsung Galaxy S devices. Android phones incompatible with AirDrop can instead select "Use QR Code" within the Quick Share menu, allowing an iPhone user to scan the code to receive the file.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Historically, sharing media between Android and Apple devices typically took the quality down a few notches due to differing messaging systems, with Apple using SMS and Android using RCS. The release of iOS 18 introduced RCS support on iPhones, resolving this gap and enabling higher image quality. 
+
+To ensure quality when sending from an iPhone, users can verify RCS is enabled by navigating to Settings > Apps > Messages, and checking that RCS Messaging is toggled green, as it is turned on by default in iOS 18. On the Android side, Google Messages sends photos in a compressed form by default. Senders can press the HD or HD+ button before sending to maintain quality and avoid compression.
+
+For larger files and videos, users must navigate the RCS attachment size limit of 100MB. Alternative options include email, alternative messaging services, Google Drive, or Google Photos by selecting "Send in Google Photos" within the app. Additionally, options like Google Photos stand out as a simple choice for sharing. Android phones can also use Quick Share features, and if an Android phone is incompatible, users can tap "Use QR Code" within Quick Share, allowing an iPhone user to scan the code as a solid last resort.
+
+═══ 02b_TRIMMED ═══
+
+The release of iOS 18 introduced RCS support on iPhones, resolving this gap and enabling higher image quality. To ensure quality when sending from an iPhone, users can verify RCS is enabled by navigating to Settings > Apps > Messages, and checking that RCS Messaging is toggled green, as it is turned on by default in iOS 18. On the Android side, Google Messages sends photos in a compressed form by default. For larger files and videos, users must navigate the RCS attachment size limit of 100MB. Alternative options include email, alternative messaging services, Google Drive, or Google Photos by selecting "Send in Google Photos" within the app. Android phones can also use Quick Share features, and if an Android phone is incompatible, users can tap "Use QR Code" within Quick Share, allowing an iPhone user to scan the code as a solid last resort.
+
+═══ 03_COVERAGE_1 ═══
+
+71% covered (5/7). Missing: Android users can prevent photo compression in Google Messages by selecting the HD or HD+ button.; Users should choose HD+ Original Quality rather than HD Optimized for Chat to maintain file fidelity.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+The release of iOS 18 introduced RCS support on iPhones, resolving this gap and enabling higher image quality. To ensure quality when sending from an iPhone, users can verify RCS is enabled by navigating to Settings > Apps > Messages, and checking that RCS Messaging is toggled green, as it is turned on by default in iOS 18. On the Android side, Google Messages sends photos in a compressed form by default. Android users can prevent photo compression in Google Messages by selecting the HD or HD+ button, and users should choose HD+ Original Quality rather than HD Optimized for Chat to maintain file fidelity. For larger files and videos, users must navigate the RCS attachment size limit of 100MB. Alternative options include email, alternative messaging services, Google Drive, or Google Photos by selecting "Send in Google Photos" within the app. Android phones can also use Quick Share features, and if an Android phone is incompatible, users can tap "Use QR Code" within Quick Share, allowing an iPhone user to scan the code as a solid last resort.
+
+═══ 04_AUDIO_REWRITE ═══
+
+The operating system update known as I. O. S. eighteen brought Rich Communication Services support to IPhones. This update closes an older gap and allows for much higher image quality. IPhone users can verify this feature is working by opening their settings. They need to go to apps and then messages to make sure the Rich Communication Services toggle is green. This feature is actually turned on by default in the new software. 
+
+On the Android side of things, the messaging application sends photos in a compressed form by default. Android users can prevent this compression by selecting a specific high definition button before sending. Users should choose the high definition plus original quality option instead of the optimized version to keep their files completely intact. 
+
+For larger files and videos, users must navigate a one hundred megabyte attachment limit. Alternative options for large files include email or other messaging services. Users can also share files through Google Drive or Google Photos by selecting a specific send option inside the application. Android phones can also use Quick Share features to move large files around. If a target Android phone is incompatible, users can tap a special Quick Share button to generate a Q. R. code. An IPhone user can then scan that code as a solid last resort.
+
+═══ 05_NORMALIZED ═══
+
+The operating system update known as I. O. S. eighteen brought Rich Communication Services support to IPhones. This update closes an older gap and allows for much higher image quality. IPhone users can verify this feature is working by opening their settings. They need to go to apps and then messages to make sure the Rich Communication Services toggle is green. This feature is actually turned on by default in the new software.
+
+On the Android side of things, the messaging application sends photos in a compressed form by default. Android users can prevent this compression by selecting a specific high definition button before sending. Users should choose the high definition plus original quality option instead of the optimized version to keep their files completely intact.
+
+For larger files and videos, users must navigate a one hundred megabyte attachment limit. Alternative options for large files include email or other messaging services. Users can also share files through Google Drive or Google Photos by selecting a specific send option inside the application. Android phones can also use Quick Share features to move large files around. If a target Android phone is incompatible, users can tap a special Quick Share button to generate a Q. R. code. An IPhone user can then scan that code as a solid last resort.
+
+═══ 06_COVERAGE_FINAL ═══
+
+85% covered (6/7). Missing: Android Quick Share now supports AirDrop on compatible Pixel and Samsung devices.
+
+═══ 07_SANITY ═══
+
+ISSUES: I. O. S., IPhones, IPhone, Q. R.
+

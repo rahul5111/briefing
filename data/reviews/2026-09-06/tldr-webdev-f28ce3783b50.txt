@@ -1,0 +1,61 @@
+═══ 00_KEY_POINTS ═══
+
+1. GPT-6 Astra pricing increased 2.5 times to $10 per million input tokens and $50 per million output tokens.
+2. In the Artificial Analysis Coding Agent Index, GPT-6 Astra scores 67, equaling Fable 5 at a lower cost.
+3. GPT-6 Astra achieves a score of 61 on the Artificial Analysis Intelligence Index, matching GPT-5.6 Sol.
+4. GPT-6 Astra reduces its hallucination rate significantly from 92% down to 51% at max effort.
+5. The model is 75% more expensive per task than its predecessor at max effort due to higher pricing.
+6. GPT-6 Astra improves by about 80 points in the AA-Briefcase long-horizon knowledge work evaluation.
+
+═══ 01_DRAFT ═══
+
+GPT-6 Astra has launched with significant gains on the Artificial Analysis Coding Agent Index, where it matches Fable 5 at less than half the cost, while introducing a 2.5x price increase across the board to $10 per million input tokens and $50 per million output tokens, up from $4 and $20. 
+
+In the Coding Agent Index, GPT-6 Astra scores 67 on Codex, placing it roughly even with Claude Opus 5, Fable 5, and Muse Spark 1.3, while trailing the leader Fable 5.1 at 70. The model achieves strong token efficiency in coding tasks, using one-third of the tokens of GPT-5.6 Sol at max effort and one-fifth of Claude Opus 5, allowing its max effort setting to match GPT-5.6 Sol's cost while scoring two points higher.
+
+In the Intelligence Index, GPT-6 Astra scores 61, matching GPT-5.6 Sol but trailing Claude Fable 5.1 by 5 points and Meta's Muse Spark 1.3. Although it uses about 10% fewer output tokens at max effort than its predecessor, the 2.5x price hike makes it 75% more expensive per task. 
+
+Performance across other evaluations is mixed. GPT-6 Astra's hallucination rate on AA-Omniscience dropped from 92% to 51% at max effort alongside a 4-point accuracy gain, and it secured an approximately 80-point Elo increase in the long-horizon AA-Briefcase evaluation. It also gained 6 points on Humanity's Last Exam. However, these gains are accompanied by an 80 Elo point drop in GDPval-AA v2 and small regressions of 2 to 3 points on evaluations including τ³-Banking, SciCode, and AA-LCR. Cache reads retain a 90% discount and cache writes a 25% premium.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+GPT-6 Astra has launched with significant gains on the Artificial Analysis Coding Agent Index, where it matches Fable 5 at less than half the cost, while introducing a 2.5x price increase across the board to $10 per million input tokens and $50 per million output tokens, up from $4 and $20. 
+
+In the Coding Agent Index, GPT-6 Astra scores 67 on Codex, placing it roughly even with Claude Opus 5, Fable 5, and Muse Spark 1.3, while trailing the leader Fable 5.1 at 70. The model achieves strong token efficiency in coding tasks, using one-third of the tokens of GPT-5.6 Sol at max effort and one-fifth of Claude Opus 5, allowing its max effort setting to match GPT-5.6 Sol's cost while scoring two points higher.
+
+In the Intelligence Index, GPT-6 Astra scores 61, matching GPT-5.6 Sol but trailing Claude Fable 5.1 by 5 points and Meta's Muse Spark 1.3. It uses about 10% fewer output tokens at max effort than its predecessor, but this efficiency is offset by the price increase, making it 75% more expensive per task at max effort. 
+
+Performance across other evaluations is mixed. GPT-6 Astra's hallucination rate on AA-Omniscience dropped from 92% to 51% at max effort alongside a 4-point accuracy gain, and it secured an approximately 80-point Elo increase in the long-horizon AA-Briefcase evaluation. It also gained 6 points on Humanity's Last Exam. However, these gains are accompanied by an 80 Elo point drop in GDPval-AA v2 and small regressions of 2 to 3 points on evaluations including τ³-Banking, SciCode, and AA-LCR. Cache reads retain a 90% discount and cache writes a 25% premium.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+G. P. T. dash six Astra has launched. It brings major gains on the Artificial Analysis Coding Agent Index. It matches Fable five at less than half the cost. At the same time, it introduces a two point five times price increase across the board. Input tokens now cost ten million dollars per million? Wait. Input tokens now cost ten dollars per million, up from four dollars. Output tokens now cost fifty dollars per million, up from twenty dollars. 
+
+On the Coding Agent Index, G. P. T. dash six Astra scores sixty-seven on Codex. This places it even with Claude Opus five, Fable five, and Muse Spark one point three. It trails the leader Fable five point one, which scores seventy. The model achieves strong token efficiency in coding tasks. It uses one-third of the tokens of G. P. T. dash five point six Sol at max effort. It uses one-fifth of the tokens of Claude Opus five. This allows its max effort setting to match the cost of G. P. T. dash five point six Sol while scoring two points higher.
+
+On the Intelligence Index, G. P. T. dash six Astra scores sixty-one. It matches G. P. T. dash five point six Sol. It trails Claude Fable five point one by five points. It also trails Meta's Muse Spark one point three. It uses about ten percent fewer output tokens at max effort than its predecessor. However, the price increase offsets this efficiency. It makes the model seventy-five percent more expensive per task at max effort.
+
+Performance across other evaluations is mixed. The hallucination rate on A. A. dash Omniscience dropped from ninety-two percent to fifty-one percent at max effort. This came with a four-point accuracy gain. The model also secured an eighty-point Elo increase in the long-horizon A. A. dash Briefcase evaluation. It gained six points on Humanity's Last Exam. However, these gains come with an eighty Elo point drop in G. D. P. val dash A. A. v two. There are also small regressions of two to three points on evaluations including tau cubed dash Banking, SciCode, and A. A. dash L. C. R. Cache reads retain a ninety percent discount and cache writes retain a twenty-five percent premium.
+
+═══ 05_NORMALIZED ═══
+
+G. P. T. dash six Astra has launched. It brings major gains on the Artificial Analysis Coding Agent Index. It matches Fable five at less than half the cost. At the same time, it introduces a two point five times price increase across the board. Input tokens now cost ten million dollars per million? Wait. Input tokens now cost ten dollars per million, up from four dollars. Output tokens now cost fifty dollars per million, up from twenty dollars.
+
+On the Coding Agent Index, G. P. T. dash six Astra scores sixty-seven on Codex. This places it even with Claude Opus five, Fable five, and Muse Spark one point three. It trails the leader Fable five point one, which scores seventy. The model achieves strong token efficiency in coding tasks. It uses one-third of the tokens of G. P. T. dash five point six Sol at max effort. It uses one-fifth of the tokens of Claude Opus five. This allows its max effort setting to match the cost of G. P. T. dash five point six Sol while scoring two points higher.
+
+On the Intelligence Index, G. P. T. dash six Astra scores sixty-one. It matches G. P. T. dash five point six Sol. It trails Claude Fable five point one by five points. It also trails Meta's Muse Spark one point three. It uses about ten percent fewer output tokens at max effort than its predecessor. However, the price increase offsets this efficiency. It makes the model seventy-five percent more expensive per task at max effort.
+
+Performance across other evaluations is mixed. The hallucination rate on A. A. dash Omniscience dropped from ninety-two percent to fifty-one percent at max effort. This came with a four-point accuracy gain. The model also secured an eighty-point Elo increase in the long-horizon A. A. dash Briefcase evaluation. It gained six points on Humanity's Last Exam. However, these gains come with an eighty Elo point drop in G. D. P. val dash A. A. v two. There are also small regressions of two to three points on evaluations including tau cubed dash Banking, SciCode, and A. A. dash L. C. R. Cache reads retain a ninety percent discount and cache writes retain a twenty-five percent premium.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: million?, Wait.
+

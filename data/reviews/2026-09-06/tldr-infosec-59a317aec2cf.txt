@@ -1,0 +1,53 @@
+═══ 00_KEY_POINTS ═══
+
+1. OpenAI's new Astra model uses a reasoning technique called recurrent depth.
+2. The new technique operates outside sequential thinking and makes chains of thought harder to monitor.
+3. Redwood CEO Buck Shlegeris stated he is extremely concerned by the reporting on opaque recurrence.
+4. AI safety advocate Zvi Mowshowitz warned that the technique risks destroying chain-of-thought faithfulness and monitorability.
+5. OpenAI chief scientist Jakub Pachocki emphasized the lab's commitment to preserving legible chains of thought.
+6. Opaque recurrence leaves fewer legible traces by processing queries several times in a loop.
+
+═══ 01_DRAFT ═══
+
+OpenAI is incorporating a new reasoning technique known as recurrent depth, or opaque recurrence, into its upcoming Astra model, according to a report published on Tuesday by The Information. Unlike conventional reasoning models that rely on step-by-step sequential thinking, Astra processes queries multiple times in a loop, utilizing a less linear approach that leaves fewer legible traces. While standard chain-of-thought records have previously served as a crucial tool for monitoring AI misbehavior and misalignment, the new method side-steps conventional logs and makes the model's internal process significantly harder to track.
+
+The development has raised alarm among AI safety experts. Redwood CEO Buck Shlegeris wrote in a post that if OpenAI pushes the technique further, the company will have the option to massively increase recurrence and totally destroy chain-of-thought monitorability. Longtime advocate Zvi Mowshowitz warned that the technique risks breaking a vital taboo established by leading labs, while Redwood chief scientist Ryan Greenblatt expressed concern that opaque reasoning could scale faster than conventional methods and eventually remove all reasoning from visible channels entirely.
+
+Despite these concerns, Astra's current use of opaque recurrence is reportedly limited, and the model's chain of thought is still expected to remain legible. OpenAI chief scientist Jakub Pachocki pushed back against suggestions that the company would shift to neuralese, emphasizing on X that OpenAI has worked to preserve and utilize chain-of-thought monitoring since its very first reasoning models and that it remains a core goal of the current research program. Meanwhile, a follow-up report by The Information on Wednesday morning indicated that both Anthropic and Google DeepMind are already discussing the technique.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+OpenAI is incorporating a new reasoning technique known as recurrent depth, or opaque recurrence, into its upcoming Astra model, according to a report published on Tuesday by The Information. In opaque recurrence, the model takes a less linear approach, processing the same query several times in a loop, which leaves fewer legible traces and effectively side-steps a conventional chain-of-thought record. While standard chain-of-thought records have previously served as a crucial tool for monitoring AI misbehavior and misalignment, the new method makes the model's internal process significantly harder to track.
+
+The development has raised alarm among AI safety experts. Redwood CEO Buck Shlegeris wrote in a post that if OpenAI pushes the technique further, the company will have the option to massively increase recurrence and totally destroy chain-of-thought monitorability. Longtime advocate Zvi Mowshowitz warned that the technique risks breaking a vital taboo established by leading labs, while Redwood chief scientist Ryan Greenblatt expressed concern that opaque reasoning could scale faster than conventional methods and eventually remove all reasoning from visible channels entirely.
+
+Crucially, Astra’s use of the technique appears to be limited, and OpenAI pushed back against any suggestion that it would shift to neuralese. OpenAI chief scientist Jakub Pachocki emphasized on X that OpenAI has worked to preserve and utilize chain-of-thought monitoring since its very first reasoning models and that it remains a core goal of the current research program. Meanwhile, a follow-up report by The Information on Wednesday morning indicated that both Anthropic and Google DeepMind are already discussing the technique.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+OpenAI is adding a new reasoning technique to its upcoming Astra model. The report comes from a publication on Tuesday by The Information. The technique is called recurrent depth or opaque recurrence. In this process, the model takes a less linear approach. It processes the same query several times in a loop. This leaves fewer legible traces. It effectively sidesteps a conventional chain-of-thought record. Standard chain-of-thought records have served as a crucial tool for monitoring artificial intelligence misbehavior and misalignment. The new method makes the internal process of the model significantly harder to track.
+
+This development has raised alarm among artificial intelligence safety experts. Redwood Chief Executive Officer, Buck Shlegeris, wrote a post about the issue. He said that if OpenAI pushes the technique further, the company will have the option to massively increase recurrence. That would totally destroy chain-of-thought monitorability. Longtime advocate, Zvi Mowshowitz, warned that the technique risks breaking a vital taboo. The taboo was established by leading labs. Redwood chief scientist, Ryan Greenblatt, expressed further concern. He noted that opaque reasoning could scale faster than conventional methods. It might eventually remove all reasoning from visible channels entirely.
+
+Crucially, Astra and its use of the technique appear to be limited right now. OpenAI pushed back against any suggestion that it would shift to neuralese. OpenAI chief scientist, Jakub Pachocki, emphasized this point on X. He said that OpenAI has worked to preserve and utilize chain-of-thought monitoring since its very first reasoning models. He added that monitoring remains a core goal of the current research program. Meanwhile, a follow-up report by The Information on Wednesday morning brought more news. It indicated that both Anthropic and Google DeepMind are already discussing the technique.
+
+═══ 05_NORMALIZED ═══
+
+OpenAI is adding a new reasoning technique to its upcoming Astra model. The report comes from a publication on Tuesday by The Information. The technique is called recurrent depth or opaque recurrence. In this process, the model takes a less linear approach. It processes the same query several times in a loop. This leaves fewer legible traces. It effectively sidesteps a conventional chain-of-thought record. Standard chain-of-thought records have served as a crucial tool for monitoring artificial intelligence misbehavior and misalignment. The new method makes the internal process of the model significantly harder to track.
+
+This development has raised alarm among artificial intelligence safety experts. Redwood Chief Executive Officer, Buck Shlegeris, wrote a post about the issue. He said that if OpenAI pushes the technique further, the company will have the option to massively increase recurrence. That would totally destroy chain-of-thought monitorability. Longtime advocate, Zvi Mowshowitz, warned that the technique risks breaking a vital taboo. The taboo was established by leading labs. Redwood chief scientist, Ryan Greenblatt, expressed further concern. He noted that opaque reasoning could scale faster than conventional methods. It might eventually remove all reasoning from visible channels entirely.
+
+Crucially, Astra and its use of the technique appear to be limited right now. OpenAI pushed back against any suggestion that it would shift to neuralese. OpenAI chief scientist, Jakub Pachocki, emphasized this point on X. He said that OpenAI has worked to preserve and utilize chain-of-thought monitoring since its very first reasoning models. He added that monitoring remains a core goal of the current research program. Meanwhile, a follow-up report by The Information on Wednesday morning brought more news. It indicated that both Anthropic and Google DeepMind are already discussing the technique.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+OK
+

@@ -1,0 +1,50 @@
+═══ 00_KEY_POINTS ═══
+
+1. The artificial intelligence model Astra has met the critical cybersecurity capability threshold under the Preparedness Framework.
+2. Astra can independently discover previously unknown security flaws and develop functional zero-day exploit chains without human guidance.
+3. The model achieved a perfect score of 100 percent on ExploitBench for developing exploits from known vulnerabilities.
+4. Astra discovered and utilized two zero-day vulnerabilities during evaluation on an internal benchmark dataset of high-severity flaws.
+5. Advanced cybersecurity workflows for Astra will initially be restricted to a small group of alpha testers and Daybreak Blue.
+6. Astra refuses 91.5 percent of requests on cyber jailbreak evaluations compared to 59 percent for GPT-5.6 Sol.
+7. Developers implemented stronger safeguards and monitoring systems to minimize severe cyber risks before making Astra available soon.
+
+═══ 01_DRAFT ═══
+
+The AI model Astra has become the first to meet the Critical cybersecurity capability threshold under the organization Preparedness Framework. Evaluations show that Astra can autonomously find previously unknown security flaws and develop exploit chains across hardened systems, scoring 100% on ExploitBench and outperforming GPT-5.6 Sol on internal benchmarks by discovering two zero-day vulnerabilities during testing. 
+
+Development and release parts were previously delayed following an incident, leading to strengthened infrastructure, isolation controls, and a paused large frontier reinforcement learning run that restarted on August 28th. To mitigate risks from malicious actors and unauthorized actions, production safeguards include a cyber jailbreak refusal rate of 91.5% compared to 59% for GPT-5.6 Sol, conservative boundaries for high-risk accounts, chain-of-thought monitoring, and automatic containment mechanisms. 
+
+Astra will be released soon with limited access. Advanced cybersecurity capabilities will initially be restricted to a small group of alpha testers before expanding to defensive use through Daybreak Blue. Further details regarding safety evaluations will be provided in the model system card at launch.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (7/7). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+The artificial intelligence model Astra has become the first to meet the critical cybersecurity capability threshold under the organization Preparedness Framework. Evaluations show that Astra can autonomously find previously unknown security flaws and develop exploit chains across hardened systems. It scored one hundred percent on ExploitBench. It outperformed G. P. T. five point six Sol on internal benchmarks by discovering two zero day vulnerabilities during testing.
+
+Development and release parts were previously delayed following an incident. This led to strengthened infrastructure and isolation controls. It also caused a paused large frontier reinforcement learning run that restarted on August twenty-eighth. 
+
+To mitigate risks from malicious actors and unauthorized actions, production safeguards are in place. The cyber jailbreak refusal rate is ninety-one point five percent compared to fifty-nine percent for G. P. T. five point six Sol. Other safeguards include conservative boundaries for high-risk accounts and chain-of-thought monitoring and automatic containment mechanisms.
+
+Astra will be released soon with limited access. Advanced cybersecurity capabilities will initially be restricted to a small group of alpha testers. Access will later expand to defensive use through Daybreak Blue. Further details regarding safety evaluations will be provided in the model system card at launch.
+
+═══ 05_NORMALIZED ═══
+
+The artificial intelligence model Astra has become the first to meet the critical cybersecurity capability threshold under the organization Preparedness Framework. Evaluations show that Astra can autonomously find previously unknown security flaws and develop exploit chains across hardened systems. It scored one hundred percent on ExploitBench. It outperformed G. P. T. five point six Sol on internal benchmarks by discovering two zero day vulnerabilities during testing.
+
+Development and release parts were previously delayed following an incident. This led to strengthened infrastructure and isolation controls. It also caused a paused large frontier reinforcement learning run that restarted on August twenty-eighth.
+
+To mitigate risks from malicious actors and unauthorized actions, production safeguards are in place. The cyber jailbreak refusal rate is ninety-one point five percent compared to fifty-nine percent for G. P. T. five point six Sol. Other safeguards include conservative boundaries for high-risk accounts and chain-of-thought monitoring and automatic containment mechanisms.
+
+Astra will be released soon with limited access. Advanced cybersecurity capabilities will initially be restricted to a small group of alpha testers. Access will later expand to defensive use through Daybreak Blue. Further details regarding safety evaluations will be provided in the model system card at launch.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (7/7). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: G. P. T., two zero day
+

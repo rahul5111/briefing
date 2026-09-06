@@ -1,0 +1,67 @@
+═══ 00_KEY_POINTS ═══
+
+1. Windows 11 includes built-in tools for setting up custom notifications on a specified schedule.
+2. Well-managed and timely notifications can help users get more done during the day.
+3. Users can type task scheduler into the search box to set up custom notifications without third-party apps.
+4. The Task Scheduler utility allows users to set notification frequencies like daily, weekly, monthly, or one time.
+5. Entering msg in the Program field and text in the arguments field creates the notification.
+6. Created notifications will pop up at the specified time whether the Task Scheduler is open or not.
+7. The preinstalled Microsoft Clock app lets users set custom alarms with names acting as notification text.
+8. Users can create custom notifications through the Microsoft To Do app by attaching reminders to tasks.
+
+═══ 01_DRAFT ═══
+
+Windows 11 users can set up custom notifications using built-in tools like the Task Scheduler without needing to install third-party applications. To create a notification, open the Task Scheduler from the taskbar or Start menu search box, open the Action menu, and select Create Basic Task. After giving the task a name and description, users can choose a frequency such as daily, weekly, monthly, one time, at computer startup, upon login, or when a specific event is logged, and set a specific recurring time. On the program screen, users enter msg in the Program/script field and type their desired reminder text into the Add arguments field, then click Finish to confirm. The alerts will pop up at the scheduled time even when the Task Scheduler is closed, and tasks can be edited or deleted by locating them in the Task Scheduler Library. Additional built-in options for custom alerts include the Microsoft Clock app for naming alarms and setting recurring times, and the Microsoft To Do app, which allows users to attach reminders with specific times, dates, and repeating schedules to individual tasks.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Windows 11 users can set up custom notifications using built-in tools like the Task Scheduler without needing to install third-party applications. To create a notification, open the Task Scheduler from the taskbar or Start menu search box, open the Action menu, and select Create Basic Task. After giving the task a name and description, users can choose a frequency such as daily, weekly, monthly, one time, at computer startup, upon login, or when a specific event is logged, and set a specific recurring time. On the program screen, users enter msg in the Program/script field and type their desired reminder text into the Add arguments field, then click Finish to confirm. The alerts will pop up at the scheduled time even when the Task Scheduler is closed, and tasks can be edited or deleted by locating them in the Task Scheduler Library. Additional built-in options for custom alerts include the preinstalled Microsoft Clock app for setting custom alarms with names and recurring times, and the Microsoft To Do app, which lets users create custom notifications by attaching reminders with specific times, dates, and repeating schedules to tasks.
+
+═══ 02b_TRIMMED ═══
+
+Windows 11 users can set up custom notifications using built-in tools like the Task Scheduler without needing to install third-party applications. To create a notification, open the Task Scheduler from the taskbar or Start menu search box, open the Action menu, and select Create Basic Task. After giving the task a name and description, users can choose a frequency such as daily, weekly, monthly, one time, at computer startup, upon login, or when a specific event is logged, and set a specific recurring time. On the program screen, users enter msg in the Program/script field and type their desired reminder text into the Add arguments field, then click Finish to confirm. The alerts will pop up at the scheduled time even when the Task Scheduler is closed, and tasks can be edited or deleted by locating them in the Task Scheduler Library.
+
+═══ 03_COVERAGE_1 ═══
+
+62% covered (5/8). Missing: Well-managed and timely notifications can help users get more done during the day.; The preinstalled Microsoft Clock app lets users set custom alarms with names acting as notification text.; Users can create custom notifications through the Microsoft To Do app by attaching reminders to tasks.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+Windows 11 users can set up custom notifications using built-in tools like the Task Scheduler without needing to install third-party applications. Well-managed and timely notifications can help users get more done during the day. To create a notification, open the Task Scheduler from the taskbar or Start menu search box, open the Action menu, and select Create Basic Task. After giving the task a name and description, users can choose a frequency such as daily, weekly, monthly, one time, at computer startup, upon login, or when a specific event is logged, and set a specific recurring time. On the program screen, users enter msg in the Program/script field and type their desired reminder text into the Add arguments field, then click Finish to confirm. The alerts will pop up at the scheduled time even when the Task Scheduler is closed, and tasks can be edited or deleted by locating them in the Task Scheduler Library. In addition to these built-in tools, the preinstalled Microsoft Clock app lets users set custom alarms with names acting as notification text, and users can create custom notifications through the Microsoft To Do app by attaching reminders to tasks.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Windows eleven users can set up custom notifications using built in tools. You can use the Task Scheduler without needing third party applications. Well managed and timely notifications help users get more done during the day. 
+
+To create a notification, open the Task Scheduler from the taskbar or Start menu search box. Open the Action menu and select Create Basic Task. Give the task a name and description. 
+
+Choose a frequency such as daily, weekly, monthly, one time, at computer startup, upon login, or when a specific event is logged. Then set a specific recurring time. 
+
+On the program screen, enter msg in the Program field. Type your desired reminder text into the Add arguments field. Click Finish to confirm. 
+
+The alerts pop up at the scheduled time even when the Task Scheduler is closed. Tasks can be edited or deleted by locating them in the Task Scheduler Library. 
+
+In addition to these tools, the preinstalled Microsoft Clock app lets users set custom alarms. Names act as notification text in that app. Users can also create custom notifications through the Microsoft To Do app by attaching reminders to tasks.
+
+═══ 05_NORMALIZED ═══
+
+Windows eleven users can set up custom notifications using built in tools. You can use the Task Scheduler without needing third party applications. Well managed and timely notifications help users get more done during the day.
+
+To create a notification, open the Task Scheduler from the taskbar or Start menu search box. Open the Action menu and select Create Basic Task. Give the task a name and description.
+
+Choose a frequency such as daily, weekly, monthly, one time, at computer startup, upon login, or when a specific event is logged. Then set a specific recurring time.
+
+On the program screen, enter msg in the Program field. Type your desired reminder text into the Add arguments field. Click Finish to confirm.
+
+The alerts pop up at the scheduled time even when the Task Scheduler is closed. Tasks can be edited or deleted by locating them in the Task Scheduler Library.
+
+In addition to these tools, the preinstalled Microsoft Clock app lets users set custom alarms. Names act as notification text in that app. Users can also create custom notifications through the Microsoft To Do app by attaching reminders to tasks.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (8/8). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: Windows eleven, msg
+

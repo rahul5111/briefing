@@ -1,0 +1,52 @@
+═══ 00_KEY_POINTS ═══
+
+1. A ransomware attacker compressed an enterprise network intrusion to under 10 hours using artificial intelligence agents.
+2. Palo Alto Networks researchers estimated that similar human-operated network intrusions could typically take about two weeks.
+3. The threat actor employed more than 50 techniques mapped directly to the established MITRE ATT&CK framework.
+4. Analyst Sanchit Vir Gogia noted the evidence points to a human-directed intrusion where AI orchestrated delegated tactical work.
+5. Sakshi Grover stated that enterprises do not necessarily need a new threat model, but they do need to operate on a new clock.
+
+═══ 01_DRAFT ═══
+
+A ransomware attacker used AI agents to move through an enterprise network in less than 10 hours during an incident investigated by Palo Alto Networks researchers. According to the company’s Unit 42 threat research team, the operation would have taken human operators about two weeks to complete. The intrusion involved more than 50 techniques mapped to the MITRE ATT&CK framework. While the techniques were largely familiar, Unit 42 observed that AI agents interpreted the results of their actions and adapted subsequent steps during the intrusion. Indicators of AI use were identified during the investigation, and the threat actor confirmed during negotiations that frontier AI models and attack-specific agentic frameworks had been used.
+
+The attacker initially breached the network through a public-facing API endpoint. An automated reconnaissance agent then mapped internal microservices, while other agents searched source-code repositories for exposed credentials. This allowed the attacker to access a secrets-management system, obtain administrative credentials, and hijack an enterprise code application via custom workflows to exfiltrate cloud access keys. Although the attacker attempted to plant backdoors in Terraform configurations, existing branch protections blocked those changes. Stolen cloud credentials were subsequently used to access the victim’s AI services, converting its computing resources into infrastructure for further activity. 
+
+Sanchit Vir Gogia, chief analyst at Greyhound Research, noted that the evidence points to a human-directed intrusion in which AI orchestrated delegated tactical work. However, the compressed attack timeline places heavy pressure on security teams. Jonathan Ong, senior analyst for managed security services at Omdia, stated that faster attack cycles strain containment and require security teams to reduce the interval between identifying malicious activity and taking action. Sakshi Grover, senior research manager for IDC Asia Pacific Cybersecurity Services, added that enterprises need to operate on a new clock and improve control over non-human identities by reducing reliance on long-lived credentials.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+A ransomware attacker used AI agents to move through an enterprise network in less than 10 hours during an incident investigated by Palo Alto Networks researchers. According to the company’s Unit 42 threat research team, the operation would have taken human operators about two weeks to complete. The intrusion involved more than 50 techniques mapped to the MITRE ATT&CK framework. While the techniques were largely familiar, Unit 42 observed that AI agents interpreted the results of their actions and adapted subsequent steps during the intrusion. Indicators of AI use were identified during the investigation, and the threat actor confirmed during negotiations that frontier AI models and attack-specific agentic frameworks had been used.
+
+The attacker initially breached the network through a public-facing API endpoint. An automated reconnaissance agent then mapped internal microservices, while other agents searched source-code repositories for exposed credentials. This allowed the attacker to access a secrets-management system, obtain administrative credentials, and hijack an enterprise code application via custom workflows to exfiltrate cloud access keys, while attempts to plant backdoors in Terraform configurations were stopped by existing branch protections. Stolen cloud credentials were subsequently used to access the victim’s AI services, converting its computing resources into infrastructure for further activity. 
+
+Sanchit Vir Gogia, chief analyst at Greyhound Research, noted that the evidence points to a human-directed intrusion in which AI orchestrated delegated tactical work. However, the compressed attack timeline places heavy pressure on security teams. Jonathan Ong, senior analyst for managed security services at Omdia, stated that faster attack cycles strain containment and require security teams to reduce the interval between identifying malicious activity and taking action. Sakshi Grover, senior research manager for IDC Asia Pacific Cybersecurity Services, added that enterprises need to operate on a new clock and improve control over non-human identities by reducing reliance on long-lived credentials.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (5/5). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+A ransomware attacker used A. I. agents to move through an enterprise network in less than ten hours. Researchers at Palo Alto Networks investigated the incident. The company called Unit forty-two threat research team shared the details. The operation would have taken human operators about two weeks to complete. The intrusion involved more than fifty techniques mapped to the M. I. T. R. E. A. T. T. and C. K. framework. The techniques were largely familiar. Unit forty-two observed that A. I. agents interpreted the results of their actions and adapted subsequent steps during the intrusion. Indicators of A. I. use were identified during the investigation. The threat actor confirmed during negotiations that frontier A. I. models and attack-specific agentic frameworks had been used.
+
+The attacker initially breached the network through a public-facing A. P. I. endpoint. An automated reconnaissance agent then mapped internal microservices. Other agents searched source-code repositories for exposed credentials. This allowed the attacker to access a secrets-management system. They obtained administrative credentials and hijacked an enterprise code application via custom workflows to exfiltrate cloud access keys. Attempts to plant backdoors in Terraform configurations were stopped by existing branch protections. Stolen cloud credentials were subsequently used to access the victim is A. I. services. This converted computing resources into infrastructure for further activity.
+
+Sanchit Vir Gogia, chief analyst at Greyhound Research, noted that the evidence points to a human-directed intrusion. He said A. I. orchestrated delegated tactical work. The compressed attack timeline places heavy pressure on security teams. Jonathan Ong, senior analyst for managed security services at Omdia, stated that faster attack cycles strain containment. He noted that teams must reduce the interval between identifying malicious activity and taking action. Sakshi Grover, senior research manager for I. D. C. Asia Pacific Cybersecurity Services, added that enterprises need to operate on a new clock. She said they must improve control over non-human identities by reducing reliance on long-lived credentials.
+
+═══ 05_NORMALIZED ═══
+
+A ransomware attacker used A. I. agents to move through an enterprise network in less than ten hours. Researchers at Palo Alto Networks investigated the incident. The company called Unit forty-two threat research team shared the details. The operation would have taken human operators about two weeks to complete. The intrusion involved more than fifty techniques mapped to the M. I. T. R. E. A. T. T. and C. K. framework. The techniques were largely familiar. Unit forty-two observed that A. I. agents interpreted the results of their actions and adapted subsequent steps during the intrusion. Indicators of A. I. use were identified during the investigation. The threat actor confirmed during negotiations that frontier A. I. models and attack-specific agentic frameworks had been used.
+
+The attacker initially breached the network through a public-facing A. P. I. endpoint. An automated reconnaissance agent then mapped internal microservices. Other agents searched source-code repositories for exposed credentials. This allowed the attacker to access a secrets-management system. They obtained administrative credentials and hijacked an enterprise code application via custom workflows to exfiltrate cloud access keys. Attempts to plant backdoors in Terraform configurations were stopped by existing branch protections. Stolen cloud credentials were subsequently used to access the victim is A. I. services. This converted computing resources into infrastructure for further activity.
+
+Sanchit Vir Gogia, chief analyst at Greyhound Research, noted that the evidence points to a human-directed intrusion. He said A. I. orchestrated delegated tactical work. The compressed attack timeline places heavy pressure on security teams. Jonathan Ong, senior analyst for managed security services at Omdia, stated that faster attack cycles strain containment. He noted that teams must reduce the interval between identifying malicious activity and taking action. Sakshi Grover, senior research manager for I. D. C. Asia Pacific Cybersecurity Services, added that enterprises need to operate on a new clock. She said they must improve control over non-human identities by reducing reliance on long-lived credentials.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (5/5). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: victim is A. I. services
+

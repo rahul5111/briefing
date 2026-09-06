@@ -1,0 +1,38 @@
+═══ 00_KEY_POINTS ═══
+
+1. Gen-ichi Konishi and colleagues proposed that aggregation-induced emission is associated with large structural changes in molecules.
+2. The research team succeeded in predicting aggregation-induced emission behavior using a small number of quantum chemical descriptors.
+3. Researchers selected bridged stilbenes as a model system and performed potential energy surface analyses on 30 stilbene derivatives.
+4. The team designed and synthesized four representative bridged stilbenes whose photophysical properties matched computational predictions.
+5. The study was published in the journal Advanced Science under the title Computation-Guided Control of Excited-State Deactivation.
+6. Gen-ichi Konishi stated that the work represents a significant shift from empirical trial and error toward rational, computation-guided molecular exploration.
+7. This new computational framework aims to contribute to the development of high-efficiency OLED materials and fluorescent probes.
+
+═══ 01_DRAFT ═══
+
+A research team led by Associate Professor Gen-ichi Konishi at the Institute of Science Tokyo has developed a computation-guided framework to predict aggregation-induced emission behavior using a small number of energetic descriptors derived from quantum chemical calculations. The study, published in Advanced Science, found that introducing donor and acceptor groups and controlling their substitution positions can reshape excited-state potential energy surfaces and regulate conical-intersection accessibility. To test the hypothesis, the researchers analyzed 30 stilbene derivatives and subsequently synthesized four representative bridged stilbenes whose photophysical properties matched computational predictions. This approach moves luminescent material design away from empirical trial and error. According to Konishi, this work represents a significant shift in luminescent material design, moving from empirical trial and error toward rational, computation-guided molecular exploration. The researchers expect the strategy to contribute to the development of high-efficiency organic light-emitting diodes, fluorescent probes for bioimaging, and sensing materials.
+
+═══ 03_COVERAGE_1 ═══
+
+71% covered (5/7). Missing: Gen-ichi Konishi and colleagues proposed that aggregation-induced emission is associated with large structural changes in molecules.; The study was published in the journal Advanced Science under the title Computation-Guided Control of Excited-State Deactivation.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+A research team led by Associate Professor Gen-ichi Konishi at the Institute of Science Tokyo has developed a computation-guided framework to predict aggregation-induced emission behavior using a small number of energetic descriptors derived from quantum chemical calculations. Gen-ichi Konishi and colleagues proposed that aggregation-induced emission is associated with large structural changes in molecules. The study, published in the journal Advanced Science under the title Computation-Guided Control of Excited-State Deactivation, found that introducing donor and acceptor groups and controlling their substitution positions can reshape excited-state potential energy surfaces and regulate conical-intersection accessibility. To test the hypothesis, the researchers analyzed 30 stilbene derivatives and subsequently synthesized four representative bridged stilbenes whose photophysical properties matched computational predictions. This approach moves luminescent material design away from empirical trial and error. According to Konishi, this work represents a significant shift in luminescent material design, moving from empirical trial and error toward rational, computation-guided molecular exploration. The researchers expect the strategy to contribute to the development of high-efficiency organic light-emitting diodes, fluorescent probes for bioimaging, and sensing materials.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Researchers at the Institute of Science Tokyo have built a new computer-guided framework. It predicts how molecules glow when they clump together. The team was led by, Associate Professor Gen-ichi Konishi. They used a small number of energy descriptors from quantum chemistry calculations. The scientists proposed that this glowing behavior comes from large structural changes in molecules. Their study was published in the journal Advanced Science. The title is, Computation-Guided Control of Excited-State Deactivation. The paper shows how adding donor and acceptor groups changes the energy surfaces of molecules. Controlling where these groups sit regulates access to conical intersections. To test their idea, the team analyzed thirty stilbene derivatives. They then built four representative bridged stilbenes in a lab. The physical properties of these four compounds matched the computer predictions. This method moves material design away from trial and error. According to, Konishi, the work shifts design toward rational and computer-guided exploration. The researchers expect the strategy to help build better organic light-emitting diodes, fluorescent probes for bioimaging, and sensing materials.
+
+═══ 05_NORMALIZED ═══
+
+Researchers at the Institute of Science Tokyo have built a new computer-guided framework. It predicts how molecules glow when they clump together. The team was led by, Associate Professor Gen-ichi Konishi. They used a small number of energy descriptors from quantum chemistry calculations. The scientists proposed that this glowing behavior comes from large structural changes in molecules. Their study was published in the journal Advanced Science. The title is, Computation-Guided Control of Excited-State Deactivation. The paper shows how adding donor and acceptor groups changes the energy surfaces of molecules. Controlling where these groups sit regulates access to conical intersections. To test their idea, the team analyzed thirty stilbene derivatives. They then built four representative bridged stilbenes in a lab. The physical properties of these four compounds matched the computer predictions. This method moves material design away from trial and error. According to, Konishi, the work shifts design toward rational and computer-guided exploration. The researchers expect the strategy to help build better organic light-emitting diodes, fluorescent probes for bioimaging, and sensing materials.
+
+═══ 06_COVERAGE_FINAL ═══
+
+SKIPPED: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+
+═══ 07_SANITY ═══
+
+ISSUES: awkward punctuation
+

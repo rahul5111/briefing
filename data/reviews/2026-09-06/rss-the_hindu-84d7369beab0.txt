@@ -1,0 +1,53 @@
+═══ 00_KEY_POINTS ═══
+
+1. The Maharashtra government formed a high-level committee to make state recruitment examinations more transparent.
+2. The decision to review the recruitment system was made during a meeting chaired by the Chief Minister on 12 August 2026.
+3. A seven-member committee was established under the chairmanship of Additional Chief Secretary V. Radha.
+4. DGP Sadanand Date and former UPSC member Air Marshal Ajit Shankarrao Bhosale are among the committee members.
+5. Dr. N. Ramaswamy will serve as the member secretary of the newly formed committee.
+6. The committee will visit each Revenue Division in the State to consult with students and stakeholders.
+
+═══ 01_DRAFT ═══
+
+The government of Maharashtra has formed a seven-member high-level committee to study and reform the state government recruitment examination system. The decision follows a meeting held on 12 August 2026 chaired by the Chief Minister to make state recruitment exams more transparent, secure, reliable, fair, and candidate-oriented, according to the General Administration Department.
+
+The committee is chaired by Additional Chief Secretary of the General Administration Department V. Radha. Its members include Director General of Police Sadanand Date, Electronics and IT Secretary Virendra Singh, Nashik Divisional Commissioner Praveen Gedam, former UPSC member Air Marshal Ajit Shankarrao Bhosale, and an IIT Mumbai mechanical engineering professor. Dr. N. Ramaswamy, Secretary of the Department of Animal Husbandry, Dairying Development and Fisheries, serves as the member secretary.
+
+The committee will visit every revenue division in the state to consult with students, candidates, educational representatives, and other stakeholders. It will also examine best practices from other states and countries if necessary to inform its recommendations for improving the examination process.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+The government of Maharashtra has formed a seven-member high-level committee to study and reform the state government recruitment examination system. The decision follows a meeting held on 12 August 2026 chaired by the Chief Minister to make state recruitment exams more transparent, secure, reliable, fair, and candidate-oriented, according to the General Administration Department.
+
+The committee is chaired by Additional Chief Secretary (Services) of the General Administration Department V. Radha. Its members include Director General of Police Sadanand Date; Secretary, Electronics, Information Technology and Artificial Intelligence Department Virendra Singh; Divisional Commissioner, Nashik Division Praveen Gedam; former Union Public Service Commission member Air Marshal Ajit Shankarrao Bhosale (retd); and a Professor from the Department of Mechanical Engineering, Indian Institute of Technology (IIT), Mumbai. Dr. N. Ramaswamy, Secretary, Department of Animal Husbandry and Dairying Development and Fisheries, serves as the member secretary.
+
+The committee will visit every revenue division in the state to consult with students, candidates, educational representatives, and other stakeholders. It will also examine best practices from other states and countries if necessary to inform its recommendations for improving the examination process.
+
+═══ 02b_TRIMMED ═══
+
+The government of Maharashtra has formed a seven-member high-level committee to study and reform the state government recruitment examination system. The decision follows a meeting held on 12 August 2026 chaired by the Chief Minister to make state recruitment exams more transparent, secure, reliable, fair, and candidate-oriented, according to the General Administration Department. The committee is chaired by Additional Chief Secretary (Services) of the General Administration Department V. Radha. Dr. N. Ramaswamy, Secretary, Department of Animal Husbandry and Dairying Development and Fisheries, serves as the member secretary. The committee will visit every revenue division in the state to consult with students, candidates, educational representatives, and other stakeholders. It will also examine best practices from other states and countries if necessary to inform its recommendations for improving the examination process.
+
+═══ 03_COVERAGE_1 ═══
+
+SKIPPED: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+
+═══ 04_AUDIO_REWRITE ═══
+
+The government of Maharashtra has formed a seven member high level committee. This group will study and reform the state government recruitment examination system. The decision follows a meeting held on the twelfth of August, twenty twenty-six. The Chief Minister chaired this meeting to make state recruitment exams more transparent and secure. The General Administration Department states the exams must also be reliable and fair and candidate oriented. 
+
+Additional Chief Secretary of Services, V. Radha, leads the committee. Dr. N. Ramaswamy serves as the member secretary. He works as the Secretary for the Department of Animal Husbandry and Dairying Development and Fisheries. The committee will visit every revenue division in the state. They will consult with students and candidates and educational representatives and other stakeholders. They will also examine best practices from other states and countries if necessary. This research will inform their recommendations for improving the examination process.
+
+═══ 05_NORMALIZED ═══
+
+The government of Maharashtra has formed a seven member high level committee. This group will study and reform the state government recruitment examination system. The decision follows a meeting held on the twelfth of August, twenty twenty-six. The Chief Minister chaired this meeting to make state recruitment exams more transparent and secure. The General Administration Department states the exams must also be reliable and fair and candidate oriented.
+
+Additional Chief Secretary of Services, V. Radha, leads the committee. Doctor N. Ramaswamy serves as the member secretary. He works as the Secretary for the Department of Animal Husbandry and Dairying Development and Fisheries. The committee will visit every revenue division in the state. They will consult with students and candidates and educational representatives and other stakeholders. They will also examine best practices from other states and countries if necessary. This research will inform their recommendations for improving the examination process.
+
+═══ 06_COVERAGE_FINAL ═══
+
+SKIPPED: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+
+═══ 07_SANITY ═══
+
+ISSUES: missing hyphen in "seven member", unspaced initials in "V. Radha", unspaced initials in "N. Ramaswamy"
+

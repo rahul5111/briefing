@@ -1,0 +1,61 @@
+═══ 00_KEY_POINTS ═══
+
+1. Hugging Face released an initial collection of 207 WebGPU kernels on the Hub for machine learning workloads.
+2. The release includes a JavaScript loader named @huggingface/kernels that downloads and runs kernels directly from the Hub.
+3. Hugging Face also launched Fleet, a browser-based benchmarking and testing suite that scores kernels on user hardware.
+4. In head-to-head comparisons on an Apple M4 GPU, the new kernels were 2.57x faster by geometric mean.
+5. This release matters to make local browser AI inference faster and more reliable by improving foundational low-level operations.
+6. Hugging Face is working with the ONNX Runtime team to upstream these performance improvements.
+
+═══ 01_DRAFT ═══
+
+Hugging Face has released an initial collection of 207 optimized WebGPU kernels under the Apache 2.0 license, alongside a JavaScript loader package called @huggingface/kernels and a crowdsourced benchmarking suite named Fleet. 
+
+The collection covers core machine learning operations such as matrix multiplications, normalizations, and attention primitives. Each kernel is published as a complete, versioned package on the Hugging Face Hub, containing a manifest, correctness cases, benchmark data, and parameterized WGSL shader templates. Developers can install the preview package using npm install @huggingface/kernels@preview and execute kernels by passing tensor shapes and data through a unified JavaScript contract.
+
+In performance comparisons against ONNX Runtime Web using version 1.30.0-dev.20260826-b1f76d586a on an Apple M4 GPU across 809 matching test cases, the new kernels achieved a geometric mean speedup of 2.57x and a median speedup of 1.90x, securing 629 wins, 176 losses, and 4 ties. Certain complex operations yielded larger performance gains, including a bilinear Einsum case that ran more than 10,000 times faster and a row-wise CumSum that was 301 times faster. These measurements reflect isolated GPU execution times and exclude setup overhead.
+
+To address hardware variability across devices, browsers, and drivers, the Fleet tool enables users to run browser-based correctness and performance checks. With user consent, these runs privately contribute evidence back to help identify device-specific failures and guide future optimizations. Hugging Face is also collaborating with the ONNX Runtime team to upstream these improvements into the broader ONNX Runtime Web ecosystem.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Hugging Face has released an initial collection of 207 optimized WebGPU kernels under the Apache 2.0 license, alongside a JavaScript loader package called @huggingface/kernels and a crowdsourced benchmarking suite named Fleet. 
+
+The collection covers core machine learning operations such as matrix multiplications, normalizations, and attention primitives. Each kernel is published as a complete, versioned package on the Hugging Face Hub, containing a manifest, correctness cases, benchmark data, and parameterized WGSL shader templates. Developers can install the preview package using npm install @huggingface/kernels@preview and execute kernels by passing tensor shapes and data through a unified JavaScript contract.
+
+In performance comparisons against ONNX Runtime Web using version 1.30.0-dev.20260826-b1f76d586a on an Apple M4 GPU across 809 matching test cases, the new kernels achieved a geometric mean speedup of 2.57x and a median speedup of 1.90x, securing 629 wins, 176 losses, and 4 ties. Some individual wins were much larger, showing how a specialized kernel can help when a general implementation hits a slow path. These measurements reflect isolated GPU execution times and exclude setup overhead.
+
+To address hardware variability across devices, browsers, and drivers, the Fleet tool enables users to run browser-based correctness and performance checks. With user consent, these runs privately contribute evidence back to help identify device-specific failures and guide future optimizations. Hugging Face is also collaborating with the ONNX Runtime team to upstream these improvements into the broader ONNX Runtime Web ecosystem.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Hugging Face has released two hundred seven optimized WebGPU kernels. They are licensed under the Apache two point zero license. They also released a JavaScript loader package called at huggingface slash kernels. There is a crowdsourced benchmarking suite named Fleet. 
+
+The collection covers core machine learning operations. This includes matrix multiplications and normalizations and attention primitives. Each kernel is published as a complete package on the Hugging Face Hub. It contains a manifest and correctness cases and benchmark data. It also includes parameterized W. G. S. L. shader templates. Developers can install the preview package using a command. The command is npm install at huggingface slash kernels at preview. They can execute kernels by passing tensor shapes and data through a unified JavaScript contract.
+
+Performance comparisons were run against O. N. N. X. Runtime Web. They used version one point thirty point zero dash dev point twenty twenty-six zero eight twenty-six dash b one f seven six d five eight six a. The tests ran on an Apple M4 GPU across eight hundred nine matching test cases. The new kernels achieved a geometric mean speedup of two point five seven times. They achieved a median speedup of one point nine zero times. They secured six hundred twenty-nine wins and one hundred seventy-six losses and four ties. Some individual wins were much larger. This shows how a specialized kernel helps when a general implementation hits a slow path. These measurements reflect isolated GPU execution times and exclude setup overhead.
+
+Hardware variability happens across devices and browsers and drivers. The Fleet tool enables users to run browser-based correctness and performance checks. With user consent these runs privately contribute evidence back. This helps identify device-specific failures and guides future optimizations. Hugging Face is collaborating with the O. N. N. X. Runtime team. They want to upstream these improvements into the broader O. N. N. X. Runtime Web ecosystem.
+
+═══ 05_NORMALIZED ═══
+
+Hugging Face has released two hundred seven optimized WebGPU kernels. They are licensed under the Apache two point zero license. They also released a JavaScript loader package called at huggingface slash kernels. There is a crowdsourced benchmarking suite named Fleet.
+
+The collection covers core machine learning operations. This includes matrix multiplications and normalizations and attention primitives. Each kernel is published as a complete package on the Hugging Face Hub. It contains a manifest and correctness cases and benchmark data. It also includes parameterized W. G. S. L. shader templates. Developers can install the preview package using a command. The command is npm install at huggingface slash kernels at preview. They can execute kernels by passing tensor shapes and data through a unified JavaScript contract.
+
+Performance comparisons were run against O. N. N. X. Runtime Web. They used version one point thirty point zero dash dev point twenty twenty-six zero eight twenty-six dash b one f seven six d five eight six a. The tests ran on an Apple M4 G P U. across eight hundred nine matching test cases. The new kernels achieved a geometric mean speedup of two point five seven times. They achieved a median speedup of one point nine zero times. They secured six hundred twenty-nine wins and one hundred seventy-six losses and four ties. Some individual wins were much larger. This shows how a specialized kernel helps when a general implementation hits a slow path. These measurements reflect isolated G P U. execution times and exclude setup overhead.
+
+Hardware variability happens across devices and browsers and drivers. The Fleet tool enables users to run browser-based correctness and performance checks. With user consent these runs privately contribute evidence back. This helps identify device-specific failures and guides future optimizations. Hugging Face is collaborating with the O. N. N. X. Runtime team. They want to upstream these improvements into the broader O. N. N. X. Runtime Web ecosystem.
+
+═══ 06_COVERAGE_FINAL ═══
+
+83% covered (5/6). Missing: This release matters to make local browser AI inference faster and more reliable by improving foundational low-level operations.
+
+═══ 07_SANITY ═══
+
+ISSUES: zero eight twenty-six dash b one f seven six d five eight six a
+
