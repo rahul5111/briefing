@@ -1,0 +1,62 @@
+═══ 00_KEY_POINTS ═══
+
+1. Bluetooth jammers broadcast radio noise across the 2.4 GHz and 5 GHz frequency bands.
+2. Using a Bluetooth jammer is illegal in most countries, including under United States federal law.
+3. Signal jammers are outlawed by the Communications Act of 1934 and further solidified by FCC rules.
+4. Jamming signals can interfere with critical infrastructure, emergency services, and vital medical equipment.
+5. Commercial and personal jammers can disrupt nearby Wi-Fi, baby monitors, and security systems within fifty feet.
+6. Law enforcement can easily track signal jammers because the devices actively broadcast their own location.
+7. Citizens found guilty of utilizing signal jammers can face significant fines and potential jail time.
+
+═══ 01_DRAFT ═══
+
+Using a Bluetooth jammer is almost universally illegal because the devices broadcast massive amounts of radio noise across the 2.4 GHz and 5 GHz bands, drowning out legitimate signals. While theoretical uses include blocking tracking devices like AirTags or stopping a neighbor from playing loud music, the wide-scale disruption affects critical infrastructure. Even close-range personal jammers with a range of around 50 feet can interfere with Wi-Fi, baby monitors, security systems, medical equipment such as glucose monitors, and law enforcement tools including body cameras. Stronger jammers can disrupt vehicle equipment, emergency dispatch networks, and remote access to patient medical data. In the United States, the use of radio jammers is outlawed by the Communications Act of 1934 and Federal Communications Commission rules, supported internationally by the United Nations agency the International Telecommunication Union. Because jammers broadcast their own location, law enforcement can easily track them using spectrum analysis tools and direction-finding equipment. The Department of Homeland Security encourages citizens to report suspected jamming, and individuals found guilty face significant fines and potential jail time, with very few exceptions made outside of military applications.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+The use of Bluetooth jammers is almost always illegal because the devices broadcast radio frequencies that drown out other signals across the 2.4 GHz and 5 GHz bands. While theoretical uses include blocking tracking devices like AirTags or stopping a neighbor from playing loud music, the wide-scale disruption affects critical infrastructure. Even close-range personal jammers with a range of around 50 feet can interfere with Wi-Fi, baby monitors, security systems, medical equipment such as glucose monitors, and law enforcement tools including body cameras. Stronger jammers can disrupt vehicle equipment, emergency dispatch networks, and remote access to patient medical data. In the United States, the use of radio jammers is outlawed by the Communications Act of 1934 and Federal Communications Commission rules, supported internationally by the United Nations agency the International Telecommunication Union. Because jammers broadcast radio frequencies that cause widespread disruption, law enforcement can track them using spectrum analysis tools and direction-finding equipment. The Department of Homeland Security encourages citizens to report suspected jamming, and individuals found guilty face significant fines and potential jail time, with very few exceptions made outside of military applications.
+
+═══ 02b_TRIMMED ═══
+
+The use of Bluetooth jammers is almost always illegal because the devices broadcast radio frequencies that drown out other signals across the 2.4 GHz and 5 GHz bands. While theoretical uses include blocking tracking devices like AirTags or stopping a neighbor from playing loud music, the wide-scale disruption affects critical infrastructure. Even close-range personal jammers with a range of around 50 feet can interfere with Wi-Fi, baby monitors, security systems, medical equipment such as glucose monitors, and law enforcement tools including body cameras. Stronger jammers can disrupt vehicle equipment, emergency dispatch networks, and remote access to patient medical data. In the United States, the use of radio jammers is outlawed by the Communications Act of 1934 and Federal Communications Commission rules, supported internationally by the United Nations agency the International Telecommunication Union. The Department of Homeland Security encourages citizens to report suspected jamming, and individuals found guilty face significant fines and potential jail time, with very few exceptions made outside of military applications.
+
+═══ 03_COVERAGE_1 ═══
+
+85% covered (6/7). Missing: Law enforcement can easily track signal jammers because the devices actively broadcast their own location.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Bluetooth jammers are almost always illegal. They broadcast radio frequencies that drown out other signals across the two point four gigahertz and five gigahertz bands. 
+
+Some people think about using them to block tracking devices like AirTags. Others might want to stop a neighbor from playing loud music. But this wide scale disruption affects critical infrastructure. 
+
+Even close range personal jammers have a range of around fifty feet. They can interfere with Wi-Fi and baby monitors and security systems. They also disrupt medical equipment like glucose monitors and law enforcement tools including body cameras. 
+
+Stronger jammers can disrupt vehicle equipment and emergency dispatch networks. They can even disrupt remote access to patient medical data. 
+
+In the United States the use of radio jammers is outlawed by the Communications Act of nineteen thirty-four. The Federal Communications Commission rules also ban them. These rules are supported internationally by the United Nations agency named the International Telecommunication Union. 
+
+The Department of Homeland Security encourages citizens to report suspected jamming. Individuals found guilty face significant fines and potential jail time. Very few exceptions are made outside of military applications.
+
+═══ 05_NORMALIZED ═══
+
+Bluetooth jammers are almost always illegal. They broadcast radio frequencies that drown out other signals across the two point four gigahertz and five gigahertz bands.
+
+Some people think about using them to block tracking devices like AirTags. Others might want to stop a neighbor from playing loud music. But this wide scale disruption affects critical infrastructure.
+
+Even close range personal jammers have a range of around fifty feet. They can interfere with Wi-Fi and baby monitors and security systems. They also disrupt medical equipment like glucose monitors and law enforcement tools including body cameras.
+
+Stronger jammers can disrupt vehicle equipment and emergency dispatch networks. They can even disrupt remote access to patient medical data.
+
+In the United States the use of radio jammers is outlawed by the Communications Act of nineteen thirty-four. The Federal Communications Commission rules also ban them. These rules are supported internationally by the United Nations agency named the International Telecommunication Union.
+
+The Department of Homeland Security encourages citizens to report suspected jamming. Individuals found guilty face significant fines and potential jail time. Very few exceptions are made outside of military applications.
+
+═══ 06_COVERAGE_FINAL ═══
+
+85% covered (6/7). Missing: Law enforcement can easily track signal jammers because the devices actively broadcast their own location.
+
+═══ 07_SANITY ═══
+
+OK
+

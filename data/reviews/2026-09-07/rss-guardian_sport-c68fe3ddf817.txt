@@ -1,0 +1,33 @@
+═══ 00_KEY_POINTS ═══
+
+1. The USTA Billie Jean King National Tennis Center is located in New York.
+2. Noise from ventilation units, trains, and airplanes creates a persistent exterior hum.
+3. Spectators in the stadium frequently hold full-volume conversations about non-tennis topics.
+4. The US Open has historically been known for its brash and loud environment.
+5. Complaints about crowd volume at the tournament have persisted for decades.
+6. The noise level at the US Open has officially become a problem this year.
+
+═══ 01_DRAFT ═══
+
+The noise levels at the Billie Jean King National Tennis Center have become a prominent issue during this year's US Open. Spectators in the upper tiers of Arthur Ashe Stadium experience a persistent exterior hum from massive ventilation and cooling units, the Long Island Rail Road, forklifts servicing refrigerator trucks, and planes descending toward LaGuardia Airport. In the lower seating areas, the babble of spectators is incessant, featuring full-volume conversations on non-tennis topics like work, family, romance, and dinner that continue uninterrupted for the duration of entire matches. While the US Open has historically embraced brashness and noise as its signature distinguishing it from the Australian Open, Wimbledon, and the French Open, complaints about the volume of the New York crowd have persisted for decades, but the noise this year feels distinctly problematic.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Noise levels at the Billie Jean King National Tennis Center have become a prominent issue during this year's U. S. Open. Spectators in the upper tiers of Arthur Ashe Stadium experience a persistent exterior hum. This hum comes from massive ventilation and cooling units and the Long Island Rail Road. It also comes from forklifts servicing refrigerator trucks and planes descending toward LaGuardia Airport. In the lower seating areas, the babble of spectators is incessant. People hold full-volume conversations on non-tennis topics like work and family and romance and dinner. These conversations continue uninterrupted for the duration of entire matches. The U. S. Open has historically embraced brashness and noise as its signature. This noise distinguishes it from the Australian Open and Wimbledon and the French Open. Complaints about the volume of the New York crowd have persisted for decades. However, the noise this year feels distinctly problematic.
+
+═══ 05_NORMALIZED ═══
+
+Noise levels at the Billie Jean King National Tennis Center have become a prominent issue during this year's U. S. Open. Spectators in the upper tiers of Arthur Ashe Stadium experience a persistent exterior hum. This hum comes from massive ventilation and cooling units and the Long Island Rail Road. It also comes from forklifts servicing refrigerator trucks and planes descending toward LaGuardia Airport. In the lower seating areas, the babble of spectators is incessant. People hold full-volume conversations on non-tennis topics like work and family and romance and dinner. These conversations continue uninterrupted for the duration of entire matches. The U. S. Open has historically embraced brashness and noise as its signature. This noise distinguishes it from the Australian Open and Wimbledon and the French Open. Complaints about the volume of the New York crowd have persisted for decades. However, the noise this year feels distinctly problematic.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: unspaced acronyms
+

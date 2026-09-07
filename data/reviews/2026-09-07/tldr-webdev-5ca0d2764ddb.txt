@@ -1,0 +1,49 @@
+═══ 00_KEY_POINTS ═══
+
+1. Shopify raised its mobile end-to-end test stability to 98 percent, up from 50 percent using the old API.
+2. Shopify's old end-to-end tests ran on Appium through WebdriverIO since 2023, using React Native Test IDs.
+3. The new framework uses computer vision powered by PaddleOCR and OpenCV to find elements visually.
+4. Every step in the new test wrapper requires an explicit assertion to prevent flaky tests.
+5. The new testing architecture matters because it catches bad changes without blocking good pull requests.
+6. Shopify validated the new framework on its largest mobile app and is exploring adoption in other apps.
+
+═══ 01_DRAFT ═══
+
+Shopify increased its mobile end-to-end test stability from 50 percent to 98 percent after rebuilding its testing framework for its largest mobile app. The company had previously relied on Appium and WebdriverIO since 2023, using React Native Test IDs to find elements, but frequent flakiness caused by missing explicit waits and slow load times forced Shopify to pull the test suite from its pull request checks entirely.
+
+The new system replaces the old API with an opinionated wrapper that retains Appium under the hood while preventing developers from writing flaky code. The framework introduces a builder-style API where every step carries a mandatory assertion, forcing tests to fail at the exact moment reality diverges. Additionally, the system replaces Test IDs with computer vision, using PaddleOCR to handle text and OpenCV to match screenshots against SVGs from Shopify's Polaris design system. Test IDs remain available only as an opt-in fallback via an unsafe field. Every test run now produces an annotated video showing what the system searched for and where it tapped, allowing most failures to diagnose in seconds. 
+
+A dedicated pre-promotion pipeline also runs new tests multiple times before allowing them into the blocking suite, rejecting any that fail above a set threshold. Shopify validated the framework on its main app and is now exploring adoption across its other applications, proving that mobile end-to-end testing flakiness can be resolved by changing the underlying API rather than constantly managing the tests themselves.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Shopify increased its mobile end-to-end test stability from 50 percent to 98 percent after rebuilding its testing framework for its largest mobile app. The company had previously relied on Appium and WebdriverIO since 2023, using React Native Test IDs to find elements, but frequent flakiness caused by missing explicit waits and slow load times forced Shopify to pull the test suite from its pull request checks entirely.
+
+The new system replaces the old API with an opinionated wrapper that retains Appium under the hood while preventing developers from writing flaky code. The framework introduces a builder-style API where every step carries a mandatory assertion, forcing tests to fail at the exact moment reality diverges. Additionally, the system uses computer vision to find elements the way a user does, relying on PaddleOCR for text and OpenCV for matching. Test IDs remain available only as an opt-in fallback via an unsafe field. Every test run now produces an annotated video showing what the system searched for and where it tapped, allowing most failures to diagnose in seconds. 
+
+A dedicated pre-promotion pipeline also runs new tests multiple times before allowing them into the blocking suite, rejecting any that fail above a set threshold. Shopify validated the framework on its main app and is now exploring adoption across its other applications, proving that mobile end-to-end testing flakiness can be resolved by changing the underlying API rather than constantly managing the tests themselves.
+
+═══ 02b_TRIMMED ═══
+
+Shopify increased its mobile end-to-end test stability from 50 percent to 98 percent after rebuilding its testing framework for its largest mobile app. The company had previously relied on Appium and WebdriverIO since 2023, using React Native Test IDs to find elements, but frequent flakiness caused by missing explicit waits and slow load times forced Shopify to pull the test suite from its pull request checks entirely. The new system replaces the old API with an opinionated wrapper that retains Appium under the hood while preventing developers from writing flaky code. The framework introduces a builder-style API where every step carries a mandatory assertion, forcing tests to fail at the exact moment reality diverges. Test IDs remain available only as an opt-in fallback via an unsafe field. Every test run now produces an annotated video showing what the system searched for and where it tapped, allowing most failures to diagnose in seconds. A dedicated pre-promotion pipeline also runs new tests multiple times before allowing them into the blocking suite, rejecting any that fail above a set threshold. Shopify validated the framework on its main app and is now exploring adoption across its other applications, proving that mobile end-to-end testing flakiness can be resolved by changing the underlying API rather than constantly managing the tests themselves.
+
+═══ 03_COVERAGE_1 ═══
+
+SKIPPED: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+
+═══ 04_AUDIO_REWRITE ═══
+
+Shopify increased its mobile end-to-end test stability from fifty percent to ninety-eight percent after rebuilding its testing framework for its largest mobile app. The company had previously relied on Appium and WebdriverIO since twenty twenty-three, using React Native Test IDs to find elements, but frequent flakiness caused by missing explicit waits and slow load times forced Shopify to pull the test suite from its pull request checks entirely. The new system replaces the old A. P. I. with an opinionated wrapper that retains Appium under the hood while preventing developers from writing flaky code. The framework introduces a builder-style A. P. I. where every step carries a mandatory assertion, forcing tests to fail at the exact moment reality diverges. Test IDs remain available only as an opt-in fallback via an unsafe field. Every test run now produces an annotated video showing what the system searched for and where it tapped, allowing most failures to diagnose in seconds. A dedicated pre-promotion pipeline also runs new tests multiple times before allowing them into the blocking suite, rejecting any that fail above a set threshold. Shopify validated the framework on its main app and is now exploring adoption across its other applications, proving that mobile end-to-end testing flakiness can be resolved by changing the underlying A. P. I. rather than constantly managing the tests themselves.
+
+═══ 05_NORMALIZED ═══
+
+Shopify increased its mobile end-to-end test stability from fifty percent to ninety-eight percent after rebuilding its testing framework for its largest mobile app. The company had previously relied on Appium and WebdriverIO since twenty twenty-three, using React Native Test IDs to find elements, but frequent flakiness caused by missing explicit waits and slow load times forced Shopify to pull the test suite from its pull request checks entirely. The new system replaces the old A. P. I. with an opinionated wrapper that retains Appium under the hood while preventing developers from writing flaky code. The framework introduces a builder-style A. P. I. where every step carries a mandatory assertion, forcing tests to fail at the exact moment reality diverges. Test IDs remain available only as an opt-in fallback via an unsafe field. Every test run now produces an annotated video showing what the system searched for and where it tapped, allowing most failures to diagnose in seconds. A dedicated pre-promotion pipeline also runs new tests multiple times before allowing them into the blocking suite, rejecting any that fail above a set threshold. Shopify validated the framework on its main app and is now exploring adoption across its other applications, proving that mobile end-to-end testing flakiness can be resolved by changing the underlying A. P. I. rather than constantly managing the tests themselves.
+
+═══ 06_COVERAGE_FINAL ═══
+
+83% covered (5/6). Missing: The new framework uses computer vision powered by PaddleOCR and OpenCV to find elements visually.
+
+═══ 07_SANITY ═══
+
+ISSUES: sentences over 30 words
+

@@ -1,0 +1,118 @@
+═══ 00_KEY_POINTS ═══
+
+1. In early June, a fire broke out in a still-unfinished building at the Lake Mariner data center.
+2. The Lake Mariner facility is located in Somerset, New York, on a former coal mine on Lake Ontario.
+3. Barker Fire Department chief Steve Matisz said his crew went into the building blindly during the blaze.
+4. The $3.2 billion campus is one of the largest AI data center buildouts in New York state.
+5. TeraWulf owns and operates the data center on land it leases from a company owned by its CEO.
+6. Google holds warrants for a future fourteen percent equity stake and guarantees Fluidstack lease payments.
+7. The fire exposed how little the local fire department knew about the hazards inside the data center.
+
+═══ 01_DRAFT ═══
+
+In early June, a fire broke out in an unfinished building at the Lake Mariner data center in Somerset, New York, exposing a lack of local emergency preparedness for the facility. Firefighters found no working alarm, no suppression system, and three dead hydrants, while legally mandated safety documents reportedly burned in the blaze. Barker Fire Department Chief Steve Matisz said his crew went into the building blind, facing heavy black smoke from unidentified chemicals because the safety sheets meant to inform them were destroyed. Matisz noted it has been a difficult situation and stated he was not sure what to think about the claim that the safety sheets burned in the fire. 
+
+The site, situated on a former coal mine on Lake Ontario, is a $3.2 billion campus representing one of the largest AI data center buildouts in New York. The project involves multiple stakeholders with a complex corporate structure. TeraWulf owns and operates the data center on land leased from a company owned by its own CEO. Fluidstack, a UK-based AI company, is set to run the center. Google holds warrants for a future 14 percent equity stake and has agreed to guarantee Fluidstack’s lease payments, while Anthropic is among the AI companies whose compute demand the facility is built to serve.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+In early June, a fire broke out in an unfinished building at the Lake Mariner data center in Somerset, New York, exposing a lack of local emergency preparedness for the facility. Firefighters found no working alarm, no suppression system, and three dead hydrants, while legally mandated safety documents reportedly burned in the blaze. Barker Fire Department Chief Steve Matisz said his crew went into the building "kind of blind," facing heavy black smoke from chemicals they couldn't identify because the safety sheets meant to inform them had apparently burned up. Matisz noted it has been a difficult situation and stated he wasn't sure what to think about the claim that the safety sheets burned in the fire. 
+
+The site, situated on a former coal mine on Lake Ontario, is a $3.2 billion campus representing one of the largest AI data center buildouts in New York. The project involves multiple stakeholders with a complex corporate structure. TeraWulf owns and operates the data center on land leased from a company owned by its own CEO. Fluidstack, a UK-based AI company, is set to run the center. Google holds warrants for a future 14 percent equity stake and has agreed to guarantee Fluidstack’s lease payments, while Anthropic is among the AI companies whose compute demand the facility is built to serve.
+
+═══ 02b_TRIMMED ═══
+
+In early June, a fire broke out in an unfinished building at the Lake Mariner data center in Somerset, New York, exposing a lack of local emergency preparedness for the facility. Firefighters found no working alarm, no suppression system, and three dead hydrants, while legally mandated safety documents reportedly burned in the blaze. Matisz noted it has been a difficult situation and stated he wasn't sure what to think about the claim that the safety sheets burned in the fire. The site, situated on a former coal mine on Lake Ontario, is a $3.2 billion campus representing one of the largest AI data center buildouts in New York. The project involves multiple stakeholders with a complex corporate structure. TeraWulf owns and operates the data center on land leased from a company owned by its own CEO. Fluidstack, a UK-based AI company, is set to run the center. Google holds warrants for a future 14 percent equity stake and has agreed to guarantee Fluidstack’s lease payments, while Anthropic is among the AI companies whose compute demand the facility is built to serve.
+
+═══ 03_COVERAGE_1 ═══
+
+SKIPPED: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+
+═══ 04_AUDIO_REWRITE ═══
+
+Early in June, a fire broke out in an unfinished building at the Lake Mariner data center in Somerset, New York. 
+
+The fire exposed a lack of local emergency preparedness for the facility. 
+
+Firefighters found no working alarm and no suppression system. 
+
+They also found three dead hydrants. 
+
+Legally mandated safety documents reportedly burned in the blaze. 
+
+Matisz noted it has been a difficult situation. 
+
+He stated he wasn't sure what to think about the claim that the safety sheets burned in the fire. 
+
+The site sits on a former coal mine on Lake Ontario. 
+
+It is a three point two billion dollar campus. 
+
+The project represents one of the largest artificial intelligence data center buildouts in New York. 
+
+Artificial intelligence is spelled A. I. 
+
+The project involves multiple stakeholders with a complex corporate structure. 
+
+TeraWulf owns and operates the data center. 
+
+The company uses land leased from a company owned by its own chief executive officer. 
+
+Fluidstack is set to run the center. 
+
+Fluidstack is based in the United Kingdom. 
+
+Google holds warrants for a future fourteen percent equity stake. 
+
+Google has agreed to guarantee Fluidstack’s lease payments. 
+
+Anthropic is among the artificial intelligence companies whose compute demand the facility is built to serve.
+
+═══ 05_NORMALIZED ═══
+
+Early in June, a fire broke out in an unfinished building at the Lake Mariner data center in Somerset, New York.
+
+The fire exposed a lack of local emergency preparedness for the facility.
+
+Firefighters found no working alarm and no suppression system.
+
+They also found three dead hydrants.
+
+Legally mandated safety documents reportedly burned in the blaze.
+
+Matisz noted it has been a difficult situation.
+
+He stated he wasn't sure what to think about the claim that the safety sheets burned in the fire.
+
+The site sits on a former coal mine on Lake Ontario.
+
+It is a three point two billion dollar campus.
+
+The project represents one of the largest artificial intelligence data center buildouts in New York.
+
+Artificial intelligence is spelled A. I.
+
+The project involves multiple stakeholders with a complex corporate structure.
+
+TeraWulf owns and operates the data center.
+
+The company uses land leased from a company owned by its own chief executive officer.
+
+Fluidstack is set to run the center.
+
+Fluidstack is based in the United Kingdom.
+
+Google holds warrants for a future fourteen percent equity stake.
+
+Google has agreed to guarantee Fluidstack’s lease payments.
+
+Anthropic is among the artificial intelligence companies whose compute demand the facility is built to serve.
+
+═══ 06_COVERAGE_FINAL ═══
+
+85% covered (6/7). Missing: Barker Fire Department chief Steve Matisz said his crew went into the building blindly during the blaze.
+
+═══ 07_SANITY ═══
+
+OK
+

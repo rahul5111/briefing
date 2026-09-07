@@ -1,0 +1,44 @@
+═══ 00_KEY_POINTS ═══
+
+1. Zod 4.5 reduces the heap memory retained by a bare z.string() from 7.5kb to 784 bytes.
+2. Zod 4.5 implements a method memoization pattern to defer allocating memory for bound methods until they are used.
+3. The new system reduces eagerly bound properties to just six, moving everything else to the memoizing prototype.
+4. In Zod 4.4, a regular string schema carried 49 own properties, forcing V8 into a 1616-byte backing store.
+5. Unused instance methods are never materialized or stored as own properties on the instance under the new pattern.
+
+═══ 01_DRAFT ═══
+
+Zod 4.5 introduces a method memoization pattern that reduces the heap memory footprint of a bare string schema from 7.5 kilobytes in version 4.4 down to 784 bytes. By default, Zod classes define methods as getters on a standard prototype. The first time a method is accessed on an instance, the getter returns a bound implementation and assigns it as an own property to that instance, memoizing it permanently while avoiding getter-invocation overhead on subsequent accesses. Instance methods that are never used are never materialized or stored as own properties. This change addresses V8 memory allocation behavior, where objects with 21 or more own properties trigger a 1616-byte backing store. A regular string schema in Zod 4.4 carried 49 own properties, forcing every instance into that largest backing store tier. Under the new system in Zod 4.5, there are only six eagerly bound properties which are underscore zod, def, type, format, minLength, and maxLength, with all other methods residing on the memoizing prototype.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (5/5). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Zod four point five introduces a method memoization pattern. This reduces the heap memory footprint of a bare string schema from seven point five kilobytes in version four point four down to seven hundred eighty-four bytes. 
+
+By default, Zod classes define methods as getters on a standard prototype. The first time a method is accessed on an instance, the getter returns a bound implementation. It assigns this implementation as an own property to that instance, memoizing it permanently. This avoids getter invocation overhead on subsequent accesses. Instance methods that are never used are never materialized or stored as own properties. 
+
+This change addresses V. eight memory allocation behavior. Objects with twenty-one or more own properties trigger a sixteen hundred sixteen byte backing store. A regular string schema in Zod four point four carried forty-nine own properties. This forced every instance into that largest backing store tier. 
+
+Under the new system in Zod four point five, there are only six eagerly bound properties. These properties are underscore zod, def, type, format, minLength, and maxLength. All other methods reside on the memoizing prototype.
+
+═══ 05_NORMALIZED ═══
+
+Zod four point five introduces a method memoization pattern. This reduces the heap memory footprint of a bare string schema from seven point five kilobytes in version four point four down to seven hundred eighty-four bytes.
+
+By default, Zod classes define methods as getters on a standard prototype. The first time a method is accessed on an instance, the getter returns a bound implementation. It assigns this implementation as an own property to that instance, memoizing it permanently. This avoids getter invocation overhead on subsequent accesses. Instance methods that are never used are never materialized or stored as own properties.
+
+This change addresses V. eight memory allocation behavior. Objects with twenty-one or more own properties trigger a sixteen hundred sixteen byte backing store. A regular string schema in Zod four point four carried forty-nine own properties. This forced every instance into that largest backing store tier.
+
+Under the new system in Zod four point five, there are only six eagerly bound properties. These properties are underscore zod, def, type, format, minLength, and maxLength. All other methods reside on the memoizing prototype.
+
+═══ 06_COVERAGE_FINAL ═══
+
+SKIPPED: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+
+═══ 07_SANITY ═══
+
+ISSUES: V. eight
+
