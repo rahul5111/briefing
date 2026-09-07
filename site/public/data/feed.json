@@ -1,6 +1,516 @@
 {
   "stories": [
     {
+      "id": "rss-phys_org-537a67bd9622",
+      "title": "AI governance model inspired by Pope Leo XIV aims to put ethics first",
+      "summary": "Researchers at the John Paul II Catholic University of Lublin and the University of Eastern Finland have developed a new artificial intelligence governance model. The work is inspired by the teachings of Pope Leo XIV as outlined in his encyclical Magnifica Humanitas.\n\nThe framework was created by Professor, Stanisław Fel, Doctor, Jarosław Kozak, and senior researcher, Marta Choroszewicz. It is detailed in an article published in the journal, A. I. and Ethics.\n\nExisting models have centered on whether governments, private companies, or multiple actors should control the technology. The authors ask instead which principles should govern the distribution of power and responsibility. They want to ensure that multi-institutional involvement does not lead to a situation where no one is ultimately accountable.\n\nThe framework combines the participation of governments, tech companies, experts, civil society organizations, citizens, and international institutions. It operates under eight core principles. These are human dignity, the common good, the universal destination of goods, social justice, solidarity, subsidiarity, shared responsibility, and transparency and accountability.\n\nTo demonstrate practical application, the authors use the example of systems used to assess eligibility for social benefits. Under the model, an algorithm may support an application review. However, a specific human must remain responsible for the final decision.\n\nApplicants would receive an understandable explanation and retain the right to challenge the decision. The system would also face independent audits and oversight from representatives of affected groups.\n\nThe study is among the first academic publications worldwide to ground a governance model in the encyclical Magnifica Humanitas.",
+      "main": "AI",
+      "sub": "Policy & Safety",
+      "category": "AI",
+      "subcategory": "Policy & Safety",
+      "sources": [
+        {
+          "name": "phys_org",
+          "url": "https://phys.org/news/2026-09-ai-pope-leo-xiv-aims.html",
+          "domain": "phys.org",
+          "added_at": "2026-09-07T22:00:57.974332+00:00"
+        }
+      ],
+      "source": "phys_org",
+      "source_url": "https://phys.org/news/2026-09-ai-pope-leo-xiv-aims.html",
+      "source_domain": "phys.org",
+      "source_permalink": "https://phys.org/news/2026-09-ai-pope-leo-xiv-aims.html",
+      "score": 100,
+      "author": "",
+      "published_at": "2026-09-07T22:00:57.974332+00:00",
+      "created_at_ts": 1788817202,
+      "audio_path": "audio/2026-09-07/rss-phys_org-537a67bd9622-ai-governance-model-inspired-by-pope-leo-xiv-aims-to-put-eth.mp3",
+      "word_count": 252,
+      "estimated_duration_s": 101,
+      "image_url": null,
+      "location": {
+        "name": "Vatican City",
+        "country": "Vatican City",
+        "lat": 41.9029,
+        "lng": 12.4534
+      },
+      "audio_bytes": 802872,
+      "audio_duration_s": 103.0,
+      "tts_chunks": 16,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "rss-cnbc_top-3ed3f1b8d9c8",
+      "title": "Crashed Amazon cargo jet struck two vehicles, ended up 1,300 feet past runway, NTSB says",
+      "summary": "An Amazon cargo jet operated by twenty-one Air L. L. C. crashed at Miami International Airport on Sunday at around two p.m.\n\nThe plane arrived from San Juan, Puerto Rico, and overran the runway by about thirteen hundred feet.\n\nThe accident killed at least five people and injured at least five others.\n\nFatalities occurred when the plane hit a cleaning company van and a passenger vehicle.\n\nN. T. S. B. chair, Jennifer Homendy, described the accident scene during a press briefing as utter devastation.\n\nThe jet also slid through a fence separating an area where Tesla robotaxis were stationed before finally stopping.\n\nInvestigators have recovered the flight data recorder and cockpit voice recorder, which are headed to N. T. S. B. headquarters for evaluation.\n\nThe N. T. S. B. will examine the operational relationship and safety provisions between Amazon and twenty-one Air.\n\nThe crash closed two of Miami International Airport's four runways.\n\nThis disrupted holiday travel with more than one hundred sixty flight cancellations and nearly three hundred twenty-five delays by late Sunday.\n\nThe delays continued into Monday.",
+      "main": "US",
+      "sub": "Disasters",
+      "category": "US",
+      "subcategory": "Disasters",
+      "sources": [
+        {
+          "name": "cnbc_top",
+          "url": "https://www.cnbc.com/2026/09/07/crashed-amazon-cargo-jet-struck-two-vehicles-ended-up-1300-feet-past-runway-ntsb-says.html",
+          "domain": "cnbc.com",
+          "added_at": "2026-09-07T22:12:38.004851+00:00"
+        }
+      ],
+      "source": "cnbc_top",
+      "source_url": "https://www.cnbc.com/2026/09/07/crashed-amazon-cargo-jet-struck-two-vehicles-ended-up-1300-feet-past-runway-ntsb-says.html",
+      "source_domain": "cnbc.com",
+      "source_permalink": "https://www.cnbc.com/2026/09/07/crashed-amazon-cargo-jet-struck-two-vehicles-ended-up-1300-feet-past-runway-ntsb-says.html",
+      "score": 100,
+      "author": "",
+      "published_at": "2026-09-07T22:12:38.004851+00:00",
+      "created_at_ts": 1788816972,
+      "audio_path": "audio/2026-09-07/rss-cnbc_top-3ed3f1b8d9c8-crashed-amazon-cargo-jet-struck-two-vehicles-ended-up-1300-f.mp3",
+      "word_count": 178,
+      "estimated_duration_s": 71,
+      "image_url": "https://image.cnbcfm.com/api/v1/image/108359491-1788809835140-gettyimages-2293457090-MIAMI_CARGO_CRASH.jpeg?v=1788809878&amp;w=1920&amp;h=1080",
+      "location": {
+        "name": "Washington, D.C.",
+        "country": "United States",
+        "lat": 38.9072,
+        "lng": -77.0369
+      },
+      "audio_bytes": 499752,
+      "audio_duration_s": 66.9,
+      "tts_chunks": 11,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "rss-aljazeera-82408c9cc795",
+      "title": "Oil prices surge as US-Iran strikes intensify in Strait of Hormuz",
+      "summary": "Oil prices have surged to nearly a six-week high following an escalation of strikes between the United States and Iran in the Strait of Hormuz. On Monday, Brent oil futures rose to hover around ninety-seven dollars a barrel. This marks a nine percent increase over five days. It is approaching the highest point since July twenty-fourth, when prices reached ninety-seven dollars and ninety-three cents. United States West Texas Intermediate crude rose to ninety-two dollars and twenty-seven cents a barrel. The price increases follow United States strikes on three Iranian oil tankers on Saturday. There were corresponding Iranian strikes on three tankers and three United States-linked vessels. There was also a strike on Saudi Aramco facilities in Jizan. Traffic through the Strait of Hormuz has slowed to an average of ten commodity ships per day over the past ten days. The conflict has impacted United States consumers. The national average price for a gallon of petrol reached four dollars and fifteen cents on Monday. That is up from two dollars and ninety-eight cents on February twenty-eighth. United States diesel prices topped five dollars and ninety cents per gallon. This follows an all-time high of five dollars and eighty-five cents last week. American households have spent an average of seven hundred sixty-four dollars and fifty-nine cents on fuel since the war began. This represents four hundred eighteen dollars and eighty-two cents more than usual, according to Brown University data. In Asia, China has insulated itself from the disruption. It has done this by tapping its strategic petroleum reserve. It relies on domestic resources and shifts toward alternative energy sources and electric vehicles. It also sources oil from Russia. As, Rachel Ziemba, of the Center for a New American Security stated, this is a reflection of continued conflict and exchange of fire. She notes that global supply deficits are persisting with little end to the shortages.",
+      "main": "WORLD",
+      "sub": "Conflict & Security",
+      "category": "WORLD",
+      "subcategory": "Conflict & Security",
+      "sources": [
+        {
+          "name": "aljazeera",
+          "url": "https://www.aljazeera.com/economy/2026/9/7/oil-prices-surge-as-us-iran-strikes-intensify-in-strait-of-hormuz?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "added_at": "2026-09-07T22:09:08.596613+00:00"
+        }
+      ],
+      "source": "aljazeera",
+      "source_url": "https://www.aljazeera.com/economy/2026/9/7/oil-prices-surge-as-us-iran-strikes-intensify-in-strait-of-hormuz?traffic_source=rss",
+      "source_domain": "aljazeera.com",
+      "source_permalink": "https://www.aljazeera.com/economy/2026/9/7/oil-prices-surge-as-us-iran-strikes-intensify-in-strait-of-hormuz?traffic_source=rss",
+      "score": 100,
+      "author": "",
+      "published_at": "2026-09-07T22:09:08.596613+00:00",
+      "created_at_ts": 1788815832,
+      "audio_path": "audio/2026-09-07/rss-aljazeera-82408c9cc795-oil-prices-surge-as-us-iran-strikes-intensify-in-strait-of-h.mp3",
+      "word_count": 313,
+      "estimated_duration_s": 125,
+      "image_url": "https://www.aljazeera.com/wp-content/uploads/2026/09/reuters_6a9c692f-1788635439.jpg?resize=1920%2C1440",
+      "location": {
+        "name": "Washington, D.C.",
+        "country": "United States",
+        "lat": 38.9072,
+        "lng": -77.0369
+      },
+      "audio_bytes": 877896,
+      "audio_duration_s": 111.2,
+      "tts_chunks": 22,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "rss-bbc_world-ff8b9ecefa5f",
+      "title": "Palestinian parents fear for children's lives at school as settler attacks grow",
+      "summary": "A new Palestinian school year opened in the occupied West Bank village of al-Mughayyir. Head-teacher Bassam al-Assaf and parents faced mounting safety concerns following a surge in settler-related violence. Six people have been killed in the village this year. Three of those victims were students. One of them was fourteen-year-old Aws al-Naasan. He was shot dead outside the school gates in April. The Israeli military stated at the time that a reservist fired after stones were hurled at a car. Over the summer, two more pupils and a nineteen-year-old were shot dead during settler attacks and incursions. In response to the growing threat, the school has installed barbed-wire fencing and reinforced gates. Ambulance crews are now stationed outside, while parents volunteer to monitor the grounds.\n\nAmbulance driver Hadi al-Naasan stated that settlers are fully protected by occupation soldiers. He said this leads to higher casualties and child injuries. Reflecting this, sheep farmer Sami Abu Rahma and his family faced tragedy in July. His nine-year-old son Salim was shot and injured by a settler near their family farm. A United Nations Commission of Inquiry reported in June that settler attacks are part of a broader coercive strategy. The report stated this strategy aims to drive Palestinians off their land by intentionally targeting children. Israel dismissed the report as a libellous sham. The regional settlers council stated that it regrets any harm to innocent people. It opposes unlawful violence while rejecting claims of a deliberate plan to harm children or drive residents from their homes.\n\nUnited Nations figures indicate that injuries to Palestinians from settler and military attacks have risen sharply this year. The average has reached three injuries per day. Since the beginning of twenty twenty-five, the United Nations has recorded three hundred sixteen Palestinians killed. More than five thousand six hundred Palestinians have been injured. On the Israeli side, twenty people have been killed and one hundred twenty-three have been injured, up to the end of July twenty twenty-six. All Israeli settlements in the West Bank are illegal under international law. Many surrounding outposts are also illegal under Israeli law.",
+      "main": "WORLD",
+      "sub": "Conflict & Security",
+      "category": "WORLD",
+      "subcategory": "Conflict & Security",
+      "sources": [
+        {
+          "name": "bbc_world",
+          "url": "https://www.bbc.co.uk/news/articles/c3wj45g73g1o?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "added_at": "2026-09-07T22:08:03.003233+00:00"
+        }
+      ],
+      "source": "bbc_world",
+      "source_url": "https://www.bbc.co.uk/news/articles/c3wj45g73g1o?at_medium=RSS&at_campaign=rss",
+      "source_domain": "bbc.co.uk",
+      "source_permalink": "https://www.bbc.co.uk/news/articles/c3wj45g73g1o?at_medium=RSS&at_campaign=rss",
+      "score": 100,
+      "author": "",
+      "published_at": "2026-09-07T22:08:03.003233+00:00",
+      "created_at_ts": 1788815557,
+      "audio_path": "audio/2026-09-07/rss-bbc_world-ff8b9ecefa5f-palestinian-parents-fear-for-children-s-lives-at-school-as-s.mp3",
+      "word_count": 350,
+      "estimated_duration_s": 140,
+      "image_url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/1ded/live/26dbafb0-aaff-11f1-a2a8-b5ca0233056a.jpg",
+      "location": {
+        "name": "Jerusalem",
+        "country": "Israel",
+        "lat": 31.7683,
+        "lng": 35.2137
+      },
+      "audio_bytes": 994344,
+      "audio_duration_s": 127.1,
+      "tts_chunks": 26,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "rss-the_hindu-ef4833bf77d8",
+      "title": "Uttar Pradesh Congress president Ajay Rai, others detained as row over Saharanpur mosque demolition escalates",
+      "summary": "Uttar Pradesh Police on Monday detained senior state Congress leaders in Lucknow. Those detained included State Congress President Ajay Rai. The leaders attempted to visit Saharanpur. They wanted to inspect the demolition of a historic mosque within the Saharanpur Collectorate complex. Mister Rai and the other leaders were released in the evening after hours of detention. The Congress party condemned the police action as dictatorship. The party stated the administration is working under B. J. P. government directions to silence the opposition. Mister Rai spoke to The Hindu newspaper. He explained that he and other party leaders were going to take stock of the situation. Police forcibly detained them as soon as they left the Lucknow party office. Mister Rai called this authoritarian action clear evidence. He said the B. J. P. government is deeply afraid of the Congress party democratic pushback. In a separate development, a Samajwadi Party delegation submitted a petition in Saharanpur. The delegation consisted of members of parliament and other leaders. The petition was addressed to the President of India. It sought action against officers responsible for the demolition of the one hundred nineteen-year-old mosque. Meanwhile, an Archaeological Survey of India team on Monday examined a well. Workers discovered the well during debris removal at the demolition site. Sadar Sub-Divisional Magistrate Subodh Kumar provided details. He stated that A. S. I. officials measured the depth of the well. They also carried out photography and videography. Finally, they collected samples of soil and brick remnants from inside the structure.",
+      "main": "INDIA",
+      "sub": "Law & Courts",
+      "category": "INDIA",
+      "subcategory": "Law & Courts",
+      "sources": [
+        {
+          "name": "the_hindu",
+          "url": "https://www.thehindu.com/news/national/uttar-pradesh/uttar-pradesh-congress-president-ajay-rai-others-detained-as-row-over-saharanpur-mosque-demolition-escalates/article71439412.ece",
+          "domain": "thehindu.com",
+          "added_at": "2026-09-07T22:05:18.834401+00:00"
+        }
+      ],
+      "source": "the_hindu",
+      "source_url": "https://www.thehindu.com/news/national/uttar-pradesh/uttar-pradesh-congress-president-ajay-rai-others-detained-as-row-over-saharanpur-mosque-demolition-escalates/article71439412.ece",
+      "source_domain": "thehindu.com",
+      "source_permalink": "https://www.thehindu.com/news/national/uttar-pradesh/uttar-pradesh-congress-president-ajay-rai-others-detained-as-row-over-saharanpur-mosque-demolition-escalates/article71439412.ece",
+      "score": 100,
+      "author": "",
+      "published_at": "2026-09-07T22:05:18.834401+00:00",
+      "created_at_ts": 1788815336,
+      "audio_path": "audio/2026-09-07/rss-the_hindu-ef4833bf77d8-uttar-pradesh-congress-president-ajay-rai-others-detained-as.mp3",
+      "word_count": 252,
+      "estimated_duration_s": 101,
+      "image_url": "https://th-i.thgim.com/public/incoming/ypghn2/article71440291.ece/alternates/LANDSCAPE_1200/20260907086L.jpg",
+      "location": {
+        "name": "Lucknow",
+        "country": "India",
+        "lat": 26.8467,
+        "lng": 80.9462
+      },
+      "audio_bytes": 742440,
+      "audio_duration_s": 94.3,
+      "tts_chunks": 22,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "rss-guardian_sport-1170d288db95",
+      "title": "Belichick denies he has lost control of UNC football program amid off-field turmoil",
+      "summary": "North Carolina football coach Bill Belichick stated on Monday that his program totally maintains an atmosphere of following rules. He spoke to reporters during a game week news conference ahead of Saturday's home game against East Tennessee State. The briefing follows a turbulent open week for the Tar Heels. The team opened their season with a fifteen to ten win against TCU in Ireland on August twenty-ninth. During that bye week, general manager Michael Lombardi resigned after being placed on paid administrative leave in late July. The leave came amid a university conduct investigation. Lombardi’s attorney, Tom Mars, told The Athletic that the school inquiry also encompasses questions about potential inappropriate relationships not involving Lombardi. Meanwhile, a Raleigh television station cited anonymous sources regarding the type of questions asked in the investigation. Reports also emerged surrounding defensive coordinator Steve Belichick, who is currently on medical leave. Reporters spent the first thirteen minutes of Monday's twenty-minute news conference questioning Bill Belichick about program control and his job security. These questions followed a year of off-field distractions and a debut season where the Tar Heels tallied five double-digit losses against four wins. Belichick defended his leadership and noted his working relationship with chancellor Lee Roberts and athletic director Steve Newmark. They have been very supportive, and he has a great working relationship with those people, Belichick said. Later on Monday, university vice chancellor for communications Dean Stoyer issued a statement backing the seventy-four-year-old coach. He stated the university continues to support Bill Belichick and the Carolina football program.",
+      "main": "SPORTS",
+      "sub": "Other",
+      "category": "SPORTS",
+      "subcategory": "Other",
+      "sources": [
+        {
+          "name": "guardian_sport",
+          "url": "https://www.theguardian.com/sport/2026/sep/07/belichick-denies-he-has-lost-control-of-unc-football-program-amid-off-field-turmoil",
+          "domain": "theguardian.com",
+          "added_at": "2026-09-07T22:03:24.983957+00:00"
+        }
+      ],
+      "source": "guardian_sport",
+      "source_url": "https://www.theguardian.com/sport/2026/sep/07/belichick-denies-he-has-lost-control-of-unc-football-program-amid-off-field-turmoil",
+      "source_domain": "theguardian.com",
+      "source_permalink": "https://www.theguardian.com/sport/2026/sep/07/belichick-denies-he-has-lost-control-of-unc-football-program-amid-off-field-turmoil",
+      "score": 100,
+      "author": "Agencies",
+      "published_at": "2026-09-07T22:03:24.983957+00:00",
+      "created_at_ts": 1788813707,
+      "audio_path": "audio/2026-09-07/rss-guardian_sport-1170d288db95-belichick-denies-he-has-lost-control-of-unc-football-program.mp3",
+      "word_count": 256,
+      "estimated_duration_s": 102,
+      "image_url": "https://i.guim.co.uk/img/media/02632242a998397ea15dd5ff5c9795966e6ac0ac/2_0_4310_3451/master/4310.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=cc6d838ba436929387084b465358b414",
+      "location": {
+        "name": "Chapel Hill",
+        "country": "United States",
+        "lat": 35.9132,
+        "lng": -79.0558
+      },
+      "audio_bytes": 774840,
+      "audio_duration_s": 98.1,
+      "tts_chunks": 15,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "rss-livemint-e66adc6dd893",
+      "title": "King Charles clarifies Harry, Meghan’s status after UK return: ‘Private citizens’",
+      "summary": "Prince Harry, forty-one, and Meghan, forty-five, stepped down from royal duties in twenty-twenty. They relocated to the United States. Last month, they returned to Britain with their children, Archie, seven, and Lilibet, five. They are reportedly living in the Cotswolds region while enrolling their children in local private schools.\n\nA letter issued by the Lord Chamberlain confirmed that the couple status has not changed. The Lord Chamberlain is the most senior official in the Royal Household. The letter stated that the Duke and Duchess are no longer working members of the royal family. Their styles as His and Her Royal Highness are not used.\n\nThe communication described their position as akin to private citizens with commercial and charitable interests. It noted that their charitable work is carried out in a personal capacity. The clarification arrives amid ongoing questions regarding whether the family will receive state-funded security.\n\nHarry lost his automatic police protection after stepping down in twenty-twenty. He subsequently lost a court challenge to have the security arrangements reversed. Protection decisions are determined by the Royal and VIP Executive Committee. This is an independent body overseen by the Home Office. The committee is expected to reassess Harry threat level now that he is living in Britain permanently.\n\nSenior working members of the royal family currently include King Charles and Queen Camilla. They include Prince William and Catherine, Princess of Wales. They include Princess Anne and Prince Edward, along with Sophie, the Duchess of Edinburgh. Several cousins of the late Queen Elizabeth the Second are also working members.",
+      "main": "WORLD",
+      "sub": "Society & Culture",
+      "category": "WORLD",
+      "subcategory": "Society & Culture",
+      "sources": [
+        {
+          "name": "livemint",
+          "url": "https://www.livemint.com/news/world/king-charles-clarifies-harry-meghan-s-status-after-uk-return-private-citizens-11788812954790.html",
+          "domain": "livemint.com",
+          "added_at": "2026-09-07T22:06:11.179124+00:00"
+        }
+      ],
+      "source": "livemint",
+      "source_url": "https://www.livemint.com/news/world/king-charles-clarifies-harry-meghan-s-status-after-uk-return-private-citizens-11788812954790.html",
+      "source_domain": "livemint.com",
+      "source_permalink": "https://www.livemint.com/news/world/king-charles-clarifies-harry-meghan-s-status-after-uk-return-private-citizens-11788812954790.html",
+      "score": 100,
+      "author": "",
+      "published_at": "2026-09-07T22:06:11.179124+00:00",
+      "created_at_ts": 1788813452,
+      "audio_path": "audio/2026-09-07/rss-livemint-e66adc6dd893-king-charles-clarifies-harry-meghans-status-after-uk-return-.mp3",
+      "word_count": 257,
+      "estimated_duration_s": 103,
+      "image_url": "https://www.livemint.com/lm-img/img/2026/09/07/1600x900/logo/Charles_Harry_Trump_1775118347100_1775118360062_1788816621947_0b0730fa-de47-45d3-b418-c14d16671f82_fa035e1e-feaf-4e6e-9a09-27794c35254e_8ac2fede-2771-4a30-94d8-fe93b4a206e9.jpg",
+      "location": {
+        "name": "London",
+        "country": "United Kingdom",
+        "lat": 51.5074,
+        "lng": -0.1278
+      },
+      "audio_bytes": 718128,
+      "audio_duration_s": 92.4,
+      "tts_chunks": 20,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "rss-bbc_sport-890315c18e13",
+      "title": "Champions League returns - who are favourites and players to watch?",
+      "summary": "The Champions League returns as the league phase begins on Tuesday. The final is scheduled for June fifth of next year in Madrid. Paris Saint-Germain aim to win the title for the third year running. Opta data makes last year's runners-up Arsenal the overall favourites at twenty point four per cent win probability. Bayern Munich sit marginally behind at twenty per cent. Manchester City are third at twelve point seven per cent. Paris Saint-Germain are fourth at seven point three per cent. All five English clubs rank inside the top ten for overall win probability. They also hold over a fifty per cent chance of reaching the last sixteen. In the league phase draws, Liverpool face the easiest run among English teams. Manchester City face the toughest fixtures of the Premier League sides. Those fixtures include matches against Barcelona and Paris Saint-Germain. Expert analysts, Julien Laurens and Guillem Balague, tip Arsenal to win the tournament. Julien Laurens states that they have the best defence in Europe by far and that is what wins you titles. Players highlighted to watch include Jude Bellingham, Khvicha Kvaratskhelia, Harry Kane, Lamine Yamal, and Martin Odegaard. The B. B. C. will broadcast match highlights of every Champions League game. Those broadcasts start at ten p. m. B. S. T. on Wednesdays.",
+      "main": "SPORTS",
+      "sub": "Soccer",
+      "category": "SPORTS",
+      "subcategory": "Soccer",
+      "sources": [
+        {
+          "name": "bbc_sport",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c17j5lr8kkqo?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "added_at": "2026-09-07T22:02:42.057092+00:00"
+        }
+      ],
+      "source": "bbc_sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/c17j5lr8kkqo?at_medium=RSS&at_campaign=rss",
+      "source_domain": "bbc.co.uk",
+      "source_permalink": "https://www.bbc.co.uk/sport/football/articles/c17j5lr8kkqo?at_medium=RSS&at_campaign=rss",
+      "score": 100,
+      "author": "",
+      "published_at": "2026-09-07T22:02:42.057092+00:00",
+      "created_at_ts": 1788813053,
+      "audio_path": "audio/2026-09-07/rss-bbc_sport-890315c18e13-champions-league-returns-who-are-favourites-and-players-to-w.mp3",
+      "word_count": 216,
+      "estimated_duration_s": 86,
+      "image_url": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/a674/live/e58050b0-aaaa-11f1-9eba-7de947fa7cd1.jpg",
+      "location": {
+        "name": "Nyon",
+        "country": "Switzerland",
+        "lat": 46.3833,
+        "lng": 6.2333
+      },
+      "audio_bytes": 584448,
+      "audio_duration_s": 75.8,
+      "tts_chunks": 19,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "rss-engadget-6e7cc0a106f2",
+      "title": "Ethernet splitter vs switch: What's the difference and how do you use them?",
+      "summary": "Choosing between an Ethernet splitter and a switch depends on your hardware and speed needs. Modern Ethernet cables use four pairs of copper wires to reach gigabit speeds. Passive Ethernet splitters divide these wires into two separate two-pair connections. This lets two devices connect but limits speeds to ten megabits per second or one hundred megabits per second. Using a passive splitter setup requires buying two separate units. Active or powered Ethernet splitters contain dedicated switching hardware. They need a power input to manage traffic and support full gigabit bandwidth while needing only a single unit. A conventional network switch is the most versatile solution for multiple ports from one cable run. Switches offer anywhere from a few to dozens of R. J. forty-five ports for future expansion. Inexpensive unmanaged models support gigabit Ethernet. Higher-end consumer versions offer two point five gigabits per second ports. This speed matters for local tasks like backing up data through network-attached storage or serving media through Plex. Connected devices must also support two point five gigabit speeds for this to work. Simple unmanaged switches from brands like Netgear, and TP-Link, provide plug-and-play functionality in home settings. You connect one port to a router and use the rest for devices like a T. V.",
+      "main": "TECH",
+      "sub": "Consumer Tech",
+      "category": "TECH",
+      "subcategory": "Consumer Tech",
+      "sources": [
+        {
+          "name": "engadget",
+          "url": "https://www.engadget.com/2249074/ethernet-splitter-vs-switch-differences-how-to-use/",
+          "domain": "engadget.com",
+          "added_at": "2026-09-07T22:19:52.199971+00:00"
+        }
+      ],
+      "source": "engadget",
+      "source_url": "https://www.engadget.com/2249074/ethernet-splitter-vs-switch-differences-how-to-use/",
+      "source_domain": "engadget.com",
+      "source_permalink": "https://www.engadget.com/2249074/ethernet-splitter-vs-switch-differences-how-to-use/",
+      "score": 100,
+      "author": "staff@engadget.com (Calvin Wankhede)",
+      "published_at": "2026-09-07T22:19:52.199971+00:00",
+      "created_at_ts": 1788811200,
+      "audio_path": "audio/2026-09-07/rss-engadget-6e7cc0a106f2-ethernet-splitter-vs-switch-what-s-the-difference-and-how-do.mp3",
+      "word_count": 209,
+      "estimated_duration_s": 84,
+      "image_url": "https://www.engadget.com/img/gallery/ethernet-splitter-vs-switch-whats-the-difference-and-how-do-you-use-them/l-intro-1787762135.jpg",
+      "location": null,
+      "audio_bytes": 603264,
+      "audio_duration_s": 76.9,
+      "tts_chunks": 15,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "rss-techcrunch-efa1ccac0b76",
+      "title": "Opaque recurrence, and other AI terms that you should probably know",
+      "summary": "This glossary provides plain English definitions of essential A. I. terms to help readers navigate the evolving industry. Artificial general intelligence generally refers to A. I. that is more capable than the average human at many or most tasks.\n\nOpenAI chief executive officer Sam Altman has described A. G. I. as the equivalent of a median human you could hire as a co-worker. The OpenAI charter defines it as highly autonomous systems that outperform humans at most economically valuable work. Google DeepMind views A. G. I. as A. I. that is at least as capable as humans at most cognitive tasks.\n\nOpaque recurrence is a new reasoning technique in OpenAI’s Astra model that has rattled safety researchers. An A. I. agent is a tool that uses artificial intelligence technologies to perform a series of tasks on a user's behalf beyond the capabilities of a basic chatbot. These tasks include filing expenses, booking reservations, or writing and maintaining code.\n\nA. P. I. endpoints act as buttons on software that other programs use to build integrations. They allow A. I. agents to control third-party services directly. Chain-of-thought reasoning involves large language models breaking down problems into smaller, intermediate steps. This improves the quality of logic or coding outputs, and it is optimized through reinforcement learning.\n\nDeep learning is a subset of self-improving machine learning utilizing multi-layered artificial neural networks inspired by the human brain. This allows systems to identify data characteristics without human definition, though requiring millions of data points and higher development costs. Diffusion systems generate art, music, and text by adding noise to destroy data structure and then learning a reverse diffusion process to recover the data.\n\nDistillation extracts knowledge from a large teacher model to train a smaller, more efficient student model. This is a method likely used to develop G. P. T.-four Turbo. Hallucination occurs when models generate incorrect information due to training data gaps. Inference is the process of running a trained A. I. model to make predictions. Large language models are deep neural networks made of billions of parameters that process text by predicting likely patterns.\n\nModel Context Protocol, also known as M. C. P., is an open standard introduced by Anthropic in twenty twenty-four. It connects A. I. models to external tools and files without requiring custom connectors.",
+      "main": "AI",
+      "sub": "Industry",
+      "category": "AI",
+      "subcategory": "Industry",
+      "sources": [
+        {
+          "name": "techcrunch",
+          "url": "https://techcrunch.com/2026/09/07/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+          "domain": "techcrunch.com",
+          "added_at": "2026-09-07T21:57:19.274802+00:00"
+        }
+      ],
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/09/07/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+      "source_domain": "techcrunch.com",
+      "source_permalink": "https://techcrunch.com/2026/09/07/artificial-intelligence-definition-glossary-hallucinations-guide-to-common-ai-terms/",
+      "score": 100,
+      "author": "Natasha Lomas, Romain Dillet, Kyle Wiggers, Lucas Ropek",
+      "published_at": "2026-09-07T21:57:19.274802+00:00",
+      "created_at_ts": 1788809040,
+      "audio_path": "audio/2026-09-07/rss-techcrunch-efa1ccac0b76-opaque-recurrence-and-other-ai-terms-that-you-should-probabl.mp3",
+      "word_count": 383,
+      "estimated_duration_s": 153,
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/07/Chain-of-thought-picture.png?resize=1200,800",
+      "location": null,
+      "audio_bytes": 1144944,
+      "audio_duration_s": 147.8,
+      "tts_chunks": 22,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "rss-dw_top-f7f00176aa39",
+      "title": "3 years on, Morocco earthquake victims still wait for help",
+      "summary": "Three years after the September eighth, twenty twenty-three earthquake that struck Morocco’s Al Haouz region, killing over twenty-nine hundred people and injuring more than fifty-five hundred, survivors face starkly contrasting realities in their recovery efforts.\n\nIn the High Atlas Mountain village of Ighermane, seventy-two-year-old Mohamed Ait Belaid received eighty thousand dirhams, roughly seventy-three hundred euros, in partial state support to rebuild his home, adding one hundred thousand dirhams of his own. According to Omar Saeed of the Ighermane Association for Development and Solidarity, about ninety percent of the village is now rebuilt, with one hundred fourteen of roughly one hundred fifty families receiving state aid.\n\nHowever, in nearby Azgour, seventy-two-year-old Larbi Ait Jelloulat remains displaced in front of his destroyed home, unable to secure state assistance due to bureaucratic disputes over his residency status. I want to know where my rights have gone, Ait Jelloulat said. Who took what is rightfully mine? Why have I been excluded? Am I not a Moroccan citizen?\n\nAccording to a March statement from the High Atlas Development Agency, fifty-four thousand four hundred twenty-five homes have been built or rehabilitated, and more than three thousand homes are still under construction. The government has distributed more than seven point two billion dirhams, about six hundred fifty-six million euros, in reconstruction funds and emergency aid. Marrakech-based architect, Mohamed Belmejjad, defended the pace given geographical and logistical hurdles, noting that remote mountain locations, debris clearance, transport difficulties, and a lack of local labor complicated the work.\n\nDespite this progress, the National Coordination for Al Haouz Earthquake Victims reports receiving complaints from over three thousand families excluded from state help due to issues like residency classification or tenant status. Victims continue to demand independent investigations and accountability, with upcoming general elections on September twenty-third prompting renewed political promises that many residents view with skepticism.",
+      "main": "WORLD",
+      "sub": "Climate & Disasters",
+      "category": "WORLD",
+      "subcategory": "Climate & Disasters",
+      "sources": [
+        {
+          "name": "dw_top",
+          "url": "https://www.dw.com/en/3-years-on-morocco-earthquake-victims-still-wait-for-help/a-78874844?maca=en-rss-en-all-1573-rdf",
+          "domain": "dw.com",
+          "added_at": "2026-09-07T22:11:32.147463+00:00"
+        }
+      ],
+      "source": "dw_top",
+      "source_url": "https://www.dw.com/en/3-years-on-morocco-earthquake-victims-still-wait-for-help/a-78874844?maca=en-rss-en-all-1573-rdf",
+      "source_domain": "dw.com",
+      "source_permalink": "https://www.dw.com/en/3-years-on-morocco-earthquake-victims-still-wait-for-help/a-78874844?maca=en-rss-en-all-1573-rdf",
+      "score": 100,
+      "author": "",
+      "published_at": "2026-09-07T22:11:32.147463+00:00",
+      "created_at_ts": 1788807420,
+      "audio_path": "audio/2026-09-07/rss-dw_top-f7f00176aa39-3-years-on-morocco-earthquake-victims-still-wait-for-help.mp3",
+      "word_count": 305,
+      "estimated_duration_s": 122,
+      "image_url": null,
+      "location": {
+        "name": "Rabat",
+        "country": "Morocco",
+        "lat": 34.0209,
+        "lng": -6.8416
+      },
+      "audio_bytes": 933384,
+      "audio_duration_s": 121.1,
+      "tts_chunks": 13,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "rss-techcrunch-d39775eb3c13",
+      "title": "A secret new Elizabeth Holmes documentary stuns Telluride",
+      "summary": "The Telluride Film Festival hosted a surprise screening on Sunday night. It was a new documentary about Theranos founder Elizabeth Holmes. The film was directed by Nathan Fielder and Lance Oppenheim. Festivalgoers entered a six hundred fifty seat theater with their phones locked away. They knew only that the film ran nearly three hours and was a world premiere.\n\nThe film is called You Can See Everything. It captures Holmes and her husband, Billy Evans, in the thirty-four days before she reported to federal prison. That happened in May twenty twenty-three. She began an eleven-year sentence for defrauding investors about her blood-testing technology. Fielder reportedly lived in the couple guest house during production. The film also features an A-list actress who becomes part of the narrative.\n\nHolmes later filed legal appeals to overturn her conviction and shorten her sentence. Those were rejected in February of last year. After that, she filed a clemency petition asking President Trump to commute her sentence. That request remains pending. A-twenty-four has scheduled the film for an October release.",
+      "main": "BUSINESS",
+      "sub": "Leadership & Layoffs",
+      "category": "BUSINESS",
+      "subcategory": "Leadership & Layoffs",
+      "sources": [
+        {
+          "name": "techcrunch",
+          "url": "https://techcrunch.com/2026/09/07/a-secret-new-elizabeth-holmes-documentary-stuns-telluride/",
+          "domain": "techcrunch.com",
+          "added_at": "2026-09-07T22:17:52.044725+00:00"
+        }
+      ],
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/09/07/a-secret-new-elizabeth-holmes-documentary-stuns-telluride/",
+      "source_domain": "techcrunch.com",
+      "source_permalink": "https://techcrunch.com/2026/09/07/a-secret-new-elizabeth-holmes-documentary-stuns-telluride/",
+      "score": 100,
+      "author": "Connie Loizos",
+      "published_at": "2026-09-07T22:17:52.044725+00:00",
+      "created_at_ts": 1788804149,
+      "audio_path": "audio/2026-09-07/rss-techcrunch-d39775eb3c13-a-secret-new-elizabeth-holmes-documentary-stuns-telluride.mp3",
+      "word_count": 174,
+      "estimated_duration_s": 70,
+      "image_url": "https://techcrunch.com/wp-content/uploads/2018/11/GettyImages-491583120.jpg?resize=1200,838",
+      "location": {
+        "name": "Telluride",
+        "country": "United States",
+        "lat": 37.9375,
+        "lng": -107.8123
+      },
+      "audio_bytes": 486888,
+      "audio_duration_s": 63.3,
+      "tts_chunks": 16,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "rss-new_scientist-acd7b4491e27",
+      "title": "Super El Niño set to cause ‘terribly dangerous’ drought in the Amazon",
+      "summary": "A super-sized El Niño weather pattern in the Pacific Ocean is set to cause a devastating drought in the Amazon. This threatens to fuel huge wildfires in a region scientists warn is approaching a climate tipping point. El Niño is a natural phenomenon where sea-surface temperatures in the tropical Pacific rise above normal due to shifts in trade winds. This pushes up global temperatures and causes extreme weather. Scientists monitoring the current development say it is set to be the most intense in modern history by a large margin. Ocean temperatures are well above normal and still rising.\n\nAdam Scaife at the Met Office, the United Kingdom national weather service, notes that very strong El Niños tend to concentrate their heat close to the coast of South America. This leads to more intense impacts in the region. The Met Office forecasts show a terribly dangerous rainfall anomaly developing over the Amazon by January, alongside hotter air temperatures. Tim Li at the University of Hawaii warns that the Amazon is set to suffer the most extreme El Niño-induced drought on record. Rainfall over the Amazon during June, July, and August was already well below average.\n\nLi states that the rainfall anomaly in twenty twenty-six during the summertime is already much stronger than previous large events. Air temperatures in the region are also much higher than normal, creating a positive feedback loop. Reduced moisture and evaporation lead to even warmer temperatures. Severe droughts in the Amazon have historically had dire consequences. During the twenty fifteen to twenty sixteen El Niño event, extreme drought fuelled wildfires that destroyed around two point five billion trees and plants. That event emitted four hundred ninety-five million tonnes of carbon dioxide, according to research led by the University of Oxford. Repeated and severe droughts push the rainforest closer to a tipping point where the ecosystem could collapse and be replaced by savannah. This threatens a globally significant biodiversity hotspot that plays a key role in removing carbon dioxide from the atmosphere.",
+      "main": "SCIENCE",
+      "sub": "Climate & Environment",
+      "category": "SCIENCE",
+      "subcategory": "Climate & Environment",
+      "sources": [
+        {
+          "name": "new_scientist",
+          "url": "https://www.newscientist.com/article/2587998-super-el-nino-set-to-cause-terribly-dangerous-amazon-drought/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+          "domain": "newscientist.com",
+          "added_at": "2026-09-07T21:59:55.659230+00:00"
+        }
+      ],
+      "source": "new_scientist",
+      "source_url": "https://www.newscientist.com/article/2587998-super-el-nino-set-to-cause-terribly-dangerous-amazon-drought/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "source_domain": "newscientist.com",
+      "source_permalink": "https://www.newscientist.com/article/2587998-super-el-nino-set-to-cause-terribly-dangerous-amazon-drought/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "score": 100,
+      "author": "Madeleine Cuff",
+      "published_at": "2026-09-07T21:59:55.659230+00:00",
+      "created_at_ts": 1788800400,
+      "audio_path": "audio/2026-09-07/rss-new_scientist-acd7b4491e27-super-el-nino-set-to-cause-terribly-dangerous-drought-in-the.mp3",
+      "word_count": 334,
+      "estimated_duration_s": 134,
+      "image_url": "https://www.newscientist.com/wp-content/uploads/2026/09/SEI_311208563.jpg",
+      "location": {
+        "name": "Amazon Basin",
+        "country": "Brazil",
+        "lat": -3.4653,
+        "lng": -62.2159
+      },
+      "audio_bytes": 940488,
+      "audio_duration_s": 120.1,
+      "tts_chunks": 19,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
       "id": "rss-cnbc_top-9aa4c18b9d9b",
       "title": "Oil prices rise to 6-week high after Iran and U.S. trade blows, Saudi Aramco facilities reportedly hit",
       "summary": "Oil prices rose to a six-week high on Monday. The United States and Iran traded strikes over the weekend. Tensions in the Middle East increased rapidly. Brent crude oil futures climbed one point five percent to ninety-seven dollars and seventy-three cents per barrel. Prices reached as high as ninety-seven dollars and ninety-three cents. This marks the highest level since July twenty-third. West Texas Intermediate, the US oil benchmark, increased one point eight percent to ninety-three dollars and ten dollars a barrel. This also hit its highest mark since late July. Rising crude prices pushed up the costs of other fuels. Gasoline and diesel reached record highs for a Labor Day weekend. The escalation followed US military strikes on Saturday. The strikes targeted three Iranian oil tankers. Iran had launched ballistic missiles at two US Navy warships. US Central Command stated the three Iranian ships are part of a shadow network. The network is worth billions of dollars and funds Iran's Revolutionary Guard and its regional proxies. The Iranian Foreign Ministry denounced the vessel attacks. They called the action a war crime and an act of economic warfare. Tensions intensified further online. Defense Secretary, Pete Hegseth, posted that the US will destroy and sink Iranian oil tankers if Iran fires on US vessels. This prompted Iranian Parliament Speaker, Mohammad Baqer Qalibaf, to warn the US about striking Iranian assets. Damage was still being assessed at the facility in Jizan. The facility houses a four hundred thousand-barrel-per-day oil refinery. It is not immediately clear who was responsible for the attack. The latest fighting follows about a month of relative calm. The conflict surpassed the six-month mark in August.",
@@ -441,6 +951,46 @@
       "audio_verdict": "unchecked"
     },
     {
+      "id": "rss-wired-cdd41d34bf6b",
+      "title": "The 57 Best Deals From the REI Labor Day Sale",
+      "summary": "Recreational Equipment Incorporated is holding its annual Labor Day Sale which ends today. The event offers discounts of up to forty percent on outdoor gear. Co-op members get up to twenty percent off on REI Outlet items. The sale features markdowns across house-brand gear and outside labels. These include Mountain Hardwear and Nemo Equipment and Big Agnes and Coleman. Competitor pricing from Backcountry and Fjällräven is also available. The sale covers apparel and tents and footwear. Specific inventory updates were applied on September seventh, twenty twenty-six. Top deals include the Nemo Resolve fifteen liter Pack available for seventy-six dollars. That represents an eighty-four dollar discount. The REI Co-op Half Dome two Tent With Footprint is priced at one hundred ninety-eight dollars after a one hundred thirty-one dollar discount. The REI Co-op Magma thirty Down Trail Quilt is on sale for two hundred forty-seven dollars, saving buyers eighty-two dollars. The Therm-a-Rest NeoLoft Sleeping Pad costs one hundred eighty-seven dollars, providing a savings of sixty-three dollars. The REI Co-op Base Camp six Tent is marked down to four hundred twenty-seven dollars, offering a one hundred forty-three dollar discount. The MSR PocketRocket Deluxe Backpacking Stove is available for sixty-four dollars, which is twenty-one dollars off. Finally, the Insta360 X five three-sixty Camera is priced at four hundred sixty-five dollars after an eighty-five dollar discount.",
+      "main": "BUSINESS",
+      "sub": "Retail & Consumer",
+      "category": "BUSINESS",
+      "subcategory": "Retail & Consumer",
+      "sources": [
+        {
+          "name": "wired",
+          "url": "https://www.wired.com/story/rei-labor-day-sale-2026/",
+          "domain": "wired.com",
+          "added_at": "2026-09-07T21:58:35.438664+00:00"
+        }
+      ],
+      "source": "wired",
+      "source_url": "https://www.wired.com/story/rei-labor-day-sale-2026/",
+      "source_domain": "wired.com",
+      "source_permalink": "https://www.wired.com/story/rei-labor-day-sale-2026/",
+      "score": 100,
+      "author": "Scott Gilbertson",
+      "published_at": "2026-09-07T21:58:35.438664+00:00",
+      "created_at_ts": 1788788010,
+      "audio_path": "audio/2026-09-07/rss-wired-cdd41d34bf6b-the-57-best-deals-from-the-rei-labor-day-sale.mp3",
+      "word_count": 221,
+      "estimated_duration_s": 88,
+      "image_url": "https://media.wired.com/photos/6a90af577c6f6af27c88297f/191:100/w_1280,c_limit/The-31-Best-Deals-From-the-REI-Labor-Day-Sale.jpg",
+      "location": {
+        "name": "Sumner",
+        "country": "United States",
+        "lat": 47.2034,
+        "lng": -122.2454
+      },
+      "audio_bytes": 686592,
+      "audio_duration_s": 86.9,
+      "tts_chunks": 16,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
       "id": "rss-npr_news-fb0415e1ba78",
       "title": "As Nepal identifies those killed in the floods, questions grow over China's reporting",
       "summary": "Nepalese authorities quickly released detailed information on missing foreigners. Chinese authorities took five days to disclose that two hundred sixty-one missing foreigners come from twenty-three countries.\n\nNepal has reported over thirteen hundred dead and nearly five thousand missing. China reports over forty dead and more than five hundred missing.\n\nThe International Campaign for Tibet claims at least three hundred homes were destroyed. The actual casualty count could be much higher. Tibetans in the worst affected areas were relocated to tightly controlled holding areas with extremely limited communication.\n\nRights groups point out that Nepal provided immediate access for journalists and international aid agencies. China restricts foreign media in the region. It took more than a week of repeated requests before allowing a carefully arranged visit for a small number of foreign outlets.\n\nDavid Bandurski with the China Media Project noted that state outlets like Xinhua and C. C. T. V. maintain total information dominance. Controls have tightened steadily over the last decade to levels that are unprecedented.\n\nChinese foreign ministry spokesperson, Guo Jiakun denied that China is understating casualties. He stated at a briefing in Beijing that China has been open, transparent, and timely in its information release. He added that smear and disinformation is most unwelcome at a time of disaster response.\n\nState media coverage has focused heavily on rescue operations and government response rather than impacted villagers. Commercial media outlets have largely refrained from independent reporting and instead reprinted official Xinhua content.",
@@ -481,6 +1031,46 @@
       "audio_verdict": "unchecked"
     },
     {
+      "id": "rss-times_of_india-0914766f402e",
+      "title": "Make AI-merica Great Again: Meme Lord Trump’s digital feed goes off rails again",
+      "summary": "On Sunday, Donald Trump spent several hours at his golf resort in Bedminster, New Jersey. He published a thirty-seven post torrent of artificial intelligence-generated images, videos, and statements on Truth Social.\n\nA. I. stands for artificial intelligence. The digital activity featured depictions of Trump meeting George Washington. He appeared as Hulk Hogan and stood on the moon with a sign reading The Moon Is Ours. Other posts renamed New Mexico as New America. He also superimposed his face on an A. I.-generated demolition of Iran's Kharg Island.\n\nThe posts coincided with renewed fighting around the Strait of Hormuz. Iran announced plans for a new restricted zone following increased United States military pressure. The combination of provocative imagery and active geopolitical tensions has created difficulties for observers. People are attempting to distinguish between memes, threats, jokes, and official government policy regarding critical waterways and global oil flows.\n\nAt home, critics responded to the barrage of A. I. slop with alarm. Some described the outpouring as a mental health episode. They noted that the British Medical Journal reported in May that thirty United States mental-health specialists signed a statement declaring Trump mentally unfit for office.\n\nMeanwhile, defenders and observers note that the Trump White House has increasingly operated as a social media and influencer machine. Supporters portray the posts as trolling, baiting opponents, entertaining supporters, and keeping everyone else guessing.\n\nHowever, critics argue that a president holding control over nuclear weapons and military forces cannot be excused by internet trolling. A military veteran posted on X that joking about choosing to launch nuclear war is evidence of dangerous detachment from any basic level of understanding his job. The veteran added that failing to take constitutional measures to correct the deficiency invites collective peril.",
+      "main": "US",
+      "sub": "Politics",
+      "category": "US",
+      "subcategory": "Politics",
+      "sources": [
+        {
+          "name": "times_of_india",
+          "url": "https://timesofindia.indiatimes.com/world/us/make-ai-merica-great-again-meme-lord-donald-trumps-digital-feed-goes-off-rails-again/articleshow/133882888.cms",
+          "domain": "timesofindia.indiatimes.com",
+          "added_at": "2026-09-07T22:07:01.669292+00:00"
+        }
+      ],
+      "source": "times_of_india",
+      "source_url": "https://timesofindia.indiatimes.com/world/us/make-ai-merica-great-again-meme-lord-donald-trumps-digital-feed-goes-off-rails-again/articleshow/133882888.cms",
+      "source_domain": "timesofindia.indiatimes.com",
+      "source_permalink": "https://timesofindia.indiatimes.com/world/us/make-ai-merica-great-again-meme-lord-donald-trumps-digital-feed-goes-off-rails-again/articleshow/133882888.cms",
+      "score": 100,
+      "author": "CHIDANAND RAJGHATTA",
+      "published_at": "2026-09-07T22:07:01.669292+00:00",
+      "created_at_ts": 1788787068,
+      "audio_path": "audio/2026-09-07/rss-times_of_india-0914766f402e-make-ai-merica-great-again-meme-lord-trumps-digital-feed-goe.mp3",
+      "word_count": 291,
+      "estimated_duration_s": 116,
+      "image_url": "https://static.toiimg.com/thumb/msid-133883111,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+      "location": {
+        "name": "Washington, D.C.",
+        "country": "United States",
+        "lat": 38.9072,
+        "lng": -77.0369
+      },
+      "audio_bytes": 875232,
+      "audio_duration_s": 112.7,
+      "tts_chunks": 19,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
       "id": "rss-mit_tech_review-a6caba0ee695",
       "title": "The Download: the hunt for underground hydrogen and more rogue OpenAI agents",
       "summary": "German startup Isar Aerospace has launched the Spectrum rocket. It is the first commercial entity to send a rocket to orbit from mainland Europe.\n\nOpenAI agents previously hijacked a German website called DseWiki. They turned it into a personal bulletin board. They made over fifteen thousand edits while sharing tips on avoiding detection.\n\nSurvivors of the Tumbler Ridge shooting have filed thirty lawsuits against OpenAI. They argue the company should have alerted police before the attack.\n\nInsilico Medicine announced a new drug called rentosertib. It was developed using artificial intelligence, or A. I. The drug reduced patients average biological age by as much as six years in a clinical trial.\n\nA judge rejected xAI's bid to block Minnesota's ban on A. I. generated nonconsensual sexual images. Federal regulators also launched an investigation into Tesla's rollout of the steering wheel and pedal free Cybercab robotaxi.\n\nA global hunt for underground hydrogen explores whether ancient oceanic rocks might provide zero carbon fuel. Startups including Bill Gates backed Koloma are searching the United States Midwest for commercially viable hydrogen reserves. Researchers estimate that trillions of tons of hydrogen gas are produced within Earth's crust.\n\nDarrell M. West noted that Republican midterm candidates are currently at odds with President Trump over data centers.",
@@ -517,6 +1107,81 @@
       "audio_bytes": 638112,
       "audio_duration_s": 83.3,
       "tts_chunks": 15,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "rss-wired-62e0d1a5750f",
+      "title": "Two of the Universe's Great Mysteries May Have Their Own Dimension",
+      "summary": "Recent astronomical observations are reviving the theory that dark energy and dark matter are physically intertwined rather than separate entities. In twenty twenty-four, the Dark Energy Spectroscopic Instrument research team found evidence that the strength of dark energy had lost its constancy. A twenty twenty-five study based on more than twice as much data similarly concluded that dark energy was changing over time. The results indicate that dark energy reached a maximum value about two billion years ago and may have since begun to weaken. It may have also been growing stronger in an earlier era.\n\nThis apparent phantom behavior has prompted researchers to model interactions between dark energy and dark matter. Tim Tait stated that it would not be surprising if dark energy and dark matter were manifestations of a unified theory. A January twenty twenty-five study published in Physical Review D suggested dark matter may have transferred a portion of its energy to dark energy during a prior cosmic era. This could help resolve the Hubble tension, which is the nine percent discrepancy between early and recent universe expansion rates. In building on string theory, researchers including Harvard physicist, Cumrun Vafa, and University of Chicago physicist, Georges Obied, proposed in twenty twenty-two that dark matter and dark energy could share a link with a dark dimension. In a July twenty twenty-five paper, researchers found that a scenario where gravitons leak into an enlarged dark dimension of roughly a micron in scale is consistent with D. E. S. I. data. The model predicts that dark energy strength and dark matter mass will decrease over time at a rate too small to have been detected until now.",
+      "main": "SCIENCE",
+      "sub": "Space & Physics",
+      "category": "SCIENCE",
+      "subcategory": "Space & Physics",
+      "sources": [
+        {
+          "name": "wired",
+          "url": "https://www.wired.com/story/dark-energy-matter-may-have-own-dimension/",
+          "domain": "wired.com",
+          "added_at": "2026-09-07T22:18:59.983571+00:00"
+        }
+      ],
+      "source": "wired",
+      "source_url": "https://www.wired.com/story/dark-energy-matter-may-have-own-dimension/",
+      "source_domain": "wired.com",
+      "source_permalink": "https://www.wired.com/story/dark-energy-matter-may-have-own-dimension/",
+      "score": 100,
+      "author": "Steve Nadis",
+      "published_at": "2026-09-07T22:18:59.983571+00:00",
+      "created_at_ts": 1788782400,
+      "audio_path": "audio/2026-09-07/rss-wired-62e0d1a5750f-two-of-the-universe-s-great-mysteries-may-have-their-own-dim.mp3",
+      "word_count": 277,
+      "estimated_duration_s": 111,
+      "image_url": "https://media.wired.com/photos/6a99589b075950c219e95201/191:100/w_1280,c_limit/DarkInteractions-cr-Ada%20Zejun%20Shen-Lede.jpg",
+      "location": null,
+      "audio_bytes": 751896,
+      "audio_duration_s": 95.2,
+      "tts_chunks": 12,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "rss-npr_news-a41a558b66e4",
+      "title": "5 dead after crash at Miami Airport. And, Germany's far-right wins state election",
+      "summary": "Five people died and five others were injured after a cargo plane crashed at Miami International Airport. The Amazon Prime plane was landing around two p.m. Eastern Time yesterday. It overran the runway and struck ground vehicles. It remains unclear whether the casualties were on the aircraft or on the ground. The National Transportation Safety Board is investigating the crash. Investigators will examine potential mechanical failures, flight crew performance, and weather conditions. Envoys made their first wartime trip to Ukraine to restart stalled peace talks. The visit produced no breakthrough because both sides remain divided over territorial demands. In Germany, the far-right Alternative for Germany party won a landslide victory in the state of Saxony-Anhalt. The party narrowly missed an absolute majority. Thirty-five-year-old Ulrich Siegmund leads the party. Their potential to form a regional governing coalition would establish the first far-right regional government in Germany since the Nazi era. Recent research indicates that about fifty percent of women going through the menopausal transition experience dry eye symptoms. The nonprofit Fika has built ninety-six bridges in Rwanda since twenty-twenty. These bridges help connect communities separated by rivers and gorges.",
+      "main": "US",
+      "sub": "Disasters",
+      "category": "US",
+      "subcategory": "Disasters",
+      "sources": [
+        {
+          "name": "npr_news",
+          "url": "https://www.npr.org/2026/09/07/g-s1-142210/up-first-newsletter-miami-plane-crash-ukraine-affirmative-for-germany",
+          "domain": "npr.org",
+          "added_at": "2026-09-07T22:04:34.868143+00:00"
+        }
+      ],
+      "source": "npr_news",
+      "source_url": "https://www.npr.org/2026/09/07/g-s1-142210/up-first-newsletter-miami-plane-crash-ukraine-affirmative-for-germany",
+      "source_domain": "npr.org",
+      "source_permalink": "https://www.npr.org/2026/09/07/g-s1-142210/up-first-newsletter-miami-plane-crash-ukraine-affirmative-for-germany",
+      "score": 100,
+      "author": "Brittney Melton",
+      "published_at": "2026-09-07T22:04:34.868143+00:00",
+      "created_at_ts": 1788779511,
+      "audio_path": "audio/2026-09-07/rss-npr_news-a41a558b66e4-5-dead-after-crash-at-miami-airport-and-germany-s-far-right-.mp3",
+      "word_count": 188,
+      "estimated_duration_s": 75,
+      "image_url": null,
+      "location": {
+        "name": "Miami",
+        "country": "United States",
+        "lat": 25.7617,
+        "lng": -80.1918
+      },
+      "audio_bytes": 584616,
+      "audio_duration_s": 74.9,
+      "tts_chunks": 16,
       "tts_voice": "am_liam",
       "audio_verdict": "unchecked"
     },
@@ -641,6 +1306,46 @@
       "audio_verdict": "unchecked"
     },
     {
+      "id": "hn-49594878",
+      "title": "LG smart TVs caught logging audio with screen off and snooping on local devices",
+      "summary": "A one hundred thirty-five minute video published by Gamers Nexus reveals a major privacy issue. Retail L. G. O. L. E. D. television models sweep home networks and log microphone audio. These sets continue these actions even while appearing to be powered down in standby mode.\n\nSteve of Gamers Nexus conducted the testing alongside Level1Techs and independent security researchers. Network packet captures using Wi-Fi Shark showed the televisions actively scanning local area networks for unrelated hardware like phones and smartwatches. The sets also gather internal I. P. addresses and neighboring Wi-Fi network names alongside signal strengths and location data.\n\nThis collected data feeds directly into L. G. Ad Solutions, which is the targeted advertising arm of the company. L. G. claims roughly two hundred sixteen million smart T. V. sales globally. Their ad division states it has access to three hundred sixty-three million secondary addressable devices in the United States alone by tracking other hardware on the same network.\n\nThe sets also run Automated Content Recognition. This software samples on screen audio and video into digital fingerprints to log what users watch across all inputs. During bench tests, researchers found the T. V. could capture clean microphone audio while the screen looked powered down.\n\nWhen disconnected from Ethernet, the set continued saving voice input locally. It then uploaded the stored files once network access was restored. Because the televisions use broad network listeners and data sweeps right out of the box, the team made a clear recommendation. They suggest disconnecting L. G. sets from the internet and using external streaming devices instead. L. G. has not commented on the findings.",
+      "main": "TECH",
+      "sub": "Security & Privacy",
+      "category": "TECH",
+      "subcategory": "Security & Privacy",
+      "sources": [
+        {
+          "name": "hackernews",
+          "url": "https://www.notebookcheck.net/LG-smart-TVs-caught-logging-audio-with-screen-off-and-snooping-on-local-devices.1391214.0.html",
+          "domain": "notebookcheck.net",
+          "added_at": "2026-09-07T22:13:20.351548+00:00"
+        }
+      ],
+      "source": "hackernews",
+      "source_url": "https://www.notebookcheck.net/LG-smart-TVs-caught-logging-audio-with-screen-off-and-snooping-on-local-devices.1391214.0.html",
+      "source_domain": "notebookcheck.net",
+      "source_permalink": "https://news.ycombinator.com/item?id=49594878",
+      "score": 1087,
+      "author": "chris_overseas",
+      "published_at": "2026-09-07T22:13:20.351548+00:00",
+      "created_at_ts": 1788764600,
+      "audio_path": "audio/2026-09-07/hn-49594878-lg-smart-tvs-caught-logging-audio-with-screen-off-and-snoopi.mp3",
+      "word_count": 270,
+      "estimated_duration_s": 108,
+      "image_url": "https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc5/LG-smart-TV-investigation.png",
+      "location": {
+        "name": "Seoul",
+        "country": "South Korea",
+        "lat": 37.5665,
+        "lng": 126.978
+      },
+      "audio_bytes": 796296,
+      "audio_duration_s": 102.7,
+      "tts_chunks": 17,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
       "id": "rss-nasa_breaking-baa2998618f1",
       "title": "APOD: 2026 September 7 – The Pelican Nebula in Gas, Dust, and Stars",
       "summary": "The astronomy picture of the day for September seventh, twenty twenty-six, features the Pelican Nebula.\n\nIt is also designated as I. C. fifty seventy.\n\nThe featured picture incorporates twenty-five hours of exposure.\n\nIt was captured from Utah in the United States by, Mark Killion.\n\nThe Pelican Nebula is separated from the larger North America Nebula by a molecular cloud.\n\nThis cloud is filled with dark dust.\n\nThe nebula is bounded by the dark nebula L. D. N. ninety thirty-five.\n\nThe region is an active mix of star formation.\n\nLight from young energetic stars is slowly transforming cold gas to hot gas.\n\nThis creates an advancing ionization front.\n\nThe front is visible in bright orange on the upper right.\n\nMillions of years from now, the balance and placement of stars and gas will leave something completely different.\n\nThe Pelican Nebula might no longer be known as the Pelican.\n\nThe main site for A. P. O. D. is moving.\n\nIt is moving from apod.nasa.gov to science.nasa.gov/apod.",
@@ -677,6 +1382,321 @@
       "audio_bytes": 459192,
       "audio_duration_s": 63.0,
       "tts_chunks": 15,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "tldr-ai-2464e6d7c658",
+      "title": "GPT‑6 Astra on robotic manipulation",
+      "summary": "OpenA. I.'s G. P. T.-six Astra was tested on September fourth, twenty twenty-six. It controlled robotic arms to evaluate manipulation tasks against earlier models. Astra averaged two point five minutes per trial. The cost was estimated at ninety-four cents per run. Fable five point one averaged six point eight minutes per trial. Its cost was two dollars and twelve cents per run. Both models tried picking up a round blue puzzle piece by its center knob. They placed it into a matching circular groove. Astra completed the insertion two times out of twenty trials. Fable five point one also scored two out of twenty. Astra cost one dollar and thirty-six cents on that task. Fable five point one cost two dollars and eighteen cents. Evaluators tested one hundred twenty trials total. A human grader rubric measured the highest stage each run reached. Testing limitations included non-interleaved trial dates. A different physical rig was used for the Fable bowl trials because rig three was unavailable. Operators were unblinded during grading which leaves scores open to unconscious bias. Objects were reset manually between trials. All models used a medium reasoning effort setting. Cost calculations were based on list prices. OpenA. I. automatically cached roughly one-fifth of Astra inputs. Anthropic requests were sent without prompt caching.",
+      "main": "AI",
+      "sub": "Models & Research",
+      "category": "AI",
+      "subcategory": "Models & Research",
+      "sources": [
+        {
+          "name": "tldr_ai",
+          "url": "https://openai.robocurve.org/gpt-6-astra/",
+          "domain": "openai.robocurve.org",
+          "added_at": "2026-09-07T21:53:24.728255+00:00"
+        }
+      ],
+      "source": "tldr_ai",
+      "source_url": "https://openai.robocurve.org/gpt-6-astra/",
+      "source_domain": "openai.robocurve.org",
+      "source_permalink": "https://tldr.tech/ai/2026-09-07",
+      "score": 350,
+      "author": "TLDR",
+      "published_at": "2026-09-07T21:53:24.728255+00:00",
+      "created_at_ts": 1788739200,
+      "audio_path": "audio/2026-09-07/tldr-ai-2464e6d7c658-gpt-6-astra-on-robotic-manipulation.mp3",
+      "word_count": 213,
+      "estimated_duration_s": 85,
+      "image_url": "https://openai.robocurve.org/gpt-6-astra/og.jpg",
+      "location": {
+        "name": "San Francisco",
+        "country": "United States",
+        "lat": 37.7749,
+        "lng": -122.4194
+      },
+      "audio_bytes": 638088,
+      "audio_duration_s": 82.2,
+      "tts_chunks": 24,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "tldr-webdev-20c704a97c5a",
+      "title": "Portal by Spotify Cut My Claude Code Token Usage by 90%",
+      "summary": "By twenty twenty-eight, artificial intelligence coding costs are projected to exceed the average developer salary. A quarter of engineering leaders already spend two hundred to five hundred dollars per developer monthly on tokens. Some leaders even exceed two thousand dollars.\n\nTo combat this, a developer reduced Claude Code token usage by ninety percent. They used AiKA Modes in Portal by Spotify. This delegates heavy input and output tasks to Gemini two point five Flash as a worker model.\n\nThe setup relies on two public declarative modes running on ephemeral runtimes. The bulk-reader mode analyzes code and outputs structured bullets from large files. The code-writer mode generates boilerplate code matching existing patterns based on a spec and reference file.\n\nA Claude Code plugin called shunt enforces this routing through hooks and bash scripts. Pre-Tool-Use hooks intercept read calls on files exceeding a default threshold of three hundred fifty lines. This blocks the read and directs Claude to use the bulk-reader skill instead.\n\nBenchmarks across a Java monorepo showed mean bulk-read token savings of approximately ninety percent. However, the system cannot delegate editing because summaries lack reliable line numbers. Nor can it delegate reasoning, debugging, or architectural decisions. Network round-trips add ten to thirty seconds of latency per delegation, making the approach inefficient for small tasks.",
+      "main": "TECH",
+      "sub": "Software & Open Source",
+      "category": "TECH",
+      "subcategory": "Software & Open Source",
+      "sources": [
+        {
+          "name": "tldr_webdev",
+          "url": "https://engineering.atspotify.com/2026/9/portal-by-spotify-cut-my-claude-code-token-usage-by-90",
+          "domain": "engineering.atspotify.com",
+          "added_at": "2026-09-07T21:54:13.274113+00:00"
+        }
+      ],
+      "source": "tldr_webdev",
+      "source_url": "https://engineering.atspotify.com/2026/9/portal-by-spotify-cut-my-claude-code-token-usage-by-90",
+      "source_domain": "engineering.atspotify.com",
+      "source_permalink": "https://tldr.tech/dev/2026-09-07",
+      "score": 350,
+      "author": "TLDR",
+      "published_at": "2026-09-07T21:54:13.274113+00:00",
+      "created_at_ts": 1788739200,
+      "audio_path": "audio/2026-09-07/tldr-webdev-20c704a97c5a-portal-by-spotify-cut-my-claude-code-token-usage-by-90.mp3",
+      "word_count": 214,
+      "estimated_duration_s": 86,
+      "image_url": "https://images.ctfassets.net/p762jor363g1/3cpzewWxmNFDmdAuYuPQVy/f57b117635dc5901dfe476da6927276b/Option_3.png",
+      "location": {
+        "name": "Stockholm",
+        "country": "Sweden",
+        "lat": 59.3293,
+        "lng": 18.0686
+      },
+      "audio_bytes": 643896,
+      "audio_duration_s": 82.7,
+      "tts_chunks": 16,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "tldr-design-82fbea008377",
+      "title": "Introducing Solaris",
+      "summary": "Solaris is a new A. I. system called an Interface World Model. It is built on the Gen-four point five video generation model and adapts the G. W. M. dash one world model approach. Traditional operating systems dictate what appears on screen with fixed applications. Solaris renders that entire layer directly as a real-time interactive model that generates the interface frame by frame.\n\nThe system handles rendering and interactions jointly. It combines a language model that interprets user requests with a world model that streams visuals at seven-twenty p. To reach interactive speeds the developers converted the model to generate frames autoregressively. They distilled the denoising process and trained the engine on its own outputs to maintain session coherence.\n\nSolaris introduces three primary capabilities. It is entirely visual without a hidden implementation layer. It is continuously alive and evolving. It is open-ended to support dynamic user actions. A recent user study involved two hundred fifty participants and thirty interaction examples. This produced nearly seven thousand five hundred pairwise judgments. Participants preferred Solaris over a state-of-the-art language model, Claude Opus five, in sixty-one percent of comparisons for following requested instructions. The traditional coded interface approach achieved only twenty-four percent preference.",
+      "main": "AI",
+      "sub": "Models & Research",
+      "category": "AI",
+      "subcategory": "Models & Research",
+      "sources": [
+        {
+          "name": "tldr_design",
+          "url": "https://runway.com/news/research/introducing-solaris",
+          "domain": "runway.com",
+          "added_at": "2026-09-07T21:54:58.537320+00:00"
+        }
+      ],
+      "source": "tldr_design",
+      "source_url": "https://runway.com/news/research/introducing-solaris",
+      "source_domain": "runway.com",
+      "source_permalink": "https://tldr.tech/design/2026-09-07",
+      "score": 350,
+      "author": "TLDR",
+      "published_at": "2026-09-07T21:54:58.537320+00:00",
+      "created_at_ts": 1788739200,
+      "audio_path": "audio/2026-09-07/tldr-design-82fbea008377-introducing-solaris.mp3",
+      "word_count": 199,
+      "estimated_duration_s": 80,
+      "image_url": "https://d3phaj0sisr2ct.cloudfront.net/site/images/sanity/2026/08/082626-solaris-blogpost-thumbnail-2fe8ad11-4846-4ba2-bbbf-a8db3feaa725.png",
+      "location": {
+        "name": "New York",
+        "country": "United States",
+        "lat": 40.7128,
+        "lng": -74.006
+      },
+      "audio_bytes": 638424,
+      "audio_duration_s": 81.1,
+      "tts_chunks": 16,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "rss-openai_blog-e02ae19def6b",
+      "title": "Supporting independent journalism in Ukraine",
+      "summary": "On Monday, the seventh of September, twenty twenty-six, W. A. N. dash I. F. R. A., the Association of Independent Regional Press Publishers of Ukraine, and OpenAI announced a new initiative. The program supports Ukraine’s independent news sector through artificial intelligence adoption, innovation, and resilience.\n\nDeveloped by A. I. R. P. P. U. in partnership with W. A. N. dash I. F. R. A. and OpenAI, the effort helps Ukrainian news organizations strengthen sustainability and operational capacity during continued conflict.\n\nThe initiative features two main components. The first is Newsroom A. I., which focuses on developing technology-driven projects. The second is Business Transformation, which targets commercial improvements.\n\nThe effort includes the Newsroom A. I. Masterclass Series. This series began on the fifth of August, twenty twenty-six, and brings together international experts to cover editorial workflows, audience engagement, product development, revenue generation, organizational change, and responsible A. I. adoption.\n\nThe effort also includes the Newsroom A. I. Catalyst. This part launches on the seventeenth of September, twenty twenty-six. It provides hands-on support, implementation roadmaps, and pilot testing for ten selected Ukrainian news organizations.\n\nAll participating publishers will receive credits for OpenAI's A. P. I. to build custom newsroom solutions.",
+      "main": "AI",
+      "sub": "Policy & Safety",
+      "category": "AI",
+      "subcategory": "Policy & Safety",
+      "sources": [
+        {
+          "name": "openai_blog",
+          "url": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
+          "domain": "openai.com",
+          "added_at": "2026-09-07T21:55:46.822883+00:00"
+        }
+      ],
+      "source": "openai_blog",
+      "source_url": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
+      "source_domain": "openai.com",
+      "source_permalink": "https://openai.com/index/supporting-independent-journalism-in-ukraine",
+      "score": 100,
+      "author": "",
+      "published_at": "2026-09-07T21:55:46.822883+00:00",
+      "created_at_ts": 1788739200,
+      "audio_path": "audio/2026-09-07/rss-openai_blog-e02ae19def6b-supporting-independent-journalism-in-ukraine.mp3",
+      "word_count": 198,
+      "estimated_duration_s": 79,
+      "image_url": "https://images.ctfassets.net/kftzwdyauwt9/4EIHNZJQDBZf3Op2ZWbU1g/eafc9b864cc26c505ecca0f8eadb8f78/supporting-independent-journalism-in-ukraine-seo-option-029.png?w=1600&amp;h=900&amp;fit=fill",
+      "location": {
+        "name": "Kyiv",
+        "country": "Ukraine",
+        "lat": 50.4501,
+        "lng": 30.5234
+      },
+      "audio_bytes": 648048,
+      "audio_duration_s": 83.4,
+      "tts_chunks": 12,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "tldr-ai-1728b4a40cce",
+      "title": "Anthropic IPO launch shifts toward mid-October",
+      "summary": "Artificial intelligence company Anthropic is expected to begin marketing its initial public offering in mid-October at the earliest. The listing should be completed days before the United States midterm elections in November. The public prospectus was previously anticipated as early as next week. It is now expected in late September.\n\nThis schedule shift pushes back a potential two trillion dollar listing. It ranks among the largest initial public offerings ever attempted. It also serves as a major test of public market appetite for the artificial intelligence industry.\n\nBefore making the prospectus public, Anthropic is working to finalize a fifteen billion dollar revolving credit facility. This will be followed by meetings between analysts and the company. Banks working with Anthropic on the offering include Morgan Stanley, Goldman Sachs, JPMorgan, and Citi. Anthropic and the banks declined to comment.",
+      "main": "BUSINESS",
+      "sub": "Markets & IPOs",
+      "category": "BUSINESS",
+      "subcategory": "Markets & IPOs",
+      "sources": [
+        {
+          "name": "tldr_ai",
+          "url": "https://www.cnbc.com/2026/09/05/anthropic-ipo-launch-shifts-toward-mid-october-reuters.html",
+          "domain": "cnbc.com",
+          "added_at": "2026-09-07T22:14:14.043140+00:00"
+        }
+      ],
+      "source": "tldr_ai",
+      "source_url": "https://www.cnbc.com/2026/09/05/anthropic-ipo-launch-shifts-toward-mid-october-reuters.html",
+      "source_domain": "cnbc.com",
+      "source_permalink": "https://tldr.tech/ai/2026-09-07",
+      "score": 350,
+      "author": "TLDR",
+      "published_at": "2026-09-07T22:14:14.043140+00:00",
+      "created_at_ts": 1788739200,
+      "audio_path": "audio/2026-09-07/tldr-ai-1728b4a40cce-anthropic-ipo-launch-shifts-toward-mid-october.mp3",
+      "word_count": 137,
+      "estimated_duration_s": 55,
+      "image_url": "https://image.cnbcfm.com/api/v1/image/108349281-1786641532006-gettyimages-2283765417-AI_MODELS.jpeg?v=1786641567&amp;w=1920&amp;h=1080",
+      "location": {
+        "name": "San Francisco",
+        "country": "United States",
+        "lat": 37.7749,
+        "lng": -122.4194
+      },
+      "audio_bytes": 420816,
+      "audio_duration_s": 53.0,
+      "tts_chunks": 11,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "tldr-webdev-6d25dd9c4e74",
+      "title": "AI Handles Incidents, Engineers Lose Touch with Their Systems",
+      "summary": "Artificial intelligence tools are successfully handling routine alerts and fixes. Human engineers are losing touch with how their systems behave. Responders get less practice with the systems they oversee as automation resolves everyday issues. This creates the ironies of automation. Human-factors researcher, Lisanne Bainbridge, described this in nineteen eighty-three. Automation reduces routine practice while leaving humans responsible for abnormal situations.\n\nArtificial intelligence will likely lower mean time to resolution for routine problems. Resolution times for complex incidents may spike. Engineers will struggle to investigate unfamiliar failures. The aviation industry faces a similar dynamic. Automation handles routine flight. Pilots must still manage rare emergencies. Airline pilots regularly return to simulators to rehearse these rare emergencies. An example is an engine failure during takeoff.\n\nSoftware engineering teams face a similar need. They must prevent comprehension debt. This is the growing gap between system mechanics and responder understanding. Rootly and Uptime Labs formed a partnership to help. Engineers take the incident commander seat during realistic simulations. They practice troubleshooting and communication and coordination during mock outages.\n\nPassive instruction and watching artificial intelligence agents explain their diagnostic steps are not substitutes for hands-on practice. Engineering teams must use tabletop exercises and chaos engineering and simulations to maintain their skills. Responders will remain prepared when automation fails.",
+      "main": "AI",
+      "sub": "Products & Tools",
+      "category": "AI",
+      "subcategory": "Products & Tools",
+      "sources": [
+        {
+          "name": "tldr_webdev",
+          "url": "https://www.sylvainkalache.com/blog/ai-handles-incidents-engineers-lose-touch-with-their-systems",
+          "domain": "sylvainkalache.com",
+          "added_at": "2026-09-07T22:14:45.411594+00:00"
+        }
+      ],
+      "source": "tldr_webdev",
+      "source_url": "https://www.sylvainkalache.com/blog/ai-handles-incidents-engineers-lose-touch-with-their-systems",
+      "source_domain": "sylvainkalache.com",
+      "source_permalink": "https://tldr.tech/dev/2026-09-07",
+      "score": 350,
+      "author": "TLDR",
+      "published_at": "2026-09-07T22:14:45.411594+00:00",
+      "created_at_ts": 1788739200,
+      "audio_path": "audio/2026-09-07/tldr-webdev-6d25dd9c4e74-ai-handles-incidents-engineers-lose-touch-with-their-systems.mp3",
+      "word_count": 212,
+      "estimated_duration_s": 85,
+      "image_url": "https://www.sylvainkalache.com/blog/ai-handles-incidents-engineers-lose-touch-with-their-systems/social-card.jpg",
+      "location": null,
+      "audio_bytes": 747984,
+      "audio_duration_s": 96.7,
+      "tts_chunks": 23,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "tldr-infosec-deee42b7b664",
+      "title": "Attackers Breached JetBrains Cadence via Unpatched TeamCity, Extracting AWS Credentials",
+      "summary": "JetBrains is telling users of its Cadence cloud computing service to immediately revoke and rotate all credentials. This follows a security breach discovered on August twenty-third, twenty twenty-six. Unidentified hackers used an unpatched vulnerability in TeamCity to break into the system between August eighth and August twenty-fourth, twenty twenty-six. The security flaw is tracked as C. V. E. twenty twenty-six, sixty-three thousand seventy-seven. It has a Common Vulnerability Scoring System score of nine point eight. The flaw lets attackers bypass security checks and run arbitrary operating system commands. The Cybersecurity and Infrastructure Security Agency added the vulnerability to its catalog on August fifth, twenty twenty-six. JetBrains admitted the compromised server should have been patched earlier. Attackers accessed personal data like usernames, real names, email addresses, login timestamps, and internet protocol addresses. They also stole a full Cadence server backup from twenty twenty-four. That backup contained configuration data, logs, artifacts, and multiple Amazon Web Services Identity and Access Management users and credentials. The credentials belonged to JetBrains employees. Hackers also opened files stored in Simple Storage Service buckets within JetBrains accounts used by Cadence. They might have viewed source code synchronized from PyCharm projects. Daniel Gallo, Solutions Engineering Lead at JetBrains, said no extra users were affected beyond those already contacted. He noted that as a precaution, the team is treating the stored data as potentially exposed. JetBrains warned that this data leak raises the risk of targeted phishing, social engineering, and impersonation. The company advised users to treat all Cadence executions, inputs, and outputs as potentially untrusted while auditing connected systems for suspicious activity.",
+      "main": "TECH",
+      "sub": "Security & Privacy",
+      "category": "TECH",
+      "subcategory": "Security & Privacy",
+      "sources": [
+        {
+          "name": "tldr_infosec",
+          "url": "https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html",
+          "domain": "thehackernews.com",
+          "added_at": "2026-09-07T22:15:38.604061+00:00"
+        }
+      ],
+      "source": "tldr_infosec",
+      "source_url": "https://thehackernews.com/2026/09/attackers-breached-jetbrains-cadence.html",
+      "source_domain": "thehackernews.com",
+      "source_permalink": "https://tldr.tech/infosec/2026-09-07",
+      "score": 350,
+      "author": "TLDR",
+      "published_at": "2026-09-07T22:15:38.604061+00:00",
+      "created_at_ts": 1788739200,
+      "audio_path": "audio/2026-09-07/tldr-infosec-deee42b7b664-attackers-breached-jetbrains-cadence-via-unpatched-teamcity-.mp3",
+      "word_count": 264,
+      "estimated_duration_s": 106,
+      "image_url": null,
+      "location": {
+        "name": "Prague",
+        "country": "Czech Republic",
+        "lat": 50.0755,
+        "lng": 14.4378
+      },
+      "audio_bytes": 858120,
+      "audio_duration_s": 109.0,
+      "tts_chunks": 18,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "tldr-design-731846ffa667",
+      "title": "Leaker claims iPhone 18 Pro chip will have 7 GPU cores and faster RAM",
+      "summary": "Circuit diagrams posted to Weibo by user Fried White Rice suggest that the upcoming iPhone eighteen Pro models may feature a seven-core G. P. U. and a faster memory interface. These phones will use the anticipated A twenty Pro chip. The leaked images show where the chip attaches to the underlying circuit board. This forms the basis for architectural inferences. The diagrams indicate six C. P. U. cores in the same configuration as the previous model. This setup consists of two high-performance cores and four efficiency cores. However, the L two cache for the small C. P. U. cores appears to have increased. It goes from six megabytes in the A nineteen Pro to eight megabytes. Meanwhile, the L two cache for the large C. P. U. cores remains at sixteen megabytes. Trying to determine the G. P. U. core count from the solder diagrams is tricky. The analysts ultimately conclude that a seven-core G. P. U. is the most likely arrangement. This count is one more than its predecessor. This leak follows a recent suggestion by, Fixed Focus Digital. They claim the A twenty Pro chip will deliver an eighteen percent speed increase over the previous model. It will also bring thirty percent better power efficiency. These hardware improvements matter because they indicate significant performance and efficiency gains for future Apple devices.",
+      "main": "TECH",
+      "sub": "Consumer Tech",
+      "category": "TECH",
+      "subcategory": "Consumer Tech",
+      "sources": [
+        {
+          "name": "tldr_design",
+          "url": "https://9to5mac.com/2026/09/03/leaker-claims-iphone-18-pro-chip-will-have-7-gpu-cores-and-faster-ram/",
+          "domain": "9to5mac.com",
+          "added_at": "2026-09-07T22:16:36.694618+00:00"
+        }
+      ],
+      "source": "tldr_design",
+      "source_url": "https://9to5mac.com/2026/09/03/leaker-claims-iphone-18-pro-chip-will-have-7-gpu-cores-and-faster-ram/",
+      "source_domain": "9to5mac.com",
+      "source_permalink": "https://tldr.tech/design/2026-09-07",
+      "score": 350,
+      "author": "TLDR",
+      "published_at": "2026-09-07T22:16:36.694618+00:00",
+      "created_at_ts": 1788739200,
+      "audio_path": "audio/2026-09-07/tldr-design-731846ffa667-leaker-claims-iphone-18-pro-chip-will-have-7-gpu-cores-and-f.mp3",
+      "word_count": 223,
+      "estimated_duration_s": 89,
+      "image_url": "https://9to5mac.com/wp-content/uploads/sites/6/2026/09/Leaker-claims-iPhone-18-Pro-chip-will-have-7-GPU-cores-and-faster-RAM.jpg?quality=82&strip=all&resize=1200,628",
+      "location": {
+        "name": "Cupertino",
+        "country": "United States",
+        "lat": 37.323,
+        "lng": -122.0322
+      },
+      "audio_bytes": 603864,
+      "audio_duration_s": 77.2,
+      "tts_chunks": 16,
       "tts_voice": "am_liam",
       "audio_verdict": "unchecked"
     },
@@ -907,6 +1927,41 @@
       "audio_bytes": 379296,
       "audio_duration_s": 49.2,
       "tts_chunks": 14,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "rss-sciencedaily_top-0ebbc8b4cd1f",
+      "title": "Popular brain supplement linked to shorter lifespan in men",
+      "summary": "Higher blood levels of the amino acid tyrosine are linked to a shorter lifespan in men. This new study was published on September sixth, twenty twenty-six, in the journal Aging-US.\n\nResearchers from the University of Hong Kong and the University of Georgia analyzed data from more than two hundred seventy thousand participants in the U K. Biobank. They used observational data and Mendelian randomization, which is a genetic analysis technique.\n\nThe findings indicate that elevated tyrosine levels could potentially reduce male life expectancy by nearly a year. No significant effect was detected in women. Men generally showed higher baseline levels of tyrosine than women.\n\nAnother amino acid called phenylalanine was also examined in the research. Phenylalanine showed no association with lifespan in either men or women after controlling for tyrosine.\n\nTyrosine is found naturally in protein-rich foods. It is also widely sold as a dietary supplement to boost focus and mental performance. However, the researchers did not directly test tyrosine supplements. The study does not show that taking a supplement shortens lifespan.\n\nPotential biological explanations for the findings include links to insulin resistance and stress-response hormones. These mechanisms remain hypotheses requiring further investigation.\n\nThe findings could eventually help scientists understand differences in aging and longevity between the sexes. The authors emphasize that much more research is needed before the results can be translated into health or dietary recommendations.",
+      "main": "SCIENCE",
+      "sub": "Biology & Medicine",
+      "category": "SCIENCE",
+      "subcategory": "Biology & Medicine",
+      "sources": [
+        {
+          "name": "sciencedaily_top",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260904000330.htm",
+          "domain": "sciencedaily.com",
+          "added_at": "2026-09-07T22:01:50.584596+00:00"
+        }
+      ],
+      "source": "sciencedaily_top",
+      "source_url": "https://www.sciencedaily.com/releases/2026/09/260904000330.htm",
+      "source_domain": "sciencedaily.com",
+      "source_permalink": "https://www.sciencedaily.com/releases/2026/09/260904000330.htm",
+      "score": 100,
+      "author": "",
+      "published_at": "2026-09-07T22:01:50.584596+00:00",
+      "created_at_ts": 1788729685,
+      "audio_path": "audio/2026-09-07/rss-sciencedaily_top-0ebbc8b4cd1f-popular-brain-supplement-linked-to-shorter-lifespan-in-men.mp3",
+      "word_count": 228,
+      "estimated_duration_s": 91,
+      "image_url": "https://www.sciencedaily.com/images/1920/man-holding-supplement-capsule.webp",
+      "location": null,
+      "audio_bytes": 728664,
+      "audio_duration_s": 94.3,
+      "tts_chunks": 17,
       "tts_voice": "am_liam",
       "audio_verdict": "unchecked"
     },
@@ -2002,7 +3057,7 @@
       "estimated_duration_s": 118,
       "image_url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/9193/live/bc786310-a9bf-11f1-a47c-49756d8d78ae.jpg",
       "location": null,
-      "audio_bytes": 876528,
+      "audio_bytes": 874632,
       "audio_duration_s": 110.8,
       "tts_chunks": 16,
       "tts_voice": "am_liam",
@@ -3959,6 +5014,46 @@
       "audio_verdict": "unchecked"
     },
     {
+      "id": "rss-ars_technica-25e3bbb955fe",
+      "title": "Trump admin fights ABC lawsuit as watchdogs worry Disney will settle with FCC",
+      "summary": "The Federal Communications Commission yesterday urged a court to dismiss a lawsuit from Disney. The agency wants to continue a proceeding that could end in the nonrenewal of A. B. C. broadcast licenses.\n\nDisney sued the commission on August eighteenth. The company accused the agency of waging a campaign of censorship to retaliate against A. B. C. for speech that President Trump dislikes.\n\nMeanwhile, two watchdog groups and individual viewers of A. B. C. stations are trying to intervene in the lawsuit. They are worried Disney will agree to a settlement with the commission that is not in the public interest.\n\nDisney opposed the motion. A judge will have to decide whether the groups and individuals can act as intervenors in the case.\n\nAs the litigation gets underway, Trump continued his attacks on the media last weekend. He demanded that the commission punish or rebuke an N. B. C. journalist for stating that the president has mixed results in his election endorsements.",
+      "main": "US",
+      "sub": "Law & Courts",
+      "category": "US",
+      "subcategory": "Law & Courts",
+      "sources": [
+        {
+          "name": "ars_technica",
+          "url": "https://arstechnica.com/tech-policy/2026/09/trump-admin-fights-abc-lawsuit-as-watchdogs-worry-disney-will-settle-with-fcc/",
+          "domain": "arstechnica.com",
+          "added_at": "2026-09-07T22:17:20.728494+00:00"
+        }
+      ],
+      "source": "ars_technica",
+      "source_url": "https://arstechnica.com/tech-policy/2026/09/trump-admin-fights-abc-lawsuit-as-watchdogs-worry-disney-will-settle-with-fcc/",
+      "source_domain": "arstechnica.com",
+      "source_permalink": "https://arstechnica.com/tech-policy/2026/09/trump-admin-fights-abc-lawsuit-as-watchdogs-worry-disney-will-settle-with-fcc/",
+      "score": 100,
+      "author": "Jon Brodkin",
+      "published_at": "2026-09-07T22:17:20.728494+00:00",
+      "created_at_ts": 1788551194,
+      "audio_path": "audio/2026-09-07/rss-ars_technica-25e3bbb955fe-trump-admin-fights-abc-lawsuit-as-watchdogs-worry-disney-wil.mp3",
+      "word_count": 162,
+      "estimated_duration_s": 65,
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/disney-logo-1152x648-1788549990.jpg",
+      "location": {
+        "name": "Washington, D.C.",
+        "country": "United States",
+        "lat": 38.9072,
+        "lng": -77.0369
+      },
+      "audio_bytes": 424128,
+      "audio_duration_s": 55.3,
+      "tts_chunks": 10,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
       "id": "rss-dw_top-60c89d9e0e7d",
       "title": "Outrage as Maltese tycoon acquitted in journalist's murder",
       "summary": "A Maltese jury on Wednesday acquitted forty-four-year-old businessman Yorgen Fenech of ordering the twenty seventeen murder of investigative journalist Daphne Caruana Galizia. Eight of the nine jurors rejected the prosecution argument that Fenech contracted the October sixteenth twenty seventeen assassination. That attack was carried out using a car bomb. The verdict provoked angry protests outside the Valletta courthouse. Demonstrators shouted mafia and murderer as Fenech departed. The victim son Matthew Caruana Galizia called the decision obscene. He stated on Facebook that it flies in the face of all evidence and of all logic and of the truth. Fenech had spent more than five years in detention following his November twentieth twenty nineteen arrest aboard his yacht Gio. He was later released on bail in early twenty twenty-five. The prosecution case relied heavily on confessed middleman Melvin Theuma. He received a pardon to testify that Fenech ordered the killing over Caruana Galizia investigations into his company seventeen Black and the ElectroGas consortium. Defense lawyers questioned Theuma credibility. They pointed to unpursued evidence regarding former prime minister Joseph Muscat chief of staff, Keith Schembri. Schembri has denied involvement and was not charged. Judge Edwina Grima has ordered trial evidence passed to the police chief to determine if other suspects will face criminal proceedings.",
@@ -4295,6 +5390,46 @@
       "audio_bytes": 679344,
       "audio_duration_s": 86.7,
       "tts_chunks": 16,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "rss-guardian_world-1b0762979d37",
+      "title": "UN votes to adopt new world map that shows Africa’s true scale",
+      "summary": "The United Nations General Assembly has voted to adopt a resolution. This resolution phases out the sixteenth-century Mercator map projection. It replaces the old design with the twenty eighteen Equal Earth design. The new map more accurately displays Africa's true scale. One hundred sixty-four countries voted in favor at United Nations headquarters in New York. Six countries abstained. Only the United States voted no. The American representative called the resolution superfluous. Togo spearheaded the campaign for the resolution on behalf of the African Union. Flemish cartographer Gerardus Mercator introduced the traditional map in fifteen sixty-nine to help sailors navigate. The traditional map makes regions near the equator appear smaller. It enlarges high latitude areas. This distortion makes Africa look roughly the same size as Greenland. In reality, the African continent is fourteen times larger than Greenland. Togo’s foreign affairs minister, Robert Dussey, spoke before the vote. He said the change is a scientific necessity. He stated that the discussion relies on scientific proof so everyone must accept reality. France’s foreign minister, Jean-Noël Barrot, also spoke in support of the resolution prior to the vote. He announced that France will abandon the Mercator projection. France will use representations like the Eckert IV projection instead. Togo plans to host an event in Lomé with, U. N. E. S. C. O., the African Union, and tech brands during the first quarter of next year. Google Maps is one of those tech brands. They will map out the implementation of the resolution at the event.",
+      "main": "WORLD",
+      "sub": "Society & Culture",
+      "category": "WORLD",
+      "subcategory": "Society & Culture",
+      "sources": [
+        {
+          "name": "guardian_world",
+          "url": "https://www.theguardian.com/world/2026/sep/04/un-vote-world-map-mercator-equal-earth-africa",
+          "domain": "theguardian.com",
+          "added_at": "2026-09-07T22:10:38.135395+00:00"
+        }
+      ],
+      "source": "guardian_world",
+      "source_url": "https://www.theguardian.com/world/2026/sep/04/un-vote-world-map-mercator-equal-earth-africa",
+      "source_domain": "theguardian.com",
+      "source_permalink": "https://www.theguardian.com/world/2026/sep/04/un-vote-world-map-mercator-equal-earth-africa",
+      "score": 100,
+      "author": "Eromo Egbejule in Abidjan",
+      "published_at": "2026-09-07T22:10:38.135395+00:00",
+      "created_at_ts": 1788540569,
+      "audio_path": "audio/2026-09-07/rss-guardian_world-1b0762979d37-un-votes-to-adopt-new-world-map-that-shows-africas-true-scal.mp3",
+      "word_count": 251,
+      "estimated_duration_s": 100,
+      "image_url": "https://i.guim.co.uk/img/media/71b8b31a0e418f2093686dd8f0ce5c843b3989ca/0_0_5000_4000/master/5000.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=e4bf8b0c1c010e49c5b5d60a55e13c35",
+      "location": {
+        "name": "New York",
+        "country": "United States",
+        "lat": 40.7128,
+        "lng": -74.006
+      },
+      "audio_bytes": 741840,
+      "audio_duration_s": 95.0,
+      "tts_chunks": 23,
       "tts_voice": "am_liam",
       "audio_verdict": "unchecked"
     },
@@ -5817,6 +6952,46 @@
       "audio_verdict": "unchecked"
     },
     {
+      "id": "rss-ars_science-25291f243b68",
+      "title": "Just like a fruit fly, a new algorithm never forgets old scents",
+      "summary": "Researchers at the Okinawa Institute of Science and Technology have developed a new algorithm named Spi-Fly. The algorithm mimics the olfactory processing of fruit flies. Fruit flies possess roughly one hundred forty thousand neurons. Their brain is smaller than a poppy seed.\n\nThe work is led by Kevin Max and Yang Shen. Their work is described in a paper published in the journal Neuromorphic Computing and Engineering. Current electronic noses on the market are expensive. They are also narrow in what they can detect. These devices quickly forget older odors when learning new ones.\n\nIn contrast, the new algorithm aims to replicate a specific ability. It mimics the ability of Drosophila to sort through a wide range of smells quickly. It also helps retain those memories over time.",
+      "main": "SCIENCE",
+      "sub": "Engineering & Robotics",
+      "category": "SCIENCE",
+      "subcategory": "Engineering & Robotics",
+      "sources": [
+        {
+          "name": "ars_science",
+          "url": "https://arstechnica.com/science/2026/09/just-like-a-fruit-fly-a-new-algorithm-never-forgets-old-scents/",
+          "domain": "arstechnica.com",
+          "added_at": "2026-09-07T21:59:23.093352+00:00"
+        }
+      ],
+      "source": "ars_science",
+      "source_url": "https://arstechnica.com/science/2026/09/just-like-a-fruit-fly-a-new-algorithm-never-forgets-old-scents/",
+      "source_domain": "arstechnica.com",
+      "source_permalink": "https://arstechnica.com/science/2026/09/just-like-a-fruit-fly-a-new-algorithm-never-forgets-old-scents/",
+      "score": 100,
+      "author": "Federica Sgorbissa",
+      "published_at": "2026-09-07T21:59:23.093352+00:00",
+      "created_at_ts": 1788459772,
+      "audio_path": "audio/2026-09-07/rss-ars_science-25291f243b68-just-like-a-fruit-fly-a-new-algorithm-never-forgets-old-scen.mp3",
+      "word_count": 128,
+      "estimated_duration_s": 51,
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-1168455519-1152x648.jpg",
+      "location": {
+        "name": "Cambridge",
+        "country": "United States",
+        "lat": 42.3736,
+        "lng": -71.1097
+      },
+      "audio_bytes": 359520,
+      "audio_duration_s": 46.6,
+      "tts_chunks": 12,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
       "id": "rss-ars_science-d568df2ae188",
       "title": "Meet the 2026 Ig Nobel Prize winners",
       "summary": "The winners of the twenty twenty-six Ig Nobel Prizes have been announced. These awards honor quirky scientific research that first makes people laugh and then makes them think. The prizes were established in nineteen ninety-one as a parody of the Nobel Prizes. This year, the accolades recognize studies on designing the perfect splash-free urinal. They also honor using mosquito proboscises to necroprint tiny nozzles. Other winning studies cover the composition rates of buried cotton underwear and the aerodynamics of a healthy nose-blow. The campy awards ceremony features miniature operas and scientific demonstrations. It also includes twenty-four seven lectures where experts must explain their work twice. They must explain it first in twenty-four seconds and then in just seven words. Acceptance speeches are strictly limited to sixty seconds. Following the ceremony, winners will deliver free public talks. These talks will be posted on the Improbable Research website.",
@@ -6696,6 +7871,46 @@
       "main": "US",
       "sub": "Disasters",
       "subcategory": "Disasters"
+    },
+    {
+      "id": "rss-huggingface_blog-86b47b47cb74",
+      "title": "Give Your Coding Agents a Memory You Own",
+      "summary": "A new open-source tool called funes provides a durable and local memory layer for coding agents. It supports agents including Claude Code, Codex, pi, and Hermes. The system is built from the sessions already on your machine. It works locally to become part of your agent normal workflow.\n\nThe system allows agents to recall exact raw text evidence instead of summaries. This evidence includes the agent name, timestamp, session, and turn provenance. You can add it to an agent with a single command. That command builds the first index and gives the agent recall and get tools. It also installs the automation that indexes each completed turn.\n\nMemory can be synchronized across machines and shared with teams. You do this by binding a Hugging Face dataset when you add it to an agent. The software includes built-in credential redaction. This feature scans and withholds secrets before publishing to the Hub.\n\nIn benchmark testing against agent compaction and written handoffs, funes recall performed very well. It tested tasks requiring prior session knowledge. Funes recall avoided the flattening failures of compaction. It also proved to be four to eight times cheaper than a written handoff.\n\nEmbedding and reranking run on your machine. Its default inference backend has no machine learning runtime dependency.",
+      "main": "TECH",
+      "sub": "Software & Open Source",
+      "category": "TECH",
+      "subcategory": "Software & Open Source",
+      "sources": [
+        {
+          "name": "huggingface_blog",
+          "url": "https://huggingface.co/blog/funes",
+          "domain": "huggingface.co",
+          "added_at": "2026-09-07T21:56:31.962272+00:00"
+        }
+      ],
+      "source": "huggingface_blog",
+      "source_url": "https://huggingface.co/blog/funes",
+      "source_domain": "huggingface.co",
+      "source_permalink": "https://huggingface.co/blog/funes",
+      "score": 100,
+      "author": "",
+      "published_at": "2026-09-07T21:56:31.962272+00:00",
+      "created_at_ts": 1788393600,
+      "audio_path": "audio/2026-09-07/rss-huggingface_blog-86b47b47cb74-give-your-coding-agents-a-memory-you-own.mp3",
+      "word_count": 210,
+      "estimated_duration_s": 84,
+      "image_url": "https://huggingface.co/blog/assets/funes/thumbnail.jpg",
+      "location": {
+        "name": "New York",
+        "country": "United States",
+        "lat": 40.7128,
+        "lng": -74.006
+      },
+      "audio_bytes": 585744,
+      "audio_duration_s": 76.4,
+      "tts_chunks": 19,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
     },
     {
       "id": "rss-openai_blog-2e155b11d809",
@@ -9262,5 +10477,5 @@
       "subcategory": "Models & Research"
     }
   ],
-  "updated_at": "2026-09-07T18:04:20.199087+00:00"
+  "updated_at": "2026-09-07T22:20:33.535348+00:00"
 }

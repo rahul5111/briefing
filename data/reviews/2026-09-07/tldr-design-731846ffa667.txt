@@ -1,0 +1,41 @@
+═══ 00_KEY_POINTS ═══
+
+1. A Chinese leaker posted circuit diagrams suggesting the upcoming iPhone 18 Pro will feature a new A20 Pro chip.
+2. The leaked diagrams indicate the A20 Pro chip may include seven GPU cores instead of the previous six.
+3. The L2 cache for the efficiency cores is expected to increase from 6 MB to 8 MB.
+4. Fixed Focus Digital suggested the A20 Pro chip will be 18 percent faster than its predecessor.
+5. The new chip is also expected to deliver 30 percent better power efficiency compared to earlier models.
+6. These hardware improvements matter because they indicate significant performance and efficiency gains for future Apple devices.
+
+═══ 01_DRAFT ═══
+
+Circuit diagrams posted to Weibo by user Fried White Rice suggest that the upcoming iPhone 18 Pro models, powered by the anticipated A20 Pro chip, may feature a seven-core GPU and a faster memory interface. The leaked images show where the chip attaches to the underlying circuit board, forming the basis for architectural inferences. The diagrams indicate six CPU cores in the same configuration as the previous model, consisting of two high-performance cores and four efficiency cores. However, the L2 cache for the small CPU cores appears to have increased from 6 MB in the A19 Pro to 8 MB, while the L2 cache for the large CPU cores remains at 16 MB. Regarding the graphics processing unit, analyzing the solder-ball positions and layout across multiple configurations points to a seven-core GPU as the most plausible arrangement, an increase of one core over its predecessor. This follows a recent suggestion by Fixed Focus Digital that the A20 Pro chip will deliver an 18 percent speed increase over the previous model alongside 30 percent better power efficiency.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Circuit diagrams posted to Weibo by user Fried White Rice suggest that the upcoming iPhone 18 Pro models, powered by the anticipated A20 Pro chip, may feature a seven-core GPU and a faster memory interface. The leaked images show where the chip attaches to the underlying circuit board, forming the basis for architectural inferences. The diagrams indicate six CPU cores in the same configuration as the previous model, consisting of two high-performance cores and four efficiency cores. However, the L2 cache for the small CPU cores appears to have increased from 6 MB in the A19 Pro to 8 MB, while the L2 cache for the large CPU cores remains at 16 MB. Trying to determine the GPU core count from the solder diagrams is tricky, but they ultimately conclude that a seven-core GPU—one more than its predecessor—is the most likely arrangement. This follows a recent suggestion by Fixed Focus Digital that the A20 Pro chip will deliver an 18 percent speed increase over the previous model alongside 30 percent better power efficiency.
+
+═══ 03_COVERAGE_1 ═══
+
+83% covered (5/6). Missing: These hardware improvements matter because they indicate significant performance and efficiency gains for future Apple devices.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+Circuit diagrams posted to Weibo by user Fried White Rice suggest that the upcoming iPhone 18 Pro models, powered by the anticipated A20 Pro chip, may feature a seven-core GPU and a faster memory interface. The leaked images show where the chip attaches to the underlying circuit board, forming the basis for architectural inferences. The diagrams indicate six CPU cores in the same configuration as the previous model, consisting of two high-performance cores and four efficiency cores. However, the L2 cache for the small CPU cores appears to have increased from 6 MB in the A19 Pro to 8 MB, while the L2 cache for the large CPU cores remains at 16 MB. Trying to determine the GPU core count from the solder diagrams is tricky, but they ultimately conclude that a seven-core GPU—one more than its predecessor—is the most likely arrangement. This follows a recent suggestion by Fixed Focus Digital that the A20 Pro chip will deliver an 18 percent speed increase over the previous model alongside 30 percent better power efficiency. These hardware improvements matter because they indicate significant performance and efficiency gains for future Apple devices.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Circuit diagrams posted to Weibo by user Fried White Rice suggest that the upcoming iPhone eighteen Pro models may feature a seven-core G. P. U. and a faster memory interface. These phones will use the anticipated A twenty Pro chip. The leaked images show where the chip attaches to the underlying circuit board. This forms the basis for architectural inferences. The diagrams indicate six C. P. U. cores in the same configuration as the previous model. This setup consists of two high-performance cores and four efficiency cores. However, the L two cache for the small C. P. U. cores appears to have increased. It goes from six megabytes in the A nineteen Pro to eight megabytes. Meanwhile, the L two cache for the large C. P. U. cores remains at sixteen megabytes. Trying to determine the G. P. U. core count from the solder diagrams is tricky. The analysts ultimately conclude that a seven-core G. P. U. is the most likely arrangement. This count is one more than its predecessor. This leak follows a recent suggestion by, Fixed Focus Digital. They claim the A twenty Pro chip will deliver an eighteen percent speed increase over the previous model. It will also bring thirty percent better power efficiency. These hardware improvements matter because they indicate significant performance and efficiency gains for future Apple devices.
+
+═══ 05_NORMALIZED ═══
+
+Circuit diagrams posted to Weibo by user Fried White Rice suggest that the upcoming iPhone eighteen Pro models may feature a seven-core G. P. U. and a faster memory interface. These phones will use the anticipated A twenty Pro chip. The leaked images show where the chip attaches to the underlying circuit board. This forms the basis for architectural inferences. The diagrams indicate six C. P. U. cores in the same configuration as the previous model. This setup consists of two high-performance cores and four efficiency cores. However, the L two cache for the small C. P. U. cores appears to have increased. It goes from six megabytes in the A nineteen Pro to eight megabytes. Meanwhile, the L two cache for the large C. P. U. cores remains at sixteen megabytes. Trying to determine the G. P. U. core count from the solder diagrams is tricky. The analysts ultimately conclude that a seven-core G. P. U. is the most likely arrangement. This count is one more than its predecessor. This leak follows a recent suggestion by, Fixed Focus Digital. They claim the A twenty Pro chip will deliver an eighteen percent speed increase over the previous model. It will also bring thirty percent better power efficiency. These hardware improvements matter because they indicate significant performance and efficiency gains for future Apple devices.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: awkward punctuation
+

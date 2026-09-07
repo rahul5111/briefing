@@ -1,0 +1,58 @@
+═══ 00_KEY_POINTS ═══
+
+1. A 135-minute video by Gamers Nexus revealed that LG smart TVs continuously sweep home networks.
+2. Tested retail LG OLED models included the G5, according to the security researchers.
+3. LG Ad Solutions claims access to 363 million secondary addressable devices in the US alone.
+4. The tested LG smart TV captured clean microphone audio while the screen appeared powered down.
+5. When disconnected, the TV saved voice input locally and uploaded the files once reconnected.
+6. Researchers documented remote code execution vulnerabilities in webOS moving through responsible disclosure.
+7. The team recommended disconnecting LG sets from the internet and using external streaming devices.
+
+═══ 01_DRAFT ═══
+
+A 135-minute video published by Gamers Nexus reveals that retail LG OLED television models, including the G5, continuously sweep home networks, map secondary devices, and log microphone audio even while appearing to be powered down in standby mode. Steve of Gamers Nexus conducted the testing alongside Level1Techs and independent security researchers. Network packet captures using Wireshark showed the televisions actively scanning local area networks for unrelated hardware such as phones and smartwatches, while also gathering internal IP addresses, neighboring Wi-Fi network names, signal strengths, and location data. This collected data is fed into LG Ad Solutions, the company targeted advertising arm. While LG claims roughly 216 million smart TV sales globally, the ad division states it has access to 363 million secondary addressable devices in the US alone by tracking other hardware on the same network. The sets also run Automated Content Recognition, sampling on-screen audio and video into digital fingerprints to log what users watch across inputs. During bench tests, researchers found the TV could capture clean microphone audio while the screen looked powered down, and when disconnected from Ethernet, the set continued saving voice input locally and uploaded the stored files once network access was restored. Additionally, the researchers documented remote code execution vulnerabilities in webOS that are moving through the responsible disclosure process. Because the televisions use broad network listeners and data sweeps out of the box, the team recommended disconnecting LG sets from the internet and using external streaming devices instead. LG has not commented on the findings.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+A 135-minute video published by Gamers Nexus reveals that retail LG OLED television models, including the G5, continuously sweep home networks, map secondary devices, and log microphone audio even while appearing to be powered down in standby mode. Steve of Gamers Nexus conducted the testing alongside Level1Techs and independent security researchers. Network packet captures using Wireshark showed the televisions actively scanning local area networks for unrelated hardware such as phones and smartwatches, while also gathering internal IP addresses, neighboring Wi-Fi network names, signal strengths, and location data. This collected data is fed into LG Ad Solutions, the company targeted advertising arm. While LG claims roughly 216 million smart TV sales globally, the ad division states it has access to 363 million secondary addressable devices in the US alone by tracking other hardware on the same network. The sets also run Automated Content Recognition, sampling on-screen audio and video into digital fingerprints to log what users watch across inputs. During bench tests, researchers found the TV could capture clean microphone audio while the screen looked powered down, and when disconnected from Ethernet, the set continued saving voice input locally and uploaded the stored files once network access was restored. Furthermore, the researchers documented remote code execution vulnerabilities in webOS that are currently moving through the responsible disclosure process. Because the televisions use broad network listeners and data sweeps out of the box, the team recommended disconnecting LG sets from the internet and using external streaming devices instead. LG has not commented on the findings.
+
+═══ 02b_TRIMMED ═══
+
+A 135-minute video published by Gamers Nexus reveals that retail LG OLED television models, including the G5, continuously sweep home networks, map secondary devices, and log microphone audio even while appearing to be powered down in standby mode. Steve of Gamers Nexus conducted the testing alongside Level1Techs and independent security researchers. Network packet captures using Wireshark showed the televisions actively scanning local area networks for unrelated hardware such as phones and smartwatches, while also gathering internal IP addresses, neighboring Wi-Fi network names, signal strengths, and location data. This collected data is fed into LG Ad Solutions, the company targeted advertising arm. While LG claims roughly 216 million smart TV sales globally, the ad division states it has access to 363 million secondary addressable devices in the US alone by tracking other hardware on the same network. The sets also run Automated Content Recognition, sampling on-screen audio and video into digital fingerprints to log what users watch across inputs. During bench tests, researchers found the TV could capture clean microphone audio while the screen looked powered down, and when disconnected from Ethernet, the set continued saving voice input locally and uploaded the stored files once network access was restored. Because the televisions use broad network listeners and data sweeps out of the box, the team recommended disconnecting LG sets from the internet and using external streaming devices instead. LG has not commented on the findings.
+
+═══ 03_COVERAGE_1 ═══
+
+85% covered (6/7). Missing: Researchers documented remote code execution vulnerabilities in webOS moving through responsible disclosure.
+
+═══ 04_AUDIO_REWRITE ═══
+
+A one hundred thirty-five minute video published by Gamers Nexus reveals a major privacy issue. Retail L. G. O. L. E. D. television models sweep home networks and log microphone audio. These sets continue these actions even while appearing to be powered down in standby mode. 
+
+Steve of Gamers Nexus conducted the testing alongside Level1Techs and independent security researchers. Network packet captures using Wi-Fi Shark showed the televisions actively scanning local area networks for unrelated hardware like phones and smartwatches. The sets also gather internal I. P. addresses and neighboring Wi-Fi network names alongside signal strengths and location data. 
+
+This collected data feeds directly into L. G. Ad Solutions, which is the targeted advertising arm of the company. L. G. claims roughly two hundred sixteen million smart T. V. sales globally. Their ad division states it has access to three hundred sixty-three million secondary addressable devices in the United States alone by tracking other hardware on the same network. 
+
+The sets also run Automated Content Recognition. This software samples on screen audio and video into digital fingerprints to log what users watch across all inputs. During bench tests, researchers found the T. V. could capture clean microphone audio while the screen looked powered down. 
+
+When disconnected from Ethernet, the set continued saving voice input locally. It then uploaded the stored files once network access was restored. Because the televisions use broad network listeners and data sweeps right out of the box, the team made a clear recommendation. They suggest disconnecting L. G. sets from the internet and using external streaming devices instead. L. G. has not commented on the findings.
+
+═══ 05_NORMALIZED ═══
+
+A one hundred thirty-five minute video published by Gamers Nexus reveals a major privacy issue. Retail L. G. O. L. E. D. television models sweep home networks and log microphone audio. These sets continue these actions even while appearing to be powered down in standby mode.
+
+Steve of Gamers Nexus conducted the testing alongside Level1Techs and independent security researchers. Network packet captures using Wi-Fi Shark showed the televisions actively scanning local area networks for unrelated hardware like phones and smartwatches. The sets also gather internal I. P. addresses and neighboring Wi-Fi network names alongside signal strengths and location data.
+
+This collected data feeds directly into L. G. Ad Solutions, which is the targeted advertising arm of the company. L. G. claims roughly two hundred sixteen million smart T. V. sales globally. Their ad division states it has access to three hundred sixty-three million secondary addressable devices in the United States alone by tracking other hardware on the same network.
+
+The sets also run Automated Content Recognition. This software samples on screen audio and video into digital fingerprints to log what users watch across all inputs. During bench tests, researchers found the T. V. could capture clean microphone audio while the screen looked powered down.
+
+When disconnected from Ethernet, the set continued saving voice input locally. It then uploaded the stored files once network access was restored. Because the televisions use broad network listeners and data sweeps right out of the box, the team made a clear recommendation. They suggest disconnecting L. G. sets from the internet and using external streaming devices instead. L. G. has not commented on the findings.
+
+═══ 06_COVERAGE_FINAL ═══
+
+71% covered (5/7). Missing: Tested retail LG OLED models included the G5, according to the security researchers.; Researchers documented remote code execution vulnerabilities in webOS moving through responsible disclosure.
+
+═══ 07_SANITY ═══
+
+ISSUES: unspoken/unspaced acronyms
+

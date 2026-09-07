@@ -1,0 +1,86 @@
+═══ 00_KEY_POINTS ═══
+
+1. An Amazon cargo jet overran the Miami International Airport runway by about 1,300 feet on Sunday.
+2. The crash killed at least five people, injured at least five others, and struck two vehicles.
+3. NTSB chair Jennifer Homendy described the accident scene during a press briefing as utter devastation.
+4. Investigators recovered both the flight data recorder and the cockpit voice recorder for evaluation.
+5. The aircraft was being operated for Amazon by the contractor 21 Air LLC.
+6. Fatalities occurred when the plane hit a cleaning company van and a passenger vehicle.
+7. The tragic accident snarled air travel during a busy holiday travel weekend with massive delays and cancellations.
+
+═══ 01_DRAFT ═══
+
+An Amazon cargo jet operated by 21 Air LLC crashed at Miami International Airport on Sunday at around 2 p.m. after arriving from San Juan, Puerto Rico, overrunning the runway by about 1,300 feet. The accident killed at least five people and injured at least five others. National Transportation Safety Board Chair Jennifer Homendy described the accident scene during a Monday press briefing as utter devastation, stating, "There's debris everywhere." The fatalities occurred when the aircraft struck two vehicles: a 2021 white Ford Econoline van carrying seven people, and a Toyota Corolla Cross located outside the airport boundary after the plane busted through a perimeter fence. The jet also slid through a fence separating an area where Tesla robotaxis were stationed before finally stopping. Investigators have recovered the flight data recorder and cockpit voice recorder, which are headed to NTSB headquarters for evaluation. The NTSB will examine the operational relationship and safety provisions between Amazon and 21 Air. The crash closed two of Miami International Airport's four runways, disrupting holiday travel with more than 160 flight cancellations and nearly 325 delays by late Sunday, with delays continuing into Monday.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+An Amazon cargo jet operated by 21 Air LLC crashed at Miami International Airport on Sunday at around 2 p.m. after arriving from San Juan, Puerto Rico, overrunning the runway by about 1,300 feet. The accident killed at least five people and injured at least five others. National Transportation Safety Board Chair Jennifer Homendy described the accident scene during a Monday press briefing as "utter devastation," stating, "There's debris everywhere." The fatalities occurred when the aircraft struck a 2021 white Ford Econoline van carrying seven people and busted through a perimeter fence to hit a Toyota Corolla Cross located outside the airport. The jet also slid through a fence separating an area where Tesla robotaxis were stationed before finally stopping. Investigators have recovered the flight data recorder and cockpit voice recorder, which are headed to NTSB headquarters for evaluation. The NTSB will examine the operational relationship and safety provisions between Amazon and 21 Air. The crash closed two of Miami International Airport's four runways, disrupting holiday travel with more than 160 flight cancellations and nearly 325 delays by late Sunday, with delays continuing into Monday.
+
+═══ 02b_TRIMMED ═══
+
+An Amazon cargo jet operated by 21 Air LLC crashed at Miami International Airport on Sunday at around 2 p.m. after arriving from San Juan, Puerto Rico, overrunning the runway by about 1,300 feet. The accident killed at least five people and injured at least five others. The jet also slid through a fence separating an area where Tesla robotaxis were stationed before finally stopping. Investigators have recovered the flight data recorder and cockpit voice recorder, which are headed to NTSB headquarters for evaluation. The NTSB will examine the operational relationship and safety provisions between Amazon and 21 Air. The crash closed two of Miami International Airport's four runways, disrupting holiday travel with more than 160 flight cancellations and nearly 325 delays by late Sunday, with delays continuing into Monday.
+
+═══ 03_COVERAGE_1 ═══
+
+71% covered (5/7). Missing: NTSB chair Jennifer Homendy described the accident scene during a press briefing as utter devastation.; Fatalities occurred when the plane hit a cleaning company van and a passenger vehicle.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+An Amazon cargo jet operated by 21 Air LLC crashed at Miami International Airport on Sunday at around 2 p.m. after arriving from San Juan, Puerto Rico, overrunning the runway by about 1,300 feet. The accident killed at least five people and injured at least five others. Fatalities occurred when the plane hit a cleaning company van and a passenger vehicle. NTSB chair Jennifer Homendy described the accident scene during a press briefing as utter devastation. The jet also slid through a fence separating an area where Tesla robotaxis were stationed before finally stopping. Investigators have recovered the flight data recorder and cockpit voice recorder, which are headed to NTSB headquarters for evaluation. The NTSB will examine the operational relationship and safety provisions between Amazon and 21 Air. The crash closed two of Miami International Airport's four runways, disrupting holiday travel with more than 160 flight cancellations and nearly 325 delays by late Sunday, with delays continuing into Monday.
+
+═══ 04_AUDIO_REWRITE ═══
+
+An Amazon cargo jet operated by twenty-one Air L. L. C. crashed at Miami International Airport on Sunday at around two p.m. 
+
+The plane arrived from San Juan, Puerto Rico, and overran the runway by about thirteen hundred feet. 
+
+The accident killed at least five people and injured at least five others. 
+
+Fatalities occurred when the plane hit a cleaning company van and a passenger vehicle. 
+
+N. T. S. B. chair, Jennifer Homendy, described the accident scene during a press briefing as utter devastation. 
+
+The jet also slid through a fence separating an area where Tesla robotaxis were stationed before finally stopping. 
+
+Investigators have recovered the flight data recorder and cockpit voice recorder, which are headed to N. T. S. B. headquarters for evaluation. 
+
+The N. T. S. B. will examine the operational relationship and safety provisions between Amazon and twenty-one Air. 
+
+The crash closed two of Miami International Airport's four runways. 
+
+This disrupted holiday travel with more than one hundred sixty flight cancellations and nearly three hundred twenty-five delays by late Sunday. 
+
+The delays continued into Monday.
+
+═══ 05_NORMALIZED ═══
+
+An Amazon cargo jet operated by twenty-one Air L. L. C. crashed at Miami International Airport on Sunday at around two p.m.
+
+The plane arrived from San Juan, Puerto Rico, and overran the runway by about thirteen hundred feet.
+
+The accident killed at least five people and injured at least five others.
+
+Fatalities occurred when the plane hit a cleaning company van and a passenger vehicle.
+
+N. T. S. B. chair, Jennifer Homendy, described the accident scene during a press briefing as utter devastation.
+
+The jet also slid through a fence separating an area where Tesla robotaxis were stationed before finally stopping.
+
+Investigators have recovered the flight data recorder and cockpit voice recorder, which are headed to N. T. S. B. headquarters for evaluation.
+
+The N. T. S. B. will examine the operational relationship and safety provisions between Amazon and twenty-one Air.
+
+The crash closed two of Miami International Airport's four runways.
+
+This disrupted holiday travel with more than one hundred sixty flight cancellations and nearly three hundred twenty-five delays by late Sunday.
+
+The delays continued into Monday.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (7/7). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: unspaced acronyms
+

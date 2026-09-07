@@ -1,0 +1,42 @@
+═══ 00_KEY_POINTS ═══
+
+1. OpenAI's GPT-6 Astra was tested on robotic manipulation using the same YAM arms and Inspect Robots agent policy.
+2. On the bowl task, Astra successfully placed the red block in 19 of 20 trials.
+3. Astra completed the bowl task in 2.5 minutes per trial at an estimated cost of $0.94 per run.
+4. On the puzzle task, Astra completed the circular groove insertion 2 times in 20 trials at $1.36 per run.
+5. Astra completed the bowl task far more often and at about half the cost per run compared to Fable 5.1.
+6. Every counted trial across the tests totaled 120, with scores determined by a human grader.
+7. Astra's trials were run two days after the Fable trials and were not interleaved with them.
+
+═══ 01_DRAFT ═══
+
+In a comparative test published on September 4, 2026, OpenAI's GPT-6 Astra was given control of YAM arms under the Inspect Robots agent policy to evaluate its performance on robotic manipulation tasks against earlier models. Tested on two specific tasks, Astra completed the first task of picking up a red block and placing it inside a bowl in 19 of 20 trials, compared to 8 of 20 for Fable 5.1 and 1 of 20 for Fable 5. Astra averaged 2.5 minutes per trial at an estimated cost of $0.94 per run, while Fable 5.1 averaged 6.8 minutes at $2.12. On the second task of picking up a round blue puzzle piece by its center knob and placing it into a matching circular groove, Astra completed the insertion 2 times out of 20, matching Fable 5.1's score of 2 out of 20 while costing $1.36 per run compared to Fable 5.1's $2.18. A total of 120 trials were evaluated using a human grader rubric measuring the highest stage each run reached. Limitations noted in the testing include non-interleaved trial dates, the use of a different physical rig for the Fable bowl trials because rig-3 was unavailable, unblinded operator grading that leaves scores open to unconscious bias, manual resetting of objects between trials, a medium reasoning effort setting across all models, and cost calculations based on list prices where OpenAI automatically cached roughly one-fifth of Astra's inputs while Anthropic requests were sent without prompt caching.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+In a comparative test published on September 4, 2026, OpenAI's GPT-6 Astra was given control of YAM arms under the Inspect Robots agent policy to evaluate its performance on robotic manipulation tasks against earlier models. Tested on two specific tasks, Astra placed the block in the bowl in 19 of 20 trials, compared to 8 of 20 for Fable 5.1 and 1 of 20 for Fable 5. Astra averaged 2.5 minutes per trial at an estimated cost of $0.94 per run, while Fable 5.1 averaged 6.8 minutes at $2.12. On the second task of picking up a round blue puzzle piece by its center knob and placing it into a matching circular groove, Astra completed the insertion 2 times out of 20, matching Fable 5.1's score of 2 out of 20 while costing $1.36 per run compared to Fable 5.1's $2.18. A total of 120 trials were evaluated using a human grader rubric measuring the highest stage each run reached. Limitations noted in the testing include non-interleaved trial dates, the use of a different physical rig for the Fable bowl trials because rig-3 was unavailable, unblinded operator grading that leaves scores open to unconscious bias, manual resetting of objects between trials, a medium reasoning effort setting across all models, and cost calculations based on list prices where OpenAI automatically cached roughly one-fifth of Astra's inputs while Anthropic requests were sent without prompt caching.
+
+═══ 02b_TRIMMED ═══
+
+In a comparative test published on September 4, 2026, OpenAI's GPT-6 Astra was given control of YAM arms under the Inspect Robots agent policy to evaluate its performance on robotic manipulation tasks against earlier models. Astra averaged 2.5 minutes per trial at an estimated cost of $0.94 per run, while Fable 5.1 averaged 6.8 minutes at $2.12. On the second task of picking up a round blue puzzle piece by its center knob and placing it into a matching circular groove, Astra completed the insertion 2 times out of 20, matching Fable 5.1's score of 2 out of 20 while costing $1.36 per run compared to Fable 5.1's $2.18. A total of 120 trials were evaluated using a human grader rubric measuring the highest stage each run reached. Limitations noted in the testing include non-interleaved trial dates, the use of a different physical rig for the Fable bowl trials because rig-3 was unavailable, unblinded operator grading that leaves scores open to unconscious bias, manual resetting of objects between trials, a medium reasoning effort setting across all models, and cost calculations based on list prices where OpenAI automatically cached roughly one-fifth of Astra's inputs while Anthropic requests were sent without prompt caching.
+
+═══ 03_COVERAGE_1 ═══
+
+85% covered (6/7). Missing: On the bowl task, Astra successfully placed the red block in 19 of 20 trials.
+
+═══ 04_AUDIO_REWRITE ═══
+
+OpenA. I.'s G. P. T.-six Astra was tested on September fourth, twenty twenty-six. It controlled robotic arms to evaluate manipulation tasks against earlier models. Astra averaged two point five minutes per trial. The cost was estimated at ninety-four cents per run. Fable five point one averaged six point eight minutes per trial. Its cost was two dollars and twelve cents per run. Both models tried picking up a round blue puzzle piece by its center knob. They placed it into a matching circular groove. Astra completed the insertion two times out of twenty trials. Fable five point one also scored two out of twenty. Astra cost one dollar and thirty-six cents on that task. Fable five point one cost two dollars and eighteen cents. Evaluators tested one hundred twenty trials total. A human grader rubric measured the highest stage each run reached. Testing limitations included non-interleaved trial dates. A different physical rig was used for the Fable bowl trials because rig three was unavailable. Operators were unblinded during grading which leaves scores open to unconscious bias. Objects were reset manually between trials. All models used a medium reasoning effort setting. Cost calculations were based on list prices. OpenA. I. automatically cached roughly one-fifth of Astra inputs. Anthropic requests were sent without prompt caching.
+
+═══ 05_NORMALIZED ═══
+
+OpenA. I.'s G. P. T.-six Astra was tested on September fourth, twenty twenty-six. It controlled robotic arms to evaluate manipulation tasks against earlier models. Astra averaged two point five minutes per trial. The cost was estimated at ninety-four cents per run. Fable five point one averaged six point eight minutes per trial. Its cost was two dollars and twelve cents per run. Both models tried picking up a round blue puzzle piece by its center knob. They placed it into a matching circular groove. Astra completed the insertion two times out of twenty trials. Fable five point one also scored two out of twenty. Astra cost one dollar and thirty-six cents on that task. Fable five point one cost two dollars and eighteen cents. Evaluators tested one hundred twenty trials total. A human grader rubric measured the highest stage each run reached. Testing limitations included non-interleaved trial dates. A different physical rig was used for the Fable bowl trials because rig three was unavailable. Operators were unblinded during grading which leaves scores open to unconscious bias. Objects were reset manually between trials. All models used a medium reasoning effort setting. Cost calculations were based on list prices. OpenA. I. automatically cached roughly one-fifth of Astra inputs. Anthropic requests were sent without prompt caching.
+
+═══ 06_COVERAGE_FINAL ═══
+
+57% covered (4/7). Missing: OpenAI's GPT-6 Astra was tested on robotic manipulation using the same YAM arms and Inspect Robots agent policy.; On the bowl task, Astra successfully placed the red block in 19 of 20 trials.; Astra completed the bowl task far more often and at about half the cost per run compared to Fable 5.1.
+
+═══ 07_SANITY ═══
+
+ISSUES: OpenA. I., G. P. T.
+

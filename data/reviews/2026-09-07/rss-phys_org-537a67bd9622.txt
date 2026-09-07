@@ -1,0 +1,61 @@
+═══ 00_KEY_POINTS ═══
+
+1. Researchers from two universities developed a new AI governance model inspired by Pope Leo XIV.
+2. The model is inspired by Pope Leo XIV's encyclical titled Magnifica Humanitas.
+3. Professor Stanisław Fel and Dr. Jarosław Kozak of KUL developed the model with Marta Choroszewicz.
+4. The governance model aims to ensure AI technologies are developed safely and fairly with human rights.
+5. The model is governed by eight core principles including human dignity and social justice.
+6. Algorithms may support social benefit assessments but must never replace accountable human judgment.
+
+═══ 01_DRAFT ═══
+
+Researchers at the John Paul II Catholic University of Lublin and the University of Eastern Finland have developed a new artificial intelligence governance model inspired by the teachings of Pope Leo XIV as outlined in his encyclical Magnifica Humanitas. The framework was created by Professor Stanisław Fel, Dr. Jarosław Kozak, and senior researcher Marta Choroszewicz, and is detailed in an article published in the journal AI and Ethics. Unlike existing models that focus primarily on whether governments or private companies should control the technology, the new hybrid model asks which principles should govern the distribution of power and responsibility to prevent a diffusion of accountability. The framework combines the participation of governments, tech companies, experts, civil society organizations, citizens, and international institutions under eight core principles: human dignity, the common good, the universal destination of goods, social justice, solidarity, subsidiarity, shared responsibility, and transparency and accountability. To demonstrate practical application, the authors use the example of AI systems used to assess eligibility for social benefits. Under the model, an algorithm may support an application review, but a specific human must remain responsible for the final decision. Applicants would receive an understandable explanation, retain the right to challenge the decision, and the system would face independent audits and oversight from representatives of affected groups. The study is among the first academic publications worldwide to ground an AI governance model in the encyclical Magnifica Humanitas.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Researchers at the John Paul II Catholic University of Lublin and the University of Eastern Finland have developed a new artificial intelligence governance model inspired by the teachings of Pope Leo XIV as outlined in his encyclical Magnifica Humanitas. The framework was created by Professor Stanisław Fel, Dr. Jarosław Kozak, and senior researcher Marta Choroszewicz, and is detailed in an article published in the journal AI and Ethics. Existing models have centered on whether governments, private companies, or multiple actors should control the technology, whereas the authors ask instead which principles should govern the distribution of power and responsibility so that multi-institutional involvement does not lead to a situation where no one is ultimately accountable. The framework combines the participation of governments, tech companies, experts, civil society organizations, citizens, and international institutions under eight core principles: human dignity, the common good, the universal destination of goods, social justice, solidarity, subsidiarity, shared responsibility, and transparency and accountability. To demonstrate practical application, the authors use the example of AI systems used to assess eligibility for social benefits. Under the model, an algorithm may support an application review, but a specific human must remain responsible for the final decision. Applicants would receive an understandable explanation, retain the right to challenge the decision, and the system would face independent audits and oversight from representatives of affected groups. The study is among the first academic publications worldwide to ground an AI governance model in the encyclical Magnifica Humanitas.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Researchers at the John Paul II Catholic University of Lublin and the University of Eastern Finland have developed a new artificial intelligence governance model. The work is inspired by the teachings of Pope Leo XIV as outlined in his encyclical Magnifica Humanitas. 
+
+The framework was created by Professor, Stanisław Fel, Doctor, Jarosław Kozak, and senior researcher, Marta Choroszewicz. It is detailed in an article published in the journal, A. I. and Ethics. 
+
+Existing models have centered on whether governments, private companies, or multiple actors should control the technology. The authors ask instead which principles should govern the distribution of power and responsibility. They want to ensure that multi-institutional involvement does not lead to a situation where no one is ultimately accountable. 
+
+The framework combines the participation of governments, tech companies, experts, civil society organizations, citizens, and international institutions. It operates under eight core principles. These are human dignity, the common good, the universal destination of goods, social justice, solidarity, subsidiarity, shared responsibility, and transparency and accountability. 
+
+To demonstrate practical application, the authors use the example of systems used to assess eligibility for social benefits. Under the model, an algorithm may support an application review. However, a specific human must remain responsible for the final decision. 
+
+Applicants would receive an understandable explanation and retain the right to challenge the decision. The system would also face independent audits and oversight from representatives of affected groups. 
+
+The study is among the first academic publications worldwide to ground a governance model in the encyclical Magnifica Humanitas.
+
+═══ 05_NORMALIZED ═══
+
+Researchers at the John Paul II Catholic University of Lublin and the University of Eastern Finland have developed a new artificial intelligence governance model. The work is inspired by the teachings of Pope Leo XIV as outlined in his encyclical Magnifica Humanitas.
+
+The framework was created by Professor, Stanisław Fel, Doctor, Jarosław Kozak, and senior researcher, Marta Choroszewicz. It is detailed in an article published in the journal, A. I. and Ethics.
+
+Existing models have centered on whether governments, private companies, or multiple actors should control the technology. The authors ask instead which principles should govern the distribution of power and responsibility. They want to ensure that multi-institutional involvement does not lead to a situation where no one is ultimately accountable.
+
+The framework combines the participation of governments, tech companies, experts, civil society organizations, citizens, and international institutions. It operates under eight core principles. These are human dignity, the common good, the universal destination of goods, social justice, solidarity, subsidiarity, shared responsibility, and transparency and accountability.
+
+To demonstrate practical application, the authors use the example of systems used to assess eligibility for social benefits. Under the model, an algorithm may support an application review. However, a specific human must remain responsible for the final decision.
+
+Applicants would receive an understandable explanation and retain the right to challenge the decision. The system would also face independent audits and oversight from representatives of affected groups.
+
+The study is among the first academic publications worldwide to ground a governance model in the encyclical Magnifica Humanitas.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: A. I.
+

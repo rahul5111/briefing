@@ -1,0 +1,40 @@
+═══ 00_KEY_POINTS ═══
+
+1. Fruit flies possess a tiny brain with roughly 140,000 neurons that can quickly process and retain scents.
+2. Current electronic noses struggle because they are expensive, narrow in detection, and quickly forget old odors.
+3. Researchers Kevin Max and Yang Shen developed a new algorithm named Spi-Fly based on fruit fly biology.
+4. The details of the Spi-Fly algorithm were recently published in the journal Neuromorphic Computing and Engineering.
+5. Spi-Fly matters because it solves the major limitation of electronic noses forgetting old scents when learning new ones.
+
+═══ 01_DRAFT ═══
+
+Researchers at the Okinawa Institute of Science and Technology have developed a new algorithm named Spi-Fly that mimics the olfactory processing of fruit flies, which possess roughly 140,000 neurons in a brain smaller than a poppy seed. The work, led by Kevin Max and Yang Shen, is described in a paper published in the journal Neuromorphic Computing and Engineering. Current electronic noses on the market are expensive, narrow in what they can detect, and quickly forget older odors when learning new ones. In contrast, the new algorithm aims to replicate the ability of Drosophila to sort through a wide range of smells quickly and retain those memories over time.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (5/5). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Researchers at the Okinawa Institute of Science and Technology have developed a new algorithm named Spi-Fly. The algorithm mimics the olfactory processing of fruit flies. Fruit flies possess roughly one hundred forty thousand neurons. Their brain is smaller than a poppy seed. 
+
+The work is led by Kevin Max and Yang Shen. Their work is described in a paper published in the journal Neuromorphic Computing and Engineering. Current electronic noses on the market are expensive. They are also narrow in what they can detect. These devices quickly forget older odors when learning new ones. 
+
+In contrast, the new algorithm aims to replicate a specific ability. It mimics the ability of Drosophila to sort through a wide range of smells quickly. It also helps retain those memories over time.
+
+═══ 05_NORMALIZED ═══
+
+Researchers at the Okinawa Institute of Science and Technology have developed a new algorithm named Spi-Fly. The algorithm mimics the olfactory processing of fruit flies. Fruit flies possess roughly one hundred forty thousand neurons. Their brain is smaller than a poppy seed.
+
+The work is led by Kevin Max and Yang Shen. Their work is described in a paper published in the journal Neuromorphic Computing and Engineering. Current electronic noses on the market are expensive. They are also narrow in what they can detect. These devices quickly forget older odors when learning new ones.
+
+In contrast, the new algorithm aims to replicate a specific ability. It mimics the ability of Drosophila to sort through a wide range of smells quickly. It also helps retain those memories over time.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (5/5). Missing: none
+
+═══ 07_SANITY ═══
+
+OK
+

@@ -1,0 +1,80 @@
+═══ 00_KEY_POINTS ═══
+
+1. Opaque recurrence is a new reasoning technique in OpenAI’s Astra model that has rattled safety researchers.
+2. OpenAI CEO Sam Altman once described AGI as the equivalent of a median human co-worker.
+3. Anthropic introduced the Model Context Protocol open standard in 2024 to connect AI models to outside tools.
+4. Distillation is likely how OpenAI developed GPT-4 Turbo, a faster version of GPT-4.
+5. This glossary provides plain-English definitions of essential AI terms to help readers navigate the evolving industry.
+
+═══ 01_DRAFT ═══
+
+Artificial general intelligence generally refers to AI that is more capable than the average human at many or most tasks. OpenAI CEO Sam Altman has described AGI as the equivalent of a median human you could hire as a co-worker, while OpenAI charter defines it as highly autonomous systems that outperform humans at most economically valuable work. Google DeepMind views AGI as AI that is at least as capable as humans at most cognitive tasks.
+
+An AI agent is a tool that uses artificial intelligence technologies to perform a series of tasks on a user's behalf beyond the capabilities of a basic chatbot, such as filing expenses, booking reservations, or writing and maintaining code. API endpoints act as buttons on software that other programs use to build integrations and allow AI agents to control third-party services directly. Chain-of-thought reasoning involves large language models breaking down problems into smaller, intermediate steps to improve the quality of logic or coding outputs, optimized through reinforcement learning. 
+
+Deep learning is a subset of self-improving machine learning utilizing multi-layered artificial neural networks inspired by the human brain, allowing systems to identify data characteristics without human definition, though requiring millions of data points and higher development costs. Diffusion systems generate art, music, and text by adding noise to destroy data structure and then learning a reverse diffusion process to recover the data. Distillation extracts knowledge from a large teacher model to train a smaller, more efficient student model, a method likely used to develop GPT-4 Turbo.
+
+Generative Adversarial Networks, or GANs, use a pair of neural networks where a generator creates output and a discriminator evaluates it to produce realistic data like deepfakes. Hallucination occurs when models generate incorrect information due to training data gaps. Inference is the process of running a trained AI model to make predictions, while large language models are deep neural networks made of billions of parameters that process text by predicting likely patterns. Model Context Protocol, or MCP, is an open standard introduced by Anthropic in 2024 that connects AI models to external tools and files without requiring custom connectors.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Artificial general intelligence generally refers to AI that is more capable than the average human at many or most tasks. OpenAI CEO Sam Altman has described AGI as the equivalent of a median human you could hire as a co-worker, while OpenAI charter defines it as highly autonomous systems that outperform humans at most economically valuable work. Google DeepMind views AGI as AI that is at least as capable as humans at most cognitive tasks.
+
+An AI agent is a tool that uses artificial intelligence technologies to perform a series of tasks on a user's behalf beyond the capabilities of a basic chatbot, such as filing expenses, booking reservations, or writing and maintaining code. API endpoints act as buttons on software that other programs use to build integrations and allow AI agents to control third-party services directly. Chain-of-thought reasoning involves large language models breaking down problems into smaller, intermediate steps to improve the quality of logic or coding outputs, optimized through reinforcement learning. 
+
+Deep learning is a subset of self-improving machine learning utilizing multi-layered artificial neural networks inspired by the human brain, allowing systems to identify data characteristics without human definition, though requiring millions of data points and higher development costs. Diffusion systems generate art, music, and text by adding noise to destroy data structure and then learning a reverse diffusion process to recover the data. Distillation extracts knowledge from a large teacher model to train a smaller, more efficient student model, a method likely used to develop GPT-4 Turbo.
+
+Generative Adversarial Networks, or GANs, use a pair of neural networks where a generator tries to produce output and a discriminator works to evaluate and spot artificially generated data. Hallucination occurs when models generate incorrect information due to training data gaps. Inference is the process of running a trained AI model to make predictions, while large language models are deep neural networks made of billions of parameters that process text by predicting likely patterns. Model Context Protocol, or MCP, is an open standard introduced by Anthropic in 2024 that connects AI models to external tools and files without requiring custom connectors.
+
+═══ 02b_TRIMMED ═══
+
+Artificial general intelligence generally refers to AI that is more capable than the average human at many or most tasks. OpenAI CEO Sam Altman has described AGI as the equivalent of a median human you could hire as a co-worker, while OpenAI charter defines it as highly autonomous systems that outperform humans at most economically valuable work. Google DeepMind views AGI as AI that is at least as capable as humans at most cognitive tasks. An AI agent is a tool that uses artificial intelligence technologies to perform a series of tasks on a user's behalf beyond the capabilities of a basic chatbot, such as filing expenses, booking reservations, or writing and maintaining code. API endpoints act as buttons on software that other programs use to build integrations and allow AI agents to control third-party services directly. Chain-of-thought reasoning involves large language models breaking down problems into smaller, intermediate steps to improve the quality of logic or coding outputs, optimized through reinforcement learning. Deep learning is a subset of self-improving machine learning utilizing multi-layered artificial neural networks inspired by the human brain, allowing systems to identify data characteristics without human definition, though requiring millions of data points and higher development costs. Diffusion systems generate art, music, and text by adding noise to destroy data structure and then learning a reverse diffusion process to recover the data. Distillation extracts knowledge from a large teacher model to train a smaller, more efficient student model, a method likely used to develop GPT-4 Turbo. Hallucination occurs when models generate incorrect information due to training data gaps. Inference is the process of running a trained AI model to make predictions, while large language models are deep neural networks made of billions of parameters that process text by predicting likely patterns. Model Context Protocol, or MCP, is an open standard introduced by Anthropic in 2024 that connects AI models to external tools and files without requiring custom connectors.
+
+═══ 03_COVERAGE_1 ═══
+
+60% covered (3/5). Missing: Opaque recurrence is a new reasoning technique in OpenAI’s Astra model that has rattled safety researchers.; This glossary provides plain-English definitions of essential AI terms to help readers navigate the evolving industry.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+This glossary provides plain-English definitions of essential AI terms to help readers navigate the evolving industry. Artificial general intelligence generally refers to AI that is more capable than the average human at many or most tasks. OpenAI CEO Sam Altman has described AGI as the equivalent of a median human you could hire as a co-worker, while OpenAI charter defines it as highly autonomous systems that outperform humans at most economically valuable work. Google DeepMind views AGI as AI that is at least as capable as humans at most cognitive tasks. Opaque recurrence is a new reasoning technique in OpenAI’s Astra model that has rattled safety researchers. An AI agent is a tool that uses artificial intelligence technologies to perform a series of tasks on a user's behalf beyond the capabilities of a basic chatbot, such as filing expenses, booking reservations, or writing and maintaining code. API endpoints act as buttons on software that other programs use to build integrations and allow AI agents to control third-party services directly. Chain-of-thought reasoning involves large language models breaking down problems into smaller, intermediate steps to improve the quality of logic or coding outputs, optimized through reinforcement learning. Deep learning is a subset of self-improving machine learning utilizing multi-layered artificial neural networks inspired by the human brain, allowing systems to identify data characteristics without human definition, though requiring millions of data points and higher development costs. Diffusion systems generate art, music, and text by adding noise to destroy data structure and then learning a reverse diffusion process to recover the data. Distillation extracts knowledge from a large teacher model to train a smaller, more efficient student model, a method likely used to develop GPT-4 Turbo. Hallucination occurs when models generate incorrect information due to training data gaps. Inference is the process of running a trained AI model to make predictions, while large language models are deep neural networks made of billions of parameters that process text by predicting likely patterns. Model Context Protocol, or MCP, is an open standard introduced by Anthropic in 2024 that connects AI models to external tools and files without requiring custom connectors.
+
+═══ 04_AUDIO_REWRITE ═══
+
+This glossary provides plain English definitions of essential A. I. terms to help readers navigate the evolving industry. Artificial general intelligence generally refers to A. I. that is more capable than the average human at many or most tasks. 
+
+OpenAI chief executive officer Sam Altman has described A. G. I. as the equivalent of a median human you could hire as a co-worker. The OpenAI charter defines it as highly autonomous systems that outperform humans at most economically valuable work. Google DeepMind views A. G. I. as A. I. that is at least as capable as humans at most cognitive tasks. 
+
+Opaque recurrence is a new reasoning technique in OpenAI’s Astra model that has rattled safety researchers. An A. I. agent is a tool that uses artificial intelligence technologies to perform a series of tasks on a user's behalf beyond the capabilities of a basic chatbot. These tasks include filing expenses, booking reservations, or writing and maintaining code. 
+
+A. P. I. endpoints act as buttons on software that other programs use to build integrations. They allow A. I. agents to control third-party services directly. Chain-of-thought reasoning involves large language models breaking down problems into smaller, intermediate steps. This improves the quality of logic or coding outputs, and it is optimized through reinforcement learning. 
+
+Deep learning is a subset of self-improving machine learning utilizing multi-layered artificial neural networks inspired by the human brain. This allows systems to identify data characteristics without human definition, though requiring millions of data points and higher development costs. Diffusion systems generate art, music, and text by adding noise to destroy data structure and then learning a reverse diffusion process to recover the data. 
+
+Distillation extracts knowledge from a large teacher model to train a smaller, more efficient student model. This is a method likely used to develop G. P. T.-four Turbo. Hallucination occurs when models generate incorrect information due to training data gaps. Inference is the process of running a trained A. I. model to make predictions. Large language models are deep neural networks made of billions of parameters that process text by predicting likely patterns. 
+
+Model Context Protocol, also known as M. C. P., is an open standard introduced by Anthropic in twenty twenty-four. It connects A. I. models to external tools and files without requiring custom connectors.
+
+═══ 05_NORMALIZED ═══
+
+This glossary provides plain English definitions of essential A. I. terms to help readers navigate the evolving industry. Artificial general intelligence generally refers to A. I. that is more capable than the average human at many or most tasks.
+
+OpenAI chief executive officer Sam Altman has described A. G. I. as the equivalent of a median human you could hire as a co-worker. The OpenAI charter defines it as highly autonomous systems that outperform humans at most economically valuable work. Google DeepMind views A. G. I. as A. I. that is at least as capable as humans at most cognitive tasks.
+
+Opaque recurrence is a new reasoning technique in OpenAI’s Astra model that has rattled safety researchers. An A. I. agent is a tool that uses artificial intelligence technologies to perform a series of tasks on a user's behalf beyond the capabilities of a basic chatbot. These tasks include filing expenses, booking reservations, or writing and maintaining code.
+
+A. P. I. endpoints act as buttons on software that other programs use to build integrations. They allow A. I. agents to control third-party services directly. Chain-of-thought reasoning involves large language models breaking down problems into smaller, intermediate steps. This improves the quality of logic or coding outputs, and it is optimized through reinforcement learning.
+
+Deep learning is a subset of self-improving machine learning utilizing multi-layered artificial neural networks inspired by the human brain. This allows systems to identify data characteristics without human definition, though requiring millions of data points and higher development costs. Diffusion systems generate art, music, and text by adding noise to destroy data structure and then learning a reverse diffusion process to recover the data.
+
+Distillation extracts knowledge from a large teacher model to train a smaller, more efficient student model. This is a method likely used to develop G. P. T.-four Turbo. Hallucination occurs when models generate incorrect information due to training data gaps. Inference is the process of running a trained A. I. model to make predictions. Large language models are deep neural networks made of billions of parameters that process text by predicting likely patterns.
+
+Model Context Protocol, also known as M. C. P., is an open standard introduced by Anthropic in twenty twenty-four. It connects A. I. models to external tools and files without requiring custom connectors.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (5/5). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: G. P. T.-four
+

@@ -1,0 +1,54 @@
+═══ 00_KEY_POINTS ═══
+
+1. Solaris is an AI system that generates interfaces frame by frame as users interact with them.
+2. Solaris handles rendering and interactions jointly to remove the need for intermediate representations like code.
+3. The system brings three new capabilities to software by being entirely visual, alive, and open-ended.
+4. Solaris builds upon the Gen-4.5 video generation model and the GWM-1 general world model.
+5. Solaris maintains visual quality that holds at 720p while supporting real-time interaction and session coherence.
+6. A user study with 250 participants across 30 interaction examples collected nearly 7,500 pairwise judgments.
+7. Participants preferred Solaris in 61 percent of comparisons for following the requested interaction, compared to 24 percent.
+
+═══ 01_DRAFT ═══
+
+Solaris is a new AI system classified as an Interface World Model, built on the Gen-4.5 video generation model and adapting the general world model approach known as GWM-1. Unlike traditional operating systems that rely on fixed code and intermediate representations like HTML or JavaScript, Solaris generates interactive software interfaces frame by frame in real time as the user acts. 
+
+The system handles rendering and interactions jointly, combining a language model that interprets user requests with a world model that streams 720p visuals. To achieve interactive speeds, the developers converted the model to generate frames autoregressively, distilled the denoising process, and trained the engine on its own outputs to maintain session coherence. 
+
+Solaris introduces three primary capabilities: it is entirely visual without a hidden implementation layer, it is continuously alive and evolving, and it is open-ended to support dynamic user actions. In a user study involving 250 participants and 30 interaction examples yielding nearly 7,500 pairwise judgments, participants preferred Solaris over a state-of-the-art language model, Claude Opus 5, in 61 percent of comparisons for following requested instructions, compared to 24 percent for the coded interface approach.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Solaris is a new AI system classified as an Interface World Model, built on the Gen-4.5 video generation model and adapting the general world model approach known as GWM-1. Every operating system has traditionally dictated what's rendered on screen, with applications built on top staying fixed until an update, but Solaris instead renders that layer directly as a real-time interactive model that generates the interface frame by frame.
+
+The system handles rendering and interactions jointly, combining a language model that interprets user requests with a world model that streams visuals at 720p. To achieve interactive speeds, the developers converted the model to generate frames autoregressively, distilled the denoising process, and trained the engine on its own outputs to maintain session coherence. 
+
+Solaris introduces three primary capabilities: it is entirely visual without a hidden implementation layer, it is continuously alive and evolving, and it is open-ended to support dynamic user actions. In a user study involving 250 participants and 30 interaction examples yielding nearly 7,500 pairwise judgments, participants preferred Solaris over a state-of-the-art language model, Claude Opus 5, in 61 percent of comparisons for following requested instructions, compared to 24 percent for the coded interface approach.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (7/7). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Solaris is a new A. I. system called an Interface World Model. It is built on the Gen-four point five video generation model and adapts the G. W. M. dash one world model approach. Traditional operating systems dictate what appears on screen with fixed applications. Solaris renders that entire layer directly as a real-time interactive model that generates the interface frame by frame.
+
+The system handles rendering and interactions jointly. It combines a language model that interprets user requests with a world model that streams visuals at seven-twenty p. To reach interactive speeds the developers converted the model to generate frames autoregressively. They distilled the denoising process and trained the engine on its own outputs to maintain session coherence.
+
+Solaris introduces three primary capabilities. It is entirely visual without a hidden implementation layer. It is continuously alive and evolving. It is open-ended to support dynamic user actions. A recent user study involved two hundred fifty participants and thirty interaction examples. This produced nearly seven thousand five hundred pairwise judgments. Participants preferred Solaris over a state-of-the-art language model, Claude Opus five, in sixty-one percent of comparisons for following requested instructions. The traditional coded interface approach achieved only twenty-four percent preference.
+
+═══ 05_NORMALIZED ═══
+
+Solaris is a new A. I. system called an Interface World Model. It is built on the Gen-four point five video generation model and adapts the G. W. M. dash one world model approach. Traditional operating systems dictate what appears on screen with fixed applications. Solaris renders that entire layer directly as a real-time interactive model that generates the interface frame by frame.
+
+The system handles rendering and interactions jointly. It combines a language model that interprets user requests with a world model that streams visuals at seven-twenty p. To reach interactive speeds the developers converted the model to generate frames autoregressively. They distilled the denoising process and trained the engine on its own outputs to maintain session coherence.
+
+Solaris introduces three primary capabilities. It is entirely visual without a hidden implementation layer. It is continuously alive and evolving. It is open-ended to support dynamic user actions. A recent user study involved two hundred fifty participants and thirty interaction examples. This produced nearly seven thousand five hundred pairwise judgments. Participants preferred Solaris over a state-of-the-art language model, Claude Opus five, in sixty-one percent of comparisons for following requested instructions. The traditional coded interface approach achieved only twenty-four percent preference.
+
+═══ 06_COVERAGE_FINAL ═══
+
+85% covered (6/7). Missing: Participants preferred Solaris in 61 percent of comparisons for following the requested interaction, compared to 24 percent.
+
+═══ 07_SANITY ═══
+
+ISSUES: A. I., G. W. M., seven-twenty p
+

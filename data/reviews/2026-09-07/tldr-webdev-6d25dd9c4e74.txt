@@ -1,0 +1,49 @@
+═══ 00_KEY_POINTS ═══
+
+1. AI incident response tools successfully inspect alerts, query telemetry, and implement fixes for routine issues.
+2. Human responders get less practice as AI resolves routine incidents, threatening their ability to handle complex failures.
+3. Lisanne Bainbridge described the automation paradox in 1983, showing automation reduces routine practice while leaving humans responsible for abnormal situations.
+4. Engineering teams risk accumulating comprehension debt as LLMs do more work, widening the gap between system reality and human understanding.
+5. Rootly partnered with Uptime Labs to provide realistic incident simulations featuring LLM-powered stakeholders in Slack to help engineers practice.
+6. Engineering teams must use simulations, chaos engineering, and regular hands-on control to prevent critical skill decay in the LLM era.
+
+═══ 01_DRAFT ═══
+
+AI-assisted incident response tools are successfully handling routine alerts and fixes, but human engineers are losing touch with how their systems behave. As automation resolves everyday issues, responders get less practice with the systems they oversee. This creates what human-factors researcher Lisanne Bainbridge described in 1983 as the ironies of automation, where automation reduces routine practice while leaving humans responsible for abnormal situations. While AI will likely lower mean time to resolution for routine problems, resolution times for complex incidents may spike as engineers struggle to investigate unfamiliar failures. The aviation industry faces a similar dynamic where automation handles routine flight, yet pilots must manage rare emergencies. To maintain necessary skills, commercial pilots complete recurrent training and proficiency checks every six months under Federal Aviation Administration rules. Software engineering teams face a similar need to prevent comprehension debt, the growing gap between system mechanics and responder understanding. Companies like Rootly and Uptime Labs are addressing this by running realistic incident simulations where engineers practice troubleshooting, coordination, and communication during mock outages. Passive instruction and watching AI agents explain their diagnostic steps are not substitutes for hands-on practice. Engineering teams must use tabletop exercises, chaos engineering, and simulations to maintain their skills so responders remain prepared when automation fails.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+AI-assisted incident response tools are successfully handling routine alerts and fixes, but human engineers are losing touch with how their systems behave. As automation resolves everyday issues, responders get less practice with the systems they oversee. This creates what human-factors researcher Lisanne Bainbridge described in 1983 as the ironies of automation, where automation reduces routine practice while leaving humans responsible for abnormal situations. While AI will likely lower mean time to resolution for routine problems, resolution times for complex incidents may spike as engineers struggle to investigate unfamiliar failures. The aviation industry faces a similar dynamic where automation handles routine flight, yet pilots must manage rare emergencies. Airline pilots regularly return to simulators to rehearse these rare emergencies, such as an engine failure during takeoff. Software engineering teams face a similar need to prevent comprehension debt, the growing gap between system mechanics and responder understanding. Through a partnership between Rootly and Uptime Labs, engineers take the incident commander’s seat during realistic simulations where they practice troubleshooting, communication, and coordination during mock outages. Passive instruction and watching AI agents explain their diagnostic steps are not substitutes for hands-on practice. Engineering teams must use tabletop exercises, chaos engineering, and simulations to maintain their skills so responders remain prepared when automation fails.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Artificial intelligence tools are successfully handling routine alerts and fixes. Human engineers are losing touch with how their systems behave. Responders get less practice with the systems they oversee as automation resolves everyday issues. This creates the ironies of automation. Human-factors researcher, Lisanne Bainbridge, described this in nineteen eighty-three. Automation reduces routine practice while leaving humans responsible for abnormal situations. 
+
+Artificial intelligence will likely lower mean time to resolution for routine problems. Resolution times for complex incidents may spike. Engineers will struggle to investigate unfamiliar failures. The aviation industry faces a similar dynamic. Automation handles routine flight. Pilots must still manage rare emergencies. Airline pilots regularly return to simulators to rehearse these rare emergencies. An example is an engine failure during takeoff. 
+
+Software engineering teams face a similar need. They must prevent comprehension debt. This is the growing gap between system mechanics and responder understanding. Rootly and Uptime Labs formed a partnership to help. Engineers take the incident commander seat during realistic simulations. They practice troubleshooting and communication and coordination during mock outages. 
+
+Passive instruction and watching artificial intelligence agents explain their diagnostic steps are not substitutes for hands-on practice. Engineering teams must use tabletop exercises and chaos engineering and simulations to maintain their skills. Responders will remain prepared when automation fails.
+
+═══ 05_NORMALIZED ═══
+
+Artificial intelligence tools are successfully handling routine alerts and fixes. Human engineers are losing touch with how their systems behave. Responders get less practice with the systems they oversee as automation resolves everyday issues. This creates the ironies of automation. Human-factors researcher, Lisanne Bainbridge, described this in nineteen eighty-three. Automation reduces routine practice while leaving humans responsible for abnormal situations.
+
+Artificial intelligence will likely lower mean time to resolution for routine problems. Resolution times for complex incidents may spike. Engineers will struggle to investigate unfamiliar failures. The aviation industry faces a similar dynamic. Automation handles routine flight. Pilots must still manage rare emergencies. Airline pilots regularly return to simulators to rehearse these rare emergencies. An example is an engine failure during takeoff.
+
+Software engineering teams face a similar need. They must prevent comprehension debt. This is the growing gap between system mechanics and responder understanding. Rootly and Uptime Labs formed a partnership to help. Engineers take the incident commander seat during realistic simulations. They practice troubleshooting and communication and coordination during mock outages.
+
+Passive instruction and watching artificial intelligence agents explain their diagnostic steps are not substitutes for hands-on practice. Engineering teams must use tabletop exercises and chaos engineering and simulations to maintain their skills. Responders will remain prepared when automation fails.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+OK
+

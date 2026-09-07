@@ -1,0 +1,70 @@
+═══ 00_KEY_POINTS ═══
+
+1. Portal by Spotify cut the author's Claude Code token usage by 90% in testing.
+2. AI coding costs are expected to blow past the average developer's salary by 2028.
+3. A quarter of engineering leaders already burn $200 to $500 per developer per month on tokens.
+4. The author created two declarative agent modes named bulk-reader and code-writer using Gemini 2.5 Flash.
+5. The system uses a Claude Code plugin called shunt with PreToolUse hooks to enforce task routing.
+6. The author states, Mean bulk-read savings were around a whopping 90%.
+7. Users can install both required plugins from the spotify/portal-ai-plugins marketplace.
+
+═══ 01_DRAFT ═══
+
+By 2028, AI coding costs are projected to exceed the average developer salary, with a quarter of engineering leaders already spending two hundred to five hundred dollars per developer monthly on tokens, and some exceeding two thousand dollars. To combat this, a developer reduced Claude Code token usage by ninety percent using AiKA Modes in Portal by Spotify, which delegates heavy input-output tasks to Gemini 2.5 Flash as a worker model.
+
+The setup relies on two public declarative modes running on ephemeral runtimes. The bulk-reader mode analyzes code and outputs structured bullets from large files, while the code-writer mode generates boilerplate code matching existing patterns based on a spec and reference file. A Claude Code plugin called shunt enforces this routing through hooks and bash scripts. PreToolUse hooks intercept read calls on files exceeding a default threshold of three hundred fifty lines, blocking the read and directing Claude to use the bulk-reader skill instead. 
+
+Benchmarks across a Java monorepo showed mean bulk-read token savings of approximately ninety percent. However, the system cannot delegate editing because summaries lack reliable line numbers, nor can it delegate reasoning, debugging, or architectural decisions. Network round-trips add ten to thirty seconds of latency per delegation, making the approach inefficient for small tasks. 
+
+Developers can implement this setup by installing the spotify/portal-ai-plugins marketplace plugins via the Claude CLI, running portal setup to authenticate, and utilizing the pre-configured public modes.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+By 2028, AI coding costs are projected to exceed the average developer salary, with a quarter of engineering leaders already spending two hundred to five hundred dollars per developer monthly on tokens, and some exceeding two thousand dollars. To combat this, a developer reduced Claude Code token usage by ninety percent using AiKA Modes in Portal by Spotify, which delegates heavy input-output tasks to Gemini 2.5 Flash as a worker model.
+
+The setup relies on two public declarative modes running on ephemeral runtimes. The bulk-reader mode analyzes code and outputs structured bullets from large files, while the code-writer mode generates boilerplate code matching existing patterns based on a spec and reference file. A Claude Code plugin called shunt enforces this routing through hooks and bash scripts. PreToolUse hooks intercept read calls on files exceeding a default threshold of three hundred fifty lines, blocking the read and directing Claude to use the bulk-reader skill instead. 
+
+Benchmarks across a Java monorepo showed mean bulk-read token savings of approximately ninety percent. However, the system cannot delegate editing because summaries lack reliable line numbers, nor can it delegate reasoning, debugging, or architectural decisions. Network round-trips add ten to thirty seconds of latency per delegation, making the approach inefficient for small tasks. 
+
+Developers can try this by installing the marketplace plugins from spotify/portal-ai-plugins, running portal setup to authenticate in a new session, and utilizing the pre-configured public modes.
+
+═══ 02b_TRIMMED ═══
+
+By 2028, AI coding costs are projected to exceed the average developer salary, with a quarter of engineering leaders already spending two hundred to five hundred dollars per developer monthly on tokens, and some exceeding two thousand dollars. To combat this, a developer reduced Claude Code token usage by ninety percent using AiKA Modes in Portal by Spotify, which delegates heavy input-output tasks to Gemini 2.5 Flash as a worker model. The setup relies on two public declarative modes running on ephemeral runtimes. The bulk-reader mode analyzes code and outputs structured bullets from large files, while the code-writer mode generates boilerplate code matching existing patterns based on a spec and reference file. A Claude Code plugin called shunt enforces this routing through hooks and bash scripts. PreToolUse hooks intercept read calls on files exceeding a default threshold of three hundred fifty lines, blocking the read and directing Claude to use the bulk-reader skill instead. Benchmarks across a Java monorepo showed mean bulk-read token savings of approximately ninety percent. However, the system cannot delegate editing because summaries lack reliable line numbers, nor can it delegate reasoning, debugging, or architectural decisions. Network round-trips add ten to thirty seconds of latency per delegation, making the approach inefficient for small tasks.
+
+═══ 03_COVERAGE_1 ═══
+
+85% covered (6/7). Missing: Users can install both required plugins from the spotify/portal-ai-plugins marketplace.
+
+═══ 04_AUDIO_REWRITE ═══
+
+By twenty twenty-eight, artificial intelligence coding costs are projected to exceed the average developer salary. A quarter of engineering leaders already spend two hundred to five hundred dollars per developer monthly on tokens. Some leaders even exceed two thousand dollars. 
+
+To combat this, a developer reduced Claude Code token usage by ninety percent. They used AiKA Modes in Portal by Spotify. This delegates heavy input and output tasks to Gemini two point five Flash as a worker model. 
+
+The setup relies on two public declarative modes running on ephemeral runtimes. The bulk-reader mode analyzes code and outputs structured bullets from large files. The code-writer mode generates boilerplate code matching existing patterns based on a spec and reference file. 
+
+A Claude Code plugin called shunt enforces this routing through hooks and bash scripts. Pre-Tool-Use hooks intercept read calls on files exceeding a default threshold of three hundred fifty lines. This blocks the read and directs Claude to use the bulk-reader skill instead. 
+
+Benchmarks across a Java monorepo showed mean bulk-read token savings of approximately ninety percent. However, the system cannot delegate editing because summaries lack reliable line numbers. Nor can it delegate reasoning, debugging, or architectural decisions. Network round-trips add ten to thirty seconds of latency per delegation, making the approach inefficient for small tasks.
+
+═══ 05_NORMALIZED ═══
+
+By twenty twenty-eight, artificial intelligence coding costs are projected to exceed the average developer salary. A quarter of engineering leaders already spend two hundred to five hundred dollars per developer monthly on tokens. Some leaders even exceed two thousand dollars.
+
+To combat this, a developer reduced Claude Code token usage by ninety percent. They used AiKA Modes in Portal by Spotify. This delegates heavy input and output tasks to Gemini two point five Flash as a worker model.
+
+The setup relies on two public declarative modes running on ephemeral runtimes. The bulk-reader mode analyzes code and outputs structured bullets from large files. The code-writer mode generates boilerplate code matching existing patterns based on a spec and reference file.
+
+A Claude Code plugin called shunt enforces this routing through hooks and bash scripts. Pre-Tool-Use hooks intercept read calls on files exceeding a default threshold of three hundred fifty lines. This blocks the read and directs Claude to use the bulk-reader skill instead.
+
+Benchmarks across a Java monorepo showed mean bulk-read token savings of approximately ninety percent. However, the system cannot delegate editing because summaries lack reliable line numbers. Nor can it delegate reasoning, debugging, or architectural decisions. Network round-trips add ten to thirty seconds of latency per delegation, making the approach inefficient for small tasks.
+
+═══ 06_COVERAGE_FINAL ═══
+
+85% covered (6/7). Missing: Users can install both required plugins from the spotify/portal-ai-plugins marketplace.
+
+═══ 07_SANITY ═══
+
+OK
+

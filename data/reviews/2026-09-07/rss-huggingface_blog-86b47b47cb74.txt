@@ -1,0 +1,70 @@
+═══ 00_KEY_POINTS ═══
+
+1. Funes is a durable local memory layer for coding agents that indexes session traces automatically.
+2. Funes supports coding agents including Claude Code, Codex, pi, and Hermes with a single binary.
+3. Funes works locally on your machine and indexes each completed turn incrementally without ML runtime dependencies.
+4. Funes can publish memory to a private Hugging Face dataset so your memory follows you across machines.
+5. Funes redacts credentials during indexing and scans chunks again to withhold secrets before publishing.
+6. Recall was 8x cheaper than a written handoff on one benchmark task and 4x cheaper on another.
+7. Funes is open source and available at github.com/huggingface/funes to turn agent records into searchable memory.
+
+═══ 01_DRAFT ═══
+
+A new open-source tool called funes provides a durable, local memory layer for coding agents including Claude Code, Codex, pi, and Hermes. Available as a single binary from github.com/huggingface/funes, the software indexes session logs directly from a user machine using incremental runs, combining vector and BM25 search with a cross-encoder and local Lance dataset. 
+
+The system allows agents to recall exact raw text evidence rather than summaries, complete with agent name, timestamp, session, and turn provenance. Users can install the integration via a single command such as funes add claude, which builds the initial index and installs automation for completed turns. 
+
+Memory can also be synchronized across machines and shared with teams by binding a Hugging Face dataset, for example using funes add codex acme/funes-memory. The software includes built-in credential redaction to scan and withhold secrets before publishing to the Hub. Additionally, the standalone command funes ask allows users to query memories directly without altering persistent agent setups. 
+
+In benchmark testing against agent compaction and written handoffs on tasks requiring prior session knowledge, funes recall avoided the flattening failures of compaction and proved to be four to eight times cheaper than a written handoff. Embedding, reranking, and inference backends run locally on the user machine with no required ML runtime dependencies or separate API rental accounts.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+A new open-source tool called funes provides a durable, local memory layer for coding agents including Claude Code, Codex, pi, and Hermes. It is built from the sessions already on your machine, working locally to become part of your agent's normal workflow. 
+
+The system allows agents to recall exact raw text evidence rather than summaries, complete with agent name, timestamp, session, and turn provenance. You can add it to an agent with a command that builds the first index, gives the agent recall and get tools, and installs the automation that indexes each completed turn. 
+
+Memory can also be synchronized across machines and shared with teams by binding a Hugging Face dataset when you add it to an agent. The software includes built-in credential redaction to scan and withhold secrets before publishing to the Hub. Additionally, a standalone command lets users query memories directly without altering persistent agent setups. 
+
+In benchmark testing against agent compaction and written handoffs on tasks requiring prior session knowledge, funes recall avoided the flattening failures of compaction and proved to be four to eight times cheaper than a written handoff. Embedding and reranking run on your machine, and its default inference backend has no ML runtime dependency.
+
+═══ 02b_TRIMMED ═══
+
+A new open-source tool called funes provides a durable, local memory layer for coding agents including Claude Code, Codex, pi, and Hermes. It is built from the sessions already on your machine, working locally to become part of your agent's normal workflow. The system allows agents to recall exact raw text evidence rather than summaries, complete with agent name, timestamp, session, and turn provenance. You can add it to an agent with a command that builds the first index, gives the agent recall and get tools, and installs the automation that indexes each completed turn. Memory can also be synchronized across machines and shared with teams by binding a Hugging Face dataset when you add it to an agent. The software includes built-in credential redaction to scan and withhold secrets before publishing to the Hub. In benchmark testing against agent compaction and written handoffs on tasks requiring prior session knowledge, funes recall avoided the flattening failures of compaction and proved to be four to eight times cheaper than a written handoff. Embedding and reranking run on your machine, and its default inference backend has no ML runtime dependency.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (7/7). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+A new open-source tool called funes provides a durable and local memory layer for coding agents. It supports agents including Claude Code, Codex, pi, and Hermes. The system is built from the sessions already on your machine. It works locally to become part of your agent normal workflow.
+
+The system allows agents to recall exact raw text evidence instead of summaries. This evidence includes the agent name, timestamp, session, and turn provenance. You can add it to an agent with a single command. That command builds the first index and gives the agent recall and get tools. It also installs the automation that indexes each completed turn.
+
+Memory can be synchronized across machines and shared with teams. You do this by binding a Hugging Face dataset when you add it to an agent. The software includes built-in credential redaction. This feature scans and withholds secrets before publishing to the Hub.
+
+In benchmark testing against agent compaction and written handoffs, funes recall performed very well. It tested tasks requiring prior session knowledge. Funes recall avoided the flattening failures of compaction. It also proved to be four to eight times cheaper than a written handoff.
+
+Embedding and reranking run on your machine. Its default inference backend has no machine learning runtime dependency.
+
+═══ 05_NORMALIZED ═══
+
+A new open-source tool called funes provides a durable and local memory layer for coding agents. It supports agents including Claude Code, Codex, pi, and Hermes. The system is built from the sessions already on your machine. It works locally to become part of your agent normal workflow.
+
+The system allows agents to recall exact raw text evidence instead of summaries. This evidence includes the agent name, timestamp, session, and turn provenance. You can add it to an agent with a single command. That command builds the first index and gives the agent recall and get tools. It also installs the automation that indexes each completed turn.
+
+Memory can be synchronized across machines and shared with teams. You do this by binding a Hugging Face dataset when you add it to an agent. The software includes built-in credential redaction. This feature scans and withholds secrets before publishing to the Hub.
+
+In benchmark testing against agent compaction and written handoffs, funes recall performed very well. It tested tasks requiring prior session knowledge. Funes recall avoided the flattening failures of compaction. It also proved to be four to eight times cheaper than a written handoff.
+
+Embedding and reranking run on your machine. Its default inference backend has no machine learning runtime dependency.
+
+═══ 06_COVERAGE_FINAL ═══
+
+85% covered (6/7). Missing: Funes is open source and available at github.com/huggingface/funes to turn agent records into searchable memory.
+
+═══ 07_SANITY ═══
+
+OK
+
