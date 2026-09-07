@@ -1,0 +1,51 @@
+═══ 00_KEY_POINTS ═══
+
+1. Healthcare organizations can now connect electronic health record and industry data directly to ChatGPT for Healthcare.
+2. A new Epic integration brings authorized patient context directly into ChatGPT for Healthcare environments.
+3. The Healthcare Public Data plugin provides structured access to official sources like PubMed, DailyMed, and CMS Coverage.
+4. Physicians evaluated 4,363 ratings and found 99.1% of responses safe across 27 clinical use cases.
+5. More than 93% of responses were rated as having good or better accuracy across five connected data sources.
+6. OpenAI partners with hundreds of physicians across 60 countries to improve health responses in ChatGPT.
+
+═══ 01_DRAFT ═══
+
+OpenAI has introduced new capabilities for ChatGPT for Healthcare, including an electronic health record integration with Epic and a Healthcare Public Data plugin designed to connect authorized patient context and official industry data within a governed workspace. 
+
+The Epic integration allows clinicians to bring authorized patient records into ChatGPT to review history, identify changes, and prepare for appointments, or to embed the tool directly into supported EHR layouts. Meanwhile, the Healthcare Public Data plugin provides structured access to nine official public sources, including PubMed, DailyMed, ClinicalTrials.gov, RxNorm, and CMS Coverage, enabling teams to query specific datasets for research, medication data, and policy information without searching each source separately.
+
+To ensure accuracy and safety, OpenAI partners with hundreds of physicians across 60 countries and 26 medical specialties who have reviewed more than 700,000 model responses. In evaluations across 27 clinical use cases involving 4,363 ratings, physicians rated 99.1% of responses safe. In tests covering nuanced clinical questions using large U.S. healthcare datasets, more than 93% of responses across five connected data sources were rated as having good or better accuracy.
+
+The workspace features enterprise controls such as role-based access, single sign-on, audit logs, and support for HIPAA-compliant workflows under an applicable Business Associate Agreement. Eligible U.S. ChatGPT for Clinicians users can install the public data plugin individually, while the EHR integration requires workspace deployment.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Open A. I. has added new features to Chat G. P. T. for Healthcare. These include an electronic health record integration with Epic. There is also a Healthcare Public Data plugin. It connects patient context and industry data inside a secure workspace.
+
+The Epic integration lets doctors bring authorized patient records into Chat G. P. T. Clinicians can review history and prepare for appointments. They can also embed the tool directly into supported layouts. The Healthcare Public Data plugin provides structured access to nine official public sources. These include PubMed and DailyMed. They also include ClinicalTrials.gov and RxNorm and C. M. S. Coverage. Teams can query these datasets for research and medication data without searching each source separately.
+
+Open A. I. works with hundreds of physicians across sixty countries. These doctors span twenty-six medical specialties. They have reviewed more than seven hundred thousand model responses. Doctors tested twenty-seven clinical use cases involving four thousand three hundred sixty-three ratings. Physicians rated ninety-nine point one percent of those responses as safe. Other tests covered nuanced clinical questions using large United States healthcare datasets. More than ninety-three percent of responses across five connected data sources earned ratings of good or better accuracy.
+
+The workspace includes enterprise controls. These features offer role-based access and single sign-on. They also provide audit logs and support for H. I. P. A. A. compliant workflows under a Business Associate Agreement. Eligible United States Chat G. P. T. for Clinicians users can install the public data plugin individually. The electronic health record integration requires a full workspace deployment.
+
+═══ 05_NORMALIZED ═══
+
+Open A. I. has added new features to Chat G. P. T. for Healthcare. These include an electronic health record integration with Epic. There is also a Healthcare Public Data plugin. It connects patient context and industry data inside a secure workspace.
+
+The Epic integration lets doctors bring authorized patient records into Chat G. P. T. Clinicians can review history and prepare for appointments. They can also embed the tool directly into supported layouts. The Healthcare Public Data plugin provides structured access to nine official public sources. These include PubMed and DailyMed. They also include ClinicalTrials.gov and RxNorm and C. M. S. Coverage. Teams can query these datasets for research and medication data without searching each source separately.
+
+Open A. I. works with hundreds of physicians across sixty countries. These doctors span twenty-six medical specialties. They have reviewed more than seven hundred thousand model responses. Doctors tested twenty-seven clinical use cases involving four thousand three hundred sixty-three ratings. Physicians rated ninety-nine point one percent of those responses as safe. Other tests covered nuanced clinical questions using large United States healthcare datasets. More than ninety-three percent of responses across five connected data sources earned ratings of good or better accuracy.
+
+The workspace includes enterprise controls. These features offer role-based access and single sign-on. They also provide audit logs and support for H. I. P. A. A. compliant workflows under a Business Associate Agreement. Eligible United States Chat G. P. T. for Clinicians users can install the public data plugin individually. The electronic health record integration requires a full workspace deployment.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: C. M. S., H. I. P. A. A.
+

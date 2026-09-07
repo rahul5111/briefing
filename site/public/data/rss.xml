@@ -7,51 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 06 Sep 2026 21:32:55 +0000</lastBuildDate>
-    <item>
-      <title>Dark matter detector finds a strange signal scientists can’t yet explain</title>
-      <link>https://www.sciencedaily.com/releases/2026/09/260904000313.htm</link>
-      <description>Scientists at the Sanford Underground Research Facility in South Dakota have detected a mysterious particle interaction. They are running the L. U. X. hyphen Z. E. P. L. I. N. experiment. This finding could serve as a clue in the search for dark matter. Researchers presented the result on September fourth, twenty twenty-six, in Japan. They shared it at the TeV Particle Astrophysics conference. The work is based on an analysis of two hundred twenty live days of observations. Data collection ran between March twenty twenty-three and April twenty twenty-four. The experiment used ten tonnes of liquid xenon. Researchers expanded their search to look for W. I. M. P. s. These are particles capable of depositing larger amounts of energy. The team uncovered a single event that resists explanation by ordinary background noise. If caused by dark matter, the particle would likely have a mass of at least two hundred G. E. V. over c squared. The result currently sits at a two point six sigma statistical significance. This represents roughly a zero point five percent chance of being produced by known background sources. That number falls short of the five sigma threshold required for a formal discovery. Rick Gaitskell, a Brown University professor and L. Z. spokesperson, gave a statement. He noted that they are not claiming to have seen dark matter. They have seen something interesting they want to share with the scientific community. Additional data collection will determine whether the signal significance increases or disappears.</description>
-      <guid isPermaLink="false">rss-sciencedaily_top-76e77f918353</guid>
-      <enclosure url="audio/2026-09-05/rss-sciencedaily_top-76e77f918353-dark-matter-detector-finds-a-strange-signal-scientists-cant-.mp3" length="675840" type="audio/mpeg"/>
-      <pubDate>Sat, 05 Sep 2026 21:18:30 +0000</pubDate>
-    </item>
-    <item>
-      <title>Show HN: TERMy – A fast terminal assistant that does not use LLMs</title>
-      <link>https://github.com/gioblu/NPC-Forge/blob/main/docs/development.md</link>
-      <description>The developer behind the P. J. O. N. network protocol has released TERMy. It is a new terminal assistant built on the N. P. C. dash Forge framework. It operates entirely without large language models. It also skips machine learning and embeddings.
-
-The creator built TERMy during two months focused on personal projects. This work started in early July. TERMy uses a lightweight natural language understanding pipeline. It is written in about one thousand lines of Python. The code translates natural language into Linux shell commands.
-
-The pipeline processes prompts through five stages. The first stage removes noise by stripping interjections and expletives. The second stage performs sentiment analysis. The third stage uses exact matching. The fourth stage handles template matching. The fifth stage relies on probabilistic matching.
-
-The probabilistic stage uses several tools. It utilizes Inverse Document Frequency to identify rare words. It uses a Bag of Words approach to handle word inversions. It also applies I. D. F. weighted Levenshtein distance to account for typos.
-
-Language models can be unpredictable. TERMy avoids this by featuring hardcoded permission gating inside its dataset. This enforces safety for potentially destructive commands.
-
-The creator built the assistant to eliminate monthly spending. This spending usually goes toward trivial operations like activating virtual environments. The creator questioned whether trillions of parameters are truly necessary for such tasks.
-
-The source code is available on GitHub under the N. P. C. dash Forge repository. Video demonstrations are also available online. These videos showcase its operation and typo tolerance alongside Copilot integration.</description>
-      <guid isPermaLink="false">hn-49562219</guid>
-      <enclosure url="audio/2026-09-05/hn-49562219-show-hn-termy-a-fast-terminal-assistant-that-does-not-use-ll.mp3" length="813936" type="audio/mpeg"/>
-      <pubDate>Sat, 05 Sep 2026 14:18:56 +0000</pubDate>
-    </item>
-    <item>
-      <title>Data from drones in Ukraine is fueling a new Wild West marketplace</title>
-      <link>https://www.technologyreview.com/2026/09/04/1143452/drone-data-wild-west/</link>
-      <description>Ukraine is turning millions of data points from wartime drone flights into a commercial asset. This creates a new marketplace where combat experience trains artificial intelligence models. Unmanned systems record thousands of metrics per flight. They capture rare operational exceptions like signal jamming and human improvisation. Artificial intelligence companies struggle to replicate these rare events in laboratories.
-
-The Ministry of Defense announced in January that it would share these resources. It made millions of data points from tens of thousands of drone flights available. Military contractors and commercial companies can now access this information. More than one hundred companies and the government of the United Kingdom have gained access since then.
-
-An American company called Enabled Intelligence has also joined the effort. It made more than half a million hours of Ukrainian drone footage available. This footage feeds the next round of models for military and commercial systems. This data feeds an ecosystem with immense financial value for defense firms. It helps develop autonomous capabilities that cross over into civilian sectors. Those sectors include agriculture and delivery vehicles.
-
-The practice raises significant ethical and legal concerns. Individuals featured in the data did not agree to become training material. These people might be targets or controllers or civilian bystanders. Their images might be sold years later in commercial products.
-
-The industry operates largely in a legal vacuum. No governments are actively working on regulating this absorbed data. Purchase controls already mitigate the risk of bad actors acquiring the information. Furthermore, the Avengers Labs program in Ukraine provides extra protection. It allows companies to train models on battlefield data without direct database access. Yet that system mitigates only one part of the problem.</description>
-      <guid isPermaLink="false">rss-mit_tech_review-a2c6106fb4d3</guid>
-      <enclosure url="audio/2026-09-05/rss-mit_tech_review-a2c6106fb4d3-data-from-drones-in-ukraine-is-fueling-a-new-wild-west-marke.mp3" length="857664" type="audio/mpeg"/>
-      <pubDate>Sat, 05 Sep 2026 21:06:15 +0000</pubDate>
-    </item>
+    <lastBuildDate>Mon, 07 Sep 2026 06:57:41 +0000</lastBuildDate>
     <item>
       <title>An Interview with OpenAI President Greg Brockman About Astra and Alignment</title>
       <link>https://stratechery.com/2026/an-interview-with-openai-president-greg-brockman-about-astra-and-alignment/</link>
@@ -937,9 +893,9 @@ The researchers noted that ecological thresholds may vary by region. They may al
     <item>
       <title>Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft</title>
       <link>https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/</link>
-      <description>The Seattle Times and Newsday have filed a copyright infringement lawsuit against A. I. developers. They are suing OpenAI and Microsoft over the alleged use of their journalism to train artificial intelligence models. The lawsuit was filed in response to generative A. I. tools like ChatGPT and CoPilot. The complaint argues that the technology threatens to leave the journalism industry broken beyond repair. The system is described as a rapacious consumer that devours human authored content. It delivers copies and derivative imitations for commercial objectives. This legal action follows a similar twenty twenty-three lawsuit by The New York Times against the same defendants. Other publications have joined that earlier case since it started. The Seattle Times action stands out for a specific reason. Microsoft and OpenAI have previously provided funding for some of the publication's journalism projects and fellowships. A Microsoft spokesperson stated that the company is surprised by the lawsuit. The company remains willing to sit down and explore solutions to the dispute.</description>
+      <description>The Seattle Times and Newsday have filed a copyright infringement lawsuit against O P E N A I and Microsoft. They are suing over the alleged use of their journalism to train artificial intelligence models without permission. The lawsuit was filed in response to generative A I tools like Chat G P T and CoPilot. The complaint argues that the technology threatens to leave the journalism industry broken beyond repair. The system is described as a rapacious consumer that devours human authored content. It delivers copies and derivative imitations for commercial objectives. This legal action follows similar lawsuits by The New York Times, Ziff Davis, Merriam-Webster, and Encyclopedia Britannica against the same defendants. Nearly four hundred local newspapers have also recently sued O P E N A I and Microsoft. The Seattle Times action stands out for a specific reason. Microsoft and O P E N A I have previously provided funding for some of the publication's journalism projects and fellowships. A Microsoft spokesperson stated that the company is surprised by the lawsuit. The company remains willing to sit down and explore solutions to the dispute.</description>
       <guid isPermaLink="false">rss-techcrunch-5855851e5eb8</guid>
-      <enclosure url="audio/2026-09-06/rss-techcrunch-5855851e5eb8-seattle-times-and-newsday-are-the-latest-publications-to-sue.mp3" length="495624" type="audio/mpeg"/>
+      <enclosure url="audio/2026-09-06/rss-techcrunch-5855851e5eb8-seattle-times-and-newsday-are-the-latest-publications-to-sue.mp3" length="601032" type="audio/mpeg"/>
       <pubDate>Sun, 06 Sep 2026 14:43:18 +0000</pubDate>
     </item>
     <item>
@@ -1031,17 +987,9 @@ OpenAI stated that it intends to maintain public transparency regarding its recu
     <item>
       <title>Volcano eruption leaves 150,000 passengers stranded in Indonesia</title>
       <link>https://www.bbc.co.uk/news/articles/cvgy5k4n07ko?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>Anak Krakatau in Indonesia erupted and left over one hundred fifty thousand passengers stranded. Authorities temporarily suspended operations at eight airports after volcanic ash entered the airspace. The closures started on Sunday morning at Jakarta's Soekarno Hatta International Airport.
-
-Transport minister, Dudy Purwagandhi, stated that seven hundred twelve flights are affected. The pause impacts routes to Singapore, Doha, Sydney, and Kuala Lumpur. Tests confirmed the ash spread toward West Java. It reached twenty thousand feet east of the volcano and fifty thousand feet west toward Sumatra, according to the meteorological agency, B. M. K. G.
-
-The volcano began erupting late Friday night with continuous seismic activity and lava fountains. Two more eruptions followed on Sunday morning. Authorities confirmed no tsunami warning is linked to the activity.
-
-The health minister urged residents to stay indoors and wear face masks. Local schools cancelled activities after students and residents reported eye irritation. A resident, Aldi Candra Prayogi, described the ash as feeling like small grains of sand in his eyes.
-
-Transport minister, Dudy Purwagandhi, asked airlines to consider diverting some flights. He also told them to speed up processes for refunding tickets and provide timely information to avoid airport overcrowding.</description>
+      <description>Anak Krakatau in Indonesia erupted and left over one hundred fifty thousand passengers stranded according to one source, while a new source reports around two hundred seventy thousand passengers stranded. Authorities temporarily suspended operations at eight airports after volcanic ash entered the airspace according to the initial report, while the new article states Jakarta's Soekarno Hatta International Airport and three other airports extended closures. The closures started on Sunday morning at Jakarta's Soekarno Hatta International Airport. Transport minister Dudy Purwagandhi stated that seven hundred twelve flights are affected, while the new source reports more than two thousand flights grounded. The pause impacts routes to Singapore, Doha, Sydney, and Kuala Lumpur. Tests confirmed the ash spread toward West Java. It reached twenty thousand feet east of the volcano and fifty thousand feet west toward Sumatra, according to the meteorological agency B M K G, while the new source notes ash heights of six thousand meters on the Java side and fifteen thousand meters on the Sumatra side and Banten. The volcano began erupting late Friday night with continuous seismic activity and lava fountains. Two more eruptions followed on Sunday morning, and the new source reports a recent eruption occurred at twenty-twenty-three on Sunday. Authorities confirmed no tsunami warning is linked to the activity. The health minister urged residents to stay indoors and wear face masks. Local schools cancelled activities, with the new source adding schools moved classes online after students and residents reported eye irritation. A resident, Aldi Candra Prayogi, described the ash as feeling like small grains of sand in his eyes. Transport minister Dudy Purwagandhi asked airlines to consider diverting some flights. He also told them to speed up processes for refunding tickets and provide timely information to avoid airport overcrowding. The new source adds that transport minister Dudy Purwagandhi stated authorities cannot ascertain when closures will end due to dynamic weather and tests are conducted every thirty minutes. Authorities established a three kilometer radius exclusion zone around the crater for people and ships in the Sunda Strait.</description>
       <guid isPermaLink="false">rss-bbc_world-87f4a13d0675</guid>
-      <enclosure url="audio/2026-09-06/rss-bbc_world-87f4a13d0675-volcano-eruption-leaves-150000-passengers-stranded-in-indone.mp3" length="615792" type="audio/mpeg"/>
+      <enclosure url="audio/2026-09-06/rss-bbc_world-87f4a13d0675-volcano-eruption-leaves-150000-passengers-stranded-in-indone.mp3" length="998976" type="audio/mpeg"/>
       <pubDate>Sun, 06 Sep 2026 14:56:15 +0000</pubDate>
     </item>
     <item>
@@ -1063,6 +1011,20 @@ However, new research led by U. S. Department of Agriculture scientists indicate
       <guid isPermaLink="false">rss-ars_technica-a165ac63c9c3</guid>
       <enclosure url="audio/2026-09-06/rss-ars_technica-a165ac63c9c3-farmed-salmon-may-not-be-as-nutritious-as-it-once-was-new-re.mp3" length="351840" type="audio/mpeg"/>
       <pubDate>Sun, 06 Sep 2026 21:07:33 +0000</pubDate>
+    </item>
+    <item>
+      <title>These Cyborg Cockroaches Could Save Your Life</title>
+      <link>https://www.wired.com/story/cyborg-cockroaches-disaster-response/</link>
+      <description>Researchers from the University of Queensland and the University of New South Wales have developed cyborg insects called Paraborgs. They use giant burrowing cockroaches to search for disaster victims and administer first aid. As detailed in the journal Advanced Science, the team utilized northern Queensland cockroaches. These insects measure up to eighty-seven millimeters in length and weigh up to forty grams.
+
+The insects can carry up to one point five times their body weight. The team built two types of Paraborgs. One is equipped with a camera. Another features an automatic injection mechanism. The injection device uses a chemical reaction between citric acid and baking soda to create carbon dioxide. This gas pushes a syringe plunger.
+
+Scientists remotely controlled the insects using electrical stimuli. They applied frequencies between ten and forty hertz to electrodes embedded in the antennae and cerci.
+
+Bio-robotics researcher, Tan Vo Doan stated that cyborg insects have been designed for search missions for decades. The team wanted to take the next step. Vo Doan hopes that with secured resources, a rescue team could be deployed at actual disaster sites within five to ten years. The current study did not replicate complex environmental conditions like uneven terrain and shifting landscapes.</description>
+      <guid isPermaLink="false">rss-wired-a0b687a73d65</guid>
+      <enclosure url="audio/2026-09-07/rss-wired-a0b687a73d65-these-cyborg-cockroaches-could-save-your-life.mp3" length="599832" type="audio/mpeg"/>
+      <pubDate>Mon, 07 Sep 2026 06:49:47 +0000</pubDate>
     </item>
     <item>
       <title>Create Custom Windows 11 Notifications to Remind Yourself of Anything</title>
@@ -1241,6 +1203,20 @@ He also noted damp walls, a narrow entry, and ongoing basement work for commerci
       <pubDate>Sun, 06 Sep 2026 14:53:50 +0000</pubDate>
     </item>
     <item>
+      <title>Boox’s tiny Picco e-reader should land in November</title>
+      <link>https://www.theverge.com/tech/990895/boox-picco-tiny-e-reader-november-ifa</link>
+      <description>Boox announced that its new pocket-sized e-reader, the Picco, is expected to launch in November. This follows an initial teaser in July. Reporting from the I. F. A. trade show revealed new hardware details about the device. Pricing has not yet been disclosed.
+
+The Picco features a three point nine seven inch touchscreen e-paper display. The Verge writer Andrew Liszewski called it a welcome upgrade.
+
+Unlike competing devices such as Xteink readers, the Picco does not include magnets on the back for phone attachment. For navigation, the device is equipped with physical page-turn buttons. These buttons support customizable actions for both short and long presses.
+
+The device has no onboard storage. It relies entirely on a micro S. D. card.</description>
+      <guid isPermaLink="false">rss-verge-2ac76f7cbbf1</guid>
+      <enclosure url="audio/2026-09-07/rss-verge-2ac76f7cbbf1-booxs-tiny-picco-e-reader-should-land-in-november.mp3" length="345360" type="audio/mpeg"/>
+      <pubDate>Mon, 07 Sep 2026 06:48:50 +0000</pubDate>
+    </item>
+    <item>
       <title>Jamaican delegates arrive in UK to hand slavery reparations petition to King Charles</title>
       <link>https://www.theguardian.com/news/2026/sep/06/jamaica-slavery-reparations-petition-king-charles</link>
       <description>Jamaican delegates arrived in the United Kingdom over the weekend. They are led by culture minister Olivia Grange and members of the National Council on Reparations. They plan to hand a landmark petition to King Charles on Monday.
@@ -1347,9 +1323,9 @@ Pundit, Chris Sutton told, B. B. C. Sport, that he cannot see anyone stopping Ar
     <item>
       <title>Amazon cargo plane crashes at Miami airport after overshooting runway, fire erupts</title>
       <link>https://www.livemint.com/news/us-news/amazon-cargo-plane-crashes-at-miami-airport-after-overshooting-runway-fire-erupts-11788727190248.html</link>
-      <description>An Amazon Prime Air cargo plane from San Juan, Puerto Rico, overran a runway at Miami International Airport. The crash happened on Sunday afternoon at about two p.m. The plane struck multiple vehicles and burst into flames. The incident caused a major emergency response. All runways and taxiways at the airport closed immediately. The Federal Aviation Administration issued a full ground stop. More than sixty Miami-Dade Fire Rescue units responded to the scene. They worked to extinguish the fire and assess those affected. Authorities did not immediately release information regarding injuries or fatalities. Images from the crash site showed the aircraft resting on its belly. It sat beside a roadway near two semi-trucks. The plane remained largely intact despite intense fire and thick black smoke. Transportation Secretary Sean Duffy stated that the F. A. A. was dispatching investigators. The National Transportation Safety Board announced it was gathering information to assist in determining the cause. The runway closures disrupted air traffic at the major South Florida hub. The F. A. A. warned that delays would continue even after reopening. Arrivals and departures were expected to operate at reduced capacity. Amazon did not immediately respond to requests for comment. Authorities continued emergency operations and investigated the crash.</description>
+      <description>An Amazon cargo plane overran a runway at Miami International Airport. The incident occurred on Sunday afternoon at about two p.m. on September sixth, twenty twenty-six. The flight departed from Luis Muñoz Marín International Airport in San Juan, Puerto Rico. The Federal Aviation Administration stated that Twenty One Air Flight 7598 was the specific aircraft involved. The plane was a Boeing seven sixty-seven dash three hundred cargo aircraft. It struck multiple vehicles and burst into flames. The Verge reports that the crash resulted in multiple injuries. The existing summary notes that authorities did not immediately release information regarding injuries or fatalities. The incident caused a major emergency response. All runways and taxiways at the airport closed immediately. The Federal Aviation Administration issued a full ground stop. More than sixty Miami-Dade Fire Rescue units responded to the scene. They worked to extinguish the fire and assess those affected. Images from the crash site showed the aircraft resting on its belly. It sat beside a roadway near two semi-trucks. The plane remained largely intact despite intense fire and thick black smoke. Transportation Secretary Sean Duffy stated that the F A A was dispatching investigators. The National Transportation Safety Board announced it was gathering information to assist in determining the cause. The runway closures disrupted air traffic at the major South Florida hub. The F A A warned that delays would continue even after reopening. Arrivals and departures were expected to operate at reduced capacity. Amazon did not immediately respond to requests for comment. Authorities continued emergency operations and investigated the crash.</description>
       <guid isPermaLink="false">rss-livemint-d0368015bca2</guid>
-      <enclosure url="audio/2026-09-06/rss-livemint-d0368015bca2-amazon-cargo-plane-crashes-at-miami-airport-after-overshooti.mp3" length="629160" type="audio/mpeg"/>
+      <enclosure url="audio/2026-09-06/rss-livemint-d0368015bca2-amazon-cargo-plane-crashes-at-miami-airport-after-overshooti.mp3" length="810672" type="audio/mpeg"/>
       <pubDate>Sun, 06 Sep 2026 21:21:43 +0000</pubDate>
     </item>
     <item>
@@ -1377,6 +1353,14 @@ Additional Chief Secretary of Services, V. Radha, leads the committee. Doctor N.
       <guid isPermaLink="false">rss-techcrunch-e58f97f98b15</guid>
       <enclosure url="audio/2026-09-06/rss-techcrunch-e58f97f98b15-authors-push-back-as-publishers-and-agents-seek-share-of-ant.mp3" length="739056" type="audio/mpeg"/>
       <pubDate>Sun, 06 Sep 2026 21:08:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Phil Schiller’s App Store exit reportedly driven by wariness over future plans</title>
+      <link>https://techcrunch.com/2026/09/06/phil-schillers-app-store-exit-reportedly-driven-by-wariness-over-future-plans/</link>
+      <description>Phil Schiller is stepping down from his role as the head of the App Store. Mark Gurman from Bloomberg reported this news. Schiller will remain at the company as an Apple Fellow. He will work on unspecified projects. He wants to spend more time with his family and on philanthropy. Another factor influenced his thinking too. New Chief Executive Officer John Ternus and services chief Eddy Cue seek to improve App Store margins. They want to bring in more recurring revenue. Apple management and their share of App Store payments have been a frequent source of criticism. Developers have launched major lawsuits over this issue. Gurman states there was no major fight over the strategy. Schiller believed that trying to squeeze more profits from the business would increase conflict. This would cause more trouble with governments and developers. He decided to step down and avoid involvement.</description>
+      <guid isPermaLink="false">rss-techcrunch-e0df9ee55e57</guid>
+      <enclosure url="audio/2026-09-07/rss-techcrunch-e0df9ee55e57-phil-schillers-app-store-exit-reportedly-driven-by-wariness-.mp3" length="379296" type="audio/mpeg"/>
+      <pubDate>Mon, 07 Sep 2026 06:49:17 +0000</pubDate>
     </item>
   </channel>
 </rss>

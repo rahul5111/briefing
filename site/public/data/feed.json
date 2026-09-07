@@ -1,6 +1,41 @@
 {
   "stories": [
     {
+      "id": "rss-techcrunch-e0df9ee55e57",
+      "title": "Phil Schiller’s App Store exit reportedly driven by wariness over future plans",
+      "summary": "Phil Schiller is stepping down from his role as the head of the App Store. Mark Gurman from Bloomberg reported this news. Schiller will remain at the company as an Apple Fellow. He will work on unspecified projects. He wants to spend more time with his family and on philanthropy. Another factor influenced his thinking too. New Chief Executive Officer John Ternus and services chief Eddy Cue seek to improve App Store margins. They want to bring in more recurring revenue. Apple management and their share of App Store payments have been a frequent source of criticism. Developers have launched major lawsuits over this issue. Gurman states there was no major fight over the strategy. Schiller believed that trying to squeeze more profits from the business would increase conflict. This would cause more trouble with governments and developers. He decided to step down and avoid involvement.",
+      "main": "WORLD",
+      "sub": "Society & Culture",
+      "category": "WORLD",
+      "subcategory": "Society & Culture",
+      "sources": [
+        {
+          "name": "techcrunch",
+          "url": "https://techcrunch.com/2026/09/06/phil-schillers-app-store-exit-reportedly-driven-by-wariness-over-future-plans/",
+          "domain": "techcrunch.com",
+          "added_at": "2026-09-07T06:49:17.664890+00:00"
+        }
+      ],
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/09/06/phil-schillers-app-store-exit-reportedly-driven-by-wariness-over-future-plans/",
+      "source_domain": "techcrunch.com",
+      "source_permalink": "https://techcrunch.com/2026/09/06/phil-schillers-app-store-exit-reportedly-driven-by-wariness-over-future-plans/",
+      "score": 100,
+      "author": "Anthony Ha",
+      "published_at": "2026-09-07T06:49:17.664890+00:00",
+      "created_at_ts": 1788730866,
+      "audio_path": "audio/2026-09-07/rss-techcrunch-e0df9ee55e57-phil-schillers-app-store-exit-reportedly-driven-by-wariness-.mp3",
+      "word_count": 146,
+      "estimated_duration_s": 58,
+      "image_url": "https://techcrunch.com/wp-content/uploads/2022/07/app-store-ios-2022-a.jpg?resize=1200,675",
+      "location": null,
+      "audio_bytes": 379296,
+      "audio_duration_s": 49.2,
+      "tts_chunks": 14,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
       "id": "rss-techcrunch-e58f97f98b15",
       "title": "Authors push back as publishers and agents seek share of Anthropic settlement",
       "summary": "Authors are pushing back against publishers and literary agencies. These companies are trying to claim shares of a one point five billion dollar copyright settlement from Anthropic. The settlement received final approval in July after a class action suit over pirated training material. The authors of nearly five hundred thousand titles are slated to receive three thousand dollars for each pirated work. In-print books traditionally split the payment fifty-fifty between author and publisher. Authors of self-published or out-of-print works are meant to receive the full amount. Writers have reported receiving emails with unexpected demands. Publishers are seeking full payments instead of halves. Some publishers are claiming rights to books that reverted years ago. Author, April Henry posted that HarperCollins claimed a book whose rights reverted at least seventeen years ago. Victoria Strauss of the blog Writers Beware and Authors Guild chief executive officer Mary Rasenberger attribute the payment errors to bad record-keeping and a confusing settlement process instead of malice. Victoria Strauss noted that complaints suggest a widespread and systemic issue rather than routine settlement glitches. Mary Rasenberger also attributed the payment errors to bad record-keeping and a confusing settlement process instead of malice. Milan responded on the social network Bluesky. Milan wrote that agents are trying to claim percentages on the settlement and they should not do that. Milan and the Authors Guild have shared details on how authors can dispute allocations. To claim one hundred percent of a payment, the rights reversion must have occurred before the August tenth, twenty twenty-two download date in the settlement.",
@@ -123,7 +158,7 @@
     {
       "id": "rss-livemint-d0368015bca2",
       "title": "Amazon cargo plane crashes at Miami airport after overshooting runway, fire erupts",
-      "summary": "An Amazon Prime Air cargo plane from San Juan, Puerto Rico, overran a runway at Miami International Airport. The crash happened on Sunday afternoon at about two p.m. The plane struck multiple vehicles and burst into flames. The incident caused a major emergency response. All runways and taxiways at the airport closed immediately. The Federal Aviation Administration issued a full ground stop. More than sixty Miami-Dade Fire Rescue units responded to the scene. They worked to extinguish the fire and assess those affected. Authorities did not immediately release information regarding injuries or fatalities. Images from the crash site showed the aircraft resting on its belly. It sat beside a roadway near two semi-trucks. The plane remained largely intact despite intense fire and thick black smoke. Transportation Secretary Sean Duffy stated that the F. A. A. was dispatching investigators. The National Transportation Safety Board announced it was gathering information to assist in determining the cause. The runway closures disrupted air traffic at the major South Florida hub. The F. A. A. warned that delays would continue even after reopening. Arrivals and departures were expected to operate at reduced capacity. Amazon did not immediately respond to requests for comment. Authorities continued emergency operations and investigated the crash.",
+      "summary": "An Amazon cargo plane overran a runway at Miami International Airport. The incident occurred on Sunday afternoon at about two p.m. on September sixth, twenty twenty-six. The flight departed from Luis Muñoz Marín International Airport in San Juan, Puerto Rico. The Federal Aviation Administration stated that Twenty One Air Flight 7598 was the specific aircraft involved. The plane was a Boeing seven sixty-seven dash three hundred cargo aircraft. It struck multiple vehicles and burst into flames. The Verge reports that the crash resulted in multiple injuries. The existing summary notes that authorities did not immediately release information regarding injuries or fatalities. The incident caused a major emergency response. All runways and taxiways at the airport closed immediately. The Federal Aviation Administration issued a full ground stop. More than sixty Miami-Dade Fire Rescue units responded to the scene. They worked to extinguish the fire and assess those affected. Images from the crash site showed the aircraft resting on its belly. It sat beside a roadway near two semi-trucks. The plane remained largely intact despite intense fire and thick black smoke. Transportation Secretary Sean Duffy stated that the F A A was dispatching investigators. The National Transportation Safety Board announced it was gathering information to assist in determining the cause. The runway closures disrupted air traffic at the major South Florida hub. The F A A warned that delays would continue even after reopening. Arrivals and departures were expected to operate at reduced capacity. Amazon did not immediately respond to requests for comment. Authorities continued emergency operations and investigated the crash.",
       "main": "US",
       "sub": "Disasters",
       "category": "US",
@@ -134,6 +169,12 @@
           "url": "https://www.livemint.com/news/us-news/amazon-cargo-plane-crashes-at-miami-airport-after-overshooting-runway-fire-erupts-11788727190248.html",
           "domain": "livemint.com",
           "added_at": "2026-09-06T21:21:43.959383+00:00"
+        },
+        {
+          "name": "verge",
+          "url": "https://www.theverge.com/tech/990918/amazon-cargo-plane-crashed-miami",
+          "domain": "theverge.com",
+          "added_at": "2026-09-07T06:44:35.794166+00:00"
         }
       ],
       "source": "livemint",
@@ -145,8 +186,8 @@
       "published_at": "2026-09-06T21:21:43.959383+00:00",
       "created_at_ts": 1788727499,
       "audio_path": "audio/2026-09-06/rss-livemint-d0368015bca2-amazon-cargo-plane-crashes-at-miami-airport-after-overshooti.mp3",
-      "word_count": 205,
-      "estimated_duration_s": 82,
+      "word_count": 259,
+      "estimated_duration_s": 104,
       "image_url": "https://www.livemint.com/lm-img/img/2026/09/06/1600x900/USA-CRASH-PLANE-MIAMI-24_1788727441189_d8c33494-ed97-4fc2-9124-907b10efbe9b_1788727478314_b476116e-8447-439b-bfe8-250a378cb184_1d41ecbe-3faf-4dc9-a06a-1195468fc375_077ec745-0df7-4ab4-85fb-344378823a7c.JPG",
       "location": {
         "name": "Miami",
@@ -154,11 +195,19 @@
         "lat": 25.7617,
         "lng": -80.1918
       },
-      "audio_bytes": 629160,
-      "audio_duration_s": 80.9,
-      "tts_chunks": 19,
+      "audio_bytes": 810672,
+      "audio_duration_s": 103.7,
+      "tts_chunks": 24,
       "tts_voice": "am_liam",
-      "audio_verdict": "unchecked"
+      "audio_verdict": "unchecked",
+      "key_points": [
+        "An Amazon cargo plane operating as Twenty One Air Flight 7598 overran a runway at Miami International Airport on September sixth, twenty twenty-six.",
+        "The aircraft involved was a Boeing seven sixty-seven dash three hundred cargo aircraft that departed from San Juan, Puerto Rico.",
+        "The plane struck multiple vehicles and burst into flames during the landing at about two p.m.",
+        "The Verge reports that the incident resulted in multiple injuries, while earlier reports stated authorities had not immediately released injury information.",
+        "More than sixty Miami-Dade Fire Rescue units responded, while the F A A issued a full ground stop and closed airport runways.",
+        "Transportation Secretary Sean Duffy stated the F A A was dispatching investigators, and the National Transportation Safety Board gathered information to determine the cause."
+      ]
     },
     {
       "id": "rss-bbc_sport-86d5dcc598f5",
@@ -467,6 +516,41 @@
       "audio_bytes": 812304,
       "audio_duration_s": 105.0,
       "tts_chunks": 24,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "rss-verge-2ac76f7cbbf1",
+      "title": "Boox’s tiny Picco e-reader should land in November",
+      "summary": "Boox announced that its new pocket-sized e-reader, the Picco, is expected to launch in November. This follows an initial teaser in July. Reporting from the I. F. A. trade show revealed new hardware details about the device. Pricing has not yet been disclosed.\n\nThe Picco features a three point nine seven inch touchscreen e-paper display. The Verge writer Andrew Liszewski called it a welcome upgrade.\n\nUnlike competing devices such as Xteink readers, the Picco does not include magnets on the back for phone attachment. For navigation, the device is equipped with physical page-turn buttons. These buttons support customizable actions for both short and long presses.\n\nThe device has no onboard storage. It relies entirely on a micro S. D. card.",
+      "main": "WORLD",
+      "sub": "Society & Culture",
+      "category": "WORLD",
+      "subcategory": "Society & Culture",
+      "sources": [
+        {
+          "name": "verge",
+          "url": "https://www.theverge.com/tech/990895/boox-picco-tiny-e-reader-november-ifa",
+          "domain": "theverge.com",
+          "added_at": "2026-09-07T06:48:50.180765+00:00"
+        }
+      ],
+      "source": "verge",
+      "source_url": "https://www.theverge.com/tech/990895/boox-picco-tiny-e-reader-november-ifa",
+      "source_domain": "theverge.com",
+      "source_permalink": "https://www.theverge.com/tech/990895/boox-picco-tiny-e-reader-november-ifa",
+      "score": 100,
+      "author": "Terrence O’Brien",
+      "published_at": "2026-09-07T06:48:50.180765+00:00",
+      "created_at_ts": 1788712138,
+      "audio_path": "audio/2026-09-07/rss-verge-2ac76f7cbbf1-booxs-tiny-picco-e-reader-should-land-in-november.mp3",
+      "word_count": 120,
+      "estimated_duration_s": 48,
+      "image_url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/Onyx-Boox-Picco-1.jpeg?quality=90&amp;strip=all&amp;crop=0%2C31.646199642026%2C100%2C39.267015706806&amp;w=1200",
+      "location": null,
+      "audio_bytes": 345360,
+      "audio_duration_s": 45.5,
+      "tts_chunks": 11,
       "tts_voice": "am_liam",
       "audio_verdict": "unchecked"
     },
@@ -904,6 +988,41 @@
       "audio_verdict": "unchecked"
     },
     {
+      "id": "rss-wired-a0b687a73d65",
+      "title": "These Cyborg Cockroaches Could Save Your Life",
+      "summary": "Researchers from the University of Queensland and the University of New South Wales have developed cyborg insects called Paraborgs. They use giant burrowing cockroaches to search for disaster victims and administer first aid. As detailed in the journal Advanced Science, the team utilized northern Queensland cockroaches. These insects measure up to eighty-seven millimeters in length and weigh up to forty grams.\n\nThe insects can carry up to one point five times their body weight. The team built two types of Paraborgs. One is equipped with a camera. Another features an automatic injection mechanism. The injection device uses a chemical reaction between citric acid and baking soda to create carbon dioxide. This gas pushes a syringe plunger.\n\nScientists remotely controlled the insects using electrical stimuli. They applied frequencies between ten and forty hertz to electrodes embedded in the antennae and cerci.\n\nBio-robotics researcher, Tan Vo Doan stated that cyborg insects have been designed for search missions for decades. The team wanted to take the next step. Vo Doan hopes that with secured resources, a rescue team could be deployed at actual disaster sites within five to ten years. The current study did not replicate complex environmental conditions like uneven terrain and shifting landscapes.",
+      "main": "WORLD",
+      "sub": "Society & Culture",
+      "category": "WORLD",
+      "subcategory": "Society & Culture",
+      "sources": [
+        {
+          "name": "wired",
+          "url": "https://www.wired.com/story/cyborg-cockroaches-disaster-response/",
+          "domain": "wired.com",
+          "added_at": "2026-09-07T06:49:47.805951+00:00"
+        }
+      ],
+      "source": "wired",
+      "source_url": "https://www.wired.com/story/cyborg-cockroaches-disaster-response/",
+      "source_domain": "wired.com",
+      "source_permalink": "https://www.wired.com/story/cyborg-cockroaches-disaster-response/",
+      "score": 100,
+      "author": "Ritsuko Kawai",
+      "published_at": "2026-09-07T06:49:47.805951+00:00",
+      "created_at_ts": 1788690600,
+      "audio_path": "audio/2026-09-07/rss-wired-a0b687a73d65-these-cyborg-cockroaches-could-save-your-life.mp3",
+      "word_count": 202,
+      "estimated_duration_s": 81,
+      "image_url": "https://media.wired.com/photos/6a9af4664c28b30a706b7171/191:100/w_1280,c_limit/eait-mda-2026-cyborg-cockroach-16.jpg",
+      "location": null,
+      "audio_bytes": 599832,
+      "audio_duration_s": 77.2,
+      "tts_chunks": 16,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
       "id": "rss-ars_technica-a165ac63c9c3",
       "title": "Farmed salmon may not be as nutritious as it once was, new research suggests",
       "summary": "Health advice to eat more fatty fish has driven rising consumer demand. This demand is largely met by farmed salmon. Nearly seventy percent of the consumed salmon worldwide is raised in pens and cages.\n\nThe U. S. Department of Agriculture Dietary Guidelines for Americans recommend eating at least eight ounces of fish weekly. They urge people to choose salmon and other species high in heart-healthy Omega-three fatty acids. This stance is also supported by the American Heart Association.\n\nHowever, new research led by U. S. Department of Agriculture scientists indicates that levels of these fatty acids in farmed salmon have dropped considerably. This drop in nutrients potentially makes current dietary recommendations outdated and insufficient for consumers.",
@@ -976,7 +1095,7 @@
     {
       "id": "rss-bbc_world-87f4a13d0675",
       "title": "Volcano eruption leaves 150,000 passengers stranded in Indonesia",
-      "summary": "Anak Krakatau in Indonesia erupted and left over one hundred fifty thousand passengers stranded. Authorities temporarily suspended operations at eight airports after volcanic ash entered the airspace. The closures started on Sunday morning at Jakarta's Soekarno Hatta International Airport.\n\nTransport minister, Dudy Purwagandhi, stated that seven hundred twelve flights are affected. The pause impacts routes to Singapore, Doha, Sydney, and Kuala Lumpur. Tests confirmed the ash spread toward West Java. It reached twenty thousand feet east of the volcano and fifty thousand feet west toward Sumatra, according to the meteorological agency, B. M. K. G.\n\nThe volcano began erupting late Friday night with continuous seismic activity and lava fountains. Two more eruptions followed on Sunday morning. Authorities confirmed no tsunami warning is linked to the activity.\n\nThe health minister urged residents to stay indoors and wear face masks. Local schools cancelled activities after students and residents reported eye irritation. A resident, Aldi Candra Prayogi, described the ash as feeling like small grains of sand in his eyes.\n\nTransport minister, Dudy Purwagandhi, asked airlines to consider diverting some flights. He also told them to speed up processes for refunding tickets and provide timely information to avoid airport overcrowding.",
+      "summary": "Anak Krakatau in Indonesia erupted and left over one hundred fifty thousand passengers stranded according to one source, while a new source reports around two hundred seventy thousand passengers stranded. Authorities temporarily suspended operations at eight airports after volcanic ash entered the airspace according to the initial report, while the new article states Jakarta's Soekarno Hatta International Airport and three other airports extended closures. The closures started on Sunday morning at Jakarta's Soekarno Hatta International Airport. Transport minister Dudy Purwagandhi stated that seven hundred twelve flights are affected, while the new source reports more than two thousand flights grounded. The pause impacts routes to Singapore, Doha, Sydney, and Kuala Lumpur. Tests confirmed the ash spread toward West Java. It reached twenty thousand feet east of the volcano and fifty thousand feet west toward Sumatra, according to the meteorological agency B M K G, while the new source notes ash heights of six thousand meters on the Java side and fifteen thousand meters on the Sumatra side and Banten. The volcano began erupting late Friday night with continuous seismic activity and lava fountains. Two more eruptions followed on Sunday morning, and the new source reports a recent eruption occurred at twenty-twenty-three on Sunday. Authorities confirmed no tsunami warning is linked to the activity. The health minister urged residents to stay indoors and wear face masks. Local schools cancelled activities, with the new source adding schools moved classes online after students and residents reported eye irritation. A resident, Aldi Candra Prayogi, described the ash as feeling like small grains of sand in his eyes. Transport minister Dudy Purwagandhi asked airlines to consider diverting some flights. He also told them to speed up processes for refunding tickets and provide timely information to avoid airport overcrowding. The new source adds that transport minister Dudy Purwagandhi stated authorities cannot ascertain when closures will end due to dynamic weather and tests are conducted every thirty minutes. Authorities established a three kilometer radius exclusion zone around the crater for people and ships in the Sunda Strait.",
       "main": "WORLD",
       "sub": "Climate & Disasters",
       "category": "WORLD",
@@ -987,6 +1106,12 @@
           "url": "https://www.bbc.co.uk/news/articles/cvgy5k4n07ko?at_medium=RSS&at_campaign=rss",
           "domain": "bbc.co.uk",
           "added_at": "2026-09-06T14:56:15.234557+00:00"
+        },
+        {
+          "name": "bbc_world",
+          "url": "https://www.bbc.co.uk/news/articles/czezydp4l97o?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "added_at": "2026-09-07T06:45:29.501178+00:00"
         }
       ],
       "source": "bbc_world",
@@ -998,15 +1123,23 @@
       "published_at": "2026-09-06T14:56:15.234557+00:00",
       "created_at_ts": 1788688599,
       "audio_path": "audio/2026-09-06/rss-bbc_world-87f4a13d0675-volcano-eruption-leaves-150000-passengers-stranded-in-indone.mp3",
-      "word_count": 197,
-      "estimated_duration_s": 79,
+      "word_count": 339,
+      "estimated_duration_s": 136,
       "image_url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/9193/live/bc786310-a9bf-11f1-a47c-49756d8d78ae.jpg",
       "location": null,
-      "audio_bytes": 615792,
-      "audio_duration_s": 78.9,
-      "tts_chunks": 15,
+      "audio_bytes": 998976,
+      "audio_duration_s": 125.9,
+      "tts_chunks": 18,
       "tts_voice": "am_liam",
-      "audio_verdict": "unchecked"
+      "audio_verdict": "unchecked",
+      "key_points": [
+        "Anak Krakatau erupted late Friday night, causing airport closures and stranding passengers in Indonesia.",
+        "The initial summary reports over one hundred fifty thousand stranded passengers and seven hundred twelve affected flights, while the new source states around two hundred seventy thousand passengers and more than two thousand grounded flights.",
+        "Transport minister Dudy Purwagandhi stated that authorities cannot ascertain when airport closures will end due to dynamic weather.",
+        "Meteorological agency B M K G reported ash reaching twenty thousand feet east and fifty thousand feet west, while the new source specifies heights of six thousand meters on the Java side and fifteen thousand meters on the Sumatra side.",
+        "Authorities established a three kilometer radius exclusion zone prohibiting people and ships from approaching the active crater.",
+        "Authorities confirmed that there is no tsunami warning linked to the recent volcanic activity."
+      ]
     },
     {
       "id": "rss-openai_blog-19672c4832d4",
@@ -1201,7 +1334,7 @@
     {
       "id": "rss-techcrunch-5855851e5eb8",
       "title": "Seattle Times and Newsday are the latest publications to sue OpenAI and Microsoft",
-      "summary": "The Seattle Times and Newsday have filed a copyright infringement lawsuit against A. I. developers. They are suing OpenAI and Microsoft over the alleged use of their journalism to train artificial intelligence models. The lawsuit was filed in response to generative A. I. tools like ChatGPT and CoPilot. The complaint argues that the technology threatens to leave the journalism industry broken beyond repair. The system is described as a rapacious consumer that devours human authored content. It delivers copies and derivative imitations for commercial objectives. This legal action follows a similar twenty twenty-three lawsuit by The New York Times against the same defendants. Other publications have joined that earlier case since it started. The Seattle Times action stands out for a specific reason. Microsoft and OpenAI have previously provided funding for some of the publication's journalism projects and fellowships. A Microsoft spokesperson stated that the company is surprised by the lawsuit. The company remains willing to sit down and explore solutions to the dispute.",
+      "summary": "The Seattle Times and Newsday have filed a copyright infringement lawsuit against O P E N A I and Microsoft. They are suing over the alleged use of their journalism to train artificial intelligence models without permission. The lawsuit was filed in response to generative A I tools like Chat G P T and CoPilot. The complaint argues that the technology threatens to leave the journalism industry broken beyond repair. The system is described as a rapacious consumer that devours human authored content. It delivers copies and derivative imitations for commercial objectives. This legal action follows similar lawsuits by The New York Times, Ziff Davis, Merriam-Webster, and Encyclopedia Britannica against the same defendants. Nearly four hundred local newspapers have also recently sued O P E N A I and Microsoft. The Seattle Times action stands out for a specific reason. Microsoft and O P E N A I have previously provided funding for some of the publication's journalism projects and fellowships. A Microsoft spokesperson stated that the company is surprised by the lawsuit. The company remains willing to sit down and explore solutions to the dispute.",
       "main": "AI",
       "sub": "Industry",
       "category": "AI",
@@ -1212,6 +1345,12 @@
           "url": "https://techcrunch.com/2026/09/05/seattle-times-and-newsday-are-the-latest-publications-to-sue-openai-and-microsoft/",
           "domain": "techcrunch.com",
           "added_at": "2026-09-06T14:43:18.097369+00:00"
+        },
+        {
+          "name": "verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/990932/seattle-times-newsday-lawsuit-openai-microsoft",
+          "domain": "theverge.com",
+          "added_at": "2026-09-07T06:43:54.604903+00:00"
         }
       ],
       "source": "techcrunch",
@@ -1223,15 +1362,23 @@
       "published_at": "2026-09-06T14:43:18.097369+00:00",
       "created_at_ts": 1788648595,
       "audio_path": "audio/2026-09-06/rss-techcrunch-5855851e5eb8-seattle-times-and-newsday-are-the-latest-publications-to-sue.mp3",
-      "word_count": 164,
-      "estimated_duration_s": 66,
+      "word_count": 186,
+      "estimated_duration_s": 74,
       "image_url": "https://techcrunch.com/wp-content/uploads/2023/03/artifact-newspaper-icon.jpg?resize=1200,645",
       "location": null,
-      "audio_bytes": 495624,
-      "audio_duration_s": 62.9,
+      "audio_bytes": 601032,
+      "audio_duration_s": 79.9,
       "tts_chunks": 12,
-      "tts_voice": "am_liam",
-      "audio_verdict": "unchecked"
+      "tts_voice": "am_michael",
+      "audio_verdict": "unchecked",
+      "key_points": [
+        "The Seattle Times and Newsday sued OpenAI and Microsoft for copyright infringement.",
+        "The lawsuit alleges the companies used their journalism to train AI models without permission.",
+        "Other entities like Ziff Davis, Merriam-Webster, and Encyclopedia Britannica have filed similar lawsuits.",
+        "Nearly four hundred local newspapers recently sued OpenAI and Microsoft.",
+        "Microsoft and OpenAI previously provided funding for some Seattle Times journalism projects and fellowships.",
+        "A Microsoft spokesperson expressed surprise at the lawsuit and willingness to explore solutions."
+      ]
     },
     {
       "id": "rss-the_hindu-8765e56a360e",
@@ -5309,6 +5456,41 @@
       "audio_verdict": "unchecked"
     },
     {
+      "id": "rss-mit_tech_review-5730d2a5fe04",
+      "title": "Agriculture relies on fossil fuels. It’s costing us.",
+      "summary": "The conflict in Iran and natural gas spikes have severely disrupted the global fertilizer market. Costs are up and threatening farmers with elevated prices through at least twenty twenty-eight. Natural gas serves as both an energy source and a chemical input for ammonia. This connects fertilizer directly to fossil fuel fluctuations. Fertilizer trade is being directly affected as well. About one-third of global seaborne trade in fertilizers passes through the Strait of Hormuz. That strait has been effectively closed to commercial traffic because of the conflict. In April, the price of urea climbed above eight hundred fifty dollars per metric ton. This marked an eighty percent increase from pre-conflict levels and the highest point since twenty twenty-two. The crisis has also damaged or shut down thirty-one ammonia plants in the Middle East. This compounds earlier damage to twenty plants in Russia. Travis Frey, chief technology officer of Pivot Bio, describes the situation. He says there is just this out-of-control supply chain that is a lot more volatile than it has ever been. Farmers operate on paper-thin margins. These spikes pose a severe threat to their businesses and ultimately push food prices higher for consumers. In response, biotech alternatives that use microbes to provide nitrogen are seeing increased attention. Companies like Pivot Bio and Switch Bioworks are producing microbe-based fertilizers. These avoid natural gas inputs and are not subject to the same price spikes. Current technology can only replace a fraction of traditional synthetic fertilizers. Tim Schnabel, founder and chief executive officer of Switch Bioworks, notes the urgency of the shift. He states that we cannot keep doing it like this and that there is no way we can build a society where the basis of the food chain depends on fossil fuels.",
+      "main": "WORLD",
+      "sub": "Society & Culture",
+      "category": "WORLD",
+      "subcategory": "Society & Culture",
+      "sources": [
+        {
+          "name": "mit_tech_review",
+          "url": "https://www.technologyreview.com/2026/09/03/1143320/fertilizer-prices-fossil-fuels/",
+          "domain": "technologyreview.com",
+          "added_at": "2026-09-07T06:47:50.477943+00:00"
+        }
+      ],
+      "source": "mit_tech_review",
+      "source_url": "https://www.technologyreview.com/2026/09/03/1143320/fertilizer-prices-fossil-fuels/",
+      "source_domain": "technologyreview.com",
+      "source_permalink": "https://www.technologyreview.com/2026/09/03/1143320/fertilizer-prices-fossil-fuels/",
+      "score": 100,
+      "author": "Casey Crownhart",
+      "published_at": "2026-09-07T06:47:50.477943+00:00",
+      "created_at_ts": 1788429600,
+      "audio_path": "audio/2026-09-07/rss-mit_tech_review-5730d2a5fe04-agriculture-relies-on-fossil-fuels-its-costing-us.mp3",
+      "word_count": 292,
+      "estimated_duration_s": 117,
+      "image_url": "https://wp.technologyreview.com/wp-content/uploads/2026/09/GettyImages-1300156444.jpg?resize=1200,600",
+      "location": null,
+      "audio_bytes": 821616,
+      "audio_duration_s": 104.9,
+      "tts_chunks": 21,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
       "id": "rss-mit_tech_review-8ac1f7ba30c3",
       "title": "Scaling agentic AI pilots across the enterprise",
       "summary": "Eighty percent of Fortune five hundred companies have adopted agentic A. I. as the technology transitions from experimentation to enterprise deployment. Scaling remains uneven because many organizations remain stuck in isolated pilots.\n\nAccording to Arun Chandra, chief operating officer at NiCE, organizations must move beyond experimentation. They need to align agentic A. I. with specific business strategies to increase revenue or reduce costs. Organizations must redesign workflows instead of applying A. I. to outdated processes.\n\nChandra notes that organizations should avoid applying A. I. to inefficient systems. He states that the last thing you want to do is to apply A. I. on an outdated or an inefficient workflow.\n\nTo achieve scale, organizations must treat agentic A. I. as a cohesive system. They must provide agents with necessary data, knowledge, context, and back end system connections. Chandra emphasizes that the efficacy of these A. I. agents is purely a function of the context, the knowledge, and the data they can ingest and use.\n\nScaling also requires managing governance, privacy, security, and change management as agents take on consequential work. Chandra argues that A. I. agents should ultimately be held to the same standards as human workers. Enterprises should view their workforce as a combination of humans and A. I. agents.\n\nFor organizations making the transition from pilots to scale, the priority is not to boil the ocean. Chandra says to instead build a connected strategy around high value use cases, workflows, workforce changes, and measurable outcomes.",
@@ -7498,6 +7680,41 @@
       "audio_verdict": "unchecked"
     },
     {
+      "id": "rss-openai_blog-50e05f9b472e",
+      "title": "Healthcare organizations can now connect EHR and additional industry data to ChatGPT",
+      "summary": "Open A. I. has added new features to Chat G. P. T. for Healthcare. These include an electronic health record integration with Epic. There is also a Healthcare Public Data plugin. It connects patient context and industry data inside a secure workspace.\n\nThe Epic integration lets doctors bring authorized patient records into Chat G. P. T. Clinicians can review history and prepare for appointments. They can also embed the tool directly into supported layouts. The Healthcare Public Data plugin provides structured access to nine official public sources. These include PubMed and DailyMed. They also include ClinicalTrials.gov and RxNorm and C. M. S. Coverage. Teams can query these datasets for research and medication data without searching each source separately.\n\nOpen A. I. works with hundreds of physicians across sixty countries. These doctors span twenty-six medical specialties. They have reviewed more than seven hundred thousand model responses. Doctors tested twenty-seven clinical use cases involving four thousand three hundred sixty-three ratings. Physicians rated ninety-nine point one percent of those responses as safe. Other tests covered nuanced clinical questions using large United States healthcare datasets. More than ninety-three percent of responses across five connected data sources earned ratings of good or better accuracy.\n\nThe workspace includes enterprise controls. These features offer role-based access and single sign-on. They also provide audit logs and support for H. I. P. A. A. compliant workflows under a Business Associate Agreement. Eligible United States Chat G. P. T. for Clinicians users can install the public data plugin individually. The electronic health record integration requires a full workspace deployment.",
+      "main": "WORLD",
+      "sub": "Society & Culture",
+      "category": "WORLD",
+      "subcategory": "Society & Culture",
+      "sources": [
+        {
+          "name": "openai_blog",
+          "url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
+          "domain": "openai.com",
+          "added_at": "2026-09-07T06:46:54.381825+00:00"
+        }
+      ],
+      "source": "openai_blog",
+      "source_url": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
+      "source_domain": "openai.com",
+      "source_permalink": "https://openai.com/index/chatgpt-connects-health-records-and-healthcare-sources",
+      "score": 100,
+      "author": "",
+      "published_at": "2026-09-07T06:46:54.381825+00:00",
+      "created_at_ts": 1788264000,
+      "audio_path": "audio/2026-09-07/rss-openai_blog-50e05f9b472e-healthcare-organizations-can-now-connect-ehr-and-additional-.mp3",
+      "word_count": 259,
+      "estimated_duration_s": 104,
+      "image_url": "https://images.ctfassets.net/kftzwdyauwt9/7pfIDODSObT8A9BTlfXyVc/43262863eeb33d7f4f8e191fe4783cab/healthcare-exact-smaller-icon-hero-2x.png?w=1600&amp;h=900&amp;fit=fill",
+      "location": null,
+      "audio_bytes": 814200,
+      "audio_duration_s": 104.4,
+      "tts_chunks": 22,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
       "id": "hn-49520022",
       "title": "AnkiDroid: Google Play no longer allowing Open Collective donation link",
       "summary": "The open-source Android flashcard application AnkiDroid faces removal from the Google Play Store on September eleventh, twenty twenty-six. This affects users worldwide except for India and Russia. The removal will happen unless the app removes its donation link.\n\nGoogle has rejected app updates since August twenty-eighth under its payments policy. The policy restricts external billing links unless directed to a validated tax-exempt organization. The application has over ten million installs.\n\nIt relies on donations to its fiscal host Open Source Collective for maintenance and development. The team submitted an Internal Revenue Service determination letter showing the collective holds tax-exempt status under Section five hundred one C six. Google rejected the documentation in an email.\n\nThe email stated the app allows users to contribute donations to an organization that is not tax-exempt. Google did not explain why the determination is insufficient. The development team announced they are removing the donation links immediately in version two point twenty-four point X under protest.\n\nThey stated they are doing so under protest as otherwise they would be unable to distribute AnkiDroid to the majority of their users who use the Play Store.",
@@ -8074,5 +8291,5 @@
       "subcategory": "Models & Research"
     }
   ],
-  "updated_at": "2026-09-06T21:32:55.682947+00:00"
+  "updated_at": "2026-09-07T06:57:41.159558+00:00"
 }
