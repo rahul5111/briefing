@@ -1,0 +1,60 @@
+═══ 00_KEY_POINTS ═══
+
+1. OpenAI is testing a new feature allowing ChatGPT to learn users' writing styles from connected apps.
+2. The feature connects to apps like Slack, Notion, Google Drive, and Gmail to reference sent messages.
+3. Gael Breton first spotted the testing feature on X before it was reported by Bleeping Computer.
+4. Users can access the toggle under Settings, Personalization, and Writing if the feature is available.
+5. OpenAI has not yet officially announced the new writing style tool to the public.
+
+═══ 01_DRAFT ═══
+
+OpenAI is currently testing a new feature that will allow ChatGPT to learn a user's writing style by connecting to third-party services like Gmail, Slack, Notion, and Google Drive. The upcoming tool was first spotted on X by Gael Breton and subsequently reported by Bleeping Computer. Screenshots from Breton show a description stating that ChatGPT will write in the user's voice by referencing examples from connected apps. For users who currently have access, the option appears in the settings menu under Personalization and Writing, where a toggle reads Reference my writing style alongside a prompt to set up the feature. While OpenAI has not yet made an official announcement, the company frequently tests new ideas with a select group of users before a wider rollout. One user who replied to Breton’s post noted they have had access to the feature for weeks and described it as a game changer. It remains unclear whether the application will process sent messages through connected apps just once or periodically refer back to them to adapt the user's style over time, and PCMag was unable to activate the feature during its own testing.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+OpenAI is currently testing a new feature that will allow ChatGPT to learn a user's writing style by connecting to third-party services like Gmail, Slack, Notion, and Google Drive. The upcoming tool was first spotted on X by Gael Breton and subsequently reported by Bleeping Computer. Breton's post shows the feature with a description explaining how it works using examples from connected apps. For users who currently have access, the option appears in the settings menu under Personalization and Writing, where a toggle reads Reference my writing style alongside a prompt to set up the feature. While OpenAI has not yet made an official announcement, the company frequently tests new ideas with a select group of users before a wider rollout. One user who replied to Breton’s post noted they have had access to the feature for weeks and described it as a game changer. It remains unclear whether the application will process sent messages through connected apps just once or periodically refer back to them to adapt the user's style over time, and PCMag was unable to activate the feature during its own testing.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (5/5). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Open. A. I. is testing a new feature for Chat. G. P. T. It learns your writing style by connecting to external services. These services include Gmail, Slack, Notion, and Google Drive. 
+
+The upcoming tool was first spotted on X by, Gael Breton. It was later reported by Bleeping Computer. Breton posted a screenshot that shows a description of how the feature works. The description uses examples from connected apps. 
+
+Users who have access can find the option in the settings menu. Look under Personalization and Writing. A toggle reads, Reference my writing style. There is also a prompt to set up the feature. 
+
+Open. A. I. has not made an official announcement yet. The company frequently tests new ideas with a small group of users before a wider rollout. 
+
+One user replied to the post on X. They said they have had access to the feature for weeks. They described it as a game changer. 
+
+It remains unclear how the application processes messages from connected apps. It might process them just once. It might also refer back to them periodically to adapt your style over time. 
+
+P. C. Mag tried to test the application. They were unable to activate the feature during their own testing.
+
+═══ 05_NORMALIZED ═══
+
+Open. A. I. is testing a new feature for Chat. G. P. T. It learns your writing style by connecting to external services. These services include Gmail, Slack, Notion, and Google Drive.
+
+The upcoming tool was first spotted on X by, Gael Breton. It was later reported by Bleeping Computer. Breton posted a screenshot that shows a description of how the feature works. The description uses examples from connected apps.
+
+Users who have access can find the option in the settings menu. Look under Personalization and Writing. A toggle reads, Reference my writing style. There is also a prompt to set up the feature.
+
+Open. A. I. has not made an official announcement yet. The company frequently tests new ideas with a small group of users before a wider rollout.
+
+One user replied to the post on X. They said they have had access to the feature for weeks. They described it as a game changer.
+
+It remains unclear how the application processes messages from connected apps. It might process them just once. It might also refer back to them periodically to adapt your style over time.
+
+P. C. Mag tried to test the application. They were unable to activate the feature during their own testing.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (5/5). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: awkward punctuation
+

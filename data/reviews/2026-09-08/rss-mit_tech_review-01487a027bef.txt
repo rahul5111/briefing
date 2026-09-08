@@ -1,0 +1,66 @@
+═══ 00_KEY_POINTS ═══
+
+1. Thirty-one-year-old Hannah Earley cofounded the startup Vaire Computing to build energy-recycling computer chips.
+2. Vaire Computing has raised more than $12 million since being founded in the year 2021.
+3. Hannah Earley designed a patent-pending microscopic chip component known as a resonator to store recovered energy.
+4. Last year, Vaire announced a key breakthrough with a chip that recovered more energy than it lost.
+5. Researcher Igor Markov stated that the technology remains at a quite early stage of development.
+6. Hannah Earley completed her PhD at the University of Cambridge before launching her startup company.
+7. The startup aims to make data centers, laptops, and phones much more energy efficient.
+
+═══ 01_DRAFT ═══
+
+Hannah Earley, 31, is the cofounder and chief technology officer of Vaire Computing, a startup developing chips that recycle energy usually lost as heat through a method called reversible computing. Traditional chips erase unneeded information and dissipate energy as heat, while reversible circuits retain intermediate steps so calculations can run backward to recover energy. 
+
+Although the concept was proposed over 50 years ago, Earley designed a patent-pending microscopic resonator, describing it as a glorified pendulum that stores recovered energy for reuse. Last year, Vaire announced a breakthrough by producing a chip with a resonator that recovered more energy than it consumed. 
+
+Earley began programming around age nine and later pursued a PhD at the University of Cambridge under computational biologist Gos Micklem. Her doctoral research focused on the physical limits of computation and software for reversible programs. In 2021, she completed her degree and cofounded Vaire with technology entrepreneur and investor Rodolfo Rosini. The startup has raised more than $12 million and hired reversible computing pioneer Michael Frank as a senior scientist. 
+
+Igor Markov, a researcher in electronic design automation and former University of Michigan professor, notes the technology remains at an early stage and requires increasingly realistic demonstrations to secure commercial support. Vaire's next challenge is adapting the new chip design to fit into standard manufacturing systems and familiar devices. Earley aims to rebuild computers from the ground up to improve energy efficiency in data centers, laptops, and phones.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Hannah Earley, 31, is the cofounder and chief technology officer of Vaire Computing, a startup developing chips that recycle energy usually lost as heat through a method called reversible computing. When conventional computer chips perform calculations, they erase unneeded information along the way, dissipating energy as heat, whereas reversible computing retains intermediate steps in calculations to make it possible to run them backward and recover energy. 
+
+Although the idea was first proposed more than 50 years ago, Earley designed a patent-pending type of resonator—a microscopic chip component that stores recovered energy for later reuse, which she compares to a glorified pendulum. Last year, Vaire announced a breakthrough by producing a chip with a resonator that recovered more energy than it lost, even after accounting for the power needed to run the component. 
+
+Earley began programming around age nine and later pursued a PhD at the University of Cambridge under computational biologist Gos Micklem. Her doctoral research focused on the physical limits of computation and building software to turn ordinary programs into reversible ones. In 2021, she completed her degree and cofounded Vaire with technology entrepreneur and investor Rodolfo Rosini. The startup has raised more than $12 million and hired reversible computing pioneer Michael Frank as a senior scientist. 
+
+Igor Markov, a researcher in electronic design automation and former University of Michigan professor, notes the technology remains at an early stage and requires increasingly realistic demonstrations to secure commercial support. Vaire's next challenge is making their drastically different chip fit into familiar devices and manufacturing systems. Ultimately, Earley aims to rebuild computers from the ground up with an eye toward reversibility to make data centers, laptops, and phones much more energy efficient.
+
+═══ 02b_TRIMMED ═══
+
+Hannah Earley, 31, is the cofounder and chief technology officer of Vaire Computing, a startup developing chips that recycle energy usually lost as heat through a method called reversible computing. When conventional computer chips perform calculations, they erase unneeded information along the way, dissipating energy as heat, whereas reversible computing retains intermediate steps in calculations to make it possible to run them backward and recover energy. Last year, Vaire announced a breakthrough by producing a chip with a resonator that recovered more energy than it lost, even after accounting for the power needed to run the component. Earley began programming around age nine and later pursued a PhD at the University of Cambridge under computational biologist Gos Micklem. Her doctoral research focused on the physical limits of computation and building software to turn ordinary programs into reversible ones. In 2021, she completed her degree and cofounded Vaire with technology entrepreneur and investor Rodolfo Rosini. The startup has raised more than $12 million and hired reversible computing pioneer Michael Frank as a senior scientist. Igor Markov, a researcher in electronic design automation and former University of Michigan professor, notes the technology remains at an early stage and requires increasingly realistic demonstrations to secure commercial support. Vaire's next challenge is making their drastically different chip fit into familiar devices and manufacturing systems. Ultimately, Earley aims to rebuild computers from the ground up with an eye toward reversibility to make data centers, laptops, and phones much more energy efficient.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (7/7). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Thirty-one-year-old, Hannah Earley, is the cofounder and chief technology officer of Vaire Computing. The startup is developing chips that recycle energy usually lost as heat. This method is called reversible computing. Conventional computer chips erase unneeded information along the way. They dissipate energy as heat. Reversible computing retains intermediate steps in calculations. This makes it possible to run them backward and recover energy. Last year, Vaire announced a breakthrough. They produced a chip with a resonator. It recovered more energy than it lost. This was true even after accounting for the power needed to run the component. 
+
+Hannah Earley began programming around age nine. Later she pursued a Ph.D. at the University of Cambridge. She studied under computational biologist, Gos Micklem. Her doctoral research focused on the physical limits of computation. She also built software to turn ordinary programs into reversible ones. In twenty twenty-one, she completed her degree. She cofounded Vaire with technology entrepreneur and investor, Rodolfo Rosini. 
+
+The startup has raised more than twelve million dollars. They also hired reversible computing pioneer, Michael Frank, as a senior scientist. Igor Markov, a researcher in electronic design automation and former University of Michigan professor, shares a perspective. He notes the technology remains at an early stage. It requires increasingly realistic demonstrations to secure commercial support. 
+
+Vaire faces a major challenge next. They must make their drastically different chip fit into familiar devices and manufacturing systems. Ultimately, Hannah Earley aims to rebuild computers from the ground up. She keeps her eye toward reversibility. Her goal is to make data centers, laptops, and phones much more energy efficient.
+
+═══ 05_NORMALIZED ═══
+
+Thirty-one-year-old, Hannah Earley, is the cofounder and chief technology officer of Vaire Computing. The startup is developing chips that recycle energy usually lost as heat. This method is called reversible computing. Conventional computer chips erase unneeded information along the way. They dissipate energy as heat. Reversible computing retains intermediate steps in calculations. This makes it possible to run them backward and recover energy. Last year, Vaire announced a breakthrough. They produced a chip with a resonator. It recovered more energy than it lost. This was true even after accounting for the power needed to run the component.
+
+Hannah Earley began programming around age nine. Later she pursued a Ph.D. at the University of Cambridge. She studied under computational biologist, Gos Micklem. Her doctoral research focused on the physical limits of computation. She also built software to turn ordinary programs into reversible ones. In twenty twenty-one, she completed her degree. She cofounded Vaire with technology entrepreneur and investor, Rodolfo Rosini.
+
+The startup has raised more than twelve million dollars. They also hired reversible computing pioneer, Michael Frank, as a senior scientist. Igor Markov, a researcher in electronic design automation and former University of Michigan professor, shares a perspective. He notes the technology remains at an early stage. It requires increasingly realistic demonstrations to secure commercial support.
+
+Vaire faces a major challenge next. They must make their drastically different chip fit into familiar devices and manufacturing systems. Ultimately, Hannah Earley aims to rebuild computers from the ground up. She keeps her eye toward reversibility. Her goal is to make data centers, laptops, and phones much more energy efficient.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (7/7). Missing: none
+
+═══ 07_SANITY ═══
+
+OK
+

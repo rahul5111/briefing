@@ -1,0 +1,89 @@
+═══ 00_KEY_POINTS ═══
+
+1. Speculative decoding allows vLLM to verify multiple drafted tokens in a single target-model pass.
+2. The post explores speculative decoding measurements on AMD Instinct MI300X and MI355X GPUs.
+3. Standard autoregressive decoding requires one model decode step for every generated output token.
+4. The article examines five speculative-drafting approaches including native MTP and EAGLE-3.
+5. EAGLE-3 records hidden states from the beginning, middle, and end stages of the target Transformer.
+6. DFlash uses a dedicated draft network to draft parallel blocks from target-model hidden states.
+
+═══ 01_DRAFT ═══
+
+A new technical overview details how vLLM supports speculative decoding on AMD GPUs using the ROCm open software platform, specifically tested on AMD Instinct MI300X and MI355X accelerators. Speculative decoding speeds up large language model serving by pairing a lightweight draft component with a target model. The draft component proposes candidate future tokens, and the target model verifies them in a single forward pass, committing multiple output tokens when accepted while preserving the target model's behavior. The briefing outlines five specific drafting approaches: native Multi-Token Prediction modules, Gemma 4 MTP, EAGLE-3, DFlash, and DSpark. These methods differ in how the draft component receives target-model information and whether candidate tokens are generated sequentially, autoregressively, in parallel, or through hybrid approaches.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Speculative decoding speeds up large language model serving by pairing a lightweight draft component with a target model. The draft component proposes candidate future tokens, and the target model verifies them in a single forward pass, committing multiple output tokens when accepted while preserving the target model's behavior. The briefing outlines five specific drafting approaches: native Multi-Token Prediction modules, Gemma 4 MTP, EAGLE-3, DFlash, and DSpark. These methods differ in how the draft component receives target-model information and whether candidate tokens are generated sequentially, autoregressively, in parallel, or through hybrid approaches.
+
+═══ 03_COVERAGE_1 ═══
+
+50% covered (3/6). Missing: The post explores speculative decoding measurements on AMD Instinct MI300X and MI355X GPUs.; EAGLE-3 records hidden states from the beginning, middle, and end stages of the target Transformer.; DFlash uses a dedicated draft network to draft parallel blocks from target-model hidden states.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+Speculative decoding speeds up large language model serving by pairing a lightweight draft component with a target model. The draft component proposes candidate future tokens, and the target model verifies them in a single forward pass, committing multiple output tokens when accepted while preserving the target model's behavior. The post explores speculative decoding measurements on AMD Instinct MI300X and MI355X GPUs. EAGLE-3 records hidden states from the beginning, middle, and end stages of the target Transformer. DFlash uses a dedicated draft network to draft parallel blocks from target-model hidden states. The briefing outlines five specific drafting approaches: native Multi-Token Prediction modules, Gemma 4 MTP, EAGLE-3, DFlash, and DSpark. These methods differ in how the draft component receives target-model information and whether candidate tokens are generated sequentially, autoregressively, in parallel, or through hybrid approaches.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Speculative decoding speeds up large language model serving by pairing a lightweight draft component with a target model. 
+
+The draft component proposes candidate future tokens for the system. 
+
+The target model verifies them in a single forward pass. 
+
+It commits multiple output tokens when accepted while preserving the behavior of the target model. 
+
+A new post explores speculative decoding measurements on hardware accelerators from AMD. 
+
+These include the Instinct M. I. three hundred X and the Instinct M. I. three fifty-five X graphics processing units. 
+
+EAGLE-three records hidden states from the beginning, middle, and end stages of the target Transformer. 
+
+DFlash uses a dedicated draft network to draft parallel blocks from target model hidden states. 
+
+The briefing outlines five specific drafting approaches for users. 
+
+These include native Multi-Token Prediction modules and Gemma four M. T. P. 
+
+Other approaches are EAGLE-three, DFlash, and DSpark. 
+
+These methods differ in how the draft component receives target model information. 
+
+They also differ in whether candidate tokens are generated sequentially, autoregressively, in parallel, or through hybrid approaches.
+
+═══ 05_NORMALIZED ═══
+
+Speculative decoding speeds up large language model serving by pairing a lightweight draft component with a target model.
+
+The draft component proposes candidate future tokens for the system.
+
+The target model verifies them in a single forward pass.
+
+It commits multiple output tokens when accepted while preserving the behavior of the target model.
+
+A new post explores speculative decoding measurements on hardware accelerators from AMD.
+
+These include the Instinct M. I. three hundred X and the Instinct M. I. three fifty-five X graphics processing units.
+
+EAGLE-three records hidden states from the beginning, middle, and end stages of the target Transformer.
+
+DFlash uses a dedicated draft network to draft parallel blocks from target model hidden states.
+
+The briefing outlines five specific drafting approaches for users.
+
+These include native Multi-Token Prediction modules and Gemma four M. T. P.
+
+Other approaches are EAGLE-three, DFlash, and DSpark.
+
+These methods differ in how the draft component receives target model information.
+
+They also differ in whether candidate tokens are generated sequentially, autoregressively, in parallel, or through hybrid approaches.
+
+═══ 06_COVERAGE_FINAL ═══
+
+83% covered (5/6). Missing: Standard autoregressive decoding requires one model decode step for every generated output token.
+
+═══ 07_SANITY ═══
+
+OK
+

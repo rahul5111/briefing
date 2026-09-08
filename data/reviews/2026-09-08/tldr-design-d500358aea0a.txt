@@ -1,0 +1,39 @@
+═══ 00_KEY_POINTS ═══
+
+1. World Labs introduced Atlas, a next-generation multimodal world model built to pursue spatial intelligence.
+2. Atlas is an omni model pretrained from scratch to natively operate on text, images, video, and 3D.
+3. Atlas can generate up to 1 minute of video at 1440p resolution from one or more reference images.
+4. Atlas reconstructs real-world spaces and can output explicit 3D formats like point clouds or Gaussian splats.
+5. Atlas uses precise camera geometry as a native input type to provide pixel-perfect camera control.
+6. Atlas aims to solve novel view synthesis from sparse input images, outperforming specialized 3D reconstruction models.
+
+═══ 01_DRAFT ═══
+
+World Labs has introduced Atlas, a next-generation omni world model pretrained from scratch to natively operate on text, images, video, and 3D data. Built as a multimodal autoregressive diffusion transformer, Atlas combines all inputs into a shared spatial context to generate and simulate consistent 3D environments. The model scales with increased training compute and is designed to power future versions of Marble and other World Labs products.
+
+Atlas performs a broad range of tasks across world generation, reconstruction, and simulation. For camera-controlled generation, it produces up to one minute of video at 1440p resolution from one or more images with pixel-perfect camera control. For spatial reconstruction, it generates novel views and explicit 3D outputs—including point clouds and 3D Gaussian splats—using anywhere from a single input image to over a hundred, outperforming specialized 3D reconstruction models. In space-time simulation, Atlas models space and time from input videos, enabling bullet-time multi-view capture from ordinary cell phone footage shot on tripods and supporting Real-to-Sim workflows for robotics navigation and manipulation. Additionally, Atlas generates images and 360 panoramas from text prompts.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+World Labs has introduced a new model called Atlas. It is a next-generation omni world model. It is pretrained from scratch to natively operate on text, images, video, and three-D data. It is built as a multimodal autoregressive diffusion transformer. Atlas combines all inputs into a shared spatial context to generate and simulate consistent three-D environments. The model scales with increased training compute. It is designed to power future versions of Marble and other World Labs products.
+
+Atlas performs a broad range of tasks across world generation, reconstruction, and simulation. For camera-controlled generation, it produces up to one minute of video at fourteen-forty-p resolution from one or more images with pixel-perfect camera control. For spatial reconstruction, it generates novel views and explicit three-D outputs including point clouds and three-D Gaussian splats using anywhere from a single input image to over a hundred. It outperforms specialized three-D reconstruction models. In space-time simulation, Atlas models space and time from input videos. This enables bullet-time multi-view capture from ordinary cell phone footage shot on tripods. It also supports real-to-sim workflows for robotics navigation and manipulation. Additionally, Atlas generates images and three-sixty panoramas from text prompts.
+
+═══ 05_NORMALIZED ═══
+
+World Labs has introduced a new model called Atlas. It is a next-generation omni world model. It is pretrained from scratch to natively operate on text, images, video, and three-D data. It is built as a multimodal autoregressive diffusion transformer. Atlas combines all inputs into a shared spatial context to generate and simulate consistent three-D environments. The model scales with increased training compute. It is designed to power future versions of Marble and other World Labs products.
+
+Atlas performs a broad range of tasks across world generation, reconstruction, and simulation. For camera-controlled generation, it produces up to one minute of video at fourteen-forty-p resolution from one or more images with pixel-perfect camera control. For spatial reconstruction, it generates novel views and explicit three-D outputs including point clouds and three-D Gaussian splats using anywhere from a single input image to over a hundred. It outperforms specialized three-D reconstruction models. In space-time simulation, Atlas models space and time from input videos. This enables bullet-time multi-view capture from ordinary cell phone footage shot on tripods. It also supports real-to-sim workflows for robotics navigation and manipulation. Additionally, Atlas generates images and three-sixty panoramas from text prompts.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: three-D data, three-D environments, fourteen-forty-p, three-D outputs, three-D, three-D reconstruction models, three-sixty panoramas
+

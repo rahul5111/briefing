@@ -1,0 +1,62 @@
+═══ 00_KEY_POINTS ═══
+
+1. Cyera Research discovered a critical vulnerability, CVE-2026-6471, in the PostgreSQL database software.
+2. The flaw allows low-privilege backup accounts to load and execute arbitrary code on database servers.
+3. Every version of PostgreSQL released since 2014, specifically versions 9.4 through 18, is affected.
+4. A threat hunt on VirusTotal revealed 114 malicious PostgreSQL plugins already operating in the wild.
+5. Attackers can leverage the flaw to achieve full PostgreSQL superuser privileges and persistent backdoor access.
+6. PostGREShell turns a low-risk replication credential into a total database and server compromise across the internet.
+7. Cyera Research officially reported the security flaw to the PostgreSQL Security Team on February 21, 2026.
+
+═══ 01_DRAFT ═══
+
+Cyera Research has discovered a critical vulnerability, tracked as CVE-2026-6471, in PostgreSQL versions 9.4 through 18.2. The flaw exists in the database replication protocol and allows low-privilege accounts with the REPLICATION attribute to bypass security systems, load arbitrary code onto the server, and achieve remote code execution across Windows, Linux, and macOS. The vulnerability stems from an unvalidated plugin-loading path used during logical replication that was never subjected to the security restrictions applied to standard SQL plugin loading. 
+
+An attacker can exploit this foothold to escalate privileges to full PostgreSQL superuser, install persistent backdoors, modify system catalogs directly, and execute operating system commands. The vulnerability has been present since 2014, and a threat hunt across VirusTotal identified 114 malicious PostgreSQL plugins already in the wild. PostgreSQL acknowledged the report on February 27, 2026, after it was submitted on February 21, 2026, and officially published a security release fixing the issue on August 22, 2026. 
+
+To mitigate the risk, administrators must apply the security update, audit all REPLICATION accounts, block outbound SMB port 445 and NFS port 2049 from database servers at the firewall, and review pg_hba.conf configurations for overly permissive rules.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Cyera Research has discovered a critical vulnerability, tracked as CVE-2026-6471, in PostgreSQL versions 9.4 through 18.2. The flaw exists in the database replication protocol and allows low-privilege accounts with the REPLICATION attribute to bypass security systems, load arbitrary code onto the server, and achieve remote code execution across Windows, Linux, and macOS. The vulnerability stems from an unvalidated plugin-loading path used during logical replication that was never subjected to the security restrictions applied to standard SQL plugin loading. 
+
+An attacker can exploit this foothold to escalate privileges to full PostgreSQL superuser, install persistent backdoors, modify system catalogs directly, and execute operating system commands. The vulnerability has been present since 2014, and a threat hunt across VirusTotal identified 114 malicious PostgreSQL plugins already in the wild. PostgreSQL acknowledged the report after it was submitted, and officially published a security release fixing the issue on August 22, 2026. 
+
+To mitigate the risk, administrators must apply the security update, audit all REPLICATION accounts, block outbound SMB port 445 and NFS port 2049 from database servers at the firewall, and review pg_hba.conf configurations for overly permissive rules.
+
+═══ 03_COVERAGE_1 ═══
+
+71% covered (5/7). Missing: PostGREShell turns a low-risk replication credential into a total database and server compromise across the internet.; Cyera Research officially reported the security flaw to the PostgreSQL Security Team on February 21, 2026.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+Cyera Research has discovered a critical vulnerability, tracked as CVE-2026-6471, in PostgreSQL versions 9.4 through 18.2. PostGREShell turns a low-risk replication credential into a total database and server compromise across the internet. The flaw exists in the database replication protocol and allows low-privilege accounts with the REPLICATION attribute to bypass security systems, load arbitrary code onto the server, and achieve remote code execution across Windows, Linux, and macOS. The vulnerability stems from an unvalidated plugin-loading path used during logical replication that was never subjected to the security restrictions applied to standard SQL plugin loading. 
+
+An attacker can exploit this foothold to escalate privileges to full PostgreSQL superuser, install persistent backdoors, modify system catalogs directly, and execute operating system commands. The vulnerability has been present since 2014, and a threat hunt across VirusTotal identified 114 malicious PostgreSQL plugins already in the wild. Cyera Research officially reported the security flaw to the PostgreSQL Security Team on February 21, 2026. PostgreSQL acknowledged the report after it was submitted, and officially published a security release fixing the issue on August 22, 2026. 
+
+To mitigate the risk, administrators must apply the security update, audit all REPLICATION accounts, block outbound SMB port 445 and NFS port 2049 from database servers at the firewall, and review pg_hba.conf configurations for overly permissive rules.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Cyera Research has discovered a critical security flaw in PostgreSQL. The vulnerability is tracked as C. V. E. twenty twenty-six dash sixty-four seventy-one. It affects database versions nine point four through eighteen point two. A new tool called PostGREShell turns a low-risk replication credential into a total server compromise. The flaw exists in the database replication protocol. It allows low-privilege accounts to bypass security systems. Attackers can load arbitrary code onto the server and achieve remote code execution. This impacts Windows, Linux, and macOS systems. The vulnerability comes from an unvalidated plugin-loading path used during logical replication. This path never had the security restrictions of standard S. Q. L. plugin loading. 
+
+An attacker can exploit this foothold to escalate privileges to full PostgreSQL superuser. They can install persistent backdoors and modify system catalogs directly. They can also execute operating system commands. The vulnerability has been present since twenty fourteen. A threat hunt across VirusTotal identified one hundred fourteen malicious PostgreSQL plugins already in the wild. Cyera Research reported the flaw to the PostgreSQL Security Team on February twenty-first, twenty twenty-six. PostgreSQL acknowledged the report and published a security release fixing the issue on August twenty-second, twenty twenty-six. 
+
+Administrators must take action to mitigate the risk. You must apply the security update immediately. You need to audit all replication accounts. You should block outbound S. M. B. port four hundred forty-five from database servers at the firewall. You must also block N. F. S. port twenty forty-nine. Finally, you need to review p. g. underscore h. b. a. dot c. o. n. f. configurations for overly permissive rules.
+
+═══ 05_NORMALIZED ═══
+
+Cyera Research has discovered a critical security flaw in PostgreSQL. The vulnerability is tracked as C. V. E. twenty twenty-six dash sixty-four seventy-one. It affects database versions nine point four through eighteen point two. A new tool called PostGREShell turns a low-risk replication credential into a total server compromise. The flaw exists in the database replication protocol. It allows low-privilege accounts to bypass security systems. Attackers can load arbitrary code onto the server and achieve remote code execution. This impacts Windows, Linux, and macOS systems. The vulnerability comes from an unvalidated plugin-loading path used during logical replication. This path never had the security restrictions of standard S. Q. L. plugin loading.
+
+An attacker can exploit this foothold to escalate privileges to full PostgreSQL superuser. They can install persistent backdoors and modify system catalogs directly. They can also execute operating system commands. The vulnerability has been present since twenty fourteen. A threat hunt across VirusTotal identified one hundred fourteen malicious PostgreSQL plugins already in the wild. Cyera Research reported the flaw to the PostgreSQL Security Team on February twenty-first, twenty twenty-six. PostgreSQL acknowledged the report and published a security release fixing the issue on August twenty-second, twenty twenty-six.
+
+Administrators must take action to mitigate the risk. You must apply the security update immediately. You need to audit all replication accounts. You should block outbound S. M. B. port four hundred forty-five from database servers at the firewall. You must also block N. F. S. port twenty forty-nine. Finally, you need to review p. g. underscore h. b. a. dot c. o. n. f. configurations for overly permissive rules.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (7/7). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: dash sixty-four seventy-one
+

@@ -1,0 +1,58 @@
+═══ 00_KEY_POINTS ═══
+
+1. Vortex is an open-source columnar file format maintained under the Linux Foundation by SpiralDB.
+2. Using Vortex enables S3 to GPU data scans to run around thirty times faster than Parquet.
+3. Vortex random access performance is approximately one hundred times faster than traditional Parquet files.
+4. Traditional ML training pipelines suffer from a movement tax caused by CPU decompression and NVMe bottlenecks.
+5. Vortex avoids expensive data reprocessing by allowing users to change queries and filters dynamically instead.
+6. Vortex utilizes lightweight and cascading encodings that allow direct computation on compressed data.
+7. The file format separates logical types from physical types to save intermediate memory copies during ML training.
+
+═══ 01_DRAFT ═══
+
+At a QCon London 2026 talk, SpiralDB maintainer Onur presented Vortex, an open-source columnar file format hosted under the Linux Foundation designed to accelerate machine learning data loading from cloud storage like S3 directly to GPUs. 
+
+Traditional ML training pipelines suffer from two major overheads: movement taxes caused by multi-step data transfers through NVMe disks, CPU RAM, and CPU decompression before hitting the PCIe bus, and decision taxes requiring full data reprocessing when altering training filters or data mixes. Vortex eliminates these bottlenecks by utilizing lightweight, cascading encodings that allow GPUs to handle parallel decompression directly, and by pushing projections, filters, and aggregations down into the file format itself so queries can be modified without full data re-tokenization. 
+
+According to the presentation, Vortex S3-to-GPU scans run roughly 30 times faster than Parquet, while its random access speeds are 100 times or more faster than Parquet. The file format relies on decoupled logical and physical types, fixed-size postscripts, a descriptive footer, and a structure of arrays and layouts. Layouts use zone-maps containing summary statistics like minimum and maximum values, allowing readers to prune unnecessary data segments before performing sliceable compression where only matching row ranges are decompressed.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+At a QCon London 2026 talk, SpiralDB maintainer Onur presented Vortex, an open-source columnar file format hosted under the Linux Foundation designed to accelerate machine learning data loading from cloud storage like S3 directly to GPUs. 
+
+When utilizing GPUs, systems pay two types of taxes: a movement tax involving multi-step data fetching from S3 into NVMe disks, reading compressed bytes into RAM, CPU decompression, and sending decompressed bytes over PCIe to the GPU, and a decision tax occurring when iterating on training workloads by changing filters or data mixes, which traditionally requires full data reprocessing, re-tokenization, and reshuffling. Vortex eliminates these bottlenecks by utilizing lightweight, cascading encodings that allow GPUs to handle parallel decompression directly, and by pushing projections, filters, and aggregations down into the file format itself so queries can be modified without full data re-tokenization. 
+
+According to the presentation, Vortex S3-to-GPU scans run roughly 30 times faster than Parquet, while its random access speeds are 100 times or more faster than Parquet. The file format relies on decoupled logical and physical types, fixed-size postscripts, a descriptive footer, and a structure of arrays and layouts. Layouts use zone-maps containing summary statistics like minimum and maximum values, allowing readers to prune unnecessary data segments before performing sliceable compression where only matching row ranges are decompressed.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (7/7). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+At the QCon London twenty twenty-six conference, SpiralDB maintainer Onur presented Vortex. Vortex is an open-source columnar file format hosted under the Linux Foundation. It is designed to accelerate machine learning data loading from cloud storage like S. three directly to graphics processing units. 
+
+When utilizing graphics processing units, systems pay two types of taxes. The first is a movement tax involving multi-step data fetching from S. three into non-volatile memory express disks. It also involves reading compressed bytes into random access memory, central processing unit decompression, and sending decompressed bytes over peripheral component interconnect express to the graphics processing unit. 
+
+The second tax is a decision tax occurring when iterating on training workloads by changing filters or data mixes. This traditionally requires full data reprocessing, re-tokenization, and reshuffling. Vortex eliminates these bottlenecks by utilizing lightweight, cascading encodings that allow graphics processing units to handle parallel decompression directly. It also pushes projections, filters, and aggregations down into the file format itself so queries can be modified without full data re-tokenization. 
+
+According to the presentation, Vortex storage scans run roughly thirty times faster than Parquet. Its random access speeds are one hundred times or more faster than Parquet. The file format relies on decoupled logical and physical types, fixed-size postscripts, a descriptive footer, and a structure of arrays and layouts. Layouts use zone-maps containing summary statistics like minimum and maximum values. This allows readers to prune unnecessary data segments before performing sliceable compression where only matching row ranges are decompressed.
+
+═══ 05_NORMALIZED ═══
+
+At the QCon London twenty twenty-six conference, SpiralDB maintainer Onur presented Vortex. Vortex is an open-source columnar file format hosted under the Linux Foundation. It is designed to accelerate machine learning data loading from cloud storage like S. three directly to graphics processing units.
+
+When utilizing graphics processing units, systems pay two types of taxes. The first is a movement tax involving multi-step data fetching from S. three into non-volatile memory express disks. It also involves reading compressed bytes into random access memory, central processing unit decompression, and sending decompressed bytes over peripheral component interconnect express to the graphics processing unit.
+
+The second tax is a decision tax occurring when iterating on training workloads by changing filters or data mixes. This traditionally requires full data reprocessing, re-tokenization, and reshuffling. Vortex eliminates these bottlenecks by utilizing lightweight, cascading encodings that allow graphics processing units to handle parallel decompression directly. It also pushes projections, filters, and aggregations down into the file format itself so queries can be modified without full data re-tokenization.
+
+According to the presentation, Vortex storage scans run roughly thirty times faster than Parquet. Its random access speeds are one hundred times or more faster than Parquet. The file format relies on decoupled logical and physical types, fixed-size postscripts, a descriptive footer, and a structure of arrays and layouts. Layouts use zone-maps containing summary statistics like minimum and maximum values. This allows readers to prune unnecessary data segments before performing sliceable compression where only matching row ranges are decompressed.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (7/7). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: S. three, S. three
+

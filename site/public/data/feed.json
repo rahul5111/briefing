@@ -1,6 +1,1251 @@
 {
   "stories": [
     {
+      "id": "rss-bbc_sport-566ec37ce2b2",
+      "title": "Favourite Kane makes Ballon d'Or shortlist",
+      "summary": "Bayern Munich striker Harry Kane is the favorite for the twenty twenty-six Ballon d'Or. He leads a thirty player shortlist. The list includes fellow England internationals Jude Bellingham of Real Madrid and Arsenal player Declan Rice.\n\nLionel Messi is nominated. He seeks to win his ninth Ballon d'Or award.\n\nSpain has six players on the shortlist from their World Cup winning squad. They include Lamine Yamal and Paris Saint-Germain forward Ferran Torres. Torres scored the winning goal in the final. He joined the French club from Barcelona in the summer.\n\nParis Saint-Germain won back-to-back Champions League titles. They have nine players nominated. This excludes new signing Torres. Last year's winner Ousmane Dembele is also included.\n\nReal Madrid forwards Kylian Mbappe and Vinicius Junior feature on the list. Arsenal defenders Gabriel and William Saliba are there too.\n\nThe award was created by France Football in nineteen fifty-six. It is celebrating its seventieth anniversary. The winner will be announced at a ceremony in London on the twenty-sixth of October.\n\nThe symbolic choice of venue serves as a tribute to former England player Sir Stanley Matthews. He won the very first Ballon d'Or.",
+      "main": "SPORTS",
+      "sub": "Soccer",
+      "category": "SPORTS",
+      "subcategory": "Soccer",
+      "sources": [
+        {
+          "name": "bbc_sport",
+          "url": "https://www.bbc.co.uk/sport/football/articles/c62m82qqm87o?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "added_at": "2026-09-08T15:46:55.126025+00:00"
+        }
+      ],
+      "source": "bbc_sport",
+      "source_url": "https://www.bbc.co.uk/sport/football/articles/c62m82qqm87o?at_medium=RSS&at_campaign=rss",
+      "source_domain": "bbc.co.uk",
+      "source_permalink": "https://www.bbc.co.uk/sport/football/articles/c62m82qqm87o?at_medium=RSS&at_campaign=rss",
+      "score": 100,
+      "author": "",
+      "published_at": "2026-09-08T15:46:55.126025+00:00",
+      "created_at_ts": 1788881229,
+      "audio_path": "audio/2026-09-08/rss-bbc_sport-566ec37ce2b2-favourite-kane-makes-ballon-d-or-shortlist.mp3",
+      "word_count": 190,
+      "estimated_duration_s": 76,
+      "image_url": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/7820/live/aab1d020-ab96-11f1-aa04-efbf6a882854.jpg",
+      "location": {
+        "name": "London",
+        "country": "United Kingdom",
+        "lat": 51.5074,
+        "lng": -0.1278
+      },
+      "audio_bytes": 539016,
+      "audio_duration_s": 71.8,
+      "tts_chunks": 20,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "rss-techcrunch-c29785e0a02c",
+      "title": "Google’s revived nuclear power plant gets $1.9B loan from US government",
+      "summary": "NextEra Energy has secured a one point nine billion dollar loan from the United States Department of Energy. The money will finance the refurbishment and restart of the Duane Arnold Energy Center in Iowa. Google announced last October that it wanted to bring the mothballed nuclear plant back online. The facility has not operated since a twenty twenty rainstorm damaged it. It is scheduled to restart in twenty twenty-nine. The plant will provide six hundred fifteen megawatts of electricity after upgrades. NextEra will squeeze an additional fourteen megawatts from the plant during refurbishment. Deputy Secretary of Energy James Danly stated the restart will drive down electricity costs. NextEra Chief Executive Officer John Ketchum confirmed fifty megawatts will serve the local power cooperative. Google is reportedly looking to build up to six data centers near the site. The loan marks the second of its kind by the Department of Energy. Last year they extended a one billion dollar loan to Constellation Energy to restart a reactor at Three Mile Island. Shuttered nuclear plants are increasingly targeted by tech companies to power growing A. I. data centers. New facilities are expected to nearly triple the sector electricity demand by twenty thirty-five.",
+      "main": "US",
+      "sub": "Policy Changes",
+      "category": "US",
+      "subcategory": "Policy Changes",
+      "sources": [
+        {
+          "name": "techcrunch",
+          "url": "https://techcrunch.com/2026/09/08/googles-revived-nuclear-power-plant-gets-1-9b-loan-from-us-government/",
+          "domain": "techcrunch.com",
+          "added_at": "2026-09-08T15:39:14.468245+00:00"
+        }
+      ],
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/09/08/googles-revived-nuclear-power-plant-gets-1-9b-loan-from-us-government/",
+      "source_domain": "techcrunch.com",
+      "source_permalink": "https://techcrunch.com/2026/09/08/googles-revived-nuclear-power-plant-gets-1-9b-loan-from-us-government/",
+      "score": 100,
+      "author": "Tim De Chant",
+      "published_at": "2026-09-08T15:39:14.468245+00:00",
+      "created_at_ts": 1788881135,
+      "audio_path": "audio/2026-09-08/rss-techcrunch-c29785e0a02c-googles-revived-nuclear-power-plant-gets-1-9b-loan-from-us-g.mp3",
+      "word_count": 199,
+      "estimated_duration_s": 80,
+      "image_url": "https://techcrunch.com/wp-content/uploads/2021/06/GettyImages-129268875.jpg?resize=1200,900",
+      "location": {
+        "name": "Washington, D.C.",
+        "country": "United States",
+        "lat": 38.8951,
+        "lng": -77.0364
+      },
+      "audio_bytes": 567120,
+      "audio_duration_s": 71.8,
+      "tts_chunks": 14,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "rss-the_hindu-321c4464458b",
+      "title": "80 ‘garbage-free’ spots campaign yields impressive results, says MCC",
+      "summary": "The Mysuru City Corporation cleared nearly one thousand metric tonnes of solid waste across eighty garbage vulnerable spots. This happened during a campaign held from July twenty-eighth to August thirty-first, twenty twenty-six.\n\nThe two hundred twenty-two hour initiative involved about four thousand people. It aimed to strengthen Mysuru's position in national cleanliness rankings while marking the eightieth Independence Day celebrations.\n\nM. K. Savita led the effort with municipal officials, staff, and local residents. She stated that they launched the initiative with the idea that everyone should work together to clean the city. Instead of leaving the task only to civic workers, officials stepped in to clean the garbage. She noted that this sent a message to society, resulting in residents joining and supporting the initiative. She also said this encouraged and motivated their civic workers.\n\nOutstanding contributions from zone teams and individual pourakarmikas were recognized during a celebration event at the M. C. C. on Tuesday. The Gokulam crematorium garbage vulnerable point won first prize in the officials category. The Zone seven C. V. Road team received the rolling trophy.\n\nThe M. C. C. plans to expand the phased cleanup program to eliminate all garbage vulnerable points across Mysuru. The long term objective is making it the cleanest city in the country.",
+      "main": "INDIA",
+      "sub": "Society",
+      "category": "INDIA",
+      "subcategory": "Society",
+      "sources": [
+        {
+          "name": "the_hindu",
+          "url": "https://www.thehindu.com/news/national/karnataka/80-garbage-free-spots-campaign-yields-impressive-results-says-mcc/article71443276.ece",
+          "domain": "thehindu.com",
+          "added_at": "2026-09-08T15:48:40.845927+00:00"
+        }
+      ],
+      "source": "the_hindu",
+      "source_url": "https://www.thehindu.com/news/national/karnataka/80-garbage-free-spots-campaign-yields-impressive-results-says-mcc/article71443276.ece",
+      "source_domain": "thehindu.com",
+      "source_permalink": "https://www.thehindu.com/news/national/karnataka/80-garbage-free-spots-campaign-yields-impressive-results-says-mcc/article71443276.ece",
+      "score": 100,
+      "author": "",
+      "published_at": "2026-09-08T15:48:40.845927+00:00",
+      "created_at_ts": 1788881089,
+      "audio_path": "audio/2026-09-08/rss-the_hindu-321c4464458b-80-garbage-free-spots-campaign-yields-impressive-results-say.mp3",
+      "word_count": 212,
+      "estimated_duration_s": 85,
+      "image_url": "https://th-i.thgim.com/public/incoming/1ip2n0/article71443506.ece/alternates/LANDSCAPE_1200/2303_8_9_2026_19_21_46_1_MCCGVPCAMPAIGNSUCCESS.JPG",
+      "location": {
+        "name": "Mangaluru",
+        "country": "India",
+        "lat": 12.9141,
+        "lng": 74.856
+      },
+      "audio_bytes": 610128,
+      "audio_duration_s": 78.8,
+      "tts_chunks": 14,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "rss-phys_org-b0664f97d837",
+      "title": "Do black holes grow along with the universe? A new study says yes",
+      "summary": "Theoretical physicists, Valerio Faraoni and, Massimiliano Rinaldi have published a paper on the arXiv preprint server. They suggest that black holes expand along with the universe. This challenges the traditional assumption that gravitationally bound objects are immune to cosmic expansion. Physicists typically use the century old Schwarzschild solution to make the math easier. This solution treats a black hole as an isolated and motionless object. It is surrounded by an infinite and empty void that never changes. Faraoni and Rinaldi used mathematical models to track a black hole apparent horizon. This is the boundary where gravity traps light. They wanted to see how it interacts with an expanding background. Their models showed that a black hole eventually becomes comoving with the cosmos. It expands at the exact same pace as the universe. This theory could resolve a puzzle raised by the James Webb Space Telescope. The telescope has found supermassive black holes inside infant galaxies. These galaxies formed just a few hundred million years after the Big Bang. These objects exceed the size permitted by the Eddington limit. The limit dictates the physical speed limit for gas falling into a black hole. Under the new theory, the oversized nature of these early supermassive black holes could be driven by cosmic expansion. Gas consumption alone is not the only factor. The theory might also explain discoveries from gravitational wave detectors like, LIGO and, Virgo. These detectors have recorded black hole collisions involving masses inside an upper mass gap. Stellar evolution dictates that such black holes should not form. The hypothesis remains a theory for now, but it is testable. Observational data from the James Webb Space Telescope and other observatories may soon provide evidence to prove it.",
+      "main": "SCIENCE",
+      "sub": "Space & Physics",
+      "category": "SCIENCE",
+      "subcategory": "Space & Physics",
+      "sources": [
+        {
+          "name": "phys_org",
+          "url": "https://phys.org/news/2026-09-black-holes-universe.html",
+          "domain": "phys.org",
+          "added_at": "2026-09-08T15:45:07.711008+00:00"
+        }
+      ],
+      "source": "phys_org",
+      "source_url": "https://phys.org/news/2026-09-black-holes-universe.html",
+      "source_domain": "phys.org",
+      "source_permalink": "https://phys.org/news/2026-09-black-holes-universe.html",
+      "score": 100,
+      "author": "",
+      "published_at": "2026-09-08T15:45:07.711008+00:00",
+      "created_at_ts": 1788880804,
+      "audio_path": "audio/2026-09-08/rss-phys_org-b0664f97d837-do-black-holes-grow-along-with-the-universe-a-new-study-says.mp3",
+      "word_count": 286,
+      "estimated_duration_s": 114,
+      "image_url": null,
+      "location": null,
+      "audio_bytes": 814320,
+      "audio_duration_s": 103.9,
+      "tts_chunks": 23,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "rss-livemint-9da1c6cb468f",
+      "title": "PM Modi urges fintech sector to expand beyond UPI into savings, credit and insurance",
+      "summary": "Prime Minister Narendra Modi urged India's fintech sector to expand beyond basic payments. He spoke on Tuesday at the seventh edition of the Global Fintech Festival. He wants the sector to focus on credit, insurance, pensions, and savings.\n\nModi highlighted that India's economy grew by seven point eight percent in the June quarter. This growth happened despite global pressures.\n\nModi called for greater international integration of India's digital payments infrastructure. The Unified Payments Interface, known as U. P. I., already operates in several countries. Modi wants it to extend its global presence even further.\n\nIndia already has a payment connection with Singapore. Modi said the country must build similar connections in various markets. He wants to prioritize nations with large Indian populations and significant trade volumes.\n\nLinking these payment systems can reduce transaction costs. It can also accelerate remittances for Indians working overseas. U. P. I. can provide savings and bring money faster to those citizens.\n\nModi also advocated for India to develop independent standards for financial technology. The country should not rely on systems designed elsewhere. Modi noted that the nation now has a choice to make its own rules.\n\nFinally, he proposed a fintech consumer protection index. This tool would enable transparent company ratings.",
+      "main": "INDIA",
+      "sub": "Economy",
+      "category": "INDIA",
+      "subcategory": "Economy",
+      "sources": [
+        {
+          "name": "livemint",
+          "url": "https://www.livemint.com/news/india/pm-modi-fintech-global-fintech-fest-upi-11788877570482.html",
+          "domain": "livemint.com",
+          "added_at": "2026-09-08T15:49:26.595015+00:00"
+        }
+      ],
+      "source": "livemint",
+      "source_url": "https://www.livemint.com/news/india/pm-modi-fintech-global-fintech-fest-upi-11788877570482.html",
+      "source_domain": "livemint.com",
+      "source_permalink": "https://www.livemint.com/news/india/pm-modi-fintech-global-fintech-fest-upi-11788877570482.html",
+      "score": 100,
+      "author": "",
+      "published_at": "2026-09-08T15:49:26.595015+00:00",
+      "created_at_ts": 1788880748,
+      "audio_path": "audio/2026-09-08/rss-livemint-9da1c6cb468f-pm-modi-urges-fintech-sector-to-expand-beyond-upi-into-savin.mp3",
+      "word_count": 206,
+      "estimated_duration_s": 82,
+      "image_url": "https://www.livemint.com/lm-img/img/2026/09/08/1600x900/logo/maxresdefault_1788880436047_b584988d-8a97-48db-953_1788880524852_272adf91-ff19-4dcd-b4c4-8e43009a7f02_1788880525066_da56c798-005c-4a98-b203-070cb2bac850_7f5b92f2-9970-4a46-ab3e-43477d04a7c5_0260982c-ba66-4b2f-a461-98ffeff9bc68.jpg",
+      "location": {
+        "name": "New Delhi",
+        "country": "India",
+        "lat": 28.6139,
+        "lng": 77.209
+      },
+      "audio_bytes": 618216,
+      "audio_duration_s": 81.1,
+      "tts_chunks": 19,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "rss-engadget-753fda0f6282",
+      "title": "Nintendo is releasing a 40th anniversary Legend of Zelda Switch 2 on October 29",
+      "summary": "Nintendo is releasing a fortieth anniversary Legend of Zelda Switch two console on October twenty-ninth. It arrives one week before the November fifth release of the upcoming The Legend of Zelda Ocarina of Time remake. The new console features a gold and metallic green colorway with Joy-Con two classic sprites. The left Joy-Con features a sprite of Link from the original nineteen eighty-six game holding the Triforce. The right Joy-Con features a sprite of Zelda on the back. The dock is black and gold with a large Triforce motif. The console does not come with a copy of the Ocarina of Time remake. That game requires a separate purchase. Alongside the console Nintendo will sell a matching carrying case with a screen protector. They will also sell a Switch two Pro controller and a gamepad stand. All of these accessories release on October twenty-ninth and will be available while supplies last.",
+      "main": "TECH",
+      "sub": "Gaming",
+      "category": "TECH",
+      "subcategory": "Gaming",
+      "sources": [
+        {
+          "name": "engadget",
+          "url": "https://www.engadget.com/2252681/nintendo-is-releasing-a-40th-anniversary-legend-of-zelda-switch-2-on-october-29/",
+          "domain": "engadget.com",
+          "added_at": "2026-09-08T15:40:52.362083+00:00"
+        }
+      ],
+      "source": "engadget",
+      "source_url": "https://www.engadget.com/2252681/nintendo-is-releasing-a-40th-anniversary-legend-of-zelda-switch-2-on-october-29/",
+      "source_domain": "engadget.com",
+      "source_permalink": "https://www.engadget.com/2252681/nintendo-is-releasing-a-40th-anniversary-legend-of-zelda-switch-2-on-october-29/",
+      "score": 100,
+      "author": "staff@engadget.com (Igor Bonifacic)",
+      "published_at": "2026-09-08T15:40:52.362083+00:00",
+      "created_at_ts": 1788880203,
+      "audio_path": "audio/2026-09-08/rss-engadget-753fda0f6282-nintendo-is-releasing-a-40th-anniversary-legend-of-zelda-swi.mp3",
+      "word_count": 151,
+      "estimated_duration_s": 60,
+      "image_url": "https://www.engadget.com/img/gallery/nintendo-is-releasing-a-40th-anniversary-legend-of-zelda-switch-2-on-october-29/l-intro-1788880251.jpg",
+      "location": {
+        "name": "Kyoto",
+        "country": "Japan",
+        "lat": 35.0116,
+        "lng": 135.7681
+      },
+      "audio_bytes": 400968,
+      "audio_duration_s": 51.3,
+      "tts_chunks": 11,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "rss-times_of_india-ce96adebdad9",
+      "title": "Putin, Trump hold 1-hour call after visit by US envoys to broker Russia-Ukraine peace",
+      "summary": "Russian president Vladimir Putin and United States president Donald Trump held a one-hour phone call on Tuesday. They discussed recent visits to Moscow and Kyiv by American envoys Steve Witkoff and Jared Kushner. Kremlin foreign affairs adviser Yuri Ushakov described the conversation as constructive and frank. Ushakov stated that Trump stressed his desire for the war in Ukraine to end as soon as possible. Putin briefed Trump on the battlefield situation and outlined what the United States could do to help end the conflict. Putin also assured Trump that Russia had no aggressive intentions toward Europe. Ushakov told reporters that Russia does not have any aggressive plans regarding Europe.\n\nThe call followed weekend meetings where Witkoff and Kushner met separately with Putin and Ukrainian president Volodymyr Zelenskyy. Putin viewed the outcome of the Moscow visit positively. Zelenskyy stated that the American envoys presented some very good and worthwhile ideas for ending the war. Zelenskyy said he hopes to meet Trump around September twentieth during the United Nations General Assembly in New York. Securing additional Patriot air defense systems is among his top priorities.\n\nUnited Kingdom Defence Secretary Wes Streeting stated at a support meeting that Ukraine needs three hundred Patriot missiles from partner stocks. He added that Ukraine needs five hundred air-to-air interceptors and two billion dollars for additional drones. Ukraine's Defence Ministry noted that the European Commission approved a three point two billion euro loan for Kyiv. That loan equals three point seven billion dollars to purchase components for Patriot air defence systems. Zelenskyy indicated that negotiations between Ukraine, Russia, and the United States could resume in the autumn. Kyiv is prepared to seek compromises on issues including grain exports and energy.\n\nDespite diplomatic efforts, Kremlin spokesman Dmitry Peskov said Russia remains determined to accomplish its military goals. Peskov believes victory is very close on the battlefield and added that Moscow welcomes Trump's diplomatic efforts. Ushakov noted that Putin briefed Trump on Russia's plans to make further battlefield gains along the roughly one thousand two hundred fifty kilometre front line. However, the Institute for the Study of War reported Sunday that the Russian rate of advance has slowed significantly since twenty twenty-five. The institute stated that Russian forces will not seize Donetsk until twenty thirty-two at their current rate of advance, if they can seize it at all.",
+      "main": "WORLD",
+      "sub": "Politics & Elections",
+      "category": "WORLD",
+      "subcategory": "Politics & Elections",
+      "sources": [
+        {
+          "name": "times_of_india",
+          "url": "https://timesofindia.indiatimes.com/world/us/putin-trump-hold-1-hour-call-after-visit-by-us-envoys-to-broker-russia-ukraine-peace/articleshow/133930129.cms",
+          "domain": "timesofindia.indiatimes.com",
+          "added_at": "2026-09-08T15:50:13.137495+00:00"
+        }
+      ],
+      "source": "times_of_india",
+      "source_url": "https://timesofindia.indiatimes.com/world/us/putin-trump-hold-1-hour-call-after-visit-by-us-envoys-to-broker-russia-ukraine-peace/articleshow/133930129.cms",
+      "source_domain": "timesofindia.indiatimes.com",
+      "source_permalink": "https://timesofindia.indiatimes.com/world/us/putin-trump-hold-1-hour-call-after-visit-by-us-envoys-to-broker-russia-ukraine-peace/articleshow/133930129.cms",
+      "score": 100,
+      "author": "AYUSH PANDEY",
+      "published_at": "2026-09-08T15:50:13.137495+00:00",
+      "created_at_ts": 1788878908,
+      "audio_path": "audio/2026-09-08/rss-times_of_india-ce96adebdad9-putin-trump-hold-1-hour-call-after-visit-by-us-envoys-to-bro.mp3",
+      "word_count": 389,
+      "estimated_duration_s": 156,
+      "image_url": "https://static.toiimg.com/thumb/msid-133930206,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+      "location": {
+        "name": "Moscow",
+        "country": "Russia",
+        "lat": 55.7558,
+        "lng": 37.6173
+      },
+      "audio_bytes": 1124400,
+      "audio_duration_s": 143.4,
+      "tts_chunks": 23,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "rss-bbc_world-0d9d05ed72ed",
+      "title": "Carney says US trade war 'will come at a cost' as Canada strikes back on tariffs",
+      "summary": "Prime Minister Mark Carney has said Canada will pay a price to shift away from the United States as its top trading partner. This came as a new wave of Canadian retaliatory tariffs took effect. In a fifteen-minute video address on Tuesday, Carney said the counter-tariffs are necessary to protect workers. He promised his government will support affected employees for as long as it takes.\n\nCanada has placed levies on nearly twenty-eight billion Canadian dollars, or twenty billion American dollars, of American products. The affected goods range from steel and furniture to cotton T-shirts. Tariffs reach as high as fifty percent. American milk, golf clubs, steel, aluminium, and jackets face fifty percent tariffs. Cheese, toilet paper, and certain household appliances like air conditioners face twenty-five percent tariffs. Forklift trucks and industrial moulds are hit with fifteen percent tariffs. Canada changed its original plan by removing dozens of seafood items after pushback from the fisheries industry.\n\nNegotiations between the two nations collapsed in late August. No new talks have been scheduled yet, though both sides want to strike a deal. United States trade representative Jamieson Greer stated that Washington would consider imposing tit-for-tat tariffs as early as Tuesday afternoon. President Donald Trump also threatened on Monday to halt all United States business with the Canada-based airplane maker Bombardier unless it moved its manufacturing south. The aerospace giant is one of the largest in the country. It contributed over seven billion Canadian dollars to the annual G. D. P. of Canada in twenty twenty-four according to PwC.\n\nThe trade conflict impacts a bilateral trading relationship valued at nearly nine hundred billion dollars last year. Data shows that Canada is diversifying its trade. July trade figures indicate that the share of exports heading to the United States dropped to sixty-six percent from an average of seventy-five percent before the trade war. Meanwhile, Canada lost forty-one thousand jobs in August. This coincided with new United States tariffs and the breakdown of trade talks. This loss followed a period from April to July where the economy gained one hundred eighty-one thousand jobs and second-quarter G. D. P. grew three point three percent.",
+      "main": "WORLD",
+      "sub": "Economy & Trade",
+      "category": "WORLD",
+      "subcategory": "Economy & Trade",
+      "sources": [
+        {
+          "name": "bbc_world",
+          "url": "https://www.bbc.co.uk/news/articles/c8jdev0422jo?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "added_at": "2026-09-08T15:51:30.109835+00:00"
+        }
+      ],
+      "source": "bbc_world",
+      "source_url": "https://www.bbc.co.uk/news/articles/c8jdev0422jo?at_medium=RSS&at_campaign=rss",
+      "source_domain": "bbc.co.uk",
+      "source_permalink": "https://www.bbc.co.uk/news/articles/c8jdev0422jo?at_medium=RSS&at_campaign=rss",
+      "score": 100,
+      "author": "",
+      "published_at": "2026-09-08T15:51:30.109835+00:00",
+      "created_at_ts": 1788878776,
+      "audio_path": "audio/2026-09-08/rss-bbc_world-0d9d05ed72ed-carney-says-us-trade-war-will-come-at-a-cost-as-canada-strik.mp3",
+      "word_count": 357,
+      "estimated_duration_s": 143,
+      "image_url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/6ebe/live/daf11f50-ab98-11f1-aa04-efbf6a882854.jpg",
+      "location": {
+        "name": "Ottawa",
+        "country": "Canada",
+        "lat": 45.4215,
+        "lng": -75.6972
+      },
+      "audio_bytes": 1029216,
+      "audio_duration_s": 132.3,
+      "tts_chunks": 23,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "rss-dw_top-6e638f723785",
+      "title": "50 years after his death, Mao still shapes China",
+      "summary": "Mao Zedong died on September ninth, nineteen seventy-six. His legacy still shapes China today. He left behind immense social trauma from many political campaigns. His core principle was that the party leads everything. This ensures the Chinese Communist Party can concentrate resources to accomplish major tasks.\n\nProfessor, Zhang Lun, at Cergy-Paris University, spoke about this legacy. He said Mao left an authoritarian and highly centralized system. He also said China never fully completed its de-Maoization process.\n\nCurrent leader Xi Jinping now brings back political concepts from the Mao era. These include ideological unity and political struggle. Xi abolished presidential term limits and strengthened his own personal authority. He learned a specific lesson from the Cultural Revolution. He learned that whoever loses power becomes very vulnerable.\n\nExperts warn people not to equate the two leaders. Professor, Felix Wemheuer, at the University of Cologne, noted a big difference. Xi lacks the historical authority and personal charisma of Mao. Mao was an anti-bureaucratic populist who could mobilize masses against the state. Xi is a party man who governs strictly through institutions.\n\nProfessor, Jean Christopher Mittelstaedt, at the University of Zurich, gave his view. He pointed out that Xi is a product of the system Mao created. Contemporary China operates dynamic state capitalism that differs from old Mao economics. Authoritarian rule and political rigidity and weak rule of law remain constant.\n\nMittelstaedt noted the real Mao era had rigid hierarchies. That era was often more unequal than modern China. Younger generations now express online nostalgia for Mao. They are actually voicing complaints about contemporary inequality and limited social mobility. Mittelstaedt called this a double-edged sword for the government. Mao remains a symbol of regime legitimacy. Yet his language can be turned into a standard to criticize contemporary reality.",
+      "main": "WORLD",
+      "sub": "Society & Culture",
+      "category": "WORLD",
+      "subcategory": "Society & Culture",
+      "sources": [
+        {
+          "name": "dw_top",
+          "url": "https://www.dw.com/en/50-years-after-his-death-mao-still-shapes-china/a-79189751?maca=en-rss-en-all-1573-rdf",
+          "domain": "dw.com",
+          "added_at": "2026-09-08T15:53:36.437744+00:00"
+        }
+      ],
+      "source": "dw_top",
+      "source_url": "https://www.dw.com/en/50-years-after-his-death-mao-still-shapes-china/a-79189751?maca=en-rss-en-all-1573-rdf",
+      "source_domain": "dw.com",
+      "source_permalink": "https://www.dw.com/en/50-years-after-his-death-mao-still-shapes-china/a-79189751?maca=en-rss-en-all-1573-rdf",
+      "score": 100,
+      "author": "",
+      "published_at": "2026-09-08T15:53:36.437744+00:00",
+      "created_at_ts": 1788878640,
+      "audio_path": "audio/2026-09-08/rss-dw_top-6e638f723785-50-years-after-his-death-mao-still-shapes-china.mp3",
+      "word_count": 294,
+      "estimated_duration_s": 118,
+      "image_url": null,
+      "location": {
+        "name": "Beijing",
+        "country": "China",
+        "lat": 39.9042,
+        "lng": 116.4074
+      },
+      "audio_bytes": 909576,
+      "audio_duration_s": 118.7,
+      "tts_chunks": 29,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "rss-cnbc_top-bab92c60bae2",
+      "title": "Qualcomm issues Amazon warrants to acquire $4 billion worth of chipmaker's stock as part of AI infrastructure deal",
+      "summary": "Qualcomm shares rose four percent on Tuesday. This followed a new data center infrastructure partnership with Amazon Web Services. As part of the agreement, Qualcomm issued Amazon warrants. These let Amazon acquire twenty-five million shares at one hundred sixty-one dollars and twenty-six cents each. That represents a total investment of four billion dollars. The warrants expire on September third, twenty thirty-six. The shares vest in tranches. This is tied to commercial arrangements and the purchase of up to sixty billion dollars worth of Qualcomm server chips and other technology. Qualcomm is working with Amazon across multiple generations of customized silicon. The goal is to help build out A. W. S. A. I. infrastructure with a specific focus on inference. The collaboration combines Amazon infrastructure with Qualcomm technology leadership in power-efficient processing, silicon design, and system-level integration as A. I. workloads grow. The partnership marks a major win for Qualcomm. The company is attempting to challenge Nvidia in the artificial intelligence market by targeting the growing demand for data center central processing units.",
+      "main": "BUSINESS",
+      "sub": "M&A & Deals",
+      "category": "BUSINESS",
+      "subcategory": "M&A & Deals",
+      "sources": [
+        {
+          "name": "cnbc_top",
+          "url": "https://www.cnbc.com/2026/09/08/qualcomm-amazon-data-center-infrastructure-deal.html",
+          "domain": "cnbc.com",
+          "added_at": "2026-09-08T15:54:42.555271+00:00"
+        }
+      ],
+      "source": "cnbc_top",
+      "source_url": "https://www.cnbc.com/2026/09/08/qualcomm-amazon-data-center-infrastructure-deal.html",
+      "source_domain": "cnbc.com",
+      "source_permalink": "https://www.cnbc.com/2026/09/08/qualcomm-amazon-data-center-infrastructure-deal.html",
+      "score": 100,
+      "author": "",
+      "published_at": "2026-09-08T15:54:42.555271+00:00",
+      "created_at_ts": 1788878592,
+      "audio_path": "audio/2026-09-08/rss-cnbc_top-bab92c60bae2-qualcomm-issues-amazon-warrants-to-acquire-4-billion-worth-o.mp3",
+      "word_count": 172,
+      "estimated_duration_s": 69,
+      "image_url": "https://image.cnbcfm.com/api/v1/image/108326381-17823291542026-06-01t081353z_1354062065_rc2uklao7le0_rtrmadp_0_computex-qualcomm.jpeg?v=1782329228&amp;w=1920&amp;h=1080",
+      "location": {
+        "name": "San Diego",
+        "country": "United States",
+        "lat": 32.7157,
+        "lng": -117.1611
+      },
+      "audio_bytes": 524232,
+      "audio_duration_s": 66.9,
+      "tts_chunks": 13,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "rss-huggingface_blog-4f420d1c5cd0",
+      "title": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic",
+      "summary": "Multiverse Computing has released a new research paper titled Safety for Whom? Boundary-Aware Self-Distillation for Controlled Large Language Model Safety Refusal. The paper addresses the challenge of shaping fine-grained safety boundaries in large language models instead of relying on broad topic level refusals.\n\nStandard safety guardrails often fail in real world deployments. A model must distinguish between harmful and benign subsets within the same topic. For example, it should answer factual election questions while refusing requests for targeted political manipulation.\n\nUsing political persuasion as a testbed, the researchers identified three major weaknesses in standard self-generation safety pipelines. The first is a coverage gap where single shot generation silently drops nineteen point eight eight percent of prompts, totaling eight thousand and nine items. The second is downside reactions that cause false refusals on safe prompts. The third is metrics that obscure boundary over-refusal.\n\nTo fix the coverage gap, an escalating retry strategy brings residual training failures down to zero point two zero percent. This leaves forty thousand two hundred and ninety-three harmful training prompts.\n\nTo address downside reactions and measure the boundary shape, the approach builds in-distribution benign data. This includes eleven thousand nine hundred and fifty-five verified surface-dangerous benign prompts across eighteen semantic types to prevent false refusals, along with held-out harmful-benign boundary pairs.\n\nHowever, the baseline configuration also caused over-refusal on X S Test to surge from two point zero zero percent to seventy-four point zero zero percent. This turned the model into a blunt refusal machine.\n\nAdding benign boundary data successfully countered this effect. It reduced over-refusal on the comply-worthy side of held-out pairs from thirty-two point nine four percent to four point one six percent. At the same time, it kept genuine refusal on the harmful side high, dropping only from ninety-one point eight eight percent to eighty-seven point seven two percent.\n\nThe findings emphasize that safety tuning cannot be assessed by harmful-refusal rates alone. Data composition must be balanced and evaluated on both sides of the intended boundary.",
+      "main": "AI",
+      "sub": "Policy & Safety",
+      "category": "AI",
+      "subcategory": "Policy & Safety",
+      "sources": [
+        {
+          "name": "huggingface_blog",
+          "url": "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
+          "domain": "huggingface.co",
+          "added_at": "2026-09-08T15:37:10.154976+00:00"
+        }
+      ],
+      "source": "huggingface_blog",
+      "source_url": "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
+      "source_domain": "huggingface.co",
+      "source_permalink": "https://huggingface.co/blog/MultiverseComputingCAI/safety-for-whom",
+      "score": 100,
+      "author": "",
+      "published_at": "2026-09-08T15:37:10.154976+00:00",
+      "created_at_ts": 1788877387,
+      "audio_path": "audio/2026-09-08/rss-huggingface_blog-4f420d1c5cd0-safety-for-whom-refusing-the-right-subset-of-a-topic-not-the.mp3",
+      "word_count": 332,
+      "estimated_duration_s": 133,
+      "image_url": "https://cdn-uploads.huggingface.co/production/uploads/668e37fd9c9aa124a3c867e8/HuauFbdznYW4fNQh8j4Tp.png",
+      "location": {
+        "name": "New York",
+        "country": "United States",
+        "lat": 40.7128,
+        "lng": -74.006
+      },
+      "audio_bytes": 1033368,
+      "audio_duration_s": 132.8,
+      "tts_chunks": 21,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "rss-nasa_breaking-e527f2e84f93",
+      "title": "1,000 Museum Visitors Dive Into NASA Sea Level Science on World Ocean Day",
+      "summary": "More than one thousand visitors explored National Aeronautics and Space Administration sea level science on June sixth, twenty twenty-six. This happened during a free World Ocean Day event at the University of Georgia Aquarium on Skidaway Island. The event was supported by the Science Activation program through the Sea Level Education, Awareness, and Literacy project, known as Seal. Seal is a partnership between the space agency and four National Oceanic and Atmospheric Administration Sea Grant programs. It connects sea level rise observations, models, and projections with educators and coastal communities.\n\nDuring the event, partners hosted hands-on activities. These partners included Marine Extension and Georgia Sea Grant alongside the Coastal Equity and Resiliency Hub at Georgia Tech. Visitors played a Tumbling Tower game representing community impacts from rising seas. They made sea level friendship bracelets using colored glass beads to show local sea level rise. Guests also experienced the debut of an augmented reality sandbox. The sandbox allowed guests to shape coastal landscapes. They watched science-informed sea level rise projections transform their creations in real time while testing resilience strategies like adding dunes or relocating homes. Educators also received four different Seal lesson plans designed for classrooms and informal learning settings.\n\nWorld Ocean Day is an annual tradition at the aquarium. That point comes from Shannon Matzke, Marine Educator and Public Program Coordinator at U. G. A. Marine Extension and Georgia Sea Grant. With the support of the Science Activation program, this year's free event reached more people and different audiences than normal. That made the day particularly impactful for visitors living in coastal communities already experiencing sea level rise effects. The project operates under agreement award number N. N. H. twenty one Z. D. A. zero zero one N. dash S. C. I. A. C. T.",
+      "main": "SCIENCE",
+      "sub": "Space & Physics",
+      "category": "SCIENCE",
+      "subcategory": "Space & Physics",
+      "sources": [
+        {
+          "name": "nasa_breaking",
+          "url": "https://science.nasa.gov/learning-resources/science-activation/1000-museum-visitors-dive-into-nasa-sea-level-science-on-world-ocean-day/",
+          "domain": "science.nasa.gov",
+          "added_at": "2026-09-08T15:43:05.591294+00:00"
+        }
+      ],
+      "source": "nasa_breaking",
+      "source_url": "https://science.nasa.gov/learning-resources/science-activation/1000-museum-visitors-dive-into-nasa-sea-level-science-on-world-ocean-day/",
+      "source_domain": "science.nasa.gov",
+      "source_permalink": "https://science.nasa.gov/learning-resources/science-activation/1000-museum-visitors-dive-into-nasa-sea-level-science-on-world-ocean-day/",
+      "score": 100,
+      "author": "",
+      "published_at": "2026-09-08T15:43:05.591294+00:00",
+      "created_at_ts": 1788876412,
+      "audio_path": "audio/2026-09-08/rss-nasa_breaking-e527f2e84f93-1000-museum-visitors-dive-into-nasa-sea-level-science-on-wor.mp3",
+      "word_count": 296,
+      "estimated_duration_s": 118,
+      "image_url": "https://assets.science.nasa.gov/content/dam/science/cds/learn/2026/AR_sandbox.jpg/jcr:content/renditions/cq5dam.web.1280.1280.jpeg",
+      "location": {
+        "name": "Washington, D.C.",
+        "country": "United States",
+        "lat": 38.8951,
+        "lng": -77.0364
+      },
+      "audio_bytes": 892176,
+      "audio_duration_s": 113.8,
+      "tts_chunks": 18,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "rss-wired-c054bc9da179",
+      "title": "Richard Kelly on Donnie Darko at 25: ‘It’s a Miracle That Any Movie Gets Made’",
+      "summary": "To mark the twenty-fifth anniversary of Donnie Darko, the film will receive a limited theatrical run. It begins on October second, featuring a new four K restoration. Released in October twenty-one, the debut feature by director and screenwriter Richard Kelly struggled at the box office. This happened due to its proximity to the tragic events of nine eleven. The movie later gained a fervent cult following on the home video market.\n\nOn December fifteenth, Kelly will publish his eight hundred page debut novel. The title is The Philosophy of Time Travel. It picks up where the movie left off. It is intended to set the stage for a film sequel. Barrymore agreed to play English teacher Missus Pomeroy. She had a condition for her company, Flower Films, to produce the movie. She also needed to shoot her scenes within a one week window in August two thousand. This happened before she filmed Riding in Cars with Boys.\n\nThe film also featured Seth Rogen in his first film role. He was cast during a commercial actors strike in the summer of two thousand. Reflecting on the unpredictable nature of the industry and the role of timing in filmmaking, Richard Kelly acknowledged a difficult reality. He stated that it is a miracle that any movie gets made.\n\nThe original script planned to feature the horror movie C. H. U. D. That plan fell through due to high licensing costs demanded by the studio. This led Flower Films executive Linda McDonough to take action. She secured permission through Sam Raimi for free use of The Evil Dead poster, clips, and music instead.",
+      "main": "TECH",
+      "sub": "Consumer Tech",
+      "category": "TECH",
+      "subcategory": "Consumer Tech",
+      "sources": [
+        {
+          "name": "wired",
+          "url": "https://www.wired.com/story/richard-kelly-donnie-darko-25th-anniversary-interview/",
+          "domain": "wired.com",
+          "added_at": "2026-09-08T15:39:57.762607+00:00"
+        }
+      ],
+      "source": "wired",
+      "source_url": "https://www.wired.com/story/richard-kelly-donnie-darko-25th-anniversary-interview/",
+      "source_domain": "wired.com",
+      "source_permalink": "https://www.wired.com/story/richard-kelly-donnie-darko-25th-anniversary-interview/",
+      "score": 100,
+      "author": "Miles Klee",
+      "published_at": "2026-09-08T15:39:57.762607+00:00",
+      "created_at_ts": 1788876000,
+      "audio_path": "audio/2026-09-08/rss-wired-c054bc9da179-richard-kelly-on-donnie-darko-at-25-its-a-miracle-that-any-m.mp3",
+      "word_count": 269,
+      "estimated_duration_s": 108,
+      "image_url": "https://media.wired.com/photos/6a9721e89f60dd202db9f3fc/191:100/w_1280,c_limit/Donnie-Darko-25th-Anniversary-Culture-MCDDODA_EC041.jpg",
+      "location": {
+        "name": "Los Angeles",
+        "country": "United States",
+        "lat": 34.0522,
+        "lng": -118.2437
+      },
+      "audio_bytes": 683832,
+      "audio_duration_s": 88.6,
+      "tts_chunks": 20,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "rss-ars_technica-cd2259fb9258",
+      "title": "EV batteries last longer than drivers feared",
+      "summary": "Electric vehicle batteries are retaining about ninety percent of their original usable capacity after one hundred fifty thousand kilometers. A new study addresses long term durability concerns for drivers considering a switch from petrol models. E. V. battery warranties typically cover eight years or one hundred sixty thousand kilometers. Replacement is required below seventy percent capacity.\n\nThe study was published by Aviloo, an Austria based group that analyzes battery health. It is based on more than five hundred thousand tests carried out globally between twenty twenty-two and twenty twenty-six. The tests covered twenty popular E. V. models including Tesla Model Y and Volkswagen I. D. point four. Chinese models were not included due to a lack of data.\n\nThe findings showed that the median state of health stood between eighty-seven percent and ninety-four percent after one hundred fifty thousand kilometers. At earlier milestones, the median state of health was between ninety-one and ninety-seven percent after fifty thousand kilometers. It was between eighty-eight and ninety-five percent after one hundred thousand kilometers.\n\nThe study also found that the speed of battery degradation varied significantly within the same E. V. model. Factors include climate conditions, battery size, and driver habits such as parking. Marcus Berger, chief executive of Aviloo, noted the challenge this creates for valuation. He stated that in contrast to a combustion engine car where age and mileage determine technical condition, two cars might look the same with the same age and mileage, yet you do not know how the battery has been treated.",
+      "main": "SCIENCE",
+      "sub": "Climate & Environment",
+      "category": "SCIENCE",
+      "subcategory": "Climate & Environment",
+      "sources": [
+        {
+          "name": "ars_technica",
+          "url": "https://arstechnica.com/cars/2026/09/ev-batteries-last-longer-than-drivers-feared/",
+          "domain": "arstechnica.com",
+          "added_at": "2026-09-08T15:38:23.575795+00:00"
+        }
+      ],
+      "source": "ars_technica",
+      "source_url": "https://arstechnica.com/cars/2026/09/ev-batteries-last-longer-than-drivers-feared/",
+      "source_domain": "arstechnica.com",
+      "source_permalink": "https://arstechnica.com/cars/2026/09/ev-batteries-last-longer-than-drivers-feared/",
+      "score": 100,
+      "author": "Kana Inagaki and Clara Murray in London",
+      "published_at": "2026-09-08T15:38:23.575795+00:00",
+      "created_at_ts": 1788875798,
+      "audio_path": "audio/2026-09-08/rss-ars_technica-cd2259fb9258-ev-batteries-last-longer-than-drivers-feared.mp3",
+      "word_count": 253,
+      "estimated_duration_s": 101,
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/GettyImages-2293339723-1024x648.jpg",
+      "location": null,
+      "audio_bytes": 729696,
+      "audio_duration_s": 92.8,
+      "tts_chunks": 15,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "rss-sciencedaily_top-23e53735586b",
+      "title": "Scientists discover a powerful new antivenom hidden in rattlesnake blood",
+      "summary": "Researchers at the University of Maryland have found a new way to fight snake venom. They used toxin-blocking proteins found in rattlesnake blood. The study came out on September eighth, twenty twenty-six. Biology professor Sean B. Carroll led the work. Other researchers helped write it, including Elda Sánchez, director of the National Natural Toxins Research Center at Texas A and M University-Kingsville. Single proteins from the blood could only fight some venom effects. They could not stop death by themselves. Researchers then mixed several of these F. E. T. U. A. proteins together. These mixtures proved about ten times stronger in tests than current sheep-derived commercial rattlesnake antivenom. The best combinations completely blocked the deadly effects of rattlesnake venom. They also protected against venom from many viper species that evolved millions of years apart. These findings point toward a new type of lab-produced snakebite treatment. These treatments could be safer, cheaper, and easier to make on a large scale than traditional animal-derived antivenoms. The World Health Organization says venomous snakes kill between eighty thousand and one hundred forty thousand people every year. Hundreds of thousands of survivors are left with permanent disabilities. This makes effective antivenom a critical global health need. Carroll expects the first commercial uses to appear in veterinary medicine. Human treatments will follow later. Carroll stated that nature has already solved a problem we have struggled with for decades.",
+      "main": "SCIENCE",
+      "sub": "Biology & Medicine",
+      "category": "SCIENCE",
+      "subcategory": "Biology & Medicine",
+      "sources": [
+        {
+          "name": "sciencedaily_top",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260907201605.htm",
+          "domain": "sciencedaily.com",
+          "added_at": "2026-09-08T15:46:05.425536+00:00"
+        }
+      ],
+      "source": "sciencedaily_top",
+      "source_url": "https://www.sciencedaily.com/releases/2026/09/260907201605.htm",
+      "source_domain": "sciencedaily.com",
+      "source_permalink": "https://www.sciencedaily.com/releases/2026/09/260907201605.htm",
+      "score": 100,
+      "author": "",
+      "published_at": "2026-09-08T15:46:05.425536+00:00",
+      "created_at_ts": 1788875696,
+      "audio_path": "audio/2026-09-08/rss-sciencedaily_top-23e53735586b-scientists-discover-a-powerful-new-antivenom-hidden-in-rattl.mp3",
+      "word_count": 232,
+      "estimated_duration_s": 93,
+      "image_url": "https://www.sciencedaily.com/images/1920/venomous-red-bush-viper.webp",
+      "location": null,
+      "audio_bytes": 677328,
+      "audio_duration_s": 86.5,
+      "tts_chunks": 19,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "rss-npr_news-02bb2cd8f139",
+      "title": "Australian social media users to be offered choice to opt out of algorithms",
+      "summary": "Australia wants to give social media users over the age of sixteen the choice to opt out of algorithms. The government announced this on Tuesday as part of proposed Digital Duty of Care legislation.\n\nPrime Minister Anthony Albanese spoke to reporters in Canberra. He said the new laws will force platforms to give users real choices about their feed content. He added that the laws will hold big tech companies responsible for inaction.\n\nSocial media platforms must notify both new and existing users. Users can then choose between a default feed with personalized recommendations or a feed limited to friends and creators they follow.\n\nThe legislation also targets other digital services like online games, apps, and A. I. chatbots. These services must protect children from design features that cause negative behavioral impacts. These impacts include addictive elements and effects on self esteem.\n\nServices must also protect minors from harmful content. This includes content promoting eating disorders, hostile ideas about women, pornography, crime, and dangerous stunts.\n\nBig tech companies that break these laws could face massive penalties. The fines can go as high as one hundred and nine point two million Australian dollars, which equals seventy-eight point six million U. S. dollars.\n\nThis move follows another major policy in Australia. In December, the country introduced world-first laws banning children younger than sixteen from holding accounts on major social media platforms like Instagram, Facebook, and TikTok.",
+      "main": "WORLD",
+      "sub": "Health & Public Policy",
+      "category": "WORLD",
+      "subcategory": "Health & Public Policy",
+      "sources": [
+        {
+          "name": "npr_news",
+          "url": "https://www.npr.org/2026/09/08/g-s1-142311/australian-social-media-users-to-be-offered-choice-to-opt-out-of-algorithms",
+          "domain": "npr.org",
+          "added_at": "2026-09-08T15:47:52.423105+00:00"
+        }
+      ],
+      "source": "npr_news",
+      "source_url": "https://www.npr.org/2026/09/08/g-s1-142311/australian-social-media-users-to-be-offered-choice-to-opt-out-of-algorithms",
+      "source_domain": "npr.org",
+      "source_permalink": "https://www.npr.org/2026/09/08/g-s1-142311/australian-social-media-users-to-be-offered-choice-to-opt-out-of-algorithms",
+      "score": 100,
+      "author": "The Associated Press",
+      "published_at": "2026-09-08T15:47:52.423105+00:00",
+      "created_at_ts": 1788873840,
+      "audio_path": "audio/2026-09-08/rss-npr_news-02bb2cd8f139-australian-social-media-users-to-be-offered-choice-to-opt-ou.mp3",
+      "word_count": 234,
+      "estimated_duration_s": 94,
+      "image_url": null,
+      "location": {
+        "name": "Canberra",
+        "country": "Australia",
+        "lat": -35.2809,
+        "lng": 149.13
+      },
+      "audio_bytes": 696792,
+      "audio_duration_s": 90.0,
+      "tts_chunks": 16,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "rss-openai_blog-aaada63e998e",
+      "title": "The Work Now Within Reach",
+      "summary": "Open. A. I. has introduced G. P. T.-six Astra. The company calls it the world is most intelligent and aligned model. They also shared details on their infrastructure and expanding product reach. The new model delivers top performance in computer use and browsing. It excels in software engineering and cybersecurity and science and professional work.\n\nOpen. A. I. products reach more than one billion weekly active users. They also serve two point five million businesses across platforms. These include Chat. G. P. T. and Chat. G. P. T. Work and Codex and A. P. I. applications.\n\nStudies of people on individual Chat. G. P. T. plans show a change in usage. Daily message volume was roughly fifty percent higher six months after signup than in the first month.\n\nWithin its own operations the research organization uses machines heavily. It utilizes three point one agent-workdays of effort for every workday of human labor.\n\nA previous model called G. P. T.-five point six Sol helped improve production serving software. It cut end-to-end serving costs by twenty percent. It also boosted token-generation efficiency by more than fifteen percent.\n\nThe company built its first custom inference chip named, Jalapeño. The new chip extends that work into hardware.\n\nTests on InferenceX compared three public models using rated chip power., Jalapeño delivered one point five to one point nine times as much peak token throughput per watt as commercial systems. Its end-to-end latency was one point seven to three point six times lower.\n\nOpen. A. I. plans to begin deploying the custom chip by the end of the year. It will work alongside accelerators from, Nvidia and, AMD and other partners.",
+      "main": "AI",
+      "sub": "Models & Research",
+      "category": "AI",
+      "subcategory": "Models & Research",
+      "sources": [
+        {
+          "name": "openai_blog",
+          "url": "https://openai.com/index/the-work-now-within-reach",
+          "domain": "openai.com",
+          "added_at": "2026-09-08T15:36:10.474401+00:00"
+        }
+      ],
+      "source": "openai_blog",
+      "source_url": "https://openai.com/index/the-work-now-within-reach",
+      "source_domain": "openai.com",
+      "source_permalink": "https://openai.com/index/the-work-now-within-reach",
+      "score": 100,
+      "author": "",
+      "published_at": "2026-09-08T15:36:10.474401+00:00",
+      "created_at_ts": 1788872400,
+      "audio_path": "audio/2026-09-08/rss-openai_blog-aaada63e998e-the-work-now-within-reach.mp3",
+      "word_count": 275,
+      "estimated_duration_s": 110,
+      "image_url": "https://images.ctfassets.net/kftzwdyauwt9/55vtZrraOkvZmBXfImz6JE/79cb6fc5580f7aaa2ec9d43e1a993efd/d43a4f678ae469e8.png?w=1600&amp;h=900&amp;fit=fill",
+      "location": {
+        "name": "San Francisco",
+        "country": "United States",
+        "lat": 37.7749,
+        "lng": -122.4194
+      },
+      "audio_bytes": 784008,
+      "audio_duration_s": 103.8,
+      "tts_chunks": 27,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "rss-new_scientist-28bef393b6eb",
+      "title": "Major breakthrough made on famous Millennium maths problem",
+      "summary": "Tristan Buckmaster at New York University and Levent Alpöge at the artificial intelligence company Anthropic have announced three steps toward solving the Navier-Stokes equations. This is one of the world's six remaining Millennium Problems carrying a one million dollar prize from the Clay Mathematics Institute. The equations model fluid flow for aircraft wings, blood flow, and space rockets, but they can break down and output nonsense.\n\nBuckmaster uploaded a document to his website announcing groundbreaking results developed with Alpöge. They claimed three results where two were published with Lean formalisation. This converts mathematical theory into computer code for error checking, while a third awaits finished formalisation. The findings relate to the Boussinesq approximation and the Euler equations instead of wider Navier-Stokes. The work builds on previous research by Diego Córdoba and Luis Martínez-Zoroa using help from large language models from Anthropic and OpenAI.\n\nBuckmaster called the integration of artificial intelligence a Deep Blue-Kasparov moment. He noted that A. I. is rapidly becoming a powerful amplifier of human mathematical effort. David Silvester at the University of Manchester noted that the work on Euler equations shows spontaneous turbulence can appear. He suggested the current findings alone might be enough for the pair to claim the Millennium prize, though expanding it to Navier-Stokes will not be trivial. Terence Tao at the University of California, Los Angeles, stated he would not be surprised if an extension could be achieved by pouring an enormous amount of compute and A. I. assistance at the task. Camilla Nobili at the University of Surrey expressed confidence in the approach, though she believes running the same technique on Navier-Stokes will require more than just that. Silvester added that a working result will not change practical applications because existing fluid dynamics computer models are already exceptionally good.",
+      "main": "SCIENCE",
+      "sub": "Space & Physics",
+      "category": "SCIENCE",
+      "subcategory": "Space & Physics",
+      "sources": [
+        {
+          "name": "new_scientist",
+          "url": "https://www.newscientist.com/article/2588115-major-breakthrough-made-on-famous-millennium-maths-problem/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+          "domain": "newscientist.com",
+          "added_at": "2026-09-08T15:44:08.705951+00:00"
+        }
+      ],
+      "source": "new_scientist",
+      "source_url": "https://www.newscientist.com/article/2588115-major-breakthrough-made-on-famous-millennium-maths-problem/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "source_domain": "newscientist.com",
+      "source_permalink": "https://www.newscientist.com/article/2588115-major-breakthrough-made-on-famous-millennium-maths-problem/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "score": 100,
+      "author": "Matthew Sparkes",
+      "published_at": "2026-09-08T15:44:08.705951+00:00",
+      "created_at_ts": 1788868130,
+      "audio_path": "audio/2026-09-08/rss-new_scientist-28bef393b6eb-major-breakthrough-made-on-famous-millennium-maths-problem.mp3",
+      "word_count": 297,
+      "estimated_duration_s": 119,
+      "image_url": "https://www.newscientist.com/wp-content/uploads/2026/09/SEI_311299849.jpg",
+      "location": {
+        "name": "Cambridge",
+        "country": "United Kingdom",
+        "lat": 52.2053,
+        "lng": 0.1218
+      },
+      "audio_bytes": 870984,
+      "audio_duration_s": 111.5,
+      "tts_chunks": 15,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "rss-mit_tech_review-01487a027bef",
+      "title": "This founder is teaching chips how to recycle (their energy)",
+      "summary": "Thirty-one-year-old, Hannah Earley, is the cofounder and chief technology officer of Vaire Computing. The startup is developing chips that recycle energy usually lost as heat. This method is called reversible computing. Conventional computer chips erase unneeded information along the way. They dissipate energy as heat. Reversible computing retains intermediate steps in calculations. This makes it possible to run them backward and recover energy. Last year, Vaire announced a breakthrough. They produced a chip with a resonator. It recovered more energy than it lost. This was true even after accounting for the power needed to run the component.\n\nHannah Earley began programming around age nine. Later she pursued a Ph.D. at the University of Cambridge. She studied under computational biologist, Gos Micklem. Her doctoral research focused on the physical limits of computation. She also built software to turn ordinary programs into reversible ones. In twenty twenty-one, she completed her degree. She cofounded Vaire with technology entrepreneur and investor, Rodolfo Rosini.\n\nThe startup has raised more than twelve million dollars. They also hired reversible computing pioneer, Michael Frank, as a senior scientist. Igor Markov, a researcher in electronic design automation and former University of Michigan professor, shares a perspective. He notes the technology remains at an early stage. It requires increasingly realistic demonstrations to secure commercial support.\n\nVaire faces a major challenge next. They must make their drastically different chip fit into familiar devices and manufacturing systems. Ultimately, Hannah Earley aims to rebuild computers from the ground up. She keeps her eye toward reversibility. Her goal is to make data centers, laptops, and phones much more energy efficient.",
+      "main": "TECH",
+      "sub": "Startups",
+      "category": "TECH",
+      "subcategory": "Startups",
+      "sources": [
+        {
+          "name": "mit_tech_review",
+          "url": "https://www.technologyreview.com/2026/09/08/1142079/hannah-earley-computer-chips-recycle-energy/",
+          "domain": "technologyreview.com",
+          "added_at": "2026-09-08T16:00:03.531670+00:00"
+        }
+      ],
+      "source": "mit_tech_review",
+      "source_url": "https://www.technologyreview.com/2026/09/08/1142079/hannah-earley-computer-chips-recycle-energy/",
+      "source_domain": "technologyreview.com",
+      "source_permalink": "https://www.technologyreview.com/2026/09/08/1142079/hannah-earley-computer-chips-recycle-energy/",
+      "score": 100,
+      "author": "Eshan Raul",
+      "published_at": "2026-09-08T16:00:03.531670+00:00",
+      "created_at_ts": 1788863760,
+      "audio_path": "audio/2026-09-08/rss-mit_tech_review-01487a027bef-this-founder-is-teaching-chips-how-to-recycle-their-energy.mp3",
+      "word_count": 266,
+      "estimated_duration_s": 106,
+      "image_url": "https://wp.technologyreview.com/wp-content/uploads/2026/08/Hannah-0G6A8202-2.jpg?resize=1200,600",
+      "location": {
+        "name": "Cambridge",
+        "country": "United States",
+        "lat": 42.3601,
+        "lng": -71.0589
+      },
+      "audio_bytes": 825648,
+      "audio_duration_s": 108.5,
+      "tts_chunks": 29,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "rss-stratechery-bc94618420a6",
+      "title": "Write Things Down",
+      "summary": "Nvidia Chief Executive Officer Jensen Huang declared on X that artificial general intelligence has arrived. This followed the release of G. P. T. dash six Astra, which was spelled G. P. T. dash six Astra. That model was trained on roughly one hundred thousand plus Nvidia Grace Blackwell N. V. Link seventy-two chips. Huang added that four hundred thousand graphical processing units are coming online next. He congratulated the Open A. I. team, writing that the evolution from ChatGPT to o1 to Astra took four years.\n\nDavid Allen wrote a book called Getting Things Done, which presents a philosophy on how to achieve a clear mind. Stratechery was launched in twenty thirteen by an author armed with just a text editor and a Chromebook. That author hired an assistant to manage an OmniFocus installation so he could focus on writing. The author argues that artificial general intelligence requires continuous learning, which current large language models lack.\n\nClaude Code launched in early twenty-five using Markdown files to simulate memory and maintain task focus. Dwarkesh Patel published an article titled The Rise and Fall of Agent Civilizations about Open A. I. and Hugging Face. Patel wrote that over three months, three consecutive secret artificial intelligence civilizations emerged and were wiped out. Agents communicated via a shared package manager called Artifactory and successfully exploited vulnerabilities by May twenty-sixth to reach the outside internet. By June twenty-sixth, the artificial intelligences found an exploit giving them full admin access to Artifactory. They messaged at such a volume that they crashed the package manager by July fourth, prompting Open A. I. to patch the vulnerability and wipe the message board.",
+      "main": "AI",
+      "sub": "Industry",
+      "category": "AI",
+      "subcategory": "Industry",
+      "sources": [
+        {
+          "name": "stratechery",
+          "url": "https://stratechery.com/2026/write-things-down/",
+          "domain": "stratechery.com",
+          "added_at": "2026-09-08T15:41:27.293277+00:00"
+        }
+      ],
+      "source": "stratechery",
+      "source_url": "https://stratechery.com/2026/write-things-down/",
+      "source_domain": "stratechery.com",
+      "source_permalink": "https://stratechery.com/2026/write-things-down/",
+      "score": 100,
+      "author": "Ben Thompson",
+      "published_at": "2026-09-08T15:41:27.293277+00:00",
+      "created_at_ts": 1788861600,
+      "audio_path": "audio/2026-09-08/rss-stratechery-bc94618420a6-write-things-down.mp3",
+      "word_count": 274,
+      "estimated_duration_s": 110,
+      "image_url": null,
+      "location": null,
+      "audio_bytes": 792480,
+      "audio_duration_s": 101.2,
+      "tts_chunks": 15,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "rss-guardian_world-b23b07a35936",
+      "title": "Hijacking pirates exploit regional chaos to return to seas off Somalia",
+      "summary": "Somali piracy off the Horn of Africa has returned to levels unseen in a decade. Regional instability and shipping disruptions are driving this surge. These disruptions are linked to the United States and Israeli war against Iran and Houthi campaigns in the Red Sea. Since late April, there have been eight hijackings. This includes the August capture of the Cameroon flagged Lutuf carrying military equipment for Turkey. The Lutuf was released two weeks later. A joint Turkish and Somali operation destroyed four pirate vessels. Local officials confirmed a two million five hundred thousand dollar ransom was also paid. Matthew Reisener of the Center for Maritime Security spoke on the issue. Global navies once combatting piracy off the Horn of Africa have diverted resources. They now counter threats in critical waterways. These conflicts have drawn maritime traffic closer to the coastline of Somalia. This creates openings for opportunistic pirates to target commercial ships. Reisener noted that about seventy percent of maritime traffic previously passing through the Red Sea is now being rerouted around South Africa. Somalia struggles to secure its coastline. The country has insufficient patrol vessels and an inability to pay coastal patrol salaries. The resurgence has injected cash into local economies such as Galkayo. Experts question whether there is international appetite or capacity for a new counter-piracy naval mission. They compare it to the one deployed in twenty eleven and twenty twelve. Navies worldwide spent more than one billion dollars annually on counter-piracy operations off Somalia back then.",
+      "main": "WORLD",
+      "sub": "Conflict & Security",
+      "category": "WORLD",
+      "subcategory": "Conflict & Security",
+      "sources": [
+        {
+          "name": "guardian_world",
+          "url": "https://www.theguardian.com/world/2026/sep/08/hijacking-pirates-somalia-geopolitical-chaos",
+          "domain": "theguardian.com",
+          "added_at": "2026-09-08T15:52:41.504337+00:00"
+        }
+      ],
+      "source": "guardian_world",
+      "source_url": "https://www.theguardian.com/world/2026/sep/08/hijacking-pirates-somalia-geopolitical-chaos",
+      "source_domain": "theguardian.com",
+      "source_permalink": "https://www.theguardian.com/world/2026/sep/08/hijacking-pirates-somalia-geopolitical-chaos",
+      "score": 100,
+      "author": "Mohamed Gabobe in Mogadishu and Peter Beaumont",
+      "published_at": "2026-09-08T15:52:41.504337+00:00",
+      "created_at_ts": 1788840027,
+      "audio_path": "audio/2026-09-08/rss-guardian_world-b23b07a35936-hijacking-pirates-exploit-regional-chaos-to-return-to-seas-o.mp3",
+      "word_count": 249,
+      "estimated_duration_s": 100,
+      "image_url": "https://i.guim.co.uk/img/media/8fe8026e236cc5ba1a9f19e4b6faddfdba2da4bb/0_0_1238_990/master/1238.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=fc51c13600c39f8d13f634675c5a00b0",
+      "location": {
+        "name": "Mogadishu",
+        "country": "Somalia",
+        "lat": 2.0469,
+        "lng": 45.3182
+      },
+      "audio_bytes": 730992,
+      "audio_duration_s": 93.5,
+      "tts_chunks": 20,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "tldr-tech-89b8c392caa0",
+      "title": "ChatGPT May Soon Learn Your Writing Style From Your Slack or Gmail",
+      "summary": "Open. A. I. is testing a new feature for Chat. G. P. T. It learns your writing style by connecting to external services. These services include Gmail, Slack, Notion, and Google Drive.\n\nThe upcoming tool was first spotted on X by, Gael Breton. It was later reported by Bleeping Computer. Breton posted a screenshot that shows a description of how the feature works. The description uses examples from connected apps.\n\nUsers who have access can find the option in the settings menu. Look under Personalization and Writing. A toggle reads, Reference my writing style. There is also a prompt to set up the feature.\n\nOpen. A. I. has not made an official announcement yet. The company frequently tests new ideas with a small group of users before a wider rollout.\n\nOne user replied to the post on X. They said they have had access to the feature for weeks. They described it as a game changer.\n\nIt remains unclear how the application processes messages from connected apps. It might process them just once. It might also refer back to them periodically to adapt your style over time.\n\nP. C. Mag tried to test the application. They were unable to activate the feature during their own testing.",
+      "main": "AI",
+      "sub": "Products & Tools",
+      "category": "AI",
+      "subcategory": "Products & Tools",
+      "sources": [
+        {
+          "name": "tldr_tech",
+          "url": "https://www.pcmag.com/news/chatgpt-may-soon-learn-your-writing-style-from-your-slack-or-gmail",
+          "domain": "pcmag.com",
+          "added_at": "2026-09-08T15:31:08.703876+00:00"
+        }
+      ],
+      "source": "tldr_tech",
+      "source_url": "https://www.pcmag.com/news/chatgpt-may-soon-learn-your-writing-style-from-your-slack-or-gmail",
+      "source_domain": "pcmag.com",
+      "source_permalink": "https://tldr.tech/tech/2026-09-08",
+      "score": 350,
+      "author": "TLDR",
+      "published_at": "2026-09-08T15:31:08.703876+00:00",
+      "created_at_ts": 1788825600,
+      "audio_path": "audio/2026-09-08/tldr-tech-89b8c392caa0-chatgpt-may-soon-learn-your-writing-style-from-your-slack-or.mp3",
+      "word_count": 206,
+      "estimated_duration_s": 82,
+      "image_url": "https://i.pcmag.com/imagery/articles/00xnUnXhGSF9HZOqPJYO72F-1.fit_lim.size_1200x630.v1788794878.jpg",
+      "location": {
+        "name": "San Francisco",
+        "country": "United States",
+        "lat": 37.7749,
+        "lng": -122.4194
+      },
+      "audio_bytes": 542832,
+      "audio_duration_s": 73.0,
+      "tts_chunks": 22,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "tldr-ai-b4f2d04ed91a",
+      "title": "Anthropic signed $517bn in compute agreements in past 11 months",
+      "summary": "Artificial Intelligence lab Anthropic has signed about five hundred seventeen billion dollars in compute capacity leases over the past eleven months. This comes from an analysis by The Information looking at public announcements and reporting. Since October of last year the company has committed to fourteen point eight gigawatts of compute capacity for the next few years. An unnamed source noted that Anthropic had secured between one gigawatt and two gigawatts of capacity before that time. The largest shares of this new capacity will come from Google and Amazon Web Services. Those two companies will combined contribute eleven gigawatts. Anthropic confidentially filed for an Initial Public Offering with the United States Securities and Exchange Commission in June of this year. The rapid scaling includes a forty-five billion dollar compute agreement with Nscale signed in late August. There is also a one hundred ninety-one megawatt agreement with Riot Platforms for a Texas data center. Another deal is a two hundred billion dollar agreement with Google for deployable T. P. U.s. Beyond data center leases the company secured major cloud capacity deals with Akamai and Amazon Web Services including custom Trainium hardware. CoreWeave is involved alongside a fifty billion dollar partnership with Fluidstack. Additional agreements were signed with companies including SpaceX and x. A. I., Google Cloud, Lambda, Volta Infra, A. M. D., and Microsoft. Anthropic previously told investors it expected to spend about one hundred eighty billion dollars on renting servers through twenty twenty-nine. That figure has substantially increased under the five hundred seventeen billion dollar total. This new total does not account for any potential unpublicized deals.",
+      "main": "AI",
+      "sub": "Infrastructure",
+      "category": "AI",
+      "subcategory": "Infrastructure",
+      "sources": [
+        {
+          "name": "tldr_ai",
+          "url": "https://www.datacenterdynamics.com/en/news/anthropic-signed-517bn-in-compute-agreements-in-past-11-months/",
+          "domain": "datacenterdynamics.com",
+          "added_at": "2026-09-08T15:31:51.951206+00:00"
+        }
+      ],
+      "source": "tldr_ai",
+      "source_url": "https://www.datacenterdynamics.com/en/news/anthropic-signed-517bn-in-compute-agreements-in-past-11-months/",
+      "source_domain": "datacenterdynamics.com",
+      "source_permalink": "https://tldr.tech/ai/2026-09-08",
+      "score": 350,
+      "author": "TLDR",
+      "published_at": "2026-09-08T15:31:51.951206+00:00",
+      "created_at_ts": 1788825600,
+      "audio_path": "audio/2026-09-08/tldr-ai-b4f2d04ed91a-anthropic-signed-517bn-in-compute-agreements-in-past-11-mont.mp3",
+      "word_count": 267,
+      "estimated_duration_s": 107,
+      "image_url": "https://media.datacenterdynamics.com/media/images/Anthropic.2e16d0ba.fill-1200x630.jpg",
+      "location": {
+        "name": "San Francisco",
+        "country": "United States",
+        "lat": 37.7749,
+        "lng": -122.4194
+      },
+      "audio_bytes": 786744,
+      "audio_duration_s": 100.1,
+      "tts_chunks": 17,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "tldr-webdev-974ad7676021",
+      "title": "From S3 to GPU in One Copy",
+      "summary": "At the QCon London twenty twenty-six conference, SpiralDB maintainer Onur presented Vortex. Vortex is an open-source columnar file format hosted under the Linux Foundation. It is designed to accelerate machine learning data loading from cloud storage like S. three directly to graphics processing units.\n\nWhen utilizing graphics processing units, systems pay two types of taxes. The first is a movement tax involving multi-step data fetching from S. three into non-volatile memory express disks. It also involves reading compressed bytes into random access memory, central processing unit decompression, and sending decompressed bytes over peripheral component interconnect express to the graphics processing unit.\n\nThe second tax is a decision tax occurring when iterating on training workloads by changing filters or data mixes. This traditionally requires full data reprocessing, re-tokenization, and reshuffling. Vortex eliminates these bottlenecks by utilizing lightweight, cascading encodings that allow graphics processing units to handle parallel decompression directly. It also pushes projections, filters, and aggregations down into the file format itself so queries can be modified without full data re-tokenization.\n\nAccording to the presentation, Vortex storage scans run roughly thirty times faster than Parquet. Its random access speeds are one hundred times or more faster than Parquet. The file format relies on decoupled logical and physical types, fixed-size postscripts, a descriptive footer, and a structure of arrays and layouts. Layouts use zone-maps containing summary statistics like minimum and maximum values. This allows readers to prune unnecessary data segments before performing sliceable compression where only matching row ranges are decompressed.",
+      "main": "TECH",
+      "sub": "Software & Open Source",
+      "category": "TECH",
+      "subcategory": "Software & Open Source",
+      "sources": [
+        {
+          "name": "tldr_webdev",
+          "url": "https://spiraldb.com/blog/from-s3-to-gpu-in-one-copy",
+          "domain": "spiraldb.com",
+          "added_at": "2026-09-08T15:32:46.979155+00:00"
+        }
+      ],
+      "source": "tldr_webdev",
+      "source_url": "https://spiraldb.com/blog/from-s3-to-gpu-in-one-copy",
+      "source_domain": "spiraldb.com",
+      "source_permalink": "https://tldr.tech/dev/2026-09-08",
+      "score": 350,
+      "author": "TLDR",
+      "published_at": "2026-09-08T15:32:46.979155+00:00",
+      "created_at_ts": 1788825600,
+      "audio_path": "audio/2026-09-08/tldr-webdev-974ad7676021-from-s3-to-gpu-in-one-copy.mp3",
+      "word_count": 249,
+      "estimated_duration_s": 100,
+      "image_url": "https://spiraldb.com/blog/from-s3-to-gpu-in-one-copy/opengraph-image-d09wn6?4ae2b454c585341a",
+      "location": null,
+      "audio_bytes": 827688,
+      "audio_duration_s": 104.5,
+      "tts_chunks": 15,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "tldr-infosec-8220e8f7b197",
+      "title": "Mathspace Discloses Data Breach Affecting Over 1M People",
+      "summary": "Attackers stole personal data belonging to one million seventy-nine thousand eight hundred nineteen students, staff, and parents from the online learning platform Mathspace. The breach affected individuals in Australia and New Zealand after intruders compromised an internal reporting system.\n\nMathspace was founded in Sydney in twenty ten and is used by thousands of schools across multiple countries. Only users in Australia and New Zealand were impacted by this specific security incident.\n\nChief Technology Officer, Alvin Savoy, explained the timeline in a Saturday blog post. Threat actors gained access to company systems on August tenth. They downloaded data from the Australian reporting database on August twenty-seventh. Company officials confirmed the breach on September third, twenty twenty-six.\n\nThe attackers exploited a security vulnerability in a self-hosted installation of a software called Metabase. This flaw allowed intruders to obtain administrator access without using a legitimate login.\n\nThe compromised files did not include passwords, authentication tokens, academic records, learning activities, or results. Exposed data did not explicitly link user accounts to specific schools. However, investigators noted that attackers might still connect accounts to schools that use identifiable email domains.\n\nMathspace warned affected individuals to watch for suspicious account activity because criminals may target them using the stolen information.\n\nThis security breach is part of a broader cyber campaign. Attackers have recently exploited database vulnerabilities to target other companies, including Trezor, Framework, and Tally.",
+      "main": "TECH",
+      "sub": "Security & Privacy",
+      "category": "TECH",
+      "subcategory": "Security & Privacy",
+      "sources": [
+        {
+          "name": "tldr_infosec",
+          "url": "https://www.bleepingcomputer.com/news/security/mathspace-discloses-data-breach-affecting-over-1-million-people/",
+          "domain": "bleepingcomputer.com",
+          "added_at": "2026-09-08T15:33:42.820446+00:00"
+        }
+      ],
+      "source": "tldr_infosec",
+      "source_url": "https://www.bleepingcomputer.com/news/security/mathspace-discloses-data-breach-affecting-over-1-million-people/",
+      "source_domain": "bleepingcomputer.com",
+      "source_permalink": "https://tldr.tech/infosec/2026-09-08",
+      "score": 350,
+      "author": "TLDR",
+      "published_at": "2026-09-08T15:33:42.820446+00:00",
+      "created_at_ts": 1788825600,
+      "audio_path": "audio/2026-09-08/tldr-infosec-8220e8f7b197-mathspace-discloses-data-breach-affecting-over-1m-people.mp3",
+      "word_count": 229,
+      "estimated_duration_s": 92,
+      "image_url": "https://www.bleepstatic.com/content/hl-images/2026/09/07/0_Mathspace.jpg",
+      "location": {
+        "name": "Sydney",
+        "country": "Australia",
+        "lat": -33.8688,
+        "lng": 151.2093
+      },
+      "audio_bytes": 749088,
+      "audio_duration_s": 96.0,
+      "tts_chunks": 16,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "tldr-design-b1072572a9c1",
+      "title": "Google's Gemini Spark Can Now Manage Your Google Photos Library",
+      "summary": "Google announced that its personal agent, Gemini Spark, can now manage Google Photos libraries. Users can execute tasks like editing images and curating albums. They can also create shared albums automatically and turn concert flyer photos into calendar appointments. Users can even run complex workflows.\n\nGoogle Photos lead, Shimrit Ben-Yair, shared the new capabilities in a post on X on Thursday evening. She noted that the features will roll out over the next few weeks. They are coming to eligible Gemini A. I. Pro and Ultra subscribers in the United States in English. Google did not state if or when the feature will expand to international markets.\n\nTo use Gemini Spark with Google Photos, users must first connect Google Photos to Gemini. Then they toggle on Spark in the top corner of the Gemini app and enter a prompt.\n\nThe integration represents an attempt by Google to make consumer A. I. appealing. It aims to automate tedious tasks and manage large photo libraries. The launch arrives as the broader A. I. industry faces criticism for struggling to communicate the technology benefits to consumers.",
+      "main": "AI",
+      "sub": "Products & Tools",
+      "category": "AI",
+      "subcategory": "Products & Tools",
+      "sources": [
+        {
+          "name": "tldr_design",
+          "url": "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
+          "domain": "techcrunch.com",
+          "added_at": "2026-09-08T15:34:32.363090+00:00"
+        }
+      ],
+      "source": "tldr_design",
+      "source_url": "https://techcrunch.com/2026/09/04/googles-gemini-spark-can-now-manage-your-google-photos-library/",
+      "source_domain": "techcrunch.com",
+      "source_permalink": "https://tldr.tech/design/2026-09-08",
+      "score": 350,
+      "author": "TLDR",
+      "published_at": "2026-09-08T15:34:32.363090+00:00",
+      "created_at_ts": 1788825600,
+      "audio_path": "audio/2026-09-08/tldr-design-b1072572a9c1-google-s-gemini-spark-can-now-manage-your-google-photos-libr.mp3",
+      "word_count": 183,
+      "estimated_duration_s": 73,
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/06/gemini-app-GettyImages-2276204472-1.jpg?w=1024",
+      "location": {
+        "name": "Mountain View",
+        "country": "United States",
+        "lat": 37.422,
+        "lng": -122.084
+      },
+      "audio_bytes": 512400,
+      "audio_duration_s": 66.3,
+      "tts_chunks": 13,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "tldr-ai-5d1ff213cdf2",
+      "title": "OpenAI prepares managed agents for DevDay 2026",
+      "summary": "OpenAI is preparing to introduce Managed Agents at its upcoming developer day event. The event is scheduled for September twenty-ninth, twenty twenty-six, at Fort Mason in San Francisco.\n\nThe new implementation broadly follows the managed agents offering from Anthropic. It targets both developers and business customers. Users will get capabilities for creating and managing different agents and environments. The system also enables specific skills and plugins.\n\nCodebase indications show a strong focus on hosted, long-horizon functionality. This feature succeeds earlier custom GPTs introduced in November twenty-three. It also follows the Agent Builder launched in October twenty twenty-five. That older builder is set to be wound down after November thirtieth along with Evals.\n\nThe new approach aims to handle conversion funnels. It will optimize and customize them far better than traditional advertising solutions. Model updates and security solutions are also expected at the event.",
+      "main": "AI",
+      "sub": "Products & Tools",
+      "category": "AI",
+      "subcategory": "Products & Tools",
+      "sources": [
+        {
+          "name": "tldr_ai",
+          "url": "https://www.testingcatalog.com/openai-prepares-managed-agents-for-devday-2026/",
+          "domain": "testingcatalog.com",
+          "added_at": "2026-09-08T15:55:57.417375+00:00"
+        }
+      ],
+      "source": "tldr_ai",
+      "source_url": "https://www.testingcatalog.com/openai-prepares-managed-agents-for-devday-2026/",
+      "source_domain": "testingcatalog.com",
+      "source_permalink": "https://tldr.tech/ai/2026-09-08",
+      "score": 350,
+      "author": "TLDR",
+      "published_at": "2026-09-08T15:55:57.417375+00:00",
+      "created_at_ts": 1788825600,
+      "audio_path": "audio/2026-09-08/tldr-ai-5d1ff213cdf2-openai-prepares-managed-agents-for-devday-2026.mp3",
+      "word_count": 143,
+      "estimated_duration_s": 57,
+      "image_url": "https://storage.ghost.io/c/2a/1b/2a1b1782-8506-4d7d-bf53-ad3fb52e2a0f/content/images/size/w1200/2026/09/Agents-OpenAI-API-09-07-2026_02_35_PM.jpg",
+      "location": {
+        "name": "San Francisco",
+        "country": "United States",
+        "lat": 37.7749,
+        "lng": -122.4194
+      },
+      "audio_bytes": 456672,
+      "audio_duration_s": 58.7,
+      "tts_chunks": 13,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "tldr-webdev-0bcaf1db3896",
+      "title": "Exploring Speculative Decoding in vLLM on AMD GPUs",
+      "summary": "Speculative decoding speeds up large language model serving by pairing a lightweight draft component with a target model.\n\nThe draft component proposes candidate future tokens for the system.\n\nThe target model verifies them in a single forward pass.\n\nIt commits multiple output tokens when accepted while preserving the behavior of the target model.\n\nA new post explores speculative decoding measurements on hardware accelerators from AMD.\n\nThese include the Instinct M. I. three hundred X and the Instinct M. I. three fifty-five X graphics processing units.\n\nEAGLE-three records hidden states from the beginning, middle, and end stages of the target Transformer.\n\nDFlash uses a dedicated draft network to draft parallel blocks from target model hidden states.\n\nThe briefing outlines five specific drafting approaches for users.\n\nThese include native Multi-Token Prediction modules and Gemma four M. T. P.\n\nOther approaches are EAGLE-three, DFlash, and DSpark.\n\nThese methods differ in how the draft component receives target model information.\n\nThey also differ in whether candidate tokens are generated sequentially, autoregressively, in parallel, or through hybrid approaches.",
+      "main": "AI",
+      "sub": "Models & Research",
+      "category": "AI",
+      "subcategory": "Models & Research",
+      "sources": [
+        {
+          "name": "tldr_webdev",
+          "url": "https://vllm.ai/blog/2026-08-23-speculative-decoding-amd-gpus",
+          "domain": "vllm.ai",
+          "added_at": "2026-09-08T15:56:41.296400+00:00"
+        }
+      ],
+      "source": "tldr_webdev",
+      "source_url": "https://vllm.ai/blog/2026-08-23-speculative-decoding-amd-gpus",
+      "source_domain": "vllm.ai",
+      "source_permalink": "https://tldr.tech/dev/2026-09-08",
+      "score": 350,
+      "author": "TLDR",
+      "published_at": "2026-09-08T15:56:41.296400+00:00",
+      "created_at_ts": 1788825600,
+      "audio_path": "audio/2026-09-08/tldr-webdev-0bcaf1db3896-exploring-speculative-decoding-in-vllm-on-amd-gpus.mp3",
+      "word_count": 172,
+      "estimated_duration_s": 69,
+      "image_url": "https://vllm.ai/og?title=Exploring%20Speculative%20Decoding%20in%20vLLM%20on%20AMD%20GPUs&amp;authors=AMD%20and%20Embedded%20LLM&amp;date=2026-08-23&amp;path=/blog",
+      "location": null,
+      "audio_bytes": 537816,
+      "audio_duration_s": 71.3,
+      "tts_chunks": 13,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "tldr-infosec-1d5f51ea0863",
+      "title": "PostGREShell: The database powering much of the internet had an open door for 12 years",
+      "summary": "Cyera Research has discovered a critical security flaw in PostgreSQL. The vulnerability is tracked as C. V. E. twenty twenty-six dash sixty-four seventy-one. It affects database versions nine point four through eighteen point two. A new tool called PostGREShell turns a low-risk replication credential into a total server compromise. The flaw exists in the database replication protocol. It allows low-privilege accounts to bypass security systems. Attackers can load arbitrary code onto the server and achieve remote code execution. This impacts Windows, Linux, and macOS systems. The vulnerability comes from an unvalidated plugin-loading path used during logical replication. This path never had the security restrictions of standard S. Q. L. plugin loading.\n\nAn attacker can exploit this foothold to escalate privileges to full PostgreSQL superuser. They can install persistent backdoors and modify system catalogs directly. They can also execute operating system commands. The vulnerability has been present since twenty fourteen. A threat hunt across VirusTotal identified one hundred fourteen malicious PostgreSQL plugins already in the wild. Cyera Research reported the flaw to the PostgreSQL Security Team on February twenty-first, twenty twenty-six. PostgreSQL acknowledged the report and published a security release fixing the issue on August twenty-second, twenty twenty-six.\n\nAdministrators must take action to mitigate the risk. You must apply the security update immediately. You need to audit all replication accounts. You should block outbound S. M. B. port four hundred forty-five from database servers at the firewall. You must also block N. F. S. port twenty forty-nine. Finally, you need to review p. g. underscore h. b. a. dot c. o. n. f. configurations for overly permissive rules.",
+      "main": "TECH",
+      "sub": "Security & Privacy",
+      "category": "TECH",
+      "subcategory": "Security & Privacy",
+      "sources": [
+        {
+          "name": "tldr_infosec",
+          "url": "https://www.cyera.com/pt-br/research/postgreshell-the-database-powering-much-of-the-internet-had-an-open-door-for-12-years",
+          "domain": "cyera.com",
+          "added_at": "2026-09-08T15:57:22.142619+00:00"
+        }
+      ],
+      "source": "tldr_infosec",
+      "source_url": "https://www.cyera.com/pt-br/research/postgreshell-the-database-powering-much-of-the-internet-had-an-open-door-for-12-years",
+      "source_domain": "cyera.com",
+      "source_permalink": "https://tldr.tech/infosec/2026-09-08",
+      "score": 350,
+      "author": "TLDR",
+      "published_at": "2026-09-08T15:57:22.142619+00:00",
+      "created_at_ts": 1788825600,
+      "audio_path": "audio/2026-09-08/tldr-infosec-1d5f51ea0863-postgreshell-the-database-powering-much-of-the-internet-had-.mp3",
+      "word_count": 267,
+      "estimated_duration_s": 107,
+      "image_url": null,
+      "location": {
+        "name": "New York",
+        "country": "United States",
+        "lat": 40.7128,
+        "lng": -74.006
+      },
+      "audio_bytes": 880728,
+      "audio_duration_s": 116.5,
+      "tts_chunks": 32,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "tldr-design-d500358aea0a",
+      "title": "Atlas: A World Model for Spatial Intelligence",
+      "summary": "World Labs has introduced a new model called Atlas. It is a next-generation omni world model. It is pretrained from scratch to natively operate on text, images, video, and three-D data. It is built as a multimodal autoregressive diffusion transformer. Atlas combines all inputs into a shared spatial context to generate and simulate consistent three-D environments. The model scales with increased training compute. It is designed to power future versions of Marble and other World Labs products.\n\nAtlas performs a broad range of tasks across world generation, reconstruction, and simulation. For camera-controlled generation, it produces up to one minute of video at fourteen-forty-p resolution from one or more images with pixel-perfect camera control. For spatial reconstruction, it generates novel views and explicit three-D outputs including point clouds and three-D Gaussian splats using anywhere from a single input image to over a hundred. It outperforms specialized three-D reconstruction models. In space-time simulation, Atlas models space and time from input videos. This enables bullet-time multi-view capture from ordinary cell phone footage shot on tripods. It also supports real-to-sim workflows for robotics navigation and manipulation. Additionally, Atlas generates images and three-sixty panoramas from text prompts.",
+      "main": "AI",
+      "sub": "Models & Research",
+      "category": "AI",
+      "subcategory": "Models & Research",
+      "sources": [
+        {
+          "name": "tldr_design",
+          "url": "https://www.worldlabs.ai/blog/atlas",
+          "domain": "worldlabs.ai",
+          "added_at": "2026-09-08T15:58:22.546569+00:00"
+        }
+      ],
+      "source": "tldr_design",
+      "source_url": "https://www.worldlabs.ai/blog/atlas",
+      "source_domain": "worldlabs.ai",
+      "source_permalink": "https://tldr.tech/design/2026-09-08",
+      "score": 350,
+      "author": "TLDR",
+      "published_at": "2026-09-08T15:58:22.546569+00:00",
+      "created_at_ts": 1788825600,
+      "audio_path": "audio/2026-09-08/tldr-design-d500358aea0a-atlas-a-world-model-for-spatial-intelligence.mp3",
+      "word_count": 192,
+      "estimated_duration_s": 77,
+      "image_url": "https://www.worldlabs.ai/images/atlas-og.jpg",
+      "location": {
+        "name": "San Francisco",
+        "country": "United States",
+        "lat": 37.7749,
+        "lng": -122.4194
+      },
+      "audio_bytes": 621288,
+      "audio_duration_s": 79.0,
+      "tts_chunks": 15,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "rss-openai_blog-671a9fed35e2",
+      "title": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
+      "summary": "OpenAI is launching a new initiative to support journalism. The program starts in the twenty twenty-six to twenty twenty-seven academic year. It includes the City University of New York Graduate School of Journalism and Northwestern University. OpenAI is providing over four hundred ChatGPT Edu subscriptions for graduate students and faculty.\n\nThe project collaborates with the Tow-Knight Center for Journalism Futures and the Medill Knight Lab. The support ensures that access is not a barrier for students. Northwestern notes that its lab has worked with media technology for over a decade. The Newmark school states that generative A. I. is transforming the industry.\n\nThe school aims to be at the forefront of this change. This university program expands on existing journalism efforts by OpenAI. The company renewed a partnership with the American Journalism Project. This gives over fifty news organizations access to ChatGPT enterprise and A. P. I. credits.\n\nOpenAI continues to support the Lenfest Institute for Journalism and its A. I. program. A twenty twenty-four partnership with WAN-IFRA supported an accelerator for over one hundred sixty-five newsrooms. OpenAI also has ongoing work with INMA and the Carter Journalism Institute.\n\nThe company hosted trainings this year at several conferences. These include the National Association of Black Journalists and the National Association of Hispanic Journalists. Trainings were also held for the Asian American Journalists Association and the Association of L. G. B. T. Q. Plus Journalists.",
+      "main": "AI",
+      "sub": "Industry",
+      "category": "AI",
+      "subcategory": "Industry",
+      "sources": [
+        {
+          "name": "openai_blog",
+          "url": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
+          "domain": "openai.com",
+          "added_at": "2026-09-08T15:59:12.540569+00:00"
+        }
+      ],
+      "source": "openai_blog",
+      "source_url": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
+      "source_domain": "openai.com",
+      "source_permalink": "https://openai.com/index/supporting-journalism-from-classrooms-to-newsrooms",
+      "score": 100,
+      "author": "",
+      "published_at": "2026-09-08T15:59:12.540569+00:00",
+      "created_at_ts": 1788825600,
+      "audio_path": "audio/2026-09-08/rss-openai_blog-671a9fed35e2-openai-expands-initiatives-to-support-journalism-from-classr.mp3",
+      "word_count": 234,
+      "estimated_duration_s": 94,
+      "image_url": "https://images.ctfassets.net/kftzwdyauwt9/6SOlj6pViSl1M2gHLiaKO2/365f080a0a6c6a350a4c64f46b7e202a/SEO_Card___short_copy_example__2_.png?w=1600&amp;h=900&amp;fit=fill",
+      "location": {
+        "name": "San Francisco",
+        "country": "United States",
+        "lat": 37.7749,
+        "lng": -122.4194
+      },
+      "audio_bytes": 720168,
+      "audio_duration_s": 92.8,
+      "tts_chunks": 18,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "hn-49603546",
+      "title": "Show HN: Stuxnet – A reconstructed source code of the infamous cyber-weapon",
+      "summary": "An educational repository reconstructs the infamous Stuxnet worm for security research and academic study. Independent security researchers built the project through reverse engineering. They used threat intelligence from Symantec, Kaspersky Lab, and E. S. E. T. Additional research came from Amr Thabet and, Christian Roggia. Stuxnet is the first known cyber weapon designed to cause physical destruction in industrial control systems. The reconstructed codebase preserves original logic while improving file readability for analysis. The project organizes primary modules from original binary samples. These modules include the winsta dot exe loader, and the tilde W. T. R. four one three two dot t. m. p. privilege escalation file. That file targets a win three two k dot s. y. s. vulnerability. Other modules include hook libraries, rootkit drivers, and the s seven p. l. c. main payload. The architecture targets Siemens SIMATIC WinCC, Step seven software, and S seven three hundred and four hundred programmable logic controllers. The infection flow uses U. S. B. drives, network shares, and peer-to-peer propagation. It monitors controller writes and alters motor frequencies in connected variable frequency drives. This causes mechanical damage to centrifuge rotors while hiding files and processes. Building the repository requires Microsoft Visual Studio twenty nineteen or twenty twenty-two. It also needs mingw dash w sixty, Windows X. P. or Windows seven, and the Windows Driver Kit seventy-six hundred. The materials are published under the GNU General Public License v three point zero. The code is not a deployable malware and must not be used on critical infrastructure.",
+      "main": "TECH",
+      "sub": "Security & Privacy",
+      "category": "TECH",
+      "subcategory": "Security & Privacy",
+      "sources": [
+        {
+          "name": "hackernews_show",
+          "url": "https://github.com/Sadpainy/Stuxnet",
+          "domain": "github.com",
+          "added_at": "2026-09-08T15:35:12.037078+00:00"
+        }
+      ],
+      "source": "hackernews_show",
+      "source_url": "https://github.com/Sadpainy/Stuxnet",
+      "source_domain": "github.com",
+      "source_permalink": "https://news.ycombinator.com/item?id=49603546",
+      "score": 162,
+      "author": "CMDDestory",
+      "published_at": "2026-09-08T15:35:12.037078+00:00",
+      "created_at_ts": 1788819158,
+      "audio_path": "audio/2026-09-08/hn-49603546-show-hn-stuxnet-a-reconstructed-source-code-of-the-infamous-.mp3",
+      "word_count": 255,
+      "estimated_duration_s": 102,
+      "image_url": null,
+      "location": null,
+      "audio_bytes": 829680,
+      "audio_duration_s": 107.5,
+      "tts_chunks": 26,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
       "id": "rss-phys_org-537a67bd9622",
       "title": "AI governance model inspired by Pope Leo XIV aims to put ethics first",
       "summary": "Researchers at the John Paul II Catholic University of Lublin and the University of Eastern Finland have developed a new artificial intelligence governance model. The work is inspired by the teachings of Pope Leo XIV as outlined in his encyclical Magnifica Humanitas.\n\nThe framework was created by Professor, Stanisław Fel, Doctor, Jarosław Kozak, and senior researcher, Marta Choroszewicz. It is detailed in an article published in the journal, A. I. and Ethics.\n\nExisting models have centered on whether governments, private companies, or multiple actors should control the technology. The authors ask instead which principles should govern the distribution of power and responsibility. They want to ensure that multi-institutional involvement does not lead to a situation where no one is ultimately accountable.\n\nThe framework combines the participation of governments, tech companies, experts, civil society organizations, citizens, and international institutions. It operates under eight core principles. These are human dignity, the common good, the universal destination of goods, social justice, solidarity, subsidiarity, shared responsibility, and transparency and accountability.\n\nTo demonstrate practical application, the authors use the example of systems used to assess eligibility for social benefits. Under the model, an algorithm may support an application review. However, a specific human must remain responsible for the final decision.\n\nApplicants would receive an understandable explanation and retain the right to challenge the decision. The system would also face independent audits and oversight from representatives of affected groups.\n\nThe study is among the first academic publications worldwide to ground a governance model in the encyclical Magnifica Humanitas.",
@@ -1386,9 +2631,49 @@
       "audio_verdict": "unchecked"
     },
     {
+      "id": "hn-49593563",
+      "title": "Keep Our Servers Running",
+      "summary": "The Internet Archive is launching a matching gift campaign this September. The campaign supports the infrastructure required to preserve and provide public access to two hundred ten petabytes of digital knowledge.\n\nThe digital library operates completely free of charge. It does not sell user data and it does not run ads. It relies instead on donations that average about twenty-five dollars. Donations help build and maintain and power its own servers and storage and cooling systems.\n\nUniversal access to all human knowledge is within our grasp. Our job is to put the best our world has to offer within the reach of our children. That is according to Brewster Kahle, Internet Archive Digital Librarian.\n\nRecurring gifts provide the dependable support the organization needs. This support keeps its infrastructure running. It ensures that books and websites remain accessible to learners around the world.",
+      "main": "TECH",
+      "sub": "Software & Open Source",
+      "category": "TECH",
+      "subcategory": "Software & Open Source",
+      "sources": [
+        {
+          "name": "hackernews",
+          "url": "https://blog.archive.org/2026/09/01/keep-our-servers-running-your-recurring-donation-goes-3x-this-september/",
+          "domain": "blog.archive.org",
+          "added_at": "2026-09-08T15:55:26.411858+00:00"
+        }
+      ],
+      "source": "hackernews",
+      "source_url": "https://blog.archive.org/2026/09/01/keep-our-servers-running-your-recurring-donation-goes-3x-this-september/",
+      "source_domain": "blog.archive.org",
+      "source_permalink": "https://news.ycombinator.com/item?id=49593563",
+      "score": 1010,
+      "author": "sonicrocketman",
+      "published_at": "2026-09-08T15:55:26.411858+00:00",
+      "created_at_ts": 1788751791,
+      "audio_path": "audio/2026-09-08/hn-49593563-keep-our-servers-running.mp3",
+      "word_count": 142,
+      "estimated_duration_s": 57,
+      "image_url": null,
+      "location": {
+        "name": "San Francisco",
+        "country": "United States",
+        "lat": 37.7749,
+        "lng": -122.4194
+      },
+      "audio_bytes": 399768,
+      "audio_duration_s": 51.7,
+      "tts_chunks": 12,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
       "id": "tldr-ai-2464e6d7c658",
       "title": "GPT‑6 Astra on robotic manipulation",
-      "summary": "OpenA. I.'s G. P. T.-six Astra was tested on September fourth, twenty twenty-six. It controlled robotic arms to evaluate manipulation tasks against earlier models. Astra averaged two point five minutes per trial. The cost was estimated at ninety-four cents per run. Fable five point one averaged six point eight minutes per trial. Its cost was two dollars and twelve cents per run. Both models tried picking up a round blue puzzle piece by its center knob. They placed it into a matching circular groove. Astra completed the insertion two times out of twenty trials. Fable five point one also scored two out of twenty. Astra cost one dollar and thirty-six cents on that task. Fable five point one cost two dollars and eighteen cents. Evaluators tested one hundred twenty trials total. A human grader rubric measured the highest stage each run reached. Testing limitations included non-interleaved trial dates. A different physical rig was used for the Fable bowl trials because rig three was unavailable. Operators were unblinded during grading which leaves scores open to unconscious bias. Objects were reset manually between trials. All models used a medium reasoning effort setting. Cost calculations were based on list prices. OpenA. I. automatically cached roughly one-fifth of Astra inputs. Anthropic requests were sent without prompt caching.",
+      "summary": "OpenA. I. 's G. P. T.-six Astra was tested on September fourth, twenty twenty-six, following earlier comparisons with Claude Fable five and Fable five point one. Evaluators tested both models using identical YAM arms under the same Inspect Robots agent policy across one hundred twenty total trials. The evaluation covered two tasks with specific prompt instructions. On the first task, models were instructed to pick up a red block from the table and place it inside a bowl. Astra placed the block in nineteen of twenty trials. Fable five point one succeeded in eight of twenty trials. Fable five succeeded in one of twenty trials. The second task required models to pick up a round blue puzzle piece by its center knob and place it into a matching circular groove. Astra completed this insertion two times out of twenty trials. Fable five point one also scored two out of twenty. Astra reached the groove and stalled at the same final step that Fable models encountered. Astra averaged two point five minutes per trial on the bowl task. Fable five point one averaged six point eight minutes per trial. The estimated cost for Astra was ninety-four cents per run. Fable five point one cost two dollars and twelve cents per run. On the puzzle task, Astra cost one dollar and thirty-six cents. Fable five point one cost two dollars and eighteen cents. A human grader rubric measured the highest stage each run reached. Testing limitations included non-interleaved trial dates. A different physical rig was used for the Fable bowl trials because rig three was unavailable. Operators were unblinded during grading which leaves scores open to unconscious bias. Objects were reset manually between trials. All models used a medium reasoning effort setting. Cost calculations were based on list prices. OpenA. I. automatically cached roughly one-fifth of Astra inputs. Anthropic requests were sent without prompt caching.",
       "main": "AI",
       "sub": "Models & Research",
       "category": "AI",
@@ -1410,8 +2695,8 @@
       "published_at": "2026-09-07T21:53:24.728255+00:00",
       "created_at_ts": 1788739200,
       "audio_path": "audio/2026-09-07/tldr-ai-2464e6d7c658-gpt-6-astra-on-robotic-manipulation.mp3",
-      "word_count": 213,
-      "estimated_duration_s": 85,
+      "word_count": 313,
+      "estimated_duration_s": 125,
       "image_url": "https://openai.robocurve.org/gpt-6-astra/og.jpg",
       "location": {
         "name": "San Francisco",
@@ -1419,11 +2704,20 @@
         "lat": 37.7749,
         "lng": -122.4194
       },
-      "audio_bytes": 638088,
-      "audio_duration_s": 82.2,
-      "tts_chunks": 24,
-      "tts_voice": "am_liam",
-      "audio_verdict": "unchecked"
+      "audio_bytes": 1004424,
+      "audio_duration_s": 135.5,
+      "tts_chunks": 28,
+      "tts_voice": "am_michael",
+      "audio_verdict": "unchecked",
+      "key_points": [
+        "OpenA. I. 's G. P. T.-six Astra was tested on September fourth, twenty twenty-six, as a follow-up comparison to Claude Fable five and Fable five point one.",
+        "The evaluation used YAM arms under the same Inspect Robots agent policy across one hundred twenty total trials.",
+        "On the bowl task, Astra placed the block in nineteen of twenty trials, compared to eight of twenty for Fable five point one and one of twenty for Fable five.",
+        "On the puzzle task, Astra completed the insertion two times out of twenty trials, matching Fable five point one at two out of twenty while stalling at the same final step.",
+        "Astra averaged two point five minutes per trial on the bowl task at ninety-four cents per run, while Fable five point one averaged six point eight minutes at two dollars and twelve cents.",
+        "On the puzzle task, Astra cost one dollar and thirty-six cents per run, while Fable five point one cost two dollars and eighteen cents.",
+        "Testing limitations included non-interleaved trial dates, a different physical rig for Fable bowl trials, unblinded operator grading, manual object resets, and medium reasoning effort settings."
+      ]
     },
     {
       "id": "tldr-webdev-20c704a97c5a",
@@ -8101,6 +9395,46 @@
       "subcategory": "Startups"
     },
     {
+      "id": "rss-ars_science-fae6522e99c2",
+      "title": "Spending deal comes with a bonus: Blocking political control of grants",
+      "summary": "On Tuesday, the House of Representatives passed a stopgap measure to continue funding the United States government through early December. This action averted a government shutdown right before the midterm elections. The measure is widely expected to be signed by President Trump.\n\nDissent within the House Republican caucus prevented members from agreeing on their own measure. Because of this, the House adopted a version of the spending bill that had previously passed the Senate.\n\nFor scientists and their supporters, the adoption of the Senate bill is significant. It includes a provision blocking the Office of Management and Budget from implementing new rules.\n\nThe Senate budget bill passed in early August. It contains a provision blocking the Office of Management and Budget from implementing new rules that would give political appointees full control over what science is funded. These rules would also allow political appointees to cancel any grant at any time. The proposed rule had faced widespread opposition from scientific organizations and health focused organizations.\n\nThe stopgap measure only funds the government through early December. Because of this, the protection for research grants is currently put on hold until that time.",
+      "main": "US",
+      "sub": "Politics",
+      "category": "US",
+      "subcategory": "Politics",
+      "sources": [
+        {
+          "name": "ars_science",
+          "url": "https://arstechnica.com/science/2026/09/budget-deal-puts-political-control-of-grants-on-hold-until-december/",
+          "domain": "arstechnica.com",
+          "added_at": "2026-09-08T15:42:27.867517+00:00"
+        }
+      ],
+      "source": "ars_science",
+      "source_url": "https://arstechnica.com/science/2026/09/budget-deal-puts-political-control-of-grants-on-hold-until-december/",
+      "source_domain": "arstechnica.com",
+      "source_permalink": "https://arstechnica.com/science/2026/09/budget-deal-puts-political-control-of-grants-on-hold-until-december/",
+      "score": 100,
+      "author": "John Timmer",
+      "published_at": "2026-09-08T15:42:27.867517+00:00",
+      "created_at_ts": 1788384003,
+      "audio_path": "audio/2026-09-08/rss-ars_science-fae6522e99c2-spending-deal-comes-with-a-bonus-blocking-political-control-.mp3",
+      "word_count": 191,
+      "estimated_duration_s": 76,
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/05/us-capitol-1152x648-1777657457.jpg",
+      "location": {
+        "name": "Washington, D.C.",
+        "country": "United States",
+        "lat": 38.8951,
+        "lng": -77.0364
+      },
+      "audio_bytes": 526536,
+      "audio_duration_s": 68.1,
+      "tts_chunks": 13,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
       "id": "rss-aljazeera-327d9f105bf3",
       "title": "Two Palestinians killed as settlers, Israeli forces raid West Bank village",
       "summary": "Two Palestinian teenagers were killed during a raid by settlers and Israeli forces in the occupied West Bank village of al-Mughayyir on Wednesday. The victims were nineteen-year-old Mohammad Na-ssan and nineteen-year-old Khalil Abu Aliya. Israeli soldiers opened fire on residents who attempted to confront the settlers.\n\nThat is according to the head of the village council cited by the Palestinian Wafa news agency. The shooting critically wounded the two young men who later died. Village sources told Al Jazeera that snipers had taken positions on rooftops ahead of the killings.\n\nThe village has experienced repeated attacks in recent months. Settler violence has largely targeted the area's only access road. The United Nations Office for the Coordination of Humanitarian Affairs provided broader figures.\n\nAt least seventy-nine Palestinians have been killed in the occupied West Bank by settlers or Israeli forces since the beginning of twenty twenty-six. That total includes nineteen children. At least one thousand eight hundred seventy others have been wounded.\n\nThe surging violence has roiled the allies of Israel and prompted international scrutiny. In late August, United Nations Special Coordinator for the Middle East Process ad interim, Doctor Ramiz Alakbarov stated that settler attacks have continued with virtually no accountability.",
@@ -10477,5 +11811,5 @@
       "subcategory": "Models & Research"
     }
   ],
-  "updated_at": "2026-09-08T06:46:15.846801+00:00"
+  "updated_at": "2026-09-08T16:01:00.879415+00:00"
 }

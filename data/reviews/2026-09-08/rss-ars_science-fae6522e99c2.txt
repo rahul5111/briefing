@@ -1,0 +1,65 @@
+═══ 00_KEY_POINTS ═══
+
+1. On Tuesday, the House of Representatives passed a stopgap measure funding the government through early December.
+2. President Trump is widely expected to sign the measure to avoid a government shutdown before the midterm elections.
+3. Dissent within the House Republican caucus prevented them from agreeing on their own measure.
+4. The House adopted a version of the spending bill that had previously passed the Senate in early August.
+5. The Senate budget bill contains a provision blocking the OMB from implementing new rules over research funding.
+6. The blocked rules would have given political appointees full control to cancel any science grant at any time.
+
+═══ 01_DRAFT ═══
+
+On Tuesday, the House of Representatives passed a stopgap measure to continue funding the US government through early December, averting a government shutdown before the midterm elections. The measure is widely expected to be signed by President Trump. 
+
+Due to dissent within the House Republican caucus preventing the passage of their own funding measure, the House adopted a version of the spending bill previously passed by the Senate in early August. 
+
+For scientists and their supporters, the adoption of the Senate bill is significant because it includes a provision blocking the Office of Management and Budget from implementing new rules. Those proposed rules would have given political appointees full control over funded science and allowed them to cancel any grant at any time. The proposed rule had faced widespread opposition from scientific and health-focused organizations. 
+
+Because the stopgap measure only funds the government through early December, the protection for research grants is currently put on hold until that time.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+On Tuesday, the House of Representatives passed a stopgap measure to continue funding the US government through early December, averting a government shutdown before the midterm elections. The measure is widely expected to be signed by President Trump. 
+
+Because dissent within the House's Republican caucus prevented them from agreeing on their own measure, the House adopted a version of the spending bill that had previously passed the Senate. 
+
+For scientists and their supporters, the adoption of the Senate bill is significant because it includes a provision blocking the Office of Management and Budget from implementing new rules. The Senate's budget bill, passed in early August, contains a provision that blocks the Office of Management and Budget from implementing new rules that would give political appointees full control over what science is funded and allow them to cancel any grant at any time. The proposed rule had faced widespread opposition from scientific and health-focused organizations. 
+
+Because the stopgap measure only funds the government through early December, the protection for research grants is currently put on hold until that time.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+On Tuesday, the House of Representatives passed a stopgap measure to continue funding the United States government through early December. This action averted a government shutdown right before the midterm elections. The measure is widely expected to be signed by President Trump. 
+
+Dissent within the House Republican caucus prevented members from agreeing on their own measure. Because of this, the House adopted a version of the spending bill that had previously passed the Senate. 
+
+For scientists and their supporters, the adoption of the Senate bill is significant. It includes a provision blocking the Office of Management and Budget from implementing new rules. 
+
+The Senate budget bill passed in early August. It contains a provision blocking the Office of Management and Budget from implementing new rules that would give political appointees full control over what science is funded. These rules would also allow political appointees to cancel any grant at any time. The proposed rule had faced widespread opposition from scientific organizations and health focused organizations. 
+
+The stopgap measure only funds the government through early December. Because of this, the protection for research grants is currently put on hold until that time.
+
+═══ 05_NORMALIZED ═══
+
+On Tuesday, the House of Representatives passed a stopgap measure to continue funding the United States government through early December. This action averted a government shutdown right before the midterm elections. The measure is widely expected to be signed by President Trump.
+
+Dissent within the House Republican caucus prevented members from agreeing on their own measure. Because of this, the House adopted a version of the spending bill that had previously passed the Senate.
+
+For scientists and their supporters, the adoption of the Senate bill is significant. It includes a provision blocking the Office of Management and Budget from implementing new rules.
+
+The Senate budget bill passed in early August. It contains a provision blocking the Office of Management and Budget from implementing new rules that would give political appointees full control over what science is funded. These rules would also allow political appointees to cancel any grant at any time. The proposed rule had faced widespread opposition from scientific organizations and health focused organizations.
+
+The stopgap measure only funds the government through early December. Because of this, the protection for research grants is currently put on hold until that time.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+OK
+

@@ -1,0 +1,56 @@
+═══ 00_KEY_POINTS ═══
+
+1. OpenAI is preparing new managed agents for businesses and developers ahead of DevDay 2026.
+2. OpenAI will host its next DevDay event on September 29, 2026, at Fort Mason in San Francisco.
+3. OpenAI is working on functionality that would allow ads on ChatGPT to resolve directly to an agent.
+4. The new managed agents feature functionality very similar to the offering currently provided by Anthropic.
+5. OpenAI plans to showcase model updates, security solutions, and agent demonstrations at the upcoming event.
+
+═══ 01_DRAFT ═══
+
+OpenAI is preparing to introduce Managed Agents at its upcoming DevDay event, scheduled for September 29, 2026, at Fort Mason in San Francisco. The implementation broadly follows Anthropic’s managed agents offering, targeting both developers and business customers with capabilities for creating and managing different agents and environments while enabling specific skills and plugins. Codebase indications show a focus on hosted, long-horizon functionality that succeeds OpenAI's earlier custom GPTs introduced in November 2023 and the Agent Builder launched in October 2025, which is set to be wound down after November 30 alongside Evals. 
+
+Alongside the developer tools, OpenAI is working on functionality that integrates its existing ChatGPT Ads and Ads Manager with agents, allowing ads to resolve directly to an agent that takes the lead and guides users through conversion funnels. This approach aims to optimize and customize funnels far better than traditional advertising solutions. Additional announcements expected at the livestreamed event include model updates and security solutions.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+OpenAI is preparing to introduce Managed Agents at its upcoming DevDay event, scheduled for September 29, 2026, at Fort Mason in San Francisco. The implementation broadly follows Anthropic’s managed agents offering, targeting both developers and business customers with capabilities for creating and managing different agents and environments while enabling specific skills and plugins. Codebase indications show a focus on hosted, long-horizon functionality that succeeds OpenAI's earlier custom GPTs introduced in November 2023 and the Agent Builder launched in October 2025, which is set to be wound down after November 30 alongside Evals. 
+
+Alongside these efforts, OpenAI is exploring more native ways for businesses to interact with consumers by integrating its existing ChatGPT Ads and Ads Manager with functionality that allows ads to resolve directly to an agent, taking the lead to guide users through the process. This approach aims to handle conversion funnels, optimizing and customizing them far better than traditional advertising solutions. Model updates, security solutions, and more are also expected at the event.
+
+═══ 02b_TRIMMED ═══
+
+OpenAI is preparing to introduce Managed Agents at its upcoming DevDay event, scheduled for September 29, 2026, at Fort Mason in San Francisco. The implementation broadly follows Anthropic’s managed agents offering, targeting both developers and business customers with capabilities for creating and managing different agents and environments while enabling specific skills and plugins. Codebase indications show a focus on hosted, long-horizon functionality that succeeds OpenAI's earlier custom GPTs introduced in November 2023 and the Agent Builder launched in October 2025, which is set to be wound down after November 30 alongside Evals. This approach aims to handle conversion funnels, optimizing and customizing them far better than traditional advertising solutions. Model updates, security solutions, and more are also expected at the event.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (5/5). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+OpenAI is preparing to introduce Managed Agents at its upcoming developer day event. The event is scheduled for September twenty-ninth, twenty twenty-six, at Fort Mason in San Francisco. 
+
+The new implementation broadly follows the managed agents offering from Anthropic. It targets both developers and business customers. Users will get capabilities for creating and managing different agents and environments. The system also enables specific skills and plugins. 
+
+Codebase indications show a strong focus on hosted, long-horizon functionality. This feature succeeds earlier custom GPTs introduced in November twenty-three. It also follows the Agent Builder launched in October twenty twenty-five. That older builder is set to be wound down after November thirtieth along with Evals. 
+
+The new approach aims to handle conversion funnels. It will optimize and customize them far better than traditional advertising solutions. Model updates and security solutions are also expected at the event.
+
+═══ 05_NORMALIZED ═══
+
+OpenAI is preparing to introduce Managed Agents at its upcoming developer day event. The event is scheduled for September twenty-ninth, twenty twenty-six, at Fort Mason in San Francisco.
+
+The new implementation broadly follows the managed agents offering from Anthropic. It targets both developers and business customers. Users will get capabilities for creating and managing different agents and environments. The system also enables specific skills and plugins.
+
+Codebase indications show a strong focus on hosted, long-horizon functionality. This feature succeeds earlier custom GPTs introduced in November twenty-three. It also follows the Agent Builder launched in October twenty twenty-five. That older builder is set to be wound down after November thirtieth along with Evals.
+
+The new approach aims to handle conversion funnels. It will optimize and customize them far better than traditional advertising solutions. Model updates and security solutions are also expected at the event.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (5/5). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: November twenty-three
+

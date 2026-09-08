@@ -1,0 +1,72 @@
+═══ 00_KEY_POINTS ═══
+
+1. GPT-6 Astra is introduced as the world's most intelligent and aligned model across multiple fields.
+2. OpenAI products currently reach more than one billion weekly active users and 2.5 million businesses.
+3. OpenAI's research organization now utilizes 3.1 agent-workdays of effort for every workday of human labor.
+4. GPT-5.6 Sol reduced end-to-end production serving costs by 20 percent according to the company.
+5. The custom inference chip Jalapeño achieved up to 1.9 times peak token throughput per watt in tests.
+
+═══ 01_DRAFT ═══
+
+OpenAI has introduced GPT-6 Astra, which the company describes as the world’s most intelligent and aligned model, alongside details on its infrastructure and expanding product reach. The new model delivers state-of-the-art performance in computer use, browsing, software engineering, cybersecurity, science, and professional work. OpenAI products currently reach more than one billion weekly active users and 2.5 million businesses across platforms including ChatGPT, ChatGPT Work, Codex, and API applications. Internal metrics show that daily message volume for users on individual plans is roughly 50 percent higher six months after signup compared to the first month. On the technical side, an earlier update using GPT-5.6 Sol reduced end-to-end serving costs by 20 percent and increased token-generation efficiency by more than 15 percent. Additionally, OpenAI announced Jalapeño, its first custom inference chip. In InferenceX tests across three public models using rated chip power to normalize comparisons, Jalapeño delivered 1.5 to 1.9 times as much peak token throughput per watt as the commercial systems tested, with end-to-end latency 1.7 to 3.6 times lower. OpenAI plans to begin deploying the custom chip by the end of the year alongside accelerators from NVIDIA, AMD, and other partners. Within OpenAI's own research organization, teams now utilize 3.1 agent-workdays of effort for every workday of human labor to handle tasks like resolving infrastructure problems and contributing code.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+OpenAI has introduced GPT-6 Astra, which the company describes as the world’s most intelligent and aligned model, alongside details on its infrastructure and expanding product reach. The new model delivers state-of-the-art performance in computer use, browsing, software engineering, cybersecurity, science, and professional work. OpenAI products currently reach more than one billion weekly active users and 2.5 million businesses across platforms including ChatGPT, ChatGPT Work, Codex, and API applications. In studies of people on individual ChatGPT plans, daily message volume was roughly 50 percent higher six months after signup than in the first month. On the technical side, GPT-5.6 Sol helped improve production serving software, reducing end-to-end serving costs by 20 percent and increasing token-generation efficiency by more than 15 percent. Jalapeño, OpenAI's first custom inference chip, extends that work into hardware. In InferenceX tests across three public models using rated chip power to normalize comparisons, Jalapeño delivered 1.5 to 1.9 times as much peak token throughput per watt as the commercial systems tested, with end-to-end latency 1.7 to 3.6 times lower. OpenAI plans to begin deploying the custom chip by the end of the year alongside accelerators from NVIDIA, AMD, and other partners. Within OpenAI's own research organization, teams now leverage agents to resolve infrastructure problems that once required specialist support, and the research organization uses 3.1 agent-workdays of effort for every workday of human labor.
+
+═══ 02b_TRIMMED ═══
+
+OpenAI has introduced GPT-6 Astra, which the company describes as the world’s most intelligent and aligned model, alongside details on its infrastructure and expanding product reach. The new model delivers state-of-the-art performance in computer use, browsing, software engineering, cybersecurity, science, and professional work. OpenAI products currently reach more than one billion weekly active users and 2.5 million businesses across platforms including ChatGPT, ChatGPT Work, Codex, and API applications. In studies of people on individual ChatGPT plans, daily message volume was roughly 50 percent higher six months after signup than in the first month. On the technical side, GPT-5.6 Sol helped improve production serving software, reducing end-to-end serving costs by 20 percent and increasing token-generation efficiency by more than 15 percent. Jalapeño, OpenAI's first custom inference chip, extends that work into hardware. In InferenceX tests across three public models using rated chip power to normalize comparisons, Jalapeño delivered 1.5 to 1.9 times as much peak token throughput per watt as the commercial systems tested, with end-to-end latency 1.7 to 3.6 times lower. OpenAI plans to begin deploying the custom chip by the end of the year alongside accelerators from NVIDIA, AMD, and other partners.
+
+═══ 03_COVERAGE_1 ═══
+
+80% covered (4/5). Missing: OpenAI's research organization now utilizes 3.1 agent-workdays of effort for every workday of human labor.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+OpenAI has introduced GPT-6 Astra, which the company describes as the world’s most intelligent and aligned model, alongside details on its infrastructure and expanding product reach. The new model delivers state-of-the-art performance in computer use, browsing, software engineering, cybersecurity, science, and professional work. OpenAI products currently reach more than one billion weekly active users and 2.5 million businesses across platforms including ChatGPT, ChatGPT Work, Codex, and API applications. In studies of people on individual ChatGPT plans, daily message volume was roughly 50 percent higher six months after signup than in the first month. Within its own operations, OpenAI's research organization now utilizes 3.1 agent-workdays of effort for every workday of human labor. On the technical side, GPT-5.6 Sol helped improve production serving software, reducing end-to-end serving costs by 20 percent and increasing token-generation efficiency by more than 15 percent. Jalapeño, OpenAI's first custom inference chip, extends that work into hardware. In InferenceX tests across three public models using rated chip power to normalize comparisons, Jalapeño delivered 1.5 to 1.9 times as much peak token throughput per watt as the commercial systems tested, with end-to-end latency 1.7 to 3.6 times lower. OpenAI plans to begin deploying the custom chip by the end of the year alongside accelerators from NVIDIA, AMD, and other partners.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Open. A. I. has introduced G. P. T.-six Astra. The company calls it the world is most intelligent and aligned model. They also shared details on their infrastructure and expanding product reach. The new model delivers top performance in computer use and browsing. It excels in software engineering and cybersecurity and science and professional work.
+
+Open. A. I. products reach more than one billion weekly active users. They also serve two point five million businesses across platforms. These include Chat. G. P. T. and Chat. G. P. T. Work and Codex and A. P. I. applications. 
+
+Studies of people on individual Chat. G. P. T. plans show a change in usage. Daily message volume was roughly fifty percent higher six months after signup than in the first month. 
+
+Within its own operations the research organization uses machines heavily. It utilizes three point one agent-workdays of effort for every workday of human labor. 
+
+A previous model called G. P. T.-five point six Sol helped improve production serving software. It cut end-to-end serving costs by twenty percent. It also boosted token-generation efficiency by more than fifteen percent. 
+
+The company built its first custom inference chip named , Jalapeño. The new chip extends that work into hardware. 
+
+Tests on InferenceX compared three public models using rated chip power. , Jalapeño delivered one point five to one point nine times as much peak token throughput per watt as commercial systems. Its end-to-end latency was one point seven to three point six times lower. 
+
+Open. A. I. plans to begin deploying the custom chip by the end of the year. It will work alongside accelerators from , Nvidia and , AMD and other partners.
+
+═══ 05_NORMALIZED ═══
+
+Open. A. I. has introduced G. P. T.-six Astra. The company calls it the world is most intelligent and aligned model. They also shared details on their infrastructure and expanding product reach. The new model delivers top performance in computer use and browsing. It excels in software engineering and cybersecurity and science and professional work.
+
+Open. A. I. products reach more than one billion weekly active users. They also serve two point five million businesses across platforms. These include Chat. G. P. T. and Chat. G. P. T. Work and Codex and A. P. I. applications.
+
+Studies of people on individual Chat. G. P. T. plans show a change in usage. Daily message volume was roughly fifty percent higher six months after signup than in the first month.
+
+Within its own operations the research organization uses machines heavily. It utilizes three point one agent-workdays of effort for every workday of human labor.
+
+A previous model called G. P. T.-five point six Sol helped improve production serving software. It cut end-to-end serving costs by twenty percent. It also boosted token-generation efficiency by more than fifteen percent.
+
+The company built its first custom inference chip named, Jalapeño. The new chip extends that work into hardware.
+
+Tests on InferenceX compared three public models using rated chip power., Jalapeño delivered one point five to one point nine times as much peak token throughput per watt as commercial systems. Its end-to-end latency was one point seven to three point six times lower.
+
+Open. A. I. plans to begin deploying the custom chip by the end of the year. It will work alongside accelerators from, Nvidia and, AMD and other partners.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (5/5). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: awkward punctuation, awkward punctuation
+

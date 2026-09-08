@@ -1,0 +1,74 @@
+═══ 00_KEY_POINTS ═══
+
+1. The paper Safety for Whom? Boundary-Aware Self-Distillation for Controlled LLM Safety Refusal studies narrower safety boundaries.
+2. Single-shot generation drops 19.88 percent of prompts, totaling 8,009 failed prompts, from the training set.
+3. An escalating retry strategy brings residual training failures down to 0.20 percent, leaving 40,293 harmful training prompts.
+4. Researchers include 11,955 verified surface-dangerous benign prompts across 18 semantic types to prevent false refusals.
+5. On Qwen3-8B, the escalated-coverage model raises in-distribution political refusal from 9.47 percent to 84.75 percent.
+6. Over-refusal on XSTest rises from 2.00 percent to 74.00 percent, turning the model into a blunt refusal machine.
+7. Adding benign boundary data reduces over-refusal on the comply-worthy side from 32.94 percent to 4.16 percent.
+
+═══ 01_DRAFT ═══
+
+Multiverse Computing has released a new research paper titled Safety for Whom? Boundary-Aware Self-Distillation for Controlled LLM Safety Refusal, addressing the challenge of shaping fine-grained safety boundaries in large language models rather than relying on broad topic-level refusals. Standard safety guardrails often fail in real-world deployments where a model must distinguish between harmful and benign subsets within the same topic, such as answering factual election questions while refusing requests for targeted political manipulation. Using political persuasion as a testbed, the researchers identified three major weaknesses in standard self-generation safety pipelines: a coverage gap where single-shot generation silently drops 19.88% of prompts, totaling 8,009 items; downside reactions that cause false refusals on safe prompts; and metrics that obscure boundary over-refusal. To fix the coverage gap, an escalating retry strategy reduced residual failures to 0.20%, or 79 prompts, preserving 40,293 harmful training prompts. Furthermore, incorporating 11,955 verified surface-dangerous benign prompts and held-out harmful-benign boundary pairs allowed researchers to measure both sides of the boundary. Tested on Qwen3-8B, the escalated-coverage model raised in-distribution political refusal from 9.47% to 84.75% and dropped the mean unsafe-response rate across HarmBench, StrongREJECT, and WildJailbreak from 26.26% to 0.14%. However, the baseline configuration also caused over-refusal on XSTest to surge from 2.00% to 74.00%, turning the model into a blunt refusal machine. Adding benign boundary data successfully countered this effect, reducing over-refusal on the comply-worthy side of held-out pairs from 32.94% to 4.16% while keeping genuine refusal on the harmful side high, dropping only from 91.88% to 87.72%. The findings emphasize that safety tuning cannot be assessed by harmful-refusal rates alone, as data composition must be balanced and evaluated on both sides of the intended boundary.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Multiverse Computing has released a new research paper titled Safety for Whom? Boundary-Aware Self-Distillation for Controlled LLM Safety Refusal, addressing the challenge of shaping fine-grained safety boundaries in large language models rather than relying on broad topic-level refusals. Standard safety guardrails often fail in real-world deployments where a model must distinguish between harmful and benign subsets within the same topic, such as answering factual election questions while refusing requests for targeted political manipulation. Using political persuasion as a testbed, the researchers identified three major weaknesses in standard self-generation safety pipelines: a coverage gap where single-shot generation silently drops 19.88% of prompts, totaling 8,009 items; downside reactions that cause false refusals on safe prompts; and metrics that obscure boundary over-refusal. To fix the coverage gap, an escalating retry strategy reduced residual failures to 0.20%, or 79 prompts, preserving 40,293 harmful training prompts. To address downside reactions and measure the boundary shape, the approach builds in-distribution benign data and held-out harmful-benign boundary pairs. Tested on Qwen3-8B, the escalated-coverage model raised in-distribution political refusal from 9.47% to 84.75% and dropped the mean unsafe-response rate across HarmBench, StrongREJECT, and WildJailbreak from 26.26% to 0.14%. However, the baseline configuration also caused over-refusal on XSTest to surge from 2.00% to 74.00%, turning the model into a blunt refusal machine. Adding benign boundary data successfully countered this effect, reducing over-refusal on the comply-worthy side of held-out pairs from 32.94% to 4.16% while keeping genuine refusal on the harmful side high, dropping only from 91.88% to 87.72%. The findings emphasize that safety tuning cannot be assessed by harmful-refusal rates alone, as data composition must be balanced and evaluated on both sides of the intended boundary.
+
+═══ 02b_TRIMMED ═══
+
+Multiverse Computing has released a new research paper titled Safety for Whom? Boundary-Aware Self-Distillation for Controlled LLM Safety Refusal, addressing the challenge of shaping fine-grained safety boundaries in large language models rather than relying on broad topic-level refusals. Standard safety guardrails often fail in real-world deployments where a model must distinguish between harmful and benign subsets within the same topic, such as answering factual election questions while refusing requests for targeted political manipulation. Using political persuasion as a testbed, the researchers identified three major weaknesses in standard self-generation safety pipelines: a coverage gap where single-shot generation silently drops 19.88% of prompts, totaling 8,009 items; downside reactions that cause false refusals on safe prompts; and metrics that obscure boundary over-refusal. To fix the coverage gap, an escalating retry strategy reduced residual failures to 0.20%, or 79 prompts, preserving 40,293 harmful training prompts. To address downside reactions and measure the boundary shape, the approach builds in-distribution benign data and held-out harmful-benign boundary pairs. However, the baseline configuration also caused over-refusal on XSTest to surge from 2.00% to 74.00%, turning the model into a blunt refusal machine. Adding benign boundary data successfully countered this effect, reducing over-refusal on the comply-worthy side of held-out pairs from 32.94% to 4.16% while keeping genuine refusal on the harmful side high, dropping only from 91.88% to 87.72%. The findings emphasize that safety tuning cannot be assessed by harmful-refusal rates alone, as data composition must be balanced and evaluated on both sides of the intended boundary.
+
+═══ 03_COVERAGE_1 ═══
+
+71% covered (5/7). Missing: An escalating retry strategy brings residual training failures down to 0.20 percent, leaving 40,293 harmful training prompts.; Researchers include 11,955 verified surface-dangerous benign prompts across 18 semantic types to prevent false refusals.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+Multiverse Computing has released a new research paper titled Safety for Whom? Boundary-Aware Self-Distillation for Controlled LLM Safety Refusal, addressing the challenge of shaping fine-grained safety boundaries in large language models rather than relying on broad topic-level refusals. Standard safety guardrails often fail in real-world deployments where a model must distinguish between harmful and benign subsets within the same topic, such as answering factual election questions while refusing requests for targeted political manipulation. Using political persuasion as a testbed, the researchers identified three major weaknesses in standard self-generation safety pipelines: a coverage gap where single-shot generation silently drops 19.88% of prompts, totaling 8,009 items; downside reactions that cause false refusals on safe prompts; and metrics that obscure boundary over-refusal. To fix the coverage gap, an escalating retry strategy brings residual training failures down to 0.20 percent, leaving 40,293 harmful training prompts. To address downside reactions and measure the boundary shape, the approach builds in-distribution benign data, including 11,955 verified surface-dangerous benign prompts across 18 semantic types to prevent false refusals, and held-out harmful-benign boundary pairs. However, the baseline configuration also caused over-refusal on XSTest to surge from 2.00% to 74.00%, turning the model into a blunt refusal machine. Adding benign boundary data successfully countered this effect, reducing over-refusal on the comply-worthy side of held-out pairs from 32.94% to 4.16% while keeping genuine refusal on the harmful side high, dropping only from 91.88% to 87.72%. The findings emphasize that safety tuning cannot be assessed by harmful-refusal rates alone, as data composition must be balanced and evaluated on both sides of the intended boundary.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Multiverse Computing has released a new research paper titled Safety for Whom? Boundary-Aware Self-Distillation for Controlled Large Language Model Safety Refusal. The paper addresses the challenge of shaping fine-grained safety boundaries in large language models instead of relying on broad topic level refusals. 
+
+Standard safety guardrails often fail in real world deployments. A model must distinguish between harmful and benign subsets within the same topic. For example, it should answer factual election questions while refusing requests for targeted political manipulation. 
+
+Using political persuasion as a testbed, the researchers identified three major weaknesses in standard self-generation safety pipelines. The first is a coverage gap where single shot generation silently drops nineteen point eight eight percent of prompts, totaling eight thousand and nine items. The second is downside reactions that cause false refusals on safe prompts. The third is metrics that obscure boundary over-refusal. 
+
+To fix the coverage gap, an escalating retry strategy brings residual training failures down to zero point two zero percent. This leaves forty thousand two hundred and ninety-three harmful training prompts. 
+
+To address downside reactions and measure the boundary shape, the approach builds in-distribution benign data. This includes eleven thousand nine hundred and fifty-five verified surface-dangerous benign prompts across eighteen semantic types to prevent false refusals, along with held-out harmful-benign boundary pairs. 
+
+However, the baseline configuration also caused over-refusal on X S Test to surge from two point zero zero percent to seventy-four point zero zero percent. This turned the model into a blunt refusal machine. 
+
+Adding benign boundary data successfully countered this effect. It reduced over-refusal on the comply-worthy side of held-out pairs from thirty-two point nine four percent to four point one six percent. At the same time, it kept genuine refusal on the harmful side high, dropping only from ninety-one point eight eight percent to eighty-seven point seven two percent. 
+
+The findings emphasize that safety tuning cannot be assessed by harmful-refusal rates alone. Data composition must be balanced and evaluated on both sides of the intended boundary.
+
+═══ 05_NORMALIZED ═══
+
+Multiverse Computing has released a new research paper titled Safety for Whom? Boundary-Aware Self-Distillation for Controlled Large Language Model Safety Refusal. The paper addresses the challenge of shaping fine-grained safety boundaries in large language models instead of relying on broad topic level refusals.
+
+Standard safety guardrails often fail in real world deployments. A model must distinguish between harmful and benign subsets within the same topic. For example, it should answer factual election questions while refusing requests for targeted political manipulation.
+
+Using political persuasion as a testbed, the researchers identified three major weaknesses in standard self-generation safety pipelines. The first is a coverage gap where single shot generation silently drops nineteen point eight eight percent of prompts, totaling eight thousand and nine items. The second is downside reactions that cause false refusals on safe prompts. The third is metrics that obscure boundary over-refusal.
+
+To fix the coverage gap, an escalating retry strategy brings residual training failures down to zero point two zero percent. This leaves forty thousand two hundred and ninety-three harmful training prompts.
+
+To address downside reactions and measure the boundary shape, the approach builds in-distribution benign data. This includes eleven thousand nine hundred and fifty-five verified surface-dangerous benign prompts across eighteen semantic types to prevent false refusals, along with held-out harmful-benign boundary pairs.
+
+However, the baseline configuration also caused over-refusal on X S Test to surge from two point zero zero percent to seventy-four point zero zero percent. This turned the model into a blunt refusal machine.
+
+Adding benign boundary data successfully countered this effect. It reduced over-refusal on the comply-worthy side of held-out pairs from thirty-two point nine four percent to four point one six percent. At the same time, it kept genuine refusal on the harmful side high, dropping only from ninety-one point eight eight percent to eighty-seven point seven two percent.
+
+The findings emphasize that safety tuning cannot be assessed by harmful-refusal rates alone. Data composition must be balanced and evaluated on both sides of the intended boundary.
+
+═══ 06_COVERAGE_FINAL ═══
+
+85% covered (6/7). Missing: On Qwen3-8B, the escalated-coverage model raises in-distribution political refusal from 9.47 percent to 84.75 percent.
+
+═══ 07_SANITY ═══
+
+ISSUES: X S Test
+

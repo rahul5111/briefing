@@ -1,0 +1,60 @@
+═══ 00_KEY_POINTS ═══
+
+1. Tristan Buckmaster and Levent Alpöge made three steps toward solving the Navier-Stokes equations using AI.
+2. Solving the Navier-Stokes problem will net the successful solver a $1 million Millennium Prize.
+3. Buckmaster developed the groundbreaking results with Levent Alpöge at AI company Anthropic.
+4. The findings relate to the Boussinesq approximation and the Euler equations instead of wider Navier-Stokes.
+5. This is a Deep Blue-Kasparov moment, alluding to when an IBM supercomputer beat Garry Kasparov.
+
+═══ 01_DRAFT ═══
+
+Tristan Buckmaster at New York University and Levent Alpöge at AI company Anthropic have announced three important steps toward solving the Navier-Stokes equations, one of the world's six remaining Millennium Problems carrying a one million dollar prize from the Clay Mathematics Institute. The Navier-Stokes equations model fluid flow for aircraft wings, blood flow, and space rockets, but can break down and output nonsense. 
+
+Writing in a document uploaded to his website, Buckmaster and Alpöge claim three results relating to close cousins of Navier-Stokes, specifically the Boussinesq approximation and the Euler equations, though the findings are not yet generalized to the wider Navier-Stokes problem. Two of the results have been published alongside Lean formalisation, a process that converts mathematical theory into computer code for rigorous error checking, while the third awaits a finished formalisation. The work builds on previous research by Diego Córdoba and Luis Martínez-Zoroa using substantial help from large language models from Anthropic and OpenAI. 
+
+Describing the integration of artificial intelligence, Buckmaster said, This is a Deep Blue-Kasparov moment. David Silvester at the University of Manchester noted that the work on Euler equations shows spontaneous turbulence can appear, and suggested the current findings alone might be enough for the pair to claim the Millennium prize, though expanding it to Navier-Stokes will not be trivial. Terence Tao at the University of California, Los Angeles, stated he would not be surprised if an extension could be achieved by pouring an enormous amount of compute and AI assistance at the task. Camilla Nobili at the University of Surrey expressed confidence in the approach, though she believes running the same technique on Navier-Stokes will require more than just that. Silvester added that a working result will not change practical applications because existing fluid dynamics computer models are already exceptionally good.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Tristan Buckmaster at New York University and Levent Alpöge at AI company Anthropic have announced three important steps toward solving the Navier-Stokes equations, one of the world's six remaining Millennium Problems carrying a one million dollar prize from the Clay Mathematics Institute. The Navier-Stokes equations model fluid flow for aircraft wings, blood flow, and space rockets, but can break down and output nonsense. 
+
+In a document uploaded to his website, Buckmaster announced groundbreaking results developed with Alpöge, claiming three results where two were published with Lean formalisation—converting mathematical theory into computer code for rigorous error checking—while a third awaits finished formalisation. The work builds on previous research by Diego Córdoba and Luis Martínez-Zoroa using a great deal of help from large language models from Anthropic and OpenAI. 
+
+In his announcement, Buckmaster called the integration of artificial intelligence a Deep Blue-Kasparov moment, noting AI is rapidly becoming a powerful amplifier of human mathematical effort. David Silvester at the University of Manchester noted that the work on Euler equations shows spontaneous turbulence can appear, and suggested the current findings alone might be enough for the pair to claim the Millennium prize, though expanding it to Navier-Stokes will not be trivial. Terence Tao at the University of California, Los Angeles, stated he would not be surprised if an extension could be achieved by pouring an enormous amount of compute and AI assistance at the task. Camilla Nobili at the University of Surrey expressed confidence in the approach, though she believes running the same technique on Navier-Stokes will require more than just that. Silvester added that a working result will not change practical applications because existing fluid dynamics computer models are already exceptionally good.
+
+═══ 03_COVERAGE_1 ═══
+
+80% covered (4/5). Missing: The findings relate to the Boussinesq approximation and the Euler equations instead of wider Navier-Stokes.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+Tristan Buckmaster at New York University and Levent Alpöge at AI company Anthropic have announced three important steps toward solving the Navier-Stokes equations, one of the world's six remaining Millennium Problems carrying a one million dollar prize from the Clay Mathematics Institute. The Navier-Stokes equations model fluid flow for aircraft wings, blood flow, and space rockets, but can break down and output nonsense. 
+
+In a document uploaded to his website, Buckmaster announced groundbreaking results developed with Alpöge, claiming three results where two were published with Lean formalisation—converting mathematical theory into computer code for rigorous error checking—while a third awaits finished formalisation. The findings relate to the Boussinesq approximation and the Euler equations instead of wider Navier-Stokes. The work builds on previous research by Diego Córdoba and Luis Martínez-Zoroa using a great deal of help from large language models from Anthropic and OpenAI. 
+
+In his announcement, Buckmaster called the integration of artificial intelligence a Deep Blue-Kasparov moment, noting AI is rapidly becoming a powerful amplifier of human mathematical effort. David Silvester at the University of Manchester noted that the work on Euler equations shows spontaneous turbulence can appear, and suggested the current findings alone might be enough for the pair to claim the Millennium prize, though expanding it to Navier-Stokes will not be trivial. Terence Tao at the University of California, Los Angeles, stated he would not be surprised if an extension could be achieved by pouring an enormous amount of compute and AI assistance at the task. Camilla Nobili at the University of Surrey expressed confidence in the approach, though she believes running the same technique on Navier-Stokes will require more than just that. Silvester added that a working result will not change practical applications because existing fluid dynamics computer models are already exceptionally good.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Tristan Buckmaster at New York University and Levent Alpöge at the artificial intelligence company Anthropic have announced three steps toward solving the Navier-Stokes equations. This is one of the world's six remaining Millennium Problems carrying a one million dollar prize from the Clay Mathematics Institute. The equations model fluid flow for aircraft wings, blood flow, and space rockets, but they can break down and output nonsense. 
+
+Buckmaster uploaded a document to his website announcing groundbreaking results developed with Alpöge. They claimed three results where two were published with Lean formalisation. This converts mathematical theory into computer code for error checking, while a third awaits finished formalisation. The findings relate to the Boussinesq approximation and the Euler equations instead of wider Navier-Stokes. The work builds on previous research by Diego Córdoba and Luis Martínez-Zoroa using help from large language models from Anthropic and OpenAI. 
+
+Buckmaster called the integration of artificial intelligence a Deep Blue-Kasparov moment. He noted that A. I. is rapidly becoming a powerful amplifier of human mathematical effort. David Silvester at the University of Manchester noted that the work on Euler equations shows spontaneous turbulence can appear. He suggested the current findings alone might be enough for the pair to claim the Millennium prize, though expanding it to Navier-Stokes will not be trivial. Terence Tao at the University of California, Los Angeles, stated he would not be surprised if an extension could be achieved by pouring an enormous amount of compute and A. I. assistance at the task. Camilla Nobili at the University of Surrey expressed confidence in the approach, though she believes running the same technique on Navier-Stokes will require more than just that. Silvester added that a working result will not change practical applications because existing fluid dynamics computer models are already exceptionally good.
+
+═══ 05_NORMALIZED ═══
+
+Tristan Buckmaster at New York University and Levent Alpöge at the artificial intelligence company Anthropic have announced three steps toward solving the Navier-Stokes equations. This is one of the world's six remaining Millennium Problems carrying a one million dollar prize from the Clay Mathematics Institute. The equations model fluid flow for aircraft wings, blood flow, and space rockets, but they can break down and output nonsense.
+
+Buckmaster uploaded a document to his website announcing groundbreaking results developed with Alpöge. They claimed three results where two were published with Lean formalisation. This converts mathematical theory into computer code for error checking, while a third awaits finished formalisation. The findings relate to the Boussinesq approximation and the Euler equations instead of wider Navier-Stokes. The work builds on previous research by Diego Córdoba and Luis Martínez-Zoroa using help from large language models from Anthropic and OpenAI.
+
+Buckmaster called the integration of artificial intelligence a Deep Blue-Kasparov moment. He noted that A. I. is rapidly becoming a powerful amplifier of human mathematical effort. David Silvester at the University of Manchester noted that the work on Euler equations shows spontaneous turbulence can appear. He suggested the current findings alone might be enough for the pair to claim the Millennium prize, though expanding it to Navier-Stokes will not be trivial. Terence Tao at the University of California, Los Angeles, stated he would not be surprised if an extension could be achieved by pouring an enormous amount of compute and A. I. assistance at the task. Camilla Nobili at the University of Surrey expressed confidence in the approach, though she believes running the same technique on Navier-Stokes will require more than just that. Silvester added that a working result will not change practical applications because existing fluid dynamics computer models are already exceptionally good.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (5/5). Missing: none
+
+═══ 07_SANITY ═══
+
+OK
+

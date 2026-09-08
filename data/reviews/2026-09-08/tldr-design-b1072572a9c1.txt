@@ -1,0 +1,45 @@
+═══ 00_KEY_POINTS ═══
+
+1. Google announced that its personal agent Gemini Spark can now manage your Google Photos library.
+2. Google Photos lead Shimrit Ben-Yair shared the new capabilities in a post on X on Thursday evening.
+3. The new features roll out over the next few weeks to eligible Gemini AI Pro and Ultra subscribers.
+4. The rollout is currently limited to subscribers in the United States using the English language.
+5. The integration aims to help users automate tedious tasks and manage sizable digital photo libraries.
+6. OpenAI CEO Sam Altman stated the industry has done a terrible job communicating consumer benefits.
+
+═══ 01_DRAFT ═══
+
+Google announced that its personal agent, Gemini Spark, can now manage Google Photos libraries, allowing users to execute tasks such as editing images, curating albums, automatically creating shared albums, turning concert flyer photos into calendar appointments, and running workflows. Google Photos lead Shimrit Ben-Yair shared the new capabilities in a post on X on Thursday evening, noting that they will roll out over the next few weeks to eligible Gemini AI Pro and Ultra subscribers in the U.S. in English. Google did not state if or when the feature will expand to international markets. To use Gemini Spark with Google Photos, users must first connect Google Photos to Gemini, toggle on Spark in the top corner of the Gemini app, and enter a prompt. The integration represents an attempt by Google to make consumer AI appealing by automating tedious tasks and managing large photo libraries, arriving as the broader AI industry faces criticism for struggling to communicate the technology's benefits to consumers.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Google announced that its personal agent, Gemini Spark, can now manage Google Photos libraries. Users can execute tasks like editing images and curating albums. They can also create shared albums automatically and turn concert flyer photos into calendar appointments. Users can even run complex workflows. 
+
+Google Photos lead, Shimrit Ben-Yair, shared the new capabilities in a post on X on Thursday evening. She noted that the features will roll out over the next few weeks. They are coming to eligible Gemini A. I. Pro and Ultra subscribers in the United States in English. Google did not state if or when the feature will expand to international markets. 
+
+To use Gemini Spark with Google Photos, users must first connect Google Photos to Gemini. Then they toggle on Spark in the top corner of the Gemini app and enter a prompt. 
+
+The integration represents an attempt by Google to make consumer A. I. appealing. It aims to automate tedious tasks and manage large photo libraries. The launch arrives as the broader A. I. industry faces criticism for struggling to communicate the technology benefits to consumers.
+
+═══ 05_NORMALIZED ═══
+
+Google announced that its personal agent, Gemini Spark, can now manage Google Photos libraries. Users can execute tasks like editing images and curating albums. They can also create shared albums automatically and turn concert flyer photos into calendar appointments. Users can even run complex workflows.
+
+Google Photos lead, Shimrit Ben-Yair, shared the new capabilities in a post on X on Thursday evening. She noted that the features will roll out over the next few weeks. They are coming to eligible Gemini A. I. Pro and Ultra subscribers in the United States in English. Google did not state if or when the feature will expand to international markets.
+
+To use Gemini Spark with Google Photos, users must first connect Google Photos to Gemini. Then they toggle on Spark in the top corner of the Gemini app and enter a prompt.
+
+The integration represents an attempt by Google to make consumer A. I. appealing. It aims to automate tedious tasks and manage large photo libraries. The launch arrives as the broader A. I. industry faces criticism for struggling to communicate the technology benefits to consumers.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: A. I.
+

@@ -1,0 +1,66 @@
+═══ 00_KEY_POINTS ═══
+
+1. Online maths learning platform Mathspace disclosed that a data breach affected 1,079,819 people.
+2. Attackers exploited a security vulnerability in a self-hosted installation of the Metabase internal reporting system.
+3. The unauthorized access occurred on August 10, 2026, and the data theft was confirmed on September 3, 2026.
+4. Only students, school staff, parents, and guardians located in Australia and New Zealand were impacted by the incident.
+5. Exposed data did not include academic records, passwords, authentication tokens, or direct records linking accounts to schools.
+6. Mathspace CTO Alvin Savoy stated that unauthorized parties accessed an internal reporting system and downloaded user information.
+7. Mathspace warned affected individuals to watch for suspicious account-related activity and targeted phishing using the stolen data.
+
+═══ 01_DRAFT ═══
+
+Online maths learning platform Mathspace disclosed that unknown attackers stole personal data belonging to 1,079,819 students, staff, and parents after breaching its internal reporting system. Founded in Sydney in 2010, Mathspace is used by thousands of schools across Australia, New Zealand, the United States, and the United Kingdom, though only individuals in Australia and New Zealand were impacted by this incident. 
+
+According to Mathspace CTO Alvin Savoy, threat actors gained access to the company's systems on August 10, confirmed the breach on September 3, and downloaded the data from the Australian reporting database on August 27. The attackers exploited a security vulnerability in a self-hosted installation of Metabase, an internal reporting software, which allowed them to obtain administrator access without a legitimate login. 
+
+"On 3 September 2026, we confirmed that unauthorised parties had accessed an internal reporting system used by Mathspace and downloaded information on students, their parents or guardians, and school staff. Mathspace staff records were also affected," Savoy said in a Saturday blog post. 
+
+The compromised data did not include passwords, authentication tokens, academic records, learning activities, or results. While the exposed data did not explicitly include records linking user accounts to their schools, Savoy noted that this may still be possible for schools with identifiable email domains. Mathspace warned affected individuals to watch for suspicious account-related activity, as attackers may target them using the stolen information. 
+
+This incident is part of a broader campaign involving exploited Metabase SQL injection zero-day vulnerabilities that has recently impacted other companies, including Trezor, Framework, and Tally.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (7/7). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Attackers stole personal data belonging to one million seventy-nine thousand eight hundred nineteen students, staff, and parents from the online learning platform Mathspace. The breach affected individuals in Australia and New Zealand after intruders compromised an internal reporting system. 
+
+Mathspace was founded in Sydney in twenty ten and is used by thousands of schools across multiple countries. Only users in Australia and New Zealand were impacted by this specific security incident. 
+
+Chief Technology Officer, Alvin Savoy, explained the timeline in a Saturday blog post. Threat actors gained access to company systems on August tenth. They downloaded data from the Australian reporting database on August twenty-seventh. Company officials confirmed the breach on September third, twenty twenty-six. 
+
+The attackers exploited a security vulnerability in a self-hosted installation of a software called Metabase. This flaw allowed intruders to obtain administrator access without using a legitimate login. 
+
+The compromised files did not include passwords, authentication tokens, academic records, learning activities, or results. Exposed data did not explicitly link user accounts to specific schools. However, investigators noted that attackers might still connect accounts to schools that use identifiable email domains. 
+
+Mathspace warned affected individuals to watch for suspicious account activity because criminals may target them using the stolen information. 
+
+This security breach is part of a broader cyber campaign. Attackers have recently exploited database vulnerabilities to target other companies, including Trezor, Framework, and Tally.
+
+═══ 05_NORMALIZED ═══
+
+Attackers stole personal data belonging to one million seventy-nine thousand eight hundred nineteen students, staff, and parents from the online learning platform Mathspace. The breach affected individuals in Australia and New Zealand after intruders compromised an internal reporting system.
+
+Mathspace was founded in Sydney in twenty ten and is used by thousands of schools across multiple countries. Only users in Australia and New Zealand were impacted by this specific security incident.
+
+Chief Technology Officer, Alvin Savoy, explained the timeline in a Saturday blog post. Threat actors gained access to company systems on August tenth. They downloaded data from the Australian reporting database on August twenty-seventh. Company officials confirmed the breach on September third, twenty twenty-six.
+
+The attackers exploited a security vulnerability in a self-hosted installation of a software called Metabase. This flaw allowed intruders to obtain administrator access without using a legitimate login.
+
+The compromised files did not include passwords, authentication tokens, academic records, learning activities, or results. Exposed data did not explicitly link user accounts to specific schools. However, investigators noted that attackers might still connect accounts to schools that use identifiable email domains.
+
+Mathspace warned affected individuals to watch for suspicious account activity because criminals may target them using the stolen information.
+
+This security breach is part of a broader cyber campaign. Attackers have recently exploited database vulnerabilities to target other companies, including Trezor, Framework, and Tally.
+
+═══ 06_COVERAGE_FINAL ═══
+
+85% covered (6/7). Missing: The unauthorized access occurred on August 10, 2026, and the data theft was confirmed on September 3, 2026.
+
+═══ 07_SANITY ═══
+
+OK
+
