@@ -1,0 +1,57 @@
+═══ 00_KEY_POINTS ═══
+
+1. Google Clock is rolling out a redesigned Timers tab as part of version 9.1.
+2. The update introduces new timer presets for 1, 5, 10, and 15 minutes.
+3. Google replaced the old time indicators at the top with full words for Hours, Minutes, and Seconds.
+4. A prominent green Start pill replaces the previous icon at the bottom of the screen.
+5. Multiple active timers are now displayed in a grid using shrunk down cards instead of a list.
+6. The redesign is being delivered through a server-side update for the Android app.
+
+═══ 01_DRAFT ═══
+
+Google Clock is rolling out a redesigned Timers tab on Android as part of a server-side update with version 9.1 of the app. The update introduces new presets for one, five, ten, and fifteen minutes that immediately start counting down upon being tapped. The interface also features tweaked time labels at the top, replacing lowercase letters with full words for Hours, Minutes, and Seconds, while a large green Start pill replaces the previous bottom icon and the number pad drops its circular backgrounds for a flatter look. For users managing multiple timers, the update replaces the old scrollable list with a more space-efficient grid of shrunk-down cards, while leaving the single-timer view unchanged. The pause button has been moved inside the circular countdown, and the reset button is now placed outside. Users who do not see the redesign immediately can force stop the application from their device app info settings.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Following a new app icon and a Now Playing update, Google Clock has rolled out a redesigned Timers tab. The update introduces new presets for one, five, ten, and fifteen minutes that immediately start counting down upon being tapped. The interface also features tweaked time labels at the top, replacing lowercase letters with full words for Hours, Minutes, and Seconds, while a large green Start pill replaces the previous bottom icon and the number pad drops its circular backgrounds for a flatter look. For users managing multiple timers, the update replaces the old scrollable list with a more space-efficient grid of shrunk-down cards, while leaving the single-timer view unchanged. The pause button has been moved inside the circular countdown, and the reset button is now placed outside. This Timers redesign is rolling out as part of a server-side update with version 9.1 of Google Clock, and users who are not seeing it yet can use Force stop from App info.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Google Clock has rolled out a redesigned Timers tab. This follows a new app icon and a Now Playing update.
+
+The update introduces new presets for one, five, ten, and fifteen minutes. These presets immediately start counting down upon being tapped.
+
+The interface features tweaked time labels at the top. It replaces lowercase letters with full words for Hours, Minutes, and Seconds. A large green Start pill replaces the previous bottom icon. The number pad drops its circular backgrounds for a flatter look.
+
+Users managing multiple timers get a space-efficient grid of shrunk-down cards. This replaces the old scrollable list. The single timer view remains unchanged.
+
+The pause button has been moved inside the circular countdown. The reset button is now placed outside.
+
+This Timers redesign is rolling out as part of a server-side update with version nine point one of Google Clock. Users who are not seeing it yet can use Force stop from App info.
+
+═══ 05_NORMALIZED ═══
+
+Google Clock has rolled out a redesigned Timers tab. This follows a new app icon and a Now Playing update.
+
+The update introduces new presets for one, five, ten, and fifteen minutes. These presets immediately start counting down upon being tapped.
+
+The interface features tweaked time labels at the top. It replaces lowercase letters with full words for Hours, Minutes, and Seconds. A large green Start pill replaces the previous bottom icon. The number pad drops its circular backgrounds for a flatter look.
+
+Users managing multiple timers get a space-efficient grid of shrunk-down cards. This replaces the old scrollable list. The single timer view remains unchanged.
+
+The pause button has been moved inside the circular countdown. The reset button is now placed outside.
+
+This Timers redesign is rolling out as part of a server-side update with version nine point one of Google Clock. Users who are not seeing it yet can use Force stop from App info.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+OK
+

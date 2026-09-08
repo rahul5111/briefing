@@ -1,0 +1,44 @@
+═══ 00_KEY_POINTS ═══
+
+1. German company Isar Aerospace was founded in 2018 by three university students.
+2. The two-stage Spectrum rocket reached low-Earth orbit on Saturday from a Norwegian spaceport.
+3. The launch took place at 4:12 pm EST from Andøya Spaceport inside the Arctic Circle.
+4. Spectrum became the first fully commercial launch vehicle in Europe to successfully reach orbit.
+5. Isar Aerospace is now the clear leader among European launch startups vying for market competition.
+
+═══ 01_DRAFT ═══
+
+Isar Aerospace, a company founded in 2018 by three university students in Germany, successfully launched a privately developed rocket into low Earth orbit on Saturday from a Norwegian spaceport inside the Arctic Circle. The two-stage Spectrum rocket, standing 92 feet or 28 meters tall, lifted off at 4:12 pm EST or 20:12 UTC on Saturday from Andøya Spaceport in northern Norway, where local time was 10:12 pm as the final bluish hues of daylight faded from the late summer sky. Seven minutes after liftoff, the rocket successfully reached orbit. With this achievement, the 92-foot vehicle became the first fully commercial launch vehicle in Europe to reach orbit, establishing Isar as the clear leader among several European launch startups competing to inject new momentum into Europe's stagnant launch market.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Isar Aerospace, founded in 2018 by three students at a German university, successfully launched a privately developed rocket into low-Earth orbit Saturday from a Norwegian spaceport inside the Arctic Circle. The two-stage Spectrum rocket, standing 92 feet (28 meters) tall, lifted off at 4:12 pm EST (20:12 UTC) Saturday from Andøya Spaceport in northern Norway, where it was 10:12 pm local time and the final bluish hues of daylight faded from the late summer sky. Seven minutes later, the rocket was in orbit. With Saturday's success, the vehicle became the first fully commercial launch vehicle in Europe to reach orbit, establishing Isar as the clear leader among a pack of several European launch startups vying to inject some competition into Europe's stagnant launch market.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (5/5). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+A. E. R. E. S. T. O. P. is a private rocket company. Three students at a German university founded it in twenty eighteen. They launched a rocket into low Earth orbit on Saturday. The launch happened from a Norwegian spaceport inside the Arctic Circle. The rocket is named Spectrum. It is a two stage rocket. It stands ninety-two feet or twenty-eight meters tall. 
+
+Liftoff happened at four twelve P. M. Eastern Standard Time. That was twenty twelve Coordinated Universal Time on Saturday. The launch site was Andøya Spaceport in northern Norway. The local time there was ten twelve P. M. The final bluish hues of daylight faded from the late summer sky. 
+
+Seven minutes later, the rocket reached orbit. This success makes the vehicle the first fully commercial launch vehicle in Europe to reach orbit. This establishes Isar as the clear leader. Several European launch startups are vying to inject competition into the stagnant European launch market.
+
+═══ 05_NORMALIZED ═══
+
+A. E. R. E. S. T. O. P. is a private rocket company. Three students at a German university founded it in twenty eighteen. They launched a rocket into low Earth orbit on Saturday. The launch happened from a Norwegian spaceport inside the Arctic Circle. The rocket is named Spectrum. It is a two stage rocket. It stands ninety-two feet or twenty-eight meters tall.
+
+Liftoff happened at four twelve P. M. Eastern Standard Time. That was twenty twelve Coordinated Universal Time on Saturday. The launch site was Andøya Spaceport in northern Norway. The local time there was ten twelve P. M. The final bluish hues of daylight faded from the late summer sky.
+
+Seven minutes later, the rocket reached orbit. This success makes the vehicle the first fully commercial launch vehicle in Europe to reach orbit. This establishes Isar as the clear leader. Several European launch startups are vying to inject competition into the stagnant European launch market.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (5/5). Missing: none
+
+═══ 07_SANITY ═══
+
+OK
+

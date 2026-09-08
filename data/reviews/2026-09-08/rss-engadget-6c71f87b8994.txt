@@ -1,0 +1,98 @@
+═══ 00_KEY_POINTS ═══
+
+1. Roku streaming devices feature hidden backend menus functioning as shortcuts to performance settings and metrics.
+2. Users can access these hidden menus by entering complex button combinations using a standard remote.
+3. The developer menu allows users to manage accounts, access installers, and sideload custom applications onto devices.
+4. Users can access network settings to check connections, enter bandwidth saver mode, and find addresses.
+5. The platform secret screen shows granular operational information including memory usage, battery levels, and temperatures.
+6. A specific button combination allows users to access a secret screen initiating a device factory reset.
+7. These hidden diagnostic and performance tools help users troubleshoot and alleviate technical pain points down the line.
+
+═══ 01_DRAFT ═══
+
+Roku devices contain hidden menus accessible via remote control button combinations that function as shortcuts to performance settings, diagnostics, and network tools. Eighteen years after its debut, these backend menus allow users to sideload applications, run speed tests, manage developer accounts, and troubleshoot hardware. 
+
+The developer menu allows users to access the developer installer and manage developer accounts by pressing Home three times, Up twice, Right, Left, Right, Left, and Right. 
+
+Network settings, including IP and MAC addresses and bandwidth saver mode, can be accessed by pressing Home five times, Right, Left, Right, Left, and Right. A Wireless Secret Screen for checking signal strength, glitch rates, speed tests, and network resets is reached by pressing Home five times, Up, Down, Up, Down, and Up. 
+
+Secret Screen 2, used for adjusting ad channels, image service, and screenshot output formats, is accessed by pressing Home five times, Up, Right, Down, Left, and Up. Restarting the device may be required for ad preferences to take effect. 
+
+The Platform Secret Screen displays operational information such as memory usage, remote battery levels, device temperature, and diagnostics including IPv6 settings and RF remote diagnostics. It is accessed by pressing Home five times, Fast Forward, Down, Rewind, Down, and Fast Forward. 
+
+HDMI settings for inputs, refresh rates, and resolution performance are accessed by pressing Home five times, Down, Left, Up, Up, and Up. The Channel Info Menu, used to check application versions, troubleshoot, uninstall, or reboot apps, is reached by pressing Home three times, Up twice, Left, Right, Left, Right, and Left. 
+
+Finally, a reset and update screen allowing for factory resets, software updates, and USB port testing is accessed by pressing Home five times, Fast Forward three times, and Rewind twice. Direct device reboots can be initiated by pressing Home five times, Up, Rewind twice, and Fast Forward twice.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Roku devices contain hidden menus accessible via remote control button combinations that function as shortcuts to performance settings, diagnostics, and network tools. Eighteen years after its debut, these backend menus allow users to sideload applications, run speed tests, manage developer accounts, and troubleshoot hardware. 
+
+The developer menu allows users to access the developer installer and manage developer accounts by pressing Home three times, Up twice, Right, Left, Right, Left, and Right. 
+
+Network settings, including IP and MAC addresses and bandwidth saver mode, can be accessed by pressing Home five times, Right, Left, Right, Left, and Right. A Wireless Secret Screen for checking signal strength, glitch rates, speed tests, and network resets is reached by pressing Home five times, Up, Down, Up, Down, and Up. 
+
+Secret Screen 2, used for adjusting ad channels, image service, and screenshot output formats, is accessed by pressing Home five times, Up, Right, Down, Left, and Up. Users may need to restart the device for ad preferences to change. 
+
+The Platform Secret Screen displays operational information such as memory usage, remote battery levels, device temperature, and diagnostics including IPv6 settings and RF remote diagnostics. It is accessed by pressing Home five times, Fast Forward, Down, Rewind, Down, and Fast Forward. 
+
+HDMI settings for inputs, refresh rates, and resolution performance are accessed by pressing Home five times, Down, Left, Up, Up, and Up. The Channel Info Menu, used to check application versions, troubleshoot, uninstall, or reboot apps, is reached by pressing Home three times, Up twice, Left, Right, Left, Right, and Left. 
+
+Finally, a reset and update screen allowing for factory resets, software updates, and USB port testing is reached through a specific remote combination. Direct device reboots can be initiated by pressing Home five times, Up, Rewind twice, and Fast Forward twice.
+
+═══ 02b_TRIMMED ═══
+
+Roku devices contain hidden menus accessible via remote control button combinations that function as shortcuts to performance settings, diagnostics, and network tools. Eighteen years after its debut, these backend menus allow users to sideload applications, run speed tests, manage developer accounts, and troubleshoot hardware. The developer menu allows users to access the developer installer and manage developer accounts by pressing Home three times, Up twice, Right, Left, Right, Left, and Right. Network settings, including IP and MAC addresses and bandwidth saver mode, can be accessed by pressing Home five times, Right, Left, Right, Left, and Right. A Wireless Secret Screen for checking signal strength, glitch rates, speed tests, and network resets is reached by pressing Home five times, Up, Down, Up, Down, and Up. Secret Screen 2, used for adjusting ad channels, image service, and screenshot output formats, is accessed by pressing Home five times, Up, Right, Down, Left, and Up. Users may need to restart the device for ad preferences to change. The Platform Secret Screen displays operational information such as memory usage, remote battery levels, device temperature, and diagnostics including IPv6 settings and RF remote diagnostics. It is accessed by pressing Home five times, Fast Forward, Down, Rewind, Down, and Fast Forward. HDMI settings for inputs, refresh rates, and resolution performance are accessed by pressing Home five times, Down, Left, Up, Up, and Up. The Channel Info Menu, used to check application versions, troubleshoot, uninstall, or reboot apps, is reached by pressing Home three times, Up twice, Left, Right, Left, Right, and Left. Direct device reboots can be initiated by pressing Home five times, Up, Rewind twice, and Fast Forward twice.
+
+═══ 03_COVERAGE_1 ═══
+
+85% covered (6/7). Missing: A specific button combination allows users to access a secret screen initiating a device factory reset.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Roku devices contain hidden menus that you can reach with remote control button combinations. These menus act as shortcuts to performance settings and diagnostics and network tools. Eighteen years after the debut of the device, these backend menus let users sideload applications and run speed tests and manage developer accounts and troubleshoot hardware. 
+
+You can reach the developer menu to access the developer installer and manage developer accounts. Press Home three times and Up twice and Right and Left and Right and Left and Right. 
+
+You can access network settings including I. P. and M. A. C. addresses and bandwidth saver mode. Press Home five times and Right and Left and Right and Left and Right. 
+
+A wireless secret screen lets you check signal strength and glitch rates and speed tests and network resets. Reach this screen by pressing Home five times and Up and Down and Up and Down and Up. 
+
+Secret screen two is used for adjusting ad channels and image service and screenshot output formats. Access this screen by pressing Home five times and Up and Right and Down and Left and Up. Users may need to restart the device for ad preferences to change. 
+
+The platform secret screen displays operational information such as memory usage and remote battery levels and device temperature. It also shows diagnostics including I. P. v. six settings and R. F. remote diagnostics. Access it by pressing Home five times and Fast Forward and Down and Rewind and Down and Fast Forward. 
+
+You can reach H. D. M. I. settings for inputs and refresh rates and resolution performance. Press Home five times and Down and Left and Up and Up and Up. 
+
+The channel info menu is used to check application versions and troubleshoot and uninstall or reboot apps. Reach this menu by pressing Home three times and Up twice and Left and Right and Left and Right and Left. 
+
+You can initiate direct device reboots by pressing Home five times and Up and Rewind twice and Fast Forward twice.
+
+═══ 05_NORMALIZED ═══
+
+Roku devices contain hidden menus that you can reach with remote control button combinations. These menus act as shortcuts to performance settings and diagnostics and network tools. Eighteen years after the debut of the device, these backend menus let users sideload applications and run speed tests and manage developer accounts and troubleshoot hardware.
+
+You can reach the developer menu to access the developer installer and manage developer accounts. Press Home three times and Up twice and Right and Left and Right and Left and Right.
+
+You can access network settings including I. P. and M. A. C. addresses and bandwidth saver mode. Press Home five times and Right and Left and Right and Left and Right.
+
+A wireless secret screen lets you check signal strength and glitch rates and speed tests and network resets. Reach this screen by pressing Home five times and Up and Down and Up and Down and Up.
+
+Secret screen two is used for adjusting ad channels and image service and screenshot output formats. Access this screen by pressing Home five times and Up and Right and Down and Left and Up. Users may need to restart the device for ad preferences to change.
+
+The platform secret screen displays operational information such as memory usage and remote battery levels and device temperature. It also shows diagnostics including I. P. v. six settings and R. F. remote diagnostics. Access it by pressing Home five times and Fast Forward and Down and Rewind and Down and Fast Forward.
+
+You can reach H. D. M. I. settings for inputs and refresh rates and resolution performance. Press Home five times and Down and Left and Up and Up and Up.
+
+The channel info menu is used to check application versions and troubleshoot and uninstall or reboot apps. Reach this menu by pressing Home three times and Up twice and Left and Right and Left and Right and Left.
+
+You can initiate direct device reboots by pressing Home five times and Up and Rewind twice and Fast Forward twice.
+
+═══ 06_COVERAGE_FINAL ═══
+
+85% covered (6/7). Missing: A specific button combination allows users to access a secret screen initiating a device factory reset.
+
+═══ 07_SANITY ═══
+
+ISSUES: I. P., M. A. C., I. P. v. six, R. F., H. D. M. I.
+

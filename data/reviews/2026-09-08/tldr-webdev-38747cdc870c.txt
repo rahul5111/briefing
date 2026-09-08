@@ -1,0 +1,56 @@
+═══ 00_KEY_POINTS ═══
+
+1. The greatest cost of artificial intelligence is the erosion of trust among open software practitioners.
+2. Makers of open source software now face suspicion and anger regarding whether artificial intelligence was used.
+3. Developers reluctantly adopt artificial intelligence because the industry has decided that this is how work is done.
+4. Software developers have limited power to protect themselves when the jobs market is shrinking.
+5. Practicing open software now requires great caution because developers face shunning or termination over artificial intelligence views.
+
+═══ 01_DRAFT ═══
+
+Creating open source software has transformed from a connective, community-driven act into a practice fraught with suspicion and hostility due to the integration of artificial intelligence and corporate-mandated development tools. Software developers increasingly face intense scrutiny from peers who demand to know whether free software was built using machinery like AI, sometimes resulting in aggressive attacks against givers. This dynamic is fracturing the software developer community and upending its gift economy into what is described as a cold civil war beset with spy games. Developers are trapped between economic realities that strip away their autonomy, forcing them to adopt industry-standard tools they might otherwise reject, and a community culture where admitting to AI use can lead to social shunning, while speaking against it can result in termination by employers. This erosion of trust is causing cherished peers to leave the technology sector entirely to preserve their sanity.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Making open source software has transformed from a connective, community-driven act into a practice fraught with suspicion and hostility as the gift of openness is met with scrutiny over whether it was made with machinery like AI. Software developers increasingly face intense questioning from recipients who demand to know how free software came to be, sometimes resulting in angry attacks against givers. This dynamic is fracturing the software developer community and upending its gift economy into what is described as a cold civil war beset with spy games. Developers are trapped between economic realities that strip away their autonomy, forcing them to adopt industry-mandated tools they might otherwise reject, and a community culture where admitting to AI use can lead to social shunning, while speaking against it can result in termination by employers. This erosion of trust is causing cherished peers to leave the technology sector entirely to preserve their sanity.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (5/5). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Open source software creation is now fraught with suspicion and hostility. The gift of openness is met with intense scrutiny over machine generation using artificial intelligence, or A. I. 
+
+Developers face harsh questioning from recipients demanding to know how free software came to be. This sometimes results in angry attacks against the givers. 
+
+This dynamic is fracturing the software developer community. It upends the traditional gift economy into a cold civil war beset with spy games. 
+
+Developers are trapped between brutal economic realities that strip away their autonomy. These forces compel them to adopt industry mandated tools they would otherwise reject. 
+
+At the same time, community culture creates impossible social traps. Admitting to A. I. use can lead to social shunning. Speaking against A. I. can result in termination by employers. 
+
+This severe erosion of trust has heavy human costs. Cherished peers are leaving the technology sector entirely just to preserve their sanity.
+
+═══ 05_NORMALIZED ═══
+
+Open source software creation is now fraught with suspicion and hostility. The gift of openness is met with intense scrutiny over machine generation using artificial intelligence, or A. I.
+
+Developers face harsh questioning from recipients demanding to know how free software came to be. This sometimes results in angry attacks against the givers.
+
+This dynamic is fracturing the software developer community. It upends the traditional gift economy into a cold civil war beset with spy games.
+
+Developers are trapped between brutal economic realities that strip away their autonomy. These forces compel them to adopt industry mandated tools they would otherwise reject.
+
+At the same time, community culture creates impossible social traps. Admitting to A. I. use can lead to social shunning. Speaking against A. I. can result in termination by employers.
+
+This severe erosion of trust has heavy human costs. Cherished peers are leaving the technology sector entirely just to preserve their sanity.
+
+═══ 06_COVERAGE_FINAL ═══
+
+80% covered (4/5). Missing: The greatest cost of artificial intelligence is the erosion of trust among open software practitioners.
+
+═══ 07_SANITY ═══
+
+ISSUES: unspoken/unspaced acronyms
+

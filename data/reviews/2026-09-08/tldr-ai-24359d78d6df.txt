@@ -1,0 +1,70 @@
+═══ 00_KEY_POINTS ═══
+
+1. Two MMLU accuracy scores of 0.781 and 0.79 appear for two builds of the acme-gpt-7b model family.
+2. Claim A reports build 42 with accuracy 0.781 and frame hash sha256:c7b88426f2676f3653db0fad0bdbd689318f16d589d14a315bdd4cc454bca1ab.
+3. Claim B reports build 44 with accuracy 0.79 and frame hash sha256:c93a9c55422ddbd2158a5336caa3a251641cf3937f451fb13387a5f54f0d998e.
+4. The two evaluation frames differ in dataset splits, prompt implementations, graders, and runners despite sharing the mmlu label.
+5. For the requested score-delta query comparing the two records, the verifier returns incomparable.
+6. Comparability is a property of the reference to which results are traceable, rather than a property of the number itself.
+7. The shared mmlu label identifies a dataset family rather than a full and consistent measurement procedure.
+
+═══ 01_DRAFT ═══
+
+Two evaluation records in the APL AI-Eval profile report different MMLU accuracy scores for two builds of the same model family, acme-gpt-7b. Build 42 achieves 0.781, while build 44 achieves 0.79, resulting in an arithmetic difference of plus 0.009. The claims share identical provider, model family, metric identifier, unit, and benchmark name, but declare different runners, graders, and dataset splits. When a score-delta query is run over this pair, the verifier returns incomparable. 
+
+The shared MMLU label identifies a dataset family rather than a full measurement procedure. Underneath the shared name, several variables diverge. The MMLU paper defines 15,908 questions across development, validation, and test sets, while the Hugging Face dataset cais/mmlu config all reports different counts, and the archive linked from the Hendrycks test README returned an HTTP 403 error in September 2026. Frame A scores on the dev set of 285 questions, whereas Frame B scores on a private test-lite slice. 
+
+Implementation and harness differences further separate the scores. A June 2023 Hugging Face Open LLM Leaderboard post showed that three different harnesses running the same 5-shot MMLU dataset produced differing scores for llama-65b and falcon-40b, moving rank order between models because of how answers are processed. Prompt formatting and answer position also shift accuracy significantly, with Zheng et al. reporting that moving correct answers to position D lowered gpt-3.5-turbo by 6.3 points, while moving them to position A lifted llama-30b by 15.2 points. 
+
+The records also use different graders, with Frame A employing exact-match-v1 and Frame B using llm-judge-v3. According to Zheng et al., judge models exhibit strong position bias, with only GPT-4 staying consistent in more than 60 percent of cases. Furthermore, runner environment variables such as internet access can alter outcomes, as seen in CAISI finding it had run SWE-bench Verified with internet access while others ran offline. A 2026 survey of 101,843 published results found that 96.5 percent lack at least one field from its minimal reproducibility sub-schema. 
+
+Metrologically, comparability requires traceability to a common reference. Under the AI-Eval profile, a benchmark name alone does not meet the exact aspect, scope, and procedure constraints required for a bridge to apply, making the two scores incomparable.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Two evaluation records in the APL AI-Eval profile report different MMLU accuracy scores for two builds of the same model family, acme-gpt-7b. Build 42 achieves 0.781, while build 44 achieves 0.79, resulting in an arithmetic difference of plus 0.009. The claims share identical provider, model family, metric identifier, unit, and benchmark name, but declare different runners, graders, and dataset splits. When a score-delta query is run over this pair, the verifier returns incomparable. 
+
+The shared MMLU label identifies a dataset family rather than a full measurement procedure. The MMLU paper defines 15,908 questions across development, validation, and test sets, while the Hugging Face dataset cais/mmlu config all reports different counts, and the archive linked from the Hendrycks test README returned an HTTP 403 error in September 2026. Frame A scores on the dev set of 285 questions, whereas Frame B scores on a private test-lite slice. 
+
+Implementation and harness differences further separate the scores. A June 2023 Hugging Face post on the Open LLM Leaderboard concluded that three harnesses running the same dataset, all 5-shot, produced differing results for llama-65b and falcon-40b that were not comparable despite the shared MMLU label, with rank order moving between models because the original code compares answer letter probabilities while HELM and the Eleuther harness generate next-token output or score the full answer sequence. Prompt formatting and answer position also shift accuracy, with Anthropic reporting that formatting alone moves MMLU accuracy by about 5%, and Zheng et al. reporting that moving correct answers to position D lowered gpt-3.5-turbo from 67.2 to 60.9, while moving them to A lifted llama-30b to 68.2. 
+
+The records also use different graders, with Frame A employing exact-match-v1 and Frame B using llm-judge-v3. According to Zheng et al., judge models exhibit strong position bias, with only GPT-4 staying consistent in more than 60 percent of cases. A 2026 survey of 101,843 published results found that 96.5 percent lack at least one field from its minimal reproducibility sub-schema. 
+
+Metrologically, comparability requires traceability to a common reference. Under the AI-Eval profile, a benchmark name alone does not meet the exact aspect, scope, and procedure constraints required for a bridge to apply, making the two scores incomparable.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (7/7). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Two evaluation records in the A. P. L. A. I. dash Eval profile report different M. M. L. U. accuracy scores for two builds of the same model family, acme dash gpt dash seven b. Build forty-two achieves zero point seven eight one, while build forty-four achieves zero point seven nine, resulting in an arithmetic difference of plus zero point zero zero nine. The claims share identical provider, model family, metric identifier, unit, and benchmark name, but declare different runners, graders, and dataset splits. When a score delta query is run over this pair, the verifier returns incomparable. 
+
+The shared M. M. L. U. label identifies a dataset family rather than a full measurement procedure. The M. M. L. U. paper defines fifteen thousand nine hundred eight questions across development, validation, and test sets, while the Hugging Face dataset cais slash mmlu config all reports different counts, and the archive linked from the Hendrycks test R. E. A. D. M. E. returned an H. T. T. P. four zero three error in September twenty twenty-six. Frame A scores on the dev set of two hundred eighty-five questions, whereas Frame B scores on a private test lite slice. 
+
+Implementation and harness differences further separate the scores. A June twenty twenty-three Hugging Face post on the Open L. L. M. Leaderboard concluded that three harnesses running the same dataset, all five shot, produced differing results for llama dash sixty-five b and falcon dash forty b that were not comparable despite the shared M. M. L. U. label, with rank order moving between models because the original code compares answer letter probabilities while H. E. L. M. and the Eleuther harness generate next token output or score the full answer sequence. Prompt formatting and answer position also shift accuracy, with Anthropic reporting that formatting alone moves M. M. L. U. accuracy by about five percent, and Zheng et al. reporting that moving correct answers to position D lowered gpt dash three point five dash turbo from sixty-seven point two to sixty point nine, while moving them to A lifted llama dash thirty b to sixty-eight point two. 
+
+The records also use different graders, with Frame A employing exact match v one and Frame B using l. l. m. dash judge v three. According to Zheng et al., judge models exhibit strong position bias, with only G. P. T. dash four staying consistent in more than sixty percent of cases. A twenty twenty-six survey of one hundred one thousand eight hundred forty-three published results found that ninety-six point five percent lack at least one field from its minimal reproducibility sub schema. 
+
+Metrologically, comparability requires traceability to a common reference. Under the A. I. dash Eval profile, a benchmark name alone does not meet the exact aspect, scope, and procedure constraints required for a bridge to apply, making the two scores incomparable.
+
+═══ 05_NORMALIZED ═══
+
+Two evaluation records in the A. P. L. A. I. dash Eval profile report different M. M. L. U. accuracy scores for two builds of the same model family, acme dash gpt dash seven b. Build forty-two achieves zero point seven eight one, while build forty-four achieves zero point seven nine, resulting in an arithmetic difference of plus zero point zero zero nine. The claims share identical provider, model family, metric identifier, unit, and benchmark name, but declare different runners, graders, and dataset splits. When a score delta query is run over this pair, the verifier returns incomparable.
+
+The shared M. M. L. U. label identifies a dataset family rather than a full measurement procedure. The M. M. L. U. paper defines fifteen thousand nine hundred eight questions across development, validation, and test sets, while the Hugging Face dataset cais slash mmlu config all reports different counts, and the archive linked from the Hendrycks test R. E. A. D. M. E. returned an H. T. T. P. four zero three error in September twenty twenty-six. Frame A scores on the dev set of two hundred eighty-five questions, whereas Frame B scores on a private test lite slice.
+
+Implementation and harness differences further separate the scores. A June twenty twenty-three Hugging Face post on the Open L. L. M. Leaderboard concluded that three harnesses running the same dataset, all five shot, produced differing results for llama dash sixty-five b and falcon dash forty b that were not comparable despite the shared M. M. L. U. label, with rank order moving between models because the original code compares answer letter probabilities while H. E. L. M. and the Eleuther harness generate next token output or score the full answer sequence. Prompt formatting and answer position also shift accuracy, with Anthropic reporting that formatting alone moves M. M. L. U. accuracy by about five percent, and Zheng et al. reporting that moving correct answers to position D lowered gpt dash three point five dash turbo from sixty-seven point two to sixty point nine, while moving them to A lifted llama dash thirty b to sixty-eight point two.
+
+The records also use different graders, with Frame A employing exact match v one and Frame B using l. l. m. dash judge v three. According to Zheng et al., judge models exhibit strong position bias, with only G. P. T. dash four staying consistent in more than sixty percent of cases. A twenty twenty-six survey of one hundred one thousand eight hundred forty-three published results found that ninety-six point five percent lack at least one field from its minimal reproducibility sub schema.
+
+Metrologically, comparability requires traceability to a common reference. Under the A. I. dash Eval profile, a benchmark name alone does not meet the exact aspect, scope, and procedure constraints required for a bridge to apply, making the two scores incomparable.
+
+═══ 06_COVERAGE_FINAL ═══
+
+85% covered (6/7). Missing: Comparability is a property of the reference to which results are traceable, rather than a property of the number itself.
+
+═══ 07_SANITY ═══
+
+ISSUES: dash, dash, dash, dash, dash, dash, slash, R. E. A. D. M. E., H. T. T. P., dash, dash, dash, dash, dash, L. L. M., dash, dash, dash, dash, dash, dash, dash, dash, dash
+

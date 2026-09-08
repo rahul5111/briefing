@@ -1,0 +1,81 @@
+═══ 00_KEY_POINTS ═══
+
+1. Copperhead is an open-source AI agent that designs, documents, and verifies printed circuit boards.
+2. The tool executes eight sequential agent stages from a written brief to produce verified hardware designs.
+3. An inconsistent hardware design discovered at bring-up typically costs between 5,000 and 50,000 dollars.
+4. A hardware design inconsistency also causes delays of six to eight weeks in respinning the board.
+5. The Cloud and Team tiers of Copperhead cost 49 dollars per user per month.
+6. Copperhead prevents hardware drift by keeping schematics, bills of materials, and documents strictly synchronized.
+
+═══ 01_DRAFT ═══
+
+A new open-source AI agent called Copperhead has been launched to design, document, and verify printed circuit boards using KiCad files and git repositories. 
+
+The tool runs a pipeline across eight sequential stages, moving from an initial written brief through specifications, architecture, parts selection, schematic design, layout, output generation, firmware, and a development plan. Each stage acts as a gated agent run that must leave verified artifacts on disk before the next can begin, and every hop requires electrical rules checks and design rules checks to be clean in KiCad. 
+
+Copperhead is designed to prevent documentation and design drift, which occurs when a hardware change falls out of sync across a schematic, bill of materials, and power budgets. According to the project details, discovering these inconsistencies late during hardware bring-up typically results in a respin cost of five thousand to fifty thousand dollars and a delay of six to eight weeks. 
+
+The software utilizes an open-core business model. The command-line interface is free to use locally with a user-brought Claude or GPT-5 API key, working on local machines without metering or vendor lock-in. Paid tiers include a cloud option priced at forty-nine dollars per user per month that adds hosted runs, a web viewer, and export tools. A team tier matches the cloud pricing to provide governance features and a continuous integration bot, while a custom enterprise tier offers self-hosted deployments, an audit trail, compliance support, and Altium compatibility.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+A new open-source AI agent called Copperhead has been launched to design, document, and verify printed circuit boards using KiCad files and git repositories. 
+
+The tool runs a pipeline across eight sequential stages, moving from an initial written brief through specifications, architecture, parts selection, schematic design, layout, output generation, firmware, and a development plan. Each stage acts as a gated agent run that must leave verified artifacts on disk before the next can begin, and every hop requires electrical rules checks and design rules checks to be clean in KiCad. 
+
+Copperhead is designed to prevent documentation and design drift, which occurs when a hardware change falls out of sync across a schematic, bill of materials, and power budgets. According to the project details, discovering these inconsistencies late during hardware bring-up typically results in a respin cost of five thousand to fifty thousand dollars and a delay of six to eight weeks. 
+
+The software utilizes an open-core business model. The command-line interface is free to use locally with a user-brought Claude or GPT-5 API key, working on local machines without metering or vendor lock-in. Paid options include cloud and team tiers priced at forty-nine dollars per user per month, providing hosted runs, a web viewer, export tools, governance features, and a continuous integration bot. An enterprise tier offers custom annual pricing for self-hosted deployments, an audit trail, compliance support, and Altium compatibility.
+
+═══ 02b_TRIMMED ═══
+
+A new open-source AI agent called Copperhead has been launched to design, document, and verify printed circuit boards using KiCad files and git repositories. The tool runs a pipeline across eight sequential stages, moving from an initial written brief through specifications, architecture, parts selection, schematic design, layout, output generation, firmware, and a development plan. Each stage acts as a gated agent run that must leave verified artifacts on disk before the next can begin, and every hop requires electrical rules checks and design rules checks to be clean in KiCad. Copperhead is designed to prevent documentation and design drift, which occurs when a hardware change falls out of sync across a schematic, bill of materials, and power budgets. According to the project details, discovering these inconsistencies late during hardware bring-up typically results in a respin cost of five thousand to fifty thousand dollars and a delay of six to eight weeks. The software utilizes an open-core business model. The command-line interface is free to use locally with a user-brought Claude or GPT-5 API key, working on local machines without metering or vendor lock-in. An enterprise tier offers custom annual pricing for self-hosted deployments, an audit trail, compliance support, and Altium compatibility.
+
+═══ 03_COVERAGE_1 ═══
+
+83% covered (5/6). Missing: The Cloud and Team tiers of Copperhead cost 49 dollars per user per month.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+A new open-source AI agent called Copperhead has been launched to design, document, and verify printed circuit boards using KiCad files and git repositories. The tool runs a pipeline across eight sequential stages, moving from an initial written brief through specifications, architecture, parts selection, schematic design, layout, output generation, firmware, and a development plan. Each stage acts as a gated agent run that must leave verified artifacts on disk before the next can begin, and every hop requires electrical rules checks and design rules checks to be clean in KiCad. Copperhead is designed to prevent documentation and design drift, which occurs when a hardware change falls out of sync across a schematic, bill of materials, and power budgets. According to the project details, discovering these inconsistencies late during hardware bring-up typically results in a respin cost of five thousand to fifty thousand dollars and a delay of six to eight weeks. The software utilizes an open-core business model. The command-line interface is free to use locally with a user-brought Claude or GPT-5 API key, working on local machines without metering or vendor lock-in. The Cloud and Team tiers of Copperhead cost 49 dollars per user per month. An enterprise tier offers custom annual pricing for self-hosted deployments, an audit trail, compliance support, and Altium compatibility.
+
+═══ 04_AUDIO_REWRITE ═══
+
+A new open-source A. I. agent called Copperhead has been launched. It designs, documents, and verifies printed circuit boards using K. I. Cad files and git repositories. 
+
+The tool runs a pipeline across eight sequential stages. It moves from an initial written brief through specifications, architecture, parts selection, schematic design, layout, output generation, firmware, and a development plan. 
+
+Each stage acts as a gated agent run. It must leave verified artifacts on disk before the next stage can begin. Every hop requires electrical rules checks and design rules checks to be clean in K. I. Cad. 
+
+Copperhead is designed to prevent documentation and design drift. This occurs when a hardware change falls out of sync across a schematic, bill of materials, and power budgets. 
+
+Discovering these inconsistencies late during hardware bring-up typically results in high costs. The respin cost ranges from five thousand to fifty thousand dollars. It also causes a delay of six to eight weeks. 
+
+The software utilizes an open-core business model. The command-line interface is free to use locally. Users bring their own Claude or G. P. T. dash five A. I. key. It works on local machines without metering or vendor lock-in. 
+
+The Cloud and Team tiers of Copperhead cost forty-nine dollars per user per month. An enterprise tier offers custom annual pricing. This tier includes self-hosted deployments, an audit trail, compliance support, and Altium compatibility.
+
+═══ 05_NORMALIZED ═══
+
+A new open-source A. I. agent called Copperhead has been launched. It designs, documents, and verifies printed circuit boards using K. I. Cad files and git repositories.
+
+The tool runs a pipeline across eight sequential stages. It moves from an initial written brief through specifications, architecture, parts selection, schematic design, layout, output generation, firmware, and a development plan.
+
+Each stage acts as a gated agent run. It must leave verified artifacts on disk before the next stage can begin. Every hop requires electrical rules checks and design rules checks to be clean in K. I. Cad.
+
+Copperhead is designed to prevent documentation and design drift. This occurs when a hardware change falls out of sync across a schematic, bill of materials, and power budgets.
+
+Discovering these inconsistencies late during hardware bring-up typically results in high costs. The respin cost ranges from five thousand to fifty thousand dollars. It also causes a delay of six to eight weeks.
+
+The software utilizes an open-core business model. The command-line interface is free to use locally. Users bring their own Claude or G. P. T. dash five A. I. key. It works on local machines without metering or vendor lock-in.
+
+The Cloud and Team tiers of Copperhead cost forty-nine dollars per user per month. An enterprise tier offers custom annual pricing. This tier includes self-hosted deployments, an audit trail, compliance support, and Altium compatibility.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: G. P. T. dash five
+

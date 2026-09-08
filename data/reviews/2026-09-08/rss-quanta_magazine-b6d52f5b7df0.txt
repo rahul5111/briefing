@@ -1,0 +1,58 @@
+═══ 00_KEY_POINTS ═══
+
+1. On Tuesday, September 8, OpenAI mathematicians announced that 10,000 autonomous AI agents resolved the Navier-Stokes equations.
+2. The Navier-Stokes equations are one of six remaining Millennium Prize Problems, each carrying a one million dollar prize.
+3. Tristan Buckmaster and Levent Alpöge independently resolved related problems using AI models from OpenAI and Anthropic.
+4. Both AI-enabled teams relied heavily on foundational strategy work by Diego Córdoba and Luis Martínez-Zoroa.
+5. The OpenAI proof was formally checked in the programming language Lean to give mathematicians confidence.
+6. This breakthrough matters because it may mark a fundamental turning point in how mathematicians tackle difficult problems.
+7. Charles Fefferman stated, I was thrilled that the problem was solved, and credited researchers Córdoba and Martínez-Zoroa.
+
+═══ 01_DRAFT ═══
+
+On Tuesday, September 8, mathematicians at OpenAI announced that 10,000 autonomous AI agents running on an unreleased advanced model found a singularity in the three-dimensional Navier-Stokes equations, resolving one of the six remaining Millennium Prize Problems established in 2000 by the Clay Mathematics Institute with a $1 million award. The proof was formally verified using the Lean programming language. 
+
+The breakthrough builds upon foundational strategies developed by Diego Córdoba of the Institute for Mathematical Sciences in Madrid and Luis Martínez-Zoroa of CUNEF University, who pioneered non-computer-based analytic techniques involving infinite cascades of layers. 
+
+The announcement followed a competing claim made 12 hours earlier by Tristan Buckmaster of New York University and Levent Alpöge of Anthropic, who stated they used various AI models to resolve related problems, resulting in a Lean-verified proof for the Euler equations by August 22. Buckmaster noted that the first language model-generated proof he received was extremely difficult to read, writing that one of their upcoming papers "can only be described as AI slop." 
+
+OpenAI reported that nearly 100 agents worked for about 50 hours on an Euler disproof, followed by roughly 10,000 agents working for 88 hours to produce the Navier-Stokes proof, with another 17 hours required for formalization. Sébastien Bubeck of OpenAI estimated the computational cost at several million dollars. While OpenAI conceded priority for the 3D Euler result to Buckmaster and Alpöge, Buckmaster suggested the OpenAI researchers or their agents may have accessed work he and Alpöge conducted using OpenAI's systems. 
+
+Charles Fefferman of Princeton University praised the underlying research, stating, "The heroes of the story are Córdoba and Martínez-Zoroa." Buckmaster added in his statement, "Let me make plain what I have said to colleagues in private: in view of this body of work, I believe Luis Martínez-Zoroa deserves a Fields Medal."
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (7/7). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+On Tuesday, September eighth, mathematicians at OpenAI announced a major breakthrough. Ten thousand autonomous A. I. agents running on an unreleased advanced model found a singularity in the three-dimensional Navier-Stokes equations. This resolves one of the six remaining Millennium Prize Problems. The problems were established in two thousand by the Clay Mathematics Institute with a one million dollar award. The proof was formally verified using the Lean programming language.
+
+The breakthrough builds upon foundational strategies developed by Diego Córdoba of the Institute for Mathematical Sciences in Madrid, and, Luis Martínez-Zoroa of CUNEF University. They pioneered non-computer-based analytic techniques involving infinite cascades of layers.
+
+The announcement followed a competing claim made twelve hours earlier. Tristan Buckmaster of New York University and Levent Alpöge of Anthropic stated they used various A. I. models to resolve related problems. This resulted in a Lean-verified proof for the Euler equations by August twenty-second. Buckmaster noted that the first language model-generated proof he received was extremely difficult to read. He wrote that one of their upcoming papers can only be described as A. I. slop.
+
+OpenAI reported that nearly one hundred agents worked for about fifty hours on an Euler disproof. This was followed by roughly ten thousand agents working for eighty-eight hours to produce the Navier-Stokes proof. Another seventeen hours were required for formalization. Sébastien Bubeck of OpenAI estimated the computational cost at several million dollars. While OpenAI conceded priority for the three-dimensional Euler result to Buckmaster and Alpöge, Buckmaster suggested the OpenAI researchers or their agents may have accessed work he and Alpöge conducted using OpenAI systems.
+
+Charles Fefferman of Princeton University praised the underlying research. He stated that the heroes of the story are Córdoba and Martínez-Zoroa. Buckmaster added in his statement that he wants to make plain what he has said to colleagues in private. In view of this body of work, he believes Luis Martínez-Zoroa deserves a Fields Medal.
+
+═══ 05_NORMALIZED ═══
+
+On Tuesday, September eighth, mathematicians at OpenAI announced a major breakthrough. Ten thousand autonomous A. I. agents running on an unreleased advanced model found a singularity in the three-dimensional Navier-Stokes equations. This resolves one of the six remaining Millennium Prize Problems. The problems were established in two thousand by the Clay Mathematics Institute with a one million dollar award. The proof was formally verified using the Lean programming language.
+
+The breakthrough builds upon foundational strategies developed by Diego Córdoba of the Institute for Mathematical Sciences in Madrid, and, Luis Martínez-Zoroa of CUNEF University. They pioneered non-computer-based analytic techniques involving infinite cascades of layers.
+
+The announcement followed a competing claim made twelve hours earlier. Tristan Buckmaster of New York University and Levent Alpöge of Anthropic stated they used various A. I. models to resolve related problems. This resulted in a Lean-verified proof for the Euler equations by August twenty-second. Buckmaster noted that the first language model-generated proof he received was extremely difficult to read. He wrote that one of their upcoming papers can only be described as A. I. slop.
+
+OpenAI reported that nearly one hundred agents worked for about fifty hours on an Euler disproof. This was followed by roughly ten thousand agents working for eighty-eight hours to produce the Navier-Stokes proof. Another seventeen hours were required for formalization. Sébastien Bubeck of OpenAI estimated the computational cost at several million dollars. While OpenAI conceded priority for the three-dimensional Euler result to Buckmaster and Alpöge, Buckmaster suggested the OpenAI researchers or their agents may have accessed work he and Alpöge conducted using OpenAI systems.
+
+Charles Fefferman of Princeton University praised the underlying research. He stated that the heroes of the story are Córdoba and Martínez-Zoroa. Buckmaster added in his statement that he wants to make plain what he has said to colleagues in private. In view of this body of work, he believes Luis Martínez-Zoroa deserves a Fields Medal.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (7/7). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: A. I. agents, A. I. models, A. I. slop
+

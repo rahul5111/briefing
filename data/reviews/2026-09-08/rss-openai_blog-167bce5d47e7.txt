@@ -1,0 +1,65 @@
+═══ 00_KEY_POINTS ═══
+
+1. MIT graduate student Beatriz Yankelevich used GPT-5.6 Sol, harnessed to Codex, to streamline her quantum computing experiments.
+2. Yankelevich tested GPT-5.6 Sol on an uncalibrated six-qubit chip used to benchmark the fabrication process.
+3. GPT-5.6 Sol autonomously ran routine measurements, identified transition frequencies, and calibrated control pulses when signals were clear.
+4. The AI agents struggled when experimental signals were weak or noisy, occasionally requiring guidance from experienced researchers.
+5. This technology matters because it frees researchers from constant supervision tasks, allowing them to focus on experiment design and data analysis.
+6. Beatriz Yankelevich stated she can have agents run measurements overnight and check in from her phone to steer their progress.
+
+═══ 01_DRAFT ═══
+
+Beatriz Yankelevich, a graduate student in MIT’s Engineering Quantum Systems Group, used the AI model GPT-5.6 Sol harnessed to Codex to streamline experimental workflows on superconducting qubit chips. The MIT group studies superconducting qubits, which are cooled to near absolute zero inside dilution refrigerators and controlled using microwave signals. Testing the AI on an uncalibrated six-qubit chip, Yankelevich provided Codex with specific skills to run, evaluate, and calibrate the hardware. When signals were clear, the AI autonomously completed standard measurement sequences by identifying transition frequencies, calibrating control pulses, and determining how long qubits retained quantum information. However, the model faced difficulties when experimental signals were weak or noisy, taking longer to find suitable parameters and occasionally requiring human guidance. Characterizing a standard chip typically takes a researcher several days, but the group now regularly uses agents to handle routine measurements. Yankelevich noted that she can have agents running measurements overnight or while working in the cleanroom, checking in from her phone to steer them if needed. This automation saves significant time by removing the need for constant supervision during preliminary measurements, allowing researchers to focus on experiment design, data analysis, and higher-level work.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Beatriz Yankelevich, a graduate student in MIT’s Engineering Quantum Systems Group, used the AI model GPT-5.6 Sol harnessed to Codex to streamline experimental workflows on superconducting qubit chips. The MIT group studies superconducting qubits, which are cooled to near absolute zero inside dilution refrigerators and controlled using microwave signals. Testing the AI on a six-qubit chip, Yankelevich provided Codex with measurement-specific skills explaining how to run and evaluate each experiment. When signals were clear, the AI autonomously completed standard measurement sequences by identifying transition frequencies, calibrating control pulses, and determining how long qubits retained quantum information. However, the model faced difficulties when experimental signals were weak or noisy, taking longer to find suitable parameters and occasionally requiring human guidance. EQuS fabricates many standard chips, which can take a researcher several days to characterize, and the group now regularly uses agents to handle routine measurements. Yankelevich noted that she can have agents running measurements overnight or while working in the cleanroom, checking in from her phone to steer them if needed. This automation saves significant time by removing the need for constant supervision during preliminary measurements, allowing researchers to focus on experiment design, data analysis, and higher-level work.
+
+═══ 02b_TRIMMED ═══
+
+Beatriz Yankelevich, a graduate student in MIT’s Engineering Quantum Systems Group, used the AI model GPT-5.6 Sol harnessed to Codex to streamline experimental workflows on superconducting qubit chips. The MIT group studies superconducting qubits, which are cooled to near absolute zero inside dilution refrigerators and controlled using microwave signals. When signals were clear, the AI autonomously completed standard measurement sequences by identifying transition frequencies, calibrating control pulses, and determining how long qubits retained quantum information. However, the model faced difficulties when experimental signals were weak or noisy, taking longer to find suitable parameters and occasionally requiring human guidance. EQuS fabricates many standard chips, which can take a researcher several days to characterize, and the group now regularly uses agents to handle routine measurements. Yankelevich noted that she can have agents running measurements overnight or while working in the cleanroom, checking in from her phone to steer them if needed. This automation saves significant time by removing the need for constant supervision during preliminary measurements, allowing researchers to focus on experiment design, data analysis, and higher-level work.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Graduate student, Beatriz Yankelevich, used an artificial intelligence model named G. P. T. five point six Sol with Codex to improve quantum experiments. She works at the Massachusetts Institute of Technology Engineering Quantum Systems Group. 
+
+The group studies superconducting qubits. These chips are cooled to near absolute zero inside dilution refrigerators and are controlled using microwave signals. 
+
+When signals were clear, the artificial intelligence model autonomously completed standard measurement sequences. It identified transition frequencies and calibrated control pulses. It also determined how long qubits retained quantum information. 
+
+However, the model faced difficulties when experimental signals were weak or noisy. It took longer to find suitable parameters and occasionally required human guidance. 
+
+The group fabricates many standard chips. It can take a researcher several days to characterize a single chip. Now, the team regularly uses agents to handle routine measurements. 
+
+Yankelevich noted that she can have agents running measurements overnight. She can also run them while working in the cleanroom. She checks in from her phone to steer the agents if needed. 
+
+This automation saves significant time by removing the need for constant supervision during preliminary measurements. It allows researchers to focus on experiment design and data analysis and other higher level work.
+
+═══ 05_NORMALIZED ═══
+
+Graduate student, Beatriz Yankelevich, used an artificial intelligence model named G. P. T. five point six Sol with Codex to improve quantum experiments. She works at the Massachusetts Institute of Technology Engineering Quantum Systems Group.
+
+The group studies superconducting qubits. These chips are cooled to near absolute zero inside dilution refrigerators and are controlled using microwave signals.
+
+When signals were clear, the artificial intelligence model autonomously completed standard measurement sequences. It identified transition frequencies and calibrated control pulses. It also determined how long qubits retained quantum information.
+
+However, the model faced difficulties when experimental signals were weak or noisy. It took longer to find suitable parameters and occasionally required human guidance.
+
+The group fabricates many standard chips. It can take a researcher several days to characterize a single chip. Now, the team regularly uses agents to handle routine measurements.
+
+Yankelevich noted that she can have agents running measurements overnight. She can also run them while working in the cleanroom. She checks in from her phone to steer the agents if needed.
+
+This automation saves significant time by removing the need for constant supervision during preliminary measurements. It allows researchers to focus on experiment design and data analysis and other higher level work.
+
+═══ 06_COVERAGE_FINAL ═══
+
+83% covered (5/6). Missing: Yankelevich tested GPT-5.6 Sol on an uncalibrated six-qubit chip used to benchmark the fabrication process.
+
+═══ 07_SANITY ═══
+
+ISSUES: unspoken/unspaced acronyms
+

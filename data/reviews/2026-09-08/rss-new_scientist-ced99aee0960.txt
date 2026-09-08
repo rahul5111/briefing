@@ -1,0 +1,54 @@
+═══ 00_KEY_POINTS ═══
+
+1. OpenAI claims an advanced AI model solved the Navier-Stokes Millennium problem using fifteen million dollars of compute effort.
+2. The Navier-Stokes equations describe fluid motion and are one of the clay mathematics institute millennium prize problems.
+3. Venkat Chandrasekaran stated that the problem remained unsolved for two hundred years because the calculations are mind-bogglingly intricate.
+4. Tristan Buckmaster and Levent Alpoege announced cracking stepping-stone problems just hours before OpenAI's formal announcement.
+5. Buckmaster raised concerns that OpenAI may have started its AI search after hearing about his and Alpoege's private work.
+6. OpenAI categorically denied using Buckmaster and Alpoege's proof or prompts in its work during a press conference.
+7. Terence Tao noted an unprecedented decoupling between getting answers and getting understanding from recent AI proofs.
+
+═══ 01_DRAFT ═══
+
+OpenAI claims its unnamed AI model, which is significantly more capable than the GPT-6 Astra model, has found a solution to the Navier-Stokes Millennium Prize Problem, for which solutions carry a $1 million reward. The Navier-Stokes equations describe how fluids move in space and were first written down roughly 200 years ago. To settle whether the equations always work or experience blow-ups, OpenAI first deployed 1,000 AI agents on the Euler problem, taking 50 hours to find blow-ups. They then set 10,000 agents the task of extending those blow-ups to the full Navier-Stokes problem, finishing in 11 hours. OpenAI stated at a press conference that running the same problem for a customer would cost about $15 million. Venkat Chandrasekaran at OpenAI stated that the problem has remained unsolved for two centuries because the equations are enormously complex and require mind-bogglingly intricate pen-and-paper calculations. Sébastien Bubeck called the news a spectacular combination of recent technological arcs. The announcement followed hours after Tristan Buckmaster at New York University and Levent Alpöge at Anthropic announced they cracked three stepping-stone problems to Navier-Stokes. Buckmaster subsequently raised questions regarding transparency, stating he emailed an OpenAI mathematician after hearing rumors and later found OpenAI's described path resembled his own work, which had been stored on OpenAI's Codex model as a customer. OpenAI categorically denied using Buckmaster and Alpöge's proof or prompts, stated its Euler proof is different, and maintained that no humans or AI agents accessed Codex to view work in progress. Terence Tao at the University of California, Los Angeles noted an unprecedented decoupling between getting answers and gaining understanding due to the rapid pace of AI discoveries. Martin Bridson, president of the Clay Mathematics Institute, stated that the process to evaluate the solution for the prize money will be deliberately unhurried and rigorous.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+OpenAI claims one of its AI models, which is significantly more capable than its latest GPT-6 Astra model, has found a solution to the Navier-Stokes Millennium Prize Problem, for which solutions carry a $1 million reward. The Navier-Stokes equations describe how fluids move in space and were first written down roughly 200 years ago. To settle whether the equations always work or experience blow-ups, OpenAI first deployed 1,000 AI agents on the Euler problem, taking 50 hours to find blow-ups. They then set 10,000 agents the task of extending those blow-ups to the full Navier-Stokes problem, finishing in 11 hours. OpenAI stated at a press conference that running the same problem for a customer would cost about $15 million. Venkat Chandrasekaran at OpenAI stated that the problem has remained unsolved for two centuries because the equations are enormously complex and require mind-bogglingly intricate pen-and-paper calculations. Sébastien Bubeck called the news a spectacular combination of recent technological arcs. The announcement followed hours after Tristan Buckmaster at New York University and Levent Alpöge at Anthropic announced they cracked three stepping-stone problems to Navier-Stokes. Buckmaster subsequently raised questions regarding transparency, stating he emailed an OpenAI mathematician after hearing rumors and later found OpenAI's described path resembled his own work, which had been stored on OpenAI's Codex model as a customer. OpenAI categorically denied using Buckmaster and Alpöge's proof or prompts, stated its Euler proof is different, and maintained that no humans or AI agents accessed Codex to view work in progress. Terence Tao at the University of California, Los Angeles noted an unprecedented decoupling between getting answers and gaining understanding due to the rapid pace of AI discoveries. Martin Bridson, president of the Clay Mathematics Institute, stated that the process to evaluate the solution for the prize money will be deliberately unhurried and rigorous.
+
+═══ 02b_TRIMMED ═══
+
+The Navier-Stokes equations describe how fluids move in space and were first written down roughly 200 years ago. To settle whether the equations always work or experience blow-ups, OpenAI first deployed 1,000 AI agents on the Euler problem, taking 50 hours to find blow-ups. They then set 10,000 agents the task of extending those blow-ups to the full Navier-Stokes problem, finishing in 11 hours. OpenAI stated at a press conference that running the same problem for a customer would cost about $15 million. Venkat Chandrasekaran at OpenAI stated that the problem has remained unsolved for two centuries because the equations are enormously complex and require mind-bogglingly intricate pen-and-paper calculations. Sébastien Bubeck called the news a spectacular combination of recent technological arcs. The announcement followed hours after Tristan Buckmaster at New York University and Levent Alpöge at Anthropic announced they cracked three stepping-stone problems to Navier-Stokes. Buckmaster subsequently raised questions regarding transparency, stating he emailed an OpenAI mathematician after hearing rumors and later found OpenAI's described path resembled his own work, which had been stored on OpenAI's Codex model as a customer. OpenAI categorically denied using Buckmaster and Alpöge's proof or prompts, stated its Euler proof is different, and maintained that no humans or AI agents accessed Codex to view work in progress. Terence Tao at the University of California, Los Angeles noted an unprecedented decoupling between getting answers and gaining understanding due to the rapid pace of AI discoveries. Martin Bridson, president of the Clay Mathematics Institute, stated that the process to evaluate the solution for the prize money will be deliberately unhurried and rigorous.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (7/7). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+The Navier-Stokes equations describe how fluids move in space and were first written down roughly two hundred years ago. To settle whether the equations always work or experience blow-ups, OpenAI first deployed one thousand A. I. agents on the Euler problem, taking fifty hours to find blow-ups. They then set ten thousand agents the task of extending those blow-ups to the full Navier-Stokes problem, finishing in eleven hours. OpenAI stated at a press conference that running the same problem for a customer would cost about fifteen million dollars. 
+
+Venkat Chandrasekaran at OpenAI stated that the problem has remained unsolved for two centuries because the equations are enormously complex and require mind-bogglingly intricate pen-and-paper calculations. Sébastien Bubeck called the news a spectacular combination of recent technological arcs. The announcement followed hours after Tristan Buckmaster at New York University and Levent Alpöge at Anthropic announced they cracked three stepping-stone problems to Navier-Stokes. 
+
+Buckmaster subsequently raised questions regarding transparency, stating he emailed an OpenAI mathematician after hearing rumors and later found OpenAI's described path resembled his own work, which had been stored on OpenAI's Codex model as a customer. OpenAI categorically denied using Buckmaster and Alpöge's proof or prompts, stated its Euler proof is different, and maintained that no humans or A. I. agents accessed Codex to view work in progress. 
+
+Terence Tao at the University of California, Los Angeles noted an unprecedented decoupling between getting answers and gaining understanding due to the rapid pace of A. I. discoveries. Martin Bridson, president of the Clay Mathematics Institute, stated that the process to evaluate the solution for the prize money will be deliberately unhurried and rigorous.
+
+═══ 05_NORMALIZED ═══
+
+The Navier-Stokes equations describe how fluids move in space and were first written down roughly two hundred years ago. To settle whether the equations always work or experience blow-ups, OpenAI first deployed one thousand A. I. agents on the Euler problem, taking fifty hours to find blow-ups. They then set ten thousand agents the task of extending those blow-ups to the full Navier-Stokes problem, finishing in eleven hours. OpenAI stated at a press conference that running the same problem for a customer would cost about fifteen million dollars.
+
+Venkat Chandrasekaran at OpenAI stated that the problem has remained unsolved for two centuries because the equations are enormously complex and require mind-bogglingly intricate pen-and-paper calculations. Sébastien Bubeck called the news a spectacular combination of recent technological arcs. The announcement followed hours after Tristan Buckmaster at New York University and Levent Alpöge at Anthropic announced they cracked three stepping-stone problems to Navier-Stokes.
+
+Buckmaster subsequently raised questions regarding transparency, stating he emailed an OpenAI mathematician after hearing rumors and later found OpenAI's described path resembled his own work, which had been stored on OpenAI's Codex model as a customer. OpenAI categorically denied using Buckmaster and Alpöge's proof or prompts, stated its Euler proof is different, and maintained that no humans or A. I. agents accessed Codex to view work in progress.
+
+Terence Tao at the University of California, Los Angeles noted an unprecedented decoupling between getting answers and gaining understanding due to the rapid pace of A. I. discoveries. Martin Bridson, president of the Clay Mathematics Institute, stated that the process to evaluate the solution for the prize money will be deliberately unhurried and rigorous.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (7/7). Missing: none
+
+═══ 07_SANITY ═══
+
+OK
+

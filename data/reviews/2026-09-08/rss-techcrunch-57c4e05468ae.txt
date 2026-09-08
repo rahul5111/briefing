@@ -1,0 +1,32 @@
+═══ 00_KEY_POINTS ═══
+
+1. On August 4, AI consultant Grant de Swardt noticed his Claude token usage climbing while inactive.
+2. Anthropic issued de Swardt a partial refund of £44.49 for his $200-per-month subscription.
+3. Anthropic revealed that a bad actor used infostealer malware to steal Claude login sessions from computers.
+4. Hackers covertly siphoned off subscriber tokens, causing severe disruptions for sole proprietors relying on AI.
+5. Anthropic suspended compromised accounts, invalidated sessions, and issued warnings after detecting unauthorized token consumption.
+
+═══ 01_DRAFT ═══
+
+On August 4, independent AI consultant Grant de Swardt noticed his Claude Max 20x account token usage climbing on a day he was not working. After disabling his connected tasks, token consumption increased from 45% to 55% during a controlled interval with no active local tasks. Anthropic suspended his paid account, invalidated his sessions and server-side Claude Code tokens, and issued a partial refund of £44.49 for his $200-per-month subscription. After investigating, Anthropic told de Swardt a compromised Claude session key was used to mint unauthorized Claude Code OAuth tokens, though they could not determine how access was obtained. Other users on Reddit and GitHub reported similar experiences of unexplained token depletion and unauthorized charges. Anthropic subsequently warned some users via email that a bad actor was using infostealer malware to steal Claude login sessions from personal computers. When suspicious activity is detected, the company signs users out, invalidates authorizations, issues refunds, and warns of potential malware. Anthropic stated the malware does not originate from Claude itself. De Swardt, who found no evidence of a compromised computer, had his account reinstated after two weeks but cancelled his subscription for Cursor due to the lack of itemized usage tracking and slow support. Anthropic declined to comment when asked how users can identify misuse.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (5/5). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+On August fourth, independent A. I. consultant, Grant de Swardt, noticed his Claude Max twenty times account token usage climbing on a day he was not working. After disabling his connected tasks, token consumption increased from forty-five percent to fifty-five percent during a controlled interval with no active local tasks. Anthropic suspended his paid account, invalidated his sessions and server-side Claude Code tokens, and issued a partial refund of forty-four pounds and forty-nine pence for his two hundred dollar per month subscription. After investigating, Anthropic told de Swardt a compromised Claude session key was used to mint unauthorized Claude Code O. Auth tokens, though they could not determine how access was obtained. Other users on Reddit and GitHub reported similar experiences of unexplained token depletion and unauthorized charges. Anthropic subsequently warned some users via email that a bad actor was using infostealer malware to steal Claude login sessions from personal computers. When suspicious activity is detected, the company signs users out, invalidates authorizations, issues refunds, and warns of potential malware. Anthropic stated the malware does not originate from Claude itself. De Swardt, who found no evidence of a compromised computer, had his account reinstated after two weeks but cancelled his subscription for Cursor due to the lack of itemized usage tracking and slow support. Anthropic declined to comment when asked how users can identify misuse.
+
+═══ 05_NORMALIZED ═══
+
+On August fourth, independent A. I. consultant, Grant de Swardt, noticed his Claude Max twenty times account token usage climbing on a day he was not working. After disabling his connected tasks, token consumption increased from forty-five percent to fifty-five percent during a controlled interval with no active local tasks. Anthropic suspended his paid account, invalidated his sessions and server-side Claude Code tokens, and issued a partial refund of forty-four pounds and forty-nine pence for his two hundred dollar per month subscription. After investigating, Anthropic told de Swardt a compromised Claude session key was used to mint unauthorized Claude Code O. Auth tokens, though they could not determine how access was obtained. Other users on Reddit and GitHub reported similar experiences of unexplained token depletion and unauthorized charges. Anthropic subsequently warned some users via email that a bad actor was using infostealer malware to steal Claude login sessions from personal computers. When suspicious activity is detected, the company signs users out, invalidates authorizations, issues refunds, and warns of potential malware. Anthropic stated the malware does not originate from Claude itself. De Swardt, who found no evidence of a compromised computer, had his account reinstated after two weeks but cancelled his subscription for Cursor due to the lack of itemized usage tracking and slow support. Anthropic declined to comment when asked how users can identify misuse.
+
+═══ 06_COVERAGE_FINAL ═══
+
+80% covered (4/5). Missing: Hackers covertly siphoned off subscriber tokens, causing severe disruptions for sole proprietors relying on AI.
+
+═══ 07_SANITY ═══
+
+OK
+
