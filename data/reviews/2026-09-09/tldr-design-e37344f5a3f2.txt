@@ -1,0 +1,64 @@
+═══ 00_KEY_POINTS ═══
+
+1. Developer pdfu discovered code in the latest iOS 27 beta pointing to four major pro photography features.
+2. The discovered features include exposure scopes, focus peaking, highlight clipping indicators, and true manual focus.
+3. These professional tools could finally convince serious photographers and videographers to stop using third-party camera apps.
+4. Code also indicates a new image processing approach designed to adapt to the variable aperture in upcoming iPhones.
+5. None of the described pro features are currently enabled in any of the existing iOS 27 betas.
+
+═══ 01_DRAFT ═══
+
+Code found in the latest iOS 27 beta by developer pdfu points to the introduction of four major professional photography and videography features in the stock Camera app. The discovered features include exposure scopes utilizing histograms and waveforms for accurate visual exposure, focus peaking to highlight in-focus areas with an overlay, highlight clipping indicators using zebra stripes to warn of overexposure, and true manual focus via a slider which may be limited to upcoming new iPhone models. Additional findings include an option for taking a series of self-timed photos and a new image processing approach to adapt to an expected variable aperture in the iPhone 18 Pro. None of the features are currently enabled in any of the iOS 27 betas. If accurate, the introduction of these powerful tools normally associated with professional cameras may change the tendency of keen photographers and videographers to use third-party apps instead of the stock Apple camera.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Code found in the latest iOS 27 beta by developer pdfu points to the introduction of four major professional photography and videography features in the stock Camera app. The discovered features include exposure scopes utilizing histograms and waveforms for accurate visual exposure, focus peaking to highlight in-focus areas with an overlay, highlight clipping indicators using zebra stripes to warn of overexposure, and true manual focus via a slider which may be limited to upcoming new iPhone models. Additional findings include an option for taking a series of self-timed photos and an indication of a new image processing approach to adapt to an expected variable aperture in the iPhone 18 Pro. None of the features are currently enabled in any of the iOS 27 betas. If accurate, the introduction of these powerful tools normally associated with professional cameras may change the tendency of keen photographers and videographers to use third-party apps instead of the stock Apple camera.
+
+═══ 02b_TRIMMED ═══
+
+Code found in the latest iOS 27 beta by developer pdfu points to the introduction of four major professional photography and videography features in the stock Camera app. The discovered features include exposure scopes utilizing histograms and waveforms for accurate visual exposure, focus peaking to highlight in-focus areas with an overlay, highlight clipping indicators using zebra stripes to warn of overexposure, and true manual focus via a slider which may be limited to upcoming new iPhone models. None of the features are currently enabled in any of the iOS 27 betas. If accurate, the introduction of these powerful tools normally associated with professional cameras may change the tendency of keen photographers and videographers to use third-party apps instead of the stock Apple camera.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (5/5). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Code found in the latest I. O. S. twenty-seven beta by developer pdfu points to four major professional photography and videography features coming to the stock camera app.
+
+The discovered features include exposure scopes utilizing histograms and waveforms for accurate visual exposure.
+
+Another feature is focus peaking to highlight in-focus areas with an overlay.
+
+Users will also get highlight clipping indicators using zebra stripes to warn of overexposure.
+
+The final feature is true manual focus via a slider which may be limited to upcoming new iPhone models.
+
+None of the features are currently enabled in any of the I. O. S. twenty-seven betas.
+
+The introduction of these powerful tools normally associated with professional cameras may change the tendency of keen photographers and videographers to use third-party apps instead of the stock Apple camera.
+
+═══ 05_NORMALIZED ═══
+
+Code found in the latest I. O. S. twenty-seven beta by developer pdfu points to four major professional photography and videography features coming to the stock camera app.
+
+The discovered features include exposure scopes utilizing histograms and waveforms for accurate visual exposure.
+
+Another feature is focus peaking to highlight in-focus areas with an overlay.
+
+Users will also get highlight clipping indicators using zebra stripes to warn of overexposure.
+
+The final feature is true manual focus via a slider which may be limited to upcoming new iPhone models.
+
+None of the features are currently enabled in any of the I. O. S. twenty-seven betas.
+
+The introduction of these powerful tools normally associated with professional cameras may change the tendency of keen photographers and videographers to use third-party apps instead of the stock Apple camera.
+
+═══ 06_COVERAGE_FINAL ═══
+
+80% covered (4/5). Missing: Code also indicates a new image processing approach designed to adapt to the variable aperture in upcoming iPhones.
+
+═══ 07_SANITY ═══
+
+OK
+

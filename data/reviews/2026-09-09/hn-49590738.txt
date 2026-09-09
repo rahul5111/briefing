@@ -1,0 +1,53 @@
+═══ 00_KEY_POINTS ═══
+
+1. Mador is a tiny 80-line reactive DOM runtime consisting of approximately 855 bytes minified.
+2. Mador provides reactive state and binds that state directly to existing HTML DOM elements.
+3. Mador requires no components, templates, virtual DOM, global runtime, or build step.
+4. Mador uses batched writes so multiple changes made in the same write are processed together.
+5. Mador is distributed as a native ES module available through npm or directly from a CDN.
+6. Mador matters because it gives web pages simple reactivity without needing a heavy framework.
+
+═══ 01_DRAFT ═══
+
+A developer has launched Mador, a very small reactive DOM runtime designed for projects that do not require a full framework. Built as a native ES module distributed via npm or through a CDN from jsDelivr, the runtime is approximately 855 bytes minified and consists of an 80-line Proxy state tuple. Mador requires no build step, no global runtime, no components, templates, or virtual DOM, and works directly with existing HTML and JavaScript. The library uses a read and write mechanism where state is accessed through a read function that takes a CSS selector, an update callback, and a state selector, while state mutations are handled through batched write operations. Mador tracks the properties read by each binding and only reruns updates when those specific dependencies change. Additionally, when matching elements are removed from the page, Mador can automatically remove the corresponding reactive runner without requiring a component lifecycle to be managed. The project is licensed under the MIT license.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+A developer has launched Mador, a very small reactive DOM runtime designed for projects that do not require a full framework. Distributed as a native ES module through npm or directly from a CDN, the runtime is currently around 855 bytes minified. Mador requires no build step, no global runtime, no components, templates, or virtual DOM, and works directly with the DOM you already have. The library uses a read and write mechanism where state is accessed through a read function taking a selector, an update callback, and a state function, while state mutations are handled through batched write operations. Mador tracks the properties read by each binding and only reruns updates when those specific dependencies change. Additionally, when matching elements are gone, Mador can remove the corresponding reactive runner without requiring any component lifecycle to be managed. The project is licensed under the MIT license.
+
+═══ 02b_TRIMMED ═══
+
+A developer has launched Mador, a very small reactive DOM runtime designed for projects that do not require a full framework. Distributed as a native ES module through npm or directly from a CDN, the runtime is currently around 855 bytes minified. Mador requires no build step, no global runtime, no components, templates, or virtual DOM, and works directly with the DOM you already have. The library uses a read and write mechanism where state is accessed through a read function taking a selector, an update callback, and a state function, while state mutations are handled through batched write operations. Mador tracks the properties read by each binding and only reruns updates when those specific dependencies change. The project is licensed under the MIT license.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+A developer has launched Mador, a very small reactive D. O. M. runtime. It is designed for projects that do not require a full framework. The library is distributed as a native E. S. module through N. P. M. or directly from a C. D. N. 
+
+The runtime is currently around eight hundred fifty-five bytes minified. Mador requires no build step and no global runtime. It has no components, templates, or virtual D. O. M. Instead, it works directly with the D. O. M. you already have. 
+
+The library uses a read and write mechanism for state management. State is accessed through a read function taking a selector, an update callback, and a state function. State mutations are handled through batched write operations. 
+
+Mador tracks the properties read by each binding. It only reruns updates when those specific dependencies change. The project is licensed under the M. I. T. license.
+
+═══ 05_NORMALIZED ═══
+
+A developer has launched Mador, a very small reactive D. O. M. runtime. It is designed for projects that do not require a full framework. The library is distributed as a native E. S. module through N. P. M. or directly from a C. D. N.
+
+The runtime is currently around eight hundred fifty-five bytes minified. Mador requires no build step and no global runtime. It has no components, templates, or virtual D. O. M. Instead, it works directly with the D. O. M. you already have.
+
+The library uses a read and write mechanism for state management. State is accessed through a read function taking a selector, an update callback, and a state function. State mutations are handled through batched write operations.
+
+Mador tracks the properties read by each binding. It only reruns updates when those specific dependencies change. The project is licensed under the M. I. T. license.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: D. O. M., E. S., N. P. M., C. D. N., M. I. T.
+

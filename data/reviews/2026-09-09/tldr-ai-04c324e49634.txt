@@ -1,0 +1,51 @@
+═══ 00_KEY_POINTS ═══
+
+1. Researchers investigated the drivers of artificial intelligence progress from 2019 to 2025 by training combinations of model recipes and data corpuses.
+2. At a compute budget of 1e19 FLOPs, data improvements delivered 3.24 times more compute efficiency gains than model improvements.
+3. Data improvements achieved a 12.0x efficiency gain while model improvements achieved a 3.7x gain over the studied period.
+4. Additive effects of model and data improvements explained 88 percent of the variance in the OLMES score.
+5. Model innovations primarily contributed by making larger amounts of compute usable and removing constraints to scaling rather than boosting compute efficiency.
+6. Open source data corpuses grew from about 9 billion tokens in 2019 to far larger datasets featuring sophisticated filtering techniques by 2025.
+
+═══ 01_DRAFT ═══
+
+A recent investigation into AI pretraining progress from 2019 to 2025 has found that data improvements contributed 3.24 times more compute efficiency gains than model improvements at a compute budget of 1e19 FLOPs. Specifically, data improvements yielded a 12.0 times gain in efficiency, compared to 3.7 times for model improvements. 
+
+Researchers trained combinations of year-representative model recipes—spanning from GPT-2 to OLMo-2—and public data corpuses, ranging from OpenWebText in 2019 at roughly 9 billion tokens to 2025 sources like UltraFineWeb. Training runs were conducted across compute budgets of 1e17, 3.16e17, 1e18, 3.16e18, and 1e19 FLOPs. End capabilities were evaluated using the OLMES aggregate of 10 mostly multiple-choice QA benchmarks. 
+
+The findings indicate that gains from data and model improvements are mostly independent and additive, with 88% of the variance in OLMES scores explained by their combined effects using a linear model. 
+
+While the results suggest that much of the pretraining progress stemmed from data engineering, the researchers noted that model improvements primarily served to make larger amounts of compute usable by removing scaling constraints, comparing data improvements to cargo and model improvements to the structural capacity of a container ship. Ryan Greenblatt noted that historical data improvements resemble progress that automated researchers could test empirically. Future research directions include running the experiment at larger scales, measuring the marginal value of novel high-quality data, and evaluating the effectiveness of synthetic data.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Data improvements contributed three point two four times more compute efficiency gains than model improvements at a compute budget of one e nineteen F. L. O. P. s. This was found in an investigation into A. I. pretraining progress from twenty nineteen to twenty twenty-five. Specifically, data improvements yielded a twelve point zero times gain in efficiency. Model improvements yielded a three point seven times gain in efficiency.
+
+Researchers trained combinations of year-representative model recipes and public data corpuses. The recipes spanned from G. P. T. two to O. L. M. o. two. The data sources ranged from OpenWebText in twenty nineteen at roughly nine billion tokens to twenty twenty-five sources like UltraFineWeb. Training runs were conducted across compute budgets of one e seventeen, three point one six e seventeen, one e eighteen, three point one six e eighteen, and one e nineteen F. L. O. P. s. End capabilities were evaluated using the O. L. M. E. S. aggregate of ten mostly multiple-choice Q. A. benchmarks.
+
+The findings indicate that gains from data and model improvements are mostly independent and additive. Eighty-eight percent of the variance in O. L. M. E. S. scores is explained by their combined effects using a linear model. 
+
+The results suggest that much of the pretraining progress stemmed from data engineering. However, the researchers noted that model improvements primarily served to make larger amounts of compute usable by removing scaling constraints. They compared data improvements to cargo and model improvements to the structural capacity of a container ship. Ryan Greenblatt noted that historical data improvements resemble progress that automated researchers could test empirically. Future research directions include running the experiment at larger scales, measuring the marginal value of novel high-quality data, and evaluating the effectiveness of synthetic data.
+
+═══ 05_NORMALIZED ═══
+
+Data improvements contributed three point two four times more compute efficiency gains than model improvements at a compute budget of one e nineteen F. L. O. P. s. This was found in an investigation into A. I. pretraining progress from twenty nineteen to twenty twenty-five. Specifically, data improvements yielded a twelve point zero times gain in efficiency. Model improvements yielded a three point seven times gain in efficiency.
+
+Researchers trained combinations of year-representative model recipes and public data corpuses. The recipes spanned from G. P. T. two to O. L. M. o. two. The data sources ranged from OpenWebText in twenty nineteen at roughly nine billion tokens to twenty twenty-five sources like UltraFineWeb. Training runs were conducted across compute budgets of one e seventeen, three point one six e seventeen, one e eighteen, three point one six e eighteen, and one e nineteen F. L. O. P. s. End capabilities were evaluated using the O. L. M. E. S. aggregate of ten mostly multiple-choice Q. A. benchmarks.
+
+The findings indicate that gains from data and model improvements are mostly independent and additive. Eighty-eight percent of the variance in O. L. M. E. S. scores is explained by their combined effects using a linear model.
+
+The results suggest that much of the pretraining progress stemmed from data engineering. However, the researchers noted that model improvements primarily served to make larger amounts of compute usable by removing scaling constraints. They compared data improvements to cargo and model improvements to the structural capacity of a container ship. Ryan Greenblatt noted that historical data improvements resemble progress that automated researchers could test empirically. Future research directions include running the experiment at larger scales, measuring the marginal value of novel high-quality data, and evaluating the effectiveness of synthetic data.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: one e nineteen F. L. O. P. s., G. P. T. two, O. L. M. o. two, one e seventeen, three point one six e seventeen, one e eighteen, three point one six e eighteen, O. L. M. E. S., Q. A., O. L. M. E. S.
+
