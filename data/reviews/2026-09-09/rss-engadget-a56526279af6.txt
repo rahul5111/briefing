@@ -1,0 +1,65 @@
+═══ 00_KEY_POINTS ═══
+
+1. Apple is integrating Apple Intelligence into the Home app with iOS 27 for smarter notifications.
+2. HomeKit now summarizes important notifications like door activity or smoke detection to prevent lock screen flooding.
+3. Security camera footage now supports 4K resolution and uses AI to better detect faces or animals.
+4. The Home app can combine footage from multiple cameras to show a sequence of a person moving through rooms.
+5. The updated Home app can now update the software on all your Apple TVs simultaneously.
+6. Rumored upcoming hardware includes a new HomePod mini and a combined HomePod and iPad device called the HomePad.
+
+═══ 01_DRAFT ═══
+
+Apple is bringing major updates to the Home app and HomeKit with the release of iOS 27, highlighted by deep integration with Apple Intelligence. The software update introduces smarter notifications that can summarize important events, such as door movements or smoke detection, to prevent lock screen congestion for users with multiple cameras and smart doorbells. Security camera footage now supports 4K recording and utilizes AI for improved face and animal detection. Additionally, the Home app can now combine footage from multiple cameras to stitch together a sequential view of someone moving across different rooms, and generates short text descriptions of video clips alongside a new search function for past events. 
+
+For Apple TV owners, the iOS 27 Home app adds the ability to update software across all household Apple TVs simultaneously, alongside overall improvements to app reliability. Beyond software features, leaked internal code points to upcoming hardware releases, including a new generation of the HomePod mini and a rumored device called the HomePad that combines a HomePod and an iPad into a single display featuring an Apple Watch-style Faces gallery. Apple is also reportedly developing a tabletop robot. Users who want to test the iOS 27 features early can sign up for the Apple Beta Program, though installation on a spare device is recommended to avoid potential instability.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Apple is bringing major updates to the Home app and HomeKit with the release of iOS 27, highlighted by deep integration with Apple Intelligence. The software update introduces smarter notifications that can summarize important events, such as door movements or smoke detection, to prevent lock screen congestion for users with multiple cameras and smart doorbells. Security camera footage now supports 4K recording and utilizes AI for improved face and animal detection. Additionally, the Home app combines footage from different angles to show the same event as someone moves around the house, provides short AI-generated descriptions for video clips, and includes a search function for past events. 
+
+For Apple TV owners, the iOS 27 Home app adds the ability to update software across all household Apple TVs simultaneously, alongside overall improvements to app reliability. Beyond software features, leaked internal code points to upcoming hardware releases, including a new generation of the HomePod mini and a rumored HomePad device that combines a HomePod and an iPad into a single display with an Apple Watch-style Faces gallery. Apple is also working on a tabletop robot that may not be ready for a while. Users who want to test the iOS 27 features early can sign up for the Apple Beta Program, though installation on a spare device is recommended to avoid potential instability.
+
+═══ 02b_TRIMMED ═══
+
+Apple is bringing major updates to the Home app and HomeKit with the release of iOS 27, highlighted by deep integration with Apple Intelligence. The software update introduces smarter notifications that can summarize important events, such as door movements or smoke detection, to prevent lock screen congestion for users with multiple cameras and smart doorbells. Security camera footage now supports 4K recording and utilizes AI for improved face and animal detection. For Apple TV owners, the iOS 27 Home app adds the ability to update software across all household Apple TVs simultaneously, alongside overall improvements to app reliability. Apple is also working on a tabletop robot that may not be ready for a while.
+
+═══ 03_COVERAGE_1 ═══
+
+66% covered (4/6). Missing: The Home app can combine footage from multiple cameras to show a sequence of a person moving through rooms.; Rumored upcoming hardware includes a new HomePod mini and a combined HomePod and iPad device called the HomePad.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+Apple is bringing major updates to the Home app and HomeKit with the release of iOS 27, highlighted by deep integration with Apple Intelligence. The software update introduces smarter notifications that can summarize important events, such as door movements or smoke detection, to prevent lock screen congestion for users with multiple cameras and smart doorbells. Security camera footage now supports 4K recording and utilizes AI for improved face and animal detection, and the Home app can combine footage from multiple cameras to show a sequence of a person moving through rooms. For Apple TV owners, the iOS 27 Home app adds the ability to update software across all household Apple TVs simultaneously, alongside overall improvements to app reliability. Rumored upcoming hardware includes a new HomePod mini and a combined HomePod and iPad device called the HomePad, and Apple is also working on a tabletop robot that may not be ready for a while.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Apple is bringing major updates to the Home app and HomeKit with the release of I. O. S. twenty-seven. The update is highlighted by deep integration with A. I. 
+
+The software introduces smarter notifications that can summarize important events. These events include door movements or smoke detection to prevent lock screen congestion. This helps users who have multiple cameras and smart doorbells. 
+
+Security camera footage now supports four K recording. It utilizes A. I. for improved face and animal detection. The Home app can combine footage from multiple cameras. This shows a sequence of a person moving through rooms. 
+
+For Apple TV owners, the I. O. S. twenty-seven Home app adds a new ability. You can update software across all household Apple TVs simultaneously. There are also overall improvements to app reliability. 
+
+Rumored upcoming hardware includes a new HomePod mini. Another device is a combined HomePod and iPad called the HomePad. Apple is also working on a tabletop robot that may not be ready for a while.
+
+═══ 05_NORMALIZED ═══
+
+Apple is bringing major updates to the Home app and HomeKit with the release of I. O. S. twenty-seven. The update is highlighted by deep integration with A. I.
+
+The software introduces smarter notifications that can summarize important events. These events include door movements or smoke detection to prevent lock screen congestion. This helps users who have multiple cameras and smart doorbells.
+
+Security camera footage now supports four K recording. It utilizes A. I. for improved face and animal detection. The Home app can combine footage from multiple cameras. This shows a sequence of a person moving through rooms.
+
+For Apple TV owners, the I. O. S. twenty-seven Home app adds a new ability. You can update software across all household Apple TVs simultaneously. There are also overall improvements to app reliability.
+
+Rumored upcoming hardware includes a new HomePod mini. Another device is a combined HomePod and iPad called the HomePad. Apple is also working on a tabletop robot that may not be ready for a while.
+
+═══ 06_COVERAGE_FINAL ═══
+
+83% covered (5/6). Missing: Apple is integrating Apple Intelligence into the Home app with iOS 27 for smarter notifications.
+
+═══ 07_SANITY ═══
+
+ISSUES: four K
+

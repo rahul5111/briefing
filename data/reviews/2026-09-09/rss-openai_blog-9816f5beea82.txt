@@ -1,0 +1,74 @@
+═══ 00_KEY_POINTS ═══
+
+1. 1Password achieved a 20.9 percent measured productivity improvement among its Codex user cohort.
+2. The company recorded a 10.9 percent reduction in median pull request cycle time.
+3. 1Password estimates an annual engineering capacity value of 0.8 million dollars from Codex.
+4. CTO Nancy Wang stated that Codex enables teams to go from an idea to a fully working production feature in one shot.
+5. The integration matters because it compresses the time between planning and production to build new features rapidly.
+6. 1Password is expanding access to Codex to other departments like finance and marketing.
+7. The company maintained rigorous security standards by keeping secret references out of the model context.
+
+═══ 01_DRAFT ═══
+
+1Password has integrated Codex across its software delivery lifecycle, resulting in a measured engineering productivity improvement of 20.9% for its core user cohort and a 10.9% reduction in median pull request cycle time. 
+
+The deployment yielded several operational gains. For a complex production issue spanning more than 10 microservices, investigation time dropped from about two hours to between 5 and 20 minutes. For a modeled cohort of 50 Codex users, 1Password estimates an annual engineering capacity value of approximately $784,000, representing a 553% return on investment. The company projects that scaling to 100 consistent users could raise the modeled annual capacity value to approximately $3.1 million. 
+
+Nancy Wang, CTO at 1Password, noted the impact on feature development speed, stating that Codex allows teams to go straight from an idea to a working prototype in production. Previously, projects required breaking work down into separate sprints and assigning them to scrum teams. 
+
+The tooling touches multiple phases of development, including planning, multi-stack implementation using Rust and TypeScript, pull request reviews, and testing. To maintain security, 1Password uses secret references instead of plaintext credentials in repositories, ensuring sensitive data never enters the model context. 
+
+Following these engineering results, leadership is expanding Codex access to non-technical functions like finance and marketing to enable broader internal tool building.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+1Password has integrated Codex across its software delivery lifecycle, resulting in a measured engineering productivity improvement of 20.9% for its core user cohort and a 10.9% reduction in median pull request cycle time. 
+
+The deployment yielded several operational gains. For a complex production issue spanning more than 10 microservices, investigation time dropped from about two hours to between 5 and 20 minutes. For a modeled cohort of 50 Codex users, 1Password estimates an annual engineering capacity value of approximately $784,000, representing a 553% return on investment. The company projects that scaling to 100 consistent users could raise the modeled annual capacity value to approximately $3.1 million. 
+
+Nancy Wang, CTO at 1Password, noted the impact on feature development speed, stating that Codex allows teams to go straight from an idea to a working prototype in production. Previously, projects required breaking work down into separate sprints and assigning them to scrum teams. 
+
+The tooling touches multiple phases of development, including planning, multi-stack implementation using Rust and TypeScript, pull request reviews, and testing. To maintain security, 1Password uses secret references instead of plaintext credentials in repositories, ensuring sensitive data never enters the model context. 
+
+Based on engineering's results, 1Password's leadership team is expanding access to Codex to other functions, enabling teams such as finance and marketing to build their own tools and features.
+
+═══ 03_COVERAGE_1 ═══
+
+85% covered (6/7). Missing: CTO Nancy Wang stated that Codex enables teams to go from an idea to a fully working production feature in one shot.
+
+═══ 04_AUDIO_REWRITE ═══
+
+One Password has integrated Codex across its entire software delivery lifecycle. This resulted in an engineering productivity boost of twenty point nine percent for core users. Pull request cycle times also dropped by ten point nine percent.
+
+The deployment delivered major operational gains. Fixing a complex production issue across more than ten microservices used to take about two hours. Now that investigation time drops to between five and twenty minutes. 
+
+For a modeled group of fifty Codex users, the company estimates an annual engineering capacity value of seven hundred eighty-four thousand dollars. That represents a five hundred fifty-three percent return on investment. Scaling the program to one hundred consistent users could raise that annual value to about three point one million dollars.
+
+Nancy Wang, the chief technology officer at One Password, noted a huge impact on feature development speed. She stated that Codex lets teams move straight from an idea to a working prototype in production. Previously, projects required breaking work down into separate sprints and assigning them to scrum teams. 
+
+The tooling touches multiple phases of development. This includes planning, multi-stack implementation using Rust and TypeScript, pull request reviews, and testing. To maintain security, the company uses secret references instead of plaintext credentials in repositories. This ensures sensitive data never enters the model context. 
+
+Engineering delivered strong results. Because of this, company leadership is expanding access to Codex to other departments. Teams in finance and marketing will now be able to build their own tools and features.
+
+═══ 05_NORMALIZED ═══
+
+One Password has integrated Codex across its entire software delivery lifecycle. This resulted in an engineering productivity boost of twenty point nine percent for core users. Pull request cycle times also dropped by ten point nine percent.
+
+The deployment delivered major operational gains. Fixing a complex production issue across more than ten microservices used to take about two hours. Now that investigation time drops to between five and twenty minutes.
+
+For a modeled group of fifty Codex users, the company estimates an annual engineering capacity value of seven hundred eighty-four thousand dollars. That represents a five hundred fifty-three percent return on investment. Scaling the program to one hundred consistent users could raise that annual value to about three point one million dollars.
+
+Nancy Wang, the chief technology officer at One Password, noted a huge impact on feature development speed. She stated that Codex lets teams move straight from an idea to a working prototype in production. Previously, projects required breaking work down into separate sprints and assigning them to scrum teams.
+
+The tooling touches multiple phases of development. This includes planning, multi-stack implementation using Rust and TypeScript, pull request reviews, and testing. To maintain security, the company uses secret references instead of plaintext credentials in repositories. This ensures sensitive data never enters the model context.
+
+Engineering delivered strong results. Because of this, company leadership is expanding access to Codex to other departments. Teams in finance and marketing will now be able to build their own tools and features.
+
+═══ 06_COVERAGE_FINAL ═══
+
+85% covered (6/7). Missing: CTO Nancy Wang stated that Codex enables teams to go from an idea to a fully working production feature in one shot.
+
+═══ 07_SANITY ═══
+
+OK
+
