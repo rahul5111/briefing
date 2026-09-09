@@ -1,0 +1,53 @@
+═══ 00_KEY_POINTS ═══
+
+1. Cohere presents a serving engine for North Mini Code built around a decode megakernel.
+2. The megakernel runs BF16 on a single H100 and is 1.25 to 1.41 times faster than vLLM end-to-end.
+3. North Mini Code is a 30B model with 3.3B parameters active per token.
+4. On batch size 1, the megakernel reaches 292 tokens per second, which is 1.58 times faster than vLLM.
+5. The news matters because megakernels overcome memory bandwidth limits during autoregressive decoding to dramatically increase inference speed.
+6. The serving engine supports continuous batching, paged attention, ragged sequence lengths, and tool calling behind an OpenAI-compatible endpoint.
+
+═══ 01_DRAFT ═══
+
+Today, Cohere presents a serving engine for North Mini Code built around a decode megakernel. Using BF16 on a single H100, the system achieves 292 tokens per second at batch size 1, or 62% of Speed-of-Light bandwidth, making it 1.58 times faster than vLLM. Across end-to-end benchmarks, it runs 1.25 to 1.41 times faster than vLLM while supporting continuous batching, paged attention, ragged sequence lengths, and an OpenAI-compatible endpoint with tool calling.
+
+North Mini Code is a 30-billion parameter model with 3.3 billion active parameters per token. In BF16, this requires streaming 6.6 gigabytes of weights per decode step, plus approximately 0.5 gigabytes of KV cache at an 8K context. An H100 delivers 3.35 terabytes per second of High Bandwidth Memory, putting the theoretical Speed-of-Light at about 470 tokens per second. Standard stacks like vLLM serve this model at 185 tokens per second, utilizing 39% of Speed-of-Light. 
+
+The performance gap exists because autoregressive decoding is memory-bound rather than compute-bound, and traditional serving stacks launch hundreds of small kernels sequentially, leaving streaming multiprocessors waiting during the gaps. The megakernel solves this by running the entire forward pass as a single persistent kernel launched across streaming multiprocessors, using a task interpreter pattern, global memory counters for fine-grained synchronization, and weight prefetching that streams immutable weights from HBM before activation dependencies are resolved.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Today, Cohere presents a serving engine for North Mini Code built around a decode megakernel. Using BF16 on a single H100, the system achieves 292 tokens per second at batch size 1, or 62% of Speed-of-Light bandwidth, making it 1.58 times faster than vLLM. Across end-to-end benchmarks, it runs 1.25 to 1.41 times faster than vLLM while supporting continuous batching, paged attention, ragged sequence lengths, and an OpenAI-compatible endpoint with tool calling.
+
+North Mini Code is a 30-billion parameter model with 3.3 billion active parameters per token. In BF16, this requires streaming 6.6 gigabytes of weights per decode step, plus approximately 0.5 gigabytes of KV cache at an 8K context. An H100 delivers 3.35 TB/s of bandwidth through HBM, and vLLM serves this model at 185 tokens per second, merely 39% of Speed-of-Light. 
+
+The performance gap exists because autoregressive decoding is memory-bound rather than compute-bound, and traditional serving stacks launch hundreds of small kernels sequentially, leaving streaming multiprocessors waiting during the gaps. The megakernel solves this by running the entire forward pass as a single persistent kernel launched across streaming multiprocessors, using a task interpreter pattern, global memory counters for fine-grained synchronization, and weight prefetching that streams immutable weights from HBM before activation dependencies are resolved.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Cohere presents a new serving engine for North Mini Code built around a decode megakernel. Using B. F. sixteen on a single H. one hundred, the system achieves two hundred ninety-two tokens per second at batch size one. That reaches sixty-two percent of Speed-of-Light bandwidth, making it one point five eight times faster than v. L. L. M. Across end-to-end benchmarks, it runs one point two five to one point four one times faster than v. L. L. M. The system also supports continuous batching, paged attention, ragged sequence lengths, and an Open A. I. compatible endpoint with tool calling.
+
+North Mini Code is a thirty billion parameter model with three point three billion active parameters per token. In B. F. sixteen, this requires streaming six point six gigabytes of weights per decode step. It also needs approximately zero point five gigabytes of K. V. cache at an eight thousand context. An H. one hundred delivers three point three five terabytes per second of bandwidth through H. B. M. The v. L. L. M. framework serves this model at one hundred eighty-five tokens per second, which is merely thirty-nine percent of Speed-of-Light. 
+
+This performance gap exists because autoregressive decoding is memory-bound rather than compute-bound. Traditional serving stacks launch hundreds of small kernels sequentially, leaving streaming multiprocessors waiting during the gaps. The megakernel solves this by running the entire forward pass as a single persistent kernel launched across streaming multiprocessors. It uses a task interpreter pattern and global memory counters for fine-grained synchronization. It also uses weight prefetching that streams immutable weights from H. B. M. before activation dependencies are resolved.
+
+═══ 05_NORMALIZED ═══
+
+Cohere presents a new serving engine for North Mini Code built around a decode megakernel. Using B. F. sixteen on a single H. one hundred, the system achieves two hundred ninety-two tokens per second at batch size one. That reaches sixty-two percent of Speed-of-Light bandwidth, making it one point five eight times faster than v. L. L. M. Across end-to-end benchmarks, it runs one point two five to one point four one times faster than v. L. L. M. The system also supports continuous batching, paged attention, ragged sequence lengths, and an Open A. I. compatible endpoint with tool calling.
+
+North Mini Code is a thirty billion parameter model with three point three billion active parameters per token. In B. F. sixteen, this requires streaming six point six gigabytes of weights per decode step. It also needs approximately zero point five gigabytes of K. V. cache at an eight thousand context. An H. one hundred delivers three point three five terabytes per second of bandwidth through H. B. M. The v. L. L. M. framework serves this model at one hundred eighty-five tokens per second, which is merely thirty-nine percent of Speed-of-Light.
+
+This performance gap exists because autoregressive decoding is memory-bound rather than compute-bound. Traditional serving stacks launch hundreds of small kernels sequentially, leaving streaming multiprocessors waiting during the gaps. The megakernel solves this by running the entire forward pass as a single persistent kernel launched across streaming multiprocessors. It uses a task interpreter pattern and global memory counters for fine-grained synchronization. It also uses weight prefetching that streams immutable weights from H. B. M. before activation dependencies are resolved.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: v. L. L. M.
+

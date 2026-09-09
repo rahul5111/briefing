@@ -1,0 +1,60 @@
+═══ 00_KEY_POINTS ═══
+
+1. Canadian mathematician Robert Langlands launched the program in 1967 via a letter to a colleague.
+2. The Langlands program connects number theory and harmonic analysis through a family of unexpected mathematical correspondences.
+3. David Ben-Zvi noted that experts generally lack a complete understanding of what the program truly is.
+4. The Langlands program is often called a grand unified theory of mathematics because it suggests underlying unity.
+5. The program matters because it bridges disparate mathematical realms and hints at a message for the physical universe.
+
+═══ 01_DRAFT ═══
+
+Launched in 1967 by Canadian mathematician Robert Langlands in a letter to a colleague, the Langlands program is a decades-long mathematical effort to explore unexpected wormhole-like connections between distant realms of mathematics. Specifically, the project links number theory, which studies numbers and polynomial equations, with harmonic analysis, which examines signals, waves, and modular forms. 
+
+At the heart of the project are profound correspondences between different mathematical objects. For example, the solutions to the polynomial equation $x^3 - 2 = 0$ generate an extended number field with an associated Galois group of symmetries called S3, which can be expressed as 2 by 2 matrices. The Langlands correspondence shows that the matrix traces—zero, minus one, and two—match the coefficients of prime-numbered powers in a specific modular form defined by the function $f(q) = q - q^7 - q^{13} - q^{19} + q^{25} + 2q^{31} - q^{37} + 2q^{43} - q^{61} - q^{67} + \ldots$. 
+
+Hundreds of mathematicians have spent decades trying to extend and exploit these bridges between disparate fields. As David Ben-Zvi of the University of Texas at Austin noted regarding the breadth of the project, when asked if the average attendee at the International Congress of Mathematicians would understand it, he said, I would think more the latter than the former, everyone will have heard of it, certainly. 
+
+The program is often called a grand unified theory of mathematics because it suggests an underlying unity to the mathematical universe, though its specific correspondences remain excruciatingly specific, esoteric, and not yet fully mined for their deepest meaning.
+
+═══ 03_COVERAGE_1 ═══
+
+80% covered (4/5). Missing: David Ben-Zvi noted that experts generally lack a complete understanding of what the program truly is.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+Launched in 1967 by Canadian mathematician Robert Langlands in a letter to a colleague, the Langlands program is a decades-long mathematical effort to explore unexpected wormhole-like connections between distant realms of mathematics. Specifically, the project links number theory, which studies numbers and polynomial equations, with harmonic analysis, which examines signals, waves, and modular forms. 
+
+At the heart of the project are profound correspondences between different mathematical objects. For example, the solutions to the polynomial equation $x^3 - 2 = 0$ generate an extended number field with an associated Galois group of symmetries called S3, which can be expressed as 2 by 2 matrices. The Langlands correspondence shows that the matrix traces—zero, minus one, and two—match the coefficients of prime-numbered powers in a specific modular form defined by the function $f(q) = q - q^7 - q^{13} - q^{19} + q^{25} + 2q^{31} - q^{37} + 2q^{43} - q^{61} - q^{67} + \ldots$. 
+
+Hundreds of mathematicians have spent decades trying to extend and exploit these bridges between disparate fields. As David Ben-Zvi of the University of Texas at Austin noted regarding the breadth of the project, when asked if the average attendee at the International Congress of Mathematicians would understand it, he said, I would think more the latter than the former, everyone will have heard of it, certainly. David Ben-Zvi also noted that experts generally lack a complete understanding of what the program truly is.
+
+The program is often called a grand unified theory of mathematics because it suggests an underlying unity to the mathematical universe, though its specific correspondences remain excruciatingly specific, esoteric, and not yet fully mined for their deepest meaning.
+
+═══ 04_AUDIO_REWRITE ═══
+
+The Langlands program is a decades long mathematical effort. It was launched in nineteen sixty-seven by Canadian mathematician Robert Langlands in a letter to a colleague. The project explores unexpected wormhole like connections between distant realms of mathematics. It links number theory with harmonic analysis. Number theory studies numbers and polynomial equations. Harmonic analysis examines signals and waves and modular forms. 
+
+At the heart of the project are profound correspondences between different mathematical objects. Solutions to the polynomial equation x cubed minus two equals zero generate an extended number field. This field has an associated Galois group of symmetries called S three. These symmetries can be expressed as two by two matrices. The Langlands correspondence shows that the matrix traces match coefficients of prime numbered powers in a specific modular form. 
+
+Hundreds of mathematicians have spent decades trying to extend and exploit these bridges between disparate fields. Expert David Ben Zvi of the University of Texas at Austin noted the breadth of the project. He stated that everyone has heard of it. He also noted that experts generally lack a complete understanding of what the program truly is. 
+
+The program is often called a grand unified theory of mathematics. It suggests an underlying unity to the mathematical universe. Its specific correspondences remain excruciatingly specific and esoteric and not yet fully mined for their deepest meaning.
+
+═══ 05_NORMALIZED ═══
+
+The Langlands program is a decades long mathematical effort. It was launched in nineteen sixty-seven by Canadian mathematician Robert Langlands in a letter to a colleague. The project explores unexpected wormhole like connections between distant realms of mathematics. It links number theory with harmonic analysis. Number theory studies numbers and polynomial equations. Harmonic analysis examines signals and waves and modular forms.
+
+At the heart of the project are profound correspondences between different mathematical objects. Solutions to the polynomial equation x cubed minus two equals zero generate an extended number field. This field has an associated Galois group of symmetries called S three. These symmetries can be expressed as two by two matrices. The Langlands correspondence shows that the matrix traces match coefficients of prime numbered powers in a specific modular form.
+
+Hundreds of mathematicians have spent decades trying to extend and exploit these bridges between disparate fields. Expert David Ben Zvi of the University of Texas at Austin noted the breadth of the project. He stated that everyone has heard of it. He also noted that experts generally lack a complete understanding of what the program truly is.
+
+The program is often called a grand unified theory of mathematics. It suggests an underlying unity to the mathematical universe. Its specific correspondences remain excruciatingly specific and esoteric and not yet fully mined for their deepest meaning.
+
+═══ 06_COVERAGE_FINAL ═══
+
+80% covered (4/5). Missing: The program matters because it bridges disparate mathematical realms and hints at a message for the physical universe.
+
+═══ 07_SANITY ═══
+
+ISSUES: x cubed minus two equals zero
+

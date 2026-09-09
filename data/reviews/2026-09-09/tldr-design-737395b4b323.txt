@@ -1,0 +1,53 @@
+═══ 00_KEY_POINTS ═══
+
+1. The Gemini overlay on Android now features a multitasking option with a floating bubble shortcut when minimized.
+2. Google explains that users can tap the bubble to expand it, or drag it to move or dismiss it.
+3. The Gemini bubble is currently fixed to one of six positions and cannot be placed anywhere freely.
+4. A bug appears to reset the Gemini bubble to the bottom-right corner after every single minimization.
+5. The new minimize button and Gemini bubble feature are widely rolling out on Android today.
+6. This shortcut lets users ask a question and minimize immediately instead of waiting for the response.
+
+═══ 01_DRAFT ═══
+
+The Gemini overlay on Android is rolling out a new multitasking feature that allows users to minimize the interface into a floating bubble shortcut featuring the spark logo. A minimize button now appears above the container, centering itself immediately after a user enters a prompt before shifting to a pill-shaped container on the right once the response loads. Users can tap the bubble to expand it, or drag it to move or dismiss the shortcut. Google explains the functionality by stating that Gemini is still available while you multitask, and that users can tap to expand or drag to move or dismiss. The bubble is currently fixed to one of six positions and features a bug that resets its location to the bottom-right corner after every minimization. Users can also return to the bubble by tapping outside the sheet after a response loads, while the system back gesture closes the entire overlay. The shortcut offers a faster alternative to opening the Gemini app and side panel to return to a conversation, and allows users to ask a question and minimize the screen immediately to perform other tasks rather than waiting for the response to load. Alternatively, users can utilize Android 17 system Bubble options with the Gemini app for a richer experience. The minimize button and Gemini bubble are widely rolling out on Android.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+The Gemini overlay on Android is rolling out a new multitasking feature that allows users to minimize the interface into a floating bubble shortcut featuring the spark logo. A minimize button now appears above the container, centering itself immediately after a user enters a prompt before shifting to a pill-shaped container on the right once the response loads. Google explains the functionality by stating that Gemini is still available while you multitask, and that users can tap to expand or drag to move or dismiss. The bubble is currently fixed to one of six positions and features a bug that resets its location to the bottom-right corner after every minimization. Users can tap outside the sheet after the response has loaded, while the system back gesture closes the entire overlay. The shortcut offers a faster alternative to opening the Gemini app and side panel to return to a conversation, and allows users to ask a question and minimize the screen immediately to perform other tasks rather than waiting for the response to load. Alternatively, users can utilize Android 17 system Bubble options with the Gemini app for a richer experience. The minimize button and Gemini bubble are widely rolling out on Android today.
+
+═══ 02b_TRIMMED ═══
+
+The Gemini overlay on Android is rolling out a new multitasking feature that allows users to minimize the interface into a floating bubble shortcut featuring the spark logo. A minimize button now appears above the container, centering itself immediately after a user enters a prompt before shifting to a pill-shaped container on the right once the response loads. Google explains the functionality by stating that Gemini is still available while you multitask, and that users can tap to expand or drag to move or dismiss. The bubble is currently fixed to one of six positions and features a bug that resets its location to the bottom-right corner after every minimization. The shortcut offers a faster alternative to opening the Gemini app and side panel to return to a conversation, and allows users to ask a question and minimize the screen immediately to perform other tasks rather than waiting for the response to load. Alternatively, users can utilize Android 17 system Bubble options with the Gemini app for a richer experience. The minimize button and Gemini bubble are widely rolling out on Android today.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Google is rolling out a new multitasking feature for the Artificial Intelligence, A. I., Gemini overlay on Android. Users can now minimize the interface into a floating bubble shortcut with the spark logo. A minimize button appears above the container. It centers itself right after a user enters a prompt. It then shifts to a pill-shaped container on the right side once the response loads. 
+
+Google explains that the assistant remains available while you multitask. Users can tap to expand the bubble. They can also drag it to move it or dismiss it entirely. The bubble currently stays fixed in one of six positions. It also has a current bug. The bug resets its location to the bottom right corner after every single minimization. 
+
+This shortcut offers a much faster alternative than opening the main Gemini app and side panel. Users can ask a question and minimize the screen immediately to perform other tasks. They no longer need to wait around for the response to finish loading. 
+
+Users can also utilize system Bubble options from Android seventeen with the Gemini app for a much richer experience. The new minimize button and the Gemini bubble are widely rolling out on Android today.
+
+═══ 05_NORMALIZED ═══
+
+Google is rolling out a new multitasking feature for the Artificial Intelligence, A. I., Gemini overlay on Android. Users can now minimize the interface into a floating bubble shortcut with the spark logo. A minimize button appears above the container. It centers itself right after a user enters a prompt. It then shifts to a pill-shaped container on the right side once the response loads.
+
+Google explains that the assistant remains available while you multitask. Users can tap to expand the bubble. They can also drag it to move it or dismiss it entirely. The bubble currently stays fixed in one of six positions. It also has a current bug. The bug resets its location to the bottom right corner after every single minimization.
+
+This shortcut offers a much faster alternative than opening the main Gemini app and side panel. Users can ask a question and minimize the screen immediately to perform other tasks. They no longer need to wait around for the response to finish loading.
+
+Users can also utilize system Bubble options from Android seventeen with the Gemini app for a much richer experience. The new minimize button and the Gemini bubble are widely rolling out on Android today.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: unspaced acronyms
+

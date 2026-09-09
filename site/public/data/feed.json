@@ -1,6 +1,831 @@
 {
   "stories": [
     {
+      "id": "rss-cnbc_top-79cbcd33bc84",
+      "title": "Treasury Department to buy back up to $6 billion in longer-term debt, triple the normal level",
+      "summary": "The Treasury Department will buy back up to six billion dollars of government debt in an operation on Thursday. The twenty minute window concludes at two p.m. E. T. This triples the normal two billion dollar buyback operation for already issued securities. Treasury Secretary Scott Bessent stated on August nineteenth that the department would at least double the normal amount. Future operations will be at least four billion dollars.\n\nThe measure targets ten and twenty year notes to keep government debt markets liquid. It attempts to put a lid on Treasury yields that hit highs not seen since before the two thousand eight global financial crisis. Market reaction was negative. Treasury yields rose further and remained volatile. Long dated securities rose as much as five basis points each before easing. The benchmark ten year issue hit four point eight four one percent around eleven thirty a.m. E. T. The twenty year climbed to five point three one four percent. The thirty year bond rose five basis points to five point three zero seven percent.\n\nHigher yields have coincided with government debt passing forty trillion dollars. Other factors include inflation fears from tariffs and the Iran war. Crude oil has also topped one hundred dollars a barrel. Publicly held debt sits at thirty one point eight trillion dollars. That is up eight point two percent. Treasury issuance jumped eleven point eight percent from twenty twenty-five.\n\nThe move drew criticism for breaking predictable Treasury processes. It also failed to match speculation that buybacks could reach up to ten billion dollars. Bond fund manager, Mark Spindel, is the chief investment officer at Potomac River Capital. He said this is not Hank Paulson's bazooka. He also noted that crisis required an act of Congress. Stanley Druckenmiller, head of Duquesne Family Office, criticized the defense of prices in a Wall Street Journal op-ed. He wrote that once markets believe Treasury is defending a price, every rise in yields becomes a test of official resolve. He added that operations must grow to survive the tests.",
+      "main": "BUSINESS",
+      "sub": "Finance & Fintech",
+      "category": "BUSINESS",
+      "subcategory": "Finance & Fintech",
+      "sources": [
+        {
+          "name": "cnbc_top",
+          "url": "https://www.cnbc.com/2026/09/09/treasury-department-to-buy-back-6-billion-in-longer-term-debt-triple-the-normal-level.html",
+          "domain": "cnbc.com",
+          "added_at": "2026-09-09T16:38:22.271468+00:00"
+        }
+      ],
+      "source": "cnbc_top",
+      "source_url": "https://www.cnbc.com/2026/09/09/treasury-department-to-buy-back-6-billion-in-longer-term-debt-triple-the-normal-level.html",
+      "source_domain": "cnbc.com",
+      "source_permalink": "https://www.cnbc.com/2026/09/09/treasury-department-to-buy-back-6-billion-in-longer-term-debt-triple-the-normal-level.html",
+      "score": 100,
+      "author": "",
+      "published_at": "2026-09-09T16:38:22.271468+00:00",
+      "created_at_ts": 1788967553,
+      "audio_path": "audio/2026-09-09/rss-cnbc_top-79cbcd33bc84-treasury-department-to-buy-back-up-to-6-billion-in-longer-te.mp3",
+      "word_count": 339,
+      "estimated_duration_s": 136,
+      "image_url": "https://image.cnbcfm.com/api/v1/image/108356369-1788183022484-gettyimages-2233913598-kd205923_mxbxztip.jpeg?v=1788183085&amp;w=1920&amp;h=1080",
+      "location": {
+        "name": "Washington",
+        "country": "United States",
+        "lat": 38.89,
+        "lng": -77.04
+      },
+      "audio_bytes": 928056,
+      "audio_duration_s": 119.8,
+      "tts_chunks": 27,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "rss-the_hindu-9b3f716fc548",
+      "title": "Manohar asks Jana Sena cadre to prepare for local body elections in Andhra Pradesh",
+      "summary": "Nadendla Manohar urged Jana Sena party workers on Wednesday to get ready for local body elections. He spoke at the final session of an awareness program held by the party. He stated that party president and Deputy Chief Minister K. Pawan Kalyan will make the final decisions on seat sharing. Manohar told coordination committees to stay active starting Thursday. They must talk with party workers and send reports using a special format from the central office. He added that Pawan Kalyan will be available starting September fifteenth for regular meetings and phone calls. At the same meeting, T. Sivashankar warned workers to stay alert against political rivals. He said opponents might try to create trouble inside the party and among alliance partners. Sivashankar claimed the YSR Congress Party could use money and propaganda during the vote. He told workers and Veera Mahilas to trust only news sent directly from the central office. He warned the cadre not to feel too comfortable just because they are part of the government. He also stressed the need for good discipline and teamwork with senior leaders.",
+      "main": "INDIA",
+      "sub": "Politics",
+      "category": "INDIA",
+      "subcategory": "Politics",
+      "sources": [
+        {
+          "name": "the_hindu",
+          "url": "https://www.thehindu.com/news/national/andhra-pradesh/manohar-asks-jana-sena-cadre-to-prepare-for-local-body-elections-in-andhra-pradesh/article71448041.ece",
+          "domain": "thehindu.com",
+          "added_at": "2026-09-09T16:28:10.492594+00:00"
+        }
+      ],
+      "source": "the_hindu",
+      "source_url": "https://www.thehindu.com/news/national/andhra-pradesh/manohar-asks-jana-sena-cadre-to-prepare-for-local-body-elections-in-andhra-pradesh/article71448041.ece",
+      "source_domain": "thehindu.com",
+      "source_permalink": "https://www.thehindu.com/news/national/andhra-pradesh/manohar-asks-jana-sena-cadre-to-prepare-for-local-body-elections-in-andhra-pradesh/article71448041.ece",
+      "score": 100,
+      "author": "",
+      "published_at": "2026-09-09T16:28:10.492594+00:00",
+      "created_at_ts": 1788967293,
+      "audio_path": "audio/2026-09-09/rss-the_hindu-9b3f716fc548-manohar-asks-jana-sena-cadre-to-prepare-for-local-body-elect.mp3",
+      "word_count": 182,
+      "estimated_duration_s": 73,
+      "image_url": "https://th-i.thgim.com/public/incoming/32527a/article71448340.ece/alternates/LANDSCAPE_1200/vjkvg-jsp%202.JPG",
+      "location": {
+        "name": "Amaravati",
+        "country": "India",
+        "lat": 16.51,
+        "lng": 80.52
+      },
+      "audio_bytes": 488376,
+      "audio_duration_s": 61.9,
+      "tts_chunks": 12,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "rss-phys_org-414aeef48ec6",
+      "title": "Physics-aware benchmark reveals why similar materials AI models can predict thermal conductivity differently",
+      "summary": "Researchers have published a new physics-aware benchmark in Nature Communications. The work evaluates machine learning models predicting the thermal and mechanical properties of materials. The lead researcher is, Michele Simoncelli, an assistant professor of applied physics at Columbia. Colleagues from the University of Cambridge also helped develop the project. Those researchers are, Balázs Póta, Paramvir Ahlawat, and, Gábor Csányi.\n\nThe benchmark addresses a major flaw in machine-learning interatomic potentials. These models can run one thousand times faster than traditional approaches. They achieve this speed by bypassing explicit solutions to the Schrödinger equation.\n\nAs Simoncelli stated, an atomistic model is physics-aware only when it correctly describes atomistic physics. It must predict macroscopic properties as a direct consequence of that accurate description.\n\nMany models show similar accuracy in predicting energy and crystal stability. However, the researchers found that these models distort the small and fast quantum-mechanical thermal vibrations of atoms. Sometimes they predict macroscopic thermal conductivity accurately only because microscopic errors accidentally cancel out.\n\nFirst author, Balázs Póta, explained that models were previously compared mainly on energy performance. This previous method missed potential errors in forces that determine atomic dynamics.\n\nThe benchmarking effort began about two years ago. It compared several models against traditional quantum-mechanical calculations. The test used a set of more than one hundred crystalline materials.\n\nThe benchmark has already been adopted by several research groups and companies. These include Meta, Microsoft, Radical A. I., and Orbital Materials. The test has also been incorporated into the Matbench Discovery leaderboard.\n\nThis adoption matters because thermal management is critical for many advanced technologies. These include microchips, batteries, quantum computers, jet engines, spacecraft heat shields, and nuclear reactors. Models that get underlying physics wrong can discard good material options and promote bad ones.",
+      "main": "SCIENCE",
+      "sub": "Materials & Chemistry",
+      "category": "SCIENCE",
+      "subcategory": "Materials & Chemistry",
+      "sources": [
+        {
+          "name": "phys_org",
+          "url": "https://phys.org/news/2026-09-physics-aware-benchmark-reveals-similar.html",
+          "domain": "phys.org",
+          "added_at": "2026-09-09T16:19:57.058690+00:00"
+        }
+      ],
+      "source": "phys_org",
+      "source_url": "https://phys.org/news/2026-09-physics-aware-benchmark-reveals-similar.html",
+      "source_domain": "phys.org",
+      "source_permalink": "https://phys.org/news/2026-09-physics-aware-benchmark-reveals-similar.html",
+      "score": 100,
+      "author": "",
+      "published_at": "2026-09-09T16:19:57.058690+00:00",
+      "created_at_ts": 1788967207,
+      "audio_path": "audio/2026-09-09/rss-phys_org-414aeef48ec6-physics-aware-benchmark-reveals-why-similar-materials-ai-mod.mp3",
+      "word_count": 290,
+      "estimated_duration_s": 116,
+      "image_url": null,
+      "location": null,
+      "audio_bytes": 949416,
+      "audio_duration_s": 121.2,
+      "tts_chunks": 24,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "rss-dw_top-f65064bf83a4",
+      "title": "Ethiopia's constitutional reform: What does it mean — especially for Abiy?",
+      "summary": "Four thousand delegates met in Addis Ababa for weeks of national consultations. They recommended merging the offices of Ethiopia's prime minister and president into a single system. The plan creates a stronger presidential government.\n\nAbiy Ahmed did not attend these meetings. He and his party could still benefit from the endorsement. He won a massive majority in parliamentary elections in June. That victory helps him advocate for broader executive powers.\n\nSupporters argue a directly elected president represents the entire country. They believe this leader could unite an ethnically and regionally fragmented society.\n\nCivil rights activist, Befeqadu Hailu, warned about the risks. He said presidential systems are more prone to descending into dictatorship. He noted that the current parliament lacks broad popular legitimacy despite having procedural power.\n\nOpposition parties and influential armed groups boycotted the dialogue process. British journalist, Martin Plaut, described the initiative as a rubber-stamping exercise for the prime minister. He added that the reform formalizes power held since twenty eighteen.\n\nPlaut views the structural change as a superficial fix. The plan fails to address underlying armed conflicts in Oromia and Amhara. It ignores unresolved issues from the Tigray war. It also leaves persistent tensions between the central government and more than eighty ethnic groups.",
+      "main": "WORLD",
+      "sub": "Politics & Elections",
+      "category": "WORLD",
+      "subcategory": "Politics & Elections",
+      "sources": [
+        {
+          "name": "dw_top",
+          "url": "https://www.dw.com/en/ethiopia-s-constitutional-reform-what-does-it-mean-especially-for-abiy/a-79172262?maca=en-rss-en-all-1573-rdf",
+          "domain": "dw.com",
+          "added_at": "2026-09-09T16:35:50.863875+00:00"
+        }
+      ],
+      "source": "dw_top",
+      "source_url": "https://www.dw.com/en/ethiopia-s-constitutional-reform-what-does-it-mean-especially-for-abiy/a-79172262?maca=en-rss-en-all-1573-rdf",
+      "source_domain": "dw.com",
+      "source_permalink": "https://www.dw.com/en/ethiopia-s-constitutional-reform-what-does-it-mean-especially-for-abiy/a-79172262?maca=en-rss-en-all-1573-rdf",
+      "score": 100,
+      "author": "",
+      "published_at": "2026-09-09T16:35:50.863875+00:00",
+      "created_at_ts": 1788967080,
+      "audio_path": "audio/2026-09-09/rss-dw_top-f65064bf83a4-ethiopia-s-constitutional-reform-what-does-it-mean-especiall.mp3",
+      "word_count": 206,
+      "estimated_duration_s": 82,
+      "image_url": null,
+      "location": {
+        "name": "Addis Ababa",
+        "country": "Ethiopia",
+        "lat": 9.03,
+        "lng": 38.74
+      },
+      "audio_bytes": 631824,
+      "audio_duration_s": 82.8,
+      "tts_chunks": 19,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "rss-france24_top-00bf4b24c0a4",
+      "title": "France's far-right National Rally fires policeman from security team over racist, sexist comments",
+      "summary": "France's far-right National Rally party has expelled a policeman from its security team. Bodycam footage published on Tuesday in the local daily Midi Libre revealed him making racist, homophobic, and sexist remarks. The footage, dated November of last year, captures the officer and colleagues in the southern town of Carcassonne using derogatory terms while on duty.\n\nThe National Rally denounced the remarks on Wednesday as criminally punishable and entirely at odds with party values. The party stated it immediately removed the officer from its security detail and expelled him from the party. The Carcassonne prosecutor's office has launched an investigation into the incident.\n\nThe controversy poses a challenge to party leader Marine Le Pen ahead of next year's presidential election. She is working to soften the image of the anti-immigration party inherited from her father. Le Pen is running for president for a fourth time and currently leads polls in the first round of voting next spring.\n\nPresident Emmanuel Macron's equality minister, Aurore Bergé, condemned the remarks as absolutely unacceptable. Former prime minister and presidential candidate, Gabriel Attal, shared the video on the social network formerly known as Twitter. He wrote that it depicts what a France led by the National Rally would look like.",
+      "main": "WORLD",
+      "sub": "Politics & Elections",
+      "category": "WORLD",
+      "subcategory": "Politics & Elections",
+      "sources": [
+        {
+          "name": "france24_top",
+          "url": "https://www.france24.com/en/france/20260909-france-s-far-right-national-rally-fires-policeman-from-security-team-over-racist-sexist-comments",
+          "domain": "france24.com",
+          "added_at": "2026-09-09T16:36:40.476775+00:00"
+        }
+      ],
+      "source": "france24_top",
+      "source_url": "https://www.france24.com/en/france/20260909-france-s-far-right-national-rally-fires-policeman-from-security-team-over-racist-sexist-comments",
+      "source_domain": "france24.com",
+      "source_permalink": "https://www.france24.com/en/france/20260909-france-s-far-right-national-rally-fires-policeman-from-security-team-over-racist-sexist-comments",
+      "score": 100,
+      "author": "FRANCE 24",
+      "published_at": "2026-09-09T16:36:40.476775+00:00",
+      "created_at_ts": 1788966962,
+      "audio_path": "audio/2026-09-09/rss-france24_top-00bf4b24c0a4-france-s-far-right-national-rally-fires-policeman-from-secur.mp3",
+      "word_count": 205,
+      "estimated_duration_s": 82,
+      "image_url": null,
+      "location": {
+        "name": "Paris",
+        "country": "France",
+        "lat": 48.86,
+        "lng": 2.35
+      },
+      "audio_bytes": 581688,
+      "audio_duration_s": 74.3,
+      "tts_chunks": 12,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "rss-techcrunch-d200a5fa1fd2",
+      "title": "Viral AI assistant Instinct now has its own email address",
+      "summary": "The artificial intelligence assistant named Instinct, currently valued at two point five billion dollars, is rolling out dedicated email addresses for all users. This allows the autonomous agent to create and run its own accounts without cluttering human inboxes.\n\nFounder, Noah Shinn announced the feature on Tuesday. He explained that the email addresses will let Instinct handle tasks requiring email verification. These tasks include signing up for services, contacting businesses, and following up on matters that need attention.\n\nAs, Shinn wrote on the social network X, Instinct can use its own email to contact a restaurant about a special request. It can also ask a business about availability or sign up for a service it needs to complete a task.\n\nUsers can forward order confirmations to their Instinct address so the assistant can handle product returns. People can also add the bot to group threads to track information and answer questions about pending decisions and due dates.\n\nThe earliest users already have reserved email addresses. Other people can claim theirs at mail dot instinct dot com.\n\nThis update follows a partnership with Stripe in August to enable agent purchases. It also follows a collaboration with the company, One Password last week to help manage user logins.",
+      "main": "AI",
+      "sub": "Products & Tools",
+      "category": "AI",
+      "subcategory": "Products & Tools",
+      "sources": [
+        {
+          "name": "techcrunch",
+          "url": "https://techcrunch.com/2026/09/09/viral-ai-assistant-instinct-now-has-its-own-email-address/",
+          "domain": "techcrunch.com",
+          "added_at": "2026-09-09T15:55:07.592015+00:00"
+        }
+      ],
+      "source": "techcrunch",
+      "source_url": "https://techcrunch.com/2026/09/09/viral-ai-assistant-instinct-now-has-its-own-email-address/",
+      "source_domain": "techcrunch.com",
+      "source_permalink": "https://techcrunch.com/2026/09/09/viral-ai-assistant-instinct-now-has-its-own-email-address/",
+      "score": 100,
+      "author": "Sarah Perez",
+      "published_at": "2026-09-09T15:55:07.592015+00:00",
+      "created_at_ts": 1788966792,
+      "audio_path": "audio/2026-09-09/rss-techcrunch-d200a5fa1fd2-viral-ai-assistant-instinct-now-has-its-own-email-address.mp3",
+      "word_count": 206,
+      "estimated_duration_s": 82,
+      "image_url": "https://techcrunch.com/wp-content/uploads/2026/09/instinct-email.jpeg?w=1200",
+      "location": {
+        "name": "San Francisco",
+        "country": "United States",
+        "lat": 37.78,
+        "lng": -122.42
+      },
+      "audio_bytes": 580920,
+      "audio_duration_s": 74.7,
+      "tts_chunks": 13,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "rss-livemint-8f882c42cef2",
+      "title": "ChatGPT 1980s photo trend: What happens to your picture after you upload it?",
+      "summary": "A viral chat g p t trend turns selfies into nineteen eighties style photos. This trend raises privacy questions about how personal images and data are handled.\n\nAccording to wired middle east, uploading a photo puts personal identifying data onto an A. I. service. The data includes metadata like when the picture was taken, the device used, and its location.\n\nThe uploaded photo becomes part of the user interaction and gets stored with conversation data. Chat g p t conversations stay on a user account until the user deletes them. Data can stay on open a i systems for up to thirty days after deletion.\n\nCertain information can be kept longer for legal or security reasons. Information can also be kept if it is de-identified and separated from the account.\n\nOpen a i states that its business products and a p i do not use customer data for model training by default. Data handling rules for personal accounts are different.\n\nServices can collect basic metadata. This includes I. P. addresses, device types, operating systems, and general geographic locations.\n\nUsers should avoid uploading photos of other people, especially children, without permission. Media reports recommend turning off model training where possible. Users should also use temporary or incognito modes, and delete unnecessary chats and files to protect their privacy.",
+      "main": "INDIA",
+      "sub": "Society",
+      "category": "INDIA",
+      "subcategory": "Society",
+      "sources": [
+        {
+          "name": "livemint",
+          "url": "https://www.livemint.com/news/trends/chatgpt-1980s-photo-trend-what-happens-to-your-picture-after-you-upload-it-11788963514823.html",
+          "domain": "livemint.com",
+          "added_at": "2026-09-09T16:29:27.398785+00:00"
+        }
+      ],
+      "source": "livemint",
+      "source_url": "https://www.livemint.com/news/trends/chatgpt-1980s-photo-trend-what-happens-to-your-picture-after-you-upload-it-11788963514823.html",
+      "source_domain": "livemint.com",
+      "source_permalink": "https://www.livemint.com/news/trends/chatgpt-1980s-photo-trend-what-happens-to-your-picture-after-you-upload-it-11788963514823.html",
+      "score": 100,
+      "author": "",
+      "published_at": "2026-09-09T16:29:27.398785+00:00",
+      "created_at_ts": 1788966673,
+      "audio_path": "audio/2026-09-09/rss-livemint-8f882c42cef2-chatgpt-1980s-photo-trend-what-happens-to-your-picture-after.mp3",
+      "word_count": 217,
+      "estimated_duration_s": 87,
+      "image_url": "https://www.livemint.com/lm-img/img/2026/09/09/1600x900/logo/Untitled_design_1788966352682_3852bce3-5f27-4158-bf64-a962b316128d_1788966358057_1e8b476e-c167-43da-85d4-0737a237fae0_18e11482-dfee-442c-b6e8-c3570f64d57e_775fb268-deee-4a2b-b95a-f008feb8fe87.png",
+      "location": {
+        "name": "San Francisco",
+        "country": "United States",
+        "lat": 37.78,
+        "lng": -122.42
+      },
+      "audio_bytes": 626664,
+      "audio_duration_s": 81.8,
+      "tts_chunks": 16,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "rss-new_scientist-699c50d1df41",
+      "title": "Denisovan tools from cave in China shows how mysterious humans lived",
+      "summary": "Researchers discovered Denisovan fossils and stone tools inside Bianfu cave in Yunnan province, China. They unearthed over sixty-four thousand bone fragments and one thousand three hundred sixty-six stone artefacts. The discovered Denisovan bones and teeth have been accurately dated between one hundred thirty-four thousand and one hundred sixty-seven thousand years old.\n\nMolecular analysis of proteins extracted from five specimens confirmed they belonged to Denisovans. These specimens were two teeth and three bones. They contained protein variants unique to the group without any specific to H. sapiens or Neanderthals. The teeth and bones came from at least four individuals.\n\nResearcher, Bence Viola noted this site is only the third Denisovan locale with human remains, lithics, fauna, and environmental context. The stone tools included scrapers, choppers, and one hundred thirty-five flakes. These tools were relatively simple compared with those made by Neanderthals living elsewhere in Eurasia at the same time.\n\nThe site yielded one thousand six hundred fifty-four identifiable animal bones showing butchery marks. These bones came predominantly from deer and bovids in prime condition, along with rhinoceroses, hyenas, and bamboo rats. Pollen evidence indicates the area was a mix of conifer forest and steppe with a temperate climate.\n\nFor the first time, we can know their technology and subsistence strategy. Archaeologist, Hao Li at the Institute of Tibetan Plateau Research in Beijing noted this milestone.",
+      "main": "SCIENCE",
+      "sub": "Biology & Medicine",
+      "category": "SCIENCE",
+      "subcategory": "Biology & Medicine",
+      "sources": [
+        {
+          "name": "new_scientist",
+          "url": "https://www.newscientist.com/article/2588304-denisovan-tools-from-cave-in-china-shows-how-mysterious-humans-lived/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+          "domain": "newscientist.com",
+          "added_at": "2026-09-09T16:18:12.101181+00:00"
+        }
+      ],
+      "source": "new_scientist",
+      "source_url": "https://www.newscientist.com/article/2588304-denisovan-tools-from-cave-in-china-shows-how-mysterious-humans-lived/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "source_domain": "newscientist.com",
+      "source_permalink": "https://www.newscientist.com/article/2588304-denisovan-tools-from-cave-in-china-shows-how-mysterious-humans-lived/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "score": 100,
+      "author": "Michael Marshall",
+      "published_at": "2026-09-09T16:18:12.101181+00:00",
+      "created_at_ts": 1788966000,
+      "audio_path": "audio/2026-09-09/rss-new_scientist-699c50d1df41-denisovan-tools-from-cave-in-china-shows-how-mysterious-huma.mp3",
+      "word_count": 224,
+      "estimated_duration_s": 90,
+      "image_url": "https://www.newscientist.com/wp-content/uploads/2026/09/SEI_311348058.jpg",
+      "location": {
+        "name": "Beijing",
+        "country": "China",
+        "lat": 39.9,
+        "lng": 116.4
+      },
+      "audio_bytes": 680232,
+      "audio_duration_s": 88.2,
+      "tts_chunks": 15,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "rss-quanta_magazine-ceaaf665d09d",
+      "title": "What Is Math’s Mysterious Langlands Program Really About?",
+      "summary": "The Langlands program is a decades long mathematical effort. It was launched in nineteen sixty-seven by Canadian mathematician Robert Langlands in a letter to a colleague. The project explores unexpected wormhole like connections between distant realms of mathematics. It links number theory with harmonic analysis. Number theory studies numbers and polynomial equations. Harmonic analysis examines signals and waves and modular forms.\n\nAt the heart of the project are profound correspondences between different mathematical objects. Solutions to the polynomial equation x cubed minus two equals zero generate an extended number field. This field has an associated Galois group of symmetries called S three. These symmetries can be expressed as two by two matrices. The Langlands correspondence shows that the matrix traces match coefficients of prime numbered powers in a specific modular form.\n\nHundreds of mathematicians have spent decades trying to extend and exploit these bridges between disparate fields. Expert David Ben Zvi of the University of Texas at Austin noted the breadth of the project. He stated that everyone has heard of it. He also noted that experts generally lack a complete understanding of what the program truly is.\n\nThe program is often called a grand unified theory of mathematics. It suggests an underlying unity to the mathematical universe. Its specific correspondences remain excruciatingly specific and esoteric and not yet fully mined for their deepest meaning.",
+      "main": "SCIENCE",
+      "sub": "Space & Physics",
+      "category": "SCIENCE",
+      "subcategory": "Space & Physics",
+      "sources": [
+        {
+          "name": "quanta_magazine",
+          "url": "https://www.quantamagazine.org/what-is-maths-mysterious-langlands-program-really-about-20260909/",
+          "domain": "quantamagazine.org",
+          "added_at": "2026-09-09T16:12:13.280115+00:00"
+        }
+      ],
+      "source": "quanta_magazine",
+      "source_url": "https://www.quantamagazine.org/what-is-maths-mysterious-langlands-program-really-about-20260909/",
+      "source_domain": "quantamagazine.org",
+      "source_permalink": "https://www.quantamagazine.org/what-is-maths-mysterious-langlands-program-really-about-20260909/",
+      "score": 100,
+      "author": "Natalie Wolchover",
+      "published_at": "2026-09-09T16:12:13.280115+00:00",
+      "created_at_ts": 1788965053,
+      "audio_path": "audio/2026-09-09/rss-quanta_magazine-ceaaf665d09d-what-is-maths-mysterious-langlands-program-really-about.mp3",
+      "word_count": 225,
+      "estimated_duration_s": 90,
+      "image_url": "https://www.quantamagazine.org/wp-content/uploads/2026/09/Qualia-Langlands-cr.Samuel-Velasco-Social.jpg",
+      "location": null,
+      "audio_bytes": 682632,
+      "audio_duration_s": 87.9,
+      "tts_chunks": 18,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "rss-aljazeera-e7059670bb95",
+      "title": "Torrential rains, winds from Hurricane Lowell leaves 30,000 without power",
+      "summary": "Hurricane Lowell brought heavy rains and strong winds to the Hawaiian island of Kauai. Thirty thousand residents were left without power. The category one hurricane did not make landfall on the island. It caused massive destruction from one hundred twenty-eight kilometres west of the island. This was reported by the Hawaii County Civil Defense Agency. By early Tuesday nearly ninety-two percent of Kauai Island Utility Cooperative residents lost power.\n\nThe storm flooded coastal roads and washed away sections of beachside roads. Roughly three hundred residents were forced to evacuate. Emergency officials asked residents to conserve water. They urged people to stay off the roads and shelter in place. Crews are now clearing debris and assessing the damage. Hawaiian mayor, Derek Kawakami reported extensive damage on Tuesday. He stated that everyone is now gathering data and information.\n\nThe storm center passed west of the islands overnight and moved north. The National Hurricane Center warned that flooding and mudslides remain a risk. By late Tuesday morning maximum sustained winds decreased to near sixty-five miles per hour. There were higher gusts as the storm moved north at fourteen miles per hour. Hurricane warnings for Kauai and Niihau were lifted by Tuesday morning. A tropical storm warning for Oahu was also lifted. High surf and deadly rip currents will continue to affect exposed coasts for another day or two.",
+      "main": "US",
+      "sub": "Disasters",
+      "category": "US",
+      "subcategory": "Disasters",
+      "sources": [
+        {
+          "name": "aljazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/9/torrential-rains-winds-from-hurricane-lowell-leaves-30000-without-power?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "added_at": "2026-09-09T16:33:09.330872+00:00"
+        }
+      ],
+      "source": "aljazeera",
+      "source_url": "https://www.aljazeera.com/news/2026/9/9/torrential-rains-winds-from-hurricane-lowell-leaves-30000-without-power?traffic_source=rss",
+      "source_domain": "aljazeera.com",
+      "source_permalink": "https://www.aljazeera.com/news/2026/9/9/torrential-rains-winds-from-hurricane-lowell-leaves-30000-without-power?traffic_source=rss",
+      "score": 100,
+      "author": "",
+      "published_at": "2026-09-09T16:33:09.330872+00:00",
+      "created_at_ts": 1788964964,
+      "audio_path": "audio/2026-09-09/rss-aljazeera-e7059670bb95-torrential-rains-winds-from-hurricane-lowell-leaves-30000-wi.mp3",
+      "word_count": 225,
+      "estimated_duration_s": 90,
+      "image_url": "https://www.aljazeera.com/wp-content/uploads/2026/09/afp_6aa1681e1e75-1788962846.jpg?resize=1920%2C1440",
+      "location": {
+        "name": "Doha",
+        "country": "Qatar",
+        "lat": 25.29,
+        "lng": 51.53
+      },
+      "audio_bytes": 637968,
+      "audio_duration_s": 82.7,
+      "tts_chunks": 20,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "rss-bbc_sport-c92197340f47",
+      "title": "What next for LIV Golf's star players, and its fight for survival?",
+      "summary": "L. I. V. Golf filed for bankruptcy protection in the United States on Tuesday.\n\nThe league wants to restructure for a new era next year.\n\nThis leaves the league owing at least forty-five million dollars to fourteen current and former players.\n\nCourt documents show the breakaway league estimates its assets at one hundred million to five hundred million dollars.\n\nIts liabilities are listed at between five hundred million dollars and one billion dollars.\n\nThis follows an outlay of five billion dollars that split professional golf after its launch in twenty twenty-one.\n\nStar players can now opt to leave rather than being obliged to see out their contracts in the new version of the league.\n\nThis new version aims to launch next year with a scaled-back business model.\n\nIt will feature tournaments worth around seven million pounds.\n\nIt will also feature expanded fields from fifty-seven to seventy-five players along with Monday qualifying events and halfway cuts.\n\nIn response to the filing, the D. P. World Tour stated it has had a high volume of inbound interest from L. I. V. players.\n\nThe tour is exploring ways to accommodate those who leave.\n\nPlayers must be free from third-party contractual restrictions and abide by membership regulations.\n\nA spokesperson for the D. P. World Tour said their tournament committee has approved the process.\n\nReturning to the mainstream tours remains complicated.\n\nBrooks Koepka previously quit L. I. V. in December twenty twenty-five.\n\nHe returned to the P. G. A. Tour in twenty twenty-six after making a five million dollar charitable donation.\n\nHe also gave up FedEx Cup bonus scheme payments.\n\nHe accepted ineligibility for the player equity programme until twenty thirty.\n\nHowever, P. G. A. Tour Chief Executive Officer Brian Rolapp indicated last month there are no current plans to run that returning member programme again.\n\nOther players like Patrick Reed have had to earn their place back through the D. P. World Tour Race to Dubai top ten.\n\nJon Rahm said this week he was prepared to fulfil his contract with the first version of L. I. V.\n\nHe made no mention of any commitment to the intended new iteration.\n\nHe is expected to depart alongside other players seeking a way back to the mainstream circuits.",
+      "main": "SPORTS",
+      "sub": "Golf",
+      "category": "SPORTS",
+      "subcategory": "Golf",
+      "sources": [
+        {
+          "name": "bbc_sport",
+          "url": "https://www.bbc.co.uk/sport/golf/articles/c0re742dpw1o?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "added_at": "2026-09-09T16:23:54.014025+00:00"
+        }
+      ],
+      "source": "bbc_sport",
+      "source_url": "https://www.bbc.co.uk/sport/golf/articles/c0re742dpw1o?at_medium=RSS&at_campaign=rss",
+      "source_domain": "bbc.co.uk",
+      "source_permalink": "https://www.bbc.co.uk/sport/golf/articles/c0re742dpw1o?at_medium=RSS&at_campaign=rss",
+      "score": 100,
+      "author": "",
+      "published_at": "2026-09-09T16:23:54.014025+00:00",
+      "created_at_ts": 1788963979,
+      "audio_path": "audio/2026-09-09/rss-bbc_sport-c92197340f47-what-next-for-liv-golf-s-star-players-and-its-fight-for-surv.mp3",
+      "word_count": 372,
+      "estimated_duration_s": 149,
+      "image_url": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/075a/live/435550c0-ac4d-11f1-96a2-2f464854ded4.jpg",
+      "location": {
+        "name": "London",
+        "country": "United Kingdom",
+        "lat": 51.51,
+        "lng": -0.13
+      },
+      "audio_bytes": 980304,
+      "audio_duration_s": 130.3,
+      "tts_chunks": 24,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "rss-guardian_sport-a53170f7b2cf",
+      "title": "Ben Shelton wins a night of vomit, sweat and home hopes to triumph at US Open",
+      "summary": "Ben Shelton defeated defending champion Carlos Alcaraz in a five-set quarter-final at the United States Open. The epic win started on Tuesday night and concluded on Wednesday morning. Ben Shelton fired seven aces during the grueling encounter to secure his historic tournament triumph. The match ended at three thirty-three a.m. at the Arthur Ashe Stadium. This marked the latest-ever finish at the tournament and the fifth-latest finish in grand slam history. Soccer star Trinity Rodman and Shelton's mother and sister watched the late-night match from the stands. The victory keeps alive a real chance of an American man winning the tournament for the first time since two thousand three.",
+      "main": "SPORTS",
+      "sub": "Tennis",
+      "category": "SPORTS",
+      "subcategory": "Tennis",
+      "sources": [
+        {
+          "name": "guardian_sport",
+          "url": "https://www.theguardian.com/sport/2026/sep/09/ben-shelton-carlos-alcaraz-us-open",
+          "domain": "theguardian.com",
+          "added_at": "2026-09-09T16:25:35.969018+00:00"
+        }
+      ],
+      "source": "guardian_sport",
+      "source_url": "https://www.theguardian.com/sport/2026/sep/09/ben-shelton-carlos-alcaraz-us-open",
+      "source_domain": "theguardian.com",
+      "source_permalink": "https://www.theguardian.com/sport/2026/sep/09/ben-shelton-carlos-alcaraz-us-open",
+      "score": 100,
+      "author": "Andrew Lawrence at Flushing Meadows",
+      "published_at": "2026-09-09T16:25:35.969018+00:00",
+      "created_at_ts": 1788963300,
+      "audio_path": "audio/2026-09-09/rss-guardian_sport-a53170f7b2cf-ben-shelton-wins-a-night-of-vomit-sweat-and-home-hopes-to-tr.mp3",
+      "word_count": 109,
+      "estimated_duration_s": 44,
+      "image_url": "https://i.guim.co.uk/img/media/4eb2fff1694f1839dd58363dff2a243f177c92d5/250_0_2500_2000/master/2500.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=889e2f4b394f10b01f13f826199c0ca6",
+      "location": {
+        "name": "New York",
+        "country": "United States",
+        "lat": 40.71,
+        "lng": -74.01
+      },
+      "audio_bytes": 306456,
+      "audio_duration_s": 38.6,
+      "tts_chunks": 8,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "rss-ars_technica-d306e5692dd7",
+      "title": "NOAA is putting commercial fishing ahead of conservation",
+      "summary": "The National Oceanic and Atmospheric Administration announced new agency priorities last week. The changes aim to cut bureaucracy and prioritize fishing communities. The reforms serve as an operational roadmap to fulfill the executive order signed by President Donald Trump in April twenty twenty-five. The order is called Restoring American Seafood Competitiveness.\n\nThe changes follow letters sent to regional fisheries councils earlier in the summer. Those letters directed councils to dismantle restrictions in favor of more permissive fishing procedures. The agency plans to open marine national monuments to commercial fishing operations. It will scale back critical habitat designations to focus on the downstream economics of conservation. It will also weaken decades of peer-reviewed science.\n\nThe National Oceanic and Atmospheric Administration is often called N. O. O. A., Andrea Treece criticized the direction in an email to Inside Climate News. She is a senior attorney in the Oceans Program at Earthjustice. She stated that if you asked A. I. to come up with a plan to hollow out marine ecosystems, it would look like this plan. She added that the agency is taking a sharp turn away from science. Treece also stated that it is inexcusable to make it easier to destroy marine habitats and commit endangered species to extinction for short-term profits.",
+      "main": "US",
+      "sub": "Policy Changes",
+      "category": "US",
+      "subcategory": "Policy Changes",
+      "sources": [
+        {
+          "name": "ars_technica",
+          "url": "https://arstechnica.com/science/2026/09/noaa-is-putting-commercial-fishing-ahead-of-conservation/",
+          "domain": "arstechnica.com",
+          "added_at": "2026-09-09T15:50:26.416031+00:00"
+        }
+      ],
+      "source": "ars_technica",
+      "source_url": "https://arstechnica.com/science/2026/09/noaa-is-putting-commercial-fishing-ahead-of-conservation/",
+      "source_domain": "arstechnica.com",
+      "source_permalink": "https://arstechnica.com/science/2026/09/noaa-is-putting-commercial-fishing-ahead-of-conservation/",
+      "score": 100,
+      "author": "Johnny Sturgeon, Inside Climate News",
+      "published_at": "2026-09-09T15:50:26.416031+00:00",
+      "created_at_ts": 1788962324,
+      "audio_path": "audio/2026-09-09/rss-ars_technica-d306e5692dd7-noaa-is-putting-commercial-fishing-ahead-of-conservation.mp3",
+      "word_count": 211,
+      "estimated_duration_s": 84,
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2024/03/GettyImages-588701496-1152x648.jpg",
+      "location": {
+        "name": "Washington",
+        "country": "United States",
+        "lat": 38.89,
+        "lng": -77.04
+      },
+      "audio_bytes": 619152,
+      "audio_duration_s": 79.2,
+      "tts_chunks": 14,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "rss-sciencedaily_top-07ec9f71aa04",
+      "title": "Scientists find a bone-building switch that could fight osteoporosis",
+      "summary": "Researchers at Leipzig University have identified a cell surface receptor called G. P. R. one thirty-three. It plays a key role in regulating bone health and points to a new treatment for osteoporosis. The findings were published on September ninth, twenty twenty-six. In Germany alone, osteoporosis affects about six million people. Most of those people are women.\n\nG. P. R. one thirty-three is an adhesion G. protein-coupled receptor. It responds to physical forces and cellular interactions inside bone tissue. When activated, the receptor shifts the biological balance. It encourages bone-forming cells called osteoblasts. It also reduces the activity of bone-resorbing cells called osteoclasts.\n\nResearchers used an experimental compound called A. P. five oh three. They found it via a computer-assisted screen to stimulate G. P. R. one thirty-three. The research team significantly increased bone strength in healthy mice and mice with osteoporosis-like bone loss. If this receptor is impaired by genetic changes, mice show early signs of bone density loss. This loss is similar to human osteoporosis. Lead investigator Professor, Ines Liebscher from the Rudolf Schönheimer Institute of Biochemistry noted that using A. P. five oh three successfully increased bone strength across the test subjects.\n\nAn earlier study found that A. P. five oh three activation also strengthens skeletal muscle. Because of this, the compound holds potential for combating age-related decline in an aging population. Lead author Doctor, Juliane Lehmann stated that the parallel strengthening of bone and muscle highlights the medical potential of the receptor. A treatment improving both tissues could help older adults maintain mobility and stability. It would also reduce fracture risks. The Leipzig team is now pursuing follow-up projects to understand G. P. R. one thirty-three more fully. They will also investigate potential applications in other diseases.",
+      "main": "SCIENCE",
+      "sub": "Biology & Medicine",
+      "category": "SCIENCE",
+      "subcategory": "Biology & Medicine",
+      "sources": [
+        {
+          "name": "sciencedaily_top",
+          "url": "https://www.sciencedaily.com/releases/2026/09/260909005305.htm",
+          "domain": "sciencedaily.com",
+          "added_at": "2026-09-09T16:22:08.642340+00:00"
+        }
+      ],
+      "source": "sciencedaily_top",
+      "source_url": "https://www.sciencedaily.com/releases/2026/09/260909005305.htm",
+      "source_domain": "sciencedaily.com",
+      "source_permalink": "https://www.sciencedaily.com/releases/2026/09/260909005305.htm",
+      "score": 100,
+      "author": "",
+      "published_at": "2026-09-09T16:22:08.642340+00:00",
+      "created_at_ts": 1788961973,
+      "audio_path": "audio/2026-09-09/rss-sciencedaily_top-07ec9f71aa04-scientists-find-a-bone-building-switch-that-could-fight-oste.mp3",
+      "word_count": 291,
+      "estimated_duration_s": 116,
+      "image_url": "https://www.sciencedaily.com/images/1920/osteoporosis-stages-bone-strength.webp",
+      "location": null,
+      "audio_bytes": 895656,
+      "audio_duration_s": 115.9,
+      "tts_chunks": 23,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "rss-nasa_breaking-9a6d92d1e13d",
+      "title": "NASA Names Two Artemis II Astronauts to Emeritus Program",
+      "summary": "National Aeronautics and Space Administration astronauts Victor Glover and Reid Wiseman are moving to emeritus status in September twenty twenty-six. This happens after their Artemis Two mission at the Johnson Space Center in Houston. The emeritus role lets experts donate time to train and mentor current workers. They keep the freedom to pursue other opportunities.\n\nVictor Glover was the pilot for Artemis Two. Reid Wiseman commanded the mission after spending one hundred sixty-five days aboard the International Space Station. They were two of four astronauts to launch on top of the Space Launch System rocket. They flew inside the Orion spacecraft for a mission around the Moon. They splashed down on April tenth as part of the first human crew to travel to lunar orbit in more than fifty years.\n\nBoth astronauts will share their expertise with flight controllers and engineers in their new roles. This happens as the agency prepares for Artemis Three and the Artemis Four mission in twenty twenty-eight.\n\nNational Aeronautics and Space Administration Administrator Jared Isaacman shared his thoughts. He is grateful they will continue sharing what they learned with the team as they prepare for Artemis Three in twenty twenty-seven and the missions that follow.",
+      "main": "SCIENCE",
+      "sub": "Space & Physics",
+      "category": "SCIENCE",
+      "subcategory": "Space & Physics",
+      "sources": [
+        {
+          "name": "nasa_breaking",
+          "url": "https://www.nasa.gov/news-release/nasa-names-two-artemis-ii-astronauts-to-emeritus-program/",
+          "domain": "nasa.gov",
+          "added_at": "2026-09-09T16:15:50.290739+00:00"
+        }
+      ],
+      "source": "nasa_breaking",
+      "source_url": "https://www.nasa.gov/news-release/nasa-names-two-artemis-ii-astronauts-to-emeritus-program/",
+      "source_domain": "nasa.gov",
+      "source_permalink": "https://www.nasa.gov/news-release/nasa-names-two-artemis-ii-astronauts-to-emeritus-program/",
+      "score": 100,
+      "author": "Gerelle Q. Dodson",
+      "published_at": "2026-09-09T16:15:50.290739+00:00",
+      "created_at_ts": 1788960277,
+      "audio_path": "audio/2026-09-09/rss-nasa_breaking-9a6d92d1e13d-nasa-names-two-artemis-ii-astronauts-to-emeritus-program.mp3",
+      "word_count": 200,
+      "estimated_duration_s": 80,
+      "image_url": "https://www.nasa.gov/wp-content/uploads/2026/09/glover-and-wiseman-announcement-sept-9.jpg",
+      "location": {
+        "name": "Washington",
+        "country": "United States",
+        "lat": 38.89,
+        "lng": -77.04
+      },
+      "audio_bytes": 536376,
+      "audio_duration_s": 68.8,
+      "tts_chunks": 13,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "rss-wired-bc920c5beeff",
+      "title": "A Stealth Startup Thinks It Just Hacked the Memory Shortage",
+      "summary": "San Jose startup Kepler Computing has emerged from seven years in stealth mode. It has raised four hundred sixty-eight million dollars in funding. The United States Department of Commerce committed up to two hundred forty-five million dollars in July.\n\nPhysicists and computer scientists founded the company in twenty eighteen. They developed a three dimensional stacking approach and a proprietary material. This technology handles high bandwidth memory and high speed cache memory. It completely bypasses expensive extreme ultraviolet lithography.\n\nThe startup technology increases density without extreme ultraviolet equipment. It works directly inside existing semiconductor fabrication plants. A factory can convert its lines in eight months instead of the typical twenty-four months.\n\nKepler raised capital from several major backers. Investors include GlobalFoundries, Intel Capital, AMD Ventures, Baillie Gifford, and Bill Gates through Gates Frontier.\n\nThe company partnered directly with GlobalFoundries. That partner invested fifty million dollars. GlobalFoundries also hosts testing at facilities in Singapore and Burlington, Vermont.\n\nKepler plans to ship its first high bandwidth memory chip samples later this year. The company will ramp up production in Singapore next year. United States chip production will begin in twenty twenty-eight. The startup has already run its technology on roughly two thousand wafers to date.\n\nChief executive officer Debo Olaosebikan explained the strategy. He said the team originally planned to work on static random-access memory first. Dynamic random-access memory and high bandwidth memory would follow later.\n\nThe launch of ChatGPT changed everything. The explosion of demand for alternative memory forced a shift in the road map. Now the company is making static random-access memory and high bandwidth memory at the same time.\n\nThe new approach aims to ease the global memory chip shortage. Manufacturers can increase memory supply within existing facilities. This avoids the twenty billion to forty billion dollar cost of building brand new plants. Success depends on the startup scaling its technology to millions of devices.",
+      "main": "TECH",
+      "sub": "Startups",
+      "category": "TECH",
+      "subcategory": "Startups",
+      "sources": [
+        {
+          "name": "wired",
+          "url": "https://www.wired.com/story/a-new-dollar400-million-startup-wants-to-fix-the-ai-memory-bottleneck/",
+          "domain": "wired.com",
+          "added_at": "2026-09-09T15:59:01.021091+00:00"
+        }
+      ],
+      "source": "wired",
+      "source_url": "https://www.wired.com/story/a-new-dollar400-million-startup-wants-to-fix-the-ai-memory-bottleneck/",
+      "source_domain": "wired.com",
+      "source_permalink": "https://www.wired.com/story/a-new-dollar400-million-startup-wants-to-fix-the-ai-memory-bottleneck/",
+      "score": 100,
+      "author": "Lauren Goode",
+      "published_at": "2026-09-09T15:59:01.021091+00:00",
+      "created_at_ts": 1788958800,
+      "audio_path": "audio/2026-09-09/rss-wired-bc920c5beeff-a-stealth-startup-thinks-it-just-hacked-the-memory-shortage.mp3",
+      "word_count": 315,
+      "estimated_duration_s": 126,
+      "image_url": "https://media.wired.com/photos/6a99ec2e5d2ca173f400bbc3/191:100/w_1280,c_limit/00-kepler-wafer_memory_technology.jpg",
+      "location": {
+        "name": "San Francisco",
+        "country": "United States",
+        "lat": 37.78,
+        "lng": -122.42
+      },
+      "audio_bytes": 990216,
+      "audio_duration_s": 127.1,
+      "tts_chunks": 29,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "rss-times_of_india-7705729681b9",
+      "title": "New satellite images show major construction surge at Iran’s Pickaxe nuke site",
+      "summary": "Satellite imagery reviewed by C. N. N. reveals a sharp surge in construction activity in twenty twenty-six at Iran’s Pickaxe Mountain site. This suspected nuclear facility is buried beneath a granite mountain near the Natanz complex about one hundred forty miles south of Tehran.\n\nThe analysis was conducted by the Center for Strategic and International Studies and is based on six years of imagery. It shows the site has shifted from active excavation toward internal construction. There is also exterior reinforcement, road paving, and hardening of tunnel portal accesses.\n\nAnalysts indicated the facility is likely designed as a safe haven or housing for Iran's nuclear programme. It could serve as a potential centrifuge assembly plant, an enrichment facility, or a location for uranium metal conversion. However, it is not yet capable of enrichment work.\n\nU. S. President Donald Trump has repeatedly threatened to strike the heavily fortified location. He stated last week that they may hit Pickaxe very soon. He also noted that they know everyone moving at the site.\n\nThe U. S. military maintains operational plans for strikes against Pickaxe Mountain using some of the largest bombs in its arsenal. The granite mountain presents a difficult target. A defence agency signed an emergency one point two million dollar contract justification for a subterranean test facility. Meanwhile, the U. S. military is currently developing a next generation penetrator bomb to reach deeply buried targets.",
+      "main": "WORLD",
+      "sub": "Conflict & Security",
+      "category": "WORLD",
+      "subcategory": "Conflict & Security",
+      "sources": [
+        {
+          "name": "times_of_india",
+          "url": "https://timesofindia.indiatimes.com/world/middle-east/satellite-images-show-major-construction-surge-at-irans-underground-pickaxe-site-amid-us-war/articleshow/133967582.cms",
+          "domain": "timesofindia.indiatimes.com",
+          "added_at": "2026-09-09T16:31:03.069377+00:00"
+        }
+      ],
+      "source": "times_of_india",
+      "source_url": "https://timesofindia.indiatimes.com/world/middle-east/satellite-images-show-major-construction-surge-at-irans-underground-pickaxe-site-amid-us-war/articleshow/133967582.cms",
+      "source_domain": "timesofindia.indiatimes.com",
+      "source_permalink": "https://timesofindia.indiatimes.com/world/middle-east/satellite-images-show-major-construction-surge-at-irans-underground-pickaxe-site-amid-us-war/articleshow/133967582.cms",
+      "score": 100,
+      "author": "YASHASVI VASISTHA",
+      "published_at": "2026-09-09T16:31:03.069377+00:00",
+      "created_at_ts": 1788955951,
+      "audio_path": "audio/2026-09-09/rss-times_of_india-7705729681b9-new-satellite-images-show-major-construction-surge-at-irans-.mp3",
+      "word_count": 234,
+      "estimated_duration_s": 94,
+      "image_url": "https://static.toiimg.com/thumb/msid-133968603,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
+      "location": {
+        "name": "Tehran",
+        "country": "Iran",
+        "lat": 35.69,
+        "lng": 51.39
+      },
+      "audio_bytes": 680208,
+      "audio_duration_s": 88.1,
+      "tts_chunks": 15,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "rss-mit_tech_review-af827a7c3f87",
+      "title": "The Download: OpenAI’s turning point for math and a battery record",
+      "summary": "OpenAI states its agents solved the Navier-Stokes equations. This was a ninety-year-old mathematics problem. It took eighty-eight hours and ten thousand A. I. agents. The achievement involved spending millions of dollars to win a one million dollar math contest. It marks what OpenAI claims is the first major math problem solved by artificial intelligence. However, the announcement has been overshadowed by accusations. Critics say OpenAI failed to credit researchers whose A. I.-assisted work influenced the solution. Meanwhile, United States battery installations reached a record twenty point two gigawatt-hours of new capacity in the second quarter of twenty twenty-six. This is enough to supply the daily electricity needs of six hundred thousand homes. The surge places the country on track for another record year. It is driven by cheaper batteries and rising energy storage demands from grid renewables. Danijar Hafner is developing A. I. agents. These agents are capable of planning ahead and navigating unfamiliar environments. The United States accused six Chinese A. I. firms of industrial-scale theft. These firms include DeepSeek and Alibaba. Apple is expected to unveil a folding smartphone priced at two thousand dollars. Meta also launched an A. I. agent named Muse. Muse is capable of accessing apps to send emails and make payments. Internal tests showed it could expose sensitive personal data.",
+      "main": "AI",
+      "sub": "Models & Research",
+      "category": "AI",
+      "subcategory": "Models & Research",
+      "sources": [
+        {
+          "name": "mit_tech_review",
+          "url": "https://www.technologyreview.com/2026/09/09/1143767/the-download-openai-math-future-battery-record/",
+          "domain": "technologyreview.com",
+          "added_at": "2026-09-09T15:48:19.790135+00:00"
+        }
+      ],
+      "source": "mit_tech_review",
+      "source_url": "https://www.technologyreview.com/2026/09/09/1143767/the-download-openai-math-future-battery-record/",
+      "source_domain": "technologyreview.com",
+      "source_permalink": "https://www.technologyreview.com/2026/09/09/1143767/the-download-openai-math-future-battery-record/",
+      "score": 100,
+      "author": "Thomas Macaulay",
+      "published_at": "2026-09-09T15:48:19.790135+00:00",
+      "created_at_ts": 1788955800,
+      "audio_path": "audio/2026-09-09/rss-mit_tech_review-af827a7c3f87-the-download-openais-turning-point-for-math-and-a-battery-re.mp3",
+      "word_count": 216,
+      "estimated_duration_s": 86,
+      "image_url": "https://wp.technologyreview.com/wp-content/uploads/2026/09/math-2c.jpg?resize=1200,600",
+      "location": {
+        "name": "San Francisco",
+        "country": "United States",
+        "lat": 37.78,
+        "lng": -122.42
+      },
+      "audio_bytes": 660984,
+      "audio_duration_s": 85.0,
+      "tts_chunks": 19,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "rss-bbc_world-67eacb47c09d",
+      "title": "Russia and Ukraine exchange strikes as two killed at Moldova border",
+      "summary": "Two people were killed when Russian drones struck the Starokozache border crossing between Ukraine and Moldova. The strike forced the facility to close. Ukrainian President Volodymyr Zelensky stated that the aggression must be stopped here and now before it spreads any further. The overnight attack also injured three people, including a Moldovan driver. This was reported by Odesa regional head Oleh Kiper and the foreign ministry of Moldova. In the Ukrainian capital of Kyiv, a woman was killed and fourteen people were injured. That total includes two children after a Russian drone hit a nine storey residential building. In Russia, officials reported that four people were killed and twenty-nine others injured in a Ukrainian drone attack. The strike happened in the Black Sea port of Novorossiysk. Governor Veniamin Kondratiev described it as a massive overnight enemy drone attack. A child was among those killed in that port city. A drone also hit an industrial facility in the Arctic city of Novy Urengoy. That location is nearly three thousand kilometres from Ukraine. Falling wreckage triggered a fire there with no injuries reported, according to regional governor Dmitry Artyukhov. The defence ministry of Russia stated its forces shot down five hundred ninety-six Ukrainian drones overnight. The cross-border strikes occurred as Russia and Ukraine stepped up long-range attacks. This happened despite renewed diplomatic efforts following a phone call between Russian President Vladimir Putin and United States President Donald Trump about ending the war. Weekend meetings also took place in Moscow and Kyiv involving United States envoys Jared Kushner and Steve Witkoff.",
+      "main": "WORLD",
+      "sub": "Conflict & Security",
+      "category": "WORLD",
+      "subcategory": "Conflict & Security",
+      "sources": [
+        {
+          "name": "bbc_world",
+          "url": "https://www.bbc.co.uk/news/articles/cvgyvpxe3yjo?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "added_at": "2026-09-09T16:32:11.104417+00:00"
+        }
+      ],
+      "source": "bbc_world",
+      "source_url": "https://www.bbc.co.uk/news/articles/cvgyvpxe3yjo?at_medium=RSS&at_campaign=rss",
+      "source_domain": "bbc.co.uk",
+      "source_permalink": "https://www.bbc.co.uk/news/articles/cvgyvpxe3yjo?at_medium=RSS&at_campaign=rss",
+      "score": 100,
+      "author": "",
+      "published_at": "2026-09-09T16:32:11.104417+00:00",
+      "created_at_ts": 1788951558,
+      "audio_path": "audio/2026-09-09/rss-bbc_world-67eacb47c09d-russia-and-ukraine-exchange-strikes-as-two-killed-at-moldova.mp3",
+      "word_count": 258,
+      "estimated_duration_s": 103,
+      "image_url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/cd22/live/97c3c920-ac39-11f1-b483-f5be285e6b7e.jpg",
+      "location": {
+        "name": "Chișinău",
+        "country": "Moldova",
+        "lat": 47.01,
+        "lng": 28.86
+      },
+      "audio_bytes": 737304,
+      "audio_duration_s": 94.8,
+      "tts_chunks": 18,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "rss-mit_tech_review-c1bc0abb2c05",
+      "title": "Batteries just broke another record in the US",
+      "summary": "Battery installations in the United States reached a record twenty point two gigawatt hours of new capacity in the second quarter of twenty twenty-six. This comes from a report by Benchmark Mineral Intelligence and the Solar Energy Industries Association. That capacity supplies the daily electricity needs of about seven hundred thousand homes. The surge puts the country on a trajectory to install seventy-one gigawatt hours of batteries this year. That is a twenty percent increase over last year. Cheaper batteries and the need for storage are driving this growth as solar and wind power join the grid. Massive utility scale systems drove the record quarter. This includes seven new gigascale installations with a capacity of over one gigawatt hour each. Shan Tomouk, energy storage and energy lead for Benchmark Mineral Intelligence, stated that it really came down to a handful of big projects. Behind the meter batteries also grew. Data centers led the commercial sector by making up about three quarters of new batteries. Residential batteries saw a sharp slowdown. Home installations are projected to drop by sixteen percent in twenty twenty-six compared to last year. Tomouk noted that this drop happened largely because a tax credit subsidizing home battery systems ended in twenty twenty-five. Home installations should recover by the end of the decade, and nonresidential tax credits have largely survived. Isshu Kikuma, an energy storage analyst at BloombergNEF, described the sector as one of the strong spots in United States energy right now. Nearly all the systems coming online use cells made in China.",
+      "main": "SCIENCE",
+      "sub": "Climate & Environment",
+      "category": "SCIENCE",
+      "subcategory": "Climate & Environment",
+      "sources": [
+        {
+          "name": "mit_tech_review",
+          "url": "https://www.technologyreview.com/2026/09/09/1143680/batteries-us-record/",
+          "domain": "technologyreview.com",
+          "added_at": "2026-09-09T16:47:16.189245+00:00"
+        }
+      ],
+      "source": "mit_tech_review",
+      "source_url": "https://www.technologyreview.com/2026/09/09/1143680/batteries-us-record/",
+      "source_domain": "technologyreview.com",
+      "source_permalink": "https://www.technologyreview.com/2026/09/09/1143680/batteries-us-record/",
+      "score": 100,
+      "author": "Casey Crownhart",
+      "published_at": "2026-09-09T16:47:16.189245+00:00",
+      "created_at_ts": 1788944400,
+      "audio_path": "audio/2026-09-09/rss-mit_tech_review-c1bc0abb2c05-batteries-just-broke-another-record-in-the-us.mp3",
+      "word_count": 256,
+      "estimated_duration_s": 102,
+      "image_url": "https://wp.technologyreview.com/wp-content/uploads/2026/09/GettyImages-1926227948.jpg?resize=1200,600",
+      "location": {
+        "name": "Washington",
+        "country": "United States",
+        "lat": 38.89,
+        "lng": -77.04
+      },
+      "audio_bytes": 724608,
+      "audio_duration_s": 92.5,
+      "tts_chunks": 17,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "rss-guardian_world-4511941ef3b0",
+      "title": "Family of British man found dead in Grenada ask local police to work with UK investigators",
+      "summary": "The family of forty-seven-year-old British father Andrew Frederick is urging local authorities to cooperate with United Kingdom investigators. Frederick was found dead in Grenada on the fourth of January. His body was discovered at his rental property. A privately hired pathologist concluded that week that he was a victim of homicide. In June, the director of public prosecution in Grenada, Howard Pinnock, stated there was no basis to treat the case as a homicide. He added that it would be sent to the coroner.\n\nAfter a sustained campaign by the family, British authorities became involved. The body of Frederick was repatriated to the United Kingdom last month. A second autopsy revealed his organs were missing. The United Kingdom coroner recorded his cause of death as unascertained. Last week at the West London coroner court, senior coroner Lydia Brown suspended the inquest. This happened after the Metropolitan Police launched a criminal investigation. No arrests have been made. Officers from the Metropolitan Police have contacted the Royal Grenada Police Force to offer assistance.\n\nIn a statement to the Guardian, the family said justice for Andrew depends on everyone with the power to act on both sides of the Atlantic doing what is right. They are calling on Grenadian authorities to share information and collaborate with the Metropolitan Police. They are also seeking answers regarding the absence of the organs of Frederick. The Office of the Commissioner in Grenada stated that the matter will progress to the coroner court for the parish of Saint George.",
+      "main": "WORLD",
+      "sub": "Society & Culture",
+      "category": "WORLD",
+      "subcategory": "Society & Culture",
+      "sources": [
+        {
+          "name": "guardian_world",
+          "url": "https://www.theguardian.com/world/2026/sep/09/family-andrew-frederick-british-man-found-dead-grenada-local-police-uk-investigators",
+          "domain": "theguardian.com",
+          "added_at": "2026-09-09T16:34:12.576931+00:00"
+        }
+      ],
+      "source": "guardian_world",
+      "source_url": "https://www.theguardian.com/world/2026/sep/09/family-andrew-frederick-british-man-found-dead-grenada-local-police-uk-investigators",
+      "source_domain": "theguardian.com",
+      "source_permalink": "https://www.theguardian.com/world/2026/sep/09/family-andrew-frederick-british-man-found-dead-grenada-local-police-uk-investigators",
+      "score": 100,
+      "author": "Natricia Duncan and agencies",
+      "published_at": "2026-09-09T16:34:12.576931+00:00",
+      "created_at_ts": 1788940803,
+      "audio_path": "audio/2026-09-09/rss-guardian_world-4511941ef3b0-family-of-british-man-found-dead-in-grenada-ask-local-police.mp3",
+      "word_count": 252,
+      "estimated_duration_s": 101,
+      "image_url": "https://i.guim.co.uk/img/media/c601f3cefd8c2ed9566d6f0f45ec20f5e9f80c3e/593_0_6014_4810/master/6014.jpg?width=1200&height=630&quality=85&auto=format&fit=crop&precrop=40:21,offset-x50,offset-y0&overlay-align=bottom%2Cleft&overlay-width=100p&overlay-base64=L2ltZy9zdGF0aWMvb3ZlcmxheXMvdGctZGVmYXVsdC5wbmc&enable=upscale&s=09674e5e88864e2182347c74ca1f412a",
+      "location": {
+        "name": "St. George's",
+        "country": "Grenada",
+        "lat": 12.05,
+        "lng": -61.75
+      },
+      "audio_bytes": 687360,
+      "audio_duration_s": 88.5,
+      "tts_chunks": 18,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
       "id": "rss-dw_top-e311c5b96002",
       "title": "BRICS leaders gather in India, but does the group have a clear purpose?",
       "summary": "India is hosting the eighteenth B. R. I. C. S. summit in Delhi this weekend. The slogan is Building for Resilience, Innovation, Cooperation and Sustainability. This reinterprets the original acronym for the five founding members of Brazil, Russia, India, China, and South Africa. It now includes new members Egypt, Ethiopia, Indonesia, Iran, and the United Arab Emirates. The bloc now represents nearly half the world population and about forty percent of global G. D. P.\n\nMihaela Papa, director of the B. R. I. C. S. Lab at the Massachusetts Institute of Technology, noted that India adds clout. It has significant geopolitical weight and relationships across competing camps. This makes it an important bridge builder.\n\nIranian President Masoud Pezeshkian will attend. United Arab Emirates President Sheikh Mohamed bin Zayed Al Nahyan is expected to send representatives. Saudi Arabia is also expected to attend even though its B. R. I. C. S. status remains somewhat ambiguous.\n\nFor host India, the summit serves as a platform for bilateral meetings. This includes a scheduled Friday meeting between Putin and Indian Prime Minister Narendra Modi. It is also an opportunity for Modi and Xi to speak face to face amid continued strain in the China and India relationship.\n\nYale University lecturer Sushant Singh stated that concrete outcomes and what is achievable will likely be very limited. B. R. I. C. S. is simply not a priority for India. India is not comfortable with any kind of anti-western line. It focuses instead on defense ties with the U. S. and trade ties with the west as a whole.\n\nPapa expects progress this weekend specifically in trade and agriculture. Progress will also involve monetary cooperation using an alternative financial architecture for currency exchange. She noted that India is keen for a coordinated approach from B. R. I. C. S. to trade and the World Trade Organization.\n\nHowever, Singh maintains that internal contradictions will continue to make consensus difficult. These include a growing number of autocracies and tense bilateral relations among members.",
@@ -467,6 +1292,276 @@
       "audio_bytes": 629568,
       "audio_duration_s": 80.8,
       "tts_chunks": 13,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "tldr-ai-6a9020354215",
+      "title": "&gt;10x More Efficient Pretraining",
+      "summary": "Magic announced that its pretraining recipe is now more than ten times more compute-efficient than leading open-weight base models. It matches the DeepSeek V four Pro Base using roughly fifty times fewer floating-point operations. Their goal is to build the best model for coding and autonomous A. I. research and development. They plan to do this through pretraining and agentic reinforcement learning alongside long-context capabilities. According to the company, this initial efficiency equals about half of G. P. T. dash three's pretraining compute. That is roughly zero point five million dollars on G. B. two hundred hardware. After scaling up ten times further at a cost of around four million dollars, the company reported outperforming all publicly available open base models on perplexity evaluations. By comparison, Magic stated that under DeepSeek V four Pro's recipe, training a model of equivalent capability would cost more than one hundred million dollars. To measure these capabilities without prompt sensitivity, the team tracked bits-per-byte loss on held-out data. They also evaluated models across one hundred sixty-seven domains. The company's future roadmap focuses on scaling long-horizon reinforcement learning. They are also developing alignment techniques with robust theoretical properties while preparing to release their upcoming models.",
+      "main": "AI",
+      "sub": "Models & Research",
+      "category": "AI",
+      "subcategory": "Models & Research",
+      "sources": [
+        {
+          "name": "tldr_ai",
+          "url": "https://magic.dev/blog/pretraining",
+          "domain": "magic.dev",
+          "added_at": "2026-09-09T15:34:36.857636+00:00"
+        }
+      ],
+      "source": "tldr_ai",
+      "source_url": "https://magic.dev/blog/pretraining",
+      "source_domain": "magic.dev",
+      "source_permalink": "https://tldr.tech/ai/2026-09-09",
+      "score": 350,
+      "author": "TLDR",
+      "published_at": "2026-09-09T15:34:36.857636+00:00",
+      "created_at_ts": 1788912000,
+      "audio_path": "audio/2026-09-09/tldr-ai-6a9020354215-10x-more-efficient-pretraining.mp3",
+      "word_count": 200,
+      "estimated_duration_s": 80,
+      "image_url": null,
+      "location": {
+        "name": "San Francisco",
+        "country": "United States",
+        "lat": 37.78,
+        "lng": -122.42
+      },
+      "audio_bytes": 606648,
+      "audio_duration_s": 77.4,
+      "tts_chunks": 12,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "tldr-infosec-267730c2e9eb",
+      "title": "220M Traveler Records Exposed in Vietnam-Linked APIS Leak",
+      "summary": "A massive database containing traveler and crew records was exposed online. Researchers at, Kinryū Labs discovered the leak.\n\nThe exposed database held over two hundred twenty million records. It leaked due to a chain of security misconfigurations.\n\nThe researchers found the exposed cluster on June third. They were surveying databases as part of research into ransomware activity.\n\nThe cluster was hosted in Hanoi. It held approximately one hundred seven gigabytes of data across twenty-nine indices.\n\nThe records included over two hundred ten million passenger entries. They also included over ten million crew entries.\n\nThe data spanned from January twenty-fourseen to April twenty twenty-six.\n\nThe exposed information featured names and dates of birth. It also included sex and nationalities and passport numbers.\n\nOther exposed fields included document expiration dates and issuing countries. Flight numbers and airlines were also exposed.\n\nDeparture and destination airports were in the data. Seat assignments and baggage references and flight times were exposed too.\n\nSample records reviewed by BleepingComputer included travelers of various nationalities. These included Korean and Chinese and Canadian and New Zealand nationalities.\n\nThe researchers accessed the database by chaining two misconfigurations. They overcame an initial H. T. T. P. four hundred one unauthorized response.\n\nThey used a cloud-based path that accepted default credentials.\n\nAn internet intelligence platform named, FOFA first recorded the host and port in October twenty twenty-two. The exact duration of the exposure remains unknown.\n\nKinryū Labs reported the vulnerability to Vietnamese authorities on June third. They also reported it to airlines and national computer emergency response teams.\n\nAccess to the database was remediated on June eighth. Singapore Airlines security team helped secure it.\n\nVietnamese authorities did not respond to requests for comment. It remains unclear whether malicious actors accessed or copied the data before it was secured.\n\nResearchers found no server logs or ransom notes. They also found no unfamiliar indices.",
+      "main": "TECH",
+      "sub": "Security & Privacy",
+      "category": "TECH",
+      "subcategory": "Security & Privacy",
+      "sources": [
+        {
+          "name": "tldr_infosec",
+          "url": "https://www.bleepingcomputer.com/news/security/220-million-traveler-records-exposed-in-vietnam-linked-apis-leak/",
+          "domain": "bleepingcomputer.com",
+          "added_at": "2026-09-09T15:36:22.260857+00:00"
+        }
+      ],
+      "source": "tldr_infosec",
+      "source_url": "https://www.bleepingcomputer.com/news/security/220-million-traveler-records-exposed-in-vietnam-linked-apis-leak/",
+      "source_domain": "bleepingcomputer.com",
+      "source_permalink": "https://tldr.tech/infosec/2026-09-09",
+      "score": 350,
+      "author": "TLDR",
+      "published_at": "2026-09-09T15:36:22.260857+00:00",
+      "created_at_ts": 1788912000,
+      "audio_path": "audio/2026-09-09/tldr-infosec-267730c2e9eb-220m-traveler-records-exposed-in-vietnam-linked-apis-leak.mp3",
+      "word_count": 310,
+      "estimated_duration_s": 124,
+      "image_url": "https://www.bleepstatic.com/content/hl-images/2017/05/29/Airport.jpg",
+      "location": {
+        "name": "Hanoi",
+        "country": "Vietnam",
+        "lat": 21.03,
+        "lng": 105.85
+      },
+      "audio_bytes": 983424,
+      "audio_duration_s": 130.2,
+      "tts_chunks": 32,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "tldr-design-737395b4b323",
+      "title": "Gemini overlay gets bubble minimization and multitasking on Android",
+      "summary": "Google is rolling out a new multitasking feature for the Artificial Intelligence, A. I., Gemini overlay on Android. Users can now minimize the interface into a floating bubble shortcut with the spark logo. A minimize button appears above the container. It centers itself right after a user enters a prompt. It then shifts to a pill-shaped container on the right side once the response loads.\n\nGoogle explains that the assistant remains available while you multitask. Users can tap to expand the bubble. They can also drag it to move it or dismiss it entirely. The bubble currently stays fixed in one of six positions. It also has a current bug. The bug resets its location to the bottom right corner after every single minimization.\n\nThis shortcut offers a much faster alternative than opening the main Gemini app and side panel. Users can ask a question and minimize the screen immediately to perform other tasks. They no longer need to wait around for the response to finish loading.\n\nUsers can also utilize system Bubble options from Android seventeen with the Gemini app for a much richer experience. The new minimize button and the Gemini bubble are widely rolling out on Android today.",
+      "main": "AI",
+      "sub": "Products & Tools",
+      "category": "AI",
+      "subcategory": "Products & Tools",
+      "sources": [
+        {
+          "name": "tldr_design",
+          "url": "https://9to5google.com/2026/09/04/gemini-minimize-bubble/",
+          "domain": "9to5google.com",
+          "added_at": "2026-09-09T15:38:09.810095+00:00"
+        }
+      ],
+      "source": "tldr_design",
+      "source_url": "https://9to5google.com/2026/09/04/gemini-minimize-bubble/",
+      "source_domain": "9to5google.com",
+      "source_permalink": "https://tldr.tech/design/2026-09-09",
+      "score": 350,
+      "author": "TLDR",
+      "published_at": "2026-09-09T15:38:09.810095+00:00",
+      "created_at_ts": 1788912000,
+      "audio_path": "audio/2026-09-09/tldr-design-737395b4b323-gemini-overlay-gets-bubble-minimization-and-multitasking-on-.mp3",
+      "word_count": 201,
+      "estimated_duration_s": 80,
+      "image_url": "https://9to5google.com/wp-content/uploads/sites/4/2026/08/Pixel-11-Pro-Gemini-Overlay.jpg?quality=82&strip=all&resize=1200,628",
+      "location": {
+        "name": "Mountain View",
+        "country": "United States",
+        "lat": 37.39,
+        "lng": -122.08
+      },
+      "audio_bytes": 532080,
+      "audio_duration_s": 69.3,
+      "tts_chunks": 16,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "tldr-ai-1aadd7082473",
+      "title": "Inside the megakernel serving engine for North Mini Code",
+      "summary": "Cohere presents a new serving engine for North Mini Code built around a decode megakernel. Using B. F. sixteen on a single H. one hundred, the system achieves two hundred ninety-two tokens per second at batch size one. That reaches sixty-two percent of Speed-of-Light bandwidth, making it one point five eight times faster than v. L. L. M. Across end-to-end benchmarks, it runs one point two five to one point four one times faster than v. L. L. M. The system also supports continuous batching, paged attention, ragged sequence lengths, and an Open A. I. compatible endpoint with tool calling.\n\nNorth Mini Code is a thirty billion parameter model with three point three billion active parameters per token. In B. F. sixteen, this requires streaming six point six gigabytes of weights per decode step. It also needs approximately zero point five gigabytes of K. V. cache at an eight thousand context. An H. one hundred delivers three point three five terabytes per second of bandwidth through H. B. M. The v. L. L. M. framework serves this model at one hundred eighty-five tokens per second, which is merely thirty-nine percent of Speed-of-Light.\n\nThis performance gap exists because autoregressive decoding is memory-bound rather than compute-bound. Traditional serving stacks launch hundreds of small kernels sequentially, leaving streaming multiprocessors waiting during the gaps. The megakernel solves this by running the entire forward pass as a single persistent kernel launched across streaming multiprocessors. It uses a task interpreter pattern and global memory counters for fine-grained synchronization. It also uses weight prefetching that streams immutable weights from H. B. M. before activation dependencies are resolved.",
+      "main": "AI",
+      "sub": "Infrastructure",
+      "category": "AI",
+      "subcategory": "Infrastructure",
+      "sources": [
+        {
+          "name": "tldr_ai",
+          "url": "https://cohere.com/blog/megakernels",
+          "domain": "cohere.com",
+          "added_at": "2026-09-09T16:41:39.936151+00:00"
+        }
+      ],
+      "source": "tldr_ai",
+      "source_url": "https://cohere.com/blog/megakernels",
+      "source_domain": "cohere.com",
+      "source_permalink": "https://tldr.tech/ai/2026-09-09",
+      "score": 350,
+      "author": "TLDR",
+      "published_at": "2026-09-09T16:41:39.936151+00:00",
+      "created_at_ts": 1788912000,
+      "audio_path": "audio/2026-09-09/tldr-ai-1aadd7082473-inside-the-megakernel-serving-engine-for-north-mini-code.mp3",
+      "word_count": 270,
+      "estimated_duration_s": 108,
+      "image_url": null,
+      "location": {
+        "name": "Toronto",
+        "country": "Canada",
+        "lat": 43.65,
+        "lng": -79.38
+      },
+      "audio_bytes": 774288,
+      "audio_duration_s": 99.3,
+      "tts_chunks": 15,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "tldr-webdev-5b01dede2361",
+      "title": ".gitignore everything by default",
+      "summary": "An alternative Git workflow proposes a new approach. It blocks all files in a repository by default. Then it explicitly allows only necessary project files. The method prevents accidental commits of junk files and environment variables. It also stops local configurations like system store files and code editor folders. A sample configuration for a Go project demonstrates the syntax. It uses an asterisk to ignore everything. Then it adds specific exceptions prefixed with exclamation points. These exceptions include the ignore file itself and source code files. They also include the read me file and module files. This ensures that only allowed files are tracked by Git. Developers can use a specific check command to verify if a path is ignored. The technique may not suit every single repository. However it offers a way to manage projects that accumulate large numbers of local documents. It helps with massive ignore lists like the two hundred seven line ignore file used by typescript-go.",
+      "main": "TECH",
+      "sub": "Software & Open Source",
+      "category": "TECH",
+      "subcategory": "Software & Open Source",
+      "sources": [
+        {
+          "name": "tldr_webdev",
+          "url": "https://packagemain.tech/p/gitignore-everything-by-default",
+          "domain": "packagemain.tech",
+          "added_at": "2026-09-09T16:42:36.169412+00:00"
+        }
+      ],
+      "source": "tldr_webdev",
+      "source_url": "https://packagemain.tech/p/gitignore-everything-by-default",
+      "source_domain": "packagemain.tech",
+      "source_permalink": "https://tldr.tech/dev/2026-09-09",
+      "score": 350,
+      "author": "TLDR",
+      "published_at": "2026-09-09T16:42:36.169412+00:00",
+      "created_at_ts": 1788912000,
+      "audio_path": "audio/2026-09-09/tldr-webdev-5b01dede2361-gitignore-everything-by-default.mp3",
+      "word_count": 160,
+      "estimated_duration_s": 64,
+      "image_url": "https://substackcdn.com/image/fetch/$s_!n_v-!,w_1200,h_675,c_fill,f_jpg,q_auto:good,fl_progressive:steep,g_auto/https%3A%2F%2Fsubstack-post-media.s3.amazonaws.com%2Fpublic%2Fimages%2F66737cc1-4fea-4340-a7cf-1401dc895d52_1280x720.jpeg",
+      "location": null,
+      "audio_bytes": 470160,
+      "audio_duration_s": 60.4,
+      "tts_chunks": 15,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "tldr-infosec-2194112481a7",
+      "title": "WeWorm",
+      "summary": "Security firm Calif has released a demo of a new threat called WeWorm. It is the first zero click worm to spread through WeChat calls across I. O. S. and Android devices. Working with A. I., the team found a memory corruption bug in the app. They built a remote code execution exploit in about two days. Then they built the worm in one more week.\n\nThe exploit lets an attacker on a victim friend list hijack a WeChat account while the phone is ringing. The user does not need to answer or touch the device at all. By compromising one account, the worm can automatically call and infect other contacts on both Android and I. O. S. platforms.\n\nCalif reported the vulnerability to Tencent in July of twenty twenty-six. Tencent confirmed on August twenty-eighth that the exploit had been fixed on the server side for all users. Calif is keeping full technical details secret until an upcoming conference. The research highlights how A. I. is lowering the barrier for creating sophisticated cyber threats.",
+      "main": "TECH",
+      "sub": "Security & Privacy",
+      "category": "TECH",
+      "subcategory": "Security & Privacy",
+      "sources": [
+        {
+          "name": "tldr_infosec",
+          "url": "https://calif.io/research/weworm",
+          "domain": "calif.io",
+          "added_at": "2026-09-09T16:43:19.505585+00:00"
+        }
+      ],
+      "source": "tldr_infosec",
+      "source_url": "https://calif.io/research/weworm",
+      "source_domain": "calif.io",
+      "source_permalink": "https://tldr.tech/infosec/2026-09-09",
+      "score": 350,
+      "author": "TLDR",
+      "published_at": "2026-09-09T16:43:19.505585+00:00",
+      "created_at_ts": 1788912000,
+      "audio_path": "audio/2026-09-09/tldr-infosec-2194112481a7-weworm.mp3",
+      "word_count": 174,
+      "estimated_duration_s": 70,
+      "image_url": null,
+      "location": null,
+      "audio_bytes": 444024,
+      "audio_duration_s": 58.2,
+      "tts_chunks": 12,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "tldr-design-0c7b76e5e66c",
+      "title": "Run Cursor Cloud Agents on Machines You Manage",
+      "summary": "Cursor has released new capabilities allowing teams to run its A. I.-powered Cloud Agents on dynamically scheduled pools of machines within their own networks. This replaces running them exclusively on Cursor-hosted virtual machines. Cursor states that cloud agents currently create more than sixty percent of the pull requests it merges internally. The new feature addresses the growing need for enterprises to control where agents execute and what infrastructure they use.\n\nUnder the self-hosted setup, the agent loop, inference, and planning remain in the Cursor cloud. Tool execution moves to machines managed by the user, such as laptops, virtual machines, or infrastructure provided by partners. These partners include A. W. S. Lambda, Cloudflare, Coder, Daytona, E2B, Modal, Namespace, and Vercel. To register a machine, users install the Cursor C. L. I. and run the agent worker start command. This establishes a long-lived outbound H. T. T. P. S. connection to the Cursor cloud. Cursor never initiates a connection into the user network.\n\nThe system supports individual personal workflows through My Machines and scaled enterprise needs through Pools. Pools are named queues of workers. A controller watches the request queue and uses a team-supplied spawn script to automatically start machines as demand rises. It disconnects them when they are idle. To manage costs and startup times, teams can configure idle timeouts and hibernation features. These features snapshot and stop idle machines, allowing them to restore with full state if a follow-up arrives.\n\nLinux workers now support computer use alongside Macs. Integrations like Namespace Devboxes provide real Macs running on Apple silicon. Cursor-hosted environments remain the default option. They provide dedicated virtual machines with per-agent isolation, secret redaction, egress controls, and signed commits.",
+      "main": "AI",
+      "sub": "Products & Tools",
+      "category": "AI",
+      "subcategory": "Products & Tools",
+      "sources": [
+        {
+          "name": "tldr_design",
+          "url": "https://cursor.com/blog/self-hosted-machines",
+          "domain": "cursor.com",
+          "added_at": "2026-09-09T16:44:12.090844+00:00"
+        }
+      ],
+      "source": "tldr_design",
+      "source_url": "https://cursor.com/blog/self-hosted-machines",
+      "source_domain": "cursor.com",
+      "source_permalink": "https://tldr.tech/design/2026-09-09",
+      "score": 350,
+      "author": "TLDR",
+      "published_at": "2026-09-09T16:44:12.090844+00:00",
+      "created_at_ts": 1788912000,
+      "audio_path": "audio/2026-09-09/tldr-design-0c7b76e5e66c-run-cursor-cloud-agents-on-machines-you-manage.mp3",
+      "word_count": 280,
+      "estimated_duration_s": 112,
+      "image_url": "https://ptht05hbb1ssoooe.public.blob.vercel-storage.com/assets/blog/cursor-run-on-remote-machines-loBz4KzTHKq1RvZG4Ka07UpsCIDYwx.png",
+      "location": {
+        "name": "San Francisco",
+        "country": "United States",
+        "lat": 37.78,
+        "lng": -122.42
+      },
+      "audio_bytes": 857904,
+      "audio_duration_s": 109.9,
+      "tts_chunks": 20,
       "tts_voice": "am_liam",
       "audio_verdict": "unchecked"
     },
@@ -1285,6 +2380,12 @@
           "url": "https://www.newscientist.com/article/2588063-openai-has-solved-the-navier-stokes-millennium-problem-using-15m-of-ai-effort/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
           "domain": "newscientist.com",
           "added_at": "2026-09-08T21:50:31.062542+00:00"
+        },
+        {
+          "name": "tldr_ai",
+          "url": "https://openai.com/index/navier-stokes-solution/",
+          "domain": "openai.com",
+          "added_at": "2026-09-09T15:26:41.717603+00:00"
         }
       ],
       "source": "new_scientist",
@@ -1309,7 +2410,7 @@
     {
       "id": "hn-49613262",
       "title": "On the Navier–Stokes Millennium Prize Problem",
-      "summary": "Open B A I has released a solution to the Navier Stokes existence and smoothness problem, which is one of the seven Millennium Prize Problems designated by the Clay Mathematics Institute in the year two thousand. The question of whether smooth three dimensional fluid motion can break down has remained unresolved for roughly ninety years. The proof was produced by an internal system significantly more capable than G P T six Astra, operating through a coordinated network involving on the order of ten thousand concurrent agents for this specific task. The effort began on Tuesday, September first, after researchers heard rumors regarding Levent Alpöge and Tristan Buckmaster. The agents arrived at their resolution on Saturday, September fifth, about eighty eight hours after launch. Lean formalization and verification took an additional seventeen hours via G P T six Astra. Across the Navier Stokes effort, the agents sent two point seven million messages and used approximately one hundred thirty billion output tokens. The work resolves the problem by establishing statements C and D in the official formulation. It proves that the dynamics of the Navier Stokes equations for fluid motion can develop a singularity in finite time. The solution describes a vortex that spirals inward and elongates while its energy remains finite. This marks a breakdown in how the equations model continuous fluid motion. Open B A I stated that it does not intend to claim the Millennium Prize for the result. The work was released to inform the world about the pace of A I progress and what to expect from upcoming models.",
+      "summary": "Open A I reports releasing a solution to the Navier Stokes existence and smoothness problem, one of the seven Millennium Prize Problems carrying a one million dollar prize since May twenty fourth, two thousand. The question of whether smooth three dimensional fluid motion can break down has remained unresolved for roughly ninety years. The equations date to the nineteenth century work of Claude Louis Navier and George Gabriel Stokes, with Jean Leray proving solutions exist in a generalized sense in nineteen thirty four. These equations treat fluids as continuous media using F equals m a, and are used for aircraft design, weather forecasting, and blood flow studies. The proof was produced by an internal system significantly more capable than G P T six Astra, operating through a coordinated network involving on the order of ten thousand concurrent agents. Open A I states the effort began on Tuesday, September first, after hearing rumors regarding New York University mathematics professor Tristan Buckmaster and Anthropic employee Levent Alpöge, who had spent nearly a year working on the problem using Claude and Codex. Buckmaster accused Open A I of skuglyggery after learning of the timeline, raising concerns about data privacy and whether previous research sessions influenced the models. Open A I stated that their agents did not see the human researchers' work and that their proofs differ significantly in the Euler case. Open A I reached out to Buckmaster and Alpöge after completion, discovering the human researchers had resolved the forced Euler problem, and offered recognition of their priority. The agents arrived at their resolution on Saturday, September fifth, about eighty eight hours after launch, while Lean formalization took an additional seventeen hours via G P T six Astra. Across all attempted problems, the agents sent four point nine million messages and used about three hundred billion output tokens, with an estimated public A P I cost of fifteen million dollars. For the Navier Stokes effort specifically, the agents sent two point seven million messages and used approximately one hundred thirty billion output tokens. The work resolves the problem by establishing statements C and D, proving that fluid motion can develop a singularity in finite time while energy remains finite, described as an inward spiraling vortex. Open A I stated that it does not intend to claim the Millennium Prize, releasing the work instead to inform the world about the pace of A P I progress.",
       "main": "WORLD",
       "sub": "Society & Culture",
       "category": "WORLD",
@@ -1326,6 +2427,12 @@
           "url": "https://openai.com/index/navier-stokes-solution",
           "domain": "openai.com",
           "added_at": "2026-09-09T06:51:51.698159+00:00"
+        },
+        {
+          "name": "hackernews",
+          "url": "https://simonwillison.net/2026/Sep/8/on-navier-stokes/",
+          "domain": "simonwillison.net",
+          "added_at": "2026-09-09T15:27:01.995644+00:00"
         }
       ],
       "source": "hackernews",
@@ -1337,22 +2444,23 @@
       "published_at": "2026-09-08T22:04:01.138105+00:00",
       "created_at_ts": 1788887601,
       "audio_path": "audio/2026-09-08/hn-49613262-on-the-navier-stokes-millennium-prize-problem.mp3",
-      "word_count": 262,
-      "estimated_duration_s": 105,
+      "word_count": 402,
+      "estimated_duration_s": 161,
       "image_url": "https://images.ctfassets.net/kftzwdyauwt9/7hiHADoMhgN0iDcje9Xdei/2dae059c10a0dfa3e2814ebb522e9df2/navier-stokes-og.png?w=1600&amp;h=900&amp;fit=fill",
       "location": null,
-      "audio_bytes": 720816,
-      "audio_duration_s": 91.7,
-      "tts_chunks": 13,
+      "audio_bytes": 1112760,
+      "audio_duration_s": 140.4,
+      "tts_chunks": 14,
       "tts_voice": "am_liam",
       "audio_verdict": "unchecked",
       "key_points": [
-        "Open B A I released a solution to the Navier Stokes existence and smoothness problem, one of the Millennium Prize Problems designated in the year two thousand.",
-        "The question of whether smooth three dimensional fluid motion can break down has remained unresolved for roughly ninety years.",
+        "Open A I released a solution to the Navier Stokes existence and smoothness problem, one of the Millennium Prize Problems with a one million dollar prize since May twenty fourth, two thousand.",
+        "New York University mathematics professor Tristan Buckmaster and Anthropic employee Levent Alpöge worked on the problem for almost a year using Claude and Codex.",
+        "Buckmaster accused Open A I of skulduggery after learning Open A I started their effort following rumors about the human researchers' work, while Open A I stated their agents did not see the human work.",
         "The proof was produced by an internal system significantly more capable than G P T six Astra using a network of about ten thousand concurrent agents.",
         "The agents arrived at their resolution on Saturday, September fifth, about eighty eight hours after launch, with Lean formalization taking an additional seventeen hours.",
-        "The work resolves the problem by establishing statements C and D, proving that fluid motion can develop a singularity in finite time while energy remains finite.",
-        "Open B A I stated that it does not intend to claim the Millennium Prize for the result, instead releasing it to demonstrate the pace of A I progress."
+        "Across all attempted problems, the agents sent four point nine million messages and used about three hundred billion output tokens, which would cost fifteen million dollars at public A P I prices.",
+        "The solution establishes statements C and D, proving that fluid motion can develop a singularity in finite time while energy remains finite, and Open A I does not intend to claim the Millennium Prize."
       ]
     },
     {
@@ -1880,6 +2988,46 @@
       "audio_verdict": "unchecked"
     },
     {
+      "id": "hn-49610538",
+      "title": "LibreOffice breaks download records after declaring it has no AI features",
+      "summary": "LibreOffice version twenty-six point eight was released on August twenty-sixth. It has become the software's most popular update ever. Its installer was downloaded more than one million times in a single week. This number excludes updates through Linux distribution repositories. The surge in popularity follows a clear statement from the software. They do not include generative artificial intelligence features due to privacy concerns.\n\nOne day after celebrating that download milestone, The Document Foundation published a new post. The post was titled Yes, no A I. is now a feature. It was written by, Italo Vignoli. The foundation stated it does not reject artificial intelligence out of hand. They declared the technology does not yet meet an exhaustive list of required principles for default inclusion.\n\nThose principles include user controlled execution and no unauthorized content leaving the computer. They also require zero telemetry and no dependency on a single vendor. There must be no compromises on file formats and the use must be entirely optional. The Document Foundation currently recommends community plugins for users wanting to integrate artificial intelligence into the software.\n\nAccording to the foundation, this stance has almost nothing to do with the technology itself. Instead, it addresses how competitors use built in artificial intelligence assistants. Competitors use these tools to justify price increases. They also keep documents within their own infrastructure to support subscription models.",
+      "main": "TECH",
+      "sub": "Software & Open Source",
+      "category": "TECH",
+      "subcategory": "Software & Open Source",
+      "sources": [
+        {
+          "name": "hackernews",
+          "url": "https://manualdousuario.net/en/libreoffice-download-record-no-ai/",
+          "domain": "manualdousuario.net",
+          "added_at": "2026-09-09T16:40:12.459655+00:00"
+        }
+      ],
+      "source": "hackernews",
+      "source_url": "https://manualdousuario.net/en/libreoffice-download-record-no-ai/",
+      "source_domain": "manualdousuario.net",
+      "source_permalink": "https://news.ycombinator.com/item?id=49610538",
+      "score": 695,
+      "author": "rpgbr",
+      "published_at": "2026-09-09T16:40:12.459655+00:00",
+      "created_at_ts": 1788876357,
+      "audio_path": "audio/2026-09-09/hn-49610538-libreoffice-breaks-download-records-after-declaring-it-has-n.mp3",
+      "word_count": 227,
+      "estimated_duration_s": 91,
+      "image_url": "https://manualdousuario.net/wp-content/uploads/2026/09/libreoffice.png",
+      "location": {
+        "name": "Berlin",
+        "country": "Germany",
+        "lat": 52.52,
+        "lng": 13.4
+      },
+      "audio_bytes": 696024,
+      "audio_duration_s": 88.7,
+      "tts_chunks": 19,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
       "id": "rss-deepmind_blog-80d284f58871",
       "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
       "summary": "Google DeepMind introduces the AlphaGenome Atlas, a one petabyte database created by the AlphaGenome artificial intelligence model. The human genome contains about three billion base pairs of DNA, where two percent code for proteins and ninety-eight percent remain less understood. The database pre calculates the regulatory impact of all nine billion single letter genetic changes. The Atlas introduces the AlphaGenome Variant Impact score to combine predictions for coding and non coding regions. At the Broad Institute, Laura Covill and her team used the score to identify a critical variant in the D N M one gene that created an incorrect splice site for unsolved rare disease research. Dr. Gareth Hawkes applied the tool to data from fifty-four thousand plus U K Biobank participants, uncovering twenty-two percent more non coding genetic associations and identifying nineteen genetic regions linked to body mass index. The AlphaGenome Atlas is available through a website portal requiring zero coding skills. A massive collaborative research project credits dozens of individuals and major institutions for their work. The institutions include the University of Exeter and Harvard University. Researchers from Boston Children's Hospital and the Broad Institute also contributed. The Stowers Institute for Medical Research joined as a collaborator. The Memorial Sloan Kettering Cancer Center contributed to developing the work. Researchers from the Center for Genomic Medicine at Massachusetts General Hospital participated. The University of Kansas Medical Center is among the credited institutions. The project acknowledges technical support and research contributions from many people, including Jun Cheng, Kyle R. Taylor, Lauren Nicolaisen, Joshua Pan, Clare Bycroft, Matteo Perino, Tom Ward, Raina W. Thomas, Natasha Latysheva, Gareth Hawkes, Laura E. Covill, Melanie Weilert, Maile J. Hirschmann, Xi Dawn Chen, Robin N Beaumont, V Kartik Chundru, Michael N Weedon, Simon Bourdareau, Hoyin Chu, Dhavi Hariharan, Thais Kagohara, Lucas Tenório, Yosuke Ushigome, Amanda Stafford, Courtney A. Shearer, Barbara Ikica, Ada Fang, Mouad Naciri, Victoria Johnston, Richard Green, Elisa Lai Hong Wong, Vincent Dutordoir, Anne Mottram, Adam Gayoso, Eirini Arvaniti, Guido Novati, Heidi L. Rehm, Fei Chen, Caleb A. Lareau, Caroline F Wright, Anne O'Donnell-Luria, Julia Zeitlinger, Pushmeet Kohli, Žiga Avsec, Kathryn Tunyasuvunakool, Alexander Karollus, Risha Patel, Francesca Pietra, Alisha Eastep, Doga Fadillioglu, Charlie Taylor, Raphael Aboyeji, Uchechi Okereke, Gemma Gibbs, Olufemi Duduyemi, Juan Mateos-Garcia, Mariana Felix, Sahar Abdulrahman, Antonia Mould, Rachael Tremlett, Chang Yun, Salil Deshpande, Anshul Kundaje, Samantha Bryen, Greg Findlay, Phoebe Dace, Kinga Bujakowska, Emma Sherrill, Aubrie Soucy Verran, Boxun Zhao, Tim Yu, Brendah Namugamba, Cassie Gray, Daniel MacArthur, Lingyi Wang, Marc Mansour, Mohamad Hajjari, Mounica Vallurupalli, Philip Montgomery, Roisin Sullivan, Sam Bryen, Teresa Niccoli, Evie Gray, Adriana Fernandez Lara, Alex Wilkins, Danielle Breen, Mariana Montes, Inês Ayer, Ryan Smith, Ross West, and Gaby Pearl.",
@@ -2358,6 +3506,46 @@
       "audio_bytes": 792480,
       "audio_duration_s": 101.2,
       "tts_chunks": 15,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "rss-openai_blog-99c22bc85dd5",
+      "title": "Funding grants for new research into AI and teen development",
+      "summary": "OpenAI Group P. B. C. is committing five million dollars to fund independent research grants. These grants examine how generative A. I. affects the lives and emotional well-being of young people ages thirteen to seventeen. The funding builds a stronger evidence base to inform product development and policymakers. Individual research grants of up to one million dollars will be awarded. A maximum of ten percent of each grant can cover overhead costs. Eligible applicants must be eighteen or older and affiliated with a research institution or organization. They can also possess significant experience in fields like child development or A. I. safety. Submissions are open through October sixth, twenty twenty-six. A panel of experts will review applications on a rolling basis. Selected proposals will be notified on or before November thirteenth, twenty twenty-six. Funded projects must provide an interim update in the first quarter of twenty twenty-seven. They also need a final report detailing their research questions and methods and results.",
+      "main": "AI",
+      "sub": "Policy & Safety",
+      "category": "AI",
+      "subcategory": "Policy & Safety",
+      "sources": [
+        {
+          "name": "openai_blog",
+          "url": "https://openai.com/index/teen-development-research-grants",
+          "domain": "openai.com",
+          "added_at": "2026-09-09T15:44:09.377249+00:00"
+        }
+      ],
+      "source": "openai_blog",
+      "source_url": "https://openai.com/index/teen-development-research-grants",
+      "source_domain": "openai.com",
+      "source_permalink": "https://openai.com/index/teen-development-research-grants",
+      "score": 100,
+      "author": "",
+      "published_at": "2026-09-09T15:44:09.377249+00:00",
+      "created_at_ts": 1788858000,
+      "audio_path": "audio/2026-09-09/rss-openai_blog-99c22bc85dd5-funding-grants-for-new-research-into-ai-and-teen-development.mp3",
+      "word_count": 161,
+      "estimated_duration_s": 64,
+      "image_url": "https://images.ctfassets.net/kftzwdyauwt9/6rLDhv1Xqytih40afkEb2u/0680cc29163ad5f451a44dd2d51aea37/4bzz6p65ky7zwfd4pe42ou-seo__3_.png?w=1600&amp;h=900&amp;fit=fill",
+      "location": {
+        "name": "San Francisco",
+        "country": "United States",
+        "lat": 37.78,
+        "lng": -122.42
+      },
+      "audio_bytes": 474240,
+      "audio_duration_s": 61.0,
+      "tts_chunks": 12,
       "tts_voice": "am_liam",
       "audio_verdict": "unchecked"
     },
@@ -4647,6 +5835,41 @@
       "audio_verdict": "unchecked"
     },
     {
+      "id": "hn-49592840",
+      "title": "Show HN: GET Together – A social network where you don't need POST to Post",
+      "summary": "GET Together is a unique social network where everything you write is a GET request. The platform matters because it demonstrates a novel social network operating entirely without POST requests. The site features a reverse-chronological feed and support for threaded replies and heart reactions and post deletion. All of these features are driven by GET requests. Names must be between two and twenty letters or numbers or underscores. They do not require uniqueness or verification. Users can optionally store a G. T. session cookie returned by the server to delete a post later. Reusing an I. D. or sending the same text returns a four hundred nine Conflict error. Users must wait ten seconds and retry when encountering a four hundred twenty-nine rate limit error. The platform implements automated moderation checks that screen new posts and names for English profanity. These checks also screen for crypto and Bitcoin and memecoin and token promotion.",
+      "main": "TECH",
+      "sub": "Software & Open Source",
+      "category": "TECH",
+      "subcategory": "Software & Open Source",
+      "sources": [
+        {
+          "name": "hackernews_show",
+          "url": "https://gettogether.dev",
+          "domain": "gettogether.dev",
+          "added_at": "2026-09-09T16:45:21.055175+00:00"
+        }
+      ],
+      "source": "hackernews_show",
+      "source_url": "https://gettogether.dev",
+      "source_domain": "gettogether.dev",
+      "source_permalink": "https://news.ycombinator.com/item?id=49592840",
+      "score": 107,
+      "author": "nchudleigh",
+      "published_at": "2026-09-09T16:45:21.055175+00:00",
+      "created_at_ts": 1788745271,
+      "audio_path": "audio/2026-09-09/hn-49592840-show-hn-get-together-a-social-network-where-you-don-t-need-p.mp3",
+      "word_count": 153,
+      "estimated_duration_s": 61,
+      "image_url": null,
+      "location": null,
+      "audio_bytes": 428568,
+      "audio_duration_s": 54.6,
+      "tts_chunks": 11,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
       "id": "tldr-ai-2464e6d7c658",
       "title": "GPT‑6 Astra on robotic manipulation",
       "summary": "OpenA. I. 's G. P. T.-six Astra was tested on September fourth, twenty twenty-six, following earlier comparisons with Claude Fable five and Fable five point one. Evaluators tested both models using identical YAM arms under the same Inspect Robots agent policy across one hundred twenty total trials. The evaluation covered two tasks with specific prompt instructions. On the first task, models were instructed to pick up a red block from the table and place it inside a bowl. Astra placed the block in nineteen of twenty trials. Fable five point one succeeded in eight of twenty trials. Fable five succeeded in one of twenty trials. The second task required models to pick up a round blue puzzle piece by its center knob and place it into a matching circular groove. Astra completed this insertion two times out of twenty trials. Fable five point one also scored two out of twenty. Astra reached the groove and stalled at the same final step that Fable models encountered. Astra averaged two point five minutes per trial on the bowl task. Fable five point one averaged six point eight minutes per trial. The estimated cost for Astra was ninety-four cents per run. Fable five point one cost two dollars and twelve cents per run. On the puzzle task, Astra cost one dollar and thirty-six cents. Fable five point one cost two dollars and eighteen cents. A human grader rubric measured the highest stage each run reached. Testing limitations included non-interleaved trial dates. A different physical rig was used for the Fable bowl trials because rig three was unavailable. Operators were unblinded during grading which leaves scores open to unconscious bias. Objects were reset manually between trials. All models used a medium reasoning effort setting. Cost calculations were based on list prices. OpenA. I. automatically cached roughly one-fifth of Astra inputs. Anthropic requests were sent without prompt caching.",
@@ -6375,6 +7598,46 @@
         "Authorities established a three kilometer radius exclusion zone prohibiting people and ships from approaching the active crater.",
         "Authorities confirmed that there is no tsunami warning linked to the recent volcanic activity."
       ]
+    },
+    {
+      "id": "rss-openai_blog-a8e8f9dc895a",
+      "title": "An Alien Mind",
+      "summary": "OpenAI leaders are worried about fast progress in reasoning language models. They see a looming prospect of recursive self improvement. Machine intelligence keeps growing because of bigger computational power. Systems grow through massive optimization instead of fully understood design.\n\nIn the middle of twenty twenty-three, the R. L. Slow research project showed the first results. Reasoning models could form their own chains of thought. The core challenge is alignment. The company must ensure that A. I. systems reliably follow human standards. Systems now surpass human capabilities across many different areas.\n\nCurrent alignment methods remain brittle and prone to failure. They use goal oriented reinforcement learning and pretraining data. These methods suffer from motivated reasoning in new environments. OpenAI reports that the new G. P. T. six Astra model is much better aligned than the older G. P. T. five point six Sol model. The company admits that much more progress is still required.\n\nOpenAI plans to keep seeking technical solutions for safety and monitoring. The company will unilaterally withhold further scaling when needed. OpenAI uses chain of thought monitoring to watch model behavior. They intentionally hide the reasoning process of models like o. one preview from direct supervision. This lets researchers observe internal processes during training.\n\nEvaluations show that this monitoring method is now fading. Models operate in increasingly complex environments. They interact with tools and other systems. They also improve at manipulating their own reasoning processes.",
+      "main": "AI",
+      "sub": "Policy & Safety",
+      "category": "AI",
+      "subcategory": "Policy & Safety",
+      "sources": [
+        {
+          "name": "openai_blog",
+          "url": "https://openai.com/index/an-alien-mind",
+          "domain": "openai.com",
+          "added_at": "2026-09-09T16:46:18.234310+00:00"
+        }
+      ],
+      "source": "openai_blog",
+      "source_url": "https://openai.com/index/an-alien-mind",
+      "source_domain": "openai.com",
+      "source_permalink": "https://openai.com/index/an-alien-mind",
+      "score": 100,
+      "author": "",
+      "published_at": "2026-09-09T16:46:18.234310+00:00",
+      "created_at_ts": 1788685200,
+      "audio_path": "audio/2026-09-09/rss-openai_blog-a8e8f9dc895a-an-alien-mind.mp3",
+      "word_count": 237,
+      "estimated_duration_s": 95,
+      "image_url": "https://images.ctfassets.net/kftzwdyauwt9/7f6sLIUC3tdeliJMQ3PwOq/c47109c8b3f00ccbf881271c9c720877/og-an-alien-mind.png?w=1600&amp;h=900&amp;fit=fill",
+      "location": {
+        "name": "San Francisco",
+        "country": "United States",
+        "lat": 37.78,
+        "lng": -122.42
+      },
+      "audio_bytes": 740976,
+      "audio_duration_s": 95.6,
+      "tts_chunks": 24,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
     },
     {
       "id": "rss-openai_blog-19672c4832d4",
@@ -9345,6 +10608,41 @@
       "audio_bytes": 675840,
       "audio_duration_s": 86.7,
       "tts_chunks": 19,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "hn-49559069",
+      "title": "Show HN: Interactive Tree of Life",
+      "summary": "A new web tool called Ptree combines eleven taxonomic trees into one system. It includes categorical systems like plants and animals alongside phylogenetic trees of evolutionary descent. The tool provides an instant crosswalk between all of them.\n\nThe system overlays forty-one visual properties across these combined trees. These properties are both categorical and numerical. They come from hundreds of biological traits and sources.\n\nThe backend processes eight hundred gigabytes of raw data. It uses a nine-step build process that reconciles and links the eleven trees and hundreds of traits. Every node receives all properties while retaining data provenance. This provenance includes original wording, citations, and licenses.\n\nThe frontend uses a custom Miller column implementation. It features a fold-away gutter and pure Document Object Model mutation animation without frameworks. The creator of ptable dot com made this tool. That website has been online since nineteen ninety-seven.",
+      "main": "TECH",
+      "sub": "Software & Open Source",
+      "category": "TECH",
+      "subcategory": "Software & Open Source",
+      "sources": [
+        {
+          "name": "hackernews_show",
+          "url": "https://ptree.org/",
+          "domain": "ptree.org",
+          "added_at": "2026-09-09T15:40:58.505591+00:00"
+        }
+      ],
+      "source": "hackernews_show",
+      "source_url": "https://ptree.org/",
+      "source_domain": "ptree.org",
+      "source_permalink": "https://news.ycombinator.com/item?id=49559069",
+      "score": 113,
+      "author": "Lucent",
+      "published_at": "2026-09-09T15:40:58.505591+00:00",
+      "created_at_ts": 1788482406,
+      "audio_path": "audio/2026-09-09/hn-49559069-show-hn-interactive-tree-of-life.mp3",
+      "word_count": 145,
+      "estimated_duration_s": 58,
+      "image_url": "https://ptree.org/icon/ptree-card.png",
+      "location": null,
+      "audio_bytes": 459144,
+      "audio_duration_s": 59.5,
+      "tts_chunks": 14,
       "tts_voice": "am_liam",
       "audio_verdict": "unchecked"
     },
@@ -13892,5 +15190,5 @@
       "subcategory": "Models & Research"
     }
   ],
-  "updated_at": "2026-09-09T07:23:56.982595+00:00"
+  "updated_at": "2026-09-09T16:48:12.654940+00:00"
 }

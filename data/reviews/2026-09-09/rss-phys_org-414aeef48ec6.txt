@@ -1,0 +1,65 @@
+═══ 00_KEY_POINTS ═══
+
+1. Michele Simoncelli and colleagues published a paper in Nature Communications introducing a new physics-aware benchmark.
+2. The benchmark evaluates machine learning models that predict thermal and mechanical properties of various materials.
+3. Researchers from the University of Cambridge including Balázs Póta, Paramvir Ahlawat and Gábor Csányi developed the benchmark.
+4. Meta, Microsoft, Radical AI and Orbital Materials are among the companies already using the new benchmark.
+5. The benchmark has also been incorporated into Matbench Discovery to rank machine learning models on thermal conductivity.
+6. "We can call an atomistic ML model physics-aware when it predicts the macroscopic properties of materials as a consequence of correctly describing the materials' atomistic physics," said Simoncelli.
+
+═══ 01_DRAFT ═══
+
+Researchers led by Columbia assistant professor of applied physics Michele Simoncelli have published a new physics-aware benchmark in Nature Communications that evaluates machine learning models predicting the thermal and mechanical properties of materials. Developed alongside University of Cambridge colleagues Balázs Póta, Paramvir Ahlawat, and Gábor Csányi, the benchmark addresses a major flaw in machine-learning interatomic potentials, which can run one thousand times faster than traditional approaches by bypassing explicit solutions to the Schrödinger equation. While many models show similar accuracy in predicting energy and crystal stability, the researchers found they often distort the small, fast quantum-mechanical thermal vibrations of atoms, sometimes predicting macroscopic thermal conductivity accurately only because microscopic errors accidentally cancel out. As first author Balázs Póta explained, models had previously been compared mainly on energy performance, which missed potential errors in forces that determine atomic dynamics. The benchmarking effort, which began about two years ago, compared several models against traditional quantum-mechanical calculations for a set of more than one hundred crystalline materials. The benchmark has already been adopted by research groups and companies including Meta, Microsoft, Radical AI, and Orbital Materials, and has been incorporated into the Matbench Discovery leaderboard. This adoption matters because thermal management is critical for microchips, batteries, quantum computers, jet engines, spacecraft heat shields, and nuclear reactors, and models that get underlying physics wrong can discard good material options and promote bad ones.
+
+═══ 03_COVERAGE_1 ═══
+
+83% covered (5/6). Missing: "We can call an atomistic ML model physics-aware when it predicts the macroscopic properties of materials as a consequence of correctly describing the materials' atomistic physics," said Simoncelli.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+Researchers led by Columbia assistant professor of applied physics Michele Simoncelli have published a new physics-aware benchmark in Nature Communications that evaluates machine learning models predicting the thermal and mechanical properties of materials. Developed alongside University of Cambridge colleagues Balázs Póta, Paramvir Ahlawat, and Gábor Csányi, the benchmark addresses a major flaw in machine-learning interatomic potentials, which can run one thousand times faster than traditional approaches by bypassing explicit solutions to the Schrödinger equation. "We can call an atomistic ML model physics-aware when it predicts the macroscopic properties of materials as a consequence of correctly describing the materials' atomistic physics," said Simoncelli. While many models show similar accuracy in predicting energy and crystal stability, the researchers found they often distort the small, fast quantum-mechanical thermal vibrations of atoms, sometimes predicting macroscopic thermal conductivity accurately only because microscopic errors accidentally cancel out. As first author Balázs Póta explained, models had previously been compared mainly on energy performance, which missed potential errors in forces that determine atomic dynamics. The benchmarking effort, which began about two years ago, compared several models against traditional quantum-mechanical calculations for a set of more than one hundred crystalline materials. The benchmark has already been adopted by research groups and companies including Meta, Microsoft, Radical AI, and Orbital Materials, and has been incorporated into the Matbench Discovery leaderboard. This adoption matters because thermal management is critical for microchips, batteries, quantum computers, jet engines, spacecraft heat shields, and nuclear reactors, and models that get underlying physics wrong can discard good material options and promote bad ones.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Researchers have published a new physics-aware benchmark in Nature Communications. The work evaluates machine learning models predicting the thermal and mechanical properties of materials. The lead researcher is, Michele Simoncelli, an assistant professor of applied physics at Columbia. Colleagues from the University of Cambridge also helped develop the project. Those researchers are, Balázs Póta, Paramvir Ahlawat, and, Gábor Csányi. 
+
+The benchmark addresses a major flaw in machine-learning interatomic potentials. These models can run one thousand times faster than traditional approaches. They achieve this speed by bypassing explicit solutions to the Schrödinger equation. 
+
+As Simoncelli stated, an atomistic model is physics-aware only when it correctly describes atomistic physics. It must predict macroscopic properties as a direct consequence of that accurate description. 
+
+Many models show similar accuracy in predicting energy and crystal stability. However, the researchers found that these models distort the small and fast quantum-mechanical thermal vibrations of atoms. Sometimes they predict macroscopic thermal conductivity accurately only because microscopic errors accidentally cancel out. 
+
+First author, Balázs Póta, explained that models were previously compared mainly on energy performance. This previous method missed potential errors in forces that determine atomic dynamics. 
+
+The benchmarking effort began about two years ago. It compared several models against traditional quantum-mechanical calculations. The test used a set of more than one hundred crystalline materials. 
+
+The benchmark has already been adopted by several research groups and companies. These include Meta, Microsoft, Radical A. I., and Orbital Materials. The test has also been incorporated into the Matbench Discovery leaderboard. 
+
+This adoption matters because thermal management is critical for many advanced technologies. These include microchips, batteries, quantum computers, jet engines, spacecraft heat shields, and nuclear reactors. Models that get underlying physics wrong can discard good material options and promote bad ones.
+
+═══ 05_NORMALIZED ═══
+
+Researchers have published a new physics-aware benchmark in Nature Communications. The work evaluates machine learning models predicting the thermal and mechanical properties of materials. The lead researcher is, Michele Simoncelli, an assistant professor of applied physics at Columbia. Colleagues from the University of Cambridge also helped develop the project. Those researchers are, Balázs Póta, Paramvir Ahlawat, and, Gábor Csányi.
+
+The benchmark addresses a major flaw in machine-learning interatomic potentials. These models can run one thousand times faster than traditional approaches. They achieve this speed by bypassing explicit solutions to the Schrödinger equation.
+
+As Simoncelli stated, an atomistic model is physics-aware only when it correctly describes atomistic physics. It must predict macroscopic properties as a direct consequence of that accurate description.
+
+Many models show similar accuracy in predicting energy and crystal stability. However, the researchers found that these models distort the small and fast quantum-mechanical thermal vibrations of atoms. Sometimes they predict macroscopic thermal conductivity accurately only because microscopic errors accidentally cancel out.
+
+First author, Balázs Póta, explained that models were previously compared mainly on energy performance. This previous method missed potential errors in forces that determine atomic dynamics.
+
+The benchmarking effort began about two years ago. It compared several models against traditional quantum-mechanical calculations. The test used a set of more than one hundred crystalline materials.
+
+The benchmark has already been adopted by several research groups and companies. These include Meta, Microsoft, Radical A. I., and Orbital Materials. The test has also been incorporated into the Matbench Discovery leaderboard.
+
+This adoption matters because thermal management is critical for many advanced technologies. These include microchips, batteries, quantum computers, jet engines, spacecraft heat shields, and nuclear reactors. Models that get underlying physics wrong can discard good material options and promote bad ones.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: Radical A. I.
+

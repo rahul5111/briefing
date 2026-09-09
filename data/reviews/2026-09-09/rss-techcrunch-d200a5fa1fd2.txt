@@ -1,0 +1,54 @@
+═══ 00_KEY_POINTS ═══
+
+1. The viral AI assistant Instinct is now valued at 2.5 billion dollars.
+2. Founder Noah Shinn announced on Tuesday that Instinct is giving everyone Instinct email addresses.
+3. The new email addresses let the agent create and run its own accounts without cluttering user inboxes.
+4. Shinn wrote on X that Instinct can use its own email to contact a restaurant about a special request.
+5. The feature allows Instinct to handle account signups and management without requiring user credentials.
+6. Instinct users can claim their new email addresses by visiting mail.instinct.com.
+7. The new email feature helps make the user experience more seamless by handling tasks autonomously.
+
+═══ 01_DRAFT ═══
+
+The AI assistant Instinct, currently valued at $2.5 billion, is rolling out dedicated email addresses for all users, allowing the autonomous agent to create and run its own accounts without cluttering human inboxes. Founder Noah Shinn announced the feature on Tuesday, explaining that the email addresses will let Instinct handle tasks requiring email verification, such as signing up for services, contacting businesses, and following up on matters that need attention. As Shinn wrote on X, Instinct can use its own email to contact a restaurant about a special request, ask a business about availability, or sign up for a service it needs to complete a task. Users can also forward order confirmations to their Instinct address so the assistant can handle product returns, or add the bot to group threads to track information and answer questions about pending decisions and due dates. Earliest users already have reserved email addresses, while others can claim theirs at mail.instinct.com. This update follows a partnership with Stripe in August to enable agent purchases and a collaboration with 1Password last week to help manage user logins.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (7/7). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+The artificial intelligence assistant named Instinct, currently valued at two point five billion dollars, is rolling out dedicated email addresses for all users. This allows the autonomous agent to create and run its own accounts without cluttering human inboxes.
+
+Founder , Noah Shinn announced the feature on Tuesday. He explained that the email addresses will let Instinct handle tasks requiring email verification. These tasks include signing up for services, contacting businesses, and following up on matters that need attention.
+
+As , Shinn wrote on the social network X, Instinct can use its own email to contact a restaurant about a special request. It can also ask a business about availability or sign up for a service it needs to complete a task.
+
+Users can forward order confirmations to their Instinct address so the assistant can handle product returns. People can also add the bot to group threads to track information and answer questions about pending decisions and due dates.
+
+The earliest users already have reserved email addresses. Other people can claim theirs at mail dot instinct dot com.
+
+This update follows a partnership with Stripe in August to enable agent purchases. It also follows a collaboration with the company , One Password last week to help manage user logins.
+
+═══ 05_NORMALIZED ═══
+
+The artificial intelligence assistant named Instinct, currently valued at two point five billion dollars, is rolling out dedicated email addresses for all users. This allows the autonomous agent to create and run its own accounts without cluttering human inboxes.
+
+Founder, Noah Shinn announced the feature on Tuesday. He explained that the email addresses will let Instinct handle tasks requiring email verification. These tasks include signing up for services, contacting businesses, and following up on matters that need attention.
+
+As, Shinn wrote on the social network X, Instinct can use its own email to contact a restaurant about a special request. It can also ask a business about availability or sign up for a service it needs to complete a task.
+
+Users can forward order confirmations to their Instinct address so the assistant can handle product returns. People can also add the bot to group threads to track information and answer questions about pending decisions and due dates.
+
+The earliest users already have reserved email addresses. Other people can claim theirs at mail dot instinct dot com.
+
+This update follows a partnership with Stripe in August to enable agent purchases. It also follows a collaboration with the company, One Password last week to help manage user logins.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (7/7). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: awkward punctuation
+

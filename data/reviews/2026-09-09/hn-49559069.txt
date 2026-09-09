@@ -1,0 +1,53 @@
+═══ 00_KEY_POINTS ═══
+
+1. Ptree consolidates eleven taxonomic trees and provides an instant crosswalk between them.
+2. The platform overlays forty-one visual properties assembled from hundreds of biological traits and sources.
+3. The backend processes eight hundred gigabytes of raw data through a nine-step build process.
+4. Every color and number presented on the platform retains its original wording, citation, and license.
+5. The frontend uses a custom Miller column implementation with pure DOM mutation and no frameworks.
+6. The project was created by the developer behind the popular interactive periodic table website ptable.com.
+
+═══ 01_DRAFT ═══
+
+A developer has launched Show HN: Interactive Tree of Life, a new web tool created by the author of ptable.com, which has been online since 1997. The platform consolidates 11 taxonomic trees, incorporating both categorical systems like plants and animals alongside phylogenetic trees of evolutionary descent, and provides an instant crosswalk between them. Across these combined trees, the tool overlays 41 visual properties, both categorical and numerical, gathered from hundreds of biological traits and sources. Users can color the tree based on attributes such as habitat, nutrition, size, longevity, and vertical range for birds or depth for fish. The backend processes 800 gigabytes of raw data through a nine-step build process that reconciles and links the 11 trees and hundreds of traits, ensuring every node receives all properties while retaining data provenance, including original wording, citations, and licenses. The frontend utilizes a custom Miller column implementation featuring a fold-away gutter and pure DOM mutation animation without heavy frameworks.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Ptree is a new web tool that consolidates 11 taxonomic trees, incorporating both categorical systems like plants and animals alongside phylogenetic trees of evolutionary descent, and provides an instant crosswalk between them. Across these combined trees, the tool overlays 41 visual properties, both categorical and numerical, gathered from hundreds of biological traits and sources. Users can color the tree by habitat, nutrition, size, longevity, and see the vertical range of birds or depth of fish visually. The backend processes 800 gigabytes of raw data through a nine-step build process that reconciles and links the 11 trees and hundreds of traits, ensuring every node receives all properties while retaining data provenance, including original wording, citations, and licenses. The frontend utilizes a custom Miller column implementation featuring a fold-away gutter and pure DOM mutation animation without frameworks, and was made by the creator of ptable.com, which has been online since 1997.
+
+═══ 02b_TRIMMED ═══
+
+Ptree is a new web tool that consolidates 11 taxonomic trees, incorporating both categorical systems like plants and animals alongside phylogenetic trees of evolutionary descent, and provides an instant crosswalk between them. Across these combined trees, the tool overlays 41 visual properties, both categorical and numerical, gathered from hundreds of biological traits and sources. The backend processes 800 gigabytes of raw data through a nine-step build process that reconciles and links the 11 trees and hundreds of traits, ensuring every node receives all properties while retaining data provenance, including original wording, citations, and licenses. The frontend utilizes a custom Miller column implementation featuring a fold-away gutter and pure DOM mutation animation without frameworks, and was made by the creator of ptable.com, which has been online since 1997.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+A new web tool called Ptree combines eleven taxonomic trees into one system. It includes categorical systems like plants and animals alongside phylogenetic trees of evolutionary descent. The tool provides an instant crosswalk between all of them. 
+
+The system overlays forty-one visual properties across these combined trees. These properties are both categorical and numerical. They come from hundreds of biological traits and sources. 
+
+The backend processes eight hundred gigabytes of raw data. It uses a nine-step build process that reconciles and links the eleven trees and hundreds of traits. Every node receives all properties while retaining data provenance. This provenance includes original wording, citations, and licenses. 
+
+The frontend uses a custom Miller column implementation. It features a fold-away gutter and pure Document Object Model mutation animation without frameworks. The creator of ptable dot com made this tool. That website has been online since nineteen ninety-seven.
+
+═══ 05_NORMALIZED ═══
+
+A new web tool called Ptree combines eleven taxonomic trees into one system. It includes categorical systems like plants and animals alongside phylogenetic trees of evolutionary descent. The tool provides an instant crosswalk between all of them.
+
+The system overlays forty-one visual properties across these combined trees. These properties are both categorical and numerical. They come from hundreds of biological traits and sources.
+
+The backend processes eight hundred gigabytes of raw data. It uses a nine-step build process that reconciles and links the eleven trees and hundreds of traits. Every node receives all properties while retaining data provenance. This provenance includes original wording, citations, and licenses.
+
+The frontend uses a custom Miller column implementation. It features a fold-away gutter and pure Document Object Model mutation animation without frameworks. The creator of ptable dot com made this tool. That website has been online since nineteen ninety-seven.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+OK
+

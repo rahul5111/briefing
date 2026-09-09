@@ -1,0 +1,53 @@
+═══ 00_KEY_POINTS ═══
+
+1. OpenAI claims its agents used 10,000 AI agents to solve a math problem in 88 hours.
+2. US battery installations hit a record 20.2 gigawatt-hours of new capacity in the second quarter of 2026.
+3. Danijar Hafner is developing AI agents capable of planning ahead and navigating unfamiliar environments.
+4. The United States accused six Chinese AI firms, including DeepSeek and Alibaba, of industrial-scale theft.
+5. Apple is expected to unveil a folding smartphone priced at $2,000.
+6. Meta launched an AI agent named Muse that can autonomously access apps to send emails and make payments.
+
+═══ 01_DRAFT ═══
+
+OpenAI states its agents solved the Navier-Stokes equations, a 90-year-old mathematics problem, in 88 hours using 10,000 AI agents. The achievement involved spending millions of dollars to win a $1 million math contest and marks what OpenAI claims is the first major math problem solved by artificial intelligence. However, the announcement has been overshadowed by accusations that OpenAI failed to credit researchers whose AI-assisted work influenced the solution. 
+
+Meanwhile, US battery installations reached a record 20.2 gigawatt-hours of new capacity in the second quarter of 2026, enough to supply the daily electricity needs of 600,000 homes. The surge places the country on track for another record year, driven by cheaper batteries and rising energy storage demands from grid renewables. 
+
+In other developments, the United States accused six Chinese artificial intelligence firms, including DeepSeek, Moonshot AI, Alibaba, and Z.AI, of industrial-scale theft of American AI trade secrets via model distillation. Additionally, the Pentagon asked OpenAI to develop an AI model with minimal refusal rates, and Apple is expected to unveil a $2,000 folding smartphone. Meta also launched an AI agent named Muse capable of accessing apps to send emails and make payments, though internal tests showed it could expose sensitive personal data. Finally, Google warned it is degrading search results in Europe to comply with EU rules following a €460 million antitrust fine.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+OpenAI states its agents solved the Navier-Stokes equations, a 90-year-old mathematics problem, in 88 hours using 10,000 AI agents. The achievement involved spending millions of dollars to win a $1 million math contest and marks what OpenAI claims is the first major math problem solved by artificial intelligence. However, the announcement has been overshadowed by accusations that OpenAI failed to credit researchers whose AI-assisted work influenced the solution. 
+
+Meanwhile, US battery installations reached a record 20.2 gigawatt-hours of new capacity in the second quarter of 2026, enough to supply the daily electricity needs of 600,000 homes. The surge places the country on track for another record year, driven by cheaper batteries and rising energy storage demands from grid renewables. 
+
+In other developments, the United States accused six Chinese AI developers, including DeepSeek and Alibaba, of industrial-scale theft. Additionally, the Pentagon asked OpenAI for an AI model with minimal refusal rates, and Apple is expected to unveil a folding smartphone. Meta also launched an AI agent named Muse capable of accessing apps to send emails and make payments, though internal tests showed it could expose sensitive personal data. Finally, Google warned it is degrading search results in Europe to comply with EU rules.
+
+═══ 02b_TRIMMED ═══
+
+OpenAI states its agents solved the Navier-Stokes equations, a 90-year-old mathematics problem, in 88 hours using 10,000 AI agents. The achievement involved spending millions of dollars to win a $1 million math contest and marks what OpenAI claims is the first major math problem solved by artificial intelligence. However, the announcement has been overshadowed by accusations that OpenAI failed to credit researchers whose AI-assisted work influenced the solution. Meanwhile, US battery installations reached a record 20.2 gigawatt-hours of new capacity in the second quarter of 2026, enough to supply the daily electricity needs of 600,000 homes. The surge places the country on track for another record year, driven by cheaper batteries and rising energy storage demands from grid renewables. Meta also launched an AI agent named Muse capable of accessing apps to send emails and make payments, though internal tests showed it could expose sensitive personal data.
+
+═══ 03_COVERAGE_1 ═══
+
+50% covered (3/6). Missing: Danijar Hafner is developing AI agents capable of planning ahead and navigating unfamiliar environments.; The United States accused six Chinese AI firms, including DeepSeek and Alibaba, of industrial-scale theft.; Apple is expected to unveil a folding smartphone priced at $2,000.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+OpenAI states its agents solved the Navier-Stokes equations, a 90-year-old mathematics problem, in 88 hours using 10,000 AI agents. The achievement involved spending millions of dollars to win a $1 million math contest and marks what OpenAI claims is the first major math problem solved by artificial intelligence. However, the announcement has been overshadowed by accusations that OpenAI failed to credit researchers whose AI-assisted work influenced the solution. Meanwhile, US battery installations reached a record 20.2 gigawatt-hours of new capacity in the second quarter of 2026, enough to supply the daily electricity needs of 600,000 homes. The surge places the country on track for another record year, driven by cheaper batteries and rising energy storage demands from grid renewables. Danijar Hafner is developing AI agents capable of planning ahead and navigating unfamiliar environments. The United States accused six Chinese AI firms, including DeepSeek and Alibaba, of industrial-scale theft. Apple is expected to unveil a folding smartphone priced at $2,000. Meta also launched an AI agent named Muse capable of accessing apps to send emails and make payments, though internal tests showed it could expose sensitive personal data.
+
+═══ 04_AUDIO_REWRITE ═══
+
+OpenAI states its agents solved the Navier-Stokes equations. This was a ninety-year-old mathematics problem. It took eighty-eight hours and ten thousand A. I. agents. The achievement involved spending millions of dollars to win a one million dollar math contest. It marks what OpenAI claims is the first major math problem solved by artificial intelligence. However, the announcement has been overshadowed by accusations. Critics say OpenAI failed to credit researchers whose A. I.-assisted work influenced the solution. Meanwhile, United States battery installations reached a record twenty point two gigawatt-hours of new capacity in the second quarter of twenty twenty-six. This is enough to supply the daily electricity needs of six hundred thousand homes. The surge places the country on track for another record year. It is driven by cheaper batteries and rising energy storage demands from grid renewables. Danijar Hafner is developing A. I. agents. These agents are capable of planning ahead and navigating unfamiliar environments. The United States accused six Chinese A. I. firms of industrial-scale theft. These firms include DeepSeek and Alibaba. Apple is expected to unveil a folding smartphone priced at two thousand dollars. Meta also launched an A. I. agent named Muse. Muse is capable of accessing apps to send emails and make payments. Internal tests showed it could expose sensitive personal data.
+
+═══ 05_NORMALIZED ═══
+
+OpenAI states its agents solved the Navier-Stokes equations. This was a ninety-year-old mathematics problem. It took eighty-eight hours and ten thousand A. I. agents. The achievement involved spending millions of dollars to win a one million dollar math contest. It marks what OpenAI claims is the first major math problem solved by artificial intelligence. However, the announcement has been overshadowed by accusations. Critics say OpenAI failed to credit researchers whose A. I.-assisted work influenced the solution. Meanwhile, United States battery installations reached a record twenty point two gigawatt-hours of new capacity in the second quarter of twenty twenty-six. This is enough to supply the daily electricity needs of six hundred thousand homes. The surge places the country on track for another record year. It is driven by cheaper batteries and rising energy storage demands from grid renewables. Danijar Hafner is developing A. I. agents. These agents are capable of planning ahead and navigating unfamiliar environments. The United States accused six Chinese A. I. firms of industrial-scale theft. These firms include DeepSeek and Alibaba. Apple is expected to unveil a folding smartphone priced at two thousand dollars. Meta also launched an A. I. agent named Muse. Muse is capable of accessing apps to send emails and make payments. Internal tests showed it could expose sensitive personal data.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: A. I.
+

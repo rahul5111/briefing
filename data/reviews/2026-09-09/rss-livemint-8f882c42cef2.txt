@@ -1,0 +1,62 @@
+═══ 00_KEY_POINTS ═══
+
+1. A viral ChatGPT trend encourages users to upload selfies to create retro 1980s style photographs.
+2. Photos uploaded to ChatGPT may remain on OpenAI systems for up to thirty days after deletion.
+3. Photos contain personal data and metadata such as location, device information, and timestamps.
+4. Users hand another company a copy of a personal image governed by specific privacy policies.
+5. OpenAI business products do not use customer data for model training by default.
+6. Users should avoid uploading sensitive information or photos of other people without explicit permission.
+7. This news matters so users understand the data retention risks and privacy implications of uploading personal selfies to AI services.
+
+═══ 01_DRAFT ═══
+
+A viral ChatGPT trend prompting users to upload selfies to transform them into 1980s retro-style photographs has raised privacy questions regarding how personal images and associated data are handled. According to WIRED Middle East, uploading a facial photograph places a copy of personal data that can help identify an individual onto an AI service, complete with metadata including when the picture was taken, the device used, and its location. When uploaded, the photo becomes part of the user interaction and is stored with conversation data. Standard ChatGPT conversations are saved until deleted by the user, and data may remain on OpenAI systems for up to 30 days after deletion. Certain information can be retained longer for legal or security reasons, or if it is de-identified. While OpenAI states that its business products and API do not use customer data for model training by default, data handling rules for personal accounts differ. Services can also collect basic metadata such as IP addresses, device types, operating systems, and general geographic locations. Experts advise users to avoid uploading photos of others, particularly children, without permission, and recommend disabling model training, using temporary modes, and deleting unnecessary chats and files to enhance privacy.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+A viral ChatGPT trend prompting users to upload selfies to transform them into 1980s retro-style photographs has raised privacy questions regarding how personal images and associated data are handled. According to WIRED Middle East, uploading a facial photograph places a copy of personal data that can help identify an individual onto an AI service, complete with metadata including when the picture was taken, the device used, and its location. When uploaded, the photo becomes part of the user interaction and is stored with conversation data. As noted by WIRED Middle East, ChatGPT conversations are saved to a user's account until deleted, and data may remain on OpenAI's systems for up to 30 days after deletion. Certain information can be retained longer for legal or security reasons, or if it is de-identified and separated from the account. While OpenAI states that its business products and API do not use customer data for model training by default, data handling rules for personal accounts differ. Services can also collect basic metadata such as IP addresses, device types, operating systems, and general geographic locations. Users should avoid uploading photos of others, particularly children, without permission, and media reports recommend disabling model training where possible, using temporary or incognito modes, and deleting unnecessary chats and files to enhance privacy.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (7/7). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+A viral chat g p t trend turns selfies into nineteen eighties style photos. This trend raises privacy questions about how personal images and data are handled. 
+
+According to wired middle east, uploading a photo puts personal identifying data onto an A. I. service. The data includes metadata like when the picture was taken, the device used, and its location. 
+
+The uploaded photo becomes part of the user interaction and gets stored with conversation data. Chat g p t conversations stay on a user account until the user deletes them. Data can stay on open a i systems for up to thirty days after deletion. 
+
+Certain information can be kept longer for legal or security reasons. Information can also be kept if it is de-identified and separated from the account. 
+
+Open a i states that its business products and a p i do not use customer data for model training by default. Data handling rules for personal accounts are different. 
+
+Services can collect basic metadata. This includes I. P. addresses, device types, operating systems, and general geographic locations. 
+
+Users should avoid uploading photos of other people, especially children, without permission. Media reports recommend turning off model training where possible. Users should also use temporary or incognito modes, and delete unnecessary chats and files to protect their privacy.
+
+═══ 05_NORMALIZED ═══
+
+A viral chat g p t trend turns selfies into nineteen eighties style photos. This trend raises privacy questions about how personal images and data are handled.
+
+According to wired middle east, uploading a photo puts personal identifying data onto an A. I. service. The data includes metadata like when the picture was taken, the device used, and its location.
+
+The uploaded photo becomes part of the user interaction and gets stored with conversation data. Chat g p t conversations stay on a user account until the user deletes them. Data can stay on open a i systems for up to thirty days after deletion.
+
+Certain information can be kept longer for legal or security reasons. Information can also be kept if it is de-identified and separated from the account.
+
+Open a i states that its business products and a p i do not use customer data for model training by default. Data handling rules for personal accounts are different.
+
+Services can collect basic metadata. This includes I. P. addresses, device types, operating systems, and general geographic locations.
+
+Users should avoid uploading photos of other people, especially children, without permission. Media reports recommend turning off model training where possible. Users should also use temporary or incognito modes, and delete unnecessary chats and files to protect their privacy.
+
+═══ 06_COVERAGE_FINAL ═══
+
+85% covered (6/7). Missing: This news matters so users understand the data retention risks and privacy implications of uploading personal selfies to AI services.
+
+═══ 07_SANITY ═══
+
+OK
+

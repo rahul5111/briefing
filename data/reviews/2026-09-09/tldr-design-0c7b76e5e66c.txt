@@ -1,0 +1,62 @@
+═══ 00_KEY_POINTS ═══
+
+1. Cursor cloud agents now create more than 60 percent of the pull requests merged internally.
+2. Self-Hosted Machines let teams manage underlying infrastructure while agents are started and managed from Cursor.
+3. Lambda MicroVMs serve as the compute layer enabling developers to run coding agents in their AWS account.
+4. Workers establish a long-lived outbound HTTPS connection to the Cursor cloud without incoming network connections.
+5. Worker pools scale automatically in response to queued requests using custom spawn scripts supplied by teams.
+6. Namespace Devboxes provide real Mac environments with Apple silicon for Cursor Cloud Agent iOS development.
+7. Self-Hosted Machines matter because they give teams full control over where agents execute and what they access.
+
+═══ 01_DRAFT ═══
+
+Cursor has released new capabilities allowing teams to run its AI-powered Cloud Agents on dynamically scheduled pools of machines within their own networks, rather than exclusively on Cursor-hosted virtual machines. Cursor states that cloud agents currently create more than 60 percent of the pull requests it merges internally, and the feature addresses the growing need for enterprises to control where agents execute and what infrastructure they use. 
+
+Under the self-hosted setup, the agent loop, inference, and planning remain in the Cursor cloud, while tool execution moves to machines managed by the user, such as laptops, virtual machines, or infrastructure provided by partners including AWS Lambda, Cloudflare, Coder, Daytona, E2B, Modal, Namespace, and Vercel. To register a machine, users install the Cursor CLI and run the agent worker start command, establishing a long-lived outbound HTTPS connection to the Cursor cloud. Cursor never initiates a connection into the user network.
+
+The system supports individual personal workflows through My Machines and scaled enterprise needs through Pools, which are named queues of workers. A controller watches the request queue and uses a team-supplied spawn script to automatically start machines as demand rises and disconnects them when idle. To manage costs and startup times, teams can configure idle timeouts and hibernation features that snapshot and stop idle machines, allowing them to restore with full state if a follow-up arrives. 
+
+Additionally, the update expands computer use capabilities to Linux workers alongside Macs, enabling agents to click, take screenshots, and control browsers, while integrations like Namespace Devboxes provide real Macs running on Apple silicon for iOS development. Cursor-hosted environments remain the default option, providing dedicated VMs with per-agent isolation, secret redaction, egress controls, and signed commits.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Cursor has released new capabilities allowing teams to run its AI-powered Cloud Agents on dynamically scheduled pools of machines within their own networks, rather than exclusively on Cursor-hosted virtual machines. Cursor states that cloud agents currently create more than 60 percent of the pull requests it merges internally, and the feature addresses the growing need for enterprises to control where agents execute and what infrastructure they use. 
+
+Under the self-hosted setup, the agent loop, inference, and planning remain in the Cursor cloud, while tool execution moves to machines managed by the user, such as laptops, virtual machines, or infrastructure provided by partners including AWS Lambda, Cloudflare, Coder, Daytona, E2B, Modal, Namespace, and Vercel. To register a machine, users install the Cursor CLI and run the agent worker start command, establishing a long-lived outbound HTTPS connection to the Cursor cloud. Cursor never initiates a connection into the user network.
+
+The system supports individual personal workflows through My Machines and scaled enterprise needs through Pools, which are named queues of workers. A controller watches the request queue and uses a team-supplied spawn script to automatically start machines as demand rises and disconnects them when idle. To manage costs and startup times, teams can configure idle timeouts and hibernation features that snapshot and stop idle machines, allowing them to restore with full state if a follow-up arrives. 
+
+Linux workers now support computer use alongside Macs, while integrations like Namespace Devboxes provide real Macs running on Apple silicon. Cursor-hosted environments remain the default option, providing dedicated VMs with per-agent isolation, secret redaction, egress controls, and signed commits.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (7/7). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Cursor has released new capabilities allowing teams to run its A. I.-powered Cloud Agents on dynamically scheduled pools of machines within their own networks. This replaces running them exclusively on Cursor-hosted virtual machines. Cursor states that cloud agents currently create more than sixty percent of the pull requests it merges internally. The new feature addresses the growing need for enterprises to control where agents execute and what infrastructure they use. 
+
+Under the self-hosted setup, the agent loop, inference, and planning remain in the Cursor cloud. Tool execution moves to machines managed by the user, such as laptops, virtual machines, or infrastructure provided by partners. These partners include A. W. S. Lambda, Cloudflare, Coder, Daytona, E2B, Modal, Namespace, and Vercel. To register a machine, users install the Cursor C. L. I. and run the agent worker start command. This establishes a long-lived outbound H. T. T. P. S. connection to the Cursor cloud. Cursor never initiates a connection into the user network.
+
+The system supports individual personal workflows through My Machines and scaled enterprise needs through Pools. Pools are named queues of workers. A controller watches the request queue and uses a team-supplied spawn script to automatically start machines as demand rises. It disconnects them when they are idle. To manage costs and startup times, teams can configure idle timeouts and hibernation features. These features snapshot and stop idle machines, allowing them to restore with full state if a follow-up arrives. 
+
+Linux workers now support computer use alongside Macs. Integrations like Namespace Devboxes provide real Macs running on Apple silicon. Cursor-hosted environments remain the default option. They provide dedicated virtual machines with per-agent isolation, secret redaction, egress controls, and signed commits.
+
+═══ 05_NORMALIZED ═══
+
+Cursor has released new capabilities allowing teams to run its A. I.-powered Cloud Agents on dynamically scheduled pools of machines within their own networks. This replaces running them exclusively on Cursor-hosted virtual machines. Cursor states that cloud agents currently create more than sixty percent of the pull requests it merges internally. The new feature addresses the growing need for enterprises to control where agents execute and what infrastructure they use.
+
+Under the self-hosted setup, the agent loop, inference, and planning remain in the Cursor cloud. Tool execution moves to machines managed by the user, such as laptops, virtual machines, or infrastructure provided by partners. These partners include A. W. S. Lambda, Cloudflare, Coder, Daytona, E2B, Modal, Namespace, and Vercel. To register a machine, users install the Cursor C. L. I. and run the agent worker start command. This establishes a long-lived outbound H. T. T. P. S. connection to the Cursor cloud. Cursor never initiates a connection into the user network.
+
+The system supports individual personal workflows through My Machines and scaled enterprise needs through Pools. Pools are named queues of workers. A controller watches the request queue and uses a team-supplied spawn script to automatically start machines as demand rises. It disconnects them when they are idle. To manage costs and startup times, teams can configure idle timeouts and hibernation features. These features snapshot and stop idle machines, allowing them to restore with full state if a follow-up arrives.
+
+Linux workers now support computer use alongside Macs. Integrations like Namespace Devboxes provide real Macs running on Apple silicon. Cursor-hosted environments remain the default option. They provide dedicated virtual machines with per-agent isolation, secret redaction, egress controls, and signed commits.
+
+═══ 06_COVERAGE_FINAL ═══
+
+85% covered (6/7). Missing: Self-Hosted Machines let teams manage underlying infrastructure while agents are started and managed from Cursor.
+
+═══ 07_SANITY ═══
+
+ISSUES: A. I.-powered, A. W. S., C. L. I., H. T. T. P. S.
+

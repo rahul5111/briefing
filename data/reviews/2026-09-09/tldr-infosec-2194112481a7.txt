@@ -1,0 +1,45 @@
+═══ 00_KEY_POINTS ═══
+
+1. Calif released a demo of WeWorm, the first zero-click worm spreading through WeChat calls.
+2. WeWorm can hijack accounts and spread across iOS and Android phones without user interaction.
+3. Calif found the WeChat bug and wrote the first remote code execution exploit in about two days.
+4. Calif reported the critical memory corruption bug in WeChat's VoIP stack to Tencent in July.
+5. Tencent successfully mitigated the exploit for all users by August 28, according to Calif's disclosure.
+6. AI is lowering the barrier to create such cyberattacks, putting ordinary users at unprecedented risk.
+
+═══ 01_DRAFT ═══
+
+Security firm Calif has released a demo of WeWorm, described as the first zero-click worm to spread through WeChat calls across iOS and Android. Using AI assistance, Calif researchers found the underlying memory corruption bug in WeChat's VoIP stack and wrote a remote code execution exploit in about two days, followed by the worm in one week. The exploit allows an attacker on a victim's friend list to hijack a WeChat account while the phone is ringing, without requiring the user to answer or interact with the device. By compromising one account, the worm can automatically call and infect other contacts on both Android and iOS platforms. Calif reported the vulnerability to Tencent in July 2026, and Tencent confirmed on August 28 that the exploit had been mitigated on the server side for all users. Calif is withholding full technical details until an upcoming conference, stating the research highlights how AI is lowering the barrier for creating sophisticated cyber threats.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Security firm Calif has released a demo of WeWorm, described as the first zero-click worm to spread through WeChat calls across iOS and Android. Working with AI, the team found the underlying memory corruption bug in WeChat's VoIP stack and built the first remote code execution exploit in about two days, building the worm in one more week. The exploit allows an attacker on a victim's friend list to hijack a WeChat account while the phone is ringing, without requiring the user to answer or interact with the device. By compromising one account, the worm can automatically call and infect other contacts on both Android and iOS platforms. Calif reported the vulnerability to Tencent in July 2026, and Tencent confirmed on August 28 that the exploit had been mitigated on the server side for all users. Calif is withholding full technical details until an upcoming conference, stating the research highlights how AI is lowering the barrier for creating sophisticated cyber threats.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Security firm Calif has released a demo of a new threat called WeWorm. It is the first zero click worm to spread through WeChat calls across I. O. S. and Android devices. Working with A. I., the team found a memory corruption bug in the app. They built a remote code execution exploit in about two days. Then they built the worm in one more week. 
+
+The exploit lets an attacker on a victim friend list hijack a WeChat account while the phone is ringing. The user does not need to answer or touch the device at all. By compromising one account, the worm can automatically call and infect other contacts on both Android and I. O. S. platforms. 
+
+Calif reported the vulnerability to Tencent in July of twenty twenty-six. Tencent confirmed on August twenty-eighth that the exploit had been fixed on the server side for all users. Calif is keeping full technical details secret until an upcoming conference. The research highlights how A. I. is lowering the barrier for creating sophisticated cyber threats.
+
+═══ 05_NORMALIZED ═══
+
+Security firm Calif has released a demo of a new threat called WeWorm. It is the first zero click worm to spread through WeChat calls across I. O. S. and Android devices. Working with A. I., the team found a memory corruption bug in the app. They built a remote code execution exploit in about two days. Then they built the worm in one more week.
+
+The exploit lets an attacker on a victim friend list hijack a WeChat account while the phone is ringing. The user does not need to answer or touch the device at all. By compromising one account, the worm can automatically call and infect other contacts on both Android and I. O. S. platforms.
+
+Calif reported the vulnerability to Tencent in July of twenty twenty-six. Tencent confirmed on August twenty-eighth that the exploit had been fixed on the server side for all users. Calif is keeping full technical details secret until an upcoming conference. The research highlights how A. I. is lowering the barrier for creating sophisticated cyber threats.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: I. O. S., A. I., I. O. S., A. I.
+

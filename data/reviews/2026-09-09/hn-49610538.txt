@@ -1,0 +1,46 @@
+═══ 00_KEY_POINTS ═══
+
+1. LibreOffice 26.8 was released on August 26th and became the software's most popular update.
+2. The installer was downloaded more than 1 million times in just one week.
+3. The massive download record followed a statement that LibreOffice has no generative AI features.
+4. The Document Foundation published a post titled Yes, no AI is now a feature to explain its stance.
+5. TDF stated that artificial intelligence does not yet meet an exhaustive list of privacy and control principles.
+6. The foundation criticizes rivals for using AI assistants to justify price increases and subscription models.
+7. TDF currently recommends community plugins for users who want to integrate AI into LibreOffice.
+
+═══ 01_DRAFT ═══
+
+LibreOffice version 26.8, released on August 26th, has become the software’s most popular update, with its installer downloaded more than one million times in a single week, excluding updates through Linux distribution repositories. The surge in popularity follows the software's explicit statement that it does not include generative AI features due to privacy concerns. A day after celebrating the download milestone, The Document Foundation, which manages LibreOffice, published a post titled Yes, no AI is now a feature, written by Italo Vignoli. The foundation stated it does not reject artificial intelligence out of hand, but declared that the technology does not yet meet an exhaustive list of required principles for default inclusion. Those principles include user-controlled execution, no unauthorized content leaving the computer, zero telemetry, no dependency on a single vendor, no compromises on file formats, and entirely optional use. The Document Foundation currently recommends community plugins for users wanting to integrate AI into LibreOffice. According to the foundation, its stance has almost nothing to do with the technology itself, but rather addresses how competitors use built-in AI assistants to justify price increases and keep documents within their own infrastructure to support subscription models.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (7/7). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+LibreOffice version twenty-six point eight was released on August twenty-sixth. It has become the software's most popular update ever. Its installer was downloaded more than one million times in a single week. This number excludes updates through Linux distribution repositories. The surge in popularity follows a clear statement from the software. They do not include generative artificial intelligence features due to privacy concerns. 
+
+One day after celebrating that download milestone, The Document Foundation published a new post. The post was titled Yes, no AI is now a feature. It was written by, Italo Vignoli. The foundation stated it does not reject artificial intelligence out of hand. They declared the technology does not yet meet an exhaustive list of required principles for default inclusion. 
+
+Those principles include user controlled execution and no unauthorized content leaving the computer. They also require zero telemetry and no dependency on a single vendor. There must be no compromises on file formats and the use must be entirely optional. The Document Foundation currently recommends community plugins for users wanting to integrate artificial intelligence into the software. 
+
+According to the foundation, this stance has almost nothing to do with the technology itself. Instead, it addresses how competitors use built in artificial intelligence assistants. Competitors use these tools to justify price increases. They also keep documents within their own infrastructure to support subscription models.
+
+═══ 05_NORMALIZED ═══
+
+LibreOffice version twenty-six point eight was released on August twenty-sixth. It has become the software's most popular update ever. Its installer was downloaded more than one million times in a single week. This number excludes updates through Linux distribution repositories. The surge in popularity follows a clear statement from the software. They do not include generative artificial intelligence features due to privacy concerns.
+
+One day after celebrating that download milestone, The Document Foundation published a new post. The post was titled Yes, no A I. is now a feature. It was written by, Italo Vignoli. The foundation stated it does not reject artificial intelligence out of hand. They declared the technology does not yet meet an exhaustive list of required principles for default inclusion.
+
+Those principles include user controlled execution and no unauthorized content leaving the computer. They also require zero telemetry and no dependency on a single vendor. There must be no compromises on file formats and the use must be entirely optional. The Document Foundation currently recommends community plugins for users wanting to integrate artificial intelligence into the software.
+
+According to the foundation, this stance has almost nothing to do with the technology itself. Instead, it addresses how competitors use built in artificial intelligence assistants. Competitors use these tools to justify price increases. They also keep documents within their own infrastructure to support subscription models.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (7/7). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: A I.
+

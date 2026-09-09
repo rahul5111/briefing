@@ -1,0 +1,36 @@
+═══ 00_KEY_POINTS ═══
+
+1. The company's pretraining recipe is now more than 10 times more compute-efficient than leading open-weight base models.
+2. They matched DeepSeek V4 Pro Base using roughly 50 times fewer FLOPs, costing about $0.5 million on GB200.
+3. Continuing to scale by 10x with a $4 million budget allowed them to meaningfully outperform all publicly available open base models on perplexity evals.
+4. Training a model this capable would cost over $100 million using DeepSeek V4 Pro's recipe based on scaling laws.
+5. Their goal is to build the best model for coding and autonomous AI R&D through pretraining, agentic reinforcement learning, and long-context capabilities.
+
+═══ 01_DRAFT ═══
+
+Magic announced that its pretraining recipe is now more than ten times more compute-efficient than leading open-weight base models, matching the DeepSeek V4 Pro Base using roughly fifty times fewer floating-point operations. According to the company, this initial efficiency equals about half of GPT-3's pretraining compute, or roughly $0.5 million on GB200 hardware. After scaling up ten times further at a cost of around $4 million, the company reported outperforming all publicly available open base models on perplexity evaluations. By comparison, Magic stated that under DeepSeek V4 Pro's recipe, training a model of equivalent capability would cost more than $100 million. To measure these capabilities without prompt sensitivity, the team tracked bits-per-byte loss on held-out data and evaluated models across 167 domains. The company's future roadmap focuses on scaling long-horizon reinforcement learning, developing alignment techniques with robust theoretical properties, and releasing its upcoming models.
+
+═══ 03_COVERAGE_1 ═══
+
+80% covered (4/5). Missing: Their goal is to build the best model for coding and autonomous AI R&D through pretraining, agentic reinforcement learning, and long-context capabilities.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+Magic announced that its pretraining recipe is now more than ten times more compute-efficient than leading open-weight base models, matching the DeepSeek V4 Pro Base using roughly fifty times fewer floating-point operations. Their goal is to build the best model for coding and autonomous AI R&D through pretraining, agentic reinforcement learning, and long-context capabilities. According to the company, this initial efficiency equals about half of GPT-3's pretraining compute, or roughly $0.5 million on GB200 hardware. After scaling up ten times further at a cost of around $4 million, the company reported outperforming all publicly available open base models on perplexity evaluations. By comparison, Magic stated that under DeepSeek V4 Pro's recipe, training a model of equivalent capability would cost more than $100 million. To measure these capabilities without prompt sensitivity, the team tracked bits-per-byte loss on held-out data and evaluated models across 167 domains. The company's future roadmap focuses on scaling long-horizon reinforcement learning, developing alignment techniques with robust theoretical properties, and releasing its upcoming models.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Magic announced that its pretraining recipe is now more than ten times more compute-efficient than leading open-weight base models. It matches the DeepSeek V four Pro Base using roughly fifty times fewer floating-point operations. Their goal is to build the best model for coding and autonomous A. I. research and development. They plan to do this through pretraining and agentic reinforcement learning alongside long-context capabilities. According to the company, this initial efficiency equals about half of G. P. T. dash three's pretraining compute. That is roughly zero point five million dollars on G. B. two hundred hardware. After scaling up ten times further at a cost of around four million dollars, the company reported outperforming all publicly available open base models on perplexity evaluations. By comparison, Magic stated that under DeepSeek V four Pro's recipe, training a model of equivalent capability would cost more than one hundred million dollars. To measure these capabilities without prompt sensitivity, the team tracked bits-per-byte loss on held-out data. They also evaluated models across one hundred sixty-seven domains. The company's future roadmap focuses on scaling long-horizon reinforcement learning. They are also developing alignment techniques with robust theoretical properties while preparing to release their upcoming models.
+
+═══ 05_NORMALIZED ═══
+
+Magic announced that its pretraining recipe is now more than ten times more compute-efficient than leading open-weight base models. It matches the DeepSeek V four Pro Base using roughly fifty times fewer floating-point operations. Their goal is to build the best model for coding and autonomous A. I. research and development. They plan to do this through pretraining and agentic reinforcement learning alongside long-context capabilities. According to the company, this initial efficiency equals about half of G. P. T. dash three's pretraining compute. That is roughly zero point five million dollars on G. B. two hundred hardware. After scaling up ten times further at a cost of around four million dollars, the company reported outperforming all publicly available open base models on perplexity evaluations. By comparison, Magic stated that under DeepSeek V four Pro's recipe, training a model of equivalent capability would cost more than one hundred million dollars. To measure these capabilities without prompt sensitivity, the team tracked bits-per-byte loss on held-out data. They also evaluated models across one hundred sixty-seven domains. The company's future roadmap focuses on scaling long-horizon reinforcement learning. They are also developing alignment techniques with robust theoretical properties while preparing to release their upcoming models.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (5/5). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: DeepSeek V four Pro Base, G. P. T. dash three, G. B. two hundred, DeepSeek V four Pro
+

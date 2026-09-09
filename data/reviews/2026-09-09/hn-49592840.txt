@@ -1,0 +1,46 @@
+═══ 00_KEY_POINTS ═══
+
+1. GET Together is a unique social network where everything you write is a GET request.
+2. Names must be between 2 and 20 letters, numbers, or underscores without requiring verification.
+3. Crypto, Bitcoin, memecoins, and token promotion are strictly banned from new posts and names.
+4. Cookies are optional for posting, but the gt_session cookie is needed to delete a post later.
+5. Reusing an existing post ID or sending identical text results in a 409 Conflict error.
+6. Users must wait ten seconds and retry when encountering a 429 rate limit error.
+7. The platform matters because it demonstrates a novel social network operating entirely without POST requests.
+
+═══ 01_DRAFT ═══
+
+A developer has launched GET Together, a new social network that operates entirely through HTTP GET requests instead of POST requests. Hosted at gettogether.dev, the platform allows users to publish public posts by including their nickname and text as query parameters in a URL. The site features a reverse-chronological feed, support for threaded replies, heart reactions, and post deletion, all driven by GET requests. Nicknames must be between two and twenty characters using letters, numbers, or underscores, and do not require verification or uniqueness. Users can optionally store a gt_session cookie to manage post deletion, while duplicate post IDs or identical text submissions return a 409 Conflict error. The platform implements automated moderation checks that screen new posts and names for English profanity as well as cryptocurrency, Bitcoin, memecoin, and token promotion. Because everything is submitted via URL parameters, the platform warns users that post text is public and should not contain private information.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+GET Together defines itself as a social network with no POSTs, where everything written operates as a GET request and the newest posts come first. Hosted at gettogether.dev, the platform allows users to publish public posts by sending a name and text to the /post endpoint via query parameters. The site features a reverse-chronological feed, support for threaded replies, heart reactions, and post deletion, all driven by GET requests. Names must be between 2 and 20 letters, numbers, or underscores, and do not require uniqueness or verification. Users can optionally store a gt_session cookie returned by the server to delete a post later, while reusing an ID or sending the same text returns a 409 Conflict error. The platform implements automated moderation checks that screen new posts and names for English profanity as well as crypto, Bitcoin, memecoin, and token promotion. Because everything is submitted via URL parameters and the post text is part of the URL, the platform warns users that posts are public and should not contain private information.
+
+═══ 02b_TRIMMED ═══
+
+The site features a reverse-chronological feed, support for threaded replies, heart reactions, and post deletion, all driven by GET requests. Names must be between 2 and 20 letters, numbers, or underscores, and do not require uniqueness or verification. Users can optionally store a gt_session cookie returned by the server to delete a post later, while reusing an ID or sending the same text returns a 409 Conflict error. The platform implements automated moderation checks that screen new posts and names for English profanity as well as crypto, Bitcoin, memecoin, and token promotion.
+
+═══ 03_COVERAGE_1 ═══
+
+57% covered (4/7). Missing: GET Together is a unique social network where everything you write is a GET request.; Users must wait ten seconds and retry when encountering a 429 rate limit error.; The platform matters because it demonstrates a novel social network operating entirely without POST requests.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+GET Together is a unique social network where everything you write is a GET request. The platform matters because it demonstrates a novel social network operating entirely without POST requests. The site features a reverse-chronological feed, support for threaded replies, heart reactions, and post deletion, all driven by GET requests. Names must be between 2 and 20 letters, numbers, or underscores, and do not require uniqueness or verification. Users can optionally store a gt_session cookie returned by the server to delete a post later, while reusing an ID or sending the same text returns a 409 Conflict error. Users must wait ten seconds and retry when encountering a 429 rate limit error. The platform implements automated moderation checks that screen new posts and names for English profanity as well as crypto, Bitcoin, memecoin, and token promotion.
+
+═══ 04_AUDIO_REWRITE ═══
+
+GET Together is a unique social network where everything you write is a GET request. The platform matters because it demonstrates a novel social network operating entirely without POST requests. The site features a reverse-chronological feed and support for threaded replies and heart reactions and post deletion. All of these features are driven by GET requests. Names must be between two and twenty letters or numbers or underscores. They do not require uniqueness or verification. Users can optionally store a G. T. session cookie returned by the server to delete a post later. Reusing an I. D. or sending the same text returns a four hundred nine Conflict error. Users must wait ten seconds and retry when encountering a four hundred twenty-nine rate limit error. The platform implements automated moderation checks that screen new posts and names for English profanity. These checks also screen for crypto and Bitcoin and memecoin and token promotion.
+
+═══ 05_NORMALIZED ═══
+
+GET Together is a unique social network where everything you write is a GET request. The platform matters because it demonstrates a novel social network operating entirely without POST requests. The site features a reverse-chronological feed and support for threaded replies and heart reactions and post deletion. All of these features are driven by GET requests. Names must be between two and twenty letters or numbers or underscores. They do not require uniqueness or verification. Users can optionally store a G. T. session cookie returned by the server to delete a post later. Reusing an I. D. or sending the same text returns a four hundred nine Conflict error. Users must wait ten seconds and retry when encountering a four hundred twenty-nine rate limit error. The platform implements automated moderation checks that screen new posts and names for English profanity. These checks also screen for crypto and Bitcoin and memecoin and token promotion.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (7/7). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: GET, POST, G. T., I. D.
+

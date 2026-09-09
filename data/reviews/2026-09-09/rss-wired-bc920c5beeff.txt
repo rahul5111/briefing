@@ -1,0 +1,74 @@
+═══ 00_KEY_POINTS ═══
+
+1. San Jose startup Kepler Computing emerged from stealth mode in 2018 to ease the global memory-chip shortage.
+2. Kepler developed a new high-bandwidth memory architecture that increases density without relying on expensive ultraviolet lithography.
+3. The startup has raised $468 million in funding from backers including Intel Capital, AMD Ventures, and Bill Gates.
+4. In July, the US Department of Commerce committed up to $245 million to help Kepler develop AI memory technology.
+5. GlobalFoundries invested $50 million and serves as a manufacturing partner for Kepler's testing facilities in Singapore and Vermont.
+6. Debo Olaosebikan stated that the 2022 launch of ChatGPT sparked an explosion of demand for an HBM alternative.
+7. Kepler plans to ship its first samples of HBM chips later this year and start US production in 2028.
+
+═══ 01_DRAFT ═══
+
+San Jose startup Kepler Computing has emerged from seven years in stealth mode with $468 million in funding and up to $245 million committed by the US Department of Commerce in July. Founded in 2018 by physicists and computer scientists, the company has developed a 3D stacking approach and proprietary material for high-bandwidth memory and high-speed cache memory that bypasses expensive extreme ultraviolet lithography. 
+
+The startup’s technology increases density without EUV and works within existing semiconductor fabrication plants, allowing a fab to be converted in eight months instead of the typical 24 months. Kepler has raised capital from backers including GlobalFoundries, Intel Capital, AMD Ventures, Baillie Gifford, and Bill Gates through Gates Frontier. It has partnered with GlobalFoundries, which invested $50 million and hosts testing at facilities in Singapore and Burlington, Vermont. 
+
+Kepler plans to ship its first HBM chip samples later this year, ramp up production in Singapore next year, and begin US chip production in 2028, having run its technology on roughly 2,000 wafers to date. 
+
+For a long time our thinking was that we’d work on SRAM first and then follow up with DRAM and HBM, says Debo Olaosebikan, Kepler cofounder and chief executive officer. But with the launch of ChatGPT and the explosion of demand for an HBM alternative, we started working on our HBM road map. Now we’re making SRAM and HBM in parallel.
+
+The approach aims to ease the global memory-chip shortage by allowing manufacturers to increase memory supply within existing facilities, avoiding the $20 billion to $40 billion cost of building new ones, provided the startup can successfully scale its technology to millions of devices.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (7/7). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+San Jose startup Kepler Computing has emerged from seven years in stealth mode. It has raised four hundred sixty-eight million dollars in funding. The United States Department of Commerce committed up to two hundred forty-five million dollars in July. 
+
+Physicists and computer scientists founded the company in twenty eighteen. They developed a three dimensional stacking approach and a proprietary material. This technology handles high bandwidth memory and high speed cache memory. It completely bypasses expensive extreme ultraviolet lithography. 
+
+The startup technology increases density without extreme ultraviolet equipment. It works directly inside existing semiconductor fabrication plants. A factory can convert its lines in eight months instead of the typical twenty-four months. 
+
+Kepler raised capital from several major backers. Investors include GlobalFoundries, Intel Capital, AMD Ventures, Baillie Gifford, and Bill Gates through Gates Frontier. 
+
+The company partnered directly with GlobalFoundries. That partner invested fifty million dollars. GlobalFoundries also hosts testing at facilities in Singapore and Burlington, Vermont. 
+
+Kepler plans to ship its first high bandwidth memory chip samples later this year. The company will ramp up production in Singapore next year. United States chip production will begin in twenty twenty-eight. The startup has already run its technology on roughly two thousand wafers to date. 
+
+Chief executive officer Debo Olaosebikan explained the strategy. He said the team originally planned to work on static random-access memory first. Dynamic random-access memory and high bandwidth memory would follow later. 
+
+The launch of ChatGPT changed everything. The explosion of demand for alternative memory forced a shift in the road map. Now the company is making static random-access memory and high bandwidth memory at the same time. 
+
+The new approach aims to ease the global memory chip shortage. Manufacturers can increase memory supply within existing facilities. This avoids the twenty billion to forty billion dollar cost of building brand new plants. Success depends on the startup scaling its technology to millions of devices.
+
+═══ 05_NORMALIZED ═══
+
+San Jose startup Kepler Computing has emerged from seven years in stealth mode. It has raised four hundred sixty-eight million dollars in funding. The United States Department of Commerce committed up to two hundred forty-five million dollars in July.
+
+Physicists and computer scientists founded the company in twenty eighteen. They developed a three dimensional stacking approach and a proprietary material. This technology handles high bandwidth memory and high speed cache memory. It completely bypasses expensive extreme ultraviolet lithography.
+
+The startup technology increases density without extreme ultraviolet equipment. It works directly inside existing semiconductor fabrication plants. A factory can convert its lines in eight months instead of the typical twenty-four months.
+
+Kepler raised capital from several major backers. Investors include GlobalFoundries, Intel Capital, AMD Ventures, Baillie Gifford, and Bill Gates through Gates Frontier.
+
+The company partnered directly with GlobalFoundries. That partner invested fifty million dollars. GlobalFoundries also hosts testing at facilities in Singapore and Burlington, Vermont.
+
+Kepler plans to ship its first high bandwidth memory chip samples later this year. The company will ramp up production in Singapore next year. United States chip production will begin in twenty twenty-eight. The startup has already run its technology on roughly two thousand wafers to date.
+
+Chief executive officer Debo Olaosebikan explained the strategy. He said the team originally planned to work on static random-access memory first. Dynamic random-access memory and high bandwidth memory would follow later.
+
+The launch of ChatGPT changed everything. The explosion of demand for alternative memory forced a shift in the road map. Now the company is making static random-access memory and high bandwidth memory at the same time.
+
+The new approach aims to ease the global memory chip shortage. Manufacturers can increase memory supply within existing facilities. This avoids the twenty billion to forty billion dollar cost of building brand new plants. Success depends on the startup scaling its technology to millions of devices.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (7/7). Missing: none
+
+═══ 07_SANITY ═══
+
+OK
+
