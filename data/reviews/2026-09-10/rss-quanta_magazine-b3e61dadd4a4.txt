@@ -1,0 +1,105 @@
+═══ 00_KEY_POINTS ═══
+
+1. Researchers in March 2026 published a new computer proof for the famous four-color theorem.
+2. The new proof was developed by Mikkel Thorup, Carsten Thomassen, and four other international colleagues.
+3. The team identified a massive new unavoidable set consisting of 8,202 configurations.
+4. The research provides a far more efficient map-coloring algorithm requiring n(log n) steps instead of n2 steps.
+5. The new proof uncovers previously unknown structural properties of important mathematical objects called planar graphs.
+6. The findings provide mathematicians with new tools for solving other stubborn problems in graph theory.
+
+═══ 01_DRAFT ═══
+
+A team of six mathematicians from Denmark, Canada, and Japan has produced a new computer-assisted proof of the centuries-old four-color theorem, which states that any contiguous map can be colored using only four colors without adjacent regions sharing a color. Initiated on a Danish beach in 2015 by Ken-ichi Kawarabayashi and Mikkel Thorup, and later joined by Carsten Thomassen, Bojan Mohar, Yuta Inoue, and Atsuyuki Miyashita, the project took nearly a decade of work. The researchers posted their findings online in March 2026 and will present them in November at the annual Foundations of Computer Science conference. While previous proofs from 1976 and 1997 required sequential steps proportional to $n^2$ for a graph with $n$ vertices, the new proof identifies an unavoidable set of 8,202 configurations in flat areas of graphs that can be reduced in parallel, dropping the coloring process to $n(\log n)$ steps. Beyond efficiency, the work reveals previously unknown structural properties of planar graphs by using a different concept of reducibility. As Georges Gonthier of Inria in Paris noted regarding the team's intricate approach, it is really cool to see a real result for once given the problem's history of false starts and dashed hopes.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+A team of six mathematicians from Denmark, Canada, and Japan has produced a new computer-assisted proof of the centuries-old four-color theorem, which states that any contiguous map can be colored using only four colors without adjacent regions sharing a color. After nearly a decade of work, the researchers posted their findings online in March 2026 and will present them in November at the annual Foundations of Computer Science conference. While previous proofs from 1976 and 1997 required sequential steps proportional to $n^2$ for a graph with $n$ vertices, the new proof identifies an unavoidable set of 8,202 configurations in flat areas of graphs that can be reduced at the same time, dropping the coloring process to $n(\log n)$ steps. By drawing on a different concept of reducibility and using overlooked parts of the graph, the work has revealed previously unknown structure in these important mathematical objects. As Georges Gonthier of Inria in Paris noted regarding the team's intricate approach, it is really cool to see a real result for once given the problem's history of false starts and dashed hopes.
+
+═══ 03_COVERAGE_1 ═══
+
+83% covered (5/6). Missing: The findings provide mathematicians with new tools for solving other stubborn problems in graph theory.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+A team of six mathematicians from Denmark, Canada, and Japan has produced a new computer-assisted proof of the centuries-old four-color theorem, which states that any contiguous map can be colored using only four colors without adjacent regions sharing a color. After nearly a decade of work, the researchers posted their findings online in March 2026 and will present them in November at the annual Foundations of Computer Science conference. While previous proofs from 1976 and 1997 required sequential steps proportional to $n^2$ for a graph with $n$ vertices, the new proof identifies an unavoidable set of 8,202 configurations in flat areas of graphs that can be reduced at the same time, dropping the coloring process to $n(\log n)$ steps. By drawing on a different concept of reducibility and using overlooked parts of the graph, the work has revealed previously unknown structure in these important mathematical objects. The findings provide mathematicians with new tools for solving other stubborn problems in graph theory. As Georges Gonthier of Inria in Paris noted regarding the team's intricate approach, it is really cool to see a real result for once given the problem's history of false starts and dashed hopes.
+
+═══ 04_AUDIO_REWRITE ═══
+
+A team of six mathematicians from Denmark, Canada, and Japan has produced a new proof of the four-color theorem. 
+
+Any map can be colored using only four colors without adjacent regions sharing a color. 
+
+The researchers worked for nearly a decade. 
+
+They posted their findings online in March twenty twenty-six. 
+
+They will present the work in November at the annual Foundations of Computer Science conference. 
+
+Previous proofs from nineteen seventy-six and nineteen ninety-seven required sequential steps proportional to $n$ squared. 
+
+That applied to a graph with $n$ vertices. 
+
+The new proof identifies an unavoidable set of eight thousand two hundred and two configurations in flat areas of graphs. 
+
+These configurations can be reduced at the same time. 
+
+This drops the coloring process to $n$ times the log of $n$ steps. 
+
+The team drew on a different concept of reducibility. 
+
+They used overlooked parts of the graph. 
+
+The work has revealed previously unknown structure in these important mathematical objects. 
+
+The findings provide mathematicians with new tools for solving other stubborn problems in graph theory. 
+
+Georges Gonthier, of Inria in Paris, noted the team used an intricate approach. 
+
+He stated it is really cool to see a real result for once. 
+
+He mentioned the problem has a history of false starts and dashed hopes.
+
+═══ 05_NORMALIZED ═══
+
+A team of six mathematicians from Denmark, Canada, and Japan has produced a new proof of the four-color theorem.
+
+Any map can be colored using only four colors without adjacent regions sharing a color.
+
+The researchers worked for nearly a decade.
+
+They posted their findings online in March twenty twenty-six.
+
+They will present the work in November at the annual Foundations of Computer Science conference.
+
+Previous proofs from nineteen seventy-six and nineteen ninety-seven required sequential steps proportional to $n$ squared.
+
+That applied to a graph with $n$ vertices.
+
+The new proof identifies an unavoidable set of eight thousand two hundred and two configurations in flat areas of graphs.
+
+These configurations can be reduced at the same time.
+
+This drops the coloring process to $n$ times the log of $n$ steps.
+
+The team drew on a different concept of reducibility.
+
+They used overlooked parts of the graph.
+
+The work has revealed previously unknown structure in these important mathematical objects.
+
+The findings provide mathematicians with new tools for solving other stubborn problems in graph theory.
+
+Georges Gonthier, of Inria in Paris, noted the team used an intricate approach.
+
+He stated it is really cool to see a real result for once.
+
+He mentioned the problem has a history of false starts and dashed hopes.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: $n$, $n$, $n$
+

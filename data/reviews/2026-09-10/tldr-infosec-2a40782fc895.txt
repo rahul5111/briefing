@@ -1,0 +1,105 @@
+═══ 00_KEY_POINTS ═══
+
+1. A max-severity zero-day bug tracked as CVE-2026-75650 affects Adobe Commerce and Magento versions 2.4.4 through 2.4.9.
+2. Security firm Sansec named the flaw StyleSmuggler because attackers abused Magento style properties to inject malicious code.
+3. Exploitation of the vulnerability began on September 4, with the first confirmed attack recorded at 22:20 UTC.
+4. When the attack succeeds, a backdoor background process is launched and connects to the 99.84.67.186 C2 server.
+5. Adobe released an emergency hotfix, VULN-393411, to close the max-severity vulnerability on affected servers.
+6. Sansec warns that patching alone is insufficient because attackers had three days to exploit the flaw before a fix arrived.
+
+═══ 01_DRAFT ═══
+
+Online stores running Adobe Commerce and Magento Open Source are facing active attacks from a maximum-severity, zero-day vulnerability tracked as CVE-2026-75650. The flaw carries a CVSS score of 10.0 and impacts versions 2.4.4 through 2.4.9 of both platforms. Security firm Sansec, which dubbed the flaw StyleSmuggler, found that exploitation began on September 4, with the first confirmed attack recorded at 22:20 UTC. 
+
+The unauthenticated vulnerability allows attackers to inject malicious PHP code by abusing template processing during failed payment email notifications. When the attack succeeds, a background process is launched. According to Sansec researchers, when the attack succeeds, a backdoor background process is launched. This is a small Rust program that connects to the 99.84.67.186 C2 server and waits for commands. The Rust implant uses persistence mechanisms such as cron jobs and disguises its command-and-control traffic as NTP traffic over UDP port 123. The investigation also revealed a separate attacker using the vulnerability to deploy a web shell inside the product-image cache on September 7. 
+
+Adobe has released an emergency hotfix, VULN-393411, to close the vulnerability. However, because attackers had a three-day window to exploit the flaw before the fix arrived, Sansec warns that patching alone is insufficient for stores that may have already been compromised. Operators are advised to scan systems for unexpected PHP files, malicious processes, and cron entries, and to rotate potentially compromised credentials and secrets.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Online stores running Adobe Commerce and Magento Open Source are facing active attacks from a maximum-severity, zero-day vulnerability tracked as CVE-2026-75650. The flaw carries a CVSS score of 10.0 and impacts versions 2.4.4 through 2.4.9 of both platforms. Security firm Sansec, which dubbed the flaw StyleSmuggler, found that exploitation began on September 4, with the first confirmed attack recorded at 22:20 UTC. 
+
+The unauthenticated vulnerability allows attackers to inject malicious PHP code by abusing template processing during failed payment email notifications. When the attack succeeds, a background process is launched. According to Sansec researchers, when the attack succeeds, a backdoor background process is launched. This is a small Rust program that connects to the 99.84.67.186 C2 server and waits for commands. The Rust implant uses persistence mechanisms such as cron jobs and disguises its command-and-control traffic as NTP traffic over UDP port 123. The investigation also revealed a separate attacker using the vulnerability to deploy a web shell inside the product-image cache on September 7. 
+
+Adobe has released an emergency hotfix, VULN-393411, to close the vulnerability. However, because attackers had a three-day window to exploit the flaw before the fix arrived, Sansec warns that patching alone is insufficient for stores that may have already been compromised. The researchers recommended checking for unexpected PHP files under pub/media, while also looking for known malicious processes, cron entries, and other indicators of compromise.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Online stores running Adobe Commerce and Magento Open Source face active attacks from a zero-day vulnerability tracked as C. V. E. twenty twenty-six, seventy-five thousand six hundred fifty. 
+
+The flaw carries a critical score of ten point zero and impacts versions two point four point four through two point four point nine of both platforms. 
+
+Security firm Sansec dubbed the flaw StyleSmuggler. 
+
+Exploitation began on September fourth, with the first confirmed attack recorded at twenty-two twenty U. T. C. 
+
+The vulnerability allows attackers to inject malicious P. H. P. code by abusing template processing during failed payment email notifications. 
+
+A successful attack launches a background process. 
+
+This process is a small Rust program that connects to a command and control server. 
+
+The server address is ninety-nine point eighty-four point sixty-seven point one hundred eighty-six. 
+
+The program waits for commands and uses persistence mechanisms like cron jobs. 
+
+It disguises its traffic as network time protocol traffic over U. D. P. port one hundred twenty-three. 
+
+A separate attacker used the vulnerability to deploy a web shell inside the product-image cache on September seventh. 
+
+Adobe released an emergency hotfix tracked as V. U. L. N. dash thirty-nine thousand three hundred forty-one to close the vulnerability. 
+
+Attackers had a three-day window to exploit the flaw before the fix arrived. 
+
+Sansec warns that patching alone is insufficient for stores that may have already been compromised. 
+
+Researchers recommend checking for unexpected P. H. P. files under pub slash media. 
+
+Stores should also look for known malicious processes, cron entries, and other indicators of compromise.
+
+═══ 05_NORMALIZED ═══
+
+Online stores running Adobe Commerce and Magento Open Source face active attacks from a zero-day vulnerability tracked as C. V. E. twenty twenty-six, seventy-five thousand six hundred fifty.
+
+The flaw carries a critical score of ten point zero and impacts versions two point four point four through two point four point nine of both platforms.
+
+Security firm Sansec dubbed the flaw StyleSmuggler.
+
+Exploitation began on September fourth, with the first confirmed attack recorded at twenty-two twenty U. T. C.
+
+The vulnerability allows attackers to inject malicious P. H. P. code by abusing template processing during failed payment email notifications.
+
+A successful attack launches a background process.
+
+This process is a small Rust program that connects to a command and control server.
+
+The server address is ninety-nine point eighty-four point sixty-seven point one hundred eighty-six.
+
+The program waits for commands and uses persistence mechanisms like cron jobs.
+
+It disguises its traffic as network time protocol traffic over U. D. P. port one hundred twenty-three.
+
+A separate attacker used the vulnerability to deploy a web shell inside the product-image cache on September seventh.
+
+Adobe released an emergency hotfix tracked as V. U. L. N. dash thirty-nine thousand three hundred forty-one to close the vulnerability.
+
+Attackers had a three-day window to exploit the flaw before the fix arrived.
+
+Sansec warns that patching alone is insufficient for stores that may have already been compromised.
+
+Researchers recommend checking for unexpected P. H. P. files under pub slash media.
+
+Stores should also look for known malicious processes, cron entries, and other indicators of compromise.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+OK
+

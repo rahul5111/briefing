@@ -1,0 +1,45 @@
+═══ 00_KEY_POINTS ═══
+
+1. About five million deaths in 2021 were associated with bacterial antimicrobial resistance worldwide.
+2. We have not had a new class of antibiotics for 50 years according to bioengineer César de la Fuente.
+3. César de la Fuente and his laboratory use ChatGPT and Codex to accelerate early-stage drug discovery.
+4. AI deep-learning models can reduce the initial search for candidate molecules from years down to hours.
+5. César de la Fuente stated that antimicrobial resistance is one of the greatest existential threats to humanity.
+6. The transdisciplinary lab explores genomes of living and extinct organisms to find new antimicrobial molecules.
+
+═══ 01_DRAFT ═══
+
+Bioengineer César de la Fuente and his cross-disciplinary lab at the University of Pennsylvania are using artificial intelligence, including ChatGPT and Codex, to search the genomes of living and extinct organisms for new antimicrobial molecules. Drug-resistant microbes are a growing global threat, with bacterial antimicrobial resistance associated with about five million deaths in 2021, an annual toll projected to roughly double by 2050. The lab uses deep-learning models alongside ChatGPT and Codex to brainstorm hypotheses, write and refine code, process datasets, analyze results, and bridge gaps between team members from biology, chemistry, computer science, and engineering. While traditional methods of discovering new antimicrobial candidates can take years, AI tools help reduce the initial search phase down from years to hours by scanning vast genome and protein databases to identify functional patterns. De la Fuente uses ChatGPT as a collaborative sounding board and brainstorming partner, though he cautions that researchers must always double-check AI output for accuracy. Because identifying a promising candidate is only the first step, the lab combines AI predictions with ground-truth experiments to confirm that molecules kill target microbes, assess toxicity, and evaluate safety before candidates can advance through preclinical and clinical trials.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Bioengineer César de la Fuente and his cross-disciplinary lab probe the genomes of living and extinct organisms for potential antimicrobials. Drug-resistant microbes are a growing global threat, with bacterial antimicrobial resistance associated with about five million deaths in 2021, an annual toll projected to roughly double by 2050. The lab uses deep-learning models alongside ChatGPT and Codex to brainstorm hypotheses, write and refine code, process datasets, analyze results, and bridge gaps between team members from biology, chemistry, computer science, and engineering. While traditional methods of discovering new antimicrobial candidates can take years, AI tools help reduce the initial search phase down from years to hours by scanning vast genome and protein databases to identify functional patterns. De la Fuente uses ChatGPT as a collaborative sounding board and brainstorming partner, though he cautions that researchers must always double-check AI output for accuracy. Because identifying a promising candidate is only the first step, ground-truth experiments are essential to validate AI predictions, determine necessary doses, assess toxicity, and evaluate safety before candidates face regulatory review and clinical trials.
+
+═══ 02b_TRIMMED ═══
+
+Bioengineer César de la Fuente and his cross-disciplinary lab probe the genomes of living and extinct organisms for potential antimicrobials. Drug-resistant microbes are a growing global threat, with bacterial antimicrobial resistance associated with about five million deaths in 2021, an annual toll projected to roughly double by 2050. The lab uses deep-learning models alongside ChatGPT and Codex to brainstorm hypotheses, write and refine code, process datasets, analyze results, and bridge gaps between team members from biology, chemistry, computer science, and engineering. While traditional methods of discovering new antimicrobial candidates can take years, AI tools help reduce the initial search phase down from years to hours by scanning vast genome and protein databases to identify functional patterns. De la Fuente uses ChatGPT as a collaborative sounding board and brainstorming partner, though he cautions that researchers must always double-check AI output for accuracy.
+
+═══ 03_COVERAGE_1 ═══
+
+66% covered (4/6). Missing: We have not had a new class of antibiotics for 50 years according to bioengineer César de la Fuente.; César de la Fuente stated that antimicrobial resistance is one of the greatest existential threats to humanity.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+Bioengineer César de la Fuente and his cross-disciplinary lab probe the genomes of living and extinct organisms for potential antimicrobials. Drug-resistant microbes are a growing global threat, with bacterial antimicrobial resistance associated with about five million deaths in 2021, an annual toll projected to roughly double by 2050. César de la Fuente stated that antimicrobial resistance is one of the greatest existential threats to humanity, and noted that we have not had a new class of antibiotics for 50 years. The lab uses deep-learning models alongside ChatGPT and Codex to brainstorm hypotheses, write and refine code, process datasets, analyze results, and bridge gaps between team members from biology, chemistry, computer science, and engineering. While traditional methods of discovering new antimicrobial candidates can take years, AI tools help reduce the initial search phase down from years to hours by scanning vast genome and protein databases to identify functional patterns. De la Fuente uses ChatGPT as a collaborative sounding board and brainstorming partner, though he cautions that researchers must always double-check AI output for accuracy.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Bioengineer , César de la Fuente and his team search the genomes of living and extinct organisms for new antimicrobials. Drug resistant microbes are a growing global threat. Bacterial antimicrobial resistance was associated with about five million deaths in twenty twenty-one. That annual toll is projected to roughly double by twenty fifty. , César de la Fuente stated that antimicrobial resistance is one of the greatest existential threats to humanity. He noted that the world has not had a new class of antibiotics for fifty years. His lab uses deep learning models alongside C. H. A. T. G. P. T. and Codex to brainstorm hypotheses. These tools help write and refine code, process datasets, analyze results, and bridge gaps between team members from biology, chemistry, computer science, and engineering. Traditional methods of discovering new antimicrobial candidates can take years. Artificial intelligence tools help reduce that initial search phase down from years to hours. The tools work by scanning vast genome and protein databases to identify functional patterns. , César de la Fuente uses C. H. A. T. G. P. T. as a collaborative sounding board and brainstorming partner. He cautions that researchers must always double check artificial intelligence output for accuracy.
+
+═══ 05_NORMALIZED ═══
+
+Bioengineer, César de la Fuente and his team search the genomes of living and extinct organisms for new antimicrobials. Drug resistant microbes are a growing global threat. Bacterial antimicrobial resistance was associated with about five million deaths in twenty twenty-one. That annual toll is projected to roughly double by twenty fifty., César de la Fuente stated that antimicrobial resistance is one of the greatest existential threats to humanity. He noted that the world has not had a new class of antibiotics for fifty years. His lab uses deep learning models alongside C. H. A. T. G. P. T. and Codex to brainstorm hypotheses. These tools help write and refine code, process datasets, analyze results, and bridge gaps between team members from biology, chemistry, computer science, and engineering. Traditional methods of discovering new antimicrobial candidates can take years. Artificial intelligence tools help reduce that initial search phase down from years to hours. The tools work by scanning vast genome and protein databases to identify functional patterns., César de la Fuente uses C. H. A. T. G. P. T. as a collaborative sounding board and brainstorming partner. He cautions that researchers must always double check artificial intelligence output for accuracy.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: missing space after punctuation
+

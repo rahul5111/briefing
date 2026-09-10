@@ -1,0 +1,61 @@
+═══ 00_KEY_POINTS ═══
+
+1. OpenAI temporarily paused subscriptions for its $200-per-month Pro plan due to unprecedented demand for its Astra model.
+2. OpenAI product leader Thibault Sottiaux announced the suspension on X, citing severe strain on company infrastructure.
+3. OpenAI stated that lower-cost Go and Plus plans, as well as the API, remain currently available to users.
+4. OpenAI launched the Astra model on September 3, promoting it as a generational leap in AI reasoning and coding.
+5. OpenAI has not yet disclosed how long the Pro tier sign-up pause will remain in effect.
+6. We wanted to take the smallest step that allows us to continue giving the broadest access possible.
+
+═══ 01_DRAFT ═══
+
+OpenAI has temporarily paused new sign-ups for its two-hundred-dollar-per-month Pro subscription tier due to unprecedented infrastructure strain driven by demand for its newest and most powerful model, Astra. The decision was announced on X by Thibault Sottiaux, OpenAI product leader for core products like Codex and ChatGPT, who noted that the Pro plan places the heaviest burden on the company's systems. Sottiaux stated that the move was intended as the smallest step to maintain the broadest access possible, writing that they wanted to continue giving access while managing the load. OpenAI's other service tiers, including the API and the lower-cost Go and Plus plans, remain available to users. The company warned on Wednesday that restrictions might be necessary, with Sottiaux previously describing the demand for Astra as unprecedented and unlike anything seen during the company's past periods of steep growth. Launched on September third, Astra has been rolling out across Pro, Plus, Enterprise, and Business accounts, and was heralded by OpenAI as a generational leap and the beginning of the artificial general intelligence era. OpenAI has not disclosed how long the Pro subscriptions will remain disabled or released daily sign-up figures to quantify the scale of the demand.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+OpenAI has temporarily paused new sign-ups for its two-hundred-dollar-per-month Pro subscription tier due to unprecedented infrastructure strain driven by demand for its newest and most powerful model, Astra. The decision was announced on X by OpenAI product leader Thibault Sottiaux, who stated that the Pro plan puts the most strain on its systems. Sottiaux stated that the move was intended as the smallest step to maintain the broadest access possible, writing that they wanted to continue giving access while managing the load. OpenAI's other service tiers, including the API and the lower-cost Go and Plus plans, remain available to users. The company warned on Wednesday that restrictions might be necessary, with Sottiaux previously describing the demand for Astra as unprecedented and unlike anything seen during the company's past periods of steep growth. Launched on September third, Astra has been rolling out across Pro, Plus, Enterprise, and Business accounts, and was heralded by OpenAI as a generational leap and the beginning of the artificial general intelligence era. OpenAI has not disclosed how long the Pro subscriptions will remain disabled or released daily sign-up figures to quantify the scale of the demand.
+
+═══ 02b_TRIMMED ═══
+
+OpenAI has temporarily paused new sign-ups for its two-hundred-dollar-per-month Pro subscription tier due to unprecedented infrastructure strain driven by demand for its newest and most powerful model, Astra. Sottiaux stated that the move was intended as the smallest step to maintain the broadest access possible, writing that they wanted to continue giving access while managing the load. OpenAI's other service tiers, including the API and the lower-cost Go and Plus plans, remain available to users. The company warned on Wednesday that restrictions might be necessary, with Sottiaux previously describing the demand for Astra as unprecedented and unlike anything seen during the company's past periods of steep growth. Launched on September third, Astra has been rolling out across Pro, Plus, Enterprise, and Business accounts, and was heralded by OpenAI as a generational leap and the beginning of the artificial general intelligence era. OpenAI has not disclosed how long the Pro subscriptions will remain disabled or released daily sign-up figures to quantify the scale of the demand.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+OpenAI has temporarily paused new sign-ups for its two hundred dollars per month Pro subscription tier. This is due to unprecedented infrastructure strain driven by demand for its newest and most powerful model named Astra. 
+
+Sottiaux stated that the move was intended as the smallest step to maintain the broadest access possible. He wrote that they wanted to continue giving access while managing the load. 
+
+OpenAI has other service tiers that remain available to users. These include the A. P. I. and the lower cost Go and Plus plans. 
+
+The company warned on Wednesday that restrictions might be necessary. Sottiaux previously described the demand for Astra as unprecedented and unlike anything seen during the company past periods of steep growth. 
+
+Astra was launched on September third. It has been rolling out across Pro, Plus, Enterprise, and Business accounts. 
+
+OpenAI heralded the model as a generational leap and the beginning of the artificial general intelligence era. The company has not disclosed how long the Pro subscriptions will remain disabled. They also have not released daily sign up figures to quantify the scale of the demand.
+
+═══ 05_NORMALIZED ═══
+
+OpenAI has temporarily paused new sign-ups for its two hundred dollars per month Pro subscription tier. This is due to unprecedented infrastructure strain driven by demand for its newest and most powerful model named Astra.
+
+Sottiaux stated that the move was intended as the smallest step to maintain the broadest access possible. He wrote that they wanted to continue giving access while managing the load.
+
+OpenAI has other service tiers that remain available to users. These include the A. P. I. and the lower cost Go and Plus plans.
+
+The company warned on Wednesday that restrictions might be necessary. Sottiaux previously described the demand for Astra as unprecedented and unlike anything seen during the company past periods of steep growth.
+
+Astra was launched on September third. It has been rolling out across Pro, Plus, Enterprise, and Business accounts.
+
+OpenAI heralded the model as a generational leap and the beginning of the artificial general intelligence era. The company has not disclosed how long the Pro subscriptions will remain disabled. They also have not released daily sign up figures to quantify the scale of the demand.
+
+═══ 06_COVERAGE_FINAL ═══
+
+83% covered (5/6). Missing: OpenAI product leader Thibault Sottiaux announced the suspension on X, citing severe strain on company infrastructure.
+
+═══ 07_SANITY ═══
+
+ISSUES: company past periods
+

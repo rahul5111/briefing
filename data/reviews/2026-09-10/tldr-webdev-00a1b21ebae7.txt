@@ -1,0 +1,33 @@
+═══ 00_KEY_POINTS ═══
+
+1. This v1.1 experiment reruns the reasoning-prefill test using GPT-5.5 Pro as the teacher model.
+2. The evaluation dataset consists of 45 problems, including 15 STEM, 15 non-STEM, and 15 synthetic puzzles.
+3. Qwen moved by plus 18.18 percentage points toward GPT-5.5 Pro in this updated experiment.
+4. Kimi K3 achieved the highest overlap with GPT-5.5 Pro without the prefill at 31.11 percent.
+5. Kimi K3 achieved an overlap of 35.65 percent with GPT-5.5 Pro when using the prefill.
+6. The prefill added only plus 4.54 points to the overlap score for Kimi K3.
+
+═══ 01_DRAFT ═══
+
+The v1.1 update to the reasoning-prefill experiment uses GPT-5.5 Pro as the teacher model to test open models. The evaluation consists of 45 problems, split evenly into 15 STEM, 15 non-STEM, and 15 synthetic puzzles. For each problem, the experiment generated two responses from each target model: an ordinary unprefilled response, and a response starting with the first 1% of GPT-5.5 Pro's reasoning inserted into the target model's reasoning channel, with the visible answer remaining freely generated. The author measured how much of the teacher's visible answer appeared in the first 100 tokens of the target model's answer, with each score calculated as the mean of unigram, bigram, and trigram source recall, and deltas measured in absolute percentage-point changes. Qwen, which barely moved toward Opus 4.8 in the previous experiment, shifted by plus 18.18 points toward GPT-5.5 Pro, showing a large effect on private synthetic puzzles that suggests Qwen may have learned from GPT-5.5 Pro or a closely related GPT model rather than from Opus. Kimi K3 showed the highest overlap with GPT-5.5 Pro both without and with the prefill, recording 31.11% and 35.65% respectively, though the prefill added only plus 4.54 points.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+The version one point one update to the reasoning prefill experiment uses G. P. T. five point five Pro as the teacher model to test open models. The evaluation consists of forty-five problems. These are split evenly into fifteen S. T. E. M. problems, fifteen non-S. T. E. M. problems, and fifteen synthetic puzzles. For each problem, the experiment generated two responses from each target model. One was an ordinary unprefilled response. The other started with the first one percent of G. P. T. five point five Pro's reasoning inserted into the target model's reasoning channel, while the visible answer remained freely generated. The author measured how much of the teacher's visible answer appeared in the first one hundred tokens of the target model's answer. Each score was calculated as the mean of unigram, bigram, and trigram source recall. Deltas were measured in absolute percentage point changes. Qwen, which barely moved toward Opus four point eight in the previous experiment, shifted by plus eighteen point one eight points toward G. P. T. five point five Pro. This showed a large effect on private synthetic puzzles. It suggests Qwen may have learned from G. P. T. five point five Pro or a closely related G. P. T. model rather than from Opus. Kimi K. three showed the highest overlap with G. P. T. five point five Pro both without and with the prefill. It recorded thirty-one point one one percent and thirty-five point six five percent respectively, though the prefill added only plus four point five four points.
+
+═══ 05_NORMALIZED ═══
+
+The version one point one update to the reasoning prefill experiment uses G. P. T. five point five Pro as the teacher model to test open models. The evaluation consists of forty-five problems. These are split evenly into fifteen S. T. E. M. problems, fifteen non-S. T. E. M. problems, and fifteen synthetic puzzles. For each problem, the experiment generated two responses from each target model. One was an ordinary unprefilled response. The other started with the first one percent of G. P. T. five point five Pro's reasoning inserted into the target model's reasoning channel, while the visible answer remained freely generated. The author measured how much of the teacher's visible answer appeared in the first one hundred tokens of the target model's answer. Each score was calculated as the mean of unigram, bigram, and trigram source recall. Deltas were measured in absolute percentage point changes. Qwen, which barely moved toward Opus four point eight in the previous experiment, shifted by plus eighteen point one eight points toward G. P. T. five point five Pro. This showed a large effect on private synthetic puzzles. It suggests Qwen may have learned from G. P. T. five point five Pro or a closely related G. P. T. model rather than from Opus. Kimi K. three showed the highest overlap with G. P. T. five point five Pro both without and with the prefill. It recorded thirty-one point one one percent and thirty-five point six five percent respectively, though the prefill added only plus four point five four points.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+OK
+

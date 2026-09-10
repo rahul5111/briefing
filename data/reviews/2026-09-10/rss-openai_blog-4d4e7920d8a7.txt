@@ -1,0 +1,57 @@
+═══ 00_KEY_POINTS ═══
+
+1. OpenAI is introducing a new Data agent in ChatGPT Work to help employees answer business questions themselves.
+2. The Data agent connects to approved data sources including Amazon Redshift, Google BigQuery, Databricks, and Snowflake.
+3. Enterprise administrators control which data connections are available and which roles are permitted to use them.
+4. The Data agent can build interactive dashboards with built-in visualizations that teams can edit and share.
+5. Companies in the Alpha program like NTT Data and Thermo Fisher are using the Data agent to analyze sales.
+6. Nearly all of OpenAI's product team and over two-thirds of its GTM organization use data agents in ChatGPT Work.
+
+═══ 01_DRAFT ═══
+
+OpenAI is introducing a new Data agent in ChatGPT Work designed to allow employees to query company data, investigate changes, and build interactive dashboards using plain language without writing code or learning new analytics tools. The agent connects to approved data sources including Amazon Redshift, Datadog, Google BigQuery, ClickHouse, Databricks, MongoDB, Snowflake, Google Drive, and SharePoint. It incorporates an organization's custom calculations, business terms, and metric definitions through semantic layers and trusted sources such as Databricks Genie Ontology, dbt, GitHub, Snowflake Horizon, and BI dashboards. Enterprise administrators retain control over data connections, role-based access, and existing table, row, and column permission restrictions. The tool can also integrate and interact with platforms like Omni, Oracle BI, Power BI, Sigma, Tableau, and ThoughtSpot, and can share findings and execute approved actions through Slack or email. Organizations participating in the Alpha program include NTT Data, Thermo Fisher, and ServicePiston. OpenAI states that nearly all of its product team and over two-thirds of its go-to-market organization currently use data agents in ChatGPT Work for internal analysis. Administrators can enable and install the Data agent from the Plugins directory within ChatGPT Work workspace settings.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+OpenAI is introducing a new Data agent in ChatGPT Work. This tool lets employees query company data and build interactive dashboards using plain language. Users do not need to write code or learn new analytics tools. 
+
+The agent connects to many approved data sources. These include Amazon Redshift and Datadog and Google BigQuery. It also connects to ClickHouse and Databricks and MongoDB and Snowflake. Users can connect Google Drive and SharePoint as well. 
+
+The system uses semantic layers to understand business terms and custom calculations. Trusted sources include the Databricks Genie Ontology and dbt and GitHub. Snowflake Horizon and business intelligence dashboards are also included. 
+
+Enterprise administrators keep full control over data connections and role-based access. They also manage existing table and row and column permission restrictions. 
+
+The tool integrates with several external platforms. These include Omni and Oracle BI and Power BI. It also connects to Sigma and Tableau and ThoughtSpot. The agent can share findings and execute approved actions through Slack or email. 
+
+Organizations in the Alpha program include, NTT Data, and, Thermo Fisher, and, ServicePiston. OpenAI states that nearly all of its product team uses these data agents. Over two-thirds of its go-to-market organization also uses them for internal analysis. 
+
+Administrators can enable and install the Data agent from the Plugins directory. This is located within the ChatGPT Work workspace settings.
+
+═══ 05_NORMALIZED ═══
+
+OpenAI is introducing a new Data agent in ChatGPT Work. This tool lets employees query company data and build interactive dashboards using plain language. Users do not need to write code or learn new analytics tools.
+
+The agent connects to many approved data sources. These include Amazon Redshift and Datadog and Google BigQuery. It also connects to ClickHouse and Databricks and MongoDB and Snowflake. Users can connect Google Drive and SharePoint as well.
+
+The system uses semantic layers to understand business terms and custom calculations. Trusted sources include the Databricks Genie Ontology and dbt and GitHub. Snowflake Horizon and business intelligence dashboards are also included.
+
+Enterprise administrators keep full control over data connections and role-based access. They also manage existing table and row and column permission restrictions.
+
+The tool integrates with several external platforms. These include Omni and Oracle BI and Power BI. It also connects to Sigma and Tableau and ThoughtSpot. The agent can share findings and execute approved actions through Slack or email.
+
+Organizations in the Alpha program include, NTT Data, and, Thermo Fisher, and, ServicePiston. OpenAI states that nearly all of its product team uses these data agents. Over two-thirds of its go-to-market organization also uses them for internal analysis.
+
+Administrators can enable and install the Data agent from the Plugins directory. This is located within the ChatGPT Work workspace settings.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: awkward punctuation
+

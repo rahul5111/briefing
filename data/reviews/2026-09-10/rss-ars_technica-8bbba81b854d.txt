@@ -1,0 +1,53 @@
+═══ 00_KEY_POINTS ═══
+
+1. Judge Vince Chhabria granted LinkedIn's motion to dismiss two lawsuits regarding scanning browser extensions.
+2. Plaintiffs Nicholas Farrell and Jeff Ganan separately filed class actions against LinkedIn in April.
+3. Judge Vince Chhabria ruled that the plaintiffs failed to adequately allege that they have standing to sue.
+4. Users voluntarily download browser extensions, which by their nature intentionally expose data to websites.
+5. Attorney J.R. Howell is evaluating whether to bring the claims in a California state court.
+6. This matters because users struggle to prove privacy violations when browser extensions intentionally expose data.
+
+═══ 01_DRAFT ═══
+
+LinkedIn has successfully dismissed two class-action lawsuits regarding its practice of scanning users browser extensions. US District Judge Vince Chhabria, presiding in the US District Court for the Northern District of California, granted the Microsoft subsidiary's motion to dismiss on Tuesday. The judge ruled that the plaintiffs, California residents Nicholas Farrell and Jeff Ganan, failed to adequately establish legal standing because neither asserted they had browser extensions installed that actually conveyed private information to LinkedIn. 
+
+Chhabria granted the plaintiffs leave to amend their complaints, though he expressed skepticism about their prospects. In his ruling, Chhabria wrote that given LinkedIn's arguments that users voluntarily download browser extensions, which intentionally expose data to websites by their nature, it seems unlikely the plaintiffs will ever be able to allege a privacy violation or prevail. 
+
+The lawsuits were originally filed separately in April. J.R. Howell, the attorney representing Ganan, stated that he is currently evaluating whether to refile the claims in a California state court, which operates under different standing requirements, or to appeal the federal court ruling in the US Court of Appeals for the Ninth Circuit.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+LinkedIn has successfully dismissed two class-action lawsuits regarding its practice of scanning users browser extensions. Judge Vince Chhabria granted the Microsoft subsidiary's motion to dismiss in a ruling on Tuesday. The judge ruled that the plaintiffs, California residents Nicholas Farrell and Jeff Ganan, failed to adequately establish legal standing because neither asserted they had browser extensions installed that actually conveyed private information to LinkedIn. 
+
+Chhabria granted the plaintiffs leave to amend their complaints, though he expressed skepticism about their prospects. In his ruling, Chhabria wrote that given LinkedIn's arguments that users voluntarily download browser extensions, which intentionally expose data to websites by their nature, it seems unlikely the plaintiffs will ever be able to allege a privacy violation or prevail. 
+
+The lawsuits were originally filed separately in April. J.R. Howell, the attorney representing Ganan, stated that he is currently evaluating whether to refile the claims in a California state court, which operates under different standing requirements, or to appeal the federal court ruling in the US Court of Appeals for the Ninth Circuit.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+LinkedIn has won the dismissal of two class-action lawsuits over scanning browser extensions. Judge Vince Chhabria granted the motion to dismiss on Tuesday. The judge said the plaintiffs failed to establish legal standing. Neither user proved they had browser extensions installed that sent private data to LinkedIn. 
+
+The judge gave the plaintiffs a chance to amend their complaints. He expressed deep skepticism about their future chances. He wrote that users voluntarily download browser extensions. These tools intentionally expose data to websites by their very nature. It seems unlikely the plaintiffs will ever prove a privacy violation. 
+
+The lawsuits were filed separately in April. Attorney J. R. Howell represents one of the plaintiffs. He is evaluating whether to refile the claims in a California state court. That court operates under different standing requirements. He is also considering an appeal in the U. S. Court of Appeals for the Ninth Circuit.
+
+═══ 05_NORMALIZED ═══
+
+LinkedIn has won the dismissal of two class-action lawsuits over scanning browser extensions. Judge Vince Chhabria granted the motion to dismiss on Tuesday. The judge said the plaintiffs failed to establish legal standing. Neither user proved they had browser extensions installed that sent private data to LinkedIn.
+
+The judge gave the plaintiffs a chance to amend their complaints. He expressed deep skepticism about their future chances. He wrote that users voluntarily download browser extensions. These tools intentionally expose data to websites by their very nature. It seems unlikely the plaintiffs will ever prove a privacy violation.
+
+The lawsuits were filed separately in April. Attorney J. R. Howell represents one of the plaintiffs. He is evaluating whether to refile the claims in a California state court. That court operates under different standing requirements. He is also considering an appeal in the U. S. Court of Appeals for the Ninth Circuit.
+
+═══ 06_COVERAGE_FINAL ═══
+
+83% covered (5/6). Missing: This matters because users struggle to prove privacy violations when browser extensions intentionally expose data.
+
+═══ 07_SANITY ═══
+
+ISSUES: J. R., U. S.
+

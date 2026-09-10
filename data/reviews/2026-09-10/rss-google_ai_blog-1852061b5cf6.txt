@@ -1,0 +1,45 @@
+═══ 00_KEY_POINTS ═══
+
+1. Running-related searches for terms like run club and marathon training have reached all-time highs this year.
+2. AI Mode in Search can build personalized race training schedules that recommend cross-training and strength-building strategies.
+3. Users can connect their YouTube Music account with Search to create custom running playlists for motivation.
+4. Google uses a Shopping Graph of over 60 billion product listings to provide tailored gear recommendations.
+5. Search helps runners easily find specific products like lightweight hydration vests under 80 dollars.
+6. These Search features help runners efficiently organize their training, fuel their runs, and discover the right gear.
+
+═══ 01_DRAFT ═══
+
+Google is promoting three ways to use its AI-powered Search features to prepare for running races as running-related queries like run club, how to choose running shoes, and how to train for a marathon reach all-time highs this year. First, users can create personalized training schedules by utilizing AI Mode in Search and selecting the Canvas tool from the plus menu to generate custom plans, including cross-training and strength-building strategies tailored to specific locations and current fitness levels. Second, runners can maintain mental endurance during long distances by connecting a YouTube Music account to Search and asking AI Mode to build custom motivational playlists. Third, Search assists with gear shopping by leveraging Google's Shopping Graph of over 60 billion product listings to provide tailored recommendations, side-by-side comparisons of in-stock options, and local availability for specific constraints such as road shoes for wide feet, lightweight hydration vests under $80, or anti-chafing apparel.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Google is promoting three ways to use its AI-powered Search features to prepare for running races as running-related queries like run club, how to choose running shoes, and how to train for a marathon reach all-time highs this year. First, users can create a detailed training strategy by utilizing AI Mode in Search and selecting the Canvas tool from the plus menu to build a custom schedule, complete with recommended cross-training and strength-building strategies. Second, runners can stay energized during long distances by connecting a YouTube Music account to Search and asking AI Mode to help create a custom playlist for the run. Third, Search assists with gear shopping to help find the right shoes and equipment for specific constraints like road shoes for wide feet, lightweight hydration vests under $80, or anti-chafing apparel.
+
+═══ 02b_TRIMMED ═══
+
+Google is promoting three ways to use its AI-powered Search features to prepare for running races as running-related queries like run club, how to choose running shoes, and how to train for a marathon reach all-time highs this year.
+
+═══ 03_COVERAGE_1 ═══
+
+16% covered (1/6). Missing: AI Mode in Search can build personalized race training schedules that recommend cross-training and strength-building strategies.; Users can connect their YouTube Music account with Search to create custom running playlists for motivation.; Google uses a Shopping Graph of over 60 billion product listings to provide tailored gear recommendations.; Search helps runners easily find specific products like lightweight hydration vests under 80 dollars.; These Search features help runners efficiently organize their training, fuel their runs, and discover the right gear.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+Google is promoting three ways to use its AI-powered Search features to prepare for running races as running-related queries like run club, how to choose running shoes, and how to train for a marathon reach all-time highs this year. These Search features help runners efficiently organize their training, fuel their runs, and discover the right gear. AI Mode in Search can build personalized race training schedules that recommend cross-training and strength-building strategies. Users can connect their YouTube Music account with Search to create custom running playlists for motivation. Google uses a Shopping Graph of over 60 billion product listings to provide tailored gear recommendations, and Search helps runners easily find specific products like lightweight hydration vests under 80 dollars.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Google is promoting three ways to use its A. I. powered Search features to prepare for running races. Running related queries like run club, how to choose running shoes, and how to train for a marathon reach all-time highs this year. These Search features help runners efficiently organize their training, fuel their runs, and discover the right gear. A. I. Mode in Search can build personalized race training schedules that recommend cross-training and strength-building strategies. Users can connect their YouTube Music account with Search to create custom running playlists for motivation. Google uses a Shopping Graph of over sixty billion product listings to provide tailored gear recommendations. Search helps runners easily find specific products like lightweight hydration vests under eighty dollars.
+
+═══ 05_NORMALIZED ═══
+
+Google is promoting three ways to use its A. I. powered Search features to prepare for running races. Running related queries like run club, how to choose running shoes, and how to train for a marathon reach all-time highs this year. These Search features help runners efficiently organize their training, fuel their runs, and discover the right gear. A. I. Mode in Search can build personalized race training schedules that recommend cross-training and strength-building strategies. Users can connect their YouTube Music account with Search to create custom running playlists for motivation. Google uses a Shopping Graph of over sixty billion product listings to provide tailored gear recommendations. Search helps runners easily find specific products like lightweight hydration vests under eighty dollars.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: A. I.
+

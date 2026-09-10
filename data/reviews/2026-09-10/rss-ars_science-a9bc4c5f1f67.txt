@@ -1,0 +1,44 @@
+═══ 00_KEY_POINTS ═══
+
+1. On Tuesday, Google announced AlphaGenome Atlas to predict human genome single-base variant consequences.
+2. The system processes nine billion bases through AlphaGenome software across the human genome.
+3. AlphaGenome identifies potential functions of non-coding DNA that makes up most of the human genome.
+4. Non-coding DNA controls protein-coding portion activity by telling cells where and when to make messenger RNAs.
+5. Identifying the functional portion of DNA is very useful for researchers analyzing the human genome.
+
+═══ 01_DRAFT ═══
+
+On Tuesday, Google announced AlphaGenome Atlas, a new resource designed to predict the consequences of every possible single-base variant in the human genome. Because the human genome is approximately 3 billion bases long, evaluating the three alternative DNA bases that do not appear in the reference genome requires running a total of 9 billion bases through the AlphaGenome software. The system is specifically engineered to identify the potential functions of non-coding DNA, which makes up the vast majority of the human genome without encoding proteins itself. While this non-coding region does not build proteins, portions of it are essential for controlling the activity of protein-coding regions by instructing cells where and when to make messenger RNAs and how to process them, though much of it appears to consist of remnants from viruses and other molecular parasites. Having all this analysis performed by a single software package and being able to pinpoint functional portions of DNA is useful, but the true value of AlphaGenome will remain unclear until biologists begin heavy adoption to see what it offers beyond its original training data.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+On Tuesday, Google announced AlphaGenome Atlas, a new resource designed to predict the consequences of every possible single-base variant in the human genome. Because the human genome is about 3 billion bases long, trying the other three DNA bases that don't appear in our reference genome means sending a total of 9 billion bases through AlphaGenome software. The system is specifically engineered to identify the potential functions of non-coding DNA, which makes up the vast majority of the human genome without encoding proteins itself. While this non-coding region does not build proteins, portions of it are essential for controlling the activity of protein-coding regions by instructing cells where and when to make messenger RNAs and how to process them, though much of it appears to consist of remnants from viruses and other molecular parasites. Having all this analysis performed by a single software package and being able to pinpoint functional portions of DNA is useful, but the true value of AlphaGenome will remain unclear until biologists begin heavy adoption to see what it offers beyond its original training data.
+
+═══ 02b_TRIMMED ═══
+
+On Tuesday, Google announced AlphaGenome Atlas, a new resource designed to predict the consequences of every possible single-base variant in the human genome. The system is specifically engineered to identify the potential functions of non-coding DNA, which makes up the vast majority of the human genome without encoding proteins itself. While this non-coding region does not build proteins, portions of it are essential for controlling the activity of protein-coding regions by instructing cells where and when to make messenger RNAs and how to process them, though much of it appears to consist of remnants from viruses and other molecular parasites. Having all this analysis performed by a single software package and being able to pinpoint functional portions of DNA is useful, but the true value of AlphaGenome will remain unclear until biologists begin heavy adoption to see what it offers beyond its original training data.
+
+═══ 03_COVERAGE_1 ═══
+
+80% covered (4/5). Missing: The system processes nine billion bases through AlphaGenome software across the human genome.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+On Tuesday, Google announced AlphaGenome Atlas, a new resource designed to predict the consequences of every possible single-base variant in the human genome. The system processes nine billion bases through AlphaGenome software across the human genome. The system is specifically engineered to identify the potential functions of non-coding DNA, which makes up the vast majority of the human genome without encoding proteins itself. While this non-coding region does not build proteins, portions of it are essential for controlling the activity of protein-coding regions by instructing cells where and when to make messenger RNAs and how to process them, though much of it appears to consist of remnants from viruses and other molecular parasites. Having all this analysis performed by a single software package and being able to pinpoint functional portions of DNA is useful, but the true value of AlphaGenome will remain unclear until biologists begin heavy adoption to see what it offers beyond its original training data.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Google announced a new resource on Tuesday called AlphaGenome Atlas. It predicts the consequences of every possible single-base variant in the human genome. The system processes nine billion bases through AlphaGenome software across the human genome. The system is engineered to identify the potential functions of non-coding DNA. This non-coding material makes up the vast majority of the human genome. It does not encode proteins itself. This region does not build proteins. Portions of it are essential for controlling the activity of protein-coding regions. It instructs cells where and when to make messenger RNAs and how to process them. Much of it appears to consist of remnants from viruses and other molecular parasites. Having all this analysis performed by a single software package is useful. Being able to pinpoint functional portions of DNA is also useful. The true value of AlphaGenome will remain unclear until biologists begin heavy adoption. This adoption will show what the tool offers beyond its original training data.
+
+═══ 05_NORMALIZED ═══
+
+Google announced a new resource on Tuesday called AlphaGenome Atlas. It predicts the consequences of every possible single-base variant in the human genome. The system processes nine billion bases through AlphaGenome software across the human genome. The system is engineered to identify the potential functions of non-coding DNA. This non-coding material makes up the vast majority of the human genome. It does not encode proteins itself. This region does not build proteins. Portions of it are essential for controlling the activity of protein-coding regions. It instructs cells where and when to make messenger RNAs and how to process them. Much of it appears to consist of remnants from viruses and other molecular parasites. Having all this analysis performed by a single software package is useful. Being able to pinpoint functional portions of DNA is also useful. The true value of AlphaGenome will remain unclear until biologists begin heavy adoption. This adoption will show what the tool offers beyond its original training data.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (5/5). Missing: none
+
+═══ 07_SANITY ═══
+
+OK
+

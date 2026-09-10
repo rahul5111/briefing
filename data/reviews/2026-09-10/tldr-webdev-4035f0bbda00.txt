@@ -1,0 +1,52 @@
+═══ 00_KEY_POINTS ═══
+
+1. Meta developed an AI agent acting as a secondary expert to capture and preserve deep organizational specialist knowledge.
+2. The system separates what the agent knows from how it reasons using a structured, auditable knowledge architecture.
+3. A self-improvement loop compiles human expert feedback into verified, regression-tested updates without requiring underlying model retraining.
+4. The wiki organizes 200 plus files into a strict taxonomy consisting of position files, vocabulary files, routing indexes, and gateway files.
+5. Restructuring the agent into recipe-driven stages cut token consumption per turn by around 80 percent.
+6. Human experts maintain control through mandatory checkpoints and escalations that surface intermediate reasoning and handle genuine ambiguity.
+7. This architecture saves domain subject matter experts at Meta substantial time by automating routine compliance and analytical questions.
+
+═══ 01_DRAFT ═══
+
+Meta has built an AI agent designed to act as a secondary expert for specific domains, capturing specialist knowledge that typically remains trapped in human workers heads. The system saves domain subject matter experts substantial time in compliance workflows by organizing institutional memory into a structured, auditable architecture that separates what the agent knows from how it reasons. 
+
+The architecture relies on four main layers. A knowledge system organizes over 200 files into a strict taxonomy, including position files for authoritative stances, taxonomy and vocabulary files, routing indexes for deterministic retrieval, and gateway files for threshold tests. Files use YAML frontmatter to declare dependencies and consumers, forming a bidirectional dependency graph. High-density, frequently referenced sources sit in this curated wiki, while sparse or situational sources are accessed through semantic or lexical search.
+
+A reasoning layer uses composable procedures called recipes, which are imperative workflows that prescribe multi-step analysis without containing raw domain facts. This separation allows administrators to add organizational positions through knowledge files without touching recipes, or fix analytical methodologies in recipes without changing knowledge files, cutting token consumption per turn by around 80 percent. 
+
+Human oversight is maintained through checkpoints where the agent surfaces intermediate reasoning for review, and escalations that trigger when the agent encounters genuine ambiguity. Expert corrections and escalations feed an automated self-improvement loop that compiles feedback into verified, regression-tested updates without requiring model retraining, turning one-off corrections into permanent institutional memory.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (7/7). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Meta has built an A. I. agent to act as a secondary expert for specific domains. It captures specialist knowledge that usually stays in human workers heads. The system saves domain experts substantial time in compliance workflows. It organizes institutional memory into a structured and auditable architecture. The design separates what the agent knows from how it reasons.
+
+The system relies on four main layers. A knowledge system organizes over two hundred files into a strict taxonomy. This includes position files for authoritative stances and vocabulary files. It also uses routing indexes for deterministic retrieval and gateway files for threshold tests. Files use a format called Y. A. M. L. frontmatter to declare dependencies and consumers. This forms a bidirectional dependency graph. High-density and frequently referenced sources sit in this curated wiki. Sparse or situational sources are accessed through semantic or lexical search.
+
+A reasoning layer uses composable procedures called recipes. These are imperative workflows that prescribe multi-step analysis without containing raw domain facts. This separation allows administrators to add organizational positions through knowledge files. They can do this without touching recipes. They can also fix analytical methodologies in recipes without changing knowledge files. This cuts token consumption per turn by around eighty percent.
+
+Human oversight is maintained through checkpoints. The agent surfaces intermediate reasoning for review at these points. Escalations trigger when the agent encounters genuine ambiguity. Expert corrections and escalations feed an automated self-improvement loop. This loop compiles feedback into verified and regression-tested updates. It does all this without requiring model retraining. It turns one-off corrections into permanent institutional memory.
+
+═══ 05_NORMALIZED ═══
+
+Meta has built an A. I. agent to act as a secondary expert for specific domains. It captures specialist knowledge that usually stays in human workers heads. The system saves domain experts substantial time in compliance workflows. It organizes institutional memory into a structured and auditable architecture. The design separates what the agent knows from how it reasons.
+
+The system relies on four main layers. A knowledge system organizes over two hundred files into a strict taxonomy. This includes position files for authoritative stances and vocabulary files. It also uses routing indexes for deterministic retrieval and gateway files for threshold tests. Files use a format called Y. A. M. L. frontmatter to declare dependencies and consumers. This forms a bidirectional dependency graph. High-density and frequently referenced sources sit in this curated wiki. Sparse or situational sources are accessed through semantic or lexical search.
+
+A reasoning layer uses composable procedures called recipes. These are imperative workflows that prescribe multi-step analysis without containing raw domain facts. This separation allows administrators to add organizational positions through knowledge files. They can do this without touching recipes. They can also fix analytical methodologies in recipes without changing knowledge files. This cuts token consumption per turn by around eighty percent.
+
+Human oversight is maintained through checkpoints. The agent surfaces intermediate reasoning for review at these points. Escalations trigger when the agent encounters genuine ambiguity. Expert corrections and escalations feed an automated self-improvement loop. This loop compiles feedback into verified and regression-tested updates. It does all this without requiring model retraining. It turns one-off corrections into permanent institutional memory.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (7/7). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: A. I., Y. A. M. L.
+

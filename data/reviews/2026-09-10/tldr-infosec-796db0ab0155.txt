@@ -1,0 +1,66 @@
+═══ 00_KEY_POINTS ═══
+
+1. Cisco Talos investigated an unusual WebDAV DLL execution named verification.google at a Ukrainian government organization.
+2. The attack chains use Cloudflare Workers to inject JavaScript code stored on BNB Smart Chain via EtherHiding.
+3. Victims are tricked by ClickFix prompts impersonating Google CAPTCHA into executing malicious WebDAV paths using rundll32.exe.
+4. The infection leads to the deployment of Amatera stealer as the primary payload across different observed delivery branches.
+5. The pf.ch loader deployed ZigCryptoStealer and a Go-based reverse proxy while verification.google installed NetSupport Manager.
+6. Amatera utilized a Telegraph page acting as a dead drop resolver to obtain its command-and-control server address.
+7. Cisco Talos tracks the actor behind the verification.google activity branch as UAT-10820 with moderate confidence.
+
+═══ 01_DRAFT ═══
+
+Cisco Talos investigated an unusual WebDAV execution chain at a Ukrainian government organization in April 2026, where a 32-bit rundll32.exe process launched a remote DLL named verification.google. The analysis uncovered two delivery variants using disguised WebDAV DLLs and ordinal execution to deploy Amatera stealer, part of a wider credential-stealing campaign utilizing BNB Smart Chain and Cloudflare Workers for EtherHiding.
+
+The pf.ch branch relied on a ClearFake JavaScript injection via a compromised site and Cloudflare Worker, prompting victims to execute a WebDAV path through a fake Google CAPTCHA. The resulting loader deployed Amatera build 4.1.5-alpha, which resolved its command-and-control server via a Telegra.ph page disguised as a Rust tutorial. The C2 instructed this build to deploy a NativeAOT loader running ZigCryptoStealer alongside a Go-based reverse proxy. 
+
+Meanwhile, the verification.google branch utilized a DLL hollowing technique in dbghelp.dll and was instructed by its C2 infrastructure to install an unauthorized instance of NetSupport Manager using a Russia-based IP address. Cisco Talos tracks the threat actor behind the verification.google activity as UAT-10820 and assesses with moderate confidence that the operations are part of a broader crypto-and-credential-theft network rather than targeted attacks against specific entities.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Cisco Talos investigated an unusual WebDAV execution chain at a Ukrainian government organization in April 2026, where a 32-bit rundll32.exe process launched a remote DLL named verification.google. The analysis uncovered two delivery variants involving WebDAV DLLs and ordinal execution to deploy Amatera stealer, which are part of a cryptocurrency and credential-stealing operation.
+
+The pf.ch branch relied on a JavaScript injection via a Cloudflare Worker using EtherHiding on the BNB Smart Chain, prompting victims to execute a WebDAV path through a fake Google CAPTCHA. The resulting loader deployed Amatera build 4.1.5-alpha, which resolved its command-and-control server via a Telegra.ph page disguised as a Rust tutorial. The C2 instructed this build to deploy a NativeAOT loader running ZigCryptoStealer alongside a Go-based reverse proxy. 
+
+Meanwhile, the verification.google branch utilized a DLL hollowing technique in dbghelp.dll and was instructed by its C2 infrastructure to install an unauthorized instance of NetSupport Manager using a Russia-based IP address. Cisco Talos tracks the threat actor behind the verification.google activity as UAT-10820 and assesses with moderate confidence that the operations are part of a broader crypto-and-credential-theft network rather than targeted attacks against specific entities.
+
+═══ 02b_TRIMMED ═══
+
+Cisco Talos investigated an unusual WebDAV execution chain at a Ukrainian government organization in April 2026, where a 32-bit rundll32.exe process launched a remote DLL named verification.google. The pf.ch branch relied on a JavaScript injection via a Cloudflare Worker using EtherHiding on the BNB Smart Chain, prompting victims to execute a WebDAV path through a fake Google CAPTCHA. The resulting loader deployed Amatera build 4.1.5-alpha, which resolved its command-and-control server via a Telegra.ph page disguised as a Rust tutorial. The C2 instructed this build to deploy a NativeAOT loader running ZigCryptoStealer alongside a Go-based reverse proxy. Meanwhile, the verification.google branch utilized a DLL hollowing technique in dbghelp.dll and was instructed by its C2 infrastructure to install an unauthorized instance of NetSupport Manager using a Russia-based IP address. Cisco Talos tracks the threat actor behind the verification.google activity as UAT-10820 and assesses with moderate confidence that the operations are part of a broader crypto-and-credential-theft network rather than targeted attacks against specific entities.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (7/7). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Researchers at Cisco Talos investigated an unusual cyber attack at a Ukrainian government organization in April twenty twenty-six. The attack used a WebDAV execution chain. A thirty-two-bit rundll32.exe process launched a remote D. L. L. named verification.google. 
+
+One branch relied on a JavaScript injection. It used a Cloudflare Worker and EtherHiding on the B. N. B. Smart Chain. Victims were tricked into executing a WebDAV path through a fake Google CAPTCHA. 
+
+The resulting loader deployed Amatera build four point one point five alpha. This build found its command-and-control server through a Telegra.ph page disguised as a Rust tutorial. The server told the build to deploy a NativeAOT loader running ZigCryptoStealer and a Go-based reverse proxy. 
+
+The verification.google branch used a D. L. L. hollowing technique in dbghelp.dll. Its infrastructure instructed it to install an unauthorized instance of NetSupport Manager using a Russia-based I. P. address. 
+
+Cisco Talos tracks the threat actor behind the verification.google activity as U. A. T. dash ten thousand eight hundred twenty. They assess with moderate confidence that the operations are part of a broader crypto and credential theft network rather than targeted attacks against specific entities.
+
+═══ 05_NORMALIZED ═══
+
+Researchers at Cisco Talos investigated an unusual cyber attack at a Ukrainian government organization in April twenty twenty-six. The attack used a WebDAV execution chain. A thirty-two-bit rundll32.exe process launched a remote D. L. L. named verification.google.
+
+One branch relied on a JavaScript injection. It used a Cloudflare Worker and EtherHiding on the B. N. B. Smart Chain. Victims were tricked into executing a WebDAV path through a fake Google CAPTCHA.
+
+The resulting loader deployed Amatera build four point one point five alpha. This build found its command-and-control server through a Telegra.ph page disguised as a Rust tutorial. The server told the build to deploy a NativeAOT loader running ZigCryptoStealer and a Go-based reverse proxy.
+
+The verification.google branch used a D. L. L. hollowing technique in dbghelp.dll. Its infrastructure instructed it to install an unauthorized instance of NetSupport Manager using a Russia-based I. P. address.
+
+Cisco Talos tracks the threat actor behind the verification.google activity as U. A. T. dash ten thousand eight hundred twenty. They assess with moderate confidence that the operations are part of a broader crypto and credential theft network rather than targeted attacks against specific entities.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (7/7). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: rundll32.exe, verification.google, Telegra.ph, dbghelp.dll
+

@@ -1,0 +1,41 @@
+═══ 00_KEY_POINTS ═══
+
+1. ByteDance is preparing an AI model for real-time spatial video generation with a launch possible next month.
+2. Founder Zhang Yiming is personally overseeing the development work according to Bloomberg sources.
+3. The model operates at around 20 frames per second with roughly 0.05 seconds of latency in the cloud.
+4. ByteDance recently secured a 30 billion dollar loan and weighs capital expenditure of up to 70 billion dollars on AI.
+5. The new technology aims to lower headset hardware costs by shifting the heavy computational load to the cloud.
+6. The system builds on Seedance to let users create interactive virtual worlds for live streams and games.
+
+═══ 01_DRAFT ═══
+
+ByteDance is preparing an artificial intelligence model for real-time spatial video generation, with founder Zhang Yiming personally overseeing the project and a potential launch as soon as next month, according to a Bloomberg report citing unnamed sources. One source cautioned that the timing remains unsettled and plans could change, and a ByteDance spokesperson did not respond to Bloomberg's request for comment. The model is built on Seedance, the company's existing video generation system, and is designed to allow users to create interactive virtual worlds for live streams, short-form dramas, and games. The specifications involve on-demand video at approximately 20 frames per second with a latency of roughly 0.05 seconds, with generation handled in the cloud rather than locally on the device. This approach is intended to reduce the computational load and cost of extended reality hardware. ByteDance owns the extended reality arm Pico, and the model is reported to generate virtual worlds that respond to Pico users' voices and movements. Earlier reporting by 36Kr indicated that ByteDance established world models as its top AI priority for 2026, backed by the company's largest data budget, an eight-figure sum in renminbi that sources described as three to four times rival spending. The financial backing includes a thirty billion dollar loan secured by ByteDance last week, alongside capital expenditure considerations of up to seventy billion dollars for its artificial intelligence build-out.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+ByteDance is preparing a new artificial intelligence model for real-time spatial video generation. Founder, Zhang Yiming, is personally overseeing the project. The launch could happen as soon as next month. A Bloomberg report cites unnamed sources for this news. One source cautions that the timing remains unsettled and plans could change. A ByteDance spokesperson did not respond to a request for comment. 
+
+The model is built on Seedance. That is the company existing video generation system. It allows users to create interactive virtual worlds for live streams and short-form dramas and games. The specifications involve on-demand video at approximately twenty frames per second. The latency is roughly zero point zero five seconds. Generation is handled in the cloud rather than locally on the device. This approach is intended to reduce the computational load and cost of extended reality hardware. 
+
+ByteDance owns the extended reality arm Pico. The new model generates virtual worlds that respond to Pico users voices and movements. Earlier reporting by, thirty-six Kr, indicated that ByteDance established world models as its top artificial intelligence priority for twenty twenty-six. This effort is backed by the company largest data budget. That budget is an eight-figure sum in renminbi. Sources describe it as three to four times rival spending. The financial backing includes a thirty billion dollar loan secured by ByteDance last week. Capital expenditure considerations reach up to seventy billion dollars for its artificial intelligence build-out.
+
+═══ 05_NORMALIZED ═══
+
+ByteDance is preparing a new artificial intelligence model for real-time spatial video generation. Founder, Zhang Yiming, is personally overseeing the project. The launch could happen as soon as next month. A Bloomberg report cites unnamed sources for this news. One source cautions that the timing remains unsettled and plans could change. A ByteDance spokesperson did not respond to a request for comment.
+
+The model is built on Seedance. That is the company existing video generation system. It allows users to create interactive virtual worlds for live streams and short-form dramas and games. The specifications involve on-demand video at approximately twenty frames per second. The latency is roughly zero point zero five seconds. Generation is handled in the cloud rather than locally on the device. This approach is intended to reduce the computational load and cost of extended reality hardware.
+
+ByteDance owns the extended reality arm Pico. The new model generates virtual worlds that respond to Pico users voices and movements. Earlier reporting by, thirty-six Kr, indicated that ByteDance established world models as its top artificial intelligence priority for twenty twenty-six. This effort is backed by the company largest data budget. That budget is an eight-figure sum in renminbi. Sources describe it as three to four times rival spending. The financial backing includes a thirty billion dollar loan secured by ByteDance last week. Capital expenditure considerations reach up to seventy billion dollars for its artificial intelligence build-out.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: thirty-six Kr
+

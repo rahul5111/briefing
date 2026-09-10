@@ -1,0 +1,74 @@
+═══ 00_KEY_POINTS ═══
+
+1. Anthropic's Economics team built a model analyzing how artificial intelligence might affect jobs, growth, and unemployment in the United States.
+2. Over the past year, the United States economy has created over $30 trillion of value across all tasks performed.
+3. In August, researchers surveyed more than 10,000 Americans about their views on present and future artificial intelligence capabilities and adoption.
+4. In the substantial change scenario, gross domestic product is 10% higher by 2030 and the unemployment rate rises to around 5%.
+5. In the extreme scenario, annual gross domestic product growth rates reach 15% a year, causing the economy to double every 4.5 years.
+6. Anthropic studies how artificial intelligence reshapes the economy to ensure the transition is beneficial for society and workers.
+7. Today, of each dollar the economy produces, about 60 cents goes to workers and 40 cents go to capital.
+
+═══ 01_DRAFT ═══
+
+Anthropic’s Economics team has released a model and technical report titled Economic Scenarios for Transformative AI, authored by Korinek et al. and published in 2026, exploring how artificial intelligence might affect jobs, growth, and unemployment in the United States. The research models the economy as bundles of tasks derived from the US Department of Labor’s O*NET taxonomy, evaluating three distinct futures based on AI capabilities and adoption rates.
+
+In the modest scenario, AI has an economic impact comparable to the internet, delivering gradual gains within historical norms. In the substantial scenario, AI performs half of all knowledge work by 2030, driving the economy to grow at twice its normal rate, while unemployment rises to around 5 percent and gross domestic product sits 10 percent higher than without AI. In the extreme scenario, driven by recursively self-improving systems, annual GDP growth reaches 15 percent, doubling the economy every 4.5 years, but resulting in spiked unemployment and stagnating or declining wages for knowledge workers. 
+
+A survey of more than 10,000 Americans conducted in August shows that the typical respondent’s expectations align with the substantial change scenario. The model also indicates that labor and capital shares will shift, with capital demanding a larger percentage of total value compared to the historical baseline where workers receive about 60 cents of every dollar. The study studies these shifts to provide visibility into the economic transition and help ensure that benefits are broadly shared across society.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Anthropic’s Economics team has released a model and technical report titled Economic Scenarios for Transformative AI (Korinek et al., 2026), exploring how artificial intelligence might affect jobs, growth, and unemployment in the United States. The research models the economy as bundles of tasks derived from the US Department of Labor’s O*NET taxonomy, evaluating three distinct futures based on AI capabilities and adoption rates.
+
+In the modest scenario, AI has an economic impact comparable to the internet, delivering gradual gains within historical norms. In the substantial scenario, AI performs half of all knowledge work by 2030, driving the economy to grow at twice its normal rate, while unemployment rises to around 5 percent and gross domestic product sits 10 percent higher than without AI. In the extreme scenario, driven by recursively self-improving systems, annual GDP growth reaches 15 percent, doubling the economy every 4.5 years, but resulting in spiked unemployment and stagnating or declining wages for knowledge workers. 
+
+A survey of more than 10,000 Americans conducted in August shows that the typical respondent’s expectations align with the substantial change scenario. The model also indicates that labor and capital shares will shift, with capital demanding a larger percentage of total value compared to the historical baseline where workers receive about 60 cents of every dollar. The study explores these shifts to provide visibility into the economic transition and help ensure that benefits are broadly shared across society.
+
+═══ 02b_TRIMMED ═══
+
+The research models the economy as bundles of tasks derived from the US Department of Labor’s O*NET taxonomy, evaluating three distinct futures based on AI capabilities and adoption rates. In the modest scenario, AI has an economic impact comparable to the internet, delivering gradual gains within historical norms. In the substantial scenario, AI performs half of all knowledge work by 2030, driving the economy to grow at twice its normal rate, while unemployment rises to around 5 percent and gross domestic product sits 10 percent higher than without AI. In the extreme scenario, driven by recursively self-improving systems, annual GDP growth reaches 15 percent, doubling the economy every 4.5 years, but resulting in spiked unemployment and stagnating or declining wages for knowledge workers. A survey of more than 10,000 Americans conducted in August shows that the typical respondent’s expectations align with the substantial change scenario. The model also indicates that labor and capital shares will shift, with capital demanding a larger percentage of total value compared to the historical baseline where workers receive about 60 cents of every dollar. The study explores these shifts to provide visibility into the economic transition and help ensure that benefits are broadly shared across society.
+
+═══ 03_COVERAGE_1 ═══
+
+85% covered (6/7). Missing: Over the past year, the United States economy has created over $30 trillion of value across all tasks performed.
+
+═══ 04_AUDIO_REWRITE ═══
+
+New research models the economy using task bundles from the United States Department of Labor taxonomy. It evaluates three futures based on artificial intelligence capabilities and adoption rates. 
+
+In the modest scenario, A. I. has an economic impact comparable to the internet. It delivers gradual gains within historical norms. 
+
+In the substantial scenario, A. I. performs half of all knowledge work by twenty thirty. This drives the economy to grow at twice its normal rate. Unemployment rises to around five percent, and gross domestic product sits ten percent higher than without A. I.
+
+In the extreme scenario, driven by recursively self-improving systems, annual G. D. P. growth reaches fifteen percent. This doubles the economy every four point five years. It results in spiked unemployment and stagnating or declining wages for knowledge workers. 
+
+A survey of more than ten thousand Americans was conducted in August. It shows that the typical respondent expects the substantial change scenario. 
+
+The model also indicates that labor and capital shares will shift. Capital will demand a larger percentage of total value compared to the historical baseline. In that baseline, workers receive about sixty cents of every dollar. 
+
+The study explores these shifts to provide visibility into the economic transition. It helps ensure that benefits are broadly shared across society.
+
+═══ 05_NORMALIZED ═══
+
+New research models the economy using task bundles from the United States Department of Labor taxonomy. It evaluates three futures based on artificial intelligence capabilities and adoption rates.
+
+In the modest scenario, A. I. has an economic impact comparable to the internet. It delivers gradual gains within historical norms.
+
+In the substantial scenario, A. I. performs half of all knowledge work by twenty thirty. This drives the economy to grow at twice its normal rate. Unemployment rises to around five percent, and gross domestic product sits ten percent higher than without A. I.
+
+In the extreme scenario, driven by recursively self-improving systems, annual G. D. P. growth reaches fifteen percent. This doubles the economy every four point five years. It results in spiked unemployment and stagnating or declining wages for knowledge workers.
+
+A survey of more than ten thousand Americans was conducted in August. It shows that the typical respondent expects the substantial change scenario.
+
+The model also indicates that labor and capital shares will shift. Capital will demand a larger percentage of total value compared to the historical baseline. In that baseline, workers receive about sixty cents of every dollar.
+
+The study explores these shifts to provide visibility into the economic transition. It helps ensure that benefits are broadly shared across society.
+
+═══ 06_COVERAGE_FINAL ═══
+
+71% covered (5/7). Missing: Anthropic's Economics team built a model analyzing how artificial intelligence might affect jobs, growth, and unemployment in the United States.; Over the past year, the United States economy has created over $30 trillion of value across all tasks performed.
+
+═══ 07_SANITY ═══
+
+OK
+
