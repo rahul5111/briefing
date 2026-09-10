@@ -13130,49 +13130,6 @@
       "subcategory": "Policy Changes"
     },
     {
-      "id": "rss-ars_technica-b0c60d5e22ba",
-      "title": "Google releases Gemini 3.8 Flash, its third Flash model in six weeks",
-      "summary": "Google has released the Gemini three point eight Flash model. This is the third Flash rollout from the company in six weeks. The new model comes in two variations. The first is a standard workhorse model built for tasks like agentic work and software development. The second variation is Gemini three point eight Flash Cyber. That version is tuned specifically for finding and fixing security vulnerabilities. Developers using application programming interface access get a special discount. The introductory price lasts through the end of the year. It costs zero point seven five dollars per million input tokens. Output tokens cost three point seven five dollars per million during this time. Regular pricing kicks in after the promotional period ends. Input tokens will then cost one point five zero dollars per million. Output tokens will increase to seven point five zero dollars per million. The new article notes that Google has not released a frontier-level Gemini Pro model since early twenty twenty six, with the author speculating that a promised Gemini three point five Pro may never arrive. Google describes Gemini three point eight Flash as its best reasoning and coding model yet. The new article reports that Google likely lowered its prices because other artificial intelligence labs recently dropped token pricing to keep businesses engaged. Additionally, Google released benchmark numbers indicating that Gemini three point eight Flash competes with or beats larger and more expensive models. These benchmarks show marginal improvements over Gemini three point seven Flash in most tests, alongside larger gains in coding evaluations.",
-      "category": "AI",
-      "source": "ars_technica",
-      "source_url": "https://arstechnica.com/ai/2026/09/google-releases-gemini-3-8-flash-its-third-flash-model-in-six-weeks/",
-      "source_domain": "arstechnica.com",
-      "source_permalink": "https://arstechnica.com/ai/2026/09/google-releases-gemini-3-8-flash-its-third-flash-model-in-six-weeks/",
-      "score": 100,
-      "author": "Ryan Whitwam",
-      "published_at": "2026-09-02T22:21:01.586427+00:00",
-      "created_at_ts": 1788372834,
-      "audio_path": "audio/2026-09-02/rss-ars_technica-b0c60d5e22ba-google-releases-gemini-3-8-flash-its-third-flash-model-in-si.mp3",
-      "word_count": 256,
-      "estimated_duration_s": 102,
-      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/04/gemini-general-1-1152x648.jpg",
-      "location": null,
-      "audio_bytes": 828576,
-      "audio_duration_s": 110.6,
-      "tts_chunks": 18,
-      "tts_voice": "am_michael",
-      "sources": [
-        {
-          "name": "ars_technica",
-          "url": "https://arstechnica.com/ai/2026/09/google-releases-gemini-3-8-flash-its-third-flash-model-in-six-weeks/",
-          "domain": "arstechnica.com",
-          "added_at": "2026-09-02T22:21:01.586427+00:00"
-        }
-      ],
-      "main": "AI",
-      "sub": "Models & Research",
-      "subcategory": "Models & Research",
-      "key_points": [
-        "Google announced its third Flash model release in six weeks with the launch of Gemini three point eight Flash.",
-        "The model comes in two variations: a standard workhorse model and Gemini three point eight Flash Cyber tuned for security vulnerabilities.",
-        "Google has not released a frontier-level Gemini Pro model since early twenty twenty six.",
-        "Google states that Gemini three point eight Flash is its best reasoning and coding model yet.",
-        "An introductory application programming interface price through the end of the year offers zero point seven five dollars per million input tokens and three point seven five dollars per million output tokens.",
-        "Regular pricing after the promotion will be one point five zero dollars per million for input tokens and seven point five zero dollars per million for output tokens.",
-        "The new article reports that Google likely lowered token prices because competing artificial intelligence labs recently dropped their own pricing."
-      ]
-    },
-    {
       "id": "rss-deepmind_blog-383dbcd782ab",
       "title": "Proactive cyber defense for governments and enterprises",
       "summary": "Google is launching the Fairwind Program to give trusted groups access to advanced A. I. tools. These tools are designed to autonomously find and fix software vulnerabilities.\n\nThe initiative combines Google's Gemini three point eight Flash Cyber model with the CodeMender harness. This allows defenders to generate verified and deployment-ready code patches in minutes within a secure cloud environment. It works at a fraction of the operating cost of traditional frontier models.\n\nInitial access is being staged for more than six hundred fifty participating global partners. These include government and national cyber authorities and critical infrastructure operators. The sectors involved are healthcare and telecommunications and energy and finance and core technology platforms.\n\nParticipating organizations must adhere to strict operational standards. They must limit access to internal cybersecurity or incident response or penetration testing teams. They must also implement protections like multi-factor authentication.\n\nAlongside the program launch, Google released the twenty twenty-six Google.org U. S. Cybersecurity Impact Report. It details thirty-six million dollars in funding distributed across thirty-five cyber clinics. These clinics provide free security support to over one thousand two hundred fifty U. S. hospitals and public school districts and municipal utilities. This brings Google's total global cybersecurity funding through Google.org to more than one hundred million dollars.",
@@ -14036,5 +13993,5 @@
       "subcategory": "Products & Tools"
     }
   ],
-  "updated_at": "2026-09-09T21:41:40.177294+00:00"
+  "updated_at": "2026-09-10T06:48:09.202413+00:00"
 }
