@@ -1,0 +1,61 @@
+═══ 00_KEY_POINTS ═══
+
+1. Shopify is migrating its mobile applications from React Native back to Swift and Kotlin.
+2. Advances in coding large language models have dramatically reduced the cost of maintaining code on two separate native platforms.
+3. Shopify used AI agents to rebuild its Shop shopping app into a fully native app in just 12 weeks.
+4. Shopify will continue sponsoring its FlashList open-source library through the end of 2026 before transitioning it.
+5. Shopify developed an automated review system called Helix to prevent AI agents from generating unmaintainable code during the migration.
+6. The Shop app is the first of Shopify's applications to complete the migration to native Swift and Kotlin.
+
+═══ 01_DRAFT ═══
+
+Shopify is moving its mobile tech stack from React Native back to native Swift and Kotlin, citing advancements in coding models and AI agents that have removed the historic cost of building and maintaining features twice. The company originally adopted React Native in 2020 to streamline development, but found that modern LLMs now allow agents to handle implementation, translation, testing, and review work across platforms. 
+
+To manage the migration, Shopify built a system called Helix that breaks work into small, reviewed checkpoints requiring tests and human sign-off. It also developed a CLI-based architecture that decouples business logic from the UI, letting agents test and iterate in milliseconds instead of using slow mobile simulators. 
+
+The Shop app was fully rebuilt and published in the app stores using this AI-assisted approach in 12 weeks. Migration of the larger Shopify app, which includes over 300 screens, is underway and scheduled to ship later this year, followed by remaining apps like Point of Sale and Inbox. 
+
+As part of the transition, Shopify will continue sponsoring its open-source library FlashList—which draws roughly two million downloads a week—through the end of 2026, while discussing long-term stewardship with other companies and planning for a fork managed by William Candillon. The Restyle library will also be supported through the end of 2026 before its repository is archived.
+
+═══ 03_COVERAGE_1 ═══
+
+83% covered (5/6). Missing: The Shop app is the first of Shopify's applications to complete the migration to native Swift and Kotlin.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+Shopify is moving its mobile tech stack from React Native back to native Swift and Kotlin, citing advancements in coding models and AI agents that have removed the historic cost of building and maintaining features twice. The company originally adopted React Native in 2020 to streamline development, but found that modern LLMs now allow agents to handle implementation, translation, testing, and review work across platforms. 
+
+To manage the migration, Shopify built a system called Helix that breaks work into small, reviewed checkpoints requiring tests and human sign-off. It also developed a CLI-based architecture that decouples business logic from the UI, letting agents test and iterate in milliseconds instead of using slow mobile simulators. 
+
+The Shop app is the first of Shopify's applications to complete the migration to native Swift and Kotlin, having been fully rebuilt and published in the app stores using this AI-assisted approach in just 12 weeks. Migration of the larger Shopify app, which includes over 300 screens, is underway and scheduled to ship later this year, followed by remaining apps like Point of Sale and Inbox. 
+
+As part of the transition, Shopify will continue sponsoring its open-source library FlashList—which draws roughly two million downloads a week—through the end of 2026, while discussing long-term stewardship with other companies and planning for a fork managed by William Candillon. The Restyle library will also be supported through the end of 2026 before its repository is archived.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Shopify is moving its mobile technology stack from React Native back to native Swift and Kotlin. The company cites advancements in coding models and artificial intelligence agents that have removed the historic cost of building features twice. Shopify originally adopted React Native in twenty twenty to streamline development. Modern large language models now allow agents to handle implementation, translation, testing, and review work across platforms. 
+
+To manage the migration, Shopify built a system called Helix. This system breaks work into small, reviewed checkpoints requiring tests and human sign off. The company also developed a command line interface architecture that decouples business logic from the user interface. This lets agents test and iterate in milliseconds instead of using slow mobile simulators. 
+
+The Shop app is the first of Shopify applications to complete the migration to native Swift and Kotlin. It was fully rebuilt and published in the app stores using this artificial intelligence assisted approach in just twelve weeks. Migration of the larger Shopify app includes over three hundred screens. That migration is underway and scheduled to ship later this year. It will be followed by remaining apps like Point of Sale and Inbox. 
+
+As part of the transition, Shopify will continue sponsoring its open source library FlashList through the end of twenty twenty-six. FlashList draws roughly two million downloads a week. Shopify is discussing long term stewardship with other companies and planning for a fork managed by, William Candillon. The Restyle library will also be supported through the end of twenty twenty-six before its repository is archived.
+
+═══ 05_NORMALIZED ═══
+
+Shopify is moving its mobile technology stack from React Native back to native Swift and Kotlin. The company cites advancements in coding models and artificial intelligence agents that have removed the historic cost of building features twice. Shopify originally adopted React Native in twenty twenty to streamline development. Modern large language models now allow agents to handle implementation, translation, testing, and review work across platforms.
+
+To manage the migration, Shopify built a system called Helix. This system breaks work into small, reviewed checkpoints requiring tests and human sign off. The company also developed a command line interface architecture that decouples business logic from the user interface. This lets agents test and iterate in milliseconds instead of using slow mobile simulators.
+
+The Shop app is the first of Shopify applications to complete the migration to native Swift and Kotlin. It was fully rebuilt and published in the app stores using this artificial intelligence assisted approach in just twelve weeks. Migration of the larger Shopify app includes over three hundred screens. That migration is underway and scheduled to ship later this year. It will be followed by remaining apps like Point of Sale and Inbox.
+
+As part of the transition, Shopify will continue sponsoring its open source library FlashList through the end of twenty twenty-six. FlashList draws roughly two million downloads a week. Shopify is discussing long term stewardship with other companies and planning for a fork managed by, William Candillon. The Restyle library will also be supported through the end of twenty twenty-six before its repository is archived.
+
+═══ 06_COVERAGE_FINAL ═══
+
+83% covered (5/6). Missing: Advances in coding large language models have dramatically reduced the cost of maintaining code on two separate native platforms.
+
+═══ 07_SANITY ═══
+
+ISSUES: punctuation before William Candillon
+

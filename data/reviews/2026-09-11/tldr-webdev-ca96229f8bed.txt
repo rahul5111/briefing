@@ -1,0 +1,49 @@
+═══ 00_KEY_POINTS ═══
+
+1. The Results Daemon processes approximately 92 million messages a day and was becoming a performance bottleneck.
+2. Checkly rewrote the Results Daemon from Node.js to Go using Claude Code to test an agentic rewrite.
+3. The new Go service shipped with zero incidents, a 70% reduction in running pods, and lighter database load.
+4. The agent produced a deployable service of about 13,000 lines of application code overnight.
+5. The rewrite token usage stayed within the daily limits of a 200 dollar subscription.
+6. A critical gap in the harness caused production retries to fail because it modeled simplified local queues.
+
+═══ 01_DRAFT ═══
+
+Monitoring platform Checkly rewrote its high-throughput Results Daemon from Node.js to Go using Claude Code, shipping the service with zero incidents, a 70% reduction in running pods, and a lighter database load. The component processes approximately 92 million messages a day, roughly 40 million of which are check results and the rest WebSocket publishes. Platform growth had doubled check volumes over the previous year, turning the legacy JavaScript worker into a bottleneck.
+
+Before writing code, the team built a black-box test harness using Playwright, Docker Compose, and Toxiproxy. Test cases were seeded by extracting 24 hours of account, group, and check configurations along with result outcomes into ClickHouse. An initial attempt using Opus was discarded, but an overnight run with Claude Code produced a deployable service of about 13,000 lines of application code staying within the daily limits of a $200 subscription. 
+
+Production deployment revealed a critical gap in the harness: local queue topology assumed 3 queues per region, whereas production routing involved 18 possible queues. After updating the harness to match production and refactoring the retry module, Checkly migrated accounts in staged cohorts, moving from free accounts to paid monthly subscriptions and finally to enterprise accounts by flipping feature flags.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+The monitoring platform Checkly rewrote its high-throughput Results Daemon from Node.js to Go. They used A. I. coding tools and shipped the service with zero incidents. The update brought a seventy percent reduction in running pods and a lighter database load. 
+
+The component processes approximately ninety-two million messages a day. Roughly forty million of those are check results, and the rest are WebSocket publishes. Platform growth had doubled check volumes over the previous year. This turned the legacy JavaScript worker into a major bottleneck.
+
+Before writing code, the team built a black-box test harness. They used tools named Playwright, Docker Compose, and Toxiproxy. Test cases were seeded by extracting twenty-four hours of account data into ClickHouse. An initial attempt using a model called Opus was discarded. An overnight run with Claude Code produced a deployable service of about thirteen thousand lines of application code. The process stayed within the daily limits of a two hundred dollar subscription.
+
+Production deployment revealed a critical gap in the test harness. The local queue topology assumed three queues per region. Production routing actually involved eighteen possible queues. After updating the harness and refactoring the retry module, Checkly migrated accounts in staged cohorts. They moved from free accounts to paid monthly subscriptions, and finally to enterprise accounts, by flipping simple feature flags.
+
+═══ 05_NORMALIZED ═══
+
+The monitoring platform Checkly rewrote its high-throughput Results Daemon from Node.js to Go. They used A. I. coding tools and shipped the service with zero incidents. The update brought a seventy percent reduction in running pods and a lighter database load.
+
+The component processes approximately ninety-two million messages a day. Roughly forty million of those are check results, and the rest are WebSocket publishes. Platform growth had doubled check volumes over the previous year. This turned the legacy JavaScript worker into a major bottleneck.
+
+Before writing code, the team built a black-box test harness. They used tools named Playwright, Docker Compose, and Toxiproxy. Test cases were seeded by extracting twenty-four hours of account data into ClickHouse. An initial attempt using a model called Opus was discarded. An overnight run with Claude Code produced a deployable service of about thirteen thousand lines of application code. The process stayed within the daily limits of a two hundred dollar subscription.
+
+Production deployment revealed a critical gap in the test harness. The local queue topology assumed three queues per region. Production routing actually involved eighteen possible queues. After updating the harness and refactoring the retry module, Checkly migrated accounts in staged cohorts. They moved from free accounts to paid monthly subscriptions, and finally to enterprise accounts, by flipping simple feature flags.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+OK
+

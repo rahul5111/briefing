@@ -1,0 +1,70 @@
+═══ 00_KEY_POINTS ═══
+
+1. OpenAI plans to outsource production of next-generation AI processors to Samsung Foundry alongside TSMC.
+2. Harrison Kim, General Manager of OpenAI Korea, revealed the expanded chip production plans at a Seoul press conference.
+3. An OpenAI spokesperson stated the company has nothing new to announce and did not plan chip manufacturing through Samsung.
+4. OpenAI's first-generation inference accelerator named Jalapeño was manufactured by TSMC after being co-designed with Broadcom.
+5. OpenAI may double-source its next-gen AI chips to secure massive volume requirements beyond what TSMC alone can supply.
+6. Samsung Electronics and Broadcom announced a strategic partnership valued at over $200 billion through 2030 for AI infrastructure.
+7. "The reference to expanding our collaboration with Samsung was made in the context of our existing relationship."
+
+═══ 01_DRAFT ═══
+
+OpenAI may expand its manufacturing partnerships to include Samsung Foundry alongside TSMC for its next-generation AI processors, according to a statement made by Harrison Kim, General Manager of OpenAI Korea, at a press conference in Seoul reported by Reuters. Kim stated that one of the areas of most progress with Samsung Electronics is joint production and research on next-generation chips currently under development. However, an OpenAI spokesperson subsequently clarified to Tom's Hardware on Friday, September 11, that the reference to expanding collaboration with Samsung was made in the context of their existing relationship, including Samsung's adoption of ChatGPT and a letter of intent announced last October, adding that the company has nothing new to announce and did not announce plans to manufacture chips through Samsung.
+
+OpenAI currently relies on Broadcom for design services and TSMC for wafer processing and advanced packaging for its first-generation inference AI accelerator, known as Jalapeño, which was produced in under 18 months. Because Jalapeño is already in mass production at TSMC, any dual-sourcing arrangement would likely apply to its successor chip, which is approaching tapeout. Broadcom and Samsung previously announced a strategic partnership valued at over $200 billion through 2030 to collaborate on advanced foundry, memory, and packaging technologies for AI infrastructure. Under its agreement with Broadcom to procure 10 gigawatts of custom AI accelerators, OpenAI could potentially utilize Samsung Foundry if it ports the design, helping to secure adequate silicon supply amid massive volume requirements and fully booked TSMC capacity.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+OpenAI may expand its manufacturing partnerships to include Samsung Foundry alongside TSMC for its next-generation AI processors, according to a statement made by Harrison Kim, General Manager of OpenAI Korea, at a press conference in Seoul reported by Reuters. Kim stated that one of the areas of most progress with Samsung Electronics is joint production and research on next-generation chips currently under development. However, an OpenAI spokesperson subsequently provided a statement to Tom's Hardware on Friday, September 11, clarifying that references to expanding collaboration with Samsung were made in the context of their existing relationship—including Samsung Electronics' adoption of ChatGPT and the letter of intent announced last October—adding that the company has nothing new to announce and did not announce plans to manufacture chips through Samsung.
+
+OpenAI currently relies on Broadcom for design services and TSMC for wafer processing and advanced packaging for its first-generation inference AI accelerator, known as Jalapeño, which was produced in under 18 months. Because Jalapeño is already in mass production at TSMC, any dual-sourcing arrangement would likely apply to its successor chip, which is approaching tapeout. Broadcom and Samsung previously announced a strategic partnership valued at over $200 billion through 2030 to collaborate on advanced foundry, memory, and packaging technologies for AI infrastructure. Under its agreement with Broadcom to procure 10 gigawatts of custom AI accelerators, OpenAI could potentially utilize Samsung Foundry if it ports the design, helping to secure adequate silicon supply amid massive volume requirements and fully booked TSMC capacity.
+
+═══ 02b_TRIMMED ═══
+
+OpenAI may expand its manufacturing partnerships to include Samsung Foundry alongside TSMC for its next-generation AI processors, according to a statement made by Harrison Kim, General Manager of OpenAI Korea, at a press conference in Seoul reported by Reuters. Kim stated that one of the areas of most progress with Samsung Electronics is joint production and research on next-generation chips currently under development. OpenAI currently relies on Broadcom for design services and TSMC for wafer processing and advanced packaging for its first-generation inference AI accelerator, known as Jalapeño, which was produced in under 18 months. Because Jalapeño is already in mass production at TSMC, any dual-sourcing arrangement would likely apply to its successor chip, which is approaching tapeout. Broadcom and Samsung previously announced a strategic partnership valued at over $200 billion through 2030 to collaborate on advanced foundry, memory, and packaging technologies for AI infrastructure. Under its agreement with Broadcom to procure 10 gigawatts of custom AI accelerators, OpenAI could potentially utilize Samsung Foundry if it ports the design, helping to secure adequate silicon supply amid massive volume requirements and fully booked TSMC capacity.
+
+═══ 03_COVERAGE_1 ═══
+
+71% covered (5/7). Missing: An OpenAI spokesperson stated the company has nothing new to announce and did not plan chip manufacturing through Samsung.; "The reference to expanding our collaboration with Samsung was made in the context of our existing relationship."
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+OpenAI may expand its manufacturing partnerships to include Samsung Foundry alongside TSMC for its next-generation AI processors, according to a statement made by Harrison Kim, General Manager of OpenAI Korea, at a press conference in Seoul reported by Reuters. Kim stated that one of the areas of most progress with Samsung Electronics is joint production and research on next-generation chips currently under development. An OpenAI spokesperson stated the company has nothing new to announce and did not plan chip manufacturing through Samsung. "The reference to expanding our collaboration with Samsung was made in the context of our existing relationship." OpenAI currently relies on Broadcom for design services and TSMC for wafer processing and advanced packaging for its first-generation inference AI accelerator, known as Jalapeño, which was produced in under 18 months. Because Jalapeño is already in mass production at TSMC, any dual-sourcing arrangement would likely apply to its successor chip, which is approaching tapeout. Broadcom and Samsung previously announced a strategic partnership valued at over $200 billion through 2030 to collaborate on advanced foundry, memory, and packaging technologies for AI infrastructure. Under its agreement with Broadcom to procure 10 gigawatts of custom AI accelerators, OpenAI could potentially utilize Samsung Foundry if it ports the design, helping to secure adequate silicon supply amid massive volume requirements and fully booked TSMC capacity.
+
+═══ 04_AUDIO_REWRITE ═══
+
+OpenAI might work with Samsung Foundry alongside Taiwan Semiconductor Manufacturing Company for future artificial intelligence processors. This news comes from Harrison Kim, general manager of OpenAI Korea, speaking at a press conference in Seoul. Reuters reported those comments. Kim said a major area of progress involves joint production and research on next generation chips. 
+
+An OpenAI spokesperson stated the company has nothing new to announce right now. The spokesperson said OpenAI did not plan chip manufacturing through Samsung. The mention of expanding collaboration only referred to their existing relationship. 
+
+OpenAI currently relies on Broadcom for design services. It relies on Taiwan Semiconductor Manufacturing Company for wafer processing and advanced packaging. This is for their first generation inference artificial intelligence accelerator named Jalapeño. That first chip was produced in under eighteen months. 
+
+Jalapeño is already in mass production at Taiwan Semiconductor Manufacturing Company. Any dual sourcing arrangement would apply to the successor chip instead. That successor chip is approaching tapeout. 
+
+Broadcom and Samsung previously announced a strategic partnership valued at over two hundred billion dollars through twenty thirty. That partnership covers advanced foundry, memory, and packaging technologies for artificial intelligence infrastructure. 
+
+OpenAI has an agreement with Broadcom to procure ten gigawatts of custom artificial intelligence accelerators. OpenAI could potentially utilize Samsung Foundry if it ports the design. This would help secure adequate silicon supply amid massive volume requirements and fully booked capacity at Taiwan Semiconductor Manufacturing Company.
+
+═══ 05_NORMALIZED ═══
+
+OpenAI might work with Samsung Foundry alongside Taiwan Semiconductor Manufacturing Company for future artificial intelligence processors. This news comes from Harrison Kim, general manager of OpenAI Korea, speaking at a press conference in Seoul. Reuters reported those comments. Kim said a major area of progress involves joint production and research on next generation chips.
+
+An OpenAI spokesperson stated the company has nothing new to announce right now. The spokesperson said OpenAI did not plan chip manufacturing through Samsung. The mention of expanding collaboration only referred to their existing relationship.
+
+OpenAI currently relies on Broadcom for design services. It relies on Taiwan Semiconductor Manufacturing Company for wafer processing and advanced packaging. This is for their first generation inference artificial intelligence accelerator named Jalapeño. That first chip was produced in under eighteen months.
+
+Jalapeño is already in mass production at Taiwan Semiconductor Manufacturing Company. Any dual sourcing arrangement would apply to the successor chip instead. That successor chip is approaching tapeout.
+
+Broadcom and Samsung previously announced a strategic partnership valued at over two hundred billion dollars through twenty thirty. That partnership covers advanced foundry, memory, and packaging technologies for artificial intelligence infrastructure.
+
+OpenAI has an agreement with Broadcom to procure ten gigawatts of custom artificial intelligence accelerators. OpenAI could potentially utilize Samsung Foundry if it ports the design. This would help secure adequate silicon supply amid massive volume requirements and fully booked capacity at Taiwan Semiconductor Manufacturing Company.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (7/7). Missing: none
+
+═══ 07_SANITY ═══
+
+OK
+

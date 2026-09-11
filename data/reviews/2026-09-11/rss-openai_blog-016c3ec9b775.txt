@@ -1,0 +1,50 @@
+═══ 00_KEY_POINTS ═══
+
+1. OpenAI introduced ChatGPT for Financial Services, a tailored experience combining built-in financial data with GPT-6 Astra.
+2. Morgan Stanley and Evercore shaped the product through a design partnership focused on investment banking and equity research.
+3. The platform integrates premium data from providers like Daloopa, PitchBook, LSEG News, and Crunchbase.
+4. Administrators can publish custom Excel, Word, and PowerPoint templates through a dedicated admin page.
+5. The platform includes enterprise security controls ensuring business data is not used to train models by default.
+
+═══ 01_DRAFT ═══
+
+OpenAI has introduced ChatGPT for Financial Services, a tailored work experience combining built-in financial data with GPT-6 Astra reasoning to assist teams with research, financial models, and client materials. Shaped by a design partnership with Morgan Stanley and Evercore, the product initially focuses on investment banking and equity research. 
+
+The platform includes built-in premium datasets from Daloopa, PitchBook, LSEG News, and Crunchbase covering earnings transcripts, financial statements, company fundamentals, and private companies. OpenAI indexes and hosts this data to provide higher accuracy, granular citations, and features like P&L normalization analysis. To accommodate existing subscriptions, OpenAI is working with S&P Capital IQ, LSEG, MSCI, Dow Jones Factiva, and Moody’s on shared sign-in and entitlement integrations. The broader connector ecosystem also includes over 50 connectors such as Datasite, Box, Preqin, FactSet, and Intapp.
+
+GPT-6 Astra powers information retrieval, financial reasoning, and artifact generation, allowing teams to navigate financial documents, run analysis, and synthesize findings into documents, spreadsheets, and slides. Administrators can publish Excel, Word, and PowerPoint templates through a dedicated page so teams can produce materials matching firm formats and styles. 
+
+The product incorporates ChatGPT Enterprise security features, including SAML SSO, SCIM provisioning, role-based access controls, encryption at rest and in transit, and workspace retention settings. Business data is not used to train models by default, and compliance teams can export workspace logs through the OpenAI Compliance Platform. Firms can also create multiple workspaces to enforce information barriers. ChatGPT for Financial Services is available now to eligible financial institutions.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (5/5). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+OpenAI has introduced ChatGPT for Financial Services. It is a tailored work experience combining built-in financial data with G. P. T. dash six Astra reasoning. It is designed to assist teams with research and financial models and client materials. The product was shaped by a design partnership with , Morgan Stanley and , Evercore. It initially focuses on investment banking and equity research. 
+
+The platform includes built-in premium datasets from , Daloopa, PitchBook, L. S. E. G. News, and , Crunchbase. These cover earnings transcripts and financial statements and company fundamentals and private companies. OpenAI indexes and hosts this data to provide higher accuracy and granular citations and features like profit and loss normalization analysis. To accommodate existing subscriptions, OpenAI is working with , S. and P. Capital I. Q. and , L. S. E. G. and , M. S. C. I. and , Dow Jones Factiva and , Moody’s on shared sign-in and entitlement integrations. The broader connector ecosystem also includes over fifty connectors such as , Datasite, Box, Preqin, FactSet, and , Intapp.
+
+G. P. T. dash six Astra powers information retrieval and financial reasoning and artifact generation. It allows teams to navigate financial documents and run analysis and synthesize findings into documents and spreadsheets and slides. Administrators can publish Excel and Word and PowerPoint templates through a dedicated page. This lets teams produce materials matching firm formats and styles. 
+
+The product incorporates ChatGPT Enterprise security features. These include S. A. M. L. S. S. O. and S. C. I. M. provisioning and role-based access controls and encryption at rest and in transit and workspace retention settings. Business data is not used to train models by default. Compliance teams can export workspace logs through the OpenAI Compliance Platform. Firms can also create multiple workspaces to enforce information barriers. ChatGPT for Financial Services is available now to eligible financial institutions.
+
+═══ 05_NORMALIZED ═══
+
+OpenAI has introduced ChatGPT for Financial Services. It is a tailored work experience combining built-in financial data with G. P. T. dash six Astra reasoning. It is designed to assist teams with research and financial models and client materials. The product was shaped by a design partnership with, Morgan Stanley and, Evercore. It initially focuses on investment banking and equity research.
+
+The platform includes built-in premium datasets from, Daloopa, PitchBook, L. S. E. G. News, and, Crunchbase. These cover earnings transcripts and financial statements and company fundamentals and private companies. OpenAI indexes and hosts this data to provide higher accuracy and granular citations and features like profit and loss normalization analysis. To accommodate existing subscriptions, OpenAI is working with, S. and P. Capital I. Q. and, L. S. E. G. and, M. S. C. I. and, Dow Jones Factiva and, Moody’s on shared sign-in and entitlement integrations. The broader connector ecosystem also includes over fifty connectors such as, Datasite, Box, Preqin, FactSet, and, Intapp.
+
+G. P. T. dash six Astra powers information retrieval and financial reasoning and artifact generation. It allows teams to navigate financial documents and run analysis and synthesize findings into documents and spreadsheets and slides. Administrators can publish Excel and Word and PowerPoint templates through a dedicated page. This lets teams produce materials matching firm formats and styles.
+
+The product incorporates ChatGPT Enterprise security features. These include S. A. M. L. S. S. O. and S. C. I. M. provisioning and role-based access controls and encryption at rest and in transit and workspace retention settings. Business data is not used to train models by default. Compliance teams can export workspace logs through the OpenAI Compliance Platform. Firms can also create multiple workspaces to enforce information barriers. ChatGPT for Financial Services is available now to eligible financial institutions.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (5/5). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: awkward punctuation
+

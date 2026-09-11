@@ -1,0 +1,33 @@
+═══ 00_KEY_POINTS ═══
+
+1. OpenAI announced the launch of ChatGPT Images 2.5, an update to version 2.0 that debuted in April.
+2. The updated tool can generate images up to fifty percent faster with natural lighting and richer textures.
+3. A new feature called Sketch lets people draw on a touchscreen to use as a visual reference point.
+4. The update includes two variants named GPT-Image-2.5 Flare and GPT-Image-2.5 Sunburst.
+5. The new model uses C2PA metadata and invisible watermarking techniques to prevent unauthorized reuse and deepfakes.
+6. It is all about supporting iterative creative workflows by maintaining overall stability during pinpoint edits.
+
+═══ 01_DRAFT ═══
+
+OpenAI Group PBC launched ChatGPT Images 2.5 today, an update to version 2.0 that debuted in April. The new tool generates images with more natural lighting, richer textures, and up to 50 percent faster speeds while improving multi-turn instruction following. A major addition is Sketch, a feature allowing users to draw on touchscreens with a finger or stylus to serve as a visual reference. Version 2.5 also better preserves subject details, facial features, and unmodified elements across multiple edits and long conversations. The update introduces new templates for formats like flyers and product photos, supports inline comments for targeted edits, and lets users share prompts with generated images. OpenAI offers two variants of the model. GPT-Image-2.5 Flare serves as the default, producing high-quality images two to four times faster than the GPT-Image-2 model with support for transparent backgrounds. GPT-Image-2.5 Sunburst trades speed for greater precision and fidelity, targeting product photos and marketing materials requiring pixel-perfect consistency. For security, the model includes prompt and output guardrails alongside C2PA metadata and invisible watermarking to prevent deepfakes and unauthorized reuse. The new model is available now in ChatGPT, ChatGPT Work, and Codex across desktop, mobile, and web platforms, with both variants also accessible to developers via separate application programming interfaces.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+OpenAI Group P. B. C. launched ChatGPT Images two point five. This update follows version two point zero which debuted in April. The new tool generates images with more natural lighting and richer textures. It runs up to fifty percent faster than before. It also improves multi-turn instruction following. A major addition is Sketch. This feature lets users draw on touchscreens with a finger or stylus. The drawing serves as a visual reference. Version two point five better preserves subject details and facial features. It also keeps unmodified elements across multiple edits and long conversations. The update introduces new templates for formats like flyers and product photos. It supports inline comments for targeted edits. It also lets users share prompts with generated images. OpenAI offers two variants of the model. G. P. T.-Image-two point five Flare serves as the default. It produces high quality images two to four times faster than the G. P. T.-Image-two model. It includes support for transparent backgrounds. G. P. T.-Image-two point five Sunburst trades speed for greater precision and fidelity. It targets product photos and marketing materials requiring pixel-perfect consistency. For security the model includes prompt and output guardrails. It uses C. two P. A. metadata and invisible watermarking to prevent deepfakes and unauthorized reuse. The new model is available now in ChatGPT and ChatGPT Work and Codex. These are available across desktop and mobile and web platforms. Both variants are also accessible to developers via separate application programming interfaces.
+
+═══ 05_NORMALIZED ═══
+
+OpenAI Group P. B. C. launched ChatGPT Images two point five. This update follows version two point zero which debuted in April. The new tool generates images with more natural lighting and richer textures. It runs up to fifty percent faster than before. It also improves multi-turn instruction following. A major addition is Sketch. This feature lets users draw on touchscreens with a finger or stylus. The drawing serves as a visual reference. Version two point five better preserves subject details and facial features. It also keeps unmodified elements across multiple edits and long conversations. The update introduces new templates for formats like flyers and product photos. It supports inline comments for targeted edits. It also lets users share prompts with generated images. OpenAI offers two variants of the model. G. P. T.-Image-two point five Flare serves as the default. It produces high quality images two to four times faster than the G. P. T.-Image-two model. It includes support for transparent backgrounds. G. P. T.-Image-two point five Sunburst trades speed for greater precision and fidelity. It targets product photos and marketing materials requiring pixel-perfect consistency. For security the model includes prompt and output guardrails. It uses C. two P. A. metadata and invisible watermarking to prevent deepfakes and unauthorized reuse. The new model is available now in ChatGPT and ChatGPT Work and Codex. These are available across desktop and mobile and web platforms. Both variants are also accessible to developers via separate application programming interfaces.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: unspaced acronyms
+

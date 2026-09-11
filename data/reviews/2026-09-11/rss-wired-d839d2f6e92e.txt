@@ -1,0 +1,49 @@
+═══ 00_KEY_POINTS ═══
+
+1. Prominent AI researcher Timnit Gebru argues that extinction doomsday talk distracts from real industry harms.
+2. Timnit Gebru criticized OpenAI for aggressively hyping a million-dollar math problem to project super intelligence.
+3. Timnit Gebru stated that the machine-god narrative distracts people from autonomous weapons and climate catastrophe.
+4. Timnit Gebru is the author of an upcoming book titled Deep Unlearning: The Rise of AI and the Radicalization of a Tech Idealist.
+5. An Anthropic researcher recently quit his job, citing serious concerns about how companies handle AI safety.
+6. Timnit Gebru previously worked at Google until her high-profile departure after coauthoring a paper on model dangers.
+
+═══ 01_DRAFT ═══
+
+Prominent AI researcher Timnit Gebru argues that the current industry focus on artificial general intelligence and existential doom scenarios is a deliberate distraction from immediate, real-world harms. Her comments follow a week marked by controversy over OpenAI solving a million-dollar math problem and the high-profile resignation of an Anthropic researcher citing safety concerns.
+
+Gebru, known for her departure from Google in 2020 after publishing a paper on the dangers of large language models, rejects safety frameworks that focus on hypothetical extinction events. Comparing AI models to inanimate infrastructure, Gebru stated, when a bridge collapses, you do not analyze whether the bridge was ethical or sentient. You ask, who is the person who built this bridge to be so flimsy?
+
+According to Gebru, the narrative that advanced AI could wipe out humanity obscures concrete issues already underway. She points to autonomous weapons used in warfare, climate impacts exacerbated by data centers, labor displacement, and the potential creation of chemical and biological weapons. She also criticized how corporations use achievements in controlled fields like mathematics to manufacture narratives of superintelligence, bypassing traditional peer review and pressuring policymakers into hasty legislation ahead of company IPOs. Gebru's upcoming book, Deep Unlearning: The Rise of AI and the Radicalization of a Tech Idealist, is expected to ship in early 2025.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Prominent researcher Timnit Gebru argues that the tech industry's focus on existential doom scenarios and the machine-god narrative is meant to distract from immediate real-world harms. Her comments follow a week marked by controversy over OpenAI solving a million-dollar math problem and the high-profile resignation of an Anthropic researcher citing safety concerns.
+
+Gebru, known for her highly publicized departure from Google after presenting a paper on the dangers of probabilistic large language models, rejects phrases like safety and alignment that focus on impending doom. Comparing AI models to inanimate infrastructure in her upcoming book, Gebru writes about asking who built a flimsy bridge instead of wondering if a bridge decided to collapse or become sentient.
+
+According to Gebru, the narrative that advanced AI could wipe out humanity obscures concrete issues already underway. She points to AI powering autonomous weapons and killing machines in warfare, climate catastrophe exacerbated by tech companies, and bosses using AI to get rid of workers. She also criticized how corporations use achievements in controlled fields like mathematics to manufacture narratives of superintelligence, bypassing traditional peer review and pressuring policymakers into hasty legislation ahead of company IPOs. Gebru's upcoming book, titled Deep Unlearning: The Rise of AI and the Radicalization of a Tech Idealist, is expected to ship early next year.
+
+═══ 02b_TRIMMED ═══
+
+Prominent researcher Timnit Gebru argues that the tech industry's focus on existential doom scenarios and the machine-god narrative is meant to distract from immediate real-world harms. Her comments follow a week marked by controversy over OpenAI solving a million-dollar math problem and the high-profile resignation of an Anthropic researcher citing safety concerns. Gebru, known for her highly publicized departure from Google after presenting a paper on the dangers of probabilistic large language models, rejects phrases like safety and alignment that focus on impending doom. According to Gebru, the narrative that advanced AI could wipe out humanity obscures concrete issues already underway. She points to AI powering autonomous weapons and killing machines in warfare, climate catastrophe exacerbated by tech companies, and bosses using AI to get rid of workers. She also criticized how corporations use achievements in controlled fields like mathematics to manufacture narratives of superintelligence, bypassing traditional peer review and pressuring policymakers into hasty legislation ahead of company IPOs. Gebru's upcoming book, titled Deep Unlearning: The Rise of AI and the Radicalization of a Tech Idealist, is expected to ship early next year.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Prominent researcher Timnit Gebru argues that the tech industry focuses on existential doom scenarios to distract people. The machine-god narrative hides immediate real-world harms. Her comments follow a controversial week in the industry. OpenAI solved a one million dollar math problem. A high-profile researcher at Anthropic resigned and cited safety concerns. Gebru previously left Google after presenting a paper on probabilistic large language models. She rejects phrases like safety and alignment because they focus on impending doom. Advanced A. I. wiping out humanity is a narrative that obscures concrete issues. Gebru points to A. I. powering autonomous weapons and killing machines in warfare. Tech companies are also exacerbating the climate catastrophe. Bosses are using A. I. to get rid of workers. Corporations use achievements in controlled fields like mathematics to manufacture narratives of superintelligence. This bypasses traditional peer review. It also pressures policymakers into hasty legislation ahead of company initial public offerings. Gebru wrote a book called Deep Unlearning: The Rise of A. I. and the Radicalization of a Tech Idealist. The book is expected to ship early next year.
+
+═══ 05_NORMALIZED ═══
+
+Prominent researcher Timnit Gebru argues that the tech industry focuses on existential doom scenarios to distract people. The machine-god narrative hides immediate real-world harms. Her comments follow a controversial week in the industry. OpenAI solved a one million dollar math problem. A high-profile researcher at Anthropic resigned and cited safety concerns. Gebru previously left Google after presenting a paper on probabilistic large language models. She rejects phrases like safety and alignment because they focus on impending doom. Advanced A. I. wiping out humanity is a narrative that obscures concrete issues. Gebru points to A. I. powering autonomous weapons and killing machines in warfare. Tech companies are also exacerbating the climate catastrophe. Bosses are using A. I. to get rid of workers. Corporations use achievements in controlled fields like mathematics to manufacture narratives of superintelligence. This bypasses traditional peer review. It also pressures policymakers into hasty legislation ahead of company initial public offerings. Gebru wrote a book called Deep Unlearning: The Rise of A. I. and the Radicalization of a Tech Idealist. The book is expected to ship early next year.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: unspaced acronyms
+

@@ -1,0 +1,48 @@
+═══ 00_KEY_POINTS ═══
+
+1. A hidden Shared Agents section was discovered inside Meta's newly launched Muse agent.
+2. The feature allows users to create configurable agents, define prompts, and connect external services.
+3. Meta could leverage its massive ecosystem across Instagram, WhatsApp, Facebook, and Messenger for distribution.
+4. Shared Agents could prove particularly relevant for small businesses and creators operating on Meta platforms.
+5. Meta may officially announce the feature at the Meta Connect event scheduled for September 23 to 24.
+
+═══ 01_DRAFT ═══
+
+Meta is preparing to introduce a Shared Agents feature for its recently launched Muse AI system, with a possible official announcement during Meta Connect, scheduled for September 23-24. The hidden feature was discovered inside the current Muse app build and includes an operational creation flow that allows users to define prompts, configure names and appearances, select skills, and connect external services before deploying an agent as a separate sub-conversation. While Meta officially introduced Muse on September 8 as a personal cross-app agent, the company's developer materials for the upcoming event confirm sessions covering agentic development workflows, Muse Spark, and the Meta Business Agent Platform. The sharing functionality could allow small businesses and creators operating across Instagram, WhatsApp, Facebook, and Messenger to build and distribute specialized agents for customer support, sales, scheduling, and other workflows, though exact sharing permissions and distribution models remain unclear.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+A hidden "Shared Agents" section has been discovered inside Meta’s newly launched Muse agent, pointing to a possible official announcement or focus during Meta Connect, scheduled for September 23-24. The functionality surfaced in the current Muse app build and includes an operational creation flow that allows users to define prompts, configure names and appearances, select skills, and connect external services before deploying an agent as a separate sub-conversation. While Meta officially introduced Muse on September 8 as a personal cross-app agent, the company's developer materials for the upcoming event confirm sessions covering agentic development workflows, Muse Spark, and the Meta Business Agent Platform. The sharing functionality could allow small businesses and creators operating across Instagram, WhatsApp, Facebook, and Messenger to build and distribute specialized agents for customer support, sales, scheduling, and other workflows, though exact sharing permissions and distribution models remain unclear.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (5/5). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+A hidden Shared Agents section was discovered inside the newly launched Muse agent by Meta. This points to a possible official announcement during Meta Connect scheduled for September twenty-third and September twenty-fourth. 
+
+The functionality surfaced in the current Muse app build. It includes an operational creation flow that lets users define prompts and configure names and appearances. Users can also select skills and connect external services before deploying an agent as a separate sub-conversation. 
+
+Meta officially introduced Muse on September eighth as a personal cross-app agent. Developer materials for the upcoming event confirm sessions covering agentic development workflows, Muse Spark, and the Meta Business Agent Platform. 
+
+The sharing functionality could allow small businesses and creators to build and distribute specialized agents. These agents would operate across Instagram, WhatsApp, Facebook, and Messenger for customer support, sales, scheduling, and other workflows. Exact sharing permissions and distribution models still remain unclear.
+
+═══ 05_NORMALIZED ═══
+
+A hidden Shared Agents section was discovered inside the newly launched Muse agent by Meta. This points to a possible official announcement during Meta Connect scheduled for September twenty-third and September twenty-fourth.
+
+The functionality surfaced in the current Muse app build. It includes an operational creation flow that lets users define prompts and configure names and appearances. Users can also select skills and connect external services before deploying an agent as a separate sub-conversation.
+
+Meta officially introduced Muse on September eighth as a personal cross-app agent. Developer materials for the upcoming event confirm sessions covering agentic development workflows, Muse Spark, and the Meta Business Agent Platform.
+
+The sharing functionality could allow small businesses and creators to build and distribute specialized agents. These agents would operate across Instagram, WhatsApp, Facebook, and Messenger for customer support, sales, scheduling, and other workflows. Exact sharing permissions and distribution models still remain unclear.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (5/5). Missing: none
+
+═══ 07_SANITY ═══
+
+OK
+

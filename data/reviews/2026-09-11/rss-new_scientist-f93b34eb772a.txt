@@ -1,0 +1,57 @@
+═══ 00_KEY_POINTS ═══
+
+1. OpenAI announced that its AI agents answered the Navier-Stokes equations blow-up question after 88 hours of work.
+2. The Navier-Stokes blow-up question is one of the prestigious Millennium Prize Problems carrying a $1 million reward.
+3. OpenAI's breakthrough proves that the two-century-old Navier-Stokes equations for fluid movement do sometimes blow up.
+4. This matters because it transforms mathematics by providing many more answers than human explanations.
+5. AI proofs use convoluted arguments lacking human insight, though they are checked rigorously by computers through formalisation.
+6. OpenAI has already stated it made substantial progress on another of the Millennium Prize Problems.
+
+═══ 01_DRAFT ═══
+
+OpenAI announced this week that its AI agents have solved a major two-hundred-year-old mathematical mystery concerning the Navier-Stokes equations, which describe fluid movement. The equations form one of the Millennium Prize Problems, carrying a one-million-dollar reward. Researchers learned of unpublished progress by a pair of mathematicians, prompting OpenAI to deploy thousands of AI agents on the problem. In just 88 hours, the agents determined that the equations do sometimes blow up, meaning a part of a fluid moves infinitely fast, proving the equations are imperfect rather than indicating real fluids will misbehave. 
+
+While the breakthrough is among the biggest in decades, AI proofs differ from human ones. Artificial intelligence tends to produce convoluted arguments that are difficult to follow, lacking the insight traditionally prized by mathematicians. However, the logic can be verified through formalisation, a process turning proofs into code checked rigorously by computers. OpenAI has stated it has also made substantial progress on another Millennium Prize Problem. 
+
+This development marks a new era where mathematics may yield more answers than explanations. While the transition raises challenges regarding access, usage, and the role of tech companies, the tool allows mathematicians to make progress faster than before.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+OpenAI announced this week that its artificial intelligence agents solved a major mathematical mystery. The problem is two hundred years old and concerns the Navier-Stokes equations, which describe fluid movement. 
+
+These equations form one of the Millennium Prize Problems. The problem carries a one-million-dollar reward. Researchers learned of unpublished progress by a pair of mathematicians, prompting OpenAI to deploy thousands of artificial intelligence agents on the problem. 
+
+In just eighty-eight hours, the agents reached a conclusion. They determined that the equations do sometimes blow up. This means a part of a fluid moves infinitely fast. The result proves the equations are imperfect rather than indicating real fluids will misbehave. 
+
+This breakthrough is among the biggest in decades. However, artificial intelligence proofs differ from human ones. Artificial intelligence tends to produce convoluted arguments that are difficult to follow. They lack the insight traditionally prized by mathematicians. 
+
+The logic can still be verified through formalisation. This is a process turning proofs into code checked rigorously by computers. OpenAI has stated it has also made substantial progress on another Millennium Prize Problem. 
+
+This development marks a new era. Mathematics may yield more answers than explanations. The transition raises challenges regarding access, usage, and the role of tech companies. Even so, the tool allows mathematicians to make progress faster than before.
+
+═══ 05_NORMALIZED ═══
+
+OpenAI announced this week that its artificial intelligence agents solved a major mathematical mystery. The problem is two hundred years old and concerns the Navier-Stokes equations, which describe fluid movement.
+
+These equations form one of the Millennium Prize Problems. The problem carries a one-million-dollar reward. Researchers learned of unpublished progress by a pair of mathematicians, prompting OpenAI to deploy thousands of artificial intelligence agents on the problem.
+
+In just eighty-eight hours, the agents reached a conclusion. They determined that the equations do sometimes blow up. This means a part of a fluid moves infinitely fast. The result proves the equations are imperfect rather than indicating real fluids will misbehave.
+
+This breakthrough is among the biggest in decades. However, artificial intelligence proofs differ from human ones. Artificial intelligence tends to produce convoluted arguments that are difficult to follow. They lack the insight traditionally prized by mathematicians.
+
+The logic can still be verified through formalisation. This is a process turning proofs into code checked rigorously by computers. OpenAI has stated it has also made substantial progress on another Millennium Prize Problem.
+
+This development marks a new era. Mathematics may yield more answers than explanations. The transition raises challenges regarding access, usage, and the role of tech companies. Even so, the tool allows mathematicians to make progress faster than before.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+OK
+

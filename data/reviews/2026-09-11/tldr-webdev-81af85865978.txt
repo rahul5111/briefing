@@ -1,0 +1,53 @@
+═══ 00_KEY_POINTS ═══
+
+1. Shopify is shifting its mobile strategy away from React Native back to native Swift and Kotlin.
+2. Advances in AI coding agents have dramatically reduced the cost of maintaining feature parity across platforms.
+3. Shopify successfully rebuilt its Shop app into a fully native app in just 12 weeks using AI.
+4. Shopify will continue sponsoring open-source React Native libraries like FlashList through the end of 2026.
+5. Shopify developed an agentic system called Helix to ensure high-quality code generation during app migrations.
+6. The shift back to native allows Shopify to stay closer to first-party platform capabilities and tooling.
+
+═══ 01_DRAFT ═══
+
+Shopify is transitioning its mobile applications back to native Swift and Kotlin, moving away from React Native, which it adopted in 2020. The decision follows a reevaluation prompted by the growing capabilities of coding models and AI agents, which have reduced the historical cost and maintenance overhead of building and maintaining features across two separate platforms. 
+
+To execute the migration without compromising quality, Shopify built an internal system called Helix that processes code in small, reviewed checkpoints requiring tests and human approval. The Shop app was fully rebuilt and published in app stores in 12 weeks, while the migration of the primary Shopify app is underway to ship later this year. Shopify's other mobile apps, including Point of Sale and Inbox, will follow. 
+
+Alongside the migration, Shopify announced changes to its open-source libraries. The company will sponsor FlashList through the end of 2026, with William Candillon planning to fork the repository to publish it under a new name, while Shopify remains in discussions with other companies regarding long-term stewardship. The Restyle repository will be archived and kept working through the end of 2026 before maintenance stops.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Shopify is transitioning its mobile applications back to native Swift and Kotlin, moving away from React Native, which it adopted in 2020. The decision follows a reevaluation prompted by the growing capabilities of coding models and AI agents, which have reduced the historical cost and maintenance overhead of building and maintaining features across two separate platforms. 
+
+To execute the migration without compromising quality, Shopify built an internal system called Helix that processes code in small, reviewed checkpoints requiring tests and human approval. The Shop app was fully rebuilt and published in app stores in 12 weeks, while the migration of the primary Shopify app is underway to ship later this year. Shopify's other mobile apps, including Point of Sale and Inbox, will follow. 
+
+Regarding its open-source libraries, Shopify will sponsor FlashList through the end of 2026, with William Candillon planning to fork the repository to publish it under a new name, while Shopify remains in discussions with other companies regarding long-term stewardship. Additionally, the Restyle repository will be archived and kept working through the end of 2026 before maintenance stops.
+
+═══ 02b_TRIMMED ═══
+
+Shopify is transitioning its mobile applications back to native Swift and Kotlin, moving away from React Native, which it adopted in 2020. The decision follows a reevaluation prompted by the growing capabilities of coding models and AI agents, which have reduced the historical cost and maintenance overhead of building and maintaining features across two separate platforms. To execute the migration without compromising quality, Shopify built an internal system called Helix that processes code in small, reviewed checkpoints requiring tests and human approval. The Shop app was fully rebuilt and published in app stores in 12 weeks, while the migration of the primary Shopify app is underway to ship later this year. Shopify's other mobile apps, including Point of Sale and Inbox, will follow.
+
+═══ 03_COVERAGE_1 ═══
+
+66% covered (4/6). Missing: Shopify will continue sponsoring open-source React Native libraries like FlashList through the end of 2026.; The shift back to native allows Shopify to stay closer to first-party platform capabilities and tooling.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+Shopify is transitioning its mobile applications back to native Swift and Kotlin, moving away from React Native, which it adopted in 2020. The decision follows a reevaluation prompted by the growing capabilities of coding models and AI agents, which have reduced the historical cost and maintenance overhead of building and maintaining features across two separate platforms. The shift back to native allows Shopify to stay closer to first-party platform capabilities and tooling. To execute the migration without compromising quality, Shopify built an internal system called Helix that processes code in small, reviewed checkpoints requiring tests and human approval. Shopify will continue sponsoring open-source React Native libraries like FlashList through the end of 2026. The Shop app was fully rebuilt and published in app stores in 12 weeks, while the migration of the primary Shopify app is underway to ship later this year. Shopify's other mobile apps, including Point of Sale and Inbox, will follow.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Shopify is moving its mobile apps back to native Swift and Kotlin. The company is leaving behind React Native which it adopted in twenty twenty. This decision follows a reevaluation prompted by the growing capabilities of coding models and artificial intelligence agents. Those tools have reduced the historical cost and maintenance overhead of building and maintaining features across two separate platforms. The shift back to native allows Shopify to stay closer to first party platform capabilities and tooling. To execute the migration without compromising quality, Shopify built an internal system called Helix. This system processes code in small reviewed checkpoints requiring tests and human approval. Shopify will continue sponsoring open source React Native libraries like FlashList through the end of twenty twenty-six. The Shop app was fully rebuilt and published in app stores in twelve weeks. The migration of the primary Shopify app is underway to ship later this year. Shopify is also moving other mobile apps including Point of Sale and Inbox.
+
+═══ 05_NORMALIZED ═══
+
+Shopify is moving its mobile apps back to native Swift and Kotlin. The company is leaving behind React Native which it adopted in twenty twenty. This decision follows a reevaluation prompted by the growing capabilities of coding models and artificial intelligence agents. Those tools have reduced the historical cost and maintenance overhead of building and maintaining features across two separate platforms. The shift back to native allows Shopify to stay closer to first party platform capabilities and tooling. To execute the migration without compromising quality, Shopify built an internal system called Helix. This system processes code in small reviewed checkpoints requiring tests and human approval. Shopify will continue sponsoring open source React Native libraries like FlashList through the end of twenty twenty-six. The Shop app was fully rebuilt and published in app stores in twelve weeks. The migration of the primary Shopify app is underway to ship later this year. Shopify is also moving other mobile apps including Point of Sale and Inbox.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: twelve weeks
+
