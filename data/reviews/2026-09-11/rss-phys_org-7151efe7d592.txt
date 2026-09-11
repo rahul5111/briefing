@@ -1,0 +1,33 @@
+═══ 00_KEY_POINTS ═══
+
+1. Researchers from IMCAS published a study in PNAS characterizing the emerging SARS-CoV-2 sublineage RE.2.2.
+2. The RE.2.2 sublineage exhibits enhanced binding affinity to the human ACE2 receptor.
+3. A reverse mutation labeled R493Q forms an additional hydrogen bond with hACE2 residue K31.
+4. RE.2.2 features a previously unobserved N-linked glycosylation site at residue N529 of the spike protein.
+5. This novel N-linked glycosylation site forms inter-protomer hydrogen bonds that structurally stabilize the spike protein.
+6. Pseudovirus assays demonstrated that RE.2.2 possesses a remodeled immune evasion landscape compared to earlier variants.
+
+═══ 01_DRAFT ═══
+
+Researchers from the Institute of Microbiology of the Chinese Academy of Sciences led by Prof. Gao George Fu have characterized the structural and functional properties of the emerging SARS-CoV-2 sublineage BA.3.2.2, also designated as RE.2.2. The study was published in the Proceedings of the National Academy of Sciences. Using surface plasmon resonance and cryo-electron microscopy, the researchers determined that the receptor-binding domain of RE.2.2 displays high affinity for the human ACE2 receptor. A reverse mutation, R493Q, forms an additional hydrogen bond with hACE2 residue K31, serving as a primary determinant of this heightened receptor engagement. Glycoproteomic profiling using liquid chromatography-tandem mass spectrometry and cryo-electron microscopy revealed up to 26 N-linked glycosylation sites on the spike trimer, including a novel N-linked glycosylation site at position N529 on the receptor-binding domain that has not been previously observed in SARS-CoV-2 variants. This modification forms inter-protomer hydrogen bonds that structurally stabilize the spike in a closed conformation. In pseudovirus neutralization and binding assays, RE.2.2 demonstrated a remodeled immune evasion landscape. While it evaded multiple antibody classes, several broadly neutralizing antibodies that had lost activity against earlier omicron lineages, such as S2K146 and L4.65, regained potent neutralizing capacity against RE.2.2. Cryo-EM ternary structures showed that the key substitution G446D directly facilitates these antibody interactions.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Researchers from the Institute of Microbiology of the Chinese Academy of Sciences led by professor, Gao George Fu have studied the properties of a new coronavirus sublineage. This variant is known as B A point three point two point two, or alternatively R E point two point two. Their study was published in the Proceedings of the National Academy of Sciences. The team used advanced imaging to find that the receptor-binding domain of R E point two point two binds strongly to the human A C E two receptor. A specific reverse mutation called R four nine three Q creates an extra chemical bond. This bond is the main reason for the strong binding. Advanced mapping also revealed up to twenty-six sugar modification sites on the spike protein. One of these sites at position N five two nine is completely new and has not been seen in previous variants. This modification helps lock the spike protein into a closed shape. Lab tests showed that the variant has changed its ability to hide from the immune system. While it avoided many common antibodies, some older broadly neutralizing antibodies regained their power against R E point two point two. These include S two K one four six and L four point six five. Structural images proved that the G four four six D mutation makes it easier for these antibodies to connect.
+
+═══ 05_NORMALIZED ═══
+
+Researchers from the Institute of Microbiology of the Chinese Academy of Sciences led by professor, Gao George Fu have studied the properties of a new coronavirus sublineage. This variant is known as B A point three point two point two, or alternatively R E point two point two. Their study was published in the Proceedings of the National Academy of Sciences. The team used advanced imaging to find that the receptor-binding domain of R E point two point two binds strongly to the human A C E two receptor. A specific reverse mutation called R four nine three Q creates an extra chemical bond. This bond is the main reason for the strong binding. Advanced mapping also revealed up to twenty-six sugar modification sites on the spike protein. One of these sites at position N five two nine is completely new and has not been seen in previous variants. This modification helps lock the spike protein into a closed shape. Lab tests showed that the variant has changed its ability to hide from the immune system. While it avoided many common antibodies, some older broadly neutralizing antibodies regained their power against R E point two point two. These include S two K one four six and L four point six five. Structural images proved that the G four four six D mutation makes it easier for these antibodies to connect.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: unspaced acronyms
+

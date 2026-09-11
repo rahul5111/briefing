@@ -1,0 +1,56 @@
+═══ 00_KEY_POINTS ═══
+
+1. OpenAI is launching the GPT-Live-1 voice model in the API for developers.
+2. GPT-Live-1 costs $0.05 per minute for the front-end voice layer.
+3. Early evaluations showed that Speak cut interruptions by almost 80 percent using GPT-Live-1.
+4. GPT-Live-1 improves Full Duplex Bench performance by 30 percentage points over GPT-Realtime-2.1.
+5. The new model can listen and speak at the same time to provide natural voice experiences.
+
+═══ 01_DRAFT ═══
+
+OpenAI is launching the GPT-Live-1 model in the API at a cost of $0.05 per minute for the front-end voice layer, enabling developers to build natural voice-enabled applications and business workflows. First introduced in ChatGPT, the model listens and speaking simultaneously, reasoning over incoming and outgoing audio together in a single architecture to avoid the latency of chained speech-to-text, reasoning, and text-to-speech systems. 
+
+Key capabilities include smooth interruption handling, tool calling delegation to backend models like GPT-6 Astra, tone and pace customization via system prompts, silent context management, background noise handling, long-session reliability, and full-duplex telephony support. In early evaluations, language learning platform Speak found that GPT-Live-1 cut interruptions by almost 80% compared to previous turn-based systems by giving learners more time to think before responding. 
+
+The model natively provides automatic speech recognition transcripts, response text, alphanumeric understanding, keyword biasing, and turn detection support. In company evaluations, GPT-Live-1 improves Full Duplex Bench performance by 30 percentage points over GPT-Realtime-2.1. When paired with GPT-6 Astra at medium reasoning effort, it ranks first on Tau3, which measures end-to-end voice-agent intelligence. Additionally, OpenAI is expanding its voice selection to include a broader range of accents, dialects, and languages. Enterprises can also build voice workflows using OpenAI Presence, which uses GPT-Live-1 to power real-time interactions for tasks such as customer support, system navigation, and human escalation.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+OpenAI is launching the GPT-Live-1 model in the API at a cost of $0.05 per minute for the front-end voice layer, enabling developers to build natural voice-enabled applications and business workflows. First introduced in ChatGPT, the model listens and speaks simultaneously, reasoning over incoming and outgoing audio together in a single architecture to avoid the latency of chained speech-to-text, reasoning, and text-to-speech systems. 
+
+Key capabilities include smooth interruption handling, tool calling delegation to backend models like GPT-6 Astra, tone and pace customization via system prompts, silent context management, background noise handling, long-session reliability, and full-duplex telephony support. In early evaluations, language learning platform Speak found that GPT-Live-1 cut interruptions by almost 80% compared to previous turn-based systems by giving learners more time to think before responding. 
+
+The model natively provides automatic speech recognition transcripts, response text, alphanumeric understanding, keyword biasing, and turn detection support. In company evaluations, GPT-Live-1 improves Full Duplex Bench performance by 30 percentage points over GPT-Realtime-2.1. When paired with GPT-6 Astra at medium reasoning effort, it ranks first on Tau3, which measures end-to-end voice-agent intelligence. With GPT-Live-1, OpenAI is expanding from a small set of real-time voices to a broader selection across accents, dialects, and languages. Enterprises can also build voice workflows using OpenAI Presence, which uses GPT-Live-1 to power real-time interactions for tasks such as customer support, system navigation, and human escalation.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (5/5). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+OpenAI is launching the G. P. T. dash Live dash one model in the A. P. I. The cost is five cents per minute for the front end voice layer. This lets developers build natural voice applications and business workflows. The model was first introduced in Chat G. P. T. It listens and speaks at the same time. It reasons over incoming and outgoing audio together in a single architecture. This avoids the delay of chained speech to text, reasoning, and text to speech systems.
+
+Key capabilities include smooth interruption handling and tool calling delegation. It delegates to backend models like G. P. T. dash six Astra. You can customize tone and pace using system prompts. It features silent context management and background noise handling. It offers long session reliability and full duplex telephony support. Early evaluations by the language learning platform, Speak, showed great results. G. P. T. dash Live dash one cut interruptions by almost eighty percent compared to older turn based systems. This gives learners more time to think before responding.
+
+The model natively provides automatic speech recognition transcripts and response text. It handles alphanumeric understanding and keyword biasing and turn detection support. In company evaluations, G. P. T. dash Live dash one improves Full Duplex Bench performance by thirty percentage points over G. P. T. dash Realtime dash two point one. When paired with G. P. T. dash six Astra at medium reasoning effort, it ranks first on Tau three. Tau three measures end to end voice agent intelligence. 
+
+OpenAI is expanding beyond a small set of real time voices. They now offer a broader selection across accents, dialects, and languages. Enterprises can also build voice workflows using OpenAI Presence. This tool uses G. P. T. dash Live dash one to power real time interactions. It handles tasks like customer support, system navigation, and human escalation.
+
+═══ 05_NORMALIZED ═══
+
+OpenAI is launching the G. P. T. dash Live dash one model in the A. P. I. The cost is five cents per minute for the front end voice layer. This lets developers build natural voice applications and business workflows. The model was first introduced in Chat G. P. T. It listens and speaks at the same time. It reasons over incoming and outgoing audio together in a single architecture. This avoids the delay of chained speech to text, reasoning, and text to speech systems.
+
+Key capabilities include smooth interruption handling and tool calling delegation. It delegates to backend models like G. P. T. dash six Astra. You can customize tone and pace using system prompts. It features silent context management and background noise handling. It offers long session reliability and full duplex telephony support. Early evaluations by the language learning platform, Speak, showed great results. G. P. T. dash Live dash one cut interruptions by almost eighty percent compared to older turn based systems. This gives learners more time to think before responding.
+
+The model natively provides automatic speech recognition transcripts and response text. It handles alphanumeric understanding and keyword biasing and turn detection support. In company evaluations, G. P. T. dash Live dash one improves Full Duplex Bench performance by thirty percentage points over G. P. T. dash Realtime dash two point one. When paired with G. P. T. dash six Astra at medium reasoning effort, it ranks first on Tau three. Tau three measures end to end voice agent intelligence.
+
+OpenAI is expanding beyond a small set of real time voices. They now offer a broader selection across accents, dialects, and languages. Enterprises can also build voice workflows using OpenAI Presence. This tool uses G. P. T. dash Live dash one to power real time interactions. It handles tasks like customer support, system navigation, and human escalation.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (5/5). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: G. P. T. dash Live dash one, A. P. I., Chat G. P. T., G. P. T. dash six Astra, G. P. T. dash Realtime dash two point one
+

@@ -1,0 +1,44 @@
+═══ 00_KEY_POINTS ═══
+
+1. A new NASA citizen science project called Artifact InSPECtor invites volunteers to help refine space telescope data.
+2. Participants help train artificial intelligence tools to remove data errors caused by artifacts like cosmic rays and glints.
+3. Volunteers will examine real data from the Euclid telescope and the Nancy Grace Roman Space Telescope starting in 2027.
+4. The project aims to help scientists answer fundamental questions about the expansion of the universe and dark energy.
+5. Nine-year-old participant Maeve F. said it is really cool that humans can help teach computers new skills.
+
+═══ 01_DRAFT ═══
+
+NASA has launched a new citizen science project called Artifact InSPECtor, which invites volunteers of all ages to help train artificial intelligence tools to remove errors from space telescope data. The project relies on participants using smartphones, tablets, or computers to examine real data and learn how to recognize artifacts caused by cosmic rays, light glinting off telescope housing, or electronic quirks. The cleaned data will support missions like the European Space Agency Euclid space telescope and NASA's Nancy Grace Roman Space Telescope, which begins science operations in early 2027. Both observatories capture light from millions of distant galaxies using spectrographs to help scientists study the expansion of the universe and dark energy. Participants help improve the instructions guiding AI models that struggle to accurately distinguish invalid pixels from real astronomical objects. As nine-year-old participant Maeve F. noted after trying the platform, it is really cool that people can help teach computers new skills.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+NASA has launched a new citizen science project called Artifact InSPECtor, which invites volunteers of all ages to help train artificial intelligence tools to remove errors from space telescope data. The project relies on participants using smartphones, tablets, or computers to examine real data and learn how to recognize artifacts caused by cosmic rays, light glinting off telescope housing, or electronic quirks. Through this initiative, volunteers help missions like the European Space Agency Euclid space telescope and NASA's Nancy Grace Roman Space Telescope answer fundamental questions about our universe. Together, these powerful observatories capture light from millions of distant galaxies to help scientists study questions about the expansion of the universe and dark energy. Participants help improve the instructions guiding AI models that struggle to accurately distinguish invalid pixels from real astronomical objects. As nine-year-old participant Maeve F. noted after trying the platform, it is really cool that people can help teach computers new skills.
+
+═══ 02b_TRIMMED ═══
+
+NASA has launched a new citizen science project called Artifact InSPECtor, which invites volunteers of all ages to help train artificial intelligence tools to remove errors from space telescope data. The project relies on participants using smartphones, tablets, or computers to examine real data and learn how to recognize artifacts caused by cosmic rays, light glinting off telescope housing, or electronic quirks. Together, these powerful observatories capture light from millions of distant galaxies to help scientists study questions about the expansion of the universe and dark energy. Participants help improve the instructions guiding AI models that struggle to accurately distinguish invalid pixels from real astronomical objects. As nine-year-old participant Maeve F. noted after trying the platform, it is really cool that people can help teach computers new skills.
+
+═══ 03_COVERAGE_1 ═══
+
+80% covered (4/5). Missing: Volunteers will examine real data from the Euclid telescope and the Nancy Grace Roman Space Telescope starting in 2027.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+NASA has launched a new citizen science project called Artifact InSPECtor, which invites volunteers of all ages to help train artificial intelligence tools to remove errors from space telescope data. Volunteers will examine real data from the Euclid telescope and the Nancy Grace Roman Space Telescope starting in 2027. The project relies on participants using smartphones, tablets, or computers to examine real data and learn how to recognize artifacts caused by cosmic rays, light glinting off telescope housing, or electronic quirks. Together, these powerful observatories capture light from millions of distant galaxies to help scientists study questions about the expansion of the universe and dark energy. Participants help improve the instructions guiding AI models that struggle to accurately distinguish invalid pixels from real astronomical objects. As nine-year-old participant Maeve F. noted after trying the platform, it is really cool that people can help teach computers new skills.
+
+═══ 04_AUDIO_REWRITE ═══
+
+N. A. S. A. has launched a new citizen science project called Artifact Inspector. The project invites volunteers of all ages to help train artificial intelligence tools. These tools will remove errors from space telescope data. Volunteers will examine real data starting in twenty twenty-seven. The data comes from the Euclid telescope and the Nancy Grace Roman Space Telescope. Participants will use smartphones, tablets, or computers to examine real data. They will learn how to recognize artifacts caused by cosmic rays and light glinting off telescope housing. They will also spot errors from electronic quirks. These powerful observatories capture light from millions of distant galaxies. The data helps scientists study questions about the expansion of the universe and dark energy. Participants help improve the instructions guiding artificial intelligence models. These models struggle to accurately distinguish invalid pixels from real astronomical objects. A nine-year-old participant, , Maeve F., noted after trying the platform that it is really cool people can help teach computers new skills.
+
+═══ 05_NORMALIZED ═══
+
+N. A. S. A. has launched a new citizen science project called Artifact Inspector. The project invites volunteers of all ages to help train artificial intelligence tools. These tools will remove errors from space telescope data. Volunteers will examine real data starting in twenty twenty-seven. The data comes from the Euclid telescope and the Nancy Grace Roman Space Telescope. Participants will use smartphones, tablets, or computers to examine real data. They will learn how to recognize artifacts caused by cosmic rays and light glinting off telescope housing. They will also spot errors from electronic quirks. These powerful observatories capture light from millions of distant galaxies. The data helps scientists study questions about the expansion of the universe and dark energy. Participants help improve the instructions guiding artificial intelligence models. These models struggle to accurately distinguish invalid pixels from real astronomical objects. A nine-year-old participant, Maeve F., noted after trying the platform that it is really cool people can help teach computers new skills.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (5/5). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: N. A. S. A., Maeve F.
+

@@ -1,0 +1,69 @@
+═══ 00_KEY_POINTS ═══
+
+1. A train derailed on Friday evening on the route between Rouen and Caen in Normandy, France.
+2. At least 44 people were injured in the accident that occurred near the town of Cleon.
+3. Jean-Benoit Albertini stated that one critically injured person was evacuated from the scene by helicopter.
+4. French Transport Minister Philippe Tabarot reported that the train was carrying 180 passengers.
+5. A police spokesperson said the train derailed after hitting an unidentified object.
+6. SNCF Reseau stated that the priority is to care for passengers and restore safe operating conditions.
+
+═══ 01_DRAFT ═══
+
+A train carrying 180 passengers derailed on Friday evening on the route between the cities of Rouen and Caen in Normandy, northwest France. The accident occurred near the town of Cleon at around 7:54 p.m. local time, or 17:54 UTC. Local authorities reported that at least 44 people were injured. Jean-Benoit Albertini, head of the local authority, stated that one of the injured was evacuated by helicopter in a critical state. French Transport Minister Philippe Tabarot said 140 firefighters were deployed to the scene. A police spokesperson stated the train derailed after hitting an unidentified object, and the cause of the accident remains under investigation. French rail network operator SNCF Reseau suspended traffic on the line, stating, "The priority is to care for the passengers and then to restore safe operating conditions." Local authorities urged the public to avoid the area.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+A train carrying one hundred eighty passengers derailed on Friday evening on the route between the cities of Rouen and Caen in Normandy, in northwest France. 
+
+The accident occurred near the town of Cleon at around seven fifty-four p.m. local time, which was seventeen fifty-four U. T. C. 
+
+Local authorities reported that at least forty-four people were injured. 
+
+One of the injured was evacuated by helicopter in a critical state, according to , Jean-Benoit Albertini, the head of the local authority. 
+
+French Transport Minister , Philippe Tabarot, said one hundred forty firefighters were deployed to the scene. 
+
+A police spokesperson stated the train derailed after hitting an unidentified object. 
+
+The cause of the accident remains under investigation. 
+
+French rail network operator , S. N. C. F. Reseau, suspended traffic on the line. 
+
+The operator stated that the priority is to care for the passengers and then to restore safe operating conditions. 
+
+Local authorities urged the public to avoid the area.
+
+═══ 05_NORMALIZED ═══
+
+A train carrying one hundred eighty passengers derailed on Friday evening on the route between the cities of Rouen and Caen in Normandy, in northwest France.
+
+The accident occurred near the town of Cleon at around seven fifty-four p.m. local time, which was seventeen fifty-four U. T. C.
+
+Local authorities reported that at least forty-four people were injured.
+
+One of the injured was evacuated by helicopter in a critical state, according to, Jean-Benoit Albertini, the head of the local authority.
+
+French Transport Minister, Philippe Tabarot, said one hundred forty firefighters were deployed to the scene.
+
+A police spokesperson stated the train derailed after hitting an unidentified object.
+
+The cause of the accident remains under investigation.
+
+French rail network operator, S. N. C. F. Reseau, suspended traffic on the line.
+
+The operator stated that the priority is to care for the passengers and then to restore safe operating conditions.
+
+Local authorities urged the public to avoid the area.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: comma misuse around Jean-Benoit Albertini, comma misuse around Philippe Tabarot
+

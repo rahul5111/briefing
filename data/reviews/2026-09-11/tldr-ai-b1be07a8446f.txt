@@ -1,0 +1,55 @@
+═══ 00_KEY_POINTS ═══
+
+1. Researchers investigated scaling model size and pre-training compute for video-based robot policies using Direct Video-Action models.
+2. Larger pre-trained video models consistently yield better robot policies, and the trend continues at the largest tested size.
+3. Increasing pre-training compute improves robot policies at every tested demonstration data amount, with largest gains when data is scarce.
+4. Better prediction of held-out web video at a checkpoint correlates with better robot policies across all tested scales.
+5. The real industrial benchmark task involves unpacking boxes of bearings weighing 10 kg and sorting packaging waste.
+6. Every day at a customer site, more than 1000 boxes are unpacked by hand.
+7. The evaluation required over 200 hours of real-robot evaluation time with one hundred to a few hundred trials per policy.
+8. A trial counts as a successful completion only if the cycle time is under 100 seconds.
+
+═══ 01_DRAFT ═══
+
+A new study investigates the impact of scaling model size and pre-training compute for video-based robot policies, utilizing Direct Video-Action models evaluated on a real industrial manipulation task. Researchers tested whether scaling pre-training on general web video measurably improves real-world task performance, holding everything else fixed. The evaluation task involved industrial unpacking, specifically handling boxes of bearings weighing 10 kilograms, which requires sorting packaging waste into cardboard, plastic, and paper bins across six scored sub-tasks within a 100-second time limit. The project required over 200 hours of real-robot evaluation time, conducting one hundred to a few hundred trials per policy. The findings indicate that larger pre-trained video models consistently yield better robot policies, a trend that holds at the largest size tested. Furthermore, increasing pre-training compute improves robot policies at every amount of robot demonstration data tested, with the largest gains appearing when robot data is scarce. Additionally, better prediction of held-out web video at a pre-training checkpoint correlates with better robot policies across all tested model sizes and compute budgets.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+A new study investigates the impact of scaling model size and pre-training compute for video-based robot policies, utilizing Direct Video-Action models evaluated on a real industrial manipulation task. We investigate scaling model size and pre-training compute for video-based robot policies, and benchmark on a real industrial manipulation task. The evaluation task involved industrial unpacking, specifically handling boxes of bearings weighing 10 kilograms, which requires sorting packaging waste into cardboard, plastic, and paper bins across six scored sub-tasks within a 100-second time limit. The project required over 200 hours of real-robot evaluation time, conducting one hundred to a few hundred trials per policy. Larger pre-trained video models consistently yield better robot policies, and the trend continues to hold at the largest size we tested. Increasing pre-training compute improves robot policies at every amount of robot demonstration data we tested for post-training, with the largest gains when robot data is scarce. Better prediction of held-out web video at a pre-training checkpoint correlates with better robot policies across all the model sizes and compute budgets we tested.
+
+═══ 03_COVERAGE_1 ═══
+
+87% covered (7/8). Missing: Every day at a customer site, more than 1000 boxes are unpacked by hand.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Researchers have tested how scaling model size and pre-training compute affects video-based robot policies. They used direct video-action models on a real industrial manipulation task. 
+
+The task involved industrial unpacking. Robots handled boxes of bearings weighing ten kilograms. They sorted packaging waste into cardboard, plastic, and paper bins. 
+
+The evaluation used six scored sub-tasks within a one hundred-second time limit. The project required over two hundred hours of real-robot evaluation time. Teams conducted one hundred to a few hundred trials per policy. 
+
+Larger pre-trained video models consistently yield better robot policies. This trend continues to hold at the largest size tested. Increasing pre-training compute improves robot policies at every amount of robot demonstration data tested for post-training. 
+
+The largest gains happen when robot data is scarce. Better prediction of held-out web video at a pre-training checkpoint correlates with better robot policies across all tested model sizes and compute budgets.
+
+═══ 05_NORMALIZED ═══
+
+Researchers have tested how scaling model size and pre-training compute affects video-based robot policies. They used direct video-action models on a real industrial manipulation task.
+
+The task involved industrial unpacking. Robots handled boxes of bearings weighing ten kilograms. They sorted packaging waste into cardboard, plastic, and paper bins.
+
+The evaluation used six scored sub-tasks within a one hundred-second time limit. The project required over two hundred hours of real-robot evaluation time. Teams conducted one hundred to a few hundred trials per policy.
+
+Larger pre-trained video models consistently yield better robot policies. This trend continues to hold at the largest size tested. Increasing pre-training compute improves robot policies at every amount of robot demonstration data tested for post-training.
+
+The largest gains happen when robot data is scarce. Better prediction of held-out web video at a pre-training checkpoint correlates with better robot policies across all tested model sizes and compute budgets.
+
+═══ 06_COVERAGE_FINAL ═══
+
+75% covered (6/8). Missing: Every day at a customer site, more than 1000 boxes are unpacked by hand.; A trial counts as a successful completion only if the cycle time is under 100 seconds.
+
+═══ 07_SANITY ═══
+
+OK
+

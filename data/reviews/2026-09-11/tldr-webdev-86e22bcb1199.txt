@@ -1,0 +1,79 @@
+═══ 00_KEY_POINTS ═══
+
+1. Websites naturally decay over time because markets move, messaging shifts, and competitors launch new things.
+2. Fimo is an autonomous website infrastructure platform incubated at Strapi that helps websites improve after launch.
+3. Fimo discovered that users hesitate to fully automate websites because different team members want varying levels of autonomy.
+4. Rule-bound chores like accessibility compliance and fixing broken tags make up about eighty percent of website maintenance.
+5. Teams protect creative brand judgment because agents cannot decide what a page should feel like.
+6. The real unit of control involves composing agents rather than picking from a fixed menu of behaviors.
+7. Trust in website agents grows because users can inspect logs, history, and before-and-after change comparisons.
+8. The point of autonomy is to keep the launch-day version from being the best version of the site.
+
+═══ 01_DRAFT ═══
+
+Fimo, an autonomous website platform incubated at Strapi, helps websites continuously improve after launch by running over real code, enabling visual editing, and deploying agents to handle content, accessibility, and maintenance. Every website tends to decay over time as markets move and messaging shifts, but full autonomy where agents handle everything is rarely desired by teams because websites lack a single owner and different roles require different levels of control. 
+
+Website work splits into three categories. The largest pile consists of rule-bound, repetitive chores such as keeping accessibility compliant, propagating design-system updates, fixing broken meta tags, optimizing uncompressed images, and repairing broken links. The second category involves work that cannot be delegated, such as deciding what a page should feel like or judging whether a design is good. The third category depends on the individual, where the same task may be considered a routine chore by one person and a brand statement by another, meaning autonomy controls must be per-task and per-person.
+
+Users compose agents to handle specific tasks and can inspect agent runs, history, logs, and before-and-after changes to evaluate performance. Trust grows as agents prove their reliability, allowing users to delegate more over time while deadlines ensure the site does not stall if humans do not weigh in.
+
+As Fimo explains, the point of autonomy is to keep the launch-day version from being the best version, and to let you spend your judgment on the handful of things that actually deserve it, while the rest takes care of itself. Draw the line where your value is. Let the agents hold everything on the other side of it. And let the line move as they prove they can.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Fimo, an autonomous website platform incubated at Strapi, helps websites continuously improve after launch by running over real code, enabling visual editing, and deploying agents to handle content, accessibility, and maintenance. Every website tends to decay over time as markets move and messaging shifts, but full autonomy where agents handle everything is rarely desired by teams because websites lack a single owner and different roles require different levels of control. 
+
+Website work splits into three categories. The largest pile consists of rule-bound, repetitive chores such as keeping accessibility compliant, propagating design-system updates, fixing broken meta tags, optimizing uncompressed images, and repairing broken links. The second category involves work that cannot be delegated, such as deciding what a page should feel like or judging whether a design is good. The third category depends on the individual, where the same task may be considered a routine chore by one person and a brand statement by another, meaning autonomy controls must be per-task and per-person.
+
+Users compose the agents to decide what each one is allowed to touch, and can inspect every agent's runs, history, logs, and a before-and-after of what it changed. Trust grows as agents prove their reliability, allowing users to delegate more over time while deadlines keep them from being the bottleneck on what has already been handed over.
+
+As Fimo explains, the point of autonomy is to keep the launch-day version from being the best version, and to let you spend your judgment on the handful of things that actually deserve it, while the rest takes care of itself. Draw the line where your value is. Let the agents hold everything on the other side of it. And let the line move as they prove they can.
+
+═══ 02b_TRIMMED ═══
+
+Fimo, an autonomous website platform incubated at Strapi, helps websites continuously improve after launch by running over real code, enabling visual editing, and deploying agents to handle content, accessibility, and maintenance. Every website tends to decay over time as markets move and messaging shifts, but full autonomy where agents handle everything is rarely desired by teams because websites lack a single owner and different roles require different levels of control. Website work splits into three categories. The largest pile consists of rule-bound, repetitive chores such as keeping accessibility compliant, propagating design-system updates, fixing broken meta tags, optimizing uncompressed images, and repairing broken links. The second category involves work that cannot be delegated, such as deciding what a page should feel like or judging whether a design is good. The third category depends on the individual, where the same task may be considered a routine chore by one person and a brand statement by another, meaning autonomy controls must be per-task and per-person. Trust grows as agents prove their reliability, allowing users to delegate more over time while deadlines keep them from being the bottleneck on what has already been handed over. As Fimo explains, the point of autonomy is to keep the launch-day version from being the best version, and to let you spend your judgment on the handful of things that actually deserve it, while the rest takes care of itself. Draw the line where your value is. Let the agents hold everything on the other side of it. And let the line move as they prove they can.
+
+═══ 03_COVERAGE_1 ═══
+
+87% covered (7/8). Missing: The real unit of control involves composing agents rather than picking from a fixed menu of behaviors.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Fimo is an autonomous website platform incubated at Strapi. It helps websites continuously improve after launch by running over real code. It enables visual editing and deploys agents to handle content and accessibility and maintenance. 
+
+Every website tends to decay over time as markets move and messaging shifts. Full autonomy where agents handle everything is rarely desired by teams. Websites lack a single owner and different roles require different levels of control. Website work splits into three categories. 
+
+The largest pile consists of rule bound repetitive chores. These include keeping accessibility compliant and propagating design system updates and fixing broken meta tags. They also include optimizing uncompressed images and repairing broken links. 
+
+The second category involves work that cannot be delegated. This includes deciding what a page should feel like or judging whether a design is good. 
+
+The third category depends on the individual. The same task may be considered a routine chore by one person and a brand statement by another. Autonomy controls must therefore be per task and per person. 
+
+Trust grows as agents prove their reliability. This allows users to delegate more over time while deadlines keep them from being the bottleneck on what has already been handed over. 
+
+As Fimo explains, the point of autonomy is to keep the launch day version from being the best version. It lets you spend your judgment on the handful of things that actually deserve it while the rest takes care of itself. Draw the line where your value is. Let the agents hold everything on the other side of it. And let the line move as they prove they can.
+
+═══ 05_NORMALIZED ═══
+
+Fimo is an autonomous website platform incubated at Strapi. It helps websites continuously improve after launch by running over real code. It enables visual editing and deploys agents to handle content and accessibility and maintenance.
+
+Every website tends to decay over time as markets move and messaging shifts. Full autonomy where agents handle everything is rarely desired by teams. Websites lack a single owner and different roles require different levels of control. Website work splits into three categories.
+
+The largest pile consists of rule bound repetitive chores. These include keeping accessibility compliant and propagating design system updates and fixing broken meta tags. They also include optimizing uncompressed images and repairing broken links.
+
+The second category involves work that cannot be delegated. This includes deciding what a page should feel like or judging whether a design is good.
+
+The third category depends on the individual. The same task may be considered a routine chore by one person and a brand statement by another. Autonomy controls must therefore be per task and per person.
+
+Trust grows as agents prove their reliability. This allows users to delegate more over time while deadlines keep them from being the bottleneck on what has already been handed over.
+
+As Fimo explains, the point of autonomy is to keep the launch day version from being the best version. It lets you spend your judgment on the handful of things that actually deserve it while the rest takes care of itself. Draw the line where your value is. Let the agents hold everything on the other side of it. And let the line move as they prove they can.
+
+═══ 06_COVERAGE_FINAL ═══
+
+75% covered (6/8). Missing: The real unit of control involves composing agents rather than picking from a fixed menu of behaviors.; Trust in website agents grows because users can inspect logs, history, and before-and-after change comparisons.
+
+═══ 07_SANITY ═══
+
+OK
+

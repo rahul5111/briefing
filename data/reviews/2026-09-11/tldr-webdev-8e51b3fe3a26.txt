@@ -1,0 +1,65 @@
+═══ 00_KEY_POINTS ═══
+
+1. A WebGPU shader on an untrusted site can freeze a Mac desktop UI.
+2. The issue reproduces cross-browser on MacOS including Chrome, Firefox, and Safari on September 10th, 2026.
+3. The deathray exploits an infinite compute shader loop that causes a GPU pileup on the WindowServer.
+4. Auberon López disclosed the vulnerability to Apple Security on July 27th, 2026.
+5. Apple declined to prioritize fixing the issue, stating that hangs and crashes are not security vulnerabilities.
+6. In 2023, Ron Masas created a similar WebGL malicious shader called ShadyShader tracked as CVE-2023-40441.
+
+═══ 01_DRAFT ═══
+
+A new vulnerability dubbed the deathray allows an untrusted website to completely freeze a Mac's graphics and desktop UI simply by having a user click a link. Discovered by Auberon López on September tenth, two thousand twenty-six, the exploit reproduces cross-browser on macOS across Chrome, Firefox, and Safari on M-series MacBooks running Tahoe, though Intel Macs and Max M-series models appear less susceptible. 
+
+The attack utilizes WebGPU shaders to execute an infinite busy loop in a compute shader while a vertex shader attempts to read from the same data buffer. This creates a resource pileup that overwhelms the macOS WindowServer process, rendering the UI unresponsive and eventually triggering a kernel panic and system restart via the watchdog timer. 
+
+Apple previously addressed a similar WebGL-based exploit in 2023 called ShadyShader, which resulted in CVE-2023-40441 with a six point five medium CVSS score. López disclosed the deathray vulnerability to Apple Security on July twenty-seventh, two thousand twenty-six. While Apple initially intended to fix the issue, the company stated on August twenty-sixth that it did not see security implications in the report, categorizing the outcome as a hang or crash rather than a security issue, and declined to issue a product change.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+A new vulnerability dubbed the deathray allows an untrusted website to completely freeze a Mac's graphics and desktop UI simply by having a user click a link. Discovered by Auberon López, the exploit reproduces cross-browser on macOS across Chrome, Firefox, and Safari on M-series MacBooks running Tahoe, though Intel Macs and Max M-series models appear less susceptible according to user reports. 
+
+The attack utilizes WebGPU shaders to execute an infinite busy loop in a compute shader while a vertex shader attempts to read from the same data buffer. This creates a resource pileup that overwhelms the macOS WindowServer process, rendering the UI unresponsive and eventually triggering a kernel panic and system restart via the watchdog timer. 
+
+Apple previously addressed a similar WebGL-based exploit in 2023 called ShadyShader, which resulted in CVE-2023-40441 with a six point five medium CVSS score. López disclosed the deathray vulnerability to Apple Security on July twenty-seventh, two thousand twenty-six. While Apple initially intended to fix the issue, the company stated on August twenty-sixth that it did not see security implications in the report, categorizing the outcome as a hang or crash rather than a security issue, and declined to issue a product change.
+
+═══ 02b_TRIMMED ═══
+
+A new vulnerability dubbed the deathray allows an untrusted website to completely freeze a Mac's graphics and desktop UI simply by having a user click a link. The attack utilizes WebGPU shaders to execute an infinite busy loop in a compute shader while a vertex shader attempts to read from the same data buffer. This creates a resource pileup that overwhelms the macOS WindowServer process, rendering the UI unresponsive and eventually triggering a kernel panic and system restart via the watchdog timer. Apple previously addressed a similar WebGL-based exploit in 2023 called ShadyShader, which resulted in CVE-2023-40441 with a six point five medium CVSS score.
+
+═══ 03_COVERAGE_1 ═══
+
+50% covered (3/6). Missing: The issue reproduces cross-browser on MacOS including Chrome, Firefox, and Safari on September 10th, 2026.; Auberon López disclosed the vulnerability to Apple Security on July 27th, 2026.; Apple declined to prioritize fixing the issue, stating that hangs and crashes are not security vulnerabilities.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+A new vulnerability dubbed the deathray allows an untrusted website to completely freeze a Mac's graphics and desktop UI simply by having a user click a link. The issue reproduces cross-browser on MacOS including Chrome, Firefox, and Safari on September 10th, 2026. Auberon López disclosed the vulnerability to Apple Security on July 27th, 2026, but Apple declined to prioritize fixing the issue, stating that hangs and crashes are not security vulnerabilities. The attack utilizes WebGPU shaders to execute an infinite busy loop in a compute shader while a vertex shader attempts to read from the same data buffer. This creates a resource pileup that overwhelms the macOS WindowServer process, rendering the UI unresponsive and eventually triggering a kernel panic and system restart via the watchdog timer. Apple previously addressed a similar WebGL-based exploit in 2023 called ShadyShader, which resulted in CVE-2023-40441 with a six point five medium CVSS score.
+
+═══ 04_AUDIO_REWRITE ═══
+
+A new vulnerability called deathray lets untrusted websites completely freeze a Mac computer. A user just needs to click a link to trigger it. The issue affects multiple browsers on macOS including Chrome, Firefox, and Safari on September tenth, twenty twenty-six. 
+
+Researcher, Auberon López, disclosed the flaw to Apple Security on July twenty-seventh, twenty twenty-six. Apple declined to prioritize a fix. The company stated that hangs and crashes are not security vulnerabilities. 
+
+The attack uses WebGPU shaders to run an infinite loop. A compute shader loops infinitely while a vertex shader tries to read from the same data buffer. This creates a massive resource pileup. It overwhelms the macOS WindowServer process and renders the user interface completely unresponsive. The system eventually triggers a kernel panic and restarts through the watchdog timer. 
+
+Apple previously fixed a similar exploit using WebGL in twenty twenty-three. That older exploit was called ShadyShader. It received a designation of C. V. E. dash twenty twenty-three dash forty-four-forty-one with a six point five medium score.
+
+═══ 05_NORMALIZED ═══
+
+A new vulnerability called deathray lets untrusted websites completely freeze a Mac computer. A user just needs to click a link to trigger it. The issue affects multiple browsers on macOS including Chrome, Firefox, and Safari on September tenth, twenty twenty-six.
+
+Researcher, Auberon López, disclosed the flaw to Apple Security on July twenty-seventh, twenty twenty-six. Apple declined to prioritize a fix. The company stated that hangs and crashes are not security vulnerabilities.
+
+The attack uses WebGPU shaders to run an infinite loop. A compute shader loops infinitely while a vertex shader tries to read from the same data buffer. This creates a massive resource pileup. It overwhelms the macOS WindowServer process and renders the user interface completely unresponsive. The system eventually triggers a kernel panic and restarts through the watchdog timer.
+
+Apple previously fixed a similar exploit using WebGL in twenty twenty-three. That older exploit was called ShadyShader. It received a designation of C. V. E. dash twenty twenty-three dash forty-four-forty-one with a six point five medium score.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+OK
+

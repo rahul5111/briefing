@@ -1,0 +1,50 @@
+═══ 00_KEY_POINTS ═══
+
+1. In September 2026, NVIDIA announced it is leaning into native GPU programming in Rust.
+2. NVIDIA CUDA Rust closes the gap by letting GPU kernels be written in Rust and compiled natively to PTX.
+3. The SIMT track uses cuda-oxide, a custom rustc codegen backend requiring a nightly toolchain and LLVM.
+4. The Tile track works one level higher using CUDA Tile IR and runs on stable Rust 1.89 or newer.
+5. CUDA Rust prevents data race bugs at compile time by enforcing that inputs are shared and outputs belong to one writer alone.
+
+═══ 01_DRAFT ═══
+
+In September 2026, NVIDIA announced it is expanding its native GPU programming capabilities by maturing CUDA Rust into 2027 and beyond, bridging the gap for GPU kernels that previously required separate languages. 
+
+The initiative offers two distinct tracks for developers. The SIMT track uses cuda-oxide, a custom rustc codegen backend that requires Linux, a GPU with compute capability 8.0 or later, a CUDA toolkit version 12.x or newer, clang with libclang headers, and a pinned nightly toolchain. It utilizes specialized types like DisjointSlice to enforce thread safety at compile time and requires launch contracts to validate configurations against live device limits. 
+
+The second option is the Tile track, powered by cutile-rs, which operates at a higher level of abstraction by performing computations on tiles rather than scalars. Its requirements are lighter, needing a GPU with compute capability 8.0 or later, CUDA 13.3, stable Rust 1.89 or newer, and Linux, while utilizing CUDA Tile IR to JIT-compile kernels without requiring a custom nightly toolchain or local LLVM build. 
+
+Both approaches prevent race conditions and memory aliasing errors at compile time by ensuring that tensor inputs are shared while outputs are exclusively owned by a single writer, addressing the unpredictable concurrency bugs that frequently pass initial testing before failing in production environments.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (5/5). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+In September twenty twenty-six, N. V. I. D. I. A. announced an expansion of its native G. P. U. programming capabilities. The company is maturing C. U. D. A. Rust into twenty twenty-seven and beyond. This bridges the gap for G. P. U. kernels that previously required separate languages. 
+
+The initiative offers two distinct tracks for developers. The first option is the S. I. M. T. track. It uses cuda-oxide, a custom rustc codegen backend. This track requires Linux and a G. P. U. with compute capability eight point zero or later. It also requires C. U. D. A. toolkit version twelve point x or newer. Developers need clang with libclang headers and a pinned nightly toolchain. It utilizes specialized types like DisjointSlice to enforce thread safety at compile time. It requires launch contracts to validate configurations against live device limits. 
+
+The second option is the Tile track. It is powered by cutile-rs. This track operates at a higher level of abstraction by performing computations on tiles rather than scalars. Its requirements are lighter than the first track. It needs a G. P. U. with compute capability eight point zero or later. It requires C. U. D. A. thirteen point three and stable Rust one point eighty-nine or newer. It also requires Linux. This track utilizes C. U. D. A. Tile I. R. to just-in-time compile kernels. It does not require a custom nightly toolchain or a local L. L. V. M. build. 
+
+Both approaches prevent race conditions and memory aliasing errors at compile time. They ensure that tensor inputs are shared while outputs are exclusively owned by a single writer. This addresses the unpredictable concurrency bugs that frequently pass initial testing before failing in production environments.
+
+═══ 05_NORMALIZED ═══
+
+In September twenty twenty-six, N. V. I. D. I. A. announced an expansion of its native G. P. U. programming capabilities. The company is maturing C. U. D. A. Rust into twenty twenty-seven and beyond. This bridges the gap for G. P. U. kernels that previously required separate languages.
+
+The initiative offers two distinct tracks for developers. The first option is the S. I. M. T. track. It uses cuda-oxide, a custom rustc codegen backend. This track requires Linux and a G. P. U. with compute capability eight point zero or later. It also requires C. U. D. A. toolkit version twelve point x or newer. Developers need clang with libclang headers and a pinned nightly toolchain. It utilizes specialized types like DisjointSlice to enforce thread safety at compile time. It requires launch contracts to validate configurations against live device limits.
+
+The second option is the Tile track. It is powered by cutile-rs. This track operates at a higher level of abstraction by performing computations on tiles rather than scalars. Its requirements are lighter than the first track. It needs a G. P. U. with compute capability eight point zero or later. It requires C. U. D. A. thirteen point three and stable Rust one point eighty-nine or newer. It also requires Linux. This track utilizes C. U. D. A. Tile I. R. to just-in-time compile kernels. It does not require a custom nightly toolchain or a local L. L. V. M. build.
+
+Both approaches prevent race conditions and memory aliasing errors at compile time. They ensure that tensor inputs are shared while outputs are exclusively owned by a single writer. This addresses the unpredictable concurrency bugs that frequently pass initial testing before failing in production environments.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (5/5). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: cuda-oxide
+
