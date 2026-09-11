@@ -7,35 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 10 Sep 2026 21:46:23 +0000</lastBuildDate>
-    <item>
-      <title>OpenAI has solved the Navier-Stokes Millennium problem using $15m of AI effort</title>
-      <link>https://www.newscientist.com/article/2588063-openai-has-solved-the-navier-stokes-millennium-problem-using-15m-of-ai-effort/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS</link>
-      <description>The Navier-Stokes equations describe how fluids move and were first formulated in the nineteenth century. To settle whether the equations experience blow-ups, O P e n A I deployed agents on the Euler problem, taking fifty hours to find blow-ups. They then set agents the task of extending those blow-ups to the full Navier-Stokes problem. O P e n A I stated that running the same problem for a customer would cost about fifteen million dollars. Venkat Chandrasekaran at O P e n A I stated that the problem has remained unsolved for two centuries because the equations require intricate pen-and-paper calculations. Sébastien Bubeck called the news a spectacular combination of recent technological arcs. The announcement followed hours after Tristan Buckmaster at New York University and Levent Alpöge at Anthropic announced they cracked three stepping-stone problems to Navier-Stokes. Buckmaster subsequently raised questions regarding transparency, stating he emailed an O P e n A I mathematician after hearing rumors and later found O P e n A I's described path resembled his own work, which had been stored on O P e n A I's Codex model as a customer. O P e n A I categorically denied using Buckmaster and Alpöge's proof or prompts, stated its Euler proof is different, and maintained that no humans or A I agents accessed Codex to view work in progress. Terence Tao at the University of California, Los Angeles noted an unprecedented decoupling between getting answers and gaining understanding due to the rapid pace of A I discoveries. Martin Bridson, president of the Clay Mathematics Institute, stated that the process to evaluate the solution for the prize money will be deliberately unhurried and rigorous. O P e n A I reports that their internal system produced an analytical proof and a Lean formalization establishing that an initially smooth fluid can develop a singularity in finite time, while researchers maintain differing accounts regarding potential overlap with independent human work.</description>
-      <guid isPermaLink="false">rss-new_scientist-ced99aee0960</guid>
-      <enclosure url="audio/2026-09-08/rss-new_scientist-ced99aee0960-openai-has-solved-the-navier-stokes-millennium-problem-using.mp3" length="921168" type="audio/mpeg"/>
-      <pubDate>Tue, 08 Sep 2026 21:50:31 +0000</pubDate>
-    </item>
-    <item>
-      <title>German economy frets about Saxony-Anhalt election results</title>
-      <link>https://www.dw.com/en/german-economy-frets-about-saxony-anhalt-election-results/a-79162871?maca=en-rss-en-all-1573-rdf</link>
-      <description>The far-right extremist A. F. D. has won the state election in Saxony-Anhalt. It is a landslide victory that leaves the governing C. D. U. barely half as strong as before. The party is now positioned to potentially put forward the state minister-president.
-
-Commerzbank economist, Ralph Solveen, told Reuters that an A. F. D. led government would be a turning point. He advised waiting because major economic decisions on taxes, labor structures, and social security are made at the federal level.
-
-Michael Berlemann, director of the Hamburg Institute of International Economics, stated much of the A. F. D. migration policy cannot be implemented at the state level. Courts would likely overturn it. However, he warned that the indirect impacts remain problematic.
-
-Berlemann warned that announced measures mean skilled workers in health care, hospitality, agriculture, and construction will avoid the state. This will exacerbate labor shortages and widen the economic gap.
-
-I. N. G. chief economist, Carsten Brzeski, added that symbolic headlines about forced deportations will deter foreign skilled workers. He noted that Saxony-Anhalt is not the entire German economy.
-
-Business associations and economic institutes called for federal action in response to the outcome. D. I. W. President, Marcel Fratzscher, described the result as a vote of no confidence in the federal government. He urged Berlin to implement far-reaching structural reforms.
-
-Tanja Gönner, managing director of the Federation of German Industries, said the response must not be political paralysis. She stated the federal government must consistently implement reforms to boost investment, innovation, and growth.</description>
-      <guid isPermaLink="false">rss-dw_top-344f6bf00ed8</guid>
-      <enclosure url="audio/2026-09-08/rss-dw_top-344f6bf00ed8-german-economy-frets-about-saxony-anhalt-election-results.mp3" length="768240" type="audio/mpeg"/>
-      <pubDate>Tue, 08 Sep 2026 22:01:06 +0000</pubDate>
-    </item>
+    <lastBuildDate>Fri, 11 Sep 2026 06:58:58 +0000</lastBuildDate>
     <item>
       <title>UK announces sanctions on West Bank settlements prompting furious Israeli response</title>
       <link>https://www.bbc.co.uk/news/articles/c4g7zen0vveo?at_medium=RSS&amp;at_campaign=rss</link>
@@ -479,7 +451,7 @@ Researchers found no server logs or ransom notes. They also found no unfamiliar 
       <link>https://magic.dev/blog/pretraining</link>
       <description>Magic announced that its pretraining recipe is now more than ten times more compute-efficient than leading open-weight base models. It matches the DeepSeek V four Pro Base using roughly fifty times fewer floating-point operations. Their goal is to build the best model for coding and autonomous A. I. research and development. They plan to do this through pretraining and agentic reinforcement learning alongside long-context capabilities. According to the company, this initial efficiency equals about half of G. P. T. dash three's pretraining compute. That is roughly zero point five million dollars on G. B. two hundred hardware. After scaling up ten times further at a cost of around four million dollars, the company reported outperforming all publicly available open base models on perplexity evaluations. By comparison, Magic stated that under DeepSeek V four Pro's recipe, training a model of equivalent capability would cost more than one hundred million dollars. To measure these capabilities without prompt sensitivity, the team tracked bits-per-byte loss on held-out data. They also evaluated models across one hundred sixty-seven domains. The company's future roadmap focuses on scaling long-horizon reinforcement learning. They are also developing alignment techniques with robust theoretical properties while preparing to release their upcoming models.</description>
       <guid isPermaLink="false">tldr-ai-6a9020354215</guid>
-      <enclosure url="audio/2026-09-09/tldr-ai-6a9020354215-10x-more-efficient-pretraining.mp3" length="606648" type="audio/mpeg"/>
+      <enclosure url="audio/2026-09-09/tldr-ai-6a9020354215-10x-more-efficient-pretraining.mp3" length="693096" type="audio/mpeg"/>
       <pubDate>Wed, 09 Sep 2026 15:34:36 +0000</pubDate>
     </item>
     <item>
@@ -831,6 +803,20 @@ National Aeronautics and Space Administration Administrator Jared Isaacman share
       <pubDate>Wed, 09 Sep 2026 16:15:50 +0000</pubDate>
     </item>
     <item>
+      <title>Shopify acquires Tailwind</title>
+      <link>https://tailwindcss.com/blog/tailwind-is-joining-shopify</link>
+      <description>Shopify has acquired the Tailwind C. S. S. framework. The tool was launched over nine years ago. It is currently installed more than one hundred ten million times per week. Companies like C. H. A. T. G. P. T., X, Cloudflare, Reddit, and Shopify use it.
+
+The announcement states that nothing will change regarding the framework. It and other open-source projects will remain M. I. T. licensed. The existing team will lead them with support from Shopify.
+
+On the commercial side, sign-ups for new customers are closing now. All existing customers will maintain access to products like Tailwind Plus and U. I. dot s. h.
+
+The acquisition gives Tailwind a stable long-term home. It will be actively maintained and developed to serve a real product at Shopify. This addresses the needs of merchants, custom storefront design, admin management, and checkout experiences.</description>
+      <guid isPermaLink="false">hn-49626190</guid>
+      <enclosure url="audio/2026-09-11/hn-49626190-shopify-acquires-tailwind.mp3" length="395616" type="audio/mpeg"/>
+      <pubDate>Fri, 11 Sep 2026 06:51:34 +0000</pubDate>
+    </item>
+    <item>
       <title>Scientists find a bone-building switch that could fight osteoporosis</title>
       <link>https://www.sciencedaily.com/releases/2026/09/260909005305.htm</link>
       <description>Researchers at Leipzig University have identified a cell surface receptor called G. P. R. one thirty-three. It plays a key role in regulating bone health and points to a new treatment for osteoporosis. The findings were published on September ninth, twenty twenty-six. In Germany alone, osteoporosis affects about six million people. Most of those people are women.
@@ -1061,13 +1047,11 @@ Model weights, architecture, inference pipeline, and reproduction code are avail
     <item>
       <title>iPhone Duo</title>
       <link>https://www.apple.com/iphone-duo/</link>
-      <description>Apple has announced the iPhone Duo. This is the company first foldable smartphone. When unfolded the device features a seven point six inch Super Retina X. D. R. inner display. This inner screen is fifty percent larger than the iPhone eighteen Pro Max. It also has an outer display of matching aspect ratio. The inner screen uses a ten layer ultrathin design. It has a custom nano texture finish to reduce glare. It includes a hidden under display FaceTime camera.
+      <description>Apple has announced the iPhone Duo, marking the company first foldable smartphone and featuring John Ternus as CEO in the press release quote. When unfolded, the device features a seven point six inch Super Retina X. D. R. inner display with a nano texture finish to reduce glare and a hidden under display FaceTime camera. Closed, the five point four inch outer display delivers ninety percent of the screen area of an iPhone eighteen Pro. Both displays share the same aspect ratio and feature ProMotion, Always On, and three thousand nits of peak outdoor brightness. Later this year, the device will support Apple Pencil with U. S. B. minus C. Touch ID is integrated into the side button, and users can unlock the device using an Apple Watch. The hardware is crafted from grade five titanium with a mirror-polished finish, a three D printed hinge cover, Ceramic Shield on the back, and Ceramic Shield two on the front with three times better scratch resistance. It holds an I. P. sixty-eight water and dust resistance rating, and the hinge is engineered from more than one hundred components. The inner screen uses a ten layer ultrathin design with a custom polymer nano-textured cover layer that has forty percent higher stiffness, high-strength glass layers, custom adhesives, and a titanium plate.
 
-The device is powered by the A. twenty Pro chip. The chip features a dual sixteen core Neural Engine and a seven core G. P. U. The iPhone Duo incorporates an internal space saving E. S. I. M. layout. It uses a dual battery system to maximize capacity. Its forty eight megapixel Dual Fusion camera system includes several lenses. There is a forty eight megapixel Fusion Main lens and a forty eight megapixel Fusion Ultra Wide lens. There is also a twelve megapixel Center Stage front camera. Software additions include Smart Take, Duo Preview, and Kid Cue.
-
-The device supports connectivity through Wi-Fi seven, Bluetooth six, five G, and satellite messaging. It runs on Apple Intelligence and Siri A. I. It is available in Star White and Night Sky color options. The iPhone Duo will be offered at apple.com, select carriers, and retail partner stores. It launches on October twenty-third, twenty twenty-six. Customers can trade in eligible devices for credit. They can also utilize Apple Card Monthly Installments.</description>
+The device is powered by the A. twenty Pro chip, featuring an advanced thermal management system with a custom vapor chamber and a dual battery architecture to maximize capacity. Its forty eight megapixel Dual Fusion camera system includes a forty eight megapixel Fusion Main lens with an integrated optical-quality two x Telephoto lens, a forty eight megapixel Fusion Ultra Wide lens, a twelve megapixel Center Stage front camera, and a computational image pipeline. Software additions include Smart Take, Duo Preview, Kid Cue, Duo FaceTime, and Camera Control with a brand-new Siri Camera mode. The device supports connectivity through Wi-Fi seven, Bluetooth six, five G, and satellite messaging, and runs on I. O. S. twenty-seven with Apple Intelligence and Siri A. I. It is available in Star White and Night Sky color options, with pre-orders beginning October sixteenth, twenty twenty-six, and general availability launching on October twenty-third, twenty twenty-six, at apple.com, select carriers, and retail partner stores.</description>
       <guid isPermaLink="false">hn-49630931</guid>
-      <enclosure url="audio/2026-09-10/hn-49630931-iphone-duo.mp3" length="697896" type="audio/mpeg"/>
+      <enclosure url="audio/2026-09-10/hn-49630931-iphone-duo.mp3" length="1237656" type="audio/mpeg"/>
       <pubDate>Thu, 10 Sep 2026 21:21:17 +0000</pubDate>
     </item>
     <item>
@@ -1173,21 +1157,9 @@ Cisco Talos tracks the threat actor behind the verification.google activity as U
     <item>
       <title>Anthropic Models AI's Potential Impact on the US Economy</title>
       <link>https://www.anthropic.com/institute/econ-scenarios</link>
-      <description>New research models the economy using task bundles from the United States Department of Labor taxonomy. It evaluates three futures based on artificial intelligence capabilities and adoption rates.
-
-In the modest scenario, A. I. has an economic impact comparable to the internet. It delivers gradual gains within historical norms.
-
-In the substantial scenario, A. I. performs half of all knowledge work by twenty thirty. This drives the economy to grow at twice its normal rate. Unemployment rises to around five percent, and gross domestic product sits ten percent higher than without A. I.
-
-In the extreme scenario, driven by recursively self-improving systems, annual G. D. P. growth reaches fifteen percent. This doubles the economy every four point five years. It results in spiked unemployment and stagnating or declining wages for knowledge workers.
-
-A survey of more than ten thousand Americans was conducted in August. It shows that the typical respondent expects the substantial change scenario.
-
-The model also indicates that labor and capital shares will shift. Capital will demand a larger percentage of total value compared to the historical baseline. In that baseline, workers receive about sixty cents of every dollar.
-
-The study explores these shifts to provide visibility into the economic transition. It helps ensure that benefits are broadly shared across society.</description>
+      <description>New research by the Anthropic Economics team models the economy using task bundles from the United States Department of Labor taxonomy, based on a technical report titled Economic Scenarios for Transformative AI. The study evaluates three futures based on artificial intelligence capabilities and adoption rates, and it includes an interactive scenario explorer tool. In the modest scenario, A I has an economic impact comparable to the internet, delivering gradual gains within historical norms. In the substantial scenario, A I performs half of all knowledge work by twenty thirty, with the majority done autonomously, driving the economy to grow at twice its normal rate. Unemployment rises to around five percent, gross domestic product sits ten percent higher than without A I, and wages for knowledge workers do not rise while other workers see gains. In the extreme scenario, driven by recursively self-improving systems, annual G D P growth reaches fifteen percent, doubling the economy every four point five years. This results in spiked unemployment and stagnating or declining wages for knowledge workers. A survey of more than ten thousand Americans conducted in August shows that the typical respondent expects the substantial change scenario. The model also indicates that labor and capital shares will shift, with capital demanding a larger percentage of total value compared to the historical baseline where workers receive about sixty cents of every dollar, against a backdrop of over thirty trillion dollars of value created over the past year in the United States economy. The study explores these shifts to provide visibility into the economic transition and ensure that benefits are broadly shared.</description>
       <guid isPermaLink="false">tldr-ai-37b6c5c55791</guid>
-      <enclosure url="audio/2026-09-10/tldr-ai-37b6c5c55791-anthropic-models-ai-s-potential-impact-on-the-us-economy.mp3" length="631464" type="audio/mpeg"/>
+      <enclosure url="audio/2026-09-10/tldr-ai-37b6c5c55791-anthropic-models-ai-s-potential-impact-on-the-us-economy.mp3" length="888432" type="audio/mpeg"/>
       <pubDate>Thu, 10 Sep 2026 21:22:11 +0000</pubDate>
     </item>
     <item>
@@ -1289,39 +1261,17 @@ Administrators can enable and install the Data agent from the Plugins directory.
     <item>
       <title>England's push for two-day win halted by weather</title>
       <link>https://www.bbc.co.uk/sport/cricket/articles/c980dgvp2qeo?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>England missed a rare two-day Test victory against Pakistan at Edgbaston. Bad weather halted their charge at seventeen oh seven B. S. T. on day two.
-
-Pakistan were left battling on fifty-two for two. They were still two hundred sixty-eight runs behind to avoid an innings defeat.
-
-Ollie Robinson dismissed Saim Ayub and Abdullah Shafique for ducks in the opening over of the second innings. Play could have continued until nineteen hundred B. S. T. if conditions allowed. Persistent rain forced an early close.
-
-The players will return on Friday to complete a three to zero series clean sweep. England began Thursday on one hundred fifty-six for four with a twenty-three run lead. They posted four hundred fifty-three, building a massive first-innings advantage of three hundred twenty.
-
-The total was driven by contributions from Harry Brook with seventy-five, Jamie Smith with sixty-nine, and Dan Lawrence with sixty-five. Robinson added fifty, alongside, Razaullah claiming four for one hundred forty-eight for Pakistan.
-
-Given England is dominant, it is curious that none of their batters registered a century in the series. This ended a six-Test home summer with their fewest individual hundreds.
-
-Brook, Lawrence, and Smith all impressed with the bat before falling short of three figures. Robinson added his second Test half-century to round out a commanding team performance.</description>
+      <description>England missed a rare two-day Test victory against Pakistan at Edgbaston when bad weather halted their charge at seventeen oh seven B. S. T. on day two. Pakistan closed on fifty-two for two, trailing by two hundred sixty-eight runs to avoid an innings defeat. Ollie Robinson dismissed Saim Ayub and Abdullah Shafique for ducks in the opening over of the second innings. Play could have continued until nineteen hundred B. S. T., but persistent rain forced an early close. The players return on Friday to complete a three to zero series clean sweep. England began Thursday on one hundred fifty-six for four with a twenty-three run lead. They posted four hundred fifty-three, building a massive first-innings advantage of three hundred twenty runs. The total featured seventy-five from Harry Brook, sixty-nine by Jamie Smith, sixty-five scored by Dan Lawrence, sixty by Emilio Gay, and fifty from Robinson. Razaullah claimed four for one hundred forty-eight for Pakistan, while Josh Tongue took four for forty-two as Pakistan were previously dismissed for one hundred thirty with Shakeel scoring forty-three. Despite dominance, none of England's batters registered a century in the series, leaving Ben Duckett's ton against New Zealand at Trent Bridge as the home side's only hundred of the summer. Under the captaincy of Root, contrasting with the prior regime under Ben Stokes and coach Brendon McCullum where England lost the final Test in each of their past six series, the team showcased a ruthless edge. Brook and Lawrence shared an eighty-six run stand before Brook was run out. Lawrence later chopped on off Mohammad Imran for sixty-five, while Smith kept wicket until suffering a bruised finger that brought in Jordan Cox. Jofra Archer added thirty-two not out with two sixes before Tongue was caught behind.</description>
       <guid isPermaLink="false">rss-bbc_sport-94da4f23c39c</guid>
-      <enclosure url="audio/2026-09-10/rss-bbc_sport-94da4f23c39c-england-s-push-for-two-day-win-halted-by-weather.mp3" length="611976" type="audio/mpeg"/>
+      <enclosure url="audio/2026-09-10/rss-bbc_sport-94da4f23c39c-england-s-push-for-two-day-win-halted-by-weather.mp3" length="779976" type="audio/mpeg"/>
       <pubDate>Thu, 10 Sep 2026 21:36:01 +0000</pubDate>
     </item>
     <item>
       <title>Can Trump really pay $5,000 to every American adult?</title>
       <link>https://www.bbc.co.uk/news/articles/c8r6vj7r8rko?at_medium=RSS&amp;at_campaign=rss</link>
-      <description>United States President Donald Trump announced an offer of five thousand dollars to every adult American if Republicans win November's midterm elections. The proposal would cost the United States government approximately one point three trillion dollars for the nation's nearly two hundred seventy million adults.
-
-Speaking at a party convention in Texas on Wednesday, Trump stated the funds would have to be spent domestically. He provided no details on how the payments would be funded or monitored and did not specify whether he would seek legislative approval from Congress.
-
-Vice-President J. D. Vance suggested the payouts could be funded by tariff revenue and restricted from wealthy Americans. However, historical data from the Bipartisan Policy Center shows the United States has brought in roughly four hundred seventy-five billion dollars in tariff and excise tax revenue since the beginning of twenty twenty-five. More than one hundred billion dollars of that total was subsequently refunded following a Supreme Court ruling.
-
-The announcement has raised legal and financial questions. Under federal law, payments intended to influence voting are illegal, but legal experts are divided. Doctor Joan Mahoney at the University of Southampton told the B. B. C. she believes the offer is legal because it would go to everyone regardless of how they voted, likening it to a tax cut pledge.
-
-Meanwhile, Laurel Rapp, director of the United States and North America programme at Chatham House, told the B. B. C. that Trump's offer seemed to be a very different and very transactional agreement. She stated that Trump made the offer because poor polling threatens Republican control of Congress.
-
-Erica York, a senior economist at the Tax Foundation, noted she would be extremely surprised if Congress approved the proposal. She stated it would be one of the worst ways to use one point three trillion dollars amid growing national deficits.</description>
+      <description>United States President Donald Trump announced an offer of five thousand dollars to every adult American if Republicans win November's midterm elections. The proposal would cost the United States government approximately one point three trillion dollars for the nation's nearly two hundred seventy million adults. Democrats labelled it an empty promise. Speaking at a party convention in Texas on Wednesday, Trump stated the funds would have to be spent domestically. He provided no details on how the payments would be funded or monitored and did not specify whether he would seek legislative approval from Congress. Vice-President J. D. Vance suggested on Fox News that the payouts could be funded by tariff revenue and restricted from wealthy Americans. However, historical data from the Bipartisan Policy Center shows the United States has brought in roughly four hundred seventy-five billion dollars in tariff and excise tax revenue since the beginning of twenty twenty-five. More than one hundred billion dollars of that total was subsequently refunded following a Supreme Court ruling. The announcement has raised legal and financial questions. Under federal law, payments intended to influence voting are illegal, but legal experts are divided and state it is unlikely the president could approve such a sum via a presidential executive order. Doctor Joan Mahoney at the University of Southampton told the B. B. C. she believes the offer is legal because it would go to everyone regardless of how they voted, though she noted it sounds a bit like a bribe. Meanwhile, Laurel Rapp, director of the United States and North America programme at Chatham House, told the B. B. C. that Trump's offer seemed to be a very different and very transactional agreement made because poor polling threatens Republican control of Congress. Erica York, a senior economist at the Tax Foundation, noted she would be extremely surprised if Congress approved the proposal amid growing national deficits.</description>
       <guid isPermaLink="false">rss-bbc_world-e931a45aec6b</guid>
-      <enclosure url="audio/2026-09-10/rss-bbc_world-e931a45aec6b-can-trump-really-pay-5000-to-every-american-adult.mp3" length="842808" type="audio/mpeg"/>
+      <enclosure url="audio/2026-09-10/rss-bbc_world-e931a45aec6b-can-trump-really-pay-5000-to-every-american-adult.mp3" length="865824" type="audio/mpeg"/>
       <pubDate>Thu, 10 Sep 2026 21:40:11 +0000</pubDate>
     </item>
     <item>
@@ -1533,6 +1483,20 @@ Meanwhile, Leader of Opposition, Tejashwi Yadav blamed corruption for the accide
       <guid isPermaLink="false">rss-the_hindu-df9e654409dd</guid>
       <enclosure url="audio/2026-09-10/rss-the_hindu-df9e654409dd-under-construction-bridge-collapses-in-bihars-vaishali-seven.mp3" length="476280" type="audio/mpeg"/>
       <pubDate>Thu, 10 Sep 2026 21:38:05 +0000</pubDate>
+    </item>
+    <item>
+      <title>Thrive Capital led VCs into pro sports ownership; Collaborative Fund just upped that play</title>
+      <link>https://techcrunch.com/2026/09/10/thrive-capital-showed-vcs-the-way-into-pro-sports-ownership-collaborative-fund-is-now-trying-its-own-version-of-the-same-play/</link>
+      <description>Collaborative Fund, a fifteen year old New York based venture firm with roughly one billion dollars under management, is taking a stake in D.C. United and Audi Field. The deal needs approval from Major League Soccer.
+
+This makes Collaborative the latest firm to follow a path opened by Joshua Kushner’s Thrive Capital. Thrive Capital turned venture money into sports ownership by launching Thrive Eternal to hold franchises for decades. Thrive previously bought the San Francisco Giants and the Lakers for twelve point five billion dollars. Thrive built a permanent capital vehicle to hold trophy assets. Collaborative is investing directly out of its early stage fund, treating the deal like infrastructure.
+
+Collaborative founder Craig Shapiro framed the investment as an extension of the firm's work. He wrote that a franchise is the ultimate consumer product. Shapiro pointed to tailwinds in American soccer, including upcoming major events and rising youth participation. He also highlighted D.C. United owning Audi Field in Washington, D.C., a talent development pipeline through Loudoun County, Virginia, and rights to a future Baltimore expansion team.
+
+Collaborative plans to use Audi Field as a showcase for its portfolio companies. This includes integrating Whoop wearables and Olipop game day drinks. The investment also benefits from soaring team valuations. D.C. United’s valuation climbed from thirty-five million dollars in two thousand eight to seven hundred eighty-five million dollars today. This valuation includes Audi Field and surrounding real estate.</description>
+      <guid isPermaLink="false">rss-techcrunch-d50f665fad8d</guid>
+      <enclosure url="audio/2026-09-11/rss-techcrunch-d50f665fad8d-thrive-capital-led-vcs-into-pro-sports-ownership-collaborati.mp3" length="714096" type="audio/mpeg"/>
+      <pubDate>Fri, 11 Sep 2026 06:57:01 +0000</pubDate>
     </item>
   </channel>
 </rss>

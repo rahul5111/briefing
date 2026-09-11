@@ -1,0 +1,45 @@
+═══ 00_KEY_POINTS ═══
+
+1. The popular styling framework Tailwind is officially being acquired by Shopify.
+2. Tailwind is installed over 110 million times per week by developers globally.
+3. Tailwind joins Shopify to secure a stable long-term home and active maintenance.
+4. New customer sign-ups for Tailwind Plus and ui.sh are officially closing.
+5. Tailwind CSS and open-source projects will remain MIT-licensed and actively maintained.
+6. Shopify provides a complex product surface area to continuously improve the framework.
+
+═══ 01_DRAFT ═══
+
+Shopify has acquired the Tailwind CSS framework, launched over nine years ago. The framework is currently installed more than 110 million times per week and is used by companies including ChatGPT, X, Cloudflare, Reddit, and Shopify. According to the announcement, nothing will change regarding Tailwind CSS or other open-source projects, which will remain MIT-licensed and led by the existing team with Shopify's support. On the commercial side, sign-ups for new customers are closing, while all existing customers will maintain access to products like Tailwind Plus and ui.sh. The acquisition provides Tailwind a stable long-term home where it can be actively maintained and developed in service of a real product at Shopify, addressing the needs of merchants, custom storefront design, admin management, and checkout experiences.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Shopify has acquired the Tailwind C. S. S. framework. The tool was launched over nine years ago. It is currently installed more than one hundred ten million times per week. Companies like C. H. A. T. G. P. T., X, Cloudflare, Reddit, and Shopify use it. 
+
+The announcement states that nothing will change regarding the framework. It and other open-source projects will remain M. I. T. licensed. The existing team will lead them with support from Shopify. 
+
+On the commercial side, sign-ups for new customers are closing now. All existing customers will maintain access to products like Tailwind Plus and U. I. dot s. h. 
+
+The acquisition gives Tailwind a stable long-term home. It will be actively maintained and developed to serve a real product at Shopify. This addresses the needs of merchants, custom storefront design, admin management, and checkout experiences.
+
+═══ 05_NORMALIZED ═══
+
+Shopify has acquired the Tailwind C. S. S. framework. The tool was launched over nine years ago. It is currently installed more than one hundred ten million times per week. Companies like C. H. A. T. G. P. T., X, Cloudflare, Reddit, and Shopify use it.
+
+The announcement states that nothing will change regarding the framework. It and other open-source projects will remain M. I. T. licensed. The existing team will lead them with support from Shopify.
+
+On the commercial side, sign-ups for new customers are closing now. All existing customers will maintain access to products like Tailwind Plus and U. I. dot s. h.
+
+The acquisition gives Tailwind a stable long-term home. It will be actively maintained and developed to serve a real product at Shopify. This addresses the needs of merchants, custom storefront design, admin management, and checkout experiences.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: C. S. S., C. H. A. T. G. P. T., M. I. T., U. I. dot s. h.
+
