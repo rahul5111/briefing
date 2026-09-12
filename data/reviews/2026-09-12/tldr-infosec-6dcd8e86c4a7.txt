@@ -1,0 +1,49 @@
+═══ 00_KEY_POINTS ═══
+
+1. Gamers Nexus published a video claiming LG smart TVs constantly log and upload user data.
+2. The Gamers Nexus investigation alleged that LG operates 216,000,000 spy televisions.
+3. LG strongly denied the claims, stating that the allegations made in the video are completely false.
+4. LG confirmed its TVs scan local area networks to discover other devices like phones and printers.
+5. LG stated that voice data is processed only when the remote button is pressed or wake words are recognized.
+6. The company stated that Automatic Content Recognition is an opt-in feature used for personalized recommendations and advertisements.
+
+═══ 01_DRAFT ═══
+
+LG has strongly denied claims made in a recent YouTube investigation by Gamers Nexus alleging that the manufacturer operates 216 million spy TVs that constantly log and upload user data. The two-hour video, produced in collaboration with security researchers MrBruh and uturn using packet capture and firmware analysis, claims LG smart TVs record audio in standby mode, scan Wi-Fi networks, and sample inputs while offline.
+
+In a statement provided to Tom's Hardware, LG called the claims not true and stated that LG TVs process voice data only when the voice button on the remote control is pressed and held, or when a wake word such as Hi LG is recognized after the user has activated the Far-Field voice recognition feature. The company added that the TVs do not collect or record ambient conversations outside of these instances, and that wake word audio processing is performed locally on the device and immediately deleted if the wake word is not recognized. 
+
+LG confirmed that its smart TVs scan for devices on the same local network, which it described as a standard function of smart TVs and smart home devices. The company also stated that Automatic Content Recognition is an opt-in feature used to deliver personalized recommendations and ads, and is not used for advertising purposes without explicit user consent.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+L. G. has strongly denied claims from a YouTube investigation by Gamers Nexus. The video alleged that the manufacturer operates two hundred sixteen million spy TVs. It claimed these televisions constantly log and upload user data. The two hour video used packet capture and firmware analysis. It was produced with security researchers,  MrBruh, and  uturn. The investigation claimed L. G. smart TVs record audio in standby mode. It said the TVs scan Wi-Fi networks and sample inputs while offline.
+
+L. G. provided a statement to Tom's Hardware. The company called the claims not true. L. G. stated that its TVs process voice data only under specific conditions. This happens when the voice button on the remote is pressed and held. It also happens when a wake word is recognized. Users must first activate the Far-Field voice recognition feature. The wake word is Hi L. G.
+
+The company added that the TVs do not collect ambient conversations outside these instances. Wake word audio processing happens locally on the device. It is immediately deleted if the wake word is not recognized. 
+
+L. G. confirmed that its smart TVs scan for devices on the same local network. The company described this as a standard function of smart homes. The company also talked about Automatic Content Recognition. This is an opt-in feature used to deliver personalized recommendations. It provides ads, but is not used for advertising without explicit user consent.
+
+═══ 05_NORMALIZED ═══
+
+L. G. has strongly denied claims from a YouTube investigation by Gamers Nexus. The video alleged that the manufacturer operates two hundred sixteen million spy TVs. It claimed these televisions constantly log and upload user data. The two hour video used packet capture and firmware analysis. It was produced with security researchers, MrBruh, and uturn. The investigation claimed L. G. smart TVs record audio in standby mode. It said the TVs scan Wi-Fi networks and sample inputs while offline.
+
+L. G. provided a statement to Tom's Hardware. The company called the claims not true. L. G. stated that its TVs process voice data only under specific conditions. This happens when the voice button on the remote is pressed and held. It also happens when a wake word is recognized. Users must first activate the Far-Field voice recognition feature. The wake word is Hi L. G.
+
+The company added that the TVs do not collect ambient conversations outside these instances. Wake word audio processing happens locally on the device. It is immediately deleted if the wake word is not recognized.
+
+L. G. confirmed that its smart TVs scan for devices on the same local network. The company described this as a standard function of smart homes. The company also talked about Automatic Content Recognition. This is an opt-in feature used to deliver personalized recommendations. It provides ads, but is not used for advertising without explicit user consent.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: L. G.
+

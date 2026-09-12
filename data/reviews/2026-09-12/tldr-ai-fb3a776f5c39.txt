@@ -1,0 +1,70 @@
+═══ 00_KEY_POINTS ═══
+
+1. North Small Translate is a sparse Mixture-of-Experts model developed by Cohere and Cohere Labs.
+2. The model features 25 billion active parameters, 218 billion total parameters, and 128 total experts.
+3. North Small Translate is specialized for high-quality machine translation across 50 different languages.
+4. The model supports a context length of 16K input and 16K output tokens.
+5. North Small Translate is governed by a CC BY-NC 4.0 license alongside an acceptable use policy.
+6. The model scores 83.60 on WMT26 performance, increasing to 84.36 with the multi-pass workflow.
+7. Cohere released the model weights to make community-based research efforts more accessible to researchers globally.
+
+═══ 01_DRAFT ═══
+
+Cohere and Cohere Labs have released North Small Translate, an open weights sparse Mixture-of-Express research model specializing in high-quality machine translation across 50 languages. 
+
+The decoder-only Transformer model features 25 billion active parameters, 218 billion total parameters, 128 total experts with 8 activated per token, and shared experts applied to every token. It supports a context length of 16K input and 16K output tokens. The architecture uses a 3:1 ratio of sliding-window attention layers with Rotary Positional Embeddings to global attention layers without positional embeddings. 
+
+According to evaluation data from the launch blog post, the model scores 83.60 on WMT26 performance across evaluated languages, increasing to 84.36 when using an agentic multi-pass translation workflow. 
+
+Accessing the repository on Hugging Face requires users to agree to share their contact information, accept the CC BY-NC 4.0 non-commercial license, and adhere to Cohere Labs' Acceptable Use Policy. The release aims to make community-based research efforts more accessible, with commercial use requiring contact with Cohere's sales team.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+North Small Translate is an open weights research release of a sparse Mixture-of-Experts model developed by Cohere and Cohere Labs, specializing in high-quality machine translation across 50 languages. 
+
+The decoder-only Transformer model features 25 billion active parameters, 218 billion total parameters, 128 total experts with 8 activated per token, and shared experts applied to every token. It supports a context length of 16K input and 16K output. The architecture uses a 3:1 ratio of sliding-window attention layers with Rotary Positional Embeddings to global attention layers without positional embeddings. 
+
+According to evaluation data from the launch blog post, the model scores 83.60 on WMT26 performance across evaluated languages, increasing to 84.36 when using the agentic multi-pass translation workflow. 
+
+Accessing this model requires agreeing to share contact information and accepting conditions, including the CC BY-NC 4.0 license and Cohere Lab's Acceptable Use Policy. The release aims to make community-based research efforts more accessible, while commercial use requires contacting Cohere's Sales team.
+
+═══ 02b_TRIMMED ═══
+
+North Small Translate is an open weights research release of a sparse Mixture-of-Experts model developed by Cohere and Cohere Labs, specializing in high-quality machine translation across 50 languages. The decoder-only Transformer model features 25 billion active parameters, 218 billion total parameters, 128 total experts with 8 activated per token, and shared experts applied to every token. It supports a context length of 16K input and 16K output. The architecture uses a 3:1 ratio of sliding-window attention layers with Rotary Positional Embeddings to global attention layers without positional embeddings. According to evaluation data from the launch blog post, the model scores 83.60 on WMT26 performance across evaluated languages, increasing to 84.36 when using the agentic multi-pass translation workflow. The release aims to make community-based research efforts more accessible, while commercial use requires contacting Cohere's Sales team.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (7/7). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+North Small Translate is an open weights research release of a sparse Mixture-of-Experts model. It was developed by Cohere and Cohere Labs. The model specializes in high quality machine translation across fifty languages. 
+
+This decoder-only Transformer model features twenty-five billion active parameters. It has two hundred eighteen billion total parameters. The system uses one hundred twenty-eight total experts with eight activated per token. Shared experts are applied to every token. 
+
+It supports a context length of sixteen thousand input and sixteen thousand output. The architecture uses a three to one ratio of sliding-window attention layers. These layers feature Rotary Positional Embeddings. They are paired with global attention layers without positional embeddings. 
+
+Evaluation data from the launch blog post shows specific performance metrics. The model scores eighty-three point six zero on W. M. T. twenty-six performance across evaluated languages. This score increases to eighty-four point three six when using the agentic multi-pass translation workflow. 
+
+The release aims to make community-based research efforts more accessible. Commercial use requires contacting the Sales team at Cohere.
+
+═══ 05_NORMALIZED ═══
+
+North Small Translate is an open weights research release of a sparse Mixture-of-Experts model. It was developed by Cohere and Cohere Labs. The model specializes in high quality machine translation across fifty languages.
+
+This decoder-only Transformer model features twenty-five billion active parameters. It has two hundred eighteen billion total parameters. The system uses one hundred twenty-eight total experts with eight activated per token. Shared experts are applied to every token.
+
+It supports a context length of sixteen thousand input and sixteen thousand output. The architecture uses a three to one ratio of sliding-window attention layers. These layers feature Rotary Positional Embeddings. They are paired with global attention layers without positional embeddings.
+
+Evaluation data from the launch blog post shows specific performance metrics. The model scores eighty-three point six zero on W. M. T. twenty-six performance across evaluated languages. This score increases to eighty-four point three six when using the agentic multi-pass translation workflow.
+
+The release aims to make community-based research efforts more accessible. Commercial use requires contacting the Sales team at Cohere.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (7/7). Missing: none
+
+═══ 07_SANITY ═══
+
+OK
+

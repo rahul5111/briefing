@@ -1,0 +1,34 @@
+═══ 00_KEY_POINTS ═══
+
+1. On Sunday, July 5, Hayabusa2 conducted the first successful laser-ranging experiment during an asteroid flyby.
+2. The spacecraft successfully fired its laser twice at asteroid Torifune from distances of 20 km and 15 km.
+3. The spacecraft traveled at a velocity of 5.3 km/s while attempting to accurately target the small asteroid.
+4. The experiment utilized the spacecraft's LIDAR laser altimeter instrument to measure distances and surface properties.
+5. Laser ranging helps accurately determine the size, position, and trajectory of astronomical objects.
+6. This successful test advances space agency capabilities for future missions involving near-Earth asteroids.
+7. Laser ranging data plays an important role in planetary defense by predicting potential future collision risks.
+
+═══ 01_DRAFT ═══
+
+The Japan Aerospace Exploration Agency successfully conducted the first-ever laser ranging experiment with an asteroid during a flyby of Torifune on Sunday, July 5. The milestone marks the first exploration target of the Hayabusa2 spacecraft's Extended Mission. The probe used its LIDAR laser altimeter instrument to fire the laser twice during the flyby, occurring at 6:29 p.m. from distances of about 20 kilometers and 15 kilometers, respectively. The spacecraft traveled at a speed of 5.3 kilometers per second while targeting the asteroid with a narrow beam that struck surface areas measuring 30 meters and 23 meters. The LALT instrument was originally developed from the altimeter used by JAXA's Kaguya lunar orbiter and previously gathered topographical data on asteroid Ryugu. Laser ranging adds scale to spacecraft images and helps determine the size, density, porosity, and surface reflectance of astronomical objects. When combined with tracking data, the technique accurately determines a celestial body's position and trajectory to improve orbital predictions. The capability advances future missions involving near-Earth asteroids and supports planetary defense by allowing scientists to predict potential collision risks. The mission team is currently analyzing data to determine the exact surface location where the laser struck.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (7/7). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Japan Aerospace Exploration Agency successfully conducted the first laser ranging experiment with an asteroid. This happened during a flyby of Torifune on Sunday, July fifth. The milestone marks the first exploration target of the Hayabusa2 spacecraft's Extended Mission. The probe used its Lalt laser altimeter instrument to fire the laser twice during the flyby. The first fire occurred at six twenty-nine p.m. from a distance of about twenty kilometers. The second fire happened from a distance of fifteen kilometers. The spacecraft traveled at a speed of five point three kilometers per second. It targeted the asteroid with a narrow beam that struck surface areas measuring thirty meters and twenty-three meters. The Lalt instrument was originally developed from the altimeter used by JAXA's Kaguya lunar orbiter. It previously gathered topographical data on asteroid Ryugu. Laser ranging adds scale to spacecraft images. It helps determine the size, density, porosity, and surface reflectance of astronomical objects. When combined with tracking data, the technique accurately determines a celestial body's position. This improves orbital predictions. The capability advances future missions involving near-Earth asteroids. It also supports planetary defense by allowing scientists to predict potential collision risks. The mission team is currently analyzing data to determine the exact surface location where the laser struck.
+
+═══ 05_NORMALIZED ═══
+
+Japan Aerospace Exploration Agency successfully conducted the first laser ranging experiment with an asteroid. This happened during a flyby of Torifune on Sunday, July fifth. The milestone marks the first exploration target of the Hayabusa2 spacecraft's Extended Mission. The probe used its Lalt laser altimeter instrument to fire the laser twice during the flyby. The first fire occurred at six twenty-nine p.m. from a distance of about twenty kilometers. The second fire happened from a distance of fifteen kilometers. The spacecraft traveled at a speed of five point three kilometers per second. It targeted the asteroid with a narrow beam that struck surface areas measuring thirty meters and twenty-three meters. The Lalt instrument was originally developed from the altimeter used by J A X A.'s Kaguya lunar orbiter. It previously gathered topographical data on asteroid Ryugu. Laser ranging adds scale to spacecraft images. It helps determine the size, density, porosity, and surface reflectance of astronomical objects. When combined with tracking data, the technique accurately determines a celestial body's position. This improves orbital predictions. The capability advances future missions involving near-Earth asteroids. It also supports planetary defense by allowing scientists to predict potential collision risks. The mission team is currently analyzing data to determine the exact surface location where the laser struck.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (7/7). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: J A X A.'s
+

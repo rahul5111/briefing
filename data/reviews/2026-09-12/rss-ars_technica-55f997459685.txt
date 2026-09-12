@@ -1,0 +1,60 @@
+═══ 00_KEY_POINTS ═══
+
+1. The author purchased a quadruped robot dog manufactured by the Chinese company Unitree for $4,000.
+2. The robot dog successfully walked the two-mile downhill commute from Mount Pleasant to the White House.
+3. During the hot afternoon commute, the robot dog struggled while walking uphill in 87°F temperatures.
+4. The robot dog suddenly collapsed within sight of the author's front door with its battery at 5 percent.
+5. The author admits that the honest answer to what the robot dog is useful for is not much.
+
+═══ 01_DRAFT ═══
+
+A Washington, DC resident who spent $4,000 on a quadruped robot dog manufactured by the Chinese company Unitree recounted a two-mile commute from the Mount Pleasant neighborhood to an office near the White House. During the morning walk in June, the machine attracted attention from pedestrians and children while biological dogs barked at it. The author noted that the robot performed tricks including shaking hands, doing a handstand, and leaping into the air, and completed the downhill morning walk with battery capacity to spare. However, during the afternoon commute home, conditions changed as the temperature reached 87 degrees Fahrenheit and the route was mostly uphill. As the author approached home, phone indicators showed the battery was at five percent and the internal temperature had reached 84 degrees Celsius. The robot suddenly collapsed within sight of the front door, rolling onto its back with its legs in the air. Asked what the robot is useful for, the author stated, the honest answer is not much.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+On a sunny morning in June, the author walked to work in Washington, DC, with a quadruped robot dog manufactured by the Chinese company Unitree. During the two-mile morning commute from the Mount Pleasant neighborhood to an office near the White House, the machine attracted attention from pedestrians and children while biological dogs barked at it. The author noted that the robot performed tricks including shaking hands, doing a handstand, and leaping into the air, and completed the mostly downhill morning walk with battery capacity to spare. After recharging the battery during the workday, the author experienced a more difficult afternoon walk home as the route was mostly uphill and the temperature had risen to 87 degrees Fahrenheit. As the author approached home, phone indicators showed the battery was at five percent and the internal temperature had reached 84 degrees Celsius. The robot suddenly collapsed within sight of the front door, rolling onto its back with its legs in the air. When asked what the robot is useful for, the author stated that the honest answer is not much.
+
+═══ 02b_TRIMMED ═══
+
+On a sunny morning in June, the author walked to work in Washington, DC, with a quadruped robot dog manufactured by the Chinese company Unitree. During the two-mile morning commute from the Mount Pleasant neighborhood to an office near the White House, the machine attracted attention from pedestrians and children while biological dogs barked at it. The author noted that the robot performed tricks including shaking hands, doing a handstand, and leaping into the air, and completed the mostly downhill morning walk with battery capacity to spare. The robot suddenly collapsed within sight of the front door, rolling onto its back with its legs in the air. When asked what the robot is useful for, the author stated that the honest answer is not much.
+
+═══ 03_COVERAGE_1 ═══
+
+40% covered (2/5). Missing: The author purchased a quadruped robot dog manufactured by the Chinese company Unitree for $4,000.; The robot dog successfully walked the two-mile downhill commute from Mount Pleasant to the White House.; During the hot afternoon commute, the robot dog struggled while walking uphill in 87°F temperatures.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+On a sunny morning in June, the author walked to work in Washington, DC, with a quadruped robot dog manufactured by the Chinese company Unitree, which was purchased for $4,000. During the two-mile morning commute from the Mount Pleasant neighborhood to an office near the White House, the machine successfully walked the two-mile downhill commute from Mount Pleasant to the White House and attracted attention from pedestrians and children while biological dogs barked at it. The author noted that the robot performed tricks including shaking hands, doing a handstand, and leaping into the air, and completed the mostly downhill morning walk with battery capacity to spare. During the hot afternoon commute, the robot dog struggled while walking uphill in 87°F temperatures. The robot suddenly collapsed within sight of the front door, rolling onto its back with its legs in the air. When asked what the robot is useful for, the author stated that the honest answer is not much.
+
+═══ 04_AUDIO_REWRITE ═══
+
+An author walked to work in Washington, D. C., with a four-thousand-dollar robot dog. The quadruped machine was built by the Chinese company Unitree. 
+
+The morning commute covered two miles from the Mount Pleasant neighborhood to an office near the White House. The machine successfully walked the downhill route and attracted attention from pedestrians and children. Biological dogs barked at it along the way. 
+
+The robot performed several tricks during the trip. It shook hands, did a handstand, and leaped into the air. The morning walk was mostly downhill and finished with battery capacity to spare. 
+
+The hot afternoon commute caused serious trouble for the robot dog. It struggled while walking uphill in eighty-seven degree temperatures. The robot suddenly collapsed within sight of the front door. It rolled onto its back with its legs in the air. 
+
+An observer asked what the robot is useful for. The author stated that the honest answer is not much.
+
+═══ 05_NORMALIZED ═══
+
+An author walked to work in Washington, D. C., with a four-thousand-dollar robot dog. The quadruped machine was built by the Chinese company Unitree.
+
+The morning commute covered two miles from the Mount Pleasant neighborhood to an office near the White House. The machine successfully walked the downhill route and attracted attention from pedestrians and children. Biological dogs barked at it along the way.
+
+The robot performed several tricks during the trip. It shook hands, did a handstand, and leaped into the air. The morning walk was mostly downhill and finished with battery capacity to spare.
+
+The hot afternoon commute caused serious trouble for the robot dog. It struggled while walking uphill in eighty-seven degree temperatures. The robot suddenly collapsed within sight of the front door. It rolled onto its back with its legs in the air.
+
+An observer asked what the robot is useful for. The author stated that the honest answer is not much.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (5/5). Missing: none
+
+═══ 07_SANITY ═══
+
+OK
+

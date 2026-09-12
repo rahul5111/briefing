@@ -1,0 +1,57 @@
+═══ 00_KEY_POINTS ═══
+
+1. OpenAI CEO Sam Altman stated that the company will not go public in 2026.
+2. Altman described the current moment as ill advised for an initial public offering due to safety concerns.
+3. Altman stated in an interview with Fortune editor in chief Alyson Shontell that they are not rushing into an IPO.
+4. OpenAI previously considered a public offering in the third or fourth quarter of 2026.
+5. The company is facing volatility in tech stocks and its own financial challenges.
+6. OpenAI will go public only when the business and society are ready for the technology.
+
+═══ 01_DRAFT ═══
+
+OpenAI CEO Sam Altman stated during an interview with Fortune editor in chief Alyson Shontell that the artificial intelligence company will not pursue an initial public offering in 2026. Despite OpenAI having previously filed confidentially for an IPO, Altman dismissed a 2026 public debut as ill advised given current safety concerns and broader technological developments in society. We are not rushing into an IPO, Altman said, adding that right now would be an ill advised moment to go public due to everything happening with safety. Altman indicated that the company will instead go public when both the business is ready and the societal moment for the technology is right, explicitly confirming the timeline is not 2026. The New York Times reported in June that OpenAI had previously hired bankers and lawyers aiming for a public offering in the third or fourth quarter of 2026, though the company was already leaning toward 2027 amid tech stock volatility and financial challenges.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+OpenAI CEO Sam Altman stated during an interview with Fortune editor in chief Alyson Shontell that the artificial intelligence company will not be going public this year. Although OpenAI has filed confidentially for an IPO, Altman dismissed a public debut right now as ill advised given safety concerns and broader technological developments in society. We are not rushing into an IPO, Altman said, adding that right now would be an ill advised moment to go public due to everything happening with safety. Altman indicated that the company will instead go public when both the business is ready and the societal moment for the technology is right, explicitly confirming when pressed that the timeline is not 2026. The New York Times reported in June that OpenAI had previously hired bankers and lawyers aiming for a public offering in the third or fourth quarter of 2026, though the company was already leaning toward 2027 amid tech stock volatility and financial challenges.
+
+═══ 02b_TRIMMED ═══
+
+Although OpenAI has filed confidentially for an IPO, Altman dismissed a public debut right now as ill advised given safety concerns and broader technological developments in society. We are not rushing into an IPO, Altman said, adding that right now would be an ill advised moment to go public due to everything happening with safety. Altman indicated that the company will instead go public when both the business is ready and the societal moment for the technology is right, explicitly confirming when pressed that the timeline is not 2026. The New York Times reported in June that OpenAI had previously hired bankers and lawyers aiming for a public offering in the third or fourth quarter of 2026, though the company was already leaning toward 2027 amid tech stock volatility and financial challenges.
+
+═══ 03_COVERAGE_1 ═══
+
+83% covered (5/6). Missing: Altman stated in an interview with Fortune editor in chief Alyson Shontell that they are not rushing into an IPO.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+Although OpenAI has filed confidentially for an IPO, Altman dismissed a public debut right now as ill advised given safety concerns and broader technological developments in society. Altman stated in an interview with Fortune editor in chief Alyson Shontell that they are not rushing into an IPO, adding that right now would be an ill advised moment to go public due to everything happening with safety. Altman indicated that the company will instead go public when both the business is ready and the societal moment for the technology is right, explicitly confirming when pressed that the timeline is not 2026. The New York Times reported in June that OpenAI had previously hired bankers and lawyers aiming for a public offering in the third or fourth quarter of 2026, though the company was already leaning toward 2027 amid tech stock volatility and financial challenges.
+
+═══ 04_AUDIO_REWRITE ═══
+
+OpenAI has filed confidentially for an initial public offering. Chief executive Sam Altman dismissed a public debut right now as ill advised. He pointed to safety concerns and broader technological developments in society. 
+
+Altman spoke in an interview with Fortune editor in chief Alyson Shontell. He stated that they are not rushing into a public offering. He added that right now would be an ill advised moment to go public due to everything happening with safety. 
+
+Altman indicated that the company will instead go public when the business is ready. The societal moment for the technology must also be right. He explicitly confirmed when pressed that the timeline is not twenty twenty-six. 
+
+The New York Times reported in June that OpenAI had previously hired bankers and lawyers. They were aiming for a public offering in the third or fourth quarter of twenty twenty-six. The company was already leaning toward twenty twenty-seven amid tech stock volatility and financial challenges.
+
+═══ 05_NORMALIZED ═══
+
+OpenAI has filed confidentially for an initial public offering. Chief executive Sam Altman dismissed a public debut right now as ill advised. He pointed to safety concerns and broader technological developments in society.
+
+Altman spoke in an interview with Fortune editor in chief Alyson Shontell. He stated that they are not rushing into a public offering. He added that right now would be an ill advised moment to go public due to everything happening with safety.
+
+Altman indicated that the company will instead go public when the business is ready. The societal moment for the technology must also be right. He explicitly confirmed when pressed that the timeline is not twenty twenty-six.
+
+The New York Times reported in June that OpenAI had previously hired bankers and lawyers. They were aiming for a public offering in the third or fourth quarter of twenty twenty-six. The company was already leaning toward twenty twenty-seven amid tech stock volatility and financial challenges.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+OK
+

@@ -1,0 +1,36 @@
+═══ 00_KEY_POINTS ═══
+
+1. Google recently released version 3 of its WeatherNext AI weather forecasting model.
+2. The biggest change in WeatherNext 3 is that it now ingests some satellite weather data.
+3. Ingesting satellite data shortens the lag time between current conditions and generating forecasts.
+4. Google detailed the latest WeatherNext model update in a recently published white paper.
+5. AI weather models deliver traditional forecast performance while requiring far less computing horsepower.
+
+═══ 01_DRAFT ═══
+
+Google has released version 3 of its WeatherNext machine learning weather forecast model. The primary update to the system is the integration of raw satellite weather data, which shortens the lag time between current atmospheric conditions and the generation of a new forecast. AI weather models like WeatherNext provide forecast performance comparable to traditional models while requiring significantly less computing horsepower, allowing them to be run more frequently. The update and its methodology are detailed in a white paper published in September 2026. Weather models typically rely on a reanalysis process that combines various weather data into a single, consistent global snapshot of the atmosphere, providing necessary estimates for locations lacking real-world measurements to maintain a complete global picture.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Google has released version 3 of its WeatherNext machine learning weather forecast model. The primary update to the system is the integration of raw satellite weather data, which shortens the lag time between current atmospheric conditions and the generation of a new forecast. AI weather models like WeatherNext provide forecast performance comparable to traditional models while requiring significantly less computing horsepower, allowing them to be run more frequently. The update itself is detailed in an available white paper. Weather models typically rely on a reanalysis process that combines various weather data into a single, consistent global snapshot of the atmosphere, providing necessary estimates for locations lacking real-world measurements to maintain a complete global picture.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (5/5). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Google has released version three of its WeatherNext machine learning weather forecast model. The main update is the addition of raw satellite weather data. This shortens the delay between current conditions and a new forecast. Artificial intelligence weather models give performance similar to traditional models. They need much less computing power and can run more often. A new white paper explains the update in full detail. Weather models usually rely on a reanalysis process. This process combines various weather data into a single global snapshot. It provides necessary estimates for locations that lack real world measurements to keep a complete global picture.
+
+═══ 05_NORMALIZED ═══
+
+Google has released version three of its WeatherNext machine learning weather forecast model. The main update is the addition of raw satellite weather data. This shortens the delay between current conditions and a new forecast. Artificial intelligence weather models give performance similar to traditional models. They need much less computing power and can run more often. A new white paper explains the update in full detail. Weather models usually rely on a reanalysis process. This process combines various weather data into a single global snapshot. It provides necessary estimates for locations that lack real world measurements to keep a complete global picture.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (5/5). Missing: none
+
+═══ 07_SANITY ═══
+
+OK
+

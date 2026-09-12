@@ -1,0 +1,61 @@
+═══ 00_KEY_POINTS ═══
+
+1. A 10-year study published on August 26 in JAMA analyzed more than 6,000 adults aged 45 to 79.
+2. Coronary artery calcium scans provide the greatest benefit to patients with borderline or intermediate heart disease risk.
+3. Dr. Nilay Shah stated that not everyone necessarily needs a coronary artery calcium scan to predict risk.
+4. Adding calcium scores to the PREVENT calculator produced only a small overall improvement for the entire study population.
+5. For patients at borderline risk, knowing their calcium score helps guide treatment decisions more effectively.
+6. Routine calcium scans for low-risk individuals can cause unnecessary radiation exposure, testing, and costs.
+
+═══ 01_DRAFT ═══
+
+A 10-year study published on August 26, 2026, in JAMA by researchers at Northwestern University found that coronary artery calcium scans add little value to standard heart disease risk estimates for most people, but can be useful for patients in borderline or intermediate risk categories. 
+
+The study tracked more than 6,000 adults aged 45 to 79 from the Multi-Ethnic Study of Atherosclerosis. Researchers compared standard risk predictions using the American Heart Association's PREVENT calculator against predictions that also included coronary artery calcium scores. Over the decade, 6% of participants experienced a heart attack or stroke. For the overall population, adding the calcium score increased the model's discrimination score only slightly, from 0.73 to 0.75. 
+
+However, for the subset of patients whose initial PREVENT scores placed them in the borderline or intermediate risk category with a 3% to 9% risk of heart disease over 10 years, the calcium scan provided a clearer indication of who was more likely or less likely to develop cardiovascular disease. 
+
+Study senior author Dr. Nilay Shah stated that coronary artery calcium scans are becoming more widely available and less expensive, but noted that not everyone needs one. Shah explained that routinely using a calcium scan in low-risk people may result in unnecessary radiation exposure, testing, and costs, while using them in high-risk individuals is likely to result in unnecessary testing because high-risk patients are recommended to start a statin regardless of scan results. For patients at borderline risk, knowing their calcium score helps determine whether their risk is actually lower or higher than initially estimated, guiding treatment decisions such as statin use.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+A 10-year study published on Aug. 26 in JAMA by researchers at Northwestern University found that coronary artery calcium scans add little to standard heart disease risk estimates for many people, but can make a meaningful difference for patients in borderline or intermediate risk categories. 
+
+The study tracked more than 6,000 adults aged 45 to 79 from the Multi-Ethnic Study of Atherosclerosis. Researchers compared standard risk predictions using the American Heart Association's PREVENT calculator against predictions that also included coronary artery calcium scores. Over the decade, 6% of participants experienced a heart attack or stroke. For the overall population, adding the calcium score increased the model's discrimination score only slightly, from 0.73 to 0.75. 
+
+However, for the subset of patients whose initial PREVENT scores placed them in the borderline or intermediate risk category with a 3% to 9% risk of heart disease over 10 years, the calcium scan provided a clearer indication of who was more likely or less likely to develop cardiovascular disease. 
+
+Study senior author Dr. Nilay Shah stated that coronary artery calcium scans are becoming more widely available and less expensive, but noted that not everyone needs one. Shah explained that routinely using a calcium scan in low-risk people may result in unnecessary radiation exposure, testing, and costs, while using them in high-risk individuals is likely to result in unnecessary testing because high-risk patients are recommended to start a statin regardless of scan results. For patients at borderline risk, knowing their calcium score helps determine whether their risk is actually lower or higher than initially estimated, guiding treatment decisions such as statin use.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+A ten-year study published on August twenty-sixth in JAMA by researchers at Northwestern University found a new insight. Coronary artery calcium scans add little to standard heart disease risk estimates for many people. However they can make a meaningful difference for patients in borderline or intermediate risk categories. 
+
+The study tracked more than six thousand adults aged forty-five to seventy-nine from the Multi-Ethnic Study of Atherosclerosis. Researchers compared standard risk predictions using the American Heart Association calculator against predictions that also included coronary artery calcium scores. Over the decade, six percent of participants experienced a heart attack or stroke. For the overall population, adding the calcium score increased the model discrimination score only slightly, from zero point seven-three to zero point seven-five. 
+
+However, for the subset of patients whose initial scores placed them in the borderline or intermediate risk category with a three percent to nine percent risk of heart disease over ten years, the scan provided a clearer indication. It showed who was more likely or less likely to develop cardiovascular disease. 
+
+Study senior author Doctor , Nilay Shah stated that coronary artery calcium scans are becoming more widely available and less expensive. He also noted that not everyone needs one. Shah explained that routinely using a calcium scan in low-risk people may result in unnecessary radiation exposure, testing, and costs. Using them in high-risk individuals is likely to result in unnecessary testing because high-risk patients are recommended to start a statin regardless of scan results. For patients at borderline risk, knowing their calcium score helps determine whether their risk is actually lower or higher than initially estimated. This helps guide treatment decisions such as statin use.
+
+═══ 05_NORMALIZED ═══
+
+A ten-year study published on August twenty-sixth in JAMA by researchers at Northwestern University found a new insight. Coronary artery calcium scans add little to standard heart disease risk estimates for many people. However they can make a meaningful difference for patients in borderline or intermediate risk categories.
+
+The study tracked more than six thousand adults aged forty-five to seventy-nine from the Multi-Ethnic Study of Atherosclerosis. Researchers compared standard risk predictions using the American Heart Association calculator against predictions that also included coronary artery calcium scores. Over the decade, six percent of participants experienced a heart attack or stroke. For the overall population, adding the calcium score increased the model discrimination score only slightly, from zero point seven-three to zero point seven-five.
+
+However, for the subset of patients whose initial scores placed them in the borderline or intermediate risk category with a three percent to nine percent risk of heart disease over ten years, the scan provided a clearer indication. It showed who was more likely or less likely to develop cardiovascular disease.
+
+Study senior author Doctor, Nilay Shah stated that coronary artery calcium scans are becoming more widely available and less expensive. He also noted that not everyone needs one. Shah explained that routinely using a calcium scan in low-risk people may result in unnecessary radiation exposure, testing, and costs. Using them in high-risk individuals is likely to result in unnecessary testing because high-risk patients are recommended to start a statin regardless of scan results. For patients at borderline risk, knowing their calcium score helps determine whether their risk is actually lower or higher than initially estimated. This helps guide treatment decisions such as statin use.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: Doctor, Nilay Shah
+
