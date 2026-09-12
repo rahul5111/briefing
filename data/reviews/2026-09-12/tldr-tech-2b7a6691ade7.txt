@@ -1,0 +1,52 @@
+═══ 00_KEY_POINTS ═══
+
+1. Google Search has maintained around 90 percent of the European online search market share for over a decade.
+2. The European Union passed the Digital Markets Act in 2022 to encourage healthier competition in digital markets.
+3. Article 611 of the Digital Markets Act requires gatekeeper Google to share its search data with competitors.
+4. Google started offering an anonymized dataset to competitors in March 2024 to comply with regulatory requirements.
+5. Google's initial anonymization strategy rendered the data useless, leading the European Commission to intervene in January 2026.
+
+═══ 01_DRAFT ═══
+
+In Europe, where Google Search has held around ninety percent of the online search market share for over a decade, the European Commission is enforcing data sharing under Article 6(11) of the Digital Markets Act passed in 2022. The regulation requires gatekeepers like Google to provide competing search engine providers with access to ranking, query, click, and view data on fair, reasonable, and non-discriminatory terms, with personal data appropriately anonymized.
+
+Google started offering access to an anonymized dataset in March 2024, but competitors experienced no significant uptake because Google's design choices rendered the data largely useless for search engine optimization. In response, the European Commission opened specification proceedings in January 2026 to resolve the issue, concluding last month with a published decision detailing how Google must comply. 
+
+The anonymization framework balances strict privacy standards under the General Data Protection Regulation with practical utility for competitors. The standard dictates that personal data must be irreversibly altered so that information no longer relates to an identifiable natural person. Per draft guidelines from the European Data Protection Board and the European Commission, privacy protections specifically cover end users submitting queries, while technical and non-technical measures combine to mitigate residual re-identification risks from insiders or product teams attempting unauthorized re-identification.
+
+Simultaneously, the data must retain high utility across three core categories where data asymmetry heavily impacts Google's competitors: crawling and indexing web pages, query understanding for ambiguous terms, and ranking and quality algorithms. Competitors primarily need this long-tail data to answer novel and ambiguous queries and identify less-visited websites that users find useful.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+In Europe, where Google Search has held around ninety percent of the online search market share for over a decade, the European Commission is enforcing data sharing under Article 6(11) of the Digital Markets Act passed in 2022. The regulation requires gatekeepers like Google to provide competing search engine providers with access to ranking, query, click, and view data on fair, reasonable, and non-discriminatory terms, with personal data appropriately anonymized.
+
+Google started offering access to an anonymized dataset in March 2024, but competitors experienced no significant uptake because Google's design choices rendered the data largely useless for search engine optimization. In response, the European Commission opened specification proceedings in January 2026 to resolve the issue, concluding last month with a published decision detailing how Google must comply. 
+
+The anonymization framework aligns with the General Data Protection Regulation standard, dictating that personal data must be irreversibly altered so that information no longer relates to an identifiable natural person. Per draft guidelines from the European Data Protection Board and the European Commission, privacy protections specifically cover end users submitting queries, while technical and non-technical measures combine to mitigate residual re-identification risks from insiders or product teams attempting unauthorized re-identification.
+
+Simultaneously, Article 6(11) specifies that the method chosen must retain most utility, which requires supporting search engine optimization use cases where data asymmetry impacts Google's competitors. Competitors primarily need this data for crawling and indexing web pages, query understanding for ambiguous terms, and ranking and quality algorithms to answer novel and ambiguous queries and identify less-visited websites that users find useful.
+
+═══ 02b_TRIMMED ═══
+
+In Europe, where Google Search has held around ninety percent of the online search market share for over a decade, the European Commission is enforcing data sharing under Article 6(11) of the Digital Markets Act passed in 2022. The regulation requires gatekeepers like Google to provide competing search engine providers with access to ranking, query, click, and view data on fair, reasonable, and non-discriminatory terms, with personal data appropriately anonymized. Google started offering access to an anonymized dataset in March 2024, but competitors experienced no significant uptake because Google's design choices rendered the data largely useless for search engine optimization. In response, the European Commission opened specification proceedings in January 2026 to resolve the issue, concluding last month with a published decision detailing how Google must comply. Per draft guidelines from the European Data Protection Board and the European Commission, privacy protections specifically cover end users submitting queries, while technical and non-technical measures combine to mitigate residual re-identification risks from insiders or product teams attempting unauthorized re-identification. Competitors primarily need this data for crawling and indexing web pages, query understanding for ambiguous terms, and ranking and quality algorithms to answer novel and ambiguous queries and identify less-visited websites that users find useful.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (5/5). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+The European Commission is enforcing data sharing under Article six point eleven of the Digital Markets Act passed in twenty twenty-two. Google Search has held around ninety percent of the online search market share in Europe for over a decade. The regulation requires gatekeepers like Google to provide competing search engine providers with access to ranking, query, click, and view data. Terms must be fair, reasonable, and non-discriminatory, with personal data appropriately anonymized. Google started offering access to an anonymized dataset in March twenty twenty-four. Competitors experienced no significant uptake because Google design choices rendered the data largely useless for search engine optimization. The European Commission opened specification proceedings in January twenty twenty-six to resolve the issue. The proceedings concluded last month with a published decision detailing how Google must comply. Draft guidelines come from the European Data Protection Board and the European Commission. Privacy protections specifically cover end users submitting queries. Technical and non-technical measures combine to mitigate residual re-identification risks from insiders or product teams attempting unauthorized re-identification. Competitors primarily need this data for crawling and indexing web pages. They also need query understanding for ambiguous terms. Finally, they need ranking and quality algorithms to answer novel and ambiguous queries and identify less-visited websites that users find useful.
+
+═══ 05_NORMALIZED ═══
+
+The European Commission is enforcing data sharing under Article six point eleven of the Digital Markets Act passed in twenty twenty-two. Google Search has held around ninety percent of the online search market share in Europe for over a decade. The regulation requires gatekeepers like Google to provide competing search engine providers with access to ranking, query, click, and view data. Terms must be fair, reasonable, and non-discriminatory, with personal data appropriately anonymized. Google started offering access to an anonymized dataset in March twenty twenty-four. Competitors experienced no significant uptake because Google design choices rendered the data largely useless for search engine optimization. The European Commission opened specification proceedings in January twenty twenty-six to resolve the issue. The proceedings concluded last month with a published decision detailing how Google must comply. Draft guidelines come from the European Data Protection Board and the European Commission. Privacy protections specifically cover end users submitting queries. Technical and non-technical measures combine to mitigate residual re-identification risks from insiders or product teams attempting unauthorized re-identification. Competitors primarily need this data for crawling and indexing web pages. They also need query understanding for ambiguous terms. Finally, they need ranking and quality algorithms to answer novel and ambiguous queries and identify less-visited websites that users find useful.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (5/5). Missing: none
+
+═══ 07_SANITY ═══
+
+OK
+

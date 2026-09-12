@@ -1,0 +1,50 @@
+═══ 00_KEY_POINTS ═══
+
+1. AI companies should transparently share information about the degree to which architectures allow for latent reasoning and communication.
+2. The document operationalizes a measure for opaque serial depth based on a recent paper by Brown-Cohen et al. from 2026.
+3. The proposed measure tracks the longest path in a computational graph that does not pass through an interpretable bottleneck.
+4. The new metric is called Natural-Language-rooted node-Separated depth, or NLS depth, which serves as a proxy for opaque serial cognition.
+5. NLS depth can be adjudicated before training begins by examining the architecture, training recipe, and intended deployment-time configuration.
+6. Natural-language-rooted nodes require natural-language initialization, no expansion of the output space, and no modification to interpret tokens differently.
+7. Tokens in an NL-rooted node must not be treated as continuous intermediate states that are backpropagated through during training.
+
+═══ 01_DRAFT ═══
+
+Researchers have proposed a metric called Natural Language-rooted node-Separated depth, or NLS depth, to track the degree to which artificial intelligence architectures allow for latent reasoning and communication that bypasses human-interpretable monitoring. The measure builds on opaque serial depth, a concept originally defined in a 2026 paper by Brown-Cohen and colleagues at Google DeepMind that measures the longest path in a computational graph not passing through an interpretable bottleneck.
+
+To operationalize this for modern systems, the new proposal defines interpretable bottlenecks as natural-language-rooted nodes. For a set of computational nodes to qualify, they must meet four criteria. First, they require natural-language initialization from a pre-training prior to produce human-understandable media such as text, code, JSON, or images. Second, they must have no expansion of the output space, ruling out techniques like abstract chain-of-thought or token superpositions. Third, the model cannot be modified to interpret the tokens as a different type of data. Fourth, tokens must not be treated as continuous intermediate states that are backpropagated through during training. 
+
+The authors argue that tracking NLS depth complements existing monitorability assessments because it is crisp, easy to quantify, and can be adjudicated before training begins based solely on the architecture, training recipe, and deployment configuration. While insensitive to certain post-training choices, NLS depth effectively separates architectures in the current natural language chain-of-thought paradigm from concerning alternatives like scaled-up full-bandwidth transformers. The briefing suggests that AI companies transparently share information about architectural degrees of latent reasoning and flag whether high-NLS-depth models are used in distillation procedures.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Researchers have proposed a metric called Natural Language-rooted node-Separated depth, or NLS depth, to track the degree to which artificial intelligence architectures allow for latent reasoning and communication that bypasses human-interpretable monitoring. The measure builds on opaque serial depth, a concept originally defined in a recent paper from GDM by Brown-Cohen and colleagues that measures the longest path in a computational graph not passing through an interpretable bottleneck.
+
+To operationalize this for modern systems, the new proposal defines interpretable bottlenecks as natural-language-rooted nodes. For a set of computational nodes to qualify, they must meet four criteria. First, they require natural-language initialization from a pre-training prior to produce human-understandable media such as text, code, JSON, or images. Second, they must have no expansion of the output space, ruling out techniques like abstract chain-of-thought or token superpositions. Third, the model's output space must still be interpreted roughly as natural language rather than a completely different type of data. Fourth, tokens must not be treated as continuous intermediate states that are backpropagated through during training. 
+
+The authors argue that tracking NLS depth complements existing monitorability assessments because it is crisp, easy to quantify, and can be adjudicated before training begins based solely on the architecture, training recipe, and deployment configuration. While insensitive to certain post-training choices, NLS depth effectively separates architectures in the current natural language chain-of-thought paradigm from concerning alternatives like scaled-up full-bandwidth transformers. The briefing suggests that AI companies transparently share information about architectural degrees of latent reasoning and flag whether high-NLS-depth models are used in distillation procedures.
+
+═══ 02b_TRIMMED ═══
+
+Researchers have proposed a metric called Natural Language-rooted node-Separated depth, or NLS depth, to track the degree to which artificial intelligence architectures allow for latent reasoning and communication that bypasses human-interpretable monitoring. The measure builds on opaque serial depth, a concept originally defined in a recent paper from GDM by Brown-Cohen and colleagues that measures the longest path in a computational graph not passing through an interpretable bottleneck. To operationalize this for modern systems, the new proposal defines interpretable bottlenecks as natural-language-rooted nodes. For a set of computational nodes to qualify, they must meet four criteria. First, they require natural-language initialization from a pre-training prior to produce human-understandable media such as text, code, JSON, or images. Second, they must have no expansion of the output space, ruling out techniques like abstract chain-of-thought or token superpositions. Fourth, tokens must not be treated as continuous intermediate states that are backpropagated through during training. The authors argue that tracking NLS depth complements existing monitorability assessments because it is crisp, easy to quantify, and can be adjudicated before training begins based solely on the architecture, training recipe, and deployment configuration. While insensitive to certain post-training choices, NLS depth effectively separates architectures in the current natural language chain-of-thought paradigm from concerning alternatives like scaled-up full-bandwidth transformers. The briefing suggests that AI companies transparently share information about architectural degrees of latent reasoning and flag whether high-NLS-depth models are used in distillation procedures.
+
+═══ 03_COVERAGE_1 ═══
+
+85% covered (6/7). Missing: Natural-language-rooted nodes require natural-language initialization, no expansion of the output space, and no modification to interpret tokens differently.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Researchers have proposed a new way to track hidden reasoning in artificial intelligence systems. The measure is called Natural Language-rooted node-Separated depth, or N. L. S. depth. It builds on an earlier concept from G. D. M. researchers that measured the longest path in a computer graph. The new proposal defines human-understandable checkpoints as nodes rooted in natural language. To qualify, these nodes must meet four specific rules. First, they need natural language initialization from a pre-training prior to produce text, code, or images. Second, they must not expand the output space, which rules out abstract chain-of-thought methods. Fourth, tokens must not be treated as continuous intermediate states that are backpropagated during training. The authors argue that tracking N. L. S. depth helps monitorability assessments because it is easy to quantify before training begins. It separates standard language models from concerning alternatives like scaled-up full-bandwidth transformers. The briefing suggests that A. I. companies transparently share information about architectural latent reasoning and flag high N. L. S. depth models used in distillation procedures.
+
+═══ 05_NORMALIZED ═══
+
+Researchers have proposed a new way to track hidden reasoning in artificial intelligence systems. The measure is called Natural Language-rooted node-Separated depth, or N. L. S. depth. It builds on an earlier concept from G. D. M. researchers that measured the longest path in a computer graph. The new proposal defines human-understandable checkpoints as nodes rooted in natural language. To qualify, these nodes must meet four specific rules. First, they need natural language initialization from a pre-training prior to produce text, code, or images. Second, they must not expand the output space, which rules out abstract chain-of-thought methods. Fourth, tokens must not be treated as continuous intermediate states that are backpropagated during training. The authors argue that tracking N. L. S. depth helps monitorability assessments because it is easy to quantify before training begins. It separates standard language models from concerning alternatives like scaled-up full-bandwidth transformers. The briefing suggests that A. I. companies transparently share information about architectural latent reasoning and flag high N. L. S. depth models used in distillation procedures.
+
+═══ 06_COVERAGE_FINAL ═══
+
+71% covered (5/7). Missing: The document operationalizes a measure for opaque serial depth based on a recent paper by Brown-Cohen et al. from 2026.; Natural-language-rooted nodes require natural-language initialization, no expansion of the output space, and no modification to interpret tokens differently.
+
+═══ 07_SANITY ═══
+
+ISSUES: missing third item in list
+

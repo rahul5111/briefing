@@ -1,0 +1,89 @@
+═══ 00_KEY_POINTS ═══
+
+1. PlanetScale announced Neki, a new sharded Postgres database currently available in platform preview.
+2. Neki lets applications scale a Postgres database across many machines while keeping real Postgres on every shard.
+3. Each Neki shard is a full Postgres cluster featuring one primary and at least two replicas across three availability zones.
+4. Neki solves the problem of fast-growing Postgres databases hitting the upper limits and ceilings of a single machine.
+5. Applications connect to a Neki router using the standard Postgres wire protocol without changing existing drivers or ORMs.
+6. Schema changes, version upgrades, failovers, imports, and resharding all run as built-in fully online workflows in Neki.
+
+═══ 01_DRAFT ═══
+
+PlanetScale has announced the platform preview release of Neki, a sharded PostgreSQL database designed to help fast-growing applications scale across multiple machines while running real PostgreSQL on every shard. Built using lessons from running large sharded MySQL clusters over eight years, Neki addresses the upper limits that engineering teams face when their PostgreSQL databases outgrow a single machine.
+
+Applications connect to a Neki router using the standard PostgreSQL wire protocol, allowing existing drivers, ORMs, and connection strings to continue working without modification. Each shard consists of a full PostgreSQL cluster with one primary instance and at least two replicas distributed across three availability zones, utilizing no custom storage engines. 
+
+The architecture consists of four main components. Neki routers feature a full PostgreSQL query parser and distributed query planner to send work to appropriate shards and combine results. Shards are organized into shard groups with specific configuration profiles, allowing different tables or workloads to use tailored instance sizes, replica counts, and extensions. Sidecars run alongside every PostgreSQL instance to handle connection pooling directly between the router and database layers. The control plane monitors node health, manages failovers, and coordinates operational workflows.
+
+Users define data placement and routing using a JSON data topology that maps logical tables to physical shards using defined shard indexes and groups. Routine maintenance operations such as schema changes, version upgrades, failovers, imports, and resharding run as built-in online workflows. Neki also includes PlanetScale features including Insights, schema recommendations, branching, and MCP. 
+
+Teams can initially run Neki as a single primary with replicas before resharding the existing cluster when capacity demands it. PlanetScale cautions that users should not run production workloads on Neki during the platform preview due to ongoing changes that may include breaking updates. Interested users can sign in to PlanetScale, opt into the platform preview, and create a cluster, or contact the team for a private demonstration.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+PlanetScale has made Neki available in platform preview, a sharded PostgreSQL database designed to let you scale a database across many machines while keeping real PostgreSQL on every shard. Built using lessons learned over eight years of running large sharded MySQL clusters, Neki addresses the upper limits that teams face when their PostgreSQL databases outgrow a single machine.
+
+Your application connects to a Neki router over the standard PostgreSQL wire protocol, so existing drivers, ORMs, and connection strings keep working. Each shard is a full PostgreSQL cluster with one primary and at least two replicas across three availability zones, utilizing no custom storage engine so extensions, SQL support, and performance behave like PostgreSQL.
+
+The architecture features four moving parts. Neki routers include a full PostgreSQL query parser, a distributed query planner, query buffering, and more to send work to shards and combine results. Shards are organized into shard groups, allowing different tables or workloads to use separate configuration profiles. Sidecars run alongside every PostgreSQL instance to handle connection pooling between the router and database layers. The control plane tracks node health, runs switchovers and failovers, and coordinates workflows.
+
+Users control how tables are grouped and distributed using a JSON data topology that maps logical tables to physical shards using defined shard indexes and groups. Routine maintenance operations such as schema changes, version upgrades, failovers, imports, and resharding run as built-in fully online workflows. Neki also includes PlanetScale features such as Insights, schema recommendations, branching, and MCP.
+
+You can run Neki unsharded as a single primary with replicas and reshard the cluster you already have when you outgrow one machine. PlanetScale notes that you should not run production workloads on Neki during the platform preview because the product is still changing and some changes will be breaking. Users can sign in to PlanetScale, opt in to the platform preview, and create a cluster, or get in touch for a private demo.
+
+═══ 02b_TRIMMED ═══
+
+The architecture features four moving parts. Shards are organized into shard groups, allowing different tables or workloads to use separate configuration profiles. The control plane tracks node health, runs switchovers and failovers, and coordinates workflows. Neki also includes PlanetScale features such as Insights, schema recommendations, branching, and MCP. You can run Neki unsharded as a single primary with replicas and reshard the cluster you already have when you outgrow one machine. PlanetScale notes that you should not run production workloads on Neki during the platform preview because the product is still changing and some changes will be breaking.
+
+═══ 03_COVERAGE_1 ═══
+
+0% covered (0/6). Missing: PlanetScale announced Neki, a new sharded Postgres database currently available in platform preview.; Neki lets applications scale a Postgres database across many machines while keeping real Postgres on every shard.; Each Neki shard is a full Postgres cluster featuring one primary and at least two replicas across three availability zones.; Neki solves the problem of fast-growing Postgres databases hitting the upper limits and ceilings of a single machine.; Applications connect to a Neki router using the standard Postgres wire protocol without changing existing drivers or ORMs.; Schema changes, version upgrades, failovers, imports, and resharding all run as built-in fully online workflows in Neki.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+PlanetScale announced Neki, a new sharded Postgres database currently available in platform preview. Neki lets applications scale a Postgres database across many machines while keeping real Postgres on every shard. Each Neki shard is a full Postgres cluster featuring one primary and at least two replicas across three availability zones. Neki solves the problem of fast-growing Postgres databases hitting the upper limits and ceilings of a single machine. Applications connect to a Neki router using the standard Postgres wire protocol without changing existing drivers or ORMs. Schema changes, version upgrades, failovers, imports, and resharding all run as built-in fully online workflows in Neki. The architecture features four moving parts. Shards are organized into shard groups, allowing different tables or workloads to use separate configuration profiles. The control plane tracks node health, runs switchovers and failovers, and coordinates workflows. Neki also includes PlanetScale features such as Insights, schema recommendations, branching, and MCP. You can run Neki unsharded as a single primary with replicas and reshard the cluster you already have when you outgrow one machine. PlanetScale notes that you should not run production workloads on Neki during the platform preview because the product is still changing and some changes will be breaking.
+
+═══ 04_AUDIO_REWRITE ═══
+
+PlanetScale has announced Neki. It is a new sharded Postgres database. It is currently available in platform preview. 
+
+Neki lets applications scale a Postgres database across many machines. It keeps real Postgres on every shard. Each Neki shard is a full Postgres cluster. It features one primary and at least two replicas. These replicas sit across three availability zones. 
+
+Neki solves a major problem for fast-growing databases. It stops them from hitting the upper limits of a single machine. Applications connect to a Neki router. They use the standard Postgres wire protocol. They do not need to change existing drivers or O. R. M. s. 
+
+Schema changes and version upgrades run as built-in workflows. Failovers, imports, and resharding also run fully online. 
+
+The architecture features four moving parts. Shards are organized into shard groups. This allows different tables or workloads to use separate configuration profiles. The control plane tracks node health. It runs switchovers and failovers and coordinates workflows. 
+
+Neki also includes popular PlanetScale features. These include Insights, schema recommendations, branching, and M. C. P. 
+
+You can run Neki unsharded as a single primary with replicas. You can reshard the cluster you already have when you outgrow one machine. 
+
+PlanetScale issues a warning about production workloads. You should not run them on Neki during the platform preview. The product is still changing and some changes will be breaking.
+
+═══ 05_NORMALIZED ═══
+
+PlanetScale has announced Neki. It is a new sharded Postgres database. It is currently available in platform preview.
+
+Neki lets applications scale a Postgres database across many machines. It keeps real Postgres on every shard. Each Neki shard is a full Postgres cluster. It features one primary and at least two replicas. These replicas sit across three availability zones.
+
+Neki solves a major problem for fast-growing databases. It stops them from hitting the upper limits of a single machine. Applications connect to a Neki router. They use the standard Postgres wire protocol. They do not need to change existing drivers or O. R. M. s.
+
+Schema changes and version upgrades run as built-in workflows. Failovers, imports, and resharding also run fully online.
+
+The architecture features four moving parts. Shards are organized into shard groups. This allows different tables or workloads to use separate configuration profiles. The control plane tracks node health. It runs switchovers and failovers and coordinates workflows.
+
+Neki also includes popular PlanetScale features. These include Insights, schema recommendations, branching, and M. C. P.
+
+You can run Neki unsharded as a single primary with replicas. You can reshard the cluster you already have when you outgrow one machine.
+
+PlanetScale issues a warning about production workloads. You should not run them on Neki during the platform preview. The product is still changing and some changes will be breaking.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: O. R. M. s, M. C. P.
+

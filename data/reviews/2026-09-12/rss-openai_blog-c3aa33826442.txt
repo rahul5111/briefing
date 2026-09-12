@@ -1,0 +1,65 @@
+═══ 00_KEY_POINTS ═══
+
+1. Cognition integrates GPT-6 Astra to improve Devin's ability to test software and prove functionality.
+2. GPT-6 Astra is being applied across Cognition's product lineup, including the Devin cloud agent.
+3. Devin used Astra to test an iPhone game called Otter Run and returned a recording plus a test report.
+4. When customers report bugs with screenshots, Devin uses Astra to fix issues and return visual proof.
+5. Yan stated that Astra improves the model's ability to test and prove that its work actually functions.
+6. The integration aims to help engineers manually review less code and ultimately ship software products much faster.
+
+═══ 01_DRAFT ═══
+
+Cognition is integrating GPT-6 Astra across its product lineup, including the Devin autonomous software engineer, CLI, and desktop products, to improve the system's ability to test its own work and prove functionality. As Cognition's engineering teams write more code, reviewing that work has become a challenge, and the company aims to reduce the amount of manual code review required to help engineers ship more product. As Yan notes regarding the update, one of the big pieces that Astra improves on is its ability to test and prove that its work actually functions the way you expect. In practice, Devin can now use Astra to test software like the iPhone game Otter Run, returning a simulator recording and a report detailing passed checks and untested areas. Additionally, when customers report bugs with screenshots, the team passes them to Devin using Astra to fix the issues and return visual confirmation of the results. Cognition expects that stronger testing through Astra will allow engineers to manually inspect less code over time.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Cognition is integrating GPT-6 Astra across its product lineup, including the Devin autonomous software engineer, CLI, and desktop products, to improve the system's ability to test its own work and prove functionality. As Cognition's engineering teams write more code, reviewing that work has become a challenge, and the company aims to reduce the amount of manual code review required to help engineers ship more product. As Yan notes regarding the update, one of the big pieces that Astra improves on is its ability to test and prove that its work actually functions the way you expect. In practice, Devin can now use Astra to test software like the iPhone game Otter Run, returning a simulator recording and a report detailing passed checks and untested areas. Furthermore, when a customer sends a screenshot of a bug, the team can pass it to Devin using Astra, which fixes the issue and returns a screenshot showing the result. Cognition expects that stronger testing through Astra will allow engineers to manually inspect less code over time.
+
+═══ 02b_TRIMMED ═══
+
+Cognition is integrating GPT-6 Astra across its product lineup, including the Devin autonomous software engineer, CLI, and desktop products, to improve the system's ability to test its own work and prove functionality. As Cognition's engineering teams write more code, reviewing that work has become a challenge, and the company aims to reduce the amount of manual code review required to help engineers ship more product. As Yan notes regarding the update, one of the big pieces that Astra improves on is its ability to test and prove that its work actually functions the way you expect. In practice, Devin can now use Astra to test software like the iPhone game Otter Run, returning a simulator recording and a report detailing passed checks and untested areas. Cognition expects that stronger testing through Astra will allow engineers to manually inspect less code over time.
+
+═══ 03_COVERAGE_1 ═══
+
+83% covered (5/6). Missing: When customers report bugs with screenshots, Devin uses Astra to fix issues and return visual proof.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+Cognition is integrating GPT-6 Astra across its product lineup, including the Devin autonomous software engineer, CLI, and desktop products, to improve the system's ability to test its own work and prove functionality. As Cognition's engineering teams write more code, reviewing that work has become a challenge, and the company aims to reduce the amount of manual code review required to help engineers ship more product. As Yan notes regarding the update, one of the big pieces that Astra improves on is its ability to test and prove that its work actually functions the way you expect. In practice, Devin can now use Astra to test software like the iPhone game Otter Run, returning a simulator recording and a report detailing passed checks and untested areas. When customers report bugs with screenshots, Devin uses Astra to fix issues and return visual proof. Cognition expects that stronger testing through Astra will allow engineers to manually inspect less code over time.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Cognition is integrating G. P. T. six Astra across its product lineup. This includes the Devin autonomous software engineer along with C. L. I. and desktop products. The goal is improving the system to test its own work and prove functionality. 
+
+Engineering teams at Cognition are writing more code than ever before. Reviewing that work has become a major challenge for the company. Cognition aims to reduce manual code review so engineers can ship more product. 
+
+An executive named Yan notes that Astra improves testing in a big way. Astra helps the system prove that its work functions just like you expect. 
+
+In practice, Devin now uses Astra to test software like the iPhone game Otter Run. The tool returns a simulator recording and a report detailing passed checks and untested areas. 
+
+Customers sometimes report bugs by sending screenshots. Devin now uses Astra to fix those issues and return visual proof. 
+
+Cognition expects that stronger testing through Astra will change things over time. Engineers will need to manually inspect far less code.
+
+═══ 05_NORMALIZED ═══
+
+Cognition is integrating G. P. T. six Astra across its product lineup. This includes the Devin autonomous software engineer along with C. L. I. and desktop products. The goal is improving the system to test its own work and prove functionality.
+
+Engineering teams at Cognition are writing more code than ever before. Reviewing that work has become a major challenge for the company. Cognition aims to reduce manual code review so engineers can ship more product.
+
+An executive named Yan notes that Astra improves testing in a big way. Astra helps the system prove that its work functions just like you expect.
+
+In practice, Devin now uses Astra to test software like the iPhone game Otter Run. The tool returns a simulator recording and a report detailing passed checks and untested areas.
+
+Customers sometimes report bugs by sending screenshots. Devin now uses Astra to fix those issues and return visual proof.
+
+Cognition expects that stronger testing through Astra will change things over time. Engineers will need to manually inspect far less code.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+OK
+

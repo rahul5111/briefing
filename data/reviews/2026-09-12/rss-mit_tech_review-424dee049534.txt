@@ -1,0 +1,58 @@
+═══ 00_KEY_POINTS ═══
+
+1. On July 22, 2026, a transmission line fault in Ashburn, Virginia dropped over 3 gigawatts of load.
+2. Two years earlier, a surge arrester failure dropped roughly 60 Virginia facilities and 1,500 megawatts off the grid.
+3. AI data centers can swing 70% of their load in milliseconds during a training run.
+4. Legacy uninterruptible power supply units waste power and force operators to run in eco-mode.
+5. In early 2026, a full-scale system was tested at the National Laboratory of the Rockies.
+6. The tested medium-voltage inline system successfully cleared the Electric Reliability Council of Texas requirements.
+7. This news matters because traditional data center power architectures put grid reliability at risk from AI load swings.
+
+═══ 01_DRAFT ═══
+
+On July 22, 2026, a transmission line fault in Ashburn, Virginia, knocked more than 3 gigawatts of load off the grid in seconds, following a 2024 incident where a failed surge arrester dropped roughly 60 Virginia facilities and 1,500 megawatts simultaneously. These outages were not supply failures driven by a lack of generation, but architecture failures caused by the mismatch between traditional grid infrastructure and modern AI data centers. Unlike predictable legacy loads like steel mills, an AI campus can swing 70% of its load in milliseconds during a training run and trip offline just as fast to protect billions in compute. The standard data center power stack breaks down because low-voltage uninterruptible power supply units are undersized spares, legacy converters operate in bypass mode which allows raw load swings and grid transients to pass through, and outdated protection logic drops out during upstream voltage dips. To resolve this, engineers propose a three-part upgrade moving power management from 480 volts to medium voltage, shifting equipment from the data hall into modular enclosures near the substation, and placing an inline system directly in the power path so that every electron runs through it continuously. In early 2026, a full-scale version of this system was tested at the National Laboratory of the Rockies, a U.S. Department of Energy facility, where it successfully withstood real AI load profiles and utility-side grid faults, including a full zero-voltage event, and cleared the large-load voltage ride-through requirements from the Electric Reliability Council of Texas. By adopting this architecture, facilities can present a flat load profile to the utility, clear interconnection and permitting hurdles more quickly, reclaim indoor space for compute, and transform backup power into a revenue-generating asset through peak shaving and demand response programs.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+On July 22, 2026, a transmission line fault in Ashburn, Virginia, knocked more than 3 gigawatts of load off the grid in seconds, following a 2024 incident where a failed surge arrester dropped roughly 60 Virginia facilities and 1,500 megawatts simultaneously. The outages in Virginia weren't supply failures; they were architecture failures. An AI campus can swing 70% of its load in milliseconds during a training run, then trip offline just as fast at the first sign of trouble upstream. The standard data center power stack breaks down because low-voltage uninterruptible power supply units are undersized spares, legacy converters operate in bypass mode which allows raw load swings and grid transients to pass through, and outdated protection logic drops out during upstream voltage dips. To resolve this, engineers propose a three-part upgrade moving power management from 480 volts to medium voltage, shifting equipment from the data hall into modular enclosures near the substation, and placing an inline system directly in the power path so that every electron runs through it continuously. In early 2026, a full-scale version of this system was tested at the National Laboratory of the Rockies, a U.S. Department of Energy facility, where it successfully withstood real AI load profiles and utility-side grid faults, including a full zero-voltage event, and cleared the large-load voltage ride-through requirements from the Electric Reliability Council of Texas. By adopting this architecture, facilities can present a flat load profile to the utility, clear interconnection and permitting hurdles more quickly, reclaim indoor space for compute, and transform backup power into a revenue-generating asset through peak shaving and demand response programs.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (7/7). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+On July twenty-second, twenty twenty-six, a transmission line fault in Ashburn, Virginia, knocked more than three gigawatts of load off the grid in seconds. This followed a twenty twenty-four incident where a failed surge arrester dropped roughly sixty Virginia facilities and fifteen hundred megawatts simultaneously. 
+
+The outages in Virginia were not supply failures. They were architecture failures. An artificial intelligence campus can swing seventy percent of its load in milliseconds during a training run. Then it can trip offline just as fast at the first sign of trouble upstream. 
+
+The standard data center power stack breaks down for several reasons. Low-voltage uninterruptible power supply units are undersized spares. Legacy converters operate in bypass mode which allows raw load swings and grid transients to pass through. Outdated protection logic drops out during upstream voltage dips. 
+
+Engineers propose a three-part upgrade to resolve this. First, move power management from four hundred eighty volts to medium voltage. Second, shift equipment from the data hall into modular enclosures near the substation. Third, place an inline system directly in the power path so that every electron runs through it continuously. 
+
+In early twenty twenty-six, a full-scale version of this system was tested at the National Laboratory of the Rockies. This is a U.S. Department of Energy facility. The system successfully withstood real artificial intelligence load profiles and utility-side grid faults. This included a full zero-voltage event. It also cleared the large-load voltage ride-through requirements from the Electric Reliability Council of Texas. 
+
+By adopting this architecture, facilities can present a flat load profile to the utility. They can clear interconnection and permitting hurdles more quickly. They can reclaim indoor space for compute. Finally, they can transform backup power into a revenue-generating asset through peak shaving and demand response programs.
+
+═══ 05_NORMALIZED ═══
+
+On July twenty-second, twenty twenty-six, a transmission line fault in Ashburn, Virginia, knocked more than three gigawatts of load off the grid in seconds. This followed a twenty twenty-four incident where a failed surge arrester dropped roughly sixty Virginia facilities and fifteen hundred megawatts simultaneously.
+
+The outages in Virginia were not supply failures. They were architecture failures. An artificial intelligence campus can swing seventy percent of its load in milliseconds during a training run. Then it can trip offline just as fast at the first sign of trouble upstream.
+
+The standard data center power stack breaks down for several reasons. Low-voltage uninterruptible power supply units are undersized spares. Legacy converters operate in bypass mode which allows raw load swings and grid transients to pass through. Outdated protection logic drops out during upstream voltage dips.
+
+Engineers propose a three-part upgrade to resolve this. First, move power management from four hundred eighty volts to medium voltage. Second, shift equipment from the data hall into modular enclosures near the substation. Third, place an inline system directly in the power path so that every electron runs through it continuously.
+
+In early twenty twenty-six, a full-scale version of this system was tested at the National Laboratory of the Rockies. This is a US Department of Energy facility. The system successfully withstood real artificial intelligence load profiles and utility-side grid faults. This included a full zero-voltage event. It also cleared the large-load voltage ride-through requirements from the Electric Reliability Council of Texas.
+
+By adopting this architecture, facilities can present a flat load profile to the utility. They can clear interconnection and permitting hurdles more quickly. They can reclaim indoor space for compute. Finally, they can transform backup power into a revenue-generating asset through peak shaving and demand response programs.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (7/7). Missing: none
+
+═══ 07_SANITY ═══
+
+OK
+

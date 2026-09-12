@@ -1,0 +1,50 @@
+═══ 00_KEY_POINTS ═══
+
+1. Perplexity uses GPT-6 Astra to write communications, change software, and monitor production systems.
+2. Johnny Ho serves as the cofounder and chief strategy officer of Perplexity.
+3. Every time the model improves at writing code, Perplexity's search engine also improves.
+4. GPT-6 Astra helps Perplexity apply informational aspects to real-world systems.
+5. Johnny asks GPT-6 Astra to build small testing programs to check application workflows.
+6. Perplexity trusts the model with full end-to-end systems and checks in less frequently.
+7. We can have the model craft communications and edit real-world systems in a new way.
+
+═══ 01_DRAFT ═══
+
+Perplexity is using GPT-6 Astra to handle end-to-end systems, including writing communications, modifying software, and monitoring production environments. According to Johnny Ho, cofounder and chief strategy officer, improvements in the model's coding capabilities directly enhance Perplexity's search engine by enabling better programs to search the web and internal data for concise summaries. Ho notes that a primary benefit is code testing. With limited time for manual testing, he relies on GPT-6 Astra to build small testing programs that simulate external services, such as language model APIs or connectors, to evaluate application workflows from start to finish. As Ho describes the shift, we are actually able to trust it with full end-to-end systems and check in on it much less frequently than previous generations of models.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Perplexity is using GPT-6 Astra to handle end-to-end systems, including writing communications, modifying software, and monitoring production environments. According to Johnny Ho, cofounder and chief strategy officer, improvements in the model's coding capabilities directly enhance Perplexity's search engine by enabling better programs to search the web and internal data for concise summaries. Ho notes that a primary benefit is code testing. With limited time to test manually, he asks GPT-6 Astra to build a small testing program around an application, where the model generates realistic responses like another service would send, such as a language model API or connector, to check how the application responds and test the workflow from start to finish. As Ho describes the shift, we are actually able to trust it with full end-to-end systems and check in on it much less frequently than previous generations of models.
+
+═══ 03_COVERAGE_1 ═══
+
+85% covered (6/7). Missing: GPT-6 Astra helps Perplexity apply informational aspects to real-world systems.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Perplexity is using G. P. T. dash six Astra to handle end-to-end systems. This includes writing communications and modifying software and monitoring production environments. 
+
+Johnny Ho is the cofounder and chief strategy officer. He says improvements in coding capabilities directly enhance the search engine. They enable better programs to search the web and internal data for concise summaries. 
+
+A primary benefit is code testing. There is limited time to test manually. Johnny Ho asks the model to build a small testing program around an application. The model generates realistic responses like another service would send. This can be a language model A. I. or a connector. It checks how the application responds and tests the workflow from start to finish. 
+
+Johnny Ho describes the shift. We are actually able to trust it with full end-to-end systems. We check in on it much less frequently than previous generations of models.
+
+═══ 05_NORMALIZED ═══
+
+Perplexity is using G. P. T. dash six Astra to handle end-to-end systems. This includes writing communications and modifying software and monitoring production environments.
+
+Johnny Ho is the cofounder and chief strategy officer. He says improvements in coding capabilities directly enhance the search engine. They enable better programs to search the web and internal data for concise summaries.
+
+A primary benefit is code testing. There is limited time to test manually. Johnny Ho asks the model to build a small testing program around an application. The model generates realistic responses like another service would send. This can be a language model A. I. or a connector. It checks how the application responds and tests the workflow from start to finish.
+
+Johnny Ho describes the shift. We are actually able to trust it with full end-to-end systems. We check in on it much less frequently than previous generations of models.
+
+═══ 06_COVERAGE_FINAL ═══
+
+71% covered (5/7). Missing: GPT-6 Astra helps Perplexity apply informational aspects to real-world systems.; We can have the model craft communications and edit real-world systems in a new way.
+
+═══ 07_SANITY ═══
+
+ISSUES: dash six
+

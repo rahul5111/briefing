@@ -1,0 +1,53 @@
+═══ 00_KEY_POINTS ═══
+
+1. Startup Besxar flew its first suborbital semiconductor manufacturing demo on a SpaceX Falcon 9.
+2. The mission launched on July 5 carrying semiconductor wafers for Besxar and two universities.
+3. Besxar aims to manufacture higher-quality and lower-cost semiconductors by utilizing free vacuum in space.
+4. The company raised a nine point three five million dollar seed round led by Dauntless Ventures.
+5. CEO Ashley Pilipiszyn emphasized that keeping wafers clean and protected is critical for the mission.
+6. The recent flight was the first of twelve suborbital missions SpaceX is under contract to fly.
+
+═══ 01_DRAFT ═══
+
+Besxar has flown its first suborbital mission to demonstrate manufacturing semiconductor technology above the Kármán line, capitalizing on the free vacuum of space to produce higher-quality and lower-cost materials to sell on Earth. The company has raised a $9.35 million seed round led by Dauntless Ventures and co-led by Overture VC, with participation from 645 Ventures, Singh Capital Partners, Koru Capital, and Plum Alley Ventures. The July 5 flight launched on a SpaceX Falcon 9 alongside Starlink satellites and carried semiconductor wafers for Besxar as well as researchers from the University of Virginia and the University of Texas at Austin. The mission proved that Besxar-designed hardware canisters can safely allow vacuum conditions while preventing contamination from atomic oxygen in low Earth orbit, and protect wafers through re-entry. CEO and founder Ashley Pilipiszyn said that if they cannot keep it clean and protect the wafers, nothing else matters. Unlike peers, Besxar outsources its re-entry technology to its launch provider, returning this mission aboard the same Falcon 9, and plans to integrate its canisters into vehicles like Starship for future longer missions. This flight was the first of 12 contracted suborbital flights with SpaceX, with the second mission expected before the end of the year.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Besxar has flown its first suborbital mission to demonstrate semiconductor manufacturing above the Kármán line. The company capitalizes on the free vacuum of space to produce higher-quality and lower-cost materials to sell on Earth. 
+
+Besxar has raised nine point three five million dollars in a seed round. The round was led by Dauntless Ventures and co-led by Overture VC. Additional participation came from six hundred forty-five Ventures, Singh Capital Partners, Koru Capital, and Plum Alley Ventures. 
+
+The July fifth flight launched on a SpaceX Falcon nine rocket alongside Starlink satellites. It carried semiconductor wafers for Besxar and researchers from the University of Virginia and the University of Texas at Austin. 
+
+The mission proved that Besxar hardware canisters can safely allow vacuum conditions. They prevent contamination from atomic oxygen in low Earth orbit and protect wafers through re-entry. 
+
+Chief executive officer and founder, Ashley Pilipiszyn, said that if they cannot keep it clean and protect the wafers, nothing else matters. Unlike peers, Besxar outsources its re-entry technology to its launch provider. It returned this mission aboard the same Falcon nine vehicle. 
+
+The company plans to integrate its canisters into vehicles like Starship for future longer missions. This flight was the first of twelve contracted suborbital flights with SpaceX. The second mission is expected before the end of the year.
+
+═══ 05_NORMALIZED ═══
+
+Besxar has flown its first suborbital mission to demonstrate semiconductor manufacturing above the Kármán line. The company capitalizes on the free vacuum of space to produce higher-quality and lower-cost materials to sell on Earth.
+
+Besxar has raised nine point three five million dollars in a seed round. The round was led by Dauntless Ventures and co-led by Overture V C.. Additional participation came from six hundred forty-five Ventures, Singh Capital Partners, Koru Capital, and Plum Alley Ventures.
+
+The July fifth flight launched on a SpaceX Falcon nine rocket alongside Starlink satellites. It carried semiconductor wafers for Besxar and researchers from the University of Virginia and the University of Texas at Austin.
+
+The mission proved that Besxar hardware canisters can safely allow vacuum conditions. They prevent contamination from atomic oxygen in low Earth orbit and protect wafers through re-entry.
+
+Chief executive officer and founder, Ashley Pilipiszyn, said that if they cannot keep it clean and protect the wafers, nothing else matters. Unlike peers, Besxar outsources its re-entry technology to its launch provider. It returned this mission aboard the same Falcon nine vehicle.
+
+The company plans to integrate its canisters into vehicles like Starship for future longer missions. This flight was the first of twelve contracted suborbital flights with SpaceX. The second mission is expected before the end of the year.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: O V C., Falcon nine
+

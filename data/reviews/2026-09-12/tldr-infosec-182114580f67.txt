@@ -1,0 +1,66 @@
+═══ 00_KEY_POINTS ═══
+
+1. vLLM implementation triples MiniMax M3 inference throughput on AMD Instinct MI355X hardware using systematic bottleneck chasing.
+2. At concurrency 32, fixed-topology MXFP8 standard serving rose to 342.4 output tokens per second per GPU.
+3. At concurrency 128, the four-GPU path reached 623.7 output tokens per second per GPU for MXFP8 serving.
+4. MXFP4 serving reached 716.8 output tokens per second per GPU at concurrency 128 under a TP4/EP1 contract.
+5. A later TP2/EP1 MXFP4 deployment reached 943.5 output tokens per second per GPU, representing a 4.45 times initial throughput.
+6. Adding EAGLE3 speculative decoding achieved 682.4 output tokens per second per GPU at concurrency 128 on TP4/EP1.
+7. Adding P/D disaggregation and retuning the topology reached 6,370.5 total tokens per second per GPU at concurrency 512.
+
+═══ 01_DRAFT ═══
+
+vLLM implementation work on AMD Instinct MI355X hardware using MiniMax M3 achieved a 3.14 times increase in output throughput for standard serving at concurrency 32, rising from 109.1 to 342.4 output tokens per second per GPU. Public results from the SemiAnalysis InferenceX benchmark show that at concurrency 128, the same four GPU path rose from 297.8 to 623.7 output tokens per second per GPU, representing a 2.09 times improvement. Median time to first token fell from 3.53 to 1.54 seconds, and mean time per output token fell from 100.7 to 48.8 milliseconds at concurrency 128. For MXFP4 quantization, throughput at concurrency 128 rose from 212.1 to 716.8 output tokens per second per GPU under a four GPU contract, while a later two GPU configuration reached 943.5 output tokens per second per GPU. The addition of EAGLE3 speculative decoding reached 682.4 output tokens per second per GPU at concurrency 128, and prefill-decode disaggregation reached 6,370.5 total tokens per second per GPU at concurrency 512 with a 1.32 second median time to first token. The optimization process followed a systematic workflow of estimating dominant costs, measuring them, batching repeated work, precomputing invariants, and moving up the stack when leaf profiles flattened. MiniMax M3 features 60 decoder layers, with 57 utilizing sparse mixture of experts and sparse attention. Engineers addressed localized tensor parallel shapes, fused shared experts into the routed expert table, and integrated AITER sparse paged attention across layout mismatches by turning 128-token blocks into eight 16-token page entries without copying KV data. Correctness audits also resolved bugs such as an unpatched FP8 KV view on FNUZ ROCm devices that initially scored 0.0099 strict match on GSM8K before a patched path scored 0.9575.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+vLLM implementation work on AMD Instinct MI355X hardware using MiniMax M3 achieved a 3.14 times increase in output throughput for standard serving at concurrency 32, rising from 109.1 to 342.4 output tokens per second per GPU. Public results from the SemiAnalysis InferenceX benchmark show that at concurrency 128, the same four GPU path rose from 297.8 to 623.7 output tokens per second per GPU, representing a 2.09 times improvement. Median time to first token fell from 3.53 to 1.54 seconds, and mean time per output token fell from 100.7 to 48.8 milliseconds at concurrency 128. For MXFP4 quantization, throughput at concurrency 128 rose from 212.1 to 716.8 output tokens per second per GPU under a four GPU contract, while a later two GPU configuration reached 943.5 output tokens per second per GPU. The addition of EAGLE3 speculative decoding reached 682.4 output tokens per second per GPU at concurrency 128, and prefill-decode disaggregation reached 6,370.5 total tokens per second per GPU at concurrency 512 with a 1.32 second median time to first token. The optimization process followed a systematic workflow of estimating dominant costs, measuring them, batching repeated work, precomputing invariants, and moving up the stack when leaf profiles flattened. MiniMax M3 features 60 decoder layers, with 57 utilizing sparse mixture of experts and sparse attention. Engineers tuned local M, N, and K shapes, appended shared experts to the routed expert table, and integrated AITER sparse paged attention across layout mismatches by turning selected block IDs into page IDs without copying KV data. Correctness audits also resolved bugs such as an unpatched FP8 KV view on FNUZ ROCm devices that initially scored 0.0099 strict match on GSM8K before a patched path scored 0.9575.
+
+═══ 02b_TRIMMED ═══
+
+vLLM implementation work on AMD Instinct MI355X hardware using MiniMax M3 achieved a 3.14 times increase in output throughput for standard serving at concurrency 32, rising from 109.1 to 342.4 output tokens per second per GPU. Public results from the SemiAnalysis InferenceX benchmark show that at concurrency 128, the same four GPU path rose from 297.8 to 623.7 output tokens per second per GPU, representing a 2.09 times improvement. Median time to first token fell from 3.53 to 1.54 seconds, and mean time per output token fell from 100.7 to 48.8 milliseconds at concurrency 128. For MXFP4 quantization, throughput at concurrency 128 rose from 212.1 to 716.8 output tokens per second per GPU under a four GPU contract, while a later two GPU configuration reached 943.5 output tokens per second per GPU. The addition of EAGLE3 speculative decoding reached 682.4 output tokens per second per GPU at concurrency 128, and prefill-decode disaggregation reached 6,370.5 total tokens per second per GPU at concurrency 512 with a 1.32 second median time to first token. The optimization process followed a systematic workflow of estimating dominant costs, measuring them, batching repeated work, precomputing invariants, and moving up the stack when leaf profiles flattened. MiniMax M3 features 60 decoder layers, with 57 utilizing sparse mixture of experts and sparse attention. Correctness audits also resolved bugs such as an unpatched FP8 KV view on FNUZ ROCm devices that initially scored 0.0099 strict match on GSM8K before a patched path scored 0.9575.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (7/7). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Engineers achieved a three point one four times increase in output throughput on A. M. D. Instinct M. I. three hundred fifty-five X hardware. They used V. L. L. M. implementation work with the MiniMax M. three model for standard serving at concurrency thirty-two. Performance rose from one hundred nine point one to three hundred forty-two point four output tokens per second per G. P. U. 
+
+Public results from the SemiAnalysis InferenceX benchmark show that at concurrency one hundred twenty-eight, the same four G. P. U. path rose from two hundred ninety-seven point eight to six hundred twenty-three point seven output tokens per second per G. P. U. This represents a two point zero nine times improvement. Median time to first token fell from three point five three to one point five four seconds. Mean time per output token fell from one hundred point seven to forty-eight point eight milliseconds at concurrency one hundred twenty-eight. 
+
+For M. X. F. P. four quantization, throughput at concurrency one hundred twenty-eight rose from two hundred twelve point one to seven hundred sixteen point eight output tokens per second per G. P. U. under a four G. P. U. contract. A later two G. P. U. configuration reached nine hundred forty-three point five output tokens per second per G. P. U. 
+
+The addition of E. A. G. L. E. three speculative decoding reached six hundred eighty-two point four output tokens per second per G. P. U. at concurrency one hundred twenty-eight. Prefill-decode disaggregation reached six thousand three hundred seventy point five total tokens per second per G. P. U. at concurrency five hundred twelve. This configuration had a one point three-two second median time to first token. 
+
+The optimization process followed a systematic workflow. Engineers estimated dominant costs, measured them, and batched repeated work. They also precomputed invariants and moved up the stack when leaf profiles flattened. 
+
+The MiniMax M. three model features sixty decoder layers. Fifty-seven of those layers utilize sparse mixture of experts and sparse attention. 
+
+Correctness audits also resolved crucial bugs. One unpatched F. P. eight K. V. view on F. N. U. Z. R. O. C. m. devices initially scored zero point zero zero nine-nine strict match on G. S. M. eight K. After a patched path, the score reached zero point nine five seven five.
+
+═══ 05_NORMALIZED ═══
+
+Engineers achieved a three point one four times increase in output throughput on A. M. D. Instinct M. I. three hundred fifty-five X hardware. They used V. L. L. M. implementation work with the MiniMax M. three model for standard serving at concurrency thirty-two. Performance rose from one hundred nine point one to three hundred forty-two point four output tokens per second per G. P. U.
+
+Public results from the SemiAnalysis InferenceX benchmark show that at concurrency one hundred twenty-eight, the same four G. P. U. path rose from two hundred ninety-seven point eight to six hundred twenty-three point seven output tokens per second per G. P. U. This represents a two point zero nine times improvement. Median time to first token fell from three point five three to one point five four seconds. Mean time per output token fell from one hundred point seven to forty-eight point eight milliseconds at concurrency one hundred twenty-eight.
+
+For M. X. F. P. four quantization, throughput at concurrency one hundred twenty-eight rose from two hundred twelve point one to seven hundred sixteen point eight output tokens per second per G. P. U. under a four G. P. U. contract. A later two G. P. U. configuration reached nine hundred forty-three point five output tokens per second per G. P. U.
+
+The addition of E. A. G. L. E. three speculative decoding reached six hundred eighty-two point four output tokens per second per G. P. U. at concurrency one hundred twenty-eight. Prefill-decode disaggregation reached six thousand three hundred seventy point five total tokens per second per G. P. U. at concurrency five hundred twelve. This configuration had a one point three-two second median time to first token.
+
+The optimization process followed a systematic workflow. Engineers estimated dominant costs, measured them, and batched repeated work. They also precomputed invariants and moved up the stack when leaf profiles flattened.
+
+The MiniMax M. three model features sixty decoder layers. Fifty-seven of those layers utilize sparse mixture of experts and sparse attention.
+
+Correctness audits also resolved crucial bugs. One unpatched F. P. eight K. V. view on F. N. U. Z. R. O. C. m. devices initially scored zero point zero zero nine-nine strict match on G. S. M. eight K. After a patched path, the score reached zero point nine five seven five.
+
+═══ 06_COVERAGE_FINAL ═══
+
+85% covered (6/7). Missing: vLLM implementation triples MiniMax M3 inference throughput on AMD Instinct MI355X hardware using systematic bottleneck chasing.
+
+═══ 07_SANITY ═══
+
+OK
+
