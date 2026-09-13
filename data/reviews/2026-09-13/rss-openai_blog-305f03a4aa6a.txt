@@ -1,0 +1,37 @@
+═══ 00_KEY_POINTS ═══
+
+1. ChatGPT Images 2.5 is a new state-of-the-art image model bringing sharper details and precise editing.
+2. Users create more than 3 billion images every week across ChatGPT Images and API models.
+3. Image generation latency has been reduced by up to 50 percent compared with Images 2.0.
+4. New product features in ChatGPT include Sketch, templates, direct image comments, and prompt sharing.
+5. Two new API models introduced are GPT-Image-2.5 Flare and GPT-Image-2.5 Sunburst.
+6. Images 2.5 is available today to all ChatGPT, ChatGPT Work, and Codex users across all platforms.
+
+═══ 01_DRAFT ═══
+
+ChatGPT Images 2.5 is launching today across desktop, mobile, and web for all ChatGPT, ChatGPT Work, and Codex users, bringing sharper details, more precise multi-turn editing, natural lighting, richer textures, and up to a 50 percent reduction in image generation latency compared to Images 2.0. The new model better preserves subjects in reference photos and handles complex layouts, including transparent backgrounds. New consumer features include Sketch, which allows users to draw directly in ChatGPT using the command @Sketch as a visual guide, plus templates for popular formats like posters and merchandise, direct commenting on images for focused editing, and the ability to share prompts so others can recreate ideas. For developers, two new models are arriving in the API. GPT Image 2.5 Flare serves as the default choice offering higher quality than GPT Image 2 at 50 percent lower latency, while GPT Image 2.5 Sunburst provides higher precision and tighter control for detailed creative and production-ready workflows with longer generation times. The release maintains existing safety safeguards, including prompt and image checks, C2PA metadata, and invisible watermarking.
+
+═══ 03_COVERAGE_1 ═══
+
+83% covered (5/6). Missing: Users create more than 3 billion images every week across ChatGPT Images and API models.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+ChatGPT Images 2.5 is launching today across desktop, mobile, and web for all ChatGPT, ChatGPT Work, and Codex users, bringing sharper details, more precise multi-turn editing, natural lighting, richer textures, and up to a 50 percent reduction in image generation latency compared to Images 2.0. Users create more than 3 billion images every week across ChatGPT Images and API models. The new model better preserves subjects in reference photos and handles complex layouts, including transparent backgrounds. New consumer features include Sketch, which allows users to draw directly in ChatGPT using the command @Sketch as a visual guide, plus templates for popular formats like posters and merchandise, direct commenting on images for focused editing, and the ability to share prompts so others can recreate ideas. For developers, two new models are arriving in the API. GPT Image 2.5 Flare serves as the default choice offering higher quality than GPT Image 2 at 50 percent lower latency, while GPT Image 2.5 Sunburst provides higher precision and tighter control for detailed creative and production-ready workflows with longer generation times. The release maintains existing safety safeguards, including prompt and image checks, C2PA metadata, and invisible watermarking.
+
+═══ 04_AUDIO_REWRITE ═══
+
+ChatGPT Images two point five is launching today across desktop, mobile, and web for all users. It is available for ChatGPT, ChatGPT Work, and Codex users. The update brings sharper details and more precise multi-turn editing. It also features natural lighting and richer textures. Users will see up to a fifty percent reduction in image generation latency compared to version two point zero. Users create more than three billion images every week across ChatGPT Images and Application Programming Interface models. The new model better preserves subjects in reference photos. It also handles complex layouts, including transparent backgrounds. New consumer features include Sketch. This allows users to draw directly in ChatGPT using the command at Sketch as a visual guide. There are also templates for popular formats like posters and merchandise. Users can use direct commenting on images for focused editing. They also have the ability to share prompts so others can recreate ideas. For developers, two new models are arriving in the Application Programming Interface. G. P. T. Image two point five Flare serves as the default choice. It offers higher quality than G. P. T. Image two at fifty percent lower latency. G. P. T. Image two point five Sunburst provides higher precision and tighter control. This is for detailed creative and production-ready workflows with longer generation times. The release maintains existing safety safeguards. These include prompt and image checks, C. Two. P. A. metadata, and invisible watermarking.
+
+═══ 05_NORMALIZED ═══
+
+ChatGPT Images two point five is launching today across desktop, mobile, and web for all users. It is available for ChatGPT, ChatGPT Work, and Codex users. The update brings sharper details and more precise multi-turn editing. It also features natural lighting and richer textures. Users will see up to a fifty percent reduction in image generation latency compared to version two point zero. Users create more than three billion images every week across ChatGPT Images and Application Programming Interface models. The new model better preserves subjects in reference photos. It also handles complex layouts, including transparent backgrounds. New consumer features include Sketch. This allows users to draw directly in ChatGPT using the command at Sketch as a visual guide. There are also templates for popular formats like posters and merchandise. Users can use direct commenting on images for focused editing. They also have the ability to share prompts so others can recreate ideas. For developers, two new models are arriving in the Application Programming Interface. G. P. T. Image two point five Flare serves as the default choice. It offers higher quality than G. P. T. Image two at fifty percent lower latency. G. P. T. Image two point five Sunburst provides higher precision and tighter control. This is for detailed creative and production-ready workflows with longer generation times. The release maintains existing safety safeguards. These include prompt and image checks, C. Two. P. A. metadata, and invisible watermarking.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: unspaced acronyms
+

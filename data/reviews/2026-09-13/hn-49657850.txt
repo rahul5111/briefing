@@ -1,0 +1,61 @@
+═══ 00_KEY_POINTS ═══
+
+1. The author observed that the Hacker News feed is almost exclusively dominated by artificial intelligence news.
+2. Legitimately broad hacker content and interesting non-AI submissions are increasingly left out and receive zero traction.
+3. Lenovo showcased a new model incorporating mature and production-ready solid-state air cooling technology.
+4. Brax Industries developed open-source and innovative devices featuring modularity and on-device processing compatible with Home Assistant.
+5. The author suggests that YC should curate content to give easily drowned-out non-AI articles visibility bumps.
+6. Alternatively, the author suggests introducing simple tagging so users can filter out unwanted categories of content.
+
+═══ 01_DRAFT ═══
+
+A user on Hacker News has published a post asking the community and moderators to address what they describe as a flood of artificial intelligence news dominating the platform's feed. The user states that over the past couple of months, the feed has become almost exclusively dedicated to AI and AI-adjacent topics, which has pushed out traditional hacker-focused content. 
+
+According to the author, submissions on non-AI hardware innovations are now receiving zero traction and getting drowned out, preventing users from discovering similar niche engineering projects. The post cites two recent examples of submissions that failed to gain attention: a Lenovo model utilizing production-ready solid-state air cooling designed to enable lighter laptops with larger batteries, and open-source, modular smart home devices from Brax Industries featuring on-device processing and Home Assistant compatibility. 
+
+To combat the shift in content, the user suggested two potential solutions for the site administrators at Y Combinator. They proposed that YC either begin curating the content to give visibility bumps to non-AI articles, or introduce simple tagging systems so readers can filter out specific topics like artificial intelligence news.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+A user on Hacker News has published a post stating that over the past couple of months, the platform's feed has become almost exclusively dedicated to artificial intelligence and AI-adjacent topics, while broadly-hacker content gets left out. The user notes that their own interesting submissions now receive zero traction and get easily drowned out, preventing them from seeing similar projects posted by others.
+
+The post cites two recent examples of submissions that failed to gain attention: a Lenovo model utilizing solid-state air cooling that is production-ready for lighter designs and bigger batteries, and open-source, modular wall display devices from Brax Industries featuring on-device processing compatible with Home Assistant. Because of this shift away from what's new in the industry, the author no longer finds Hacker News a good source for such content.
+
+To address the issue, the user suggests that Y Combinator could start curating the content to give easily-drowned-out articles a visibility bump. Alternatively, they propose the introduction of simple tagging so users can start filtering stuff out of their feeds.
+
+═══ 02b_TRIMMED ═══
+
+The user notes that their own interesting submissions now receive zero traction and get easily drowned out, preventing them from seeing similar projects posted by others. The post cites two recent examples of submissions that failed to gain attention: a Lenovo model utilizing solid-state air cooling that is production-ready for lighter designs and bigger batteries, and open-source, modular wall display devices from Brax Industries featuring on-device processing compatible with Home Assistant. To address the issue, the user suggests that Y Combinator could start curating the content to give easily-drowned-out articles a visibility bump.
+
+═══ 03_COVERAGE_1 ═══
+
+66% covered (4/6). Missing: The author observed that the Hacker News feed is almost exclusively dominated by artificial intelligence news.; Alternatively, the author suggests introducing simple tagging so users can filter out unwanted categories of content.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+The user observes that the Hacker News feed is almost exclusively dominated by artificial intelligence news. They note that their own interesting submissions now receive zero traction and get easily drowned out, preventing them from seeing similar projects posted by others. The post cites two recent examples of submissions that failed to gain attention: a Lenovo model utilizing solid-state air cooling that is production-ready for lighter designs and bigger batteries, and open-source, modular wall display devices from Brax Industries featuring on-device processing compatible with Home Assistant. To address the issue, the user suggests that Y Combinator could start curating the content to give easily-drowned-out articles a visibility bump. Alternatively, the author suggests introducing simple tagging so users can filter out unwanted categories of content.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Artificial intelligence stories are taking over the entire Hacker News feed. Regular users say their interesting submissions now get zero traction. These unique projects are drowned out completely by the flood of artificial intelligence content. This makes it impossible to see similar projects posted by other people. 
+
+Two recent examples failed to gain any attention at all. One submission featured a Lenovo model utilizing solid-state air cooling. This technology is production-ready for lighter designs and bigger batteries. The other submission featured open-source modular wall display devices from Brax Industries. These devices include on-device processing compatible with Home Assistant. 
+
+To fix this issue, users suggest that Y Combinator could start curating the content. This curation would give easily drowned out articles a much-needed visibility bump. Another option is introducing simple tagging systems. Users could then filter out unwanted categories of content completely.
+
+═══ 05_NORMALIZED ═══
+
+Artificial intelligence stories are taking over the entire Hacker News feed. Regular users say their interesting submissions now get zero traction. These unique projects are drowned out completely by the flood of artificial intelligence content. This makes it impossible to see similar projects posted by other people.
+
+Two recent examples failed to gain any attention at all. One submission featured a Lenovo model utilizing solid-state air cooling. This technology is production-ready for lighter designs and bigger batteries. The other submission featured open-source modular wall display devices from Brax Industries. These devices include on-device processing compatible with Home Assistant.
+
+To fix this issue, users suggest that Y Combinator could start curating the content. This curation would give easily drowned out articles a much-needed visibility bump. Another option is introducing simple tagging systems. Users could then filter out unwanted categories of content completely.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+OK
+

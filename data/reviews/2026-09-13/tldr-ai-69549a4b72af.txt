@@ -1,0 +1,33 @@
+═══ 00_KEY_POINTS ═══
+
+1. OpenAI has launched GPT-Live-1 in the API to bring its natural voice model to developers.
+2. The new model processes incoming and outgoing audio together to avoid latency and fragile handoffs.
+3. Speak reported almost 80 percent fewer interruptions than with previous turn-based systems.
+4. GPT-Live-1 costs $0.05 per minute in the API, with backend model and agent harness fees charged separately.
+5. The model launches with 12 voices spanning various accents, dialects, and languages.
+6. Early users of the new voice model include Yelp Host, Speak, Intercom's Fin, and Cognition's Devin.
+
+═══ 01_DRAFT ═══
+
+OpenAI has launched GPT-Live-1 in the API, making its natural voice model available to developers for building voice applications and business workflows. The model listens and speaks simultaneously, handles interruptions instantly, and pairs with models and tools like GPT-6 Astra, Codex, and ChatGPT Work. Unlike traditional cascaded voice agents, GPT-Live-1 processes incoming and outgoing audio together to eliminate latency and preserve conversational rhythm. Developers can control tone, pace, and style through system prompts, and use features including native turn detection, keyword biasing, and alphanumeric recognition. The API costs $0.05 per minute, with backend models and agent harnesses charged separately, and launches with 12 voices spanning multiple accents, dialects, and languages. Early adopters include Yelp Host, Speak, Intercom's Fin, and Cognition's Devin. Language learning app Speak reported nearly 80 percent fewer interruptions compared to previous turn-based systems, while OpenAI stated that GPT-Live-1 scored 30 percentage points higher than GPT-Realtime-2.1 on Full Duplex Bench and ranked first on Tau3 when paired with GPT-6 Astra at medium reasoning effort. One customer reported that adopting the model cut its voice codebase by 80 percent and removed 23,000 lines previously used for real-time patient conversations. Telephony applications target reservations, order updates, and customer service, with enterprise users directed to Presence for workflows that integrate company systems and escalate to humans.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+OpenAI has launched G. P. T. dash Live dash one in the A. P. I. This makes their natural voice model available to developers for building voice applications. Developers can use it for business workflows. The model listens and speaks at the same time. It handles interruptions instantly. It pairs with tools like G. P. T. dash six Astra, Codex, and ChatGPT Work. Traditional voice agents use a cascaded process. This model processes incoming and outgoing audio together. That eliminates latency. It preserves the natural rhythm of a conversation. Developers can control the tone, pace, and style with system prompts. They can also use native turn detection and keyword biasing. Alphanumeric recognition is included as well. The A. P. I. costs zero point zero five dollars per minute. Backend models and agent harnesses are charged separately. The launch includes twelve voices. These voices span multiple accents, dialects, and languages. Early adopters include Yelp Host, Speak, Intercom's Fin, and Cognition's Devin. The language learning app Speak reported nearly eighty percent fewer interruptions. This is a big drop compared to previous turn based systems. OpenAI stated that G. P. T. dash Live dash one scored thirty percentage points higher than G. P. T. dash Realtime dash two point one on Full Duplex Bench. It also ranked first on Tau three. That happened when it was paired with G. P. T. dash six Astra at medium reasoning effort. One customer reported that adopting the model cut its voice codebase by eighty percent. It removed twenty-three thousand lines. Those lines were previously used for real-time patient conversations. Telephony applications target reservations, order updates, and customer service. Enterprise users are directed to Presence for complex workflows. Presence integrates company systems and can escalate issues to humans.
+
+═══ 05_NORMALIZED ═══
+
+OpenAI has launched G. P. T. dash Live dash one in the A. P. I. This makes their natural voice model available to developers for building voice applications. Developers can use it for business workflows. The model listens and speaks at the same time. It handles interruptions instantly. It pairs with tools like G. P. T. dash six Astra, Codex, and ChatGPT Work. Traditional voice agents use a cascaded process. This model processes incoming and outgoing audio together. That eliminates latency. It preserves the natural rhythm of a conversation. Developers can control the tone, pace, and style with system prompts. They can also use native turn detection and keyword biasing. Alphanumeric recognition is included as well. The A. P. I. costs zero point zero five dollars per minute. Backend models and agent harnesses are charged separately. The launch includes twelve voices. These voices span multiple accents, dialects, and languages. Early adopters include Yelp Host, Speak, Intercom's Fin, and Cognition's Devin. The language learning app Speak reported nearly eighty percent fewer interruptions. This is a big drop compared to previous turn based systems. OpenAI stated that G. P. T. dash Live dash one scored thirty percentage points higher than G. P. T. dash Realtime dash two point one on Full Duplex Bench. It also ranked first on Tau three. That happened when it was paired with G. P. T. dash six Astra at medium reasoning effort. One customer reported that adopting the model cut its voice codebase by eighty percent. It removed twenty-three thousand lines. Those lines were previously used for real-time patient conversations. Telephony applications target reservations, order updates, and customer service. Enterprise users are directed to Presence for complex workflows. Presence integrates company systems and can escalate issues to humans.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: G. P. T. dash Live dash one, A. P. I., G. P. T. dash six Astra, G. P. T. dash Live dash one, G. P. T. dash Realtime dash two point one, Tau three, G. P. T. dash six Astra
+

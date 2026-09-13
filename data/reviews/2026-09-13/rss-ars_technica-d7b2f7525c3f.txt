@@ -1,0 +1,40 @@
+═══ 00_KEY_POINTS ═══
+
+1. Researchers used a mathematical model to study games with evolving strategies and randomly varying returns.
+2. Traditional games usually feature constant rewards per outcome against a static background.
+3. The prisoner's dilemma is perhaps the most famous game-theory contest involving captured thieves.
+4. If both prisoners make a deal and defect, they both receive an in-between punishment.
+5. The game stabilizes with everyone betraying everyone depending on the balance of rewards and risks.
+
+═══ 01_DRAFT ═══
+
+Researchers have used a mathematical model to study a series of games that include evolving strategies and randomly varying returns, addressing a major limitation of traditional game theory where rewards per outcome are always constant. While traditional games like the prisoner's dilemma use static backgrounds, real life involves ever-changing rewards and consequences for strategic choices. In the classic prisoner's dilemma, two captured thieves are interrogated separately. If both stay silent, they face a lesser punishment. If one defects, that prisoner goes free while the other receives a heavier sentence, and if both defect, they receive an intermediate punishment. By adjusting the rewards for cooperating and defecting across multiple rounds, players determine the optimum strategy. Depending on the balance between staying silent and betrayal, traditional models often stabilize with everyone betraying everyone, resulting in a suboptimal outcome where everyone loses. Introducing randomly varying returns to these contests enriches insights into human decision-making by better reflecting the shifting rewards and consequences found in real-world strategic choices.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Researchers have used a mathematical model to study a series of games that include evolving strategies and randomly varying returns, addressing a major limitation of traditional game theory where rewards per outcome are always constant. While traditional games like the prisoner's dilemma use static backgrounds, real life involves ever-changing rewards and consequences for strategic choices. In the classic prisoner's dilemma, two captured thieves are interrogated separately. If both stay silent, they face a lesser punishment. If one defects, that prisoner goes free while the other receives a heavier sentence, and if both defect, they receive an intermediate punishment. By adjusting the rewards for cooperating and defecting across multiple rounds, players determine the optimum strategy. Depending on the balance between staying silent and betrayal, traditional models often stabilize with everyone betraying everyone, resulting in a suboptimal outcome where everyone loses. Using games with evolving strategies and randomly varying returns helps overcome the limits of traditional games that study human choices against a static background with constant rewards.
+
+═══ 02b_TRIMMED ═══
+
+Researchers have used a mathematical model to study a series of games that include evolving strategies and randomly varying returns, addressing a major limitation of traditional game theory where rewards per outcome are always constant. While traditional games like the prisoner's dilemma use static backgrounds, real life involves ever-changing rewards and consequences for strategic choices. In the classic prisoner's dilemma, two captured thieves are interrogated separately. If both stay silent, they face a lesser punishment. If one defects, that prisoner goes free while the other receives a heavier sentence, and if both defect, they receive an intermediate punishment. By adjusting the rewards for cooperating and defecting across multiple rounds, players determine the optimum strategy. Depending on the balance between staying silent and betrayal, traditional models often stabilize with everyone betraying everyone, resulting in a suboptimal outcome where everyone loses.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (5/5). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Researchers used a mathematical model to study a series of games. These games include evolving strategies and randomly varying returns. This work addresses a major limitation of traditional game theory. In traditional game theory rewards per outcome are always constant. Traditional games like the prisoner's dilemma use static backgrounds. Real life involves ever changing rewards and consequences for strategic choices. In the classic prisoner's dilemma, two captured thieves are interrogated separately. If both stay silent, they face a lesser punishment. If one defects, that prisoner goes free while the other receives a heavier sentence. If both defect, they receive an intermediate punishment. Researchers adjusted the rewards for cooperating and defecting across multiple rounds. This helps players determine the optimum strategy. Depending on the balance between staying silent and betrayal, traditional models often stabilize. Everyone ends up betraying everyone else. This results in a suboptimal outcome where everyone loses.
+
+═══ 05_NORMALIZED ═══
+
+Researchers used a mathematical model to study a series of games. These games include evolving strategies and randomly varying returns. This work addresses a major limitation of traditional game theory. In traditional game theory rewards per outcome are always constant. Traditional games like the prisoner's dilemma use static backgrounds. Real life involves ever changing rewards and consequences for strategic choices. In the classic prisoner's dilemma, two captured thieves are interrogated separately. If both stay silent, they face a lesser punishment. If one defects, that prisoner goes free while the other receives a heavier sentence. If both defect, they receive an intermediate punishment. Researchers adjusted the rewards for cooperating and defecting across multiple rounds. This helps players determine the optimum strategy. Depending on the balance between staying silent and betrayal, traditional models often stabilize. Everyone ends up betraying everyone else. This results in a suboptimal outcome where everyone loses.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (5/5). Missing: none
+
+═══ 07_SANITY ═══
+
+OK
+

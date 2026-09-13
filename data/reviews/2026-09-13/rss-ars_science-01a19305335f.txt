@@ -1,0 +1,57 @@
+═══ 00_KEY_POINTS ═══
+
+1. Physicist Níckolas de Aguiar Alves analyzed the math behind a warp-speed trick from Star Trek.
+2. The maneuver occurred in the first season episode titled The Battle on The Next Generation.
+3. Captain Picard ordered the Stargazer to charge an enemy ship at warp speed before stopping.
+4. Picard anticipated the enemy would see two distinct images of his ship due to faster-than-light travel.
+5. Níckolas de Aguiar Alves works at the Federal University of ABC in Brazil.
+6. This analysis provides a great opportunity to teach about a lesser-known feature of relativity.
+
+═══ 01_DRAFT ═══
+
+Níckolas de Aguiar Alves, a physicist at the Federal University of ABC in Brazil, has analyzed the mathematics behind the warp-speed tactical trick known as the Picard maneuver from the first season of Star Trek: The Next Generation. 
+
+The maneuver was featured in the episode "The Battle," where Captain Jean-Luc Picard commanded the ship Stargazer against a Ferengi leader. With his ship's shields down, Picard charged the enemy at warp speed, stopped abruptly, and fired. Picard anticipated that because the ship traveled faster than light, the enemy would see two distinct images of the Stargazer, representing the point where it entered warp speed and the point where it stopped. 
+
+Alves found a subtlety the show's writers missed, which actually makes the maneuver more scientifically impressive while providing a practical opportunity to teach a lesser-known feature of the theory of relativity.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Níckolas de Aguiar Alves, a physicist at the Federal University of ABC in Brazil, has analyzed the mathematics behind the warp-speed tactical trick known as the Picard maneuver from the first season of Star Trek: The Next Generation. 
+
+The maneuver was shown in the episode "The Battle," where a Ferengi leader reminded Picard of a past battle involving his former ship, the Stargazer. With his ship's shields down, Picard charged the enemy at warp speed, stopped abruptly, and fired. Picard anticipated that because the ship traveled faster than light, the enemy would see two distinct images of the Stargazer, representing the point where it entered warp speed and the point where it stopped. 
+
+Alves found a subtlety the show's writers missed, which actually makes the maneuver more scientifically impressive while providing a practical opportunity to teach a lesser-known feature of the theory of relativity.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Physicist Níckolas de Aguiar Alves, has analyzed the mathematics behind the warp speed tactical trick known as the Picard maneuver. This famous maneuver comes from the first season of Star Trek: The Next Generation. 
+
+The maneuver was shown in the episode titled The Battle. A Ferengi leader reminded Picard of a past battle involving his former ship, the Stargazer. With his ship shields down, Picard charged the enemy at warp speed. He stopped abruptly and then fired. 
+
+Picard anticipated that because the ship traveled faster than light, the enemy would see two distinct images of the ship. Those images represented the point where it entered warp speed and the point where it stopped. 
+
+Alves found a subtlety that the show writers missed. This oversight actually makes the maneuver more scientifically impressive. It also provides a practical opportunity to teach a lesser known feature of the theory of relativity.
+
+═══ 05_NORMALIZED ═══
+
+Physicist Níckolas de Aguiar Alves, has analyzed the mathematics behind the warp speed tactical trick known as the Picard maneuver. This famous maneuver comes from the first season of Star Trek: The Next Generation.
+
+The maneuver was shown in the episode titled The Battle. A Ferengi leader reminded Picard of a past battle involving his former ship, the Stargazer. With his ship shields down, Picard charged the enemy at warp speed. He stopped abruptly and then fired.
+
+Picard anticipated that because the ship traveled faster than light, the enemy would see two distinct images of the ship. Those images represented the point where it entered warp speed and the point where it stopped.
+
+Alves found a subtlety that the show writers missed. This oversight actually makes the maneuver more scientifically impressive. It also provides a practical opportunity to teach a lesser known feature of the theory of relativity.
+
+═══ 06_COVERAGE_FINAL ═══
+
+SKIPPED: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, head to: https://ai.google.dev/gemini-api/docs/rate-limits. To monitor your current usage, head to: https://ai.dev/rate-limit. \n* Quota exceeded for metric: generativelanguage.googleapis.com/generate_content_free_tier_requests, limit: 15, model: gemini-3.5-flash-lite\nPlease retry in 58.493931258s.', 'status': 'RESOURCE_EXHAUSTED', 'details': [{'@type': 'type.googleapis.com/google.rpc.Help', 'links': [{'description': 'Learn more about Gemini API quotas', 'url': 'https://ai.google.dev/gemini-api/docs/rate-limits'}]}, {'@type': 'type.googleapis.com/google.rpc.QuotaFailure', 'violations': [{'quotaMetric': 'generativelanguage.googleapis.com/generate_content_free_tier_requests', 'quotaId': 'GenerateRequestsPerMinutePerProjectPerModel-FreeTier', 'quotaDimensions': {'location': 'global', 'model': 'gemini-3.5-flash-lite'}, 'quotaValue': '15'}]}, {'@type': 'type.googleapis.com/google.rpc.RetryInfo', 'retryDelay': '58s'}]}}
+
+═══ 07_SANITY ═══
+
+ISSUES: unnecessary comma after Alves
+

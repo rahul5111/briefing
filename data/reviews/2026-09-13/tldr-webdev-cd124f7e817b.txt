@@ -1,0 +1,71 @@
+═══ 00_KEY_POINTS ═══
+
+1. Google Chrome’s modern-web-guidance skill is a search index over a curated set of best-practice guides.
+2. The tested application is a 42-file Vite plus React 18 questionnaire that is form-and-input heavy.
+3. The dark-mode guide recommends using color-scheme light dark in the head to prevent a flash of un-themed content.
+4. The dark-mode guide highlights that the light-dark function has been Baseline since May 13, 2024.
+5. The forms guide states to wrap interactive controls in a form element rather than using type equals button for submission.
+6. The validation guide recommends validating on blur to avoid premature warnings while the user is typing.
+7. The skill matters because it helps developers avoid stale AI-assisted frontend code by providing current web platform patterns.
+8. The dark-mode guide notes that the color-scheme property has been Baseline since February 3, 2022.
+
+═══ 01_DRAFT ═══
+
+Google Chrome has released modern-web-guidance, an npx-based command-line tool that acts as a search index over a curated set of best-practice web development guides. The tool was recently tested as an auditor on a 42-file Vite and React 18 internal questionnaire app. 
+
+The audit surfaced several stale coding patterns. For dark mode, the app relied on hardcoded light theme hex values with no color-scheme declarations. The skill retrieved a dark-mode guide with a similarity score of 0.75, highlighting two mandatory declarations to prevent a flash of un-themed content: a meta tag in the document head and a root style declaration using color-scheme light dark. The guide also recommended the light-dark function for color tokens and noted that color-scheme achieved Baseline Widely Available status on February 3, 2022, while light-dark became newly available on May 13, 2024.
+
+For form handling, the app used bare inputs and buttons without form elements, missing native features like Enter-to-submit. The search surfaced a forms guide advising developers to wrap interactive controls in form elements and use type submit instead of type button for primary submissions. 
+
+For validation, the skill retrieved guides built around the user-valid and user-invalid pseudo-classes, recommending validation on blur and error reset on input. The tool also flagged the use of min-height 100vh in mobile contexts, where dynamic viewport height units are preferred. 
+
+The skill indexes guides using action-oriented search phrases and retrieves full markdown guides, providing developers with actionable platform primitives and explicit browser-support timelines based on Baseline status.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Google Chrome has released modern-web-guidance, an npx-based command-line tool that acts as a search index over a curated set of best-practice web development guides. The tool was recently tested as an auditor on a 42-file Vite and React 18 internal questionnaire app. 
+
+The audit surfaced several stale coding patterns. For dark mode, the app relied on hardcoded light theme hex values with no color-scheme declarations. The skill retrieved a dark-mode guide with a similarity score of 0.75, highlighting two mandatory declarations to prevent a flash of un-themed content: a meta tag in the document head and a root style declaration using color-scheme light dark. The guide also provided color tokens using the light-dark function and detailed browser-support advice keyed to Baseline status.
+
+For form handling, the app used bare inputs and buttons without form elements, missing native features like Enter-to-submit. The search surfaced a forms guide advising developers to wrap interactive controls in form elements and use type submit instead of type button for primary submissions. 
+
+For validation, the skill retrieved guides built around the user-valid and user-invalid pseudo-classes, recommending validation on blur and error reset on input. The tool also flagged the use of min-height 100vh in mobile contexts, where dynamic viewport height units are preferred. 
+
+The skill indexes guides using action-oriented search phrases and retrieves full markdown guides, providing developers with actionable platform primitives and explicit browser-support timelines based on Baseline status.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (8/8). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Google Chrome released a new tool called modern-web-guidance. It is an N. P. X. based command line tool. It acts as a search index for web development guides. The tool was recently tested on an internal application. The app had forty-two files built with Vite and React eighteen. 
+
+The audit found several stale coding patterns. For dark mode, the app used hardcoded hex values. It lacked color scheme declarations. The tool retrieved a dark mode guide with a similarity score of zero point seven five. The guide highlighted two mandatory declarations to prevent un-themed flashes. These included a meta tag and a root style declaration. The guide also provided color tokens and browser support advice based on Baseline status. 
+
+For form handling, the app used bare inputs and buttons without form elements. This missed native features like enter to submit. The search found a forms guide. The guide advised wrapping interactive controls in form elements. It recommended using type submit for primary submissions. 
+
+For validation, the tool retrieved guides using user valid and user invalid pseudo classes. It recommended validation on blur and error reset on input. The tool also flagged the use of min height one hundred v. h. in mobile contexts. Dynamic viewport height units are preferred there. 
+
+The tool indexes guides using action oriented search phrases. It retrieves full markdown guides. This gives developers actionable platform primitives and explicit browser support timelines.
+
+═══ 05_NORMALIZED ═══
+
+Google Chrome released a new tool called modern-web-guidance. It is an N. P. X. based command line tool. It acts as a search index for web development guides. The tool was recently tested on an internal application. The app had forty-two files built with Vite and React eighteen.
+
+The audit found several stale coding patterns. For dark mode, the app used hardcoded hex values. It lacked color scheme declarations. The tool retrieved a dark mode guide with a similarity score of zero point seven five. The guide highlighted two mandatory declarations to prevent un-themed flashes. These included a meta tag and a root style declaration. The guide also provided color tokens and browser support advice based on Baseline status.
+
+For form handling, the app used bare inputs and buttons without form elements. This missed native features like enter to submit. The search found a forms guide. The guide advised wrapping interactive controls in form elements. It recommended using type submit for primary submissions.
+
+For validation, the tool retrieved guides using user valid and user invalid pseudo classes. It recommended validation on blur and error reset on input. The tool also flagged the use of min height one hundred v. h. in mobile contexts. Dynamic viewport height units are preferred there.
+
+The tool indexes guides using action oriented search phrases. It retrieves full markdown guides. This gives developers actionable platform primitives and explicit browser support timelines.
+
+═══ 06_COVERAGE_FINAL ═══
+
+87% covered (7/8). Missing: The dark-mode guide recommends using color-scheme light dark in the head to prevent a flash of un-themed content.
+
+═══ 07_SANITY ═══
+
+ISSUES: un-themed, action oriented, min height one hundred v. h.
+

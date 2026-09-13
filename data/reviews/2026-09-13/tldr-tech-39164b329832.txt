@@ -1,0 +1,57 @@
+═══ 00_KEY_POINTS ═══
+
+1. The system replicates the Postgres auth system, wire protocol, parser, and a shard-aware distributed query planner.
+2. The database example spreads two tables across four shards using primary keys as shard keys.
+3. The full Postgres authentication exchange, including SCRAM-SHA-256, was implemented entirely in Go.
+4. The router's custom parser was built using approximately 18,000 lines of Go code.
+5. The router uses a data topology stored centrally in etcd and cached on every router node.
+6. The router determines shard destinations by extracting the id and running it through a deterministic xxhash function.
+7. Choosing customer id and order id as shard keys means a customer row and their orders are not co-located.
+8. This architecture makes a sharded database practically infinitely scalable while presenting complex engineering challenges.
+
+═══ 01_DRAFT ═══
+
+A sharded Postgres database system called Neki processes queries across multiple servers by replicating the Postgres authentication system, wire protocol, and parser while utilizing a shard-aware distributed query planner. 
+
+When an application sends a query, the Neki router handles the complete Postgres authentication exchange, including SCRAM-SHA-256, entirely in Go. The router supports both the simple query protocol, which sends the entire SQL statement in a single message, and the extended protocol, which separates communication into Parse, Bind, Describe, Execute, and Sync phases. 
+
+The router then converts the query text into an abstract syntax tree using a parser built in approximately 18,000 lines of Go. If no cached plan is available, this syntax tree is passed to the distributed query planner. 
+
+To execute queries across the infrastructure, the planner relies on the database schema from an authoritative shard and data topology stored centrally in etcd and cached on every router node. In a deployment with two tables spread across four shards using primary keys as shard keys, tables are distributed by taking an id, computing a hash using a deterministic xxhash function, and assigning it to a shard based on specific ranges. Because customer rows and their corresponding orders may reside on different shards, the planner creates Route plan nodes to execute scatter-gather queries across the necessary nodes and joins the matching results within the router.
+
+═══ 03_COVERAGE_1 ═══
+
+87% covered (7/8). Missing: This architecture makes a sharded database practically infinitely scalable while presenting complex engineering challenges.
+
+═══ 04_AUDIO_REWRITE ═══
+
+A sharded Postgres database system called , Neki processes queries across multiple servers. It replicates the Postgres authentication system and wire protocol and parser. It also uses a shard-aware distributed query planner. 
+
+When an application sends a query, the Neki router handles the complete Postgres authentication exchange. This includes S. C. R. A. M. dash S. H. A. dash two fifty-six entirely in Go. The router supports the simple query protocol which sends the entire SQL statement in a single message. It also supports the extended protocol which separates communication into Parse and Bind and Describe and Execute and Sync phases. 
+
+The router then converts the query text into an abstract syntax tree. A parser built in approximately eighteen thousand lines of Go does this work. If no cached plan is available, this syntax tree is passed to the distributed query planner. 
+
+To execute queries across the infrastructure, the planner relies on the database schema from an authoritative shard. It also uses data topology stored centrally in etcd and cached on every router node. In a deployment with two tables spread across four shards using primary keys as shard keys, tables are distributed in a specific way. The system takes an I. D. and computes a hash using a deterministic xxhash function. It then assigns it to a shard based on specific ranges. 
+
+Customer rows and their corresponding orders may reside on different shards. To handle this, the planner creates Route plan nodes to execute scatter-gather queries across the necessary nodes. Then it joins the matching results within the router.
+
+═══ 05_NORMALIZED ═══
+
+A sharded Postgres database system called, Neki processes queries across multiple servers. It replicates the Postgres authentication system and wire protocol and parser. It also uses a shard-aware distributed query planner.
+
+When an application sends a query, the Neki router handles the complete Postgres authentication exchange. This includes S. C. R. A. M. dash S. H. A. dash two fifty-six entirely in Go. The router supports the simple query protocol which sends the entire S Q L. statement in a single message. It also supports the extended protocol which separates communication into Parse and Bind and Describe and Execute and Sync phases.
+
+The router then converts the query text into an abstract syntax tree. A parser built in approximately eighteen thousand lines of Go does this work. If no cached plan is available, this syntax tree is passed to the distributed query planner.
+
+To execute queries across the infrastructure, the planner relies on the database schema from an authoritative shard. It also uses data topology stored centrally in etcd and cached on every router node. In a deployment with two tables spread across four shards using primary keys as shard keys, tables are distributed in a specific way. The system takes an I. D. and computes a hash using a deterministic xxhash function. It then assigns it to a shard based on specific ranges.
+
+Customer rows and their corresponding orders may reside on different shards. To handle this, the planner creates Route plan nodes to execute scatter-gather queries across the necessary nodes. Then it joins the matching results within the router.
+
+═══ 06_COVERAGE_FINAL ═══
+
+87% covered (7/8). Missing: This architecture makes a sharded database practically infinitely scalable while presenting complex engineering challenges.
+
+═══ 07_SANITY ═══
+
+ISSUES: S Q L.
+
