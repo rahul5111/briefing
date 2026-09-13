@@ -1,0 +1,36 @@
+═══ 00_KEY_POINTS ═══
+
+1. The new iOS 27 update adds a much-requested slider to customize the Liquid Glass effect.
+2. Users can adjust the slider to make the Liquid Glass look more transparent or opaque.
+3. Apple made iOS 27 compatible with iPhone 11 models and upwards.
+4. Users can completely disable Liquid Glass by enabling the Reduce Transparency toggle in Accessibility settings.
+5. The public release of iOS 27 rolled out in September after being accessible to developers.
+
+═══ 01_DRAFT ═══
+
+Apple has released iOS 27, introducing new customization controls for the Liquid Glass interface following user complaints about readability. The update adds a slider within the Settings app under Appearance and the Liquid Glass menu, replacing previous rigid toggles. Dragging the slider to the left makes the interface look more like glass, while dragging it to the right increases opacity, and the center position balances both effects. A live preview is displayed directly on the screen. Adjustments for the Lock Screen intensity remain separate from the main settings slider. Users wishing to disable the effect completely can navigate to Accessibility settings, select Display and Text Size, and enable the Reduce Transparency toggle. iOS 27 is compatible with iPhone 11 models and newer, with the public release rolling out in September following developer and beta testing phases.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Apple has released iOS 27, introducing new customization controls for the Liquid Glass interface following user complaints about readability. The update adds a slider within the Settings app under Appearance and the Liquid Glass menu, replacing previous rigid toggles. Dragging the slider to the left makes the interface look more like glass, while dragging it to the right increases opacity, and the center position balances both effects. A live preview is displayed directly on the screen, though the option to adjust the intensity of the glass effect on the Lock Screen remains separate from the main settings slider. Users wishing to disable the effect almost completely can navigate to Accessibility settings, select Display & Text Size, and enable the Reduce Transparency toggle. iOS 27 is compatible with iPhone 11 models and upwards, with the public release rolling out in September following developer and beta testing phases.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (5/5). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Apple has released I. O. S. twenty-seven. It brings new customization controls for the Liquid Glass interface. Users complained about readability. The update adds a slider inside the Settings app. You will find it under Appearance and the Liquid Glass menu. This slider replaces previous rigid toggles. Dragging the slider to the left makes the interface look more like glass. Dragging it to the right increases opacity. The center position balances both effects. A live preview shows up directly on the screen. The option to adjust the glass effect on the Lock Screen remains separate. That control stays outside the main settings slider. Users can disable the effect almost completely. They need to navigate to Accessibility settings. Next, they select Display and Text Size. Finally, they enable the Reduce Transparency toggle. I. O. S. twenty-seven works with iPhone eleven models and upwards. The public release rolls out in September. This follows developer and beta testing phases.
+
+═══ 05_NORMALIZED ═══
+
+Apple has released I. O. S. twenty-seven. It brings new customization controls for the Liquid Glass interface. Users complained about readability. The update adds a slider inside the Settings app. You will find it under Appearance and the Liquid Glass menu. This slider replaces previous rigid toggles. Dragging the slider to the left makes the interface look more like glass. Dragging it to the right increases opacity. The center position balances both effects. A live preview shows up directly on the screen. The option to adjust the glass effect on the Lock Screen remains separate. That control stays outside the main settings slider. Users can disable the effect almost completely. They need to navigate to Accessibility settings. Next, they select Display and Text Size. Finally, they enable the Reduce Transparency toggle. I. O. S. twenty-seven works with iPhone eleven models and upwards. The public release rolls out in September. This follows developer and beta testing phases.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (5/5). Missing: none
+
+═══ 07_SANITY ═══
+
+OK
+

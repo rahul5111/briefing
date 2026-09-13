@@ -1,0 +1,56 @@
+═══ 00_KEY_POINTS ═══
+
+1. Anthropic CEO Dario Amodei published an open letter arguing for slowing down artificial intelligence development.
+2. OpenAI leader Sam Altman and Elon Musk publicly voiced their support for slowing down development.
+3. Donald Trump and House Speaker Mike Johnson believe that the artificial intelligence industry is currently overreacting.
+4. Donald Trump and Mike Johnson fear that an artificial intelligence pause would allow China to outpace the United States.
+5. Donald Trump stated that the United States is currently leading China in artificial intelligence and wants to maintain that position.
+
+═══ 01_DRAFT ═══
+
+Donald Trump and House Speaker Mike Johnson believe major artificial intelligence executives are overreacting by calling for a slowdown in AI development. The pushback follows an open letter published by Anthropic CEO Dario Amodei, who argued it is time to pace the frontier of AI. OpenAI CEO Sam Altman, xAI head Elon Musk, and Alphabet's Demis Hassabis all publicly voiced support for Amodei's proposal. In contrast, Trump and Johnson fear that a pause in development could allow China to outpace the United States in the global artificial intelligence race. Defending the White House's light-touch approach to regulation, Trump told the Financial Times, Look, we're leading China in AI and, frankly, I want to keep it that way, because whoever wins AI, wins.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Donald Trump and House Speaker Mike Johnson believe major artificial intelligence executives are overreacting by calling for a slowdown in AI development. The pushback follows an open letter published by Anthropic CEO Dario Amodei, who argued it is time to pace the frontier of AI. OpenAI's Sam Altman and Elon Musk both agreed, publicly voicing their support on X, while Alphabet's Demis Hassabis offered tentative support for Amodei's proposal. Trump and Johnson seem to think the AI executives are being overreactive and fear that a pause could lead to China outpacing the US in the AI race. Defending the White House's light-touch on regulation, Trump told the Financial Times, "Look, we're leading China in AI … and, frankly, I want to keep it that way, because whoever wins AI, wins."
+
+═══ 02b_TRIMMED ═══
+
+Donald Trump and House Speaker Mike Johnson believe major artificial intelligence executives are overreacting by calling for a slowdown in AI development. The pushback follows an open letter published by Anthropic CEO Dario Amodei, who argued it is time to pace the frontier of AI. OpenAI's Sam Altman and Elon Musk both agreed, publicly voicing their support on X, while Alphabet's Demis Hassabis offered tentative support for Amodei's proposal. Trump and Johnson seem to think the AI executives are being overreactive and fear that a pause could lead to China outpacing the US in the AI race.
+
+═══ 03_COVERAGE_1 ═══
+
+80% covered (4/5). Missing: Donald Trump stated that the United States is currently leading China in artificial intelligence and wants to maintain that position.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+Donald Trump and House Speaker Mike Johnson believe major artificial intelligence executives are overreacting by calling for a slowdown in AI development. The pushback follows an open letter published by Anthropic CEO Dario Amodei, who argued it is time to pace the frontier of AI. OpenAI's Sam Altman and Elon Musk both agreed, publicly voicing their support on X, while Alphabet's Demis Hassabis offered tentative support for Amodei's proposal. Donald Trump stated that the United States is currently leading China in artificial intelligence and wants to maintain that position. Trump and Johnson seem to think the AI executives are being overreactive and fear that a pause could lead to China outpacing the US in the AI race.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Donald Trump and House Speaker Mike Johnson believe major artificial intelligence executives are overreacting. Those executives recently called for a slowdown in artificial intelligence development. 
+
+The pushback follows an open letter published by Dario Amodei. He is the chief executive officer of Anthropic. He argued it is time to pace the frontier of artificial intelligence. 
+
+Sam Altman from OpenAI and Elon Musk both agreed with the letter. They publicly voiced their support on X. Demis Hassabis from Alphabet offered tentative support for the proposal. 
+
+Donald Trump stated that the United States is currently leading China in artificial intelligence. He wants to maintain that position. Trump and Johnson fear that a pause could lead to China outpacing the United States in the artificial intelligence race.
+
+═══ 05_NORMALIZED ═══
+
+Donald Trump and House Speaker Mike Johnson believe major artificial intelligence executives are overreacting. Those executives recently called for a slowdown in artificial intelligence development.
+
+The pushback follows an open letter published by Dario Amodei. He is the chief executive officer of Anthropic. He argued it is time to pace the frontier of artificial intelligence.
+
+Sam Altman from OpenAI and Elon Musk both agreed with the letter. They publicly voiced their support on X. Demis Hassabis from Alphabet offered tentative support for the proposal.
+
+Donald Trump stated that the United States is currently leading China in artificial intelligence. He wants to maintain that position. Trump and Johnson fear that a pause could lead to China outpacing the United States in the artificial intelligence race.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (5/5). Missing: none
+
+═══ 07_SANITY ═══
+
+OK
+

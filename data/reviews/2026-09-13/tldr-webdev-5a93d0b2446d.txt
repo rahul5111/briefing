@@ -1,0 +1,33 @@
+═══ 00_KEY_POINTS ═══
+
+1. OpenAI is introducing the Agents API in public beta today to all developers.
+2. The Agents API brings the harness and infrastructure that powers Codex directly to developers.
+3. Developers can choose between an OpenAI-managed sandbox, their own infrastructure, or sandbox partners.
+4. OpenAI has partnered with providers like Cloudflare, DigitalOcean, Modal, and Oracle for integrations.
+5. There are no additional fees for using the Agents API beyond normal token and tool costs.
+6. The API provides automatic context compaction, tool search, and multi-agent support for developers.
+
+═══ 01_DRAFT ═══
+
+OpenAI is introducing the Agents API in public beta today, bringing the harness and infrastructure that powers Codex and ChatGPT for Work to developers through a simple and flexible application programming interface. The new API allows developers to create a production-ready agent in a single call by specifying the task, model, tools, and environment. Developers can choose between an OpenAI-hosted sandbox, their own infrastructure, or options provided by ecosystem partners including Blaxel, Cloudflare, Daytona, DigitalOcean, E2B, Modal, Oracle, Runloop, and Vercel. The open-source Codex harness powers the API, providing automated context compaction for long-running sessions, tool search and programmatic tool calling, and multi-agent support that breaks complex tasks into independent pieces for parallel subagents. There are no additional fees for using the Agents API during the public beta, and developers simply pay for the tokens and tools their agents use.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Open.A.I. is introducing the Agents A.P.I. in public beta today. It brings the infrastructure that powers Codex and ChatGPT for Work to developers. They can use a simple and flexible application programming interface. The new A.P.I. allows developers to create a production-ready agent in a single call. They just need to specify the task and the model and the tools and the environment. Developers can choose between an Open.A.I. hosted sandbox or their own infrastructure. They can also use options provided by ecosystem partners. These partners include ,Blaxel and ,Cloudflare and ,Daytona and ,DigitalOcean. The list also includes ,E.2.B. and ,Modal and ,Oracle and ,Runloop and ,Vercel. The open-source Codex harness powers the A.P.I. It provides automated context compaction for long-running sessions. It also offers tool search and programmatic tool calling. Another feature is multi-agent support that breaks complex tasks into independent pieces for parallel subagents. There are no additional fees for using the Agents A.P.I. during the public beta. Developers simply pay for the tokens and tools their agents use.
+
+═══ 05_NORMALIZED ═══
+
+Open.A.I. is introducing the Agents A.P.I. in public beta today. It brings the infrastructure that powers Codex and ChatGPT for Work to developers. They can use a simple and flexible application programming interface. The new A.P.I. allows developers to create a production-ready agent in a single call. They just need to specify the task and the model and the tools and the environment. Developers can choose between an Open.A.I. hosted sandbox or their own infrastructure. They can also use options provided by ecosystem partners. These partners include,Blaxel and,Cloudflare and,Daytona and,DigitalOcean. The list also includes,E.2.B. and,Modal and,Oracle and,Runloop and,Vercel. The open-source Codex harness powers the A.P.I. It provides automated context compaction for long-running sessions. It also offers tool search and programmatic tool calling. Another feature is multi-agent support that breaks complex tasks into independent pieces for parallel subagents. There are no additional fees for using the Agents A.P.I. during the public beta. Developers simply pay for the tokens and tools their agents use.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: unspoken/unspaced acronyms
+

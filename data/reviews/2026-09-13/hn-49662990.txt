@@ -1,0 +1,61 @@
+═══ 00_KEY_POINTS ═══
+
+1. The developer of the puzzle app Dayzle spent $220 on a Google Ads campaign.
+2. Sixty percent of the reported app installs during the campaign were actually automated bots.
+3. Twenty-one new Android devices were registered in one day, but twenty ran an outdated app version.
+4. The developer suspects a bot farm because thirty-three installs showed identical non-human behavior patterns.
+5. Google's algorithm rewarded the bot farm activity, creating a feedback loop that wasted the ad spend.
+6. The campaign goal was changed from app installs to winning a puzzle to deter future bots.
+
+═══ 01_DRAFT ═══
+
+The creator of the small puzzle app Dayzle spent CA$220 on a two-week Google Ads campaign for Android, set to an install goal, only to discover that roughly 60 percent of the billed installs were driven by what appears to be a bot farm. After removing a target cost-per-install of $1.50, the campaign spent CA$80 in a single day and reported 21 installs. Raw analytics revealed that 20 of those devices were running an old version of the app no longer served by the Play Store, yet all claimed Google Play was the installer. Each device opened the app once for zero seconds and never returned, spanning 28 phone models across 19 states. Over the entire two-week campaign, Google billed 56 installs, of which 33 matched the bot pattern, 7 originated from untargeted countries, and only 13 were genuine users. The developer found that Google's algorithm optimized for the install goal by feeding a feedback loop, as bot farms viewed the shortest ad video and installed a saved copy of the file rather than downloading from the store, tricking Google into sending more ads to the farm. In response, the developer filed an invalid-traffic form with Google and changed the campaign conversion goal from app opens to winning a puzzle, raising the effort required for a script to farm the app.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+The creator of the small puzzle app Dayzle ran a two-week Google Ads campaign for Android with the goal set to installs. After the campaign struggled to spend initially, removing the target cost-per-install caused it to spend CA$80 in a single day and report 21 installs. Raw analytics revealed that 20 of those devices were running an old version of the app no longer served by the Play Store, yet all claimed Google Play was the installer. Each device opened the app once for zero seconds and never returned, spanning 28 phone models across 19 states. Over the entire two-week campaign, Google billed 56 installs, of which 33 matched the bot pattern, 7 originated from untargeted countries, and only 13 were genuine users. The developer found that Google's algorithm optimized for the install goal by feeding a feedback loop, as bot farms viewed the shortest ad video and installed a saved copy of the file rather than downloading from the store, tricking Google into sending more ads to the farm. In response, the developer filed an invalid-traffic form with Google and changed the campaign conversion goal from app opens to winning a puzzle, raising the effort required for a script to farm the app.
+
+═══ 02b_TRIMMED ═══
+
+The creator of the small puzzle app Dayzle ran a two-week Google Ads campaign for Android with the goal set to installs. Raw analytics revealed that 20 of those devices were running an old version of the app no longer served by the Play Store, yet all claimed Google Play was the installer. Over the entire two-week campaign, Google billed 56 installs, of which 33 matched the bot pattern, 7 originated from untargeted countries, and only 13 were genuine users. The developer found that Google's algorithm optimized for the install goal by feeding a feedback loop, as bot farms viewed the shortest ad video and installed a saved copy of the file rather than downloading from the store, tricking Google into sending more ads to the farm. In response, the developer filed an invalid-traffic form with Google and changed the campaign conversion goal from app opens to winning a puzzle, raising the effort required for a script to farm the app.
+
+═══ 03_COVERAGE_1 ═══
+
+66% covered (4/6). Missing: The developer of the puzzle app Dayzle spent $220 on a Google Ads campaign.; Twenty-one new Android devices were registered in one day, but twenty ran an outdated app version.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+The creator of the small puzzle app Dayzle spent $220 on a Google Ads campaign for Android with the goal set to installs. Raw analytics revealed that twenty-one new Android devices were registered in one day, but twenty of those devices were running an old version of the app no longer served by the Play Store, yet all claimed Google Play was the installer. Over the entire two-week campaign, Google billed 56 installs, of which 33 matched the bot pattern, 7 originated from untargeted countries, and only 13 were genuine users. The developer found that Google's algorithm optimized for the install goal by feeding a feedback loop, as bot farms viewed the shortest ad video and installed a saved copy of the file rather than downloading from the store, tricking Google into sending more ads to the farm. In response, the developer filed an invalid-traffic form with Google and changed the campaign conversion goal from app opens to winning a puzzle, raising the effort required for a script to farm the app.
+
+═══ 04_AUDIO_REWRITE ═══
+
+The creator of the small puzzle app Dayzle spent two hundred twenty dollars on a Google Ads campaign for Android. The goal of the campaign was set to installs. 
+
+Raw analytics revealed that twenty-one new Android devices were registered in one day. Twenty of those devices were running an old version of the app no longer served by the Play Store. Yet all of them claimed Google Play was the installer. 
+
+Over the entire two-week campaign, Google billed fifty-six installs. Thirty-three of those matched the bot pattern. Seven originated from untargeted countries. Only thirteen were genuine users. 
+
+The developer found that the algorithm optimized for the install goal by feeding a feedback loop. Bot farms viewed the shortest ad video and installed a saved copy of the file rather than downloading from the store. This tricked Google into sending more ads to the farm. 
+
+In response, the developer filed an invalid-traffic form with Google. The developer also changed the campaign conversion goal from app opens to winning a puzzle. This raised the effort required for a script to farm the app.
+
+═══ 05_NORMALIZED ═══
+
+The creator of the small puzzle app Dayzle spent two hundred twenty dollars on a Google Ads campaign for Android. The goal of the campaign was set to installs.
+
+Raw analytics revealed that twenty-one new Android devices were registered in one day. Twenty of those devices were running an old version of the app no longer served by the Play Store. Yet all of them claimed Google Play was the installer.
+
+Over the entire two-week campaign, Google billed fifty-six installs. Thirty-three of those matched the bot pattern. Seven originated from untargeted countries. Only thirteen were genuine users.
+
+The developer found that the algorithm optimized for the install goal by feeding a feedback loop. Bot farms viewed the shortest ad video and installed a saved copy of the file rather than downloading from the store. This tricked Google into sending more ads to the farm.
+
+In response, the developer filed an invalid-traffic form with Google. The developer also changed the campaign conversion goal from app opens to winning a puzzle. This raised the effort required for a script to farm the app.
+
+═══ 06_COVERAGE_FINAL ═══
+
+83% covered (5/6). Missing: Sixty percent of the reported app installs during the campaign were actually automated bots.
+
+═══ 07_SANITY ═══
+
+OK
+

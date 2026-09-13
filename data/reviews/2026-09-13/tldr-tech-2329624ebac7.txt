@@ -1,0 +1,54 @@
+═══ 00_KEY_POINTS ═══
+
+1. The author's software factory run last week involved 7 tasks, 90,000 lines of code changes, and 15 hours of agent work.
+2. The factory run utilized 91 unique agents and required only two human actions for starting and reviewing.
+3. The author has been building this software factory for the last 6 months.
+4. Separating work creation from work execution through two distinct loops provides the single biggest efficiency gain.
+5. The second core principle states that the author must never write any lines of code themselves.
+6. The planning loop consumes an average of 1 million tokens per issue, while the build loop consumes 0.5 million tokens.
+7. The author aims to improve machine output by fixing the machine rather than directly fixing the agent's code.
+
+═══ 01_DRAFT ═══
+
+An experienced developer managing an AI-driven software factory shared a workflow breakdown involving a real factory run from the previous week. The run featured seven tasks, 90,000 lines of code changes, and fifteen hours of agent work with two human actions to start the process and review before final deployment. The operation involved 91 unique agents working in parallel. 
+
+The system relies on a control layer where agents connect by messages and actions, split into two primary loops. The first loop handles planning and creating specs, while the second manages execution and creating code. The planning loop averages one million tokens per issue, compared to 0.5 million tokens for the build loop. 
+
+The workflow is guided by four main principles. First, developers must be explicit about where to bottleneck the system, controlling human involvement by focusing attention on narrower choke-points like pull requests rather than reviewing every line of code. Second, developers must not write any lines of code; when output is unsatisfactory, the machine is fixed rather than the code. Third, validation is shifted left toward ideation and planning. Fourth, deterministic code and static analysis scripts are enforced over prose and LLMs wherever possible, including dead code removal, complexity caps, and strict type systems. 
+
+The planning loop utilizes Claude Code's native Plan mode and a github-issue-create skill to establish original user intent, acceptance criteria, and specific validation steps across unit tests, end-to-end tests, local browser testing, and post-deploy production testing.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+An experienced developer managing an AI-driven software factory shared a workflow breakdown involving a real factory run from the previous week. The run featured 7 tasks and 90k LOC changes, with agents working for 15 hours, alongside two human actions—one starting it, the other reviewing before final deploy. The operation involved 91 unique agents. 
+
+The system relies on a control layer where agents connect by messages and actions, split into two primary loops. The first loop handles planning and creating specs, while the second manages execution and creating code. The planning loop averages one million tokens per issue, compared to 0.5 million tokens for the build loop. 
+
+The workflow is guided by four main principles. First, developers must be explicit about where to bottleneck the system, controlling human involvement by focusing attention on narrower choke-points like pull requests rather than reviewing every line of code. Second, developers must not write any lines of code; when output is unsatisfactory, the machine is fixed rather than the code. Third, validation is shifted left, as finding a problem early in plan validation prevents wasting time and undoing work. Fourth, if something can be validated by good-old code instead of the LLM, deterministic scripted parts and static analysis are preferred over prose and models. 
+
+The planning loop utilizes Claude Code's native Plan mode and a github-issue-create skill to establish original user intent, acceptance criteria, and specific validation steps across unit tests, end-to-end tests, local browser testing, and post-deploy production testing.
+
+═══ 02b_TRIMMED ═══
+
+An experienced developer managing an AI-driven software factory shared a workflow breakdown involving a real factory run from the previous week. The run featured 7 tasks and 90k LOC changes, with agents working for 15 hours, alongside two human actions—one starting it, the other reviewing before final deploy. The operation involved 91 unique agents. The system relies on a control layer where agents connect by messages and actions, split into two primary loops. The first loop handles planning and creating specs, while the second manages execution and creating code. The planning loop averages one million tokens per issue, compared to 0.5 million tokens for the build loop. The workflow is guided by four main principles. First, developers must be explicit about where to bottleneck the system, controlling human involvement by focusing attention on narrower choke-points like pull requests rather than reviewing every line of code. Second, developers must not write any lines of code; when output is unsatisfactory, the machine is fixed rather than the code. The planning loop utilizes Claude Code's native Plan mode and a github-issue-create skill to establish original user intent, acceptance criteria, and specific validation steps across unit tests, end-to-end tests, local browser testing, and post-deploy production testing.
+
+═══ 03_COVERAGE_1 ═══
+
+85% covered (6/7). Missing: The author has been building this software factory for the last 6 months.
+
+═══ 04_AUDIO_REWRITE ═══
+
+An experienced developer managing an A. I. driven software factory shared a workflow breakdown from a real factory run last week. The run featured seven tasks and ninety thousand lines of code changes. Autonomous agents worked for fifteen hours. There were two human actions. One human started the process, and another reviewed the work before final deployment. The operation involved ninety-one unique agents. The system relies on a control layer where agents connect by messages and actions. This layer is split into two primary loops. The first loop handles planning and creating specifications. The second loop manages execution and creates code. The planning loop averages one million tokens per issue. The build loop averages zero point five million tokens. The workflow is guided by four main principles. First, developers must be explicit about where to bottleneck the system. They control human involvement by focusing attention on narrower choke points like pull requests rather than reviewing every line of code. Second, developers must not write any lines of code. When output is unsatisfactory, the machine is fixed rather than the code. The planning loop utilizes Claude Code's native Plan mode and a skill called github-issue-create. This establishes original user intent, acceptance criteria, and specific validation steps across unit tests, end-to-end tests, local browser testing, and post-deploy production testing.
+
+═══ 05_NORMALIZED ═══
+
+An experienced developer managing an A. I. driven software factory shared a workflow breakdown from a real factory run last week. The run featured seven tasks and ninety thousand lines of code changes. Autonomous agents worked for fifteen hours. There were two human actions. One human started the process, and another reviewed the work before final deployment. The operation involved ninety-one unique agents. The system relies on a control layer where agents connect by messages and actions. This layer is split into two primary loops. The first loop handles planning and creating specifications. The second loop manages execution and creates code. The planning loop averages one million tokens per issue. The build loop averages zero point five million tokens. The workflow is guided by four main principles. First, developers must be explicit about where to bottleneck the system. They control human involvement by focusing attention on narrower choke points like pull requests rather than reviewing every line of code. Second, developers must not write any lines of code. When output is unsatisfactory, the machine is fixed rather than the code. The planning loop utilizes Claude Code's native Plan mode and a skill called github-issue-create. This establishes original user intent, acceptance criteria, and specific validation steps across unit tests, end-to-end tests, local browser testing, and post-deploy production testing.
+
+═══ 06_COVERAGE_FINAL ═══
+
+85% covered (6/7). Missing: The author has been building this software factory for the last 6 months.
+
+═══ 07_SANITY ═══
+
+ISSUES: unspoken/unspaced acronyms
+

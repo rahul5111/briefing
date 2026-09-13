@@ -1,0 +1,57 @@
+═══ 00_KEY_POINTS ═══
+
+1. Researchers published a study in Science on September 13, 2026, revealing that the 3D organization of DNA is disrupted in Alzheimer's disease brain cells.
+2. Alzheimer's disease currently affects seven million Americans, a growing number that makes discovering new treatment avenues critical.
+3. Scientists combined single-cell technology, spatial mapping, and an artificial intelligence model named Hicformer to analyze postmortem brain tissue samples.
+4. The study established higher-order chromatin alterations as a new component of the molecular pathology associated with Alzheimer's disease.
+5. Alzheimer's cells displayed increased compartment mingling, meaning large active and inactive genomic regions had less sharply defined boundaries.
+6. Jian Ma stated that Alzheimer's disease cannot be understood one layer at a time and that the genome's 3D structure is a fundamental regulatory layer.
+
+═══ 01_DRAFT ═══
+
+Researchers from Carnegie Mellon University, the University of Pittsburgh, and the University of Washington published a study in Science on September 13, 2026, revealing that the three-dimensional organization of the genome is disrupted in brain cells affected by Alzheimer's disease. The team examined postmortem prefrontal cortex tissue samples from individuals with and without Alzheimer's using a technique called GAGE-seq, spatial transcriptomic maps, and a deep learning model named Hicformer. 
+
+The investigation showed that large sections of the genome normally organized into distinct active and inactive compartments become less sharply defined in Alzheimer's cells, a pattern the researchers call increased compartment mingling. Affected cells displayed fewer interactions between nearby genome sections, more contacts between distant regions, and weaker interactions between genes and nearby regulatory elements. These structural shifts were linked to reduced gene activity in programs involving neurons and synapses, alterations in metabolism and cellular stress responses, and senescence-related programs in microglia.
+
+"Alzheimer's disease cannot be understood one layer at a time," said Jian Ma, the Ray and Stephanie Lane Professor of Computational Biology who led the study. Hansruedi Mathys, assistant professor of neurobiology at the University of Pittsburgh, noted that the findings establish higher-order chromatin alterations as part of the molecular pathology associated with the disease, which currently affects seven million Americans. The research was supported by grants from the National Institutes of Health.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Researchers from Carnegie Mellon University, the University of Pittsburgh, and the University of Washington published a study in Science on September thirteenth, twenty twenty-six. The study revealed that the three-dimensional organization of the genome is disrupted in brain cells affected by Alzheimer's disease. 
+
+The team examined postmortem prefrontal cortex tissue samples from individuals with and without Alzheimer's disease. They used a technique called G. A. G. E. dash seq, spatial transcriptomic maps, and a deep learning model named Hicformer. 
+
+The investigation showed that large sections of the genome normally organized into distinct active and inactive compartments become less sharply defined in Alzheimer's cells. The researchers call this pattern increased compartment mingling. 
+
+Affected cells displayed fewer interactions between nearby genome sections. They showed more contacts between distant regions and weaker interactions between genes and nearby regulatory elements. These structural shifts were linked to reduced gene activity in programs involving neurons and synapses. They also linked to alterations in metabolism and cellular stress responses along with senescence-related programs in microglia. 
+
+Alzheimer's disease cannot be understood one layer at a time. That quote came from Jian Ma, the Ray and Stephanie Lane Professor of Computational Biology who led the study. 
+
+Hansruedi Mathys, assistant professor of neurobiology at the University of Pittsburgh, noted that the findings establish higher-order chromatin alterations as part of the molecular pathology associated with the disease. The disease currently affects seven million Americans. The research was supported by grants from the National Institutes of Health.
+
+═══ 05_NORMALIZED ═══
+
+Researchers from Carnegie Mellon University, the University of Pittsburgh, and the University of Washington published a study in Science on September thirteenth, twenty twenty-six. The study revealed that the three-dimensional organization of the genome is disrupted in brain cells affected by Alzheimer's disease.
+
+The team examined postmortem prefrontal cortex tissue samples from individuals with and without Alzheimer's disease. They used a technique called G. A. G. E. dash seq, spatial transcriptomic maps, and a deep learning model named Hicformer.
+
+The investigation showed that large sections of the genome normally organized into distinct active and inactive compartments become less sharply defined in Alzheimer's cells. The researchers call this pattern increased compartment mingling.
+
+Affected cells displayed fewer interactions between nearby genome sections. They showed more contacts between distant regions and weaker interactions between genes and nearby regulatory elements. These structural shifts were linked to reduced gene activity in programs involving neurons and synapses. They also linked to alterations in metabolism and cellular stress responses along with senescence-related programs in microglia.
+
+Alzheimer's disease cannot be understood one layer at a time. That quote came from Jian Ma, the Ray and Stephanie Lane Professor of Computational Biology who led the study.
+
+Hansruedi Mathys, assistant professor of neurobiology at the University of Pittsburgh, noted that the findings establish higher-order chromatin alterations as part of the molecular pathology associated with the disease. The disease currently affects seven million Americans. The research was supported by grants from the National Institutes of Health.
+
+═══ 06_COVERAGE_FINAL ═══
+
+83% covered (5/6). Missing: Scientists combined single-cell technology, spatial mapping, and an artificial intelligence model named Hicformer to analyze postmortem brain tissue samples.
+
+═══ 07_SANITY ═══
+
+OK
+

@@ -1,0 +1,49 @@
+═══ 00_KEY_POINTS ═══
+
+1. The iOS 27 update officially leaves beta on Monday for eligible iPhone users.
+2. Apple Intelligence features in iOS 27 require an iPhone 15 Pro or newer device.
+3. The new Safari Notify Me feature lets users scan web pages for specific content changes.
+4. Safari can let you know when a website updates the content you are interested in.
+5. Describe an Extension generates custom browser extensions based on what the user types.
+6. The Organize Tabs feature can automatically create topics to sort hundreds of open tabs.
+
+═══ 01_DRAFT ═══
+
+When iOS 27 leaves beta on Monday, Apple is introducing three new Safari settings powered by Apple Intelligence, which requires an iPhone 15 Pro or newer, and is also available on iPadOS 27 and macOS 27. The first feature is called Notify Me, which lets users scan a webpage on a certain cadence to look for changes such as price drops, ticket drops, or privacy policy changes. Found by tapping the three-lined hamburger menu in the top right corner of Safari, the feature provides an open text box where users can describe what change in content they want Safari to scan for and how often to check. As the feature description states, Safari can let you know when a website updates the content you are interested in. The second feature is Describe an Extension, located further down in the same settings menu. It asks users to type what they want a browser extension to do and generates custom options within seconds, such as displaying a reading time estimate, making a webpage grayscale, or showing fireworks when tapped. The third feature is Organize Tabs, which can be accessed by tapping the two overlapping squares at the bottom right corner of the screen, swiping to a tab group, and selecting the three-lined button in the top left to allow Safari to automatically create topics based on open tabs.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+When iOS 27 leaves beta on Monday, Apple is introducing three new Safari settings powered by Apple Intelligence, which requires an iPhone 15 Pro or newer, and is also available on iPadOS 27 and macOS 27. The first feature is called Notify Me, which lets users scan a webpage on a certain cadence to look for changes such as price drops, ticket drops, or privacy policy changes. Located by heading to the page you want to track and tapping the three-lined hamburger menu icon in the top right corner of Safari, the feature provides an open text box where users can describe what change in content they want Safari to scan for and how often to check. As the feature description states, Safari can let you know when a website updates the content you are interested in. The second feature is Describe an Extension, located further down in the same settings menu. It asks users to type what they want a browser extension to do and generates custom options within seconds, such as displaying a reading time estimate, making a webpage grayscale, or showing fireworks when tapped. The third feature is Organize Tabs, which can be accessed by tapping the two overlapping squares at the bottom right corner of the screen, swiping to a tab group, and selecting the three-lined button in the top left to allow Safari to automatically create topics based on open tabs.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Apple is launching three new Safari settings on Monday when I. O. S. twenty-seven leaves beta. These tools are powered by Apple Intelligence. They require an iPhone fifteen Pro or newer. They are also available on iPad. O. S. twenty-seven and Mac. O. S. twenty-seven. 
+
+The first feature is called Notify Me. Users can scan a webpage on a certain cadence to look for changes. Examples include price drops and ticket drops and privacy policy changes. You find this by heading to the page you want to track. Then you tap the three-lined hamburger menu icon in the top right corner of Safari. The feature provides an open text box. Users can describe what change in content they want Safari to scan for and how often to check. The feature description states that Safari can let you know when a website updates the content you are interested in. 
+
+The second feature is Describe an Extension. It is located further down in the same settings menu. It asks users to type what they want a browser extension to do. It generates custom options within seconds. Examples include displaying a reading time estimate or making a webpage grayscale or showing fireworks when tapped. 
+
+The third feature is Organize Tabs. You access this by tapping the two overlapping squares at the bottom right corner of the screen. Then you swipe to a tab group. Next you select the three-lined button in the top left. This allows Safari to automatically create topics based on open tabs.
+
+═══ 05_NORMALIZED ═══
+
+Apple is launching three new Safari settings on Monday when I. O. S. twenty-seven leaves beta. These tools are powered by Apple Intelligence. They require an iPhone fifteen Pro or newer. They are also available on iPad. O. S. twenty-seven and Mac. O. S. twenty-seven.
+
+The first feature is called Notify Me. Users can scan a webpage on a certain cadence to look for changes. Examples include price drops and ticket drops and privacy policy changes. You find this by heading to the page you want to track. Then you tap the three-lined hamburger menu icon in the top right corner of Safari. The feature provides an open text box. Users can describe what change in content they want Safari to scan for and how often to check. The feature description states that Safari can let you know when a website updates the content you are interested in.
+
+The second feature is Describe an Extension. It is located further down in the same settings menu. It asks users to type what they want a browser extension to do. It generates custom options within seconds. Examples include displaying a reading time estimate or making a webpage grayscale or showing fireworks when tapped.
+
+The third feature is Organize Tabs. You access this by tapping the two overlapping squares at the bottom right corner of the screen. Then you swipe to a tab group. Next you select the three-lined button in the top left. This allows Safari to automatically create topics based on open tabs.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: unspoken/unspaced acronyms
+

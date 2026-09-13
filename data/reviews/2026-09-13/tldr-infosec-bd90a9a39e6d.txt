@@ -1,0 +1,47 @@
+═══ 00_KEY_POINTS ═══
+
+1. XPENG officially commissioned its humanoid robot production lines on September 8, 2026, in Guangzhou, China.
+2. The new production facility achieved core process automation exceeding 80 percent to build advanced humanoid robots.
+3. XPENG's IRON robot features 76 degrees of freedom across the body and 21 degrees in each hand.
+4. The IRON robot is powered by three Turing AI chips delivering up to 2250 TOPS of effective computing power.
+5. XPENG robots are scheduled to enter mass production by the end of this year.
+6. The official market launch and delivery of XPENG robots in China and overseas markets are planned for 2027.
+7. XPENG's robotics business raised over 900 million US dollars at a post-money valuation exceeding 6.3 billion US dollars.
+8. This milestone matters because it marks a critical leap from research and development prototyping to scaled manufacturing for advanced humanoid robots.
+
+═══ 01_DRAFT ═══
+
+XPeng announced on September 8, 2026, in Guangzhou, China, that it has officially commissioned its humanoid robot production lines and completed the manufacturing of its next-generation IRON humanoid robot, which autonomously walked off the line. The production lines feature core process automation exceeding 80 percent and integrate automotive-grade quality systems. The IRON robot features 76 degrees of freedom across the body and 21 in each hand, and is powered by three Turing AI chips delivering up to 2,250 TOPS of computing power. Chairman and CEO He Xiaopeng stated that the robot production lines were created from scratch with no precedent to follow, noting that the company is building production lines for an entirely new product category. XPeng robots are scheduled to enter mass production by the end of 2026, with initial commercial scenarios rolling out in XPeng stores and campuses, followed by official market launch and delivery in China and overseas markets in 2027. Additionally, XPeng's robotics business recently entered into share purchase agreements raising over 900 million US dollars at a post-money valuation exceeding 6.3 billion US dollars, marking the largest single-round private capital raise in China's embodied AI industry to date.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+XPeng announced on September 8, 2026, in Guangzhou, China, that it has officially commissioned its humanoid robot production lines and completed the manufacturing of its next-generation IRON humanoid robot, which autonomously walked off the line. The production lines feature core process automation exceeding 80 percent and integrate automotive-grade quality systems. The IRON robot features 76 degrees of freedom across the body and 21 in each hand, and is powered by three Turing AI chips delivering up to 2,250 TOPS of computing power. Chairman and CEO He Xiaopeng stated that today's step is small, but XPENG is building the production lines for an entirely new product category that was created from scratch with no precedent to follow. XPeng robots are scheduled to enter mass production by the end of 2026, with initial commercial scenarios rolling out in XPeng stores and campuses, followed by official market launch and delivery in China and overseas markets in 2027. Furthermore, XPENG's robotics business entered into share purchase agreements on August 24, raising over 900 million US dollars at a post-money valuation exceeding 6.3 billion US dollars, which marks the largest single-round private capital raise in China's embodied AI industry to date.
+
+═══ 02b_TRIMMED ═══
+
+XPeng announced on September 8, 2026, in Guangzhou, China, that it has officially commissioned its humanoid robot production lines and completed the manufacturing of its next-generation IRON humanoid robot, which autonomously walked off the line. The production lines feature core process automation exceeding 80 percent and integrate automotive-grade quality systems. The IRON robot features 76 degrees of freedom across the body and 21 in each hand, and is powered by three Turing AI chips delivering up to 2,250 TOPS of computing power. XPeng robots are scheduled to enter mass production by the end of 2026, with initial commercial scenarios rolling out in XPeng stores and campuses, followed by official market launch and delivery in China and overseas markets in 2027.
+
+═══ 03_COVERAGE_1 ═══
+
+75% covered (6/8). Missing: XPENG's robotics business raised over 900 million US dollars at a post-money valuation exceeding 6.3 billion US dollars.; This milestone matters because it marks a critical leap from research and development prototyping to scaled manufacturing for advanced humanoid robots.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+XPeng announced on September 8, 2026, in Guangzhou, China, that it has officially commissioned its humanoid robot production lines and completed the manufacturing of its next-generation IRON humanoid robot, which autonomously walked off the line. XPENG's robotics business raised over 900 million US dollars at a post-money valuation exceeding 6.3 billion US dollars, a milestone that matters because it marks a critical leap from research and development prototyping to scaled manufacturing for advanced humanoid robots. The production lines feature core process automation exceeding 80 percent and integrate automotive-grade quality systems. The IRON robot features 76 degrees of freedom across the body and 21 in each hand, and is powered by three Turing AI chips delivering up to 2,250 TOPS of computing power. XPeng robots are scheduled to enter mass production by the end of 2026, with initial commercial scenarios rolling out in XPeng stores and campuses, followed by official market launch and delivery in China and overseas markets in 2027.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Ecks-peng announced on September eighth, twenty twenty-six, in Guangzhou, China, that it has commissioned its humanoid robot production lines. The company completed the manufacturing of its next-generation IRON humanoid robot. The robot autonomously walked off the line. The robotics business raised over nine hundred million US dollars at a post-money valuation exceeding six point three billion US dollars. This milestone marks a critical leap from research and development prototyping to scaled manufacturing for advanced humanoid robots. The production lines feature core process automation exceeding eighty percent and integrate automotive-grade quality systems. The IRON robot features seventy-six degrees of freedom across the body and twenty-one in each hand. It is powered by three Turing A. I. chips delivering up to two thousand two hundred fifty T. O. P. S. of computing power. Ecks-peng robots are scheduled to enter mass production by the end of twenty twenty-six. Initial commercial scenarios will roll out in Ecks-peng stores and campuses. This will be followed by an official market launch and delivery in China and overseas markets in twenty twenty-seven.
+
+═══ 05_NORMALIZED ═══
+
+Ecks-peng announced on September eighth, twenty twenty-six, in Guangzhou, China, that it has commissioned its humanoid robot production lines. The company completed the manufacturing of its next-generation IRON humanoid robot. The robot autonomously walked off the line. The robotics business raised over nine hundred million US dollars at a post-money valuation exceeding six point three billion US dollars. This milestone marks a critical leap from research and development prototyping to scaled manufacturing for advanced humanoid robots. The production lines feature core process automation exceeding eighty percent and integrate automotive-grade quality systems. The IRON robot features seventy-six degrees of freedom across the body and twenty-one in each hand. It is powered by three Turing A. I. chips delivering up to two thousand two hundred fifty T. O. P. S. of computing power. Ecks-peng robots are scheduled to enter mass production by the end of twenty twenty-six. Initial commercial scenarios will roll out in Ecks-peng stores and campuses. This will be followed by an official market launch and delivery in China and overseas markets in twenty twenty-seven.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (8/8). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: letter-spaced acronyms lacking periods (T O P S)
+
