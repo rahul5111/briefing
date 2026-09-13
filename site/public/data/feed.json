@@ -41,6 +41,41 @@
       "audio_verdict": "unchecked"
     },
     {
+      "id": "rss-nasa_breaking-cedfaa2baa38",
+      "title": "APOD: 2026 September 13 – Comet NEOWISE Rising over the Adriatic Sea",
+      "summary": "The National Aeronautics and Space Administration, known as N. A. S. A., runs the Astronomy Picture of the Day. It offers daily space images with expert explanations. The featured entry for September thirteenth, twenty twenty-six, shows a time-lapse video. It captures Comet C twenty twenty F three, also called Comet NEOWISE, rising over the Adriatic Sea from Italy.\n\nThe footage was captured before sunrise on July eighth. It combines over two hundred forty images taken across thirty minutes. The video shows the comet rising through undulating noctilucent clouds against distant background stars. Comet NEOWISE was a rare naked-eye comet visible this century. It stayed unexpectedly bright for over a month. It featured ion and dust tails streaming from a nucleus about five kilometers wide. The main A. P. D. archive is moving to a new web address at science dot nasa dot gov slash apod.",
+      "main": "WORLD",
+      "sub": "Society & Culture",
+      "category": "WORLD",
+      "subcategory": "Society & Culture",
+      "sources": [
+        {
+          "name": "nasa_breaking",
+          "url": "https://science.nasa.gov/image-article/apod-2026-september-13-comet-neowise-rising-over-the-adriatic-sea/",
+          "domain": "science.nasa.gov",
+          "added_at": "2026-09-13T06:57:01.476564+00:00"
+        }
+      ],
+      "source": "nasa_breaking",
+      "source_url": "https://science.nasa.gov/image-article/apod-2026-september-13-comet-neowise-rising-over-the-adriatic-sea/",
+      "source_domain": "science.nasa.gov",
+      "source_permalink": "https://science.nasa.gov/image-article/apod-2026-september-13-comet-neowise-rising-over-the-adriatic-sea/",
+      "score": 100,
+      "author": "",
+      "published_at": "2026-09-13T06:57:01.476564+00:00",
+      "created_at_ts": 1789272300,
+      "audio_path": "audio/2026-09-13/rss-nasa_breaking-cedfaa2baa38-apod-2026-september-13-comet-neowise-rising-over-the-adriati.mp3",
+      "word_count": 145,
+      "estimated_duration_s": 58,
+      "image_url": "https://assets.science.nasa.gov/content/dam/science/cds/apod/apod/2026/september/Comet_snapshot.png/jcr:content/renditions/cq5dam.web.1280.1280.png",
+      "location": null,
+      "audio_bytes": 420624,
+      "audio_duration_s": 53.5,
+      "tts_chunks": 11,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
       "id": "rss-phys_org-89b4a011ec3f",
       "title": "Japan's Hayabusa2 achieves first-ever laser ranging experiment with an asteroid",
       "summary": "Japan Aerospace Exploration Agency successfully conducted the first laser ranging experiment with an asteroid. This happened during a flyby of Torifune on Sunday, July fifth. The milestone marks the first exploration target of the Hayabusa2 spacecraft's Extended Mission. The probe used its Lalt laser altimeter instrument to fire the laser twice during the flyby. The first fire occurred at six twenty-nine p.m. from a distance of about twenty kilometers. The second fire happened from a distance of fifteen kilometers. The spacecraft traveled at a speed of five point three kilometers per second. It targeted the asteroid with a narrow beam that struck surface areas measuring thirty meters and twenty-three meters. The Lalt instrument was originally developed from the altimeter used by J A X A.'s Kaguya lunar orbiter. It previously gathered topographical data on asteroid Ryugu. Laser ranging adds scale to spacecraft images. It helps determine the size, density, porosity, and surface reflectance of astronomical objects. When combined with tracking data, the technique accurately determines a celestial body's position. This improves orbital predictions. The capability advances future missions involving near-Earth asteroids. It also supports planetary defense by allowing scientists to predict potential collision risks. The mission team is currently analyzing data to determine the exact surface location where the laser struck.",
@@ -323,7 +358,7 @@
     {
       "id": "rss-techcrunch-718798b22219",
       "title": "OpenAI’s Sam Altman says it would be ‘ill-advised’ to go public in 2026",
-      "summary": "OpenAI has filed confidentially for an initial public offering. Chief executive Sam Altman dismissed a public debut right now as ill advised. He pointed to safety concerns and broader technological developments in society.\n\nAltman spoke in an interview with Fortune editor in chief Alyson Shontell. He stated that they are not rushing into a public offering. He added that right now would be an ill advised moment to go public due to everything happening with safety.\n\nAltman indicated that the company will instead go public when the business is ready. The societal moment for the technology must also be right. He explicitly confirmed when pressed that the timeline is not twenty twenty-six.\n\nThe New York Times reported in June that OpenAI had previously hired bankers and lawyers. They were aiming for a public offering in the third or fourth quarter of twenty twenty-six. The company was already leaning toward twenty twenty-seven amid tech stock volatility and financial challenges.",
+      "summary": "OpenAI has filed confidentially for an initial public offering. Chief executive Sam Altman dismissed a public debut right now as ill advised in a forty-five minute interview with Fortune editor in chief Alyson Shontell. He pointed to safety concerns and broader technological developments in society. Altman stated that they are not rushing into a public offering. He added that right now would be an ill advised moment to go public due to everything happening with safety. Altman indicated that the company will instead go public when the business is ready. The societal moment for the technology must also be right. He explicitly confirmed when pressed that the timeline is not twenty twenty-six. Altman also discussed the Hugging Face hacking incident, recursive self-improvement, and the possibility of building an A I beyond human control. He stated that building an uncontrollable A I was absolutely possible. He vowed to take actions to prevent that from happening, even if it meant pausing training. He added that there are risks the company should not be able to incur on behalf of humanity. The New York Times reported in June that OpenAI had previously hired bankers and lawyers. They were aiming for a public offering in the third or fourth quarter of twenty twenty-six. The company was already leaning toward twenty twenty-seven amid tech stock volatility and financial challenges.",
       "main": "BUSINESS",
       "sub": "Markets & IPOs",
       "category": "BUSINESS",
@@ -334,6 +369,12 @@
           "url": "https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026/",
           "domain": "techcrunch.com",
           "added_at": "2026-09-12T21:10:49.816348+00:00"
+        },
+        {
+          "name": "verge",
+          "url": "https://www.theverge.com/ai-artificial-intelligence/994384/sam-altman-no-openai-ipo-ill-advised",
+          "domain": "theverge.com",
+          "added_at": "2026-09-13T06:53:55.728945+00:00"
         }
       ],
       "source": "techcrunch",
@@ -345,8 +386,8 @@
       "published_at": "2026-09-12T21:10:49.816348+00:00",
       "created_at_ts": 1789244356,
       "audio_path": "audio/2026-09-12/rss-techcrunch-718798b22219-openais-sam-altman-says-it-would-be-ill-advised-to-go-public.mp3",
-      "word_count": 158,
-      "estimated_duration_s": 63,
+      "word_count": 224,
+      "estimated_duration_s": 90,
       "image_url": "https://techcrunch.com/wp-content/uploads/2025/04/GettyImages-2198353376.jpg?resize=1200,800",
       "location": {
         "name": "San Francisco",
@@ -354,11 +395,18 @@
         "lat": 37.77,
         "lng": -122.42
       },
-      "audio_bytes": 438096,
-      "audio_duration_s": 56.8,
-      "tts_chunks": 12,
-      "tts_voice": "am_liam",
-      "audio_verdict": "unchecked"
+      "audio_bytes": 694248,
+      "audio_duration_s": 91.2,
+      "tts_chunks": 15,
+      "tts_voice": "am_michael",
+      "audio_verdict": "unchecked",
+      "key_points": [
+        "OpenAI filed confidentially for an initial public offering.",
+        "Chief executive Sam Altman dismissed a public debut right now as ill advised during a forty-five minute interview with Fortune.",
+        "Altman confirmed that the timeline for an initial public offering is not twenty twenty-six.",
+        "The New York Times reported in June that OpenAI had previously hired bankers and lawyers aiming for a public offering in twenty twenty-six or twenty twenty-seven.",
+        "Altman discussed the possibility of building an A I beyond human control and vowed to pause training if necessary to prevent it."
+      ]
     },
     {
       "id": "rss-engadget-9f2e49e35256",
@@ -494,6 +542,12 @@
           "url": "https://www.bbc.co.uk/news/articles/c14dpgm0rg4o?at_medium=RSS&at_campaign=rss",
           "domain": "bbc.co.uk",
           "added_at": "2026-09-12T21:22:24.044998+00:00"
+        },
+        {
+          "name": "dw_top",
+          "url": "https://www.dw.com/en/anthropic-boss-dario-amodei-calls-for-ai-slowdown/a-79247690?maca=en-rss-en-all-1573-rdf",
+          "domain": "dw.com",
+          "added_at": "2026-09-13T06:54:18.259130+00:00"
         }
       ],
       "source": "bbc_world",
@@ -1151,6 +1205,41 @@
       "audio_verdict": "unchecked"
     },
     {
+      "id": "rss-wired-fe975ea6eb5b",
+      "title": "The Best 3-in-1 Apple Charging Stations After Testing 30+ Models",
+      "summary": "You need the best three-in-one Apple charging stations to power your phone and accessories without messy cables.\n\nThe OtterBox three-in-one Charging Stand costs one hundred forty dollars and powers three devices at once.\n\nThe Anker Prime three-in-one Charging Station costs two hundred thirty dollars and includes active cooling and a display. It uses Qi-two twenty-five watt charging.\n\nThe Satechi three-in-one Magnetic Wireless Charging Stand can recharge an Apple Watch Ultra two from seventy percent to full in around thirty minutes.\n\nThe Noco X Grid XDS three is priced at one hundred thirty dollars and features a wide base and a six point five foot braided U. S. B. C. cable with international adapters.\n\nTwelve South offers the HiRise three Deluxe for one hundred dollars, featuring a swiveling phone charger and a heavy base to prevent sliding.\n\nMore affordable alternatives include the Anker MagGo Wireless Charging Station Stand at one hundred eleven dollars.\n\nThe Lululook three-in-one Charging Station costs sixty dollars, and the Case-Mate Fuel three-in-one Foldable costs fifty-eight dollars and includes a forty-five watt charger.\n\nFor setups needing extra ports, the Zens four-in-one Modular Wireless Charger with iPad Charging Stand costs one hundred thirty dollars.\n\nThe Scosche Baselynx two point zero Modular Charging Station is priced at one hundred dollars.",
+      "main": "WORLD",
+      "sub": "Society & Culture",
+      "category": "WORLD",
+      "subcategory": "Society & Culture",
+      "sources": [
+        {
+          "name": "wired",
+          "url": "https://www.wired.com/gallery/best-apple-3-in-1-wireless-chargers/",
+          "domain": "wired.com",
+          "added_at": "2026-09-13T06:55:20.839428+00:00"
+        }
+      ],
+      "source": "wired",
+      "source_url": "https://www.wired.com/gallery/best-apple-3-in-1-wireless-chargers/",
+      "source_domain": "wired.com",
+      "source_permalink": "https://www.wired.com/gallery/best-apple-3-in-1-wireless-chargers/",
+      "score": 100,
+      "author": "Simon Hill",
+      "published_at": "2026-09-13T06:55:20.839428+00:00",
+      "created_at_ts": 1789209000,
+      "audio_path": "audio/2026-09-13/rss-wired-fe975ea6eb5b-the-best-3-in-1-apple-charging-stations-after-testing-30-mod.mp3",
+      "word_count": 210,
+      "estimated_duration_s": 84,
+      "image_url": "https://media.wired.com/photos/685f456cde3ddb7f4c50fa01/191:100/w_1280,c_limit/Update-%20The%20Best%203-in-1%20Apple%20Wireless%20Chargers.png",
+      "location": null,
+      "audio_bytes": 618192,
+      "audio_duration_s": 80.5,
+      "tts_chunks": 11,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
       "id": "rss-sciencedaily_top-416e201efa37",
       "title": "The secret to longer life may be hidden in bat DNA",
       "summary": "Researchers at the University of California Berkeley published a groundbreaking bat longevity study in the journal Nature on September eleventh, twenty twenty-six. They analyzed eight Myotis bat genomes to uncover genetic secrets behind exceptional longevity and cancer resistance.\n\nA Brandt's myotis bat banded in Europe was recaptured fifty years later. This illustrates an exceptional lifespan relative to body size.\n\nThe findings establish a strong connection between bat longevity and immune function. Longer lived bats possess higher levels of genes associated with fighting cancer.\n\nWhen exposed to toxic chemicals in laboratory tests, cells from the long lived little brown bat did not switch on D. N. A. repair proteins. The cells instead prioritized promoting cell death. This mirrors the cancer resistant survival strategy found in elephants.\n\nResearcher, Vazquez noted that bats evolved to live for a long time without getting diseases. He stated that researchers can look at bats to understand how to improve immune function so it does not decline in old age. It also stops immunity from exhausting against stresses.\n\nThe genomic analysis also revealed a substantial overlap between genes associated with aging and genes involved in disease defense. This includes genes related to viral interactions.\n\nPeter Sudmant, a Berkeley associate professor of integrative biology, explained that studying these diverse species helps researchers. They better understand the interplay between D. N. A. damage and the immune system to enable full and healthy lifespans.\n\nThe National Institutes of Health and the National Science Foundation funded the research. Vazquez is continuing his longevity investigations at Pennsylvania State University.",
@@ -1302,6 +1391,41 @@
       "audio_bytes": 689184,
       "audio_duration_s": 87.3,
       "tts_chunks": 14,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
+      "id": "rss-ars_technica-4fb7c0b8bdda",
+      "title": "Some satellite companies still have an appetite for boutique launch services",
+      "summary": "Satellite operators face a severe launch capacity crunch. This happens even with high global launch cadences led by SpaceX. The shortage will worsen as SpaceX reduces its Falcon 9 launch program. There is also an uncertain timeline for when the next-generation Starship rocket will carry external payloads. Starship currently only carries its own Starlink satellites. Satellite companies welcome new boutique launch providers to handle these market conditions. Isar Aerospace recently became the first company in Europe to reach orbit with a fully commercial orbital rocket. The German company launched a batch of CubeSats to low-Earth orbit. They used their Spectrum rocket from a spaceport in northern Norway. This success follows a first test flight by Isar Aerospace that ended in failure last year.",
+      "main": "WORLD",
+      "sub": "Society & Culture",
+      "category": "WORLD",
+      "subcategory": "Society & Culture",
+      "sources": [
+        {
+          "name": "ars_technica",
+          "url": "https://arstechnica.com/space/2026/09/some-satellite-companies-still-have-an-appetite-for-boutique-launch-services/",
+          "domain": "arstechnica.com",
+          "added_at": "2026-09-13T06:55:02.678627+00:00"
+        }
+      ],
+      "source": "ars_technica",
+      "source_url": "https://arstechnica.com/space/2026/09/some-satellite-companies-still-have-an-appetite-for-boutique-launch-services/",
+      "source_domain": "arstechnica.com",
+      "source_permalink": "https://arstechnica.com/space/2026/09/some-satellite-companies-still-have-an-appetite-for-boutique-launch-services/",
+      "score": 100,
+      "author": "Stephen Clark",
+      "published_at": "2026-09-13T06:55:02.678627+00:00",
+      "created_at_ts": 1789169685,
+      "audio_path": "audio/2026-09-13/rss-ars_technica-4fb7c0b8bdda-some-satellite-companies-still-have-an-appetite-for-boutique.mp3",
+      "word_count": 123,
+      "estimated_duration_s": 49,
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/Engine3-1152x648.jpg",
+      "location": null,
+      "audio_bytes": 365376,
+      "audio_duration_s": 46.3,
+      "tts_chunks": 10,
       "tts_voice": "am_liam",
       "audio_verdict": "unchecked"
     },
@@ -3015,6 +3139,41 @@
       "audio_verdict": "unchecked"
     },
     {
+      "id": "rss-new_scientist-89a017b8844a",
+      "title": "How to build powerful microhabits for your wellbeing – and keep them",
+      "summary": "American psychologist, Eli Susman, has released a new book. It is called Micropractice. The subtitle is a science-backed approach for calm, clarity, and joy in thirty seconds or less. The book argues that mindfulness and lifestyle benefits can be achieved through exercises lasting thirty seconds or less. Research highlighted in the book demonstrates that consistency matters more than duration. In one past study, participants performed a twenty-second daily self-compassion meditation. This involved placing one hand on the belly and the other on the chest for a month. These participants showed considerably less stress and better mental health compared to a control group doing finger-tapping exercises. Susman writes that study after study pointed to the same overlooked pattern. He notes that consistency, not duration, is what drives change. Similar effects were found for slow breathing exercises. A large meta-analysis showed the size of effects did not change based on how long participants practiced. The book also points to research involving surgeons. Surgeons who performed stretches for ninety seconds improved their mental focus and reduced physical pain. To help people build these routines, Susman outlines several strategies. These include anchoring habits to specific regular cues and keeping track of progress. They also include allowing two emergency skip days each week to avoid the shame spiral that typically derails progress. At first, micropractices might just feel like something you do. Soon, they become the way you move through life. In a forthcoming study, Susman found new results. Teaching these tips via a fifteen-minute video vastly increased the likelihood that participants would continue the self-compassion meditation over the following six months.",
+      "main": "WORLD",
+      "sub": "Society & Culture",
+      "category": "WORLD",
+      "subcategory": "Society & Culture",
+      "sources": [
+        {
+          "name": "new_scientist",
+          "url": "https://www.newscientist.com/article/2588850-how-to-build-powerful-microhabits-for-your-wellbeing-and-keep-them/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+          "domain": "newscientist.com",
+          "added_at": "2026-09-13T06:57:25.175841+00:00"
+        }
+      ],
+      "source": "new_scientist",
+      "source_url": "https://www.newscientist.com/article/2588850-how-to-build-powerful-microhabits-for-your-wellbeing-and-keep-them/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "source_domain": "newscientist.com",
+      "source_permalink": "https://www.newscientist.com/article/2588850-how-to-build-powerful-microhabits-for-your-wellbeing-and-keep-them/?utm_campaign=RSS|NSNS&utm_content=home&utm_medium=RSS&utm_source=NSNS",
+      "score": 100,
+      "author": "David Robson",
+      "published_at": "2026-09-13T06:57:25.175841+00:00",
+      "created_at_ts": 1789113600,
+      "audio_path": "audio/2026-09-13/rss-new_scientist-89a017b8844a-how-to-build-powerful-microhabits-for-your-wellbeing-and-kee.mp3",
+      "word_count": 267,
+      "estimated_duration_s": 107,
+      "image_url": "https://www.newscientist.com/wp-content/uploads/2026/09/SEI_311638153.jpg",
+      "location": null,
+      "audio_bytes": 793848,
+      "audio_duration_s": 100.8,
+      "tts_chunks": 21,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
+    },
+    {
       "id": "rss-bbc_world-c774e8f4aaa3",
       "title": "Hong Kong's Tiananmen activists sentenced to up to seven years in prison",
       "summary": "Three activists in Hong Kong have received prison sentences of up to seven years under the national security law. They organized annual vigils to remember the nineteen eighty-nine Tiananmen Square crackdown. The court convicted Lee Cheuk-yan, age sixty-nine, and Chow Hang-tung, age forty-one, of inciting others to subvert state power. A third defendant, seventy-four-year-old Albert Ho, pleaded guilty in January. On Friday, the court gave Lee seven years in prison. Chow received seven years and three months. Ho was sentenced to five years in prison. The office of United Nations human rights chief Volker Türk called for these sentences to be quashed. The three led the Hong Kong Alliance, which formed in May nineteen eighty-nine. The group organized yearly vigils until authorities banned the gatherings in twenty twenty citing Covid-nineteen policies. That same year, the national security law came into force. A key part of the trial focused on the group slogan of ending one-party dictatorship. The court ruled that this slogan incited people to undermine the Chinese Communist Party. On Friday, the court also fined the Hong Kong Alliance one point five million Hong Kong dollars. That equals one hundred ninety-one thousand US dollars, or one hundred forty-two thousand British pounds. Lee's wife, Elizabeth Tang, told Reuters that her husband plans to appeal his sentence. Human Rights Watch released a statement saying the harsh sentences show government fear of memory and people. Amnesty International called the sentencing a triple tragedy.",
@@ -3143,6 +3302,12 @@
           "url": "https://www.tomshardware.com/tech-industry/big-tech/lg-strongly-denies-tv-security-claims-says-tracking-and-snooping-concerns-not-true-online-investigation-claims-216-000-000-spy-tvs-record-audio",
           "domain": "tomshardware.com",
           "added_at": "2026-09-12T21:08:36.585267+00:00"
+        },
+        {
+          "name": "engadget",
+          "url": "https://www.engadget.com/2256728/lg-denies-accusations-of-smart-tvs-continuously-recording-its-users/",
+          "domain": "engadget.com",
+          "added_at": "2026-09-13T06:54:16.659984+00:00"
         }
       ],
       "source": "tldr_infosec",
@@ -8792,6 +8957,41 @@
         "For novel experiments, Yankelevich assigns Codex agents narrower goals while utilizing their ability to write, modify, and test new code.",
         "Using agents for routine chip characterization saves time, allowing researchers to focus on higher level tasks like experiment design and data analysis."
       ]
+    },
+    {
+      "id": "rss-ars_science-2b3d53af8897",
+      "title": "The secret to protecting next-gen spacecraft might be eggshells",
+      "summary": "Chinese scientists have developed a new aluminum material inspired by eggshells. The material protects next-generation spacecraft against space debris fragments. The research was published in the Journal of Applied Physics.\n\nThe problem of space debris has intensified recently. A growing number of satellite constellations and telescopes and spacecraft are launched into orbit. This follows a major incident in two thousand seven. A piece of debris punched a bullet-like hole through the radiator panel of the United States space shuttle Endeavor.\n\nScientists have long studied eggshells for their mechanical properties and ovoid geometry. This shape dictates their rigidity and helps predict how much force they can endure before cracking. In twelve, M. I. T. engineer, Pedro Reis co-authored a paper demonstrating egg ovoid geometry and rigidity.\n\nReis studied eggshells after participating in a popular physics demonstration. He walked on cartons of eggs. Walking on cartons of eggs demonstrates that an egg can support weight when force is properly distributed. It takes around five point five pounds of force to crack an egg depending on the direction and distribution of the applied force.\n\nResearchers are now applying these geometric and structural principles to engineering more resilient aerospace materials.",
+      "main": "WORLD",
+      "sub": "Society & Culture",
+      "category": "WORLD",
+      "subcategory": "Society & Culture",
+      "sources": [
+        {
+          "name": "ars_science",
+          "url": "https://arstechnica.com/science/2026/09/how-eggshells-can-protect-spacecraft-from-space-debris/",
+          "domain": "arstechnica.com",
+          "added_at": "2026-09-13T06:56:09.405828+00:00"
+        }
+      ],
+      "source": "ars_science",
+      "source_url": "https://arstechnica.com/science/2026/09/how-eggshells-can-protect-spacecraft-from-space-debris/",
+      "source_domain": "arstechnica.com",
+      "source_permalink": "https://arstechnica.com/science/2026/09/how-eggshells-can-protect-spacecraft-from-space-debris/",
+      "score": 100,
+      "author": "Jennifer Ouellette",
+      "published_at": "2026-09-13T06:56:09.405828+00:00",
+      "created_at_ts": 1788884458,
+      "audio_path": "audio/2026-09-13/rss-ars_science-2b3d53af8897-the-secret-to-protecting-next-gen-spacecraft-might-be-eggshe.mp3",
+      "word_count": 196,
+      "estimated_duration_s": 78,
+      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/09/eggshells-1152x648.jpg",
+      "location": null,
+      "audio_bytes": 582048,
+      "audio_duration_s": 75.4,
+      "tts_chunks": 15,
+      "tts_voice": "am_liam",
+      "audio_verdict": "unchecked"
     },
     {
       "id": "rss-bbc_sport-566ec37ce2b2",
@@ -14705,5 +14905,5 @@
       "audio_verdict": "unchecked"
     }
   ],
-  "updated_at": "2026-09-12T21:33:09.333530+00:00"
+  "updated_at": "2026-09-13T06:58:30.435041+00:00"
 }

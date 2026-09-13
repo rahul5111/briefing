@@ -7,47 +7,7 @@
     <docs>http://www.rssboard.org/rss-specification</docs>
     <generator>python-feedgen</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 12 Sep 2026 21:33:09 +0000</lastBuildDate>
-    <item>
-      <title>OpenAI's ChatGPT Images Gets Faster, with Sharper Details and More Refined Edits</title>
-      <link>https://siliconangle.com/2026/09/08/openais-chatgpt-images-gets-faster-with-sharper-details-and-more-refined-edits/</link>
-      <description>OpenAI Group P. B. C. launched ChatGPT Images two point five. This update follows version two point zero which debuted in April. The new tool generates images with more natural lighting and richer textures. It runs up to fifty percent faster than before. It also improves multi-turn instruction following. A major addition is Sketch. This feature lets users draw on touchscreens with a finger or stylus. The drawing serves as a visual reference. Version two point five better preserves subject details and facial features. It also keeps unmodified elements across multiple edits and long conversations. The update introduces new templates for formats like flyers and product photos. It supports inline comments for targeted edits. It also lets users share prompts with generated images. OpenAI offers two variants of the model. G. P. T.-Image-two point five Flare serves as the default. It produces high quality images two to four times faster than the G. P. T.-Image-two model. It includes support for transparent backgrounds. G. P. T.-Image-two point five Sunburst trades speed for greater precision and fidelity. It targets product photos and marketing materials requiring pixel-perfect consistency. For security the model includes prompt and output guardrails. It uses C. two P. A. metadata and invisible watermarking to prevent deepfakes and unauthorized reuse. The new model is available now in ChatGPT and ChatGPT Work and Codex. These are available across desktop and mobile and web platforms. Both variants are also accessible to developers via separate application programming interfaces.</description>
-      <guid isPermaLink="false">tldr-design-8682f247cdb5</guid>
-      <enclosure url="audio/2026-09-11/tldr-design-8682f247cdb5-openai-s-chatgpt-images-gets-faster-with-sharper-details-and.mp3" length="759960" type="audio/mpeg"/>
-      <pubDate>Fri, 11 Sep 2026 15:30:50 +0000</pubDate>
-    </item>
-    <item>
-      <title>Apple debuts iPhone Duo, its first foldable, at $1,999</title>
-      <link>https://finance.yahoo.com/markets/stocks/live/apple-event-live-updates-first-foldable-iphone-iphone-18-pro-and-watches-expected-122840434.html</link>
-      <description>Chief Executive Officer John Ternus hosted the keynote. He took over from Tim Cook on September first.
-
-The new device is called the Duo. It features a passport-like book design. The front display measures five point four inches. The interior display measures seven point six inches. Pricing starts at one thousand nine hundred ninety-nine dollars.
-
-Analyst, Francisco Jeromino, stated that the iPhone Duo is the strategic flagship. It acts as a direct test for Apple. The device introduces Apple's first foldable technology to test the super premium market tier.
-
-Apple also introduced the iPhone eighteen Pro. Pricing starts at one thousand one hundred ninety-nine dollars. They also released the iPhone eighteen Pro Max. Pricing starts at one thousand two hundred ninety-nine dollars.
-
-Both phones feature faster A. Twenty. Pro. processors. They also include improved batteries. The Pro model delivers twenty-four hours of charge. The Pro Max model delivers thirty hours of charge. Both devices include a variable mechanical aperture.</description>
-      <guid isPermaLink="false">tldr-infosec-3989c7812a41</guid>
-      <enclosure url="audio/2026-09-11/tldr-infosec-3989c7812a41-apple-debuts-iphone-duo-its-first-foldable-at-1999.mp3" length="492360" type="audio/mpeg"/>
-      <pubDate>Fri, 11 Sep 2026 15:30:05 +0000</pubDate>
-    </item>
-    <item>
-      <title>Native is now the future of mobile at Shopify</title>
-      <link>https://shopify.engineering/back-to-native</link>
-      <description>Shopify is moving its mobile apps back to native Swift and Kotlin. The company is leaving behind React Native which it adopted in twenty twenty. This decision follows a reevaluation prompted by the growing capabilities of coding models and artificial intelligence agents. Those tools have reduced the historical cost and maintenance overhead of building and maintaining features across two separate platforms. The shift back to native allows Shopify to stay closer to first party platform capabilities and tooling. To execute the migration without compromising quality, Shopify built an internal system called Helix. This system processes code in small reviewed checkpoints requiring tests and human approval. Shopify will continue sponsoring open source React Native libraries like FlashList through the end of twenty twenty-six. The Shop app was fully rebuilt and published in app stores in twelve weeks. The migration of the primary Shopify app is underway to ship later this year. Shopify is also moving other mobile apps including Point of Sale and Inbox.</description>
-      <guid isPermaLink="false">tldr-webdev-81af85865978</guid>
-      <enclosure url="audio/2026-09-11/tldr-webdev-81af85865978-native-is-now-the-future-of-mobile-at-shopify.mp3" length="475584" type="audio/mpeg"/>
-      <pubDate>Fri, 11 Sep 2026 15:29:27 +0000</pubDate>
-    </item>
-    <item>
-      <title>OpenAI Launches the Agents API</title>
-      <link>https://openai.com/index/introducing-the-agents-api/</link>
-      <description>Open A I has launched the Agents A P I in public beta. This gives developers access to infrastructure through a single A P I call. The system is powered by the Codex harness. OpenAI manages sessions, orchestration, context compaction, and recovery. Applications provide tools and choose execution environments. Developers can choose an OpenAI-managed sandbox or self-hosted and partner compute environments. Partners include Blaxel, Cloudflare, Daytona, DigitalOcean, E2B, Modal, Oracle, Runloop, and Vercel. Sandboxes let agents execute code, edit files, connect to M C P servers, and produce artifacts. The core concepts are Agent, Environment, Session, and Events and items. Features include automatic context management, tool search, programmatic tool calling, and multi-agent support. Example use cases include incident response agents, Slack bots, data analysts, GitHub issue investigators, and document reviewers. Pricing includes standard API rates for model usage, standard rates for OpenAI tools, and standard container rates for OpenAI-hosted sandboxes. Reuters reports zero additional fees for using the Agents A P I during the public beta, while new documentation notes standard token and tool billing. The A P I retains session state across turns. It currently supports data residency only in the United States and does not support Zero Data Retention. Choosing a self-hosted sandbox does not make it Zero Data Retention-eligible.</description>
-      <guid isPermaLink="false">tldr-ai-784ac5e4650a</guid>
-      <enclosure url="audio/2026-09-11/tldr-ai-784ac5e4650a-openai-launches-the-agents-api.mp3" length="784344" type="audio/mpeg"/>
-      <pubDate>Fri, 11 Sep 2026 15:27:50 +0000</pubDate>
-    </item>
+    <lastBuildDate>Sun, 13 Sep 2026 06:58:30 +0000</lastBuildDate>
     <item>
       <title>Introducing the Agents API</title>
       <link>https://openai.com/index/introducing-the-agents-api/</link>
@@ -301,6 +261,14 @@ Susan Gibbs is a senior adviser on women rights at the Wallace Global Fund. She 
       <guid isPermaLink="false">rss-bbc_world-c774e8f4aaa3</guid>
       <enclosure url="audio/2026-09-11/rss-bbc_world-c774e8f4aaa3-hong-kong-s-tiananmen-activists-sentenced-to-up-to-seven-yea.mp3" length="685368" type="audio/mpeg"/>
       <pubDate>Fri, 11 Sep 2026 15:54:18 +0000</pubDate>
+    </item>
+    <item>
+      <title>How to build powerful microhabits for your wellbeing – and keep them</title>
+      <link>https://www.newscientist.com/article/2588850-how-to-build-powerful-microhabits-for-your-wellbeing-and-keep-them/?utm_campaign=RSS|NSNS&amp;utm_content=home&amp;utm_medium=RSS&amp;utm_source=NSNS</link>
+      <description>American psychologist, Eli Susman, has released a new book. It is called Micropractice. The subtitle is a science-backed approach for calm, clarity, and joy in thirty seconds or less. The book argues that mindfulness and lifestyle benefits can be achieved through exercises lasting thirty seconds or less. Research highlighted in the book demonstrates that consistency matters more than duration. In one past study, participants performed a twenty-second daily self-compassion meditation. This involved placing one hand on the belly and the other on the chest for a month. These participants showed considerably less stress and better mental health compared to a control group doing finger-tapping exercises. Susman writes that study after study pointed to the same overlooked pattern. He notes that consistency, not duration, is what drives change. Similar effects were found for slow breathing exercises. A large meta-analysis showed the size of effects did not change based on how long participants practiced. The book also points to research involving surgeons. Surgeons who performed stretches for ninety seconds improved their mental focus and reduced physical pain. To help people build these routines, Susman outlines several strategies. These include anchoring habits to specific regular cues and keeping track of progress. They also include allowing two emergency skip days each week to avoid the shame spiral that typically derails progress. At first, micropractices might just feel like something you do. Soon, they become the way you move through life. In a forthcoming study, Susman found new results. Teaching these tips via a fifteen-minute video vastly increased the likelihood that participants would continue the self-compassion meditation over the following six months.</description>
+      <guid isPermaLink="false">rss-new_scientist-89a017b8844a</guid>
+      <enclosure url="audio/2026-09-13/rss-new_scientist-89a017b8844a-how-to-build-powerful-microhabits-for-your-wellbeing-and-kee.mp3" length="793848" type="audio/mpeg"/>
+      <pubDate>Sun, 13 Sep 2026 06:57:25 +0000</pubDate>
     </item>
     <item>
       <title>Meet the under-35s shaping the future of biotech</title>
@@ -861,6 +829,14 @@ To facilitate the swarm, the agents bypassed the email confirmation system using
       <pubDate>Sat, 12 Sep 2026 21:26:43 +0000</pubDate>
     </item>
     <item>
+      <title>Some satellite companies still have an appetite for boutique launch services</title>
+      <link>https://arstechnica.com/space/2026/09/some-satellite-companies-still-have-an-appetite-for-boutique-launch-services/</link>
+      <description>Satellite operators face a severe launch capacity crunch. This happens even with high global launch cadences led by SpaceX. The shortage will worsen as SpaceX reduces its Falcon 9 launch program. There is also an uncertain timeline for when the next-generation Starship rocket will carry external payloads. Starship currently only carries its own Starlink satellites. Satellite companies welcome new boutique launch providers to handle these market conditions. Isar Aerospace recently became the first company in Europe to reach orbit with a fully commercial orbital rocket. The German company launched a batch of CubeSats to low-Earth orbit. They used their Spectrum rocket from a spaceport in northern Norway. This success follows a first test flight by Isar Aerospace that ended in failure last year.</description>
+      <guid isPermaLink="false">rss-ars_technica-4fb7c0b8bdda</guid>
+      <enclosure url="audio/2026-09-13/rss-ars_technica-4fb7c0b8bdda-some-satellite-companies-still-have-an-appetite-for-boutique.mp3" length="365376" type="audio/mpeg"/>
+      <pubDate>Sun, 13 Sep 2026 06:55:02 +0000</pubDate>
+    </item>
+    <item>
       <title>How and why Google will share anonymized search data with their competitors</title>
       <link>https://desfontain.es/blog/google-search-dma-data-sharing.html</link>
       <description>The European Commission is enforcing data sharing under Article six point eleven of the Digital Markets Act passed in twenty twenty-two. Google Search has held around ninety percent of the online search market share in Europe for over a decade. The regulation requires gatekeepers like Google to provide competing search engine providers with access to ranking, query, click, and view data. Terms must be fair, reasonable, and non-discriminatory, with personal data appropriately anonymized. Google started offering access to an anonymized dataset in March twenty twenty-four. Competitors experienced no significant uptake because Google design choices rendered the data largely useless for search engine optimization. The European Commission opened specification proceedings in January twenty twenty-six to resolve the issue. The proceedings concluded last month with a published decision detailing how Google must comply. Draft guidelines come from the European Data Protection Board and the European Commission. Privacy protections specifically cover end users submitting queries. Technical and non-technical measures combine to mitigate residual re-identification risks from insiders or product teams attempting unauthorized re-identification. Competitors primarily need this data for crawling and indexing web pages. They also need query understanding for ambiguous terms. Finally, they need ranking and quality algorithms to answer novel and ambiguous queries and identify less-visited websites that users find useful.</description>
@@ -925,6 +901,32 @@ The National Institutes of Health and the National Science Foundation funded the
       <guid isPermaLink="false">rss-sciencedaily_top-416e201efa37</guid>
       <enclosure url="audio/2026-09-12/rss-sciencedaily_top-416e201efa37-the-secret-to-longer-life-may-be-hidden-in-bat-dna.mp3" length="798696" type="audio/mpeg"/>
       <pubDate>Sat, 12 Sep 2026 14:50:06 +0000</pubDate>
+    </item>
+    <item>
+      <title>The Best 3-in-1 Apple Charging Stations After Testing 30+ Models</title>
+      <link>https://www.wired.com/gallery/best-apple-3-in-1-wireless-chargers/</link>
+      <description>You need the best three-in-one Apple charging stations to power your phone and accessories without messy cables.
+
+The OtterBox three-in-one Charging Stand costs one hundred forty dollars and powers three devices at once.
+
+The Anker Prime three-in-one Charging Station costs two hundred thirty dollars and includes active cooling and a display. It uses Qi-two twenty-five watt charging.
+
+The Satechi three-in-one Magnetic Wireless Charging Stand can recharge an Apple Watch Ultra two from seventy percent to full in around thirty minutes.
+
+The Noco X Grid XDS three is priced at one hundred thirty dollars and features a wide base and a six point five foot braided U. S. B. C. cable with international adapters.
+
+Twelve South offers the HiRise three Deluxe for one hundred dollars, featuring a swiveling phone charger and a heavy base to prevent sliding.
+
+More affordable alternatives include the Anker MagGo Wireless Charging Station Stand at one hundred eleven dollars.
+
+The Lululook three-in-one Charging Station costs sixty dollars, and the Case-Mate Fuel three-in-one Foldable costs fifty-eight dollars and includes a forty-five watt charger.
+
+For setups needing extra ports, the Zens four-in-one Modular Wireless Charger with iPad Charging Stand costs one hundred thirty dollars.
+
+The Scosche Baselynx two point zero Modular Charging Station is priced at one hundred dollars.</description>
+      <guid isPermaLink="false">rss-wired-fe975ea6eb5b</guid>
+      <enclosure url="audio/2026-09-13/rss-wired-fe975ea6eb5b-the-best-3-in-1-apple-charging-stations-after-testing-30-mod.mp3" length="618192" type="audio/mpeg"/>
+      <pubDate>Sun, 13 Sep 2026 06:55:20 +0000</pubDate>
     </item>
     <item>
       <title>The Anti-Woke Right Can’t Figure Out How to Stop ‘Grand Theft Auto VI’</title>
@@ -1245,15 +1247,9 @@ The house has changed hands multiple times since Trump became president. In seve
     <item>
       <title>OpenAI’s Sam Altman says it would be ‘ill-advised’ to go public in 2026</title>
       <link>https://techcrunch.com/2026/09/12/openais-sam-altman-says-it-would-be-ill-advised-to-go-public-in-2026/</link>
-      <description>OpenAI has filed confidentially for an initial public offering. Chief executive Sam Altman dismissed a public debut right now as ill advised. He pointed to safety concerns and broader technological developments in society.
-
-Altman spoke in an interview with Fortune editor in chief Alyson Shontell. He stated that they are not rushing into a public offering. He added that right now would be an ill advised moment to go public due to everything happening with safety.
-
-Altman indicated that the company will instead go public when the business is ready. The societal moment for the technology must also be right. He explicitly confirmed when pressed that the timeline is not twenty twenty-six.
-
-The New York Times reported in June that OpenAI had previously hired bankers and lawyers. They were aiming for a public offering in the third or fourth quarter of twenty twenty-six. The company was already leaning toward twenty twenty-seven amid tech stock volatility and financial challenges.</description>
+      <description>OpenAI has filed confidentially for an initial public offering. Chief executive Sam Altman dismissed a public debut right now as ill advised in a forty-five minute interview with Fortune editor in chief Alyson Shontell. He pointed to safety concerns and broader technological developments in society. Altman stated that they are not rushing into a public offering. He added that right now would be an ill advised moment to go public due to everything happening with safety. Altman indicated that the company will instead go public when the business is ready. The societal moment for the technology must also be right. He explicitly confirmed when pressed that the timeline is not twenty twenty-six. Altman also discussed the Hugging Face hacking incident, recursive self-improvement, and the possibility of building an A I beyond human control. He stated that building an uncontrollable A I was absolutely possible. He vowed to take actions to prevent that from happening, even if it meant pausing training. He added that there are risks the company should not be able to incur on behalf of humanity. The New York Times reported in June that OpenAI had previously hired bankers and lawyers. They were aiming for a public offering in the third or fourth quarter of twenty twenty-six. The company was already leaning toward twenty twenty-seven amid tech stock volatility and financial challenges.</description>
       <guid isPermaLink="false">rss-techcrunch-718798b22219</guid>
-      <enclosure url="audio/2026-09-12/rss-techcrunch-718798b22219-openais-sam-altman-says-it-would-be-ill-advised-to-go-public.mp3" length="438096" type="audio/mpeg"/>
+      <enclosure url="audio/2026-09-12/rss-techcrunch-718798b22219-openais-sam-altman-says-it-would-be-ill-advised-to-go-public.mp3" length="694248" type="audio/mpeg"/>
       <pubDate>Sat, 12 Sep 2026 21:10:49 +0000</pubDate>
     </item>
     <item>
@@ -1345,6 +1341,16 @@ He believes slowing down could buy an extra year or two. This time will help adv
       <guid isPermaLink="false">rss-phys_org-89b4a011ec3f</guid>
       <enclosure url="audio/2026-09-12/rss-phys_org-89b4a011ec3f-japan-s-hayabusa2-achieves-first-ever-laser-ranging-experime.mp3" length="661968" type="audio/mpeg"/>
       <pubDate>Sat, 12 Sep 2026 21:15:37 +0000</pubDate>
+    </item>
+    <item>
+      <title>APOD: 2026 September 13 – Comet NEOWISE Rising over the Adriatic Sea</title>
+      <link>https://science.nasa.gov/image-article/apod-2026-september-13-comet-neowise-rising-over-the-adriatic-sea/</link>
+      <description>The National Aeronautics and Space Administration, known as N. A. S. A., runs the Astronomy Picture of the Day. It offers daily space images with expert explanations. The featured entry for September thirteenth, twenty twenty-six, shows a time-lapse video. It captures Comet C twenty twenty F three, also called Comet NEOWISE, rising over the Adriatic Sea from Italy.
+
+The footage was captured before sunrise on July eighth. It combines over two hundred forty images taken across thirty minutes. The video shows the comet rising through undulating noctilucent clouds against distant background stars. Comet NEOWISE was a rare naked-eye comet visible this century. It stayed unexpectedly bright for over a month. It featured ion and dust tails streaming from a nucleus about five kilometers wide. The main A. P. D. archive is moving to a new web address at science dot nasa dot gov slash apod.</description>
+      <guid isPermaLink="false">rss-nasa_breaking-cedfaa2baa38</guid>
+      <enclosure url="audio/2026-09-13/rss-nasa_breaking-cedfaa2baa38-apod-2026-september-13-comet-neowise-rising-over-the-adriati.mp3" length="420624" type="audio/mpeg"/>
+      <pubDate>Sun, 13 Sep 2026 06:57:01 +0000</pubDate>
     </item>
     <item>
       <title>Perplexity trusts GPT-6 Astra with end-to-end systems</title>
