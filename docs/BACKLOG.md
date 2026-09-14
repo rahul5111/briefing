@@ -43,41 +43,41 @@ they have no infrastructure dependency.
 
 ### Trivial copy fixes — DO FIRST (from ui-listening §22)
 
-- [ ] **B-01** Fix "N°01 / Today" to show only on today's actual lede
+- [x] **B-01** Fix "N°01 / Today" to show only on today's actual lede
   card, not on the first card of every day-group. `site/src/components/Feed.tsx:462-468`.
-- [ ] **B-02** Fix `refined by hand` copy in `site/src/pages/index.astro:44`
+- [x] **B-02** Fix `refined by hand` copy in `site/src/pages/index.astro:44`
   to something honest — "refined for spoken audio" or similar.
-- [ ] **B-03** Rename card actions from `read` / `article ↗` to `Read brief` / `Original ↗`. `Feed.tsx:509-517`.
+- [x] **B-03** Rename card actions from `read` / `article ↗` to `Read brief` / `Original ↗`. `Feed.tsx:509-517`.
 - [ ] **B-04** Hero copy — replace "N stories · M min listen" with change-based framing ("N new since your last check"). Requires `lastVisitAt` in localStorage. `index.astro:36-39`.
 
 ### Sources fixes (from prior session)
 
-- [ ] **B-05** Fix 6 dead/blocked feeds in `sources.yaml`: `the_batch` → GN proxy; `sciencedaily_tech` → new path `computers_math/computer_science.xml`; `politico` → `rss.politico.com/politics-news.xml`; `hf_daily_papers` → GN proxy; `moneycontrol_latest`/`moneycontrol_business` → GN proxy.
-- [ ] **B-06** Add tested-live outlets: Semafor, Rest of World, Yahoo Finance, CNBC Business, Techmeme, `sciencedaily_ai`, `politico_congress`.
-- [ ] **B-07** Drop hard-paywall proxies from `sources.yaml`: `wsj_gn`, `bloomberg_gn`, `ft_gn`, `the_information_gn`.
-- [ ] **B-08** Stratechery fail-soft config — keep source, log extract-fails to `data/extraction_failures.jsonl`, don't synth audio when body extraction fails.
+- [x] **B-05** Fix 6 dead/blocked feeds in `sources.yaml`: `the_batch` → GN proxy; `sciencedaily_tech` → new path `computers_math/computer_science.xml`; `politico` → `rss.politico.com/politics-news.xml`; `hf_daily_papers` → GN proxy; `moneycontrol_latest`/`moneycontrol_business` → GN proxy.
+- [x] **B-06** Add tested-live outlets: Semafor, Rest of World, Yahoo Finance, CNBC Business, Techmeme, `sciencedaily_ai`, `politico_congress`.
+- [x] **B-07** Drop hard-paywall proxies from `sources.yaml`: `wsj_gn`, `bloomberg_gn`, `ft_gn`, `the_information_gn`.
+- [x] **B-08** Stratechery fail-soft config — keep source, log extract-fails to `data/extraction_failures.jsonl`, don't synth audio when body extraction fails.
 
 ### GHA cron hardening
 
-- [ ] **B-09** Add `git pull --rebase --autostash` before push step in `.github/workflows/pipeline.yml`.
+- [x] **B-09** Add `git pull --rebase --autostash` before push step in `.github/workflows/pipeline.yml`.
 - [ ] **B-10** Dead-man's-switch: Healthchecks.io free-tier ping at start and end of workflow. Owner set up account + curl in workflow.
 
 ### Phase A — Storage migration (R2, NO PURGE)
 
-- [ ] **B-11** Write `docs/RUNBOOK.md` §Secrets with rotation cadence (R2 keys 6mo, LLM keys 12mo) + revocation procedure. **Prerequisite for adding secrets.**
+- [x] **B-11** Write `docs/RUNBOOK.md` §Secrets with rotation cadence (R2 keys 6mo, LLM keys 12mo) + revocation procedure. **Prerequisite for adding secrets.**
 - [ ] **B-12** Provision Cloudflare R2 bucket `briefing-audio` + custom domain + CDN. Manual step by owner.
 - [ ] **B-13** Add R2 secrets to GHA + Vercel: `R2_ACCOUNT_ID`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`, `R2_BUCKET`, `R2_ENDPOINT`, `R2_PUBLIC_BASE`.
-- [ ] **B-14** Kokoro model file hash pin: CI step that hashes `.models/kokoro-*.onnx` against expected hash from a checked-in `.models/EXPECTED_HASHES.txt`. Fails workflow on mismatch.
-- [ ] **B-15** Write `scripts/migrate_audio_to_r2.py` — one-shot backfill preserving `YYYY-MM-DD/*.mp3` key structure with `Cache-Control: public, max-age=31536000, immutable`.
-- [ ] **B-16** Update `pipeline/tts.py` to upload to R2 with post-PUT HEAD + Content-Length verify. On mismatch, retry once, then log to `data/audits/r2_upload_failures.jsonl` and fall through to local temp write.
+- [x] **B-14** Kokoro model file hash pin: CI step that hashes `.models/kokoro-*.onnx` against expected hash from a checked-in `.models/EXPECTED_HASHES.txt`. Fails workflow on mismatch.
+- [x] **B-15** Write `scripts/migrate_audio_to_r2.py` — one-shot backfill preserving `YYYY-MM-DD/*.mp3` key structure with `Cache-Control: public, max-age=31536000, immutable`.
+- [x] **B-16** Update `pipeline/tts.py` to upload to R2 with post-PUT HEAD + Content-Length verify. On mismatch, retry once, then log to `data/audits/r2_upload_failures.jsonl` and fall through to local temp write.
 - [ ] **B-17** Flip `PUBLIC_CDN_BASE` in Vercel env to `R2_PUBLIC_BASE`.
-- [ ] **B-18** `.gitignore` — add `site/public/data/audio/*.mp3` and `site/public/data/blogs-audio/*.mp3`.
+- [x] **B-18** `.gitignore` — add `site/public/data/audio/*.mp3` and `site/public/data/blogs-audio/*.mp3`.
 - [ ] **B-19** R2 lifecycle: news `audio/*` expire 14d, blogs `blogs-audio/*` expire 45d.
 
 ### Phase B — Whisper upgrade
 
-- [ ] **B-20** Upgrade `pipeline/audio_validate.py` from `tiny.en` to `distil-large-v3`. Re-baseline WER with a 1-day comparison run.
-- [ ] **B-21** `data/audio_wer_history/YYYY-MM.jsonl` monthly-rotated append in `audio_validate.py`. 6-month in-repo retention.
+- [x] **B-20** Upgrade `pipeline/audio_validate.py` from `tiny.en` to `distil-large-v3`. Re-baseline WER with a 1-day comparison run.
+- [x] **B-21** `data/audio_wer_history/YYYY-MM.jsonl` monthly-rotated append in `audio_validate.py`. 6-month in-repo retention.
 - [ ] **B-22** `pipeline/eval/wer_weekly.py` — Sunday summary buckets by voice/category/story_type; flags p90 > 0.12 or p50 shift > +0.02 WoW.
 
 ### Phase C — Audio quality free wins
@@ -98,18 +98,18 @@ they have no infrastructure dependency.
 
 ### Phase E — Observability spine (soft-fail)
 
-- [ ] **B-33** `pipeline/health.py` renders `data/health/latest.md` + `latest.json` each run. Sections: intake, refine latency, Gemini cost estimate, WER percentiles, run duration, drift status, golden status, R2 upload status. Try/except-wrapped; failure writes `[health] failed at <ts>` line.
-- [ ] **B-34** `.gitignore` — add `data/health/` and `data/drift/`.
-- [ ] **B-35** `pipeline/drift.py` writes `data/drift/YYYY-MM-DD.json`. Rolling 7d median + IQR. **Never** `sys.exit(2)`. Informational value in health dashboard.
+- [x] **B-33** `pipeline/health.py` renders `data/health/latest.md` + `latest.json` each run. Sections: intake, refine latency, Gemini cost estimate, WER percentiles, run duration, drift status, golden status, R2 upload status. Try/except-wrapped; failure writes `[health] failed at <ts>` line.
+- [x] **B-34** `.gitignore` — add `data/health/` and `data/drift/`.
+- [x] **B-35** `pipeline/drift.py` writes `data/drift/YYYY-MM-DD.json`. Rolling 7d median + IQR. **Never** `sys.exit(2)`. Informational value in health dashboard.
 - [ ] **B-36** `pipeline/eval/golden_set.jsonl` — owner labels first 30 rows (per-category, `label_asof`, bootstrap-CI-ready). SMOKE TEST ONLY at this size.
 - [ ] **B-37** `pipeline/eval/run_golden.py` — imports live scorers/classifiers; multi-seed (3×) run; bootstrap CIs; does NOT fail workflow at n=30.
 - [ ] **B-38** `data/reviews/` rotation to R2: after 30 days, `pipeline/retention.py` moves to `reviews-archive/YYYY-MM/` in R2. Working tree stays bounded.
 
 ### UI — three-level story structure + IA (from design-review-2026-09-14 + ui-listening)
 
-- [ ] **B-39** Add `stakes` (from refine layer 2a) as visible "what changed" line on card SCAN. Extract cleanly, don't couple to LLM shape.
+- [x] **B-39** Add `stakes` (from refine layer 2a) as visible "what changed" line on card SCAN. Extract cleanly, don't couple to LLM shape.
 - [ ] **B-40** `completed[storyId]` state in localStorage. Mark on audio end OR brief-expanded > 15s. Card renders at 0.7 opacity when completed; cover greyscaled.
-- [ ] **B-41** "You're caught up" plate at bottom of feed when new_since is empty. Reuses existing empty-plate component.
+- [x] **B-41** "You're caught up" plate at bottom of feed when new_since is empty. Reuses existing empty-plate component.
 - [ ] **B-42** Sectioned feed: CATCH UP / WORTH KNOWING / YOUR BEATS / EXPLORE / ARCHIVE. Requires `lastVisitAt` state. Extract into `<CatchUp />`, `<WorthKnowing />`, etc.
 - [ ] **B-43** Mobile bottom-bar player (76 px) + bottom-sheet expansion with next/prev/speed/queue/close.
 - [ ] **B-44** Player queue: `▶ Play catch-up` from CATCH UP header. Composes per-story MP3s. `localStorage.briefing.queue`.
@@ -120,7 +120,7 @@ they have no infrastructure dependency.
 
 ### Content pipeline
 
-- [ ] **B-45** Rule-based audio scorers (`pipeline/eval/audio_scorers.py`): numeric preservation, acronym coverage, forbidden-punct count, sentence-length distribution, attribution presence. Ships in Phase C alongside voice sweep.
+- [x] **B-45** Rule-based audio scorers (`pipeline/eval/audio_scorers.py`): numeric preservation, acronym coverage, forbidden-punct count, sentence-length distribution, attribution presence. Ships in Phase C alongside voice sweep.
 - [ ] **B-46** AUDIO_REWRITE in-prompt worked example (`$2.3B revenue → two point three billion dollars`). Phase F.
 - [ ] **B-47** DRAFT deterministic length parameter: `target_words = clamp(source_words × 0.35, 150, 360)`. Phase F.
 
