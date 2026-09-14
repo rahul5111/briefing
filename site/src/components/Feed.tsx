@@ -113,6 +113,33 @@ function groupByDay(stories: Story[]) {
   return order.map((label) => ({ label, items: byLabel.get(label)! }));
 }
 
+/**
+ * NowPlayingWave — 16 vertical vermilion bars that pulse rhythmically while
+ * the audio is playing. Deterministic pseudo-wave (no real amplitude
+ * decoding) driven by the current time. Under prefers-reduced-motion, the
+ * bars freeze at 60% height and stop animating (global rule in CSS).
+ */
+function NowPlayingWave({ playing, now }: { playing: boolean; now: number }) {
+  const bars = 14;
+  // Pseudo-amplitude for each bar. Combine two sine waves at different
+  // frequencies + a per-bar phase offset for a lively-looking rhythm.
+  const scale = (i: number) => {
+    if (!playing) return 0.25;
+    const t = now * 3;
+    const a = Math.sin(t * 1.3 + i * 0.7) * 0.35;
+    const b = Math.sin(t * 2.1 + i * 0.4) * 0.25;
+    return Math.max(0.2, Math.min(1, 0.55 + a + b));
+  };
+  return (
+    <div className={`now-wave ${playing ? "playing" : "paused"}`} aria-hidden="true">
+      {Array.from({ length: bars }).map((_, i) => (
+        <span key={i} className="now-wave-bar" style={{ transform: `scaleY(${scale(i)})` }} />
+      ))}
+    </div>
+  );
+}
+
+
 function Scrubber({
   now,
   dur,
@@ -354,7 +381,16 @@ export default function Feed({ stories, cdnBase }: Props) {
             className={`sub-chip ${activeSub === null ? "active" : ""}`}
             onClick={() => setActiveSub(null)}
           >
-            All <span className="sub-chip-count">{filtered.length}</span>
+            {activeSub === null && (
+              <motion.span
+                layoutId="sub-strip-pill"
+                className="sub-chip-pill"
+                transition={{ type: "spring", stiffness: 380, damping: 34 }}
+              />
+            )}
+            <span className="sub-chip-label">
+              All <span className="sub-chip-count">{filtered.length}</span>
+            </span>
           </button>
           {SUB_BY_MAIN[activeCat].filter((s) => (subCounts[s] ?? 0) > 0).map((s) => (
             <button
@@ -363,8 +399,17 @@ export default function Feed({ stories, cdnBase }: Props) {
               className={`sub-chip ${activeSub === s ? "active" : ""}`}
               onClick={() => setActiveSub(activeSub === s ? null : s)}
             >
-              {s} <span className="sub-chip-count">{subCounts[s]}</span>
-              {isSubLive(activeCat, s) && <span className="live-dot" aria-label="live" />}
+              {activeSub === s && (
+                <motion.span
+                  layoutId="sub-strip-pill"
+                  className="sub-chip-pill"
+                  transition={{ type: "spring", stiffness: 380, damping: 34 }}
+                />
+              )}
+              <span className="sub-chip-label">
+                {s} <span className="sub-chip-count">{subCounts[s]}</span>
+                {isSubLive(activeCat, s) && <span className="live-dot" aria-label="live" />}
+              </span>
             </button>
           ))}
         </nav>
@@ -380,7 +425,23 @@ export default function Feed({ stories, cdnBase }: Props) {
         </Suspense>
       )}
 
-      {view === "list" && (
+      {view === "list" && grouped.length === 0 && (
+        <div className="empty-plate" role="status">
+          <div className="empty-plate-serial">
+            {activeCat === "ALL" ? "ALL" : activeCat}{activeSub ? ` › ${activeSub}` : ""}
+            {" / "}
+            {new Date().toLocaleDateString("en-US", { day: "numeric", month: "short" }).toUpperCase()}
+          </div>
+          <div className="empty-plate-body">
+            Nothing filed in the last stretch.
+          </div>
+          <div className="empty-plate-note">
+            The pipeline runs three times a day. Check back after the next fire, or widen the filter.
+          </div>
+        </div>
+      )}
+
+      {view === "list" && grouped.length > 0 && (
       <div className="feed">
         {grouped.map((g) => (
           <section key={g.label} className="day-group">
@@ -398,6 +459,13 @@ export default function Feed({ stories, cdnBase }: Props) {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.35, delay: Math.min(i, 12) * 0.025, ease: [0.16, 1, 0.3, 1] }}
                 >
+                  {i === 0 && (
+                    <div className="lede-cue" aria-hidden="true">
+                      <span className="lede-cue-serial">N°01</span>
+                      <span className="lede-cue-sep">/</span>
+                      <span className="lede-cue-label">Today</span>
+                    </div>
+                  )}
                   <div className="card-cover">
                     {s.image_url ? (
                       <img src={s.image_url} alt="" loading="lazy" />
@@ -527,6 +595,8 @@ export default function Feed({ stories, cdnBase }: Props) {
               </div>
               <Scrubber now={now} dur={dur || (current.estimated_duration_s ?? 0)} onSeek={seek} />
             </div>
+
+            <NowPlayingWave playing={playing} now={now} />
 
             <div className="player-time">
               <span className="player-time-cur">{fmtDuration(now)}</span>

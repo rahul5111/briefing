@@ -194,6 +194,7 @@ a { color: inherit; text-decoration: none; }
   padding: 4px 0;
 }
 .sub-chip {
+  position: relative;
   background: transparent;
   border: 1px solid var(--hairline-2);
   color: var(--muted);
@@ -204,16 +205,29 @@ a { color: inherit; text-decoration: none; }
   font-size: 0.66rem;
   letter-spacing: 0.09em;
   text-transform: uppercase;
-  transition: color .15s ease, border-color .15s ease, background .15s ease;
+  transition: color .18s ease, border-color .18s ease;
   font-variant-numeric: tabular-nums;
   display: inline-flex;
   align-items: baseline;
   gap: 6px;
 }
+.sub-chip-label {
+  position: relative;
+  z-index: 1;
+  display: inline-flex;
+  align-items: baseline;
+  gap: 6px;
+}
+.sub-chip-pill {
+  position: absolute;
+  inset: -1px;
+  background: var(--accent);
+  border-radius: 999px;
+  z-index: 0;
+}
 .sub-chip:hover { color: var(--ink); border-color: var(--ink); }
 .sub-chip.active {
   color: var(--paper);
-  background: var(--accent);
   border-color: var(--accent);
 }
 .sub-chip-count { font-size: 0.58rem; opacity: 0.75; }
@@ -308,23 +322,38 @@ a { color: inherit; text-decoration: none; }
 
 /* First card of the day = editorial featured. Wider (2 cols) but same row
    height as siblings, so it doesn't crush the other cards below the fold.
-   Signature: a 3px vermilion tick in the top-left corner of the cover
-   (the "hero moment per page" pattern — edges do the work, single accent). */
+   Signature: a "N°01 / Today" lede marker in JetBrains Mono above the
+   cover — Monocle / Economist front-section pattern. The vermilion tick
+   is now the underline of the serial rather than a separate glyph. */
 .card.featured {
   grid-column: span 2;
 }
 .card.featured .card-cover { aspect-ratio: 16 / 9; }
-.card.featured .card-cover::before {
-  content: "";
-  position: absolute;
-  top: 0; left: 0;
-  width: 3px;
-  height: 32px;
-  background: var(--accent);
-  z-index: 3;
-  transition: height .35s cubic-bezier(0.2, 0.9, 0.3, 1);
+.lede-cue {
+  display: none;                    /* only on featured (rule below turns it on) */
 }
-.card.featured:hover .card-cover::before { height: 56px; }
+.card.featured .lede-cue {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 8px;
+  padding-left: 2px;
+  transition: color .28s ease, letter-spacing .28s ease;
+}
+.card.featured .lede-cue-serial {
+  color: var(--accent);
+  font-weight: 500;
+  border-bottom: 1px solid var(--accent);
+  padding-bottom: 1px;
+  transition: border-bottom-color .28s ease, letter-spacing .28s ease;
+}
+.card.featured .lede-cue-sep { opacity: 0.5; }
+.card.featured:hover .lede-cue-serial { letter-spacing: 0.2em; }
 .card.featured .card-title {
   font-size: clamp(1.4rem, 1.8vw, 1.85rem);
   line-height: 1.1;
@@ -601,7 +630,7 @@ a { color: inherit; text-decoration: none; }
   border-radius: 10px;
   padding: 12px 20px 14px;
   display: grid;
-  grid-template-columns: auto 56px 1fr auto auto;
+  grid-template-columns: auto 56px 1fr auto auto auto;
   gap: 16px;
   align-items: center;
   z-index: 50;
@@ -790,6 +819,70 @@ a { color: inherit; text-decoration: none; }
   text-transform: uppercase;
 }
 
+/* Empty-state plate for zero-story categories — dignified stationary block,
+   not an apology. Serial in JetBrains Mono, honest note about pipeline
+   cadence. Editorial equivalent of Monocle's "nothing to report" plates. */
+.empty-plate {
+  margin: 48px auto;
+  max-width: 640px;
+  padding: 40px 48px;
+  border: 1px solid var(--hairline);
+  border-top: 3px solid var(--accent);
+  border-radius: 4px;
+  background: color-mix(in oklab, var(--paper) 96%, var(--accent) 4%);
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+.empty-plate-serial {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--accent);
+  font-weight: 500;
+}
+.empty-plate-body {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-variation-settings: "opsz" 32;
+  font-size: 1.4rem;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  color: var(--ink);
+}
+.empty-plate-note {
+  font-family: var(--font-body);
+  font-size: 0.9rem;
+  color: var(--muted);
+  line-height: 1.5;
+  max-width: 46ch;
+}
+
+/* Now-playing waveform bars in the on-demand player. 14 vermilion bars,
+   scaleY driven by inline style from JS. Under reduced-motion the JS
+   still runs but the CSS transition is disabled (already blanket-off in
+   the reduced-motion block) so the shape freezes gracefully. */
+.now-wave {
+  display: flex;
+  align-items: center;
+  gap: 3px;
+  height: 32px;
+  flex-shrink: 0;
+  padding: 0 4px;
+}
+.now-wave-bar {
+  display: block;
+  width: 2px;
+  height: 24px;
+  background: var(--accent);
+  border-radius: 1px;
+  transform-origin: center;
+  transform: scaleY(0.25);
+  transition: transform .18s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.now-wave.paused .now-wave-bar { opacity: 0.4; }
+
 @media (prefers-reduced-motion: reduce) {
   * { animation: none !important; transition: none !important; }
 }
@@ -809,7 +902,7 @@ a { color: inherit; text-decoration: none; }
     left: 10px; right: 10px; bottom: 10px;
     padding: 10px 12px 12px;
     gap: 10px;
-    grid-template-columns: auto 44px 1fr auto auto;
+    grid-template-columns: auto 44px 1fr auto auto auto;
     min-height: 74px;
   }
   .player-btn { width: 40px; height: 40px; font-size: 0.78rem; }
