@@ -13,6 +13,17 @@ __pycache__/
 # Kokoro models (350MB — GHA caches them separately)
 .models/
 
+# B-18: audio MP3s will be served from Cloudflare R2 (post-migration).
+# Once B-11..B-19 land, all new writes go to R2 and are gitignored
+# so history stops growing.
+site/public/data/audio/*.mp3
+site/public/data/blogs-audio/*.mp3
+
+# B-34: observability outputs — regenerated every run, not history.
+data/health/
+data/drift/
+data/voice_sweep/
+
 # Node
 site/node_modules/
 site/dist/

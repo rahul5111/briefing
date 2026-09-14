@@ -159,14 +159,28 @@ def _enrich_from_dups(dup_log: list, candidates: list[Candidate], existing_manif
 
 
 def main() -> int:
+    # B-33/B-35: track intake stats for the health dashboard + drift
+    # detector. Best-effort — the observability layer must never fail
+    # the pipeline. Populated as the run proceeds.
+    _run_start = datetime.now(timezone.utc)
+    _health_stats: dict = {
+        "started_at": _run_start.isoformat(timespec="seconds"),
+        "intake": {"candidates_in": 0, "accepted": 0, "rejected": 0,
+                    "reject_by_reason": {}, "dedup_matches": 0},
+        "refine": {"stories": 0},
+        "audio": {"tts_generated": 0},
+    }
+
     print("Fetching from all configured sources...")
     candidates = fetch_all()
     print(f"\nTotal candidates: {len(candidates)}")
+    _health_stats["intake"]["candidates_in"] = len(candidates)
 
     existing = manifest.load()
     existing_ids = {s["id"] for s in existing["stories"]}
 
     # Drop already-processed items early so we don't waste work on dedup
+    _pre_dedup = len(candidates)
     candidates = [c for c in candidates if c.id not in existing_ids]
     print(f"After dropping already-processed: {len(candidates)}")
 
@@ -382,6 +396,36 @@ def main() -> int:
     manifest.save(existing)
     manifest.write_rss(existing)
     print(f"\nAdded {len(new_stories)} stories. Manifest holds {len(merged)}.")
+
+    # B-33 + B-35: observability spine. Best-effort — any failure here
+    # writes a `[health-render] failed` line and returns 0 anyway.
+    try:
+        from pipeline import drift, health
+        _run_end = datetime.now(timezone.utc)
+        _health_stats["ended_at"] = _run_end.isoformat(timespec="seconds")
+        _health_stats["duration_s"] = int((_run_end - _run_start).total_seconds())
+        _health_stats["exit"] = 0
+        _health_stats["refine"]["stories"] = len(new_stories)
+        _health_stats["audio"]["tts_generated"] = sum(
+            1 for s in new_stories if s.get("audio_path")
+        )
+        # Populate intake.accepted from what actually reached refine.
+        # `accepted` here is post-v2-filter, pre-refine.
+        _health_stats["intake"]["accepted"] = len(new_stories)
+        _in = _health_stats["intake"]["candidates_in"] or 1
+        _health_stats["intake"]["rejected"] = max(0, _in - len(new_stories))
+
+        _drift_result = drift.compute_drift({
+            "in": _health_stats["intake"]["candidates_in"],
+            "accept": _health_stats["intake"]["accepted"],
+            "reject": _health_stats["intake"]["rejected"],
+            "dedup": _health_stats["intake"]["dedup_matches"],
+        })
+        _health_stats["drift"] = _drift_result
+
+        health.render(_health_stats)
+    except Exception as e:  # noqa: BLE001 — observability never fails run
+        print(f"[health-render] failed: {type(e).__name__}: {e}")
     return 0
 
 

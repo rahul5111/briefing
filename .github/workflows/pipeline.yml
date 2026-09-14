@@ -41,6 +41,17 @@ jobs:
           path: .models
           key: kokoro-v1.0
 
+      # B-14: pin Kokoro model file hashes so a silent upstream model
+      # change can't quietly regress audio. Populate .models/EXPECTED_HASHES.txt
+      # after the first successful run with `sha256sum .models/*.onnx > .models/EXPECTED_HASHES.txt`.
+      - name: Verify Kokoro model hashes
+        run: |
+          if [ -f .models/EXPECTED_HASHES.txt ] && ls .models/*.onnx >/dev/null 2>&1; then
+            cd .models && sha256sum -c EXPECTED_HASHES.txt
+          else
+            echo "::warning::EXPECTED_HASHES.txt not present or no .onnx files yet — skipping (populate after first successful run)"
+          fi
+
       - name: Cache sentence-transformers
         uses: actions/cache@v4
         with:
@@ -58,11 +69,15 @@ jobs:
       - name: Commit changes
         id: commit
         run: |
+          # B-09: rebase-then-push eliminates the local-push race that
+          # was intermittently failing this step when a local commit
+          # landed between the cron's checkout and its push.
           git config user.name "briefing-bot"
           git config user.email "bot@users.noreply.github.com"
-          git add site/public/data data/reviews 2>/dev/null || true
+          git add site/public/data data/reviews data/rejections data/duplicates data/extraction_failures 2>/dev/null || true
           if ! git diff --cached --quiet; then
             git commit -m "briefing: $(date -u +%Y-%m-%dT%H:%MZ)"
+            git pull --rebase --autostash origin main
             git push
             echo "committed=true" >> "$GITHUB_OUTPUT"
           else
