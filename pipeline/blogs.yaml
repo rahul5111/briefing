@@ -1,0 +1,150 @@
+# Blog sources for the /blogs section. Weekly cadence (blog posts are
+# not daily). Retention 30 days per entry — user wants a 1-month clock
+# on each blog he reads.
+#
+# All URLs verified live 2026-09-14.
+
+blogs:
+
+  # ── Individuals: senior engineering + architecture ─────────────────
+  - name: martin_fowler
+    display: "Martin Fowler"
+    author: "Martin Fowler"
+    url: https://martinfowler.com/feed.atom
+    max_items: 6
+    topics: [architecture, refactoring, methodology]
+
+  - name: pragmatic_engineer
+    display: "The Pragmatic Engineer"
+    author: "Gergely Orosz"
+    url: https://newsletter.pragmaticengineer.com/feed
+    max_items: 6
+    topics: [engineering-management, industry, hiring]
+
+  - name: will_larson
+    display: "Irrational Exuberance"
+    author: "Will Larson"
+    url: https://lethain.com/feeds/
+    max_items: 6
+    topics: [engineering-management, career]
+
+  - name: coding_horror
+    display: "Coding Horror"
+    author: "Jeff Atwood"
+    url: https://blog.codinghorror.com/feed/
+    max_items: 6
+    topics: [software-culture, opinion]
+
+  - name: hillel_wayne
+    display: "Hillel Wayne"
+    author: "Hillel Wayne"
+    url: https://hillelwayne.com/index.xml
+    max_items: 6
+    topics: [formal-methods, testing]
+
+  - name: uncle_bob
+    display: "Clean Coder Blog"
+    author: "Robert C. Martin"
+    url: https://blog.cleancoder.com/atom.xml
+    max_items: 6
+    topics: [craftsmanship, clean-code]
+
+  - name: ploeh
+    display: "Ploeh Blog"
+    author: "Mark Seemann"
+    url: https://blog.ploeh.dk/atom.xml
+    max_items: 6
+    topics: [functional-programming, dotnet, di]
+
+  - name: jimmy_bogard
+    display: "Jimmy Bogard"
+    author: "Jimmy Bogard"
+    url: https://www.jimmybogard.com/rss/
+    max_items: 6
+    topics: [dotnet, architecture]
+
+  - name: karl_hughes
+    display: "Karl Hughes"
+    author: "Karl Hughes"
+    url: https://www.karllhughes.com/feed.xml
+    max_items: 6
+    topics: [engineering-management, startups]
+
+  - name: ben_hoyt
+    display: "Ben Hoyt"
+    author: "Ben Hoyt"
+    url: https://benhoyt.com/writings/rss.xml
+    max_items: 6
+    topics: [python, systems]
+
+  - name: codewithmukesh
+    display: "codewithmukesh"
+    author: "Mukesh Murugan"
+    url: https://codewithmukesh.com/rss.xml
+    max_items: 6
+    topics: [dotnet, backend]
+
+  # ── Company engineering blogs ─────────────────────────────────────
+  - name: netflix_tech
+    display: "Netflix Tech Blog"
+    author: "Netflix Engineering"
+    url: https://netflixtechblog.com/feed
+    max_items: 4
+    topics: [distributed-systems, ml, video]
+
+  - name: cloudflare
+    display: "Cloudflare Blog"
+    author: "Cloudflare Engineering"
+    url: https://blog.cloudflare.com/rss/
+    max_items: 4
+    topics: [networking, security, edge]
+
+  - name: highscalability
+    display: "High Scalability"
+    author: "Todd Hoff"
+    url: https://highscalability.com/rss/
+    max_items: 4
+    topics: [distributed-systems, architecture]
+
+  # ── AI / ML researchers + writers ─────────────────────────────────
+  - name: lilianweng
+    display: "Lil'Log (Lilian Weng)"
+    author: "Lilian Weng"
+    url: https://lilianweng.github.io/index.xml
+    max_items: 4
+    topics: [ai-research, rl]
+
+  - name: karpathy
+    display: "Andrej Karpathy"
+    author: "Andrej Karpathy"
+    url: https://karpathy.github.io/feed.xml
+    max_items: 4
+    topics: [ai-research, education]
+
+  - name: interconnects
+    display: "Interconnects"
+    author: "Nathan Lambert"
+    url: https://www.interconnects.ai/feed
+    max_items: 4
+    topics: [ai-research, industry]
+
+  - name: simon_willison
+    display: "Simon Willison"
+    author: "Simon Willison"
+    url: https://simonwillison.net/atom/entries/
+    max_items: 6
+    topics: [ai-tools, llms, python]
+
+  - name: ai_snake_oil
+    display: "AI Snake Oil"
+    author: "Arvind Narayanan & Sayash Kapoor"
+    url: https://www.aisnakeoil.com/feed
+    max_items: 4
+    topics: [ai-policy, ai-criticism]
+
+  - name: gwern
+    display: "Gwern"
+    author: "Gwern Branwen"
+    url: https://gwern.net/index.rss
+    max_items: 4
+    topics: [long-form, research]

@@ -819,6 +819,252 @@ a { color: inherit; text-decoration: none; }
   text-transform: uppercase;
 }
 
+/* ─────────────────────────── SECTION NAV ─────────────────────────── */
+.section-nav {
+  display: inline-flex;
+  align-items: center;
+  gap: 12px;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.section-nav a {
+  color: var(--muted);
+  border-bottom: 1px solid transparent;
+  padding-bottom: 2px;
+  transition: color .18s ease, border-bottom-color .18s ease;
+}
+.section-nav a:hover { color: var(--ink); border-bottom-color: var(--hairline-2); }
+.section-nav a.active {
+  color: var(--accent);
+  border-bottom-color: var(--accent);
+}
+.section-nav-sep { color: var(--muted-2); opacity: 0.7; }
+
+/* ─────────────────────────── BLOGS ───────────────────────────────── */
+.blogs-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 8px 0 24px;
+  gap: 16px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid var(--hairline);
+}
+.blogs-sort {
+  display: inline-flex;
+  border: 1px solid var(--ink);
+  padding: 3px;
+}
+.blogs-sort button {
+  background: transparent;
+  border: 0;
+  padding: 6px 14px;
+  font-family: var(--font-mono);
+  font-size: 0.66rem;
+  letter-spacing: 0.14em;
+  color: var(--muted);
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: background .15s ease, color .15s ease;
+}
+.blogs-sort button:hover { color: var(--ink); }
+.blogs-sort button.active { background: var(--ink); color: var(--paper); }
+.blogs-count {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  letter-spacing: 0.14em;
+  color: var(--muted);
+  text-transform: uppercase;
+  font-variant-numeric: tabular-nums;
+}
+.blogs-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+.blogs-source-group {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+.blogs-source-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 24px 0 8px;
+  border-bottom: 1px solid var(--hairline);
+  margin-bottom: 4px;
+}
+.blogs-source-name {
+  font-family: var(--font-display);
+  font-weight: 600;
+  font-variation-settings: "opsz" 28;
+  font-size: 1.35rem;
+  color: var(--ink);
+  letter-spacing: -0.01em;
+}
+.blogs-source-count {
+  font-family: var(--font-mono);
+  font-size: 0.66rem;
+  color: var(--muted);
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+}
+.blog-card {
+  display: block;
+  padding: 22px 0;
+  border-bottom: 1px solid var(--hairline);
+  transition: padding-left .25s cubic-bezier(0.2, 0.9, 0.3, 1);
+}
+.blog-card:hover { padding-left: 4px; }
+.blog-card.open { padding-left: 8px; border-left: 2px solid var(--accent); padding-right: 8px; background: color-mix(in oklab, var(--paper) 96%, var(--accent) 4%); }
+.blog-card-head {
+  display: block;
+  width: 100%;
+  background: transparent;
+  border: 0;
+  padding: 0;
+  cursor: pointer;
+  text-align: left;
+  color: inherit;
+}
+.blog-card-kicker {
+  display: inline-flex;
+  align-items: baseline;
+  gap: 8px;
+  padding-left: 8px;
+  border-left: 2px solid var(--accent);
+  font-family: var(--font-mono);
+  font-size: 0.66rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+.blog-source { color: var(--accent); font-weight: 500; }
+.blog-author { color: var(--ink); font-weight: 500; letter-spacing: 0.08em; }
+.blog-kicker-sep { color: var(--muted-2); }
+.blog-title {
+  font-family: var(--font-display);
+  font-weight: 500;
+  font-variation-settings: "opsz" 42;
+  font-size: clamp(1.4rem, 1.9vw, 1.85rem);
+  line-height: 1.15;
+  letter-spacing: -0.02em;
+  color: var(--ink);
+  margin-top: 12px;
+  transition: color .18s ease;
+  text-wrap: balance;
+}
+.blog-card:hover .blog-title { color: var(--accent); }
+.blog-meta {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  margin-top: 10px;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.14em;
+  color: var(--muted);
+  text-transform: uppercase;
+  font-variant-numeric: tabular-nums;
+  flex-wrap: wrap;
+}
+.blog-meta-sep { color: var(--muted-2); }
+.blog-clock {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  color: var(--ink);
+}
+.blog-body {
+  padding: 20px 0 8px;
+  overflow: hidden;
+}
+.blog-short {
+  font-family: var(--font-body);
+  font-size: 1.05rem;
+  line-height: 1.55;
+  color: var(--ink);
+  margin-bottom: 18px;
+  max-width: 68ch;
+}
+.blog-actions {
+  display: flex;
+  gap: 14px;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 24px;
+}
+.blog-action-primary {
+  background: var(--ink);
+  color: var(--paper);
+  border: 1px solid var(--ink);
+  padding: 10px 18px;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: background .18s ease, border-color .18s ease;
+  border-radius: 2px;
+}
+.blog-action-primary:hover { background: var(--accent); border-color: var(--accent); }
+.blog-action-link {
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  color: var(--muted);
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--hairline-2);
+  padding-bottom: 2px;
+  transition: color .18s ease, border-color .18s ease;
+}
+.blog-action-link:hover { color: var(--accent); border-bottom-color: var(--accent); }
+.blog-long {
+  font-family: var(--font-body);
+  font-size: 1rem;
+  line-height: 1.65;
+  color: var(--ink);
+  max-width: 72ch;
+}
+.blog-long p + p { margin-top: 1em; }
+.blog-topics {
+  display: flex;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-top: 24px;
+}
+.blog-topic {
+  font-family: var(--font-mono);
+  font-size: 0.6rem;
+  letter-spacing: 0.09em;
+  text-transform: uppercase;
+  color: var(--muted);
+  border: 1px solid var(--hairline-2);
+  padding: 3px 8px;
+  border-radius: 999px;
+}
+.blog-source-footer {
+  display: inline-block;
+  margin-top: 20px;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  letter-spacing: 0.14em;
+  color: var(--accent);
+  text-transform: uppercase;
+  border-bottom: 1px solid var(--accent-line);
+  padding-bottom: 2px;
+  transition: border-bottom-color .18s ease;
+}
+.blog-source-footer:hover { border-bottom-color: var(--accent); }
+
 /* Empty-state plate for zero-story categories — dignified stationary block,
    not an apology. Serial in JetBrains Mono, honest note about pipeline
    cadence. Editorial equivalent of Monocle's "nothing to report" plates. */
