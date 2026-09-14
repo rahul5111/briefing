@@ -1,0 +1,45 @@
+═══ 00_KEY_POINTS ═══
+
+1. OpenAI resolved a tantalising aspect of the Navier-Stokes equations using advanced artificial intelligence.
+2. Resolving the Navier-Stokes equations is a Millennium Prize Problem offering a $1 million reward.
+3. More than 10,000 AI agents working together in different configurations found a solution in about 88 hours.
+4. The OpenAI team discovered that fluid speed can suddenly become infinity in situations known as blow-ups.
+5. Zaher Hani stated that this progress condensed months or years of human-driven progress to a matter of days.
+6. Researchers are now urgently trying to understand the implications of this major mathematical breakthrough.
+
+═══ 01_DRAFT ═══
+
+OpenAI has resolved a major aspect of the 200-year-old Navier-Stokes equations, which describe fluid behavior and are one of the $1 million Millennium Prize Problems. Using more than 10,000 AI agents working together in different configurations, the OpenAI team reached a solution in about 88 hours. The AI found that the equations do sometimes fall apart by identifying situations known as blow-ups, where part of a fluid reaches infinite speed in finite time using only a finite amount of force. The specific mechanism involved a spinning whirlpool that becomes longer, thinner, and more intense until its swirling becomes infinite. This built upon foundational work by researchers including Luis Martínez-Zoroa, Diego Córdoba, Tristan Buckmaster, and Levent Alpöge. While the resulting proof spans 166 pages of complicated mathematics, researchers noted that the key ideas used by the AI agents are relatively simple physical mechanisms. As Zaher Hani at the University of Michigan stated, this progress condensed what could have been months or years of human-driven progress into a matter of days. However, the rapid pace of AI-generated proofs has raised concerns among mathematicians that they may receive answers to major conundrums without gaining sufficient explanations or long-term benefits to the scientific process.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Open. A. I. has resolved a major aspect of the two hundred year old Navier-Stokes equations. These equations describe fluid behavior and are one of the one million dollar Millennium Prize Problems. The team used more than ten thousand A. I. agents working together in different configurations. They reached a solution in about eighty-eight hours. 
+
+The A. I. found that the equations do sometimes fall apart. It identified situations known as blow-ups. A blow-up happens where part of a fluid reaches infinite speed in finite time using only a finite amount of force. The specific mechanism involved a spinning whirlpool. The whirlpool becomes longer and thinner and more intense until its swirling becomes infinite. 
+
+This built upon foundational work by researchers including, Luis Martínez-Zoroa, Diego Córdoba, Tristan Buckmaster, and Levent Alpöge. The resulting proof spans one hundred sixty-six pages of complicated mathematics. Researchers noted that the key ideas used by the A. I. agents are relatively simple physical mechanisms. 
+
+Zaher Hani at the University of Michigan stated something important. This progress condensed what could have been months or years of human-driven progress into a matter of days. However, the rapid pace of A. I. generated proofs has raised concerns among mathematicians. They worry they may receive answers to major conundrums without gaining sufficient explanations or long-term benefits to the scientific process.
+
+═══ 05_NORMALIZED ═══
+
+Open. A. I. has resolved a major aspect of the two hundred year old Navier-Stokes equations. These equations describe fluid behavior and are one of the one million dollar Millennium Prize Problems. The team used more than ten thousand A. I. agents working together in different configurations. They reached a solution in about eighty-eight hours.
+
+The A. I. found that the equations do sometimes fall apart. It identified situations known as blow-ups. A blow-up happens where part of a fluid reaches infinite speed in finite time using only a finite amount of force. The specific mechanism involved a spinning whirlpool. The whirlpool becomes longer and thinner and more intense until its swirling becomes infinite.
+
+This built upon foundational work by researchers including, Luis Martínez-Zoroa, Diego Córdoba, Tristan Buckmaster, and Levent Alpöge. The resulting proof spans one hundred sixty-six pages of complicated mathematics. Researchers noted that the key ideas used by the A. I. agents are relatively simple physical mechanisms.
+
+Zaher Hani at the University of Michigan stated something important. This progress condensed what could have been months or years of human-driven progress into a matter of days. However, the rapid pace of A. I. generated proofs has raised concerns among mathematicians. They worry they may receive answers to major conundrums without gaining sufficient explanations or long-term benefits to the scientific process.
+
+═══ 06_COVERAGE_FINAL ═══
+
+83% covered (5/6). Missing: Researchers are now urgently trying to understand the implications of this major mathematical breakthrough.
+
+═══ 07_SANITY ═══
+
+OK
+

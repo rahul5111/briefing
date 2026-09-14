@@ -1,0 +1,37 @@
+═══ 00_KEY_POINTS ═══
+
+1. Standard Ethernet cable lengths max out at 328 feet for a rated connection speed.
+2. A typical setup uses 295 feet of solid-core cable plus 33 feet of flexible patch cables.
+3. Cat6 cable supports 10 Gbps speeds up to 180 feet before requiring Cat6a for longer distances.
+4. Cat6a is designed to sustain 10 Gbps speeds up to the maximum 328-foot limit.
+5. Users should choose cable types and lengths based on their specific internet service provider plan.
+6. An Ethernet switch or fiber optic cable can be used for distances exceeding 328 feet.
+
+═══ 01_DRAFT ═══
+
+Standard Ethernet cables max out at 328 feet, which is the maximum length a rated connection speed can travel reliably while accounting for signal loss, interference, and timing issues. A typical setup utilizes 295 feet of solid-core cable plus up to 33 feet of flexible patch cables at either end. Within that 328-foot distance, solid Cat5e or Cat6 cables support 1 Gbps Ethernet. However, cable categories dictate specific performance limits. While Cat5e and Cat6 both support 1 Gbps up to the 328-foot limit, Cat6 can support 10 Gbps only up to about 180 feet. For a longer 10 Gbps run, Cat6a is the superior alternative because it sustains 10 Gbps up to the full 328 feet. Going beyond a cable's rated distance does not necessarily produce a gradual slowdown, but longer runs can cause errors and performance inconsistencies. For distances exceeding 328 feet, solutions include placing an Ethernet switch at the midpoint to create two separate copper runs or replacing the long portion with fiber optic cable using a media converter or fiber-capable switch. For Power over Ethernet, the 328-foot rule generally applies, but lengthy runs may fail to provide enough electrical power.
+
+═══ 03_COVERAGE_1 ═══
+
+83% covered (5/6). Missing: Users should choose cable types and lengths based on their specific internet service provider plan.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+Standard Ethernet cables max out at 328 feet, which is the maximum length a rated connection speed can travel reliably while accounting for signal loss, interference, and timing issues. A typical setup utilizes 295 feet of solid-core cable plus up to 33 feet of flexible patch cables at either end. Within that 328-foot distance, solid Cat5e or Cat6 cables support 1 Gbps Ethernet. However, cable categories dictate specific performance limits, and users should choose cable types and lengths based on their specific internet service provider plan. While Cat5e and Cat6 both support 1 Gbps up to the 328-foot limit, Cat6 can support 10 Gbps only up to about 180 feet. For a longer 10 Gbps run, Cat6a is the superior alternative because it sustains 10 Gbps up to the full 328 feet. Going beyond a cable's rated distance does not necessarily produce a gradual slowdown, but longer runs can cause errors and performance inconsistencies. For distances exceeding 328 feet, solutions include placing an Ethernet switch at the midpoint to create two separate copper runs or replacing the long portion with fiber optic cable using a media converter or fiber-capable switch. For Power over Ethernet, the 328-foot rule generally applies, but lengthy runs may fail to provide enough electrical power.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Standard Ethernet cables max out at three hundred twenty-eight feet. This is the maximum length a rated connection speed can travel reliably. It accounts for signal loss and interference and timing issues. A typical setup utilizes two hundred ninety-five feet of solid-core cable. It also uses up to thirty-three feet of flexible patch cables at either end. Within that three hundred twenty-eight foot distance, solid Cat5e or Cat6 cables support one gigabits per second Ethernet. However, cable categories dictate specific performance limits. Users should choose cable types and lengths based on their specific internet service provider plan. Cat5e and Cat6 both support one gigabits per second up to the three hundred twenty-eight foot limit. Cat6 can support ten gigabits per second only up to about one hundred eighty feet. For a longer ten gigabits per second run, Cat6a is the superior alternative. It sustains ten gigabits per second up to the full three hundred twenty-eight feet. Going beyond a cable rated distance does not necessarily produce a gradual slowdown. Longer runs can cause errors and performance inconsistencies. For distances exceeding three hundred twenty-eight feet, solutions include placing an Ethernet switch at the midpoint. This creates two separate copper runs. Another option is replacing the long portion with fiber optic cable. You can use a media converter or fiber-capable switch for this. For Power over Ethernet, the three hundred twenty-eight foot rule generally applies. Lengthy runs may fail to provide enough electrical power.
+
+═══ 05_NORMALIZED ═══
+
+Standard Ethernet cables max out at three hundred twenty-eight feet. This is the maximum length a rated connection speed can travel reliably. It accounts for signal loss and interference and timing issues. A typical setup utilizes two hundred ninety-five feet of solid-core cable. It also uses up to thirty-three feet of flexible patch cables at either end. Within that three hundred twenty-eight foot distance, solid Cat5e or Cat6 cables support one gigabits per second Ethernet. However, cable categories dictate specific performance limits. Users should choose cable types and lengths based on their specific internet service provider plan. Cat5e and Cat6 both support one gigabits per second up to the three hundred twenty-eight foot limit. Cat6 can support ten gigabits per second only up to about one hundred eighty feet. For a longer ten gigabits per second run, Cat6a is the superior alternative. It sustains ten gigabits per second up to the full three hundred twenty-eight feet. Going beyond a cable rated distance does not necessarily produce a gradual slowdown. Longer runs can cause errors and performance inconsistencies. For distances exceeding three hundred twenty-eight feet, solutions include placing an Ethernet switch at the midpoint. This creates two separate copper runs. Another option is replacing the long portion with fiber optic cable. You can use a media converter or fiber-capable switch for this. For Power over Ethernet, the three hundred twenty-eight foot rule generally applies. Lengthy runs may fail to provide enough electrical power.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: one gigabits per second, one gigabits per second
+

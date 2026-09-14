@@ -1,0 +1,58 @@
+═══ 00_KEY_POINTS ═══
+
+1. OpenAI recently announced that a swarm of 10,000 agents sending 2.7 million messages solved a math problem.
+2. Climate scientist Zeke Hausfather calculated that his daily AI agent session consumes more energy than two refrigerators.
+3. Meta recently rolled out a personal AI agent called Muse that maintains a dedicated computer in the cloud.
+4. Meta plans to integrate its new Muse personal AI agent with its artificial intelligence glasses later this year.
+5. The massive Hyperion data center project in Louisiana will be powered by 10 natural gas plants.
+6. Boris Gamazaychikov stated that the technology trained by current data centers is three to five years away.
+7. Silicon Valley is rapidly building power infrastructure and data centers because AI agents require vastly more energy than chatbots.
+
+═══ 01_DRAFT ═══
+
+The rapid expansion of data centers and massive power plants by tech companies is being driven by a shift from simple AI chatbots to autonomous AI agents. Unlike standard queries, agents give themselves hundreds of small prompts and can run for hours to execute complex tasks. Recently, OpenAI announced that a swarm of more than 10,000 agents sending 2.7 million messages solved a longstanding math problem, burning through processing power costing tens of millions of dollars. Private AI companies have historically been tight-lipped about environmental metrics, with OpenAI CEO Sam Altman previously comparing single-query resource use to the water required to harvest a single almond, stating that the people eating 12 almonds at a time do not feel they are doing something horrible from a water perspective. Introducing resource-intensive agents complicates these calculations significantly. Climate scientist Zeke Hausfather published a blog post last month estimating that his own agent-heavy daily AI use consumes more energy than needed to power two refrigerators. While this footprint is still relatively small compared to activities like regular flights, tech companies are scaling up infrastructure for a future of ubiquitous agents. Meta recently rolled out a personal AI agent dubbed Muse, designed to maintain a dedicated computer in the cloud for billions of people and integrate with AI glasses later this year, a vision that helps explain massive infrastructure undertakings like the Hyperion project in Louisiana, which will be powered by 10 natural gas plants. Data center developers are installing gas turbines immediately rather than waiting for emerging solutions like small modular nuclear reactors, which face prolonged timelines to commercial operation despite US government pilot projects.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+The rapid expansion of data centers and massive power plants by tech companies is being driven by a shift from simple AI chatbots to autonomous AI agents. Rather than asking a simple question and answer, these agents can give themselves hundreds of small prompts based on a user’s original question and run for hours to build out features. Recently, OpenAI announced that a swarm of more than 10,000 agents sending 2.7 million messages solved a longstanding math problem, burning through processing power costing probably tens of millions of dollars. Private AI companies have historically been tight-lipped about environmental metrics, with OpenAI CEO Sam Altman previously comparing single-query resource use to the water required to harvest a single almond, stating that the people eating 12 almonds at a time do not feel they are doing something horrible from a water perspective. Introducing resource-intensive agents complicates these calculations significantly. Climate scientist Zeke Hausfather published a blog post last month estimating that his own agent-heavy daily AI use consumes more energy than needed to power two refrigerators. While this footprint is still relatively small compared to things like taking regular flights, tech companies are scaling up infrastructure for a future of ubiquitous agents. Meta recently rolled out a personal AI agent dubbed Muse, designed to maintain a dedicated computer in the cloud for billions of people and integrate with AI glasses later this year, a vision that helps explain massive infrastructure undertakings like the Hyperion project in Louisiana, which will be powered by 10 natural gas plants. Data center developers are installing gas turbines immediately rather than waiting for emerging solutions like small modular nuclear reactors, which face prolonged timelines to commercial operation despite US government pilot projects.
+
+═══ 03_COVERAGE_1 ═══
+
+85% covered (6/7). Missing: Boris Gamazaychikov stated that the technology trained by current data centers is three to five years away.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Tech companies are rapidly expanding data centers and power plants. This is driven by a shift from simple chatbots to autonomous A. I. agents. These agents can give themselves hundreds of small prompts based on a user request. They run for hours to build out features. 
+
+OpenAI recently announced a milestone in math problem solving. A swarm of more than ten thousand agents sent two point seven million messages. The processing power probably cost tens of million dollars. 
+
+Private artificial intelligence companies have historically been quiet about environmental metrics. OpenAI Chief Executive Officer Sam Altman previously compared single query resource use to almonds. He stated that people eating twelve almonds at a time do not feel they are doing something horrible from a water perspective. Introducing resource intensive agents complicates these calculations significantly. 
+
+Climate scientist, Zeke Hausfather, published a blog post last month. He estimated that his own agent heavy daily artificial intelligence use consumes more energy than needed to power two refrigerators. This footprint is still relatively small compared to taking regular flights. Tech companies are scaling up infrastructure for a future of ubiquitous agents. 
+
+Meta recently rolled out a personal artificial intelligence agent dubbed Muse. It is designed to maintain a dedicated computer in the cloud for billions of people. It will integrate with artificial intelligence glasses later this year. This vision helps explain massive infrastructure undertakings like the Hyperion project in Louisiana. That project will be powered by ten natural gas plants. 
+
+Data center developers are installing gas turbines immediately. They are not waiting for emerging solutions like small modular nuclear reactors. Those reactors face prolonged timelines to commercial operation despite United States government pilot projects.
+
+═══ 05_NORMALIZED ═══
+
+Tech companies are rapidly expanding data centers and power plants. This is driven by a shift from simple chatbots to autonomous A. I. agents. These agents can give themselves hundreds of small prompts based on a user request. They run for hours to build out features.
+
+OpenAI recently announced a milestone in math problem solving. A swarm of more than ten thousand agents sent two point seven million messages. The processing power probably cost tens of million dollars.
+
+Private artificial intelligence companies have historically been quiet about environmental metrics. OpenAI Chief Executive Officer Sam Altman previously compared single query resource use to almonds. He stated that people eating twelve almonds at a time do not feel they are doing something horrible from a water perspective. Introducing resource intensive agents complicates these calculations significantly.
+
+Climate scientist, Zeke Hausfather, published a blog post last month. He estimated that his own agent heavy daily artificial intelligence use consumes more energy than needed to power two refrigerators. This footprint is still relatively small compared to taking regular flights. Tech companies are scaling up infrastructure for a future of ubiquitous agents.
+
+Meta recently rolled out a personal artificial intelligence agent dubbed Muse. It is designed to maintain a dedicated computer in the cloud for billions of people. It will integrate with artificial intelligence glasses later this year. This vision helps explain massive infrastructure undertakings like the Hyperion project in Louisiana. That project will be powered by ten natural gas plants.
+
+Data center developers are installing gas turbines immediately. They are not waiting for emerging solutions like small modular nuclear reactors. Those reactors face prolonged timelines to commercial operation despite United States government pilot projects.
+
+═══ 06_COVERAGE_FINAL ═══
+
+85% covered (6/7). Missing: Boris Gamazaychikov stated that the technology trained by current data centers is three to five years away.
+
+═══ 07_SANITY ═══
+
+OK
+

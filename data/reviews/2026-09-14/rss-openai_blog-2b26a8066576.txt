@@ -1,0 +1,46 @@
+═══ 00_KEY_POINTS ═══
+
+1. OpenAI is introducing the Agents API in public beta today to all developers.
+2. The new API provides the same agent harness and infrastructure that powers Codex.
+3. Developers can choose between an OpenAI hosted sandbox or partners like Cloudflare and Vercel.
+4. The API features automatic context compaction to support agents working for hours.
+5. Tool search and programmatic tool calling help reduce token usage and cost efficiently.
+6. Multi-agent support allows complex tasks to be broken down and delegated to subagents.
+7. There are no additional fees for using the Agents API beyond token and tool costs.
+
+═══ 01_DRAFT ═══
+
+OpenAI is launching the Agents API in public beta today, giving developers access to the same harness and infrastructure that powers Codex and ChatGPT for Work. The API allows developers to create a production-ready agent in a single call by defining the task, model, tools, and environment. OpenAI hosts and maintains the underlying harness, which is powered by the open-source Codex codebase. Developers can choose to run their agents in an OpenAI-managed sandbox, on their own infrastructure, or through ecosystem partners including Blaxel, Cloudflare, Daytona, DigitalOcean, E2B, Modal, Oracle, Runloop, and Vercel. Features of the Agents API include automatic context compaction to support sessions lasting hours, tool search and programmatic tool calling to reduce token usage, and multi-agent support that delegates tasks to subagents working in parallel. There are no additional fees for using the Agents API during the public beta; developers simply pay for the tokens and tools their agents use.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+OpenAI is launching the Agents API in public beta today, giving developers access to the same harness and infrastructure that powers Codex and ChatGPT for Work. The API allows developers to create a production-ready agent in a single call by defining the task, model, tools, and environment. OpenAI hosts and maintains the underlying harness, which is powered by the open-source Codex codebase. Developers can choose to run their agents in an OpenAI-managed sandbox, on their own infrastructure, or through ecosystem partners including Blaxel, Cloudflare, Daytona, DigitalOcean, E2B, Modal, Oracle, Runloop, and Vercel. Features of the Agents API include context management that automatically compacts earlier context to support sessions lasting hours, tool search and programmatic tool calling to help reduce token usage, and multi-agent support that delegates tasks to subagents working in parallel. There are no additional fees for using the Agents API during the public beta; developers simply pay for the tokens and tools their agents use.
+
+═══ 02b_TRIMMED ═══
+
+OpenAI is launching the Agents API in public beta today, giving developers access to the same harness and infrastructure that powers Codex and ChatGPT for Work. The API allows developers to create a production-ready agent in a single call by defining the task, model, tools, and environment. OpenAI hosts and maintains the underlying harness, which is powered by the open-source Codex codebase. Developers can choose to run their agents in an OpenAI-managed sandbox, on their own infrastructure, or through ecosystem partners including Blaxel, Cloudflare, Daytona, DigitalOcean, E2B, Modal, Oracle, Runloop, and Vercel. There are no additional fees for using the Agents API during the public beta; developers simply pay for the tokens and tools their agents use.
+
+═══ 03_COVERAGE_1 ═══
+
+57% covered (4/7). Missing: The API features automatic context compaction to support agents working for hours.; Tool search and programmatic tool calling help reduce token usage and cost efficiently.; Multi-agent support allows complex tasks to be broken down and delegated to subagents.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+OpenAI is launching the Agents API in public beta today, giving developers access to the same harness and infrastructure that powers Codex and ChatGPT for Work. The API allows developers to create a production-ready agent in a single call by defining the task, model, tools, and environment. The API features automatic context compaction to support agents working for hours. Tool search and programmatic tool calling help reduce token usage and cost efficiently. Multi-agent support allows complex tasks to be broken down and delegated to subagents. OpenAI hosts and maintains the underlying harness, which is powered by the open-source Codex codebase. Developers can choose to run their agents in an OpenAI-managed sandbox, on their own infrastructure, or through ecosystem partners including Blaxel, Cloudflare, Daytona, DigitalOcean, E2B, Modal, Oracle, Runloop, and Vercel. There are no additional fees for using the Agents API during the public beta; developers simply pay for the tokens and tools their agents use.
+
+═══ 04_AUDIO_REWRITE ═══
+
+OpenAI is launching the Agents A. I. Application Programming Interface in public beta today. This gives developers access to the same infrastructure that powers Codex and ChatGPT for Work. The interface allows developers to create a production-ready agent in a single call by defining the task and model and tools and environment. The system features automatic context compaction to support agents working for hours. Tool search and programmatic tool calling help reduce token usage and cost efficiently. Multi-agent support allows complex tasks to be broken down and delegated to subagents. OpenAI hosts and maintains the underlying harness which is powered by the open-source Codex codebase. Developers can choose to run their agents in an OpenAI-managed sandbox or on their own infrastructure. They can also use ecosystem partners including Blaxel, Cloudflare, Daytona, DigitalOcean, E2B, Modal, Oracle, Runloop, and Vercel. There are zero additional fees for using the Agents A. I. Application Programming Interface during the public beta. Developers simply pay for the tokens and tools their agents use.
+
+═══ 05_NORMALIZED ═══
+
+OpenAI is launching the Agents A. I. Application Programming Interface in public beta today. This gives developers access to the same infrastructure that powers Codex and ChatGPT for Work. The interface allows developers to create a production-ready agent in a single call by defining the task and model and tools and environment. The system features automatic context compaction to support agents working for hours. Tool search and programmatic tool calling help reduce token usage and cost efficiently. Multi-agent support allows complex tasks to be broken down and delegated to subagents. OpenAI hosts and maintains the underlying harness which is powered by the open-source Codex codebase. Developers can choose to run their agents in an OpenAI-managed sandbox or on their own infrastructure. They can also use ecosystem partners including Blaxel, Cloudflare, Daytona, DigitalOcean, E2B, Modal, Oracle, Runloop, and Vercel. There are zero additional fees for using the Agents A. I. Application Programming Interface during the public beta. Developers simply pay for the tokens and tools their agents use.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (7/7). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: unspoken/unspaced acronyms
+

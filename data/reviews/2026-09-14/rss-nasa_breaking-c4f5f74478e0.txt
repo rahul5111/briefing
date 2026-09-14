@@ -1,0 +1,61 @@
+═══ 00_KEY_POINTS ═══
+
+1. The hydrogen in every water molecule and human body originally came from the Big Bang.
+2. Nuclear fusion in stellar interiors created the carbon and oxygen found within human bodies.
+3. Supernovae from long ago and far away produced much of the iron in human bodies.
+4. Neutron star collisions likely created the gold used in human jewelry and accessories.
+5. A color-coded periodic table displays humanity's best guess regarding the nuclear origin of elements.
+6. NASA's Astronomy Picture of the Day main site is moving from apod.nasa.gov to science.nasa.gov/apod.
+
+═══ 01_DRAFT ═══
+
+The Astronomy Picture of the Day for September 14, 2026, features a color-coded periodic table illustrating humanity's best estimates for the nuclear origins of all known elements. According to the release, the hydrogen in the human body and in every water molecule originated from the Big Bang, with no other appreciable sources in the universe. Carbon and oxygen were formed through nuclear fusion in stellar interiors, while much of the iron in the human body was created during ancient supernovae. Additionally, gold found in jewelry was likely produced by neutron stars during collisions that may have appeared as short-duration gamma-ray bursts or gravitational wave events. While elements like phosphorus and copper are present in human bodies in small amounts, they remain essential to the functioning of all known life, though the exact nuclear creation sites for elements such as copper remain ongoing subjects of observational and computational research. The APOD service is also transitioning its main NASA site from apod.nasa.gov to science.nasa.gov/apod.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+The Astronomy Picture of the Day for September 14, 2026, features a color-coded periodic table illustrating humanity's best estimates for the nuclear origins of all known elements. According to the release, the hydrogen in the human body and in every water molecule originated from the Big Bang, with no other appreciable sources in the universe. Carbon and oxygen were formed through nuclear fusion in stellar interiors, while much of the iron in the human body was created during ancient supernovae. The gold in your jewelry was likely made from neutron stars during collisions that may have been visible as short-duration gamma-ray bursts or gravitational wave events. While elements like phosphorus and copper are present in human bodies in small amounts, they remain essential to the functioning of all known life, though the exact nuclear creation sites for elements such as copper remain ongoing subjects of observational and computational research. The APOD service is also transitioning its main NASA site from apod.nasa.gov to science.nasa.gov/apod.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+The Astronomy Picture of the Day for September fourteen, twenty twenty-six, features a color-coded periodic table. It illustrates humanity's best estimates for the nuclear origins of all known elements. 
+
+The hydrogen in the human body and in every water molecule originated from the Big Bang. There are no other appreciable sources for that hydrogen in the universe. 
+
+Carbon and oxygen were formed through nuclear fusion inside stars. Much of the iron in the human body was created during ancient supernovae. 
+
+The gold in your jewelry was likely made from neutron stars. Those stars crashed together in collisions that may have been visible as gamma-ray bursts or gravitational wave events. 
+
+Elements like phosphorus and copper are present in human bodies in small amounts. They remain essential to the functioning of all known life. 
+
+The exact nuclear creation sites for elements such as copper remain ongoing subjects of research. Scientists study them using observation and computer models. 
+
+The A. P. O. D. service is also moving its main site. It is leaving apod.nasa.gov and moving to science.nasa.gov/apod.
+
+═══ 05_NORMALIZED ═══
+
+The Astronomy Picture of the Day for September fourteen, twenty twenty-six, features a color-coded periodic table. It illustrates humanity's best estimates for the nuclear origins of all known elements.
+
+The hydrogen in the human body and in every water molecule originated from the Big Bang. There are no other appreciable sources for that hydrogen in the universe.
+
+Carbon and oxygen were formed through nuclear fusion inside stars. Much of the iron in the human body was created during ancient supernovae.
+
+The gold in your jewelry was likely made from neutron stars. Those stars crashed together in collisions that may have been visible as gamma-ray bursts or gravitational wave events.
+
+Elements like phosphorus and copper are present in human bodies in small amounts. They remain essential to the functioning of all known life.
+
+The exact nuclear creation sites for elements such as copper remain ongoing subjects of research. Scientists study them using observation and computer models.
+
+The A. P. O. D. service is also moving its main site. It is leaving apod.nasa.gov and moving to science.nasa.gov/apod.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: apod.nasa.gov, science.nasa.gov/apod
+

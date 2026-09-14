@@ -1,0 +1,61 @@
+═══ 00_KEY_POINTS ═══
+
+1. Researchers from TU Wien and partner universities are currently constructing a quantum computer powered electron microscope.
+2. The innovative microscope combines standard electron imaging with an integrated trapped-ion quantum computer system.
+3. Scientists aim to extract hidden quantum information from electrons to protect fragile biological samples from damage.
+4. Philipp Haslinger stated that imaging tiny atomic details currently requires a large number of damaging electrons.
+5. Elias Pescoller explained that interacting electrons with ions creates quantum entanglement sharing a joint state.
+6. Major funding for the multi-university Austrian research consortium comes from the Austrian Science Fund and the Gordon and Betty Moore Foundation.
+
+═══ 01_DRAFT ═══
+
+Researchers in Austria are currently constructing a microscope powered by a quantum computer at TU Wien, as announced on September 13, 2026, in work detailed by the Universität Wien. The project brings together teams from TU Wien, the University of Vienna, JKU Linz, and the University of Innsbruck under the quantA Cluster of Excellence.
+
+While conventional electron microscopes achieve atomic-scale resolution by counting electrons, they require a high electron dose that can destroy delicate samples like individual proteins. To bypass this limitation, the new system links free electrons in the microscope beam to a trapped-ion quantum computer developed by Philipp Schindler's team at the University of Innsbruck. As electrons travel through the microscope, they interact with ions held along the beam path, creating quantum entanglement that allows the electron and the ion to share a joint quantum state. 
+
+By repeatedly executing quantum algorithms developed with Johannes Kofler's team at JKU Linz, the system combines information from multiple electrons that would normally be lost to random noise. As explained by Elias Pescoller, quantum physics allows researchers to overcome the statistical limits of conventional electron microscopes by extracting a maximum-strength signal from a relatively small number of particles. 
+
+The consortium is funded by the Austrian Science Fund through the quantA Cluster of Excellence and the Gordon and Betty Moore Foundation. Having demonstrated the advantages mathematically, the team is now moving to build the working experimental device at TU Wien's University Service Center for Transmission Electron Microscopy.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Researchers in Austria are currently constructing a microscope powered by a quantum computer at TU Wien, as announced on September 13, 2026, in work detailed by the Universität Wien. The project brings together teams from TU Wien, the University of Vienna, JKU Linz, and the University of Innsbruck under the quantA Cluster of Excellence.
+
+While conventional electron microscopes achieve atomic-scale resolution by counting electrons, they require a high electron dose that can destroy delicate samples like individual proteins. To bypass this limitation, the new system links free electrons in the microscope beam to a trapped-ion quantum computer developed by Philipp Schindler's team at the University of Innsbruck. As electrons travel through the microscope, they interact with ions held along the beam path, creating quantum entanglement that allows the electron and the ion to share a joint quantum state. 
+
+By repeatedly executing quantum algorithms developed with Johannes Kofler's team at JKU Linz, the system combines information from multiple electrons that would normally be lost to random noise. As explained by Elias Pescoller, quantum physics allows researchers to overcome the statistical limits of conventional electron microscopes by extracting a maximum-strength signal from a relatively small number of particles. 
+
+The consortium is funded by the Austrian Science Fund through the quantA Cluster of Excellence and the Gordon and Betty Moore Foundation. Researchers are preparing to integrate an ion-based quantum computer into an electron microscope at TU Wien's University Service Center for Transmission Electron Microscopy.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 04_AUDIO_REWRITE ═══
+
+Researchers in Austria are building a microscope powered by a quantum computer. They announced this on September thirteenth, twenty twenty-six, in work detailed by the Universität Wien. The project brings together teams from T. U. Wien, the University of Vienna, J. K. U. Linz, and the University of Innsbruck under the quantA Cluster of Excellence.
+
+Conventional electron microscopes achieve atomic-scale resolution by counting electrons. They require a high electron dose that can destroy delicate samples like individual proteins. The new system bypasses this limitation. It links free electrons in the microscope beam to a trapped-ion quantum computer. This computer was developed by the team of, Philipp Schindler, at the University of Innsbruck. Electrons travel through the microscope and interact with ions held along the beam path. This creates quantum entanglement. The electron and the ion share a joint quantum state.
+
+The system repeatedly executes quantum algorithms. These algorithms were developed with the team of, Johannes Kofler, at J. K. U. Linz. The system combines information from multiple electrons. Normally, this information is lost to random noise. As explained by, Elias Pescoller, quantum physics allows researchers to overcome the statistical limits of conventional electron microscopes. They extract a maximum-strength signal from a relatively small number of particles.
+
+The Austrian Science Fund funds the consortium through the quantA Cluster of Excellence. The Gordon and Betty Moore Foundation also provides funding. Researchers are preparing to integrate an ion-based quantum computer into an electron microscope. This will happen at the University Service Center for Transmission Electron Microscopy at T. U. Wien.
+
+═══ 05_NORMALIZED ═══
+
+Researchers in Austria are building a microscope powered by a quantum computer. They announced this on September thirteenth, twenty twenty-six, in work detailed by the Universität Wien. The project brings together teams from T. U. Wien, the University of Vienna, J. K. U. Linz, and the University of Innsbruck under the quantA Cluster of Excellence.
+
+Conventional electron microscopes achieve atomic-scale resolution by counting electrons. They require a high electron dose that can destroy delicate samples like individual proteins. The new system bypasses this limitation. It links free electrons in the microscope beam to a trapped-ion quantum computer. This computer was developed by the team of, Philipp Schindler, at the University of Innsbruck. Electrons travel through the microscope and interact with ions held along the beam path. This creates quantum entanglement. The electron and the ion share a joint quantum state.
+
+The system repeatedly executes quantum algorithms. These algorithms were developed with the team of, Johannes Kofler, at J. K. U. Linz. The system combines information from multiple electrons. Normally, this information is lost to random noise. As explained by, Elias Pescoller, quantum physics allows researchers to overcome the statistical limits of conventional electron microscopes. They extract a maximum-strength signal from a relatively small number of particles.
+
+The Austrian Science Fund funds the consortium through the quantA Cluster of Excellence. The Gordon and Betty Moore Foundation also provides funding. Researchers are preparing to integrate an ion-based quantum computer into an electron microscope. This will happen at the University Service Center for Transmission Electron Microscopy at T. U. Wien.
+
+═══ 06_COVERAGE_FINAL ═══
+
+83% covered (5/6). Missing: Philipp Haslinger stated that imaging tiny atomic details currently requires a large number of damaging electrons.
+
+═══ 07_SANITY ═══
+
+ISSUES: unspoken/unspaced acronyms
+

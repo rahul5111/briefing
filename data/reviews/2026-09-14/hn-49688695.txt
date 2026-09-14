@@ -1,0 +1,74 @@
+═══ 00_KEY_POINTS ═══
+
+1. Claude Fable 5.1 solved Sir Thomas Urquhart’s 370-year-old Cyphral Distich after 44 minutes and 176k tokens.
+2. The Cyphral Distich is a 64-number cryptogram printed at the end of Urquhart’s 1653 work Logopandecteision.
+3. Fable 5.1 also deciphered Urquhart’s larger 285-number Cyphral Octastick from The Jewel published in 1652.
+4. The simple deciphering rule used the book itself as the key by mapping numbers to word indexes.
+5. The resulting plaintext of the distich reads: O GOD UPHOLD KING CHARLS THE SECOND AND MAKE HIM THE SUPREME RULER OF THIS LAND.
+6. The solution demonstrates that AI models can solve historical mysteries and archival puzzles previously bottlenecked by human attention.
+7. The author stated, 'It tried a few approaches, but was finally able to solve it with two central realizations.'
+
+═══ 01_DRAFT ═══
+
+The AI model Fable 5.1 has successfully solved Sir Thomas Urquhart’s 370-year-old Cyphral Distich, a 64-number cryptogram from the author's 1653 work Logopandecteision. Listed among historical-cipher researcher Klaus Schmeh’s Top 50 unsolved encrypted messages, the distich was decoded by Fable 5.1 in 44 minutes using 176,000 tokens. 
+
+Rather than utilizing an external cipher alphabet, the model deduced that the key relied on the book itself. By taking the i-th number in each cipher line as a word index for the corresponding Proquiritation, and taking the first letter of that word, the distich yielded a rhyming royalist prayer: O GOD UPHOLD KING CHARLS THE SECOND AND MAKE HIM THE SUPREME RULER OF THIS LAND. 
+
+Following this breakthrough, Fable 5.1 also decoded Urquhart’s larger, equally unsolved Cyphral Octastick from 1652’s The Jewel, which uses numbered pages instead of paragraphs to yield an ottava rima royalist prayer, though nine letters remain unreadable due to a minor printing anomaly or slip by the author.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Claude Fable 5.1 has successfully solved Sir Thomas Urquhart’s Cyphral Distich, a 64-number cryptogram consisting of two lines of 32 numbers from the author's 1653 work Logopandecteision. Listed by historical-cipher researcher Klaus Schmeh among his Top 50 unsolved encrypted messages, the distich was decoded by Fable 5.1 in 44 minutes using 176k tokens.
+
+Rather than utilizing an external cipher alphabet, the model deduced that the key was the book itself. By taking the i-th number in a cipher line, going to the i-th Proquiritation, using that number as a word index, and taking the first letter of that word, the distich yielded a rhyming two-line royalist prayer: O GOD UPHOLD KING CHARLS THE SECOND AND MAKE HIM THE SUPREME RULER OF THIS LAND.
+
+Following this breakthrough, Fable 5.1 also decoded Urquhart’s larger, equally unsolved Cyphral Octastick from 1652’s The Jewel, which uses numbered pages instead of paragraphs to yield an ottava rima royalist prayer, though nine letters remain unreadable due to a printing anomaly or author slip.
+
+═══ 02b_TRIMMED ═══
+
+Claude Fable 5.1 has successfully solved Sir Thomas Urquhart’s Cyphral Distich, a 64-number cryptogram consisting of two lines of 32 numbers from the author's 1653 work Logopandecteision. Listed by historical-cipher researcher Klaus Schmeh among his Top 50 unsolved encrypted messages, the distich was decoded by Fable 5.1 in 44 minutes using 176k tokens.
+
+═══ 03_COVERAGE_1 ═══
+
+28% covered (2/7). Missing: Fable 5.1 also deciphered Urquhart’s larger 285-number Cyphral Octastick from The Jewel published in 1652.; The simple deciphering rule used the book itself as the key by mapping numbers to word indexes.; The resulting plaintext of the distich reads: O GOD UPHOLD KING CHARLS THE SECOND AND MAKE HIM THE SUPREME RULER OF THIS LAND.; The solution demonstrates that AI models can solve historical mysteries and archival puzzles previously bottlenecked by human attention.; The author stated, 'It tried a few approaches, but was finally able to solve it with two central realizations.'
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+Claude Fable 5.1 has successfully solved Sir Thomas Urquhart’s Cyphral Distich, a 64-number cryptogram consisting of two lines of 32 numbers from the author's 1653 work Logopandecteision. Fable 5.1 also deciphered Urquhart’s larger 285-number Cyphral Octastick from The Jewel published in 1652. Listed by historical-cipher researcher Klaus Schmeh among his Top 50 unsolved encrypted messages, the distich was decoded by Fable 5.1 in 44 minutes using 176k tokens. The author stated, 'It tried a few approaches, but was finally able to solve it with two central realizations.' The simple deciphering rule used the book itself as the key by mapping numbers to word indexes. The resulting plaintext of the distich reads: O GOD UPHOLD KING CHARLS THE SECOND AND MAKE HIM THE SUPREME RULER OF THIS LAND. The solution demonstrates that AI models can solve historical mysteries and archival puzzles previously bottlenecked by human attention.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Claude Fable five point one has successfully solved Sir Thomas Urquhart’s Cyphral Distich. This is a sixty-four number cryptogram consisting of two lines of thirty-two numbers from the author's sixteen fifty-three work Logopandecteision. 
+
+Fable five point one also deciphered Urquhart’s larger two hundred eighty-five number Cyphral Octastick from The Jewel published in sixteen fifty-two. 
+
+Historical-cipher researcher, Klaus Schmeh, lists the distich among his top fifty unsolved encrypted messages. Fable five point one decoded it in forty-four minutes using one hundred seventy-six thousand tokens. 
+
+The author stated that it tried a few approaches, but was finally able to solve it with two central realizations. The simple deciphering rule used the book itself as the key by mapping numbers to word indexes. 
+
+The resulting plaintext of the distich reads. O God uphold King Charls the Second and make him the supreme ruler of this land. 
+
+The solution demonstrates that A. I. models can solve historical mysteries and archival puzzles previously bottlenecked by human attention.
+
+═══ 05_NORMALIZED ═══
+
+Claude Fable five point one has successfully solved Sir Thomas Urquhart’s Cyphral Distich. This is a sixty-four number cryptogram consisting of two lines of thirty-two numbers from the author's sixteen fifty-three work Logopandecteision.
+
+Fable five point one also deciphered Urquhart’s larger two hundred eighty-five number Cyphral Octastick from The Jewel published in sixteen fifty-two.
+
+Historical-cipher researcher, Klaus Schmeh, lists the distich among his top fifty unsolved encrypted messages. Fable five point one decoded it in forty-four minutes using one hundred seventy-six thousand tokens.
+
+The author stated that it tried a few approaches, but was finally able to solve it with two central realizations. The simple deciphering rule used the book itself as the key by mapping numbers to word indexes.
+
+The resulting plaintext of the distich reads. O God uphold King Charls the Second and make him the supreme ruler of this land.
+
+The solution demonstrates that A. I. models can solve historical mysteries and archival puzzles previously bottlenecked by human attention.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (7/7). Missing: none
+
+═══ 07_SANITY ═══
+
+ISSUES: period after reads
+
