@@ -1,7 +1,8 @@
 # Design Review — Content-Gen Optimization, Audio Quality, Storage & Observability
 
-**Date:** 2026-09-14
-**Status:** Draft for internal red/blue review → external panel review.
+**Date:** 2026-09-14 (revised post-external-panel)
+**Status:** v2 — internal red/blue applied, external panel applied.
+Consolidation memo: `docs/_review/consolidation-v2.md`.
 **Scope:** Integrates four research streams:
 
 - `docs/_research/content-gen-optimization.md` — collapse 7–10 Gemini
@@ -154,7 +155,12 @@ a thin observability spine runs alongside.
 
 ## 4. LLM pipeline refactor
 
-### 4.1 Structured-output merges (P0) — revised post red-team
+### 4.1 Structured-output merges (P0) — revised post external panel
+
+External panels (Principal SDE §2.7, Solution Architect §4) both
+flagged Merge B's split-then-A/B as process theater for ~$1/mo savings.
+**Deleted.** Only Merge A remains.
+
 
 Red-team correctly flagged two issues (R1, R2). Design revised:
 
@@ -183,22 +189,14 @@ class DraftBundle(BaseModel):
 
 `distill` continues to run separately at T=0.0.
 
-**Merge B — `audio_rewrite + self_check` — SPLIT DEFERRED.**
+**Merge B — DELETED.** External panels agreed the split-then-A/B for
+$1/mo was not worth the ceremony. Sanity remains a separate call.
+audio_rewrite ships standalone via structured output (`audio_text`
+only, no self_check field).
 
-Red-team R2 flagged the LLM-lints-own-output blindspot. Correct
-critique — LLM-as-judge literature shows same-call self-checks miss
-30–50% of the errors an external pass catches. Design revised:
-
-- **Phase 5a (P0):** ship `audio_rewrite` refactor as a *standalone*
-  call using structured output for `audio_text` only, no self_check.
-- **Phase 5b (P1, gated):** run one week of dual output — standalone
-  sanity pass vs. proposed self_check field. If self_check catches
-  ≥ 95% of the standalone sanity call's flags, merge. Otherwise, keep
-  sanity as a separate call.
-
-**Net effect after revision:** 7–10 calls → **5–7 calls/story** (~30%
-reduction, Phase 5a) with the option to reach ~40% (Phase 5b) after
-empirical validation. Original "55%" claim was overreach. Corrected.
+**Net effect after all revisions:** 7–10 calls → **6–8 calls/story**
+(~20–30% reduction). Original "55%" claim (unrevised draft) was
+overreach. Corrected.
 
 **Keep separate (unchanged):**
 
@@ -209,56 +207,42 @@ empirical validation. Original "55%" claim was overreach. Corrected.
 **Safety net (unchanged):** golden-file diff on `data/reviews/`
 fixtures gates every merge.
 
-### 4.2 LLM provider protocol (P1)
+### 4.2 LLM client refactor (P1) — revised post external panel
 
-Small refactor, ~200 lines. Unblocks §4.3 model swap without touching
-orchestrator logic.
+Principal SDE (§2.2) and Solution Architect (§4) both flagged the
+Protocol shipping three untested provider stubs. **Ship Gemini-only.**
 
-```python
-# pipeline/llm.py
+No `ClaudeProvider` / `OpenAIProvider` stubs. If §4.3 model upgrade
+lands as P2 later, it comes as a direct Claude client call in that
+one stage, not through a false abstraction.
 
-from typing import Protocol, TypeVar
-from pydantic import BaseModel
+What DOES land in Phase 4:
 
-T = TypeVar("T", bound=BaseModel)
+- **`pipeline/llm.py`** — a Gemini-only wrapper with:
+  - `generate_text(prompt, *, temperature, max_tokens) -> LLMResponse`
+  - `generate_structured(prompt, schema, *, temperature, max_tokens) -> LLMResponse[schema]`
+  - `LLMResponse` includes: `text`, `model_version` (from Gemini response
+    metadata), `input_tokens`, `output_tokens`, `elapsed_ms`.
+- Every call site logs `model_version` to `data/reviews/*.txt`
+  alongside prompt/response. Weekly diff of a fixed test-input set flags
+  silent server-side model changes (Solution Architect §7).
+- Per-stage model env var overrides remain (`LLM_AUDIO_MODEL`).
 
-class LLMProvider(Protocol):
-    def generate(
-        self,
-        prompt: str,
-        *,
-        schema: type[T] | None = None,
-        temperature: float = 0.3,
-        max_tokens: int = 1024,
-    ) -> str | T: ...
+Two-method interface (`generate_text` and `generate_structured`)
+survives if we ever bring in a second provider. Not committed today —
+premature abstraction was the critique. No third-party client code
+ships that no test exercises.
 
+### 4.3 Model upgrade for audio_rewrite — DEFERRED TO P2 (post external panel)
 
-class GeminiProvider:  # current implementation, refactored out of refine.py
-    def __init__(self, model: str): ...
-    def generate(self, prompt, *, schema, temperature, max_tokens): ...
+Both external panels (Principal SDE §2.3, Solution Architect §2) pushed
+hard on this. The $20/mo upgrade should not ship until the *free*
+audio wins (§5.1 voice sweep, §5.2 punctuation, §5.3 IPA) have been
+tried and *empirically shown insufficient*. Wrong to spend $20/mo
+before doing $0 work that plausibly closes the complaint.
 
+**Revised procedure — runs only if §5 doesn't close the audio complaint:**
 
-class ClaudeProvider:  # new, only used if opted in
-    def __init__(self, model: str): ...
-
-
-class OpenAIProvider:  # new, only used if opted in
-    def __init__(self, model: str): ...
-```
-
-Configuration via env vars, with per-stage override:
-
-```
-LLM_DEFAULT_PROVIDER=gemini
-LLM_DEFAULT_MODEL=gemini-3.5-flash-lite
-LLM_AUDIO_PROVIDER=gemini            # or claude / openai
-LLM_AUDIO_MODEL=gemini-2.5-flash     # or claude-haiku-4-5
-```
-
-`pipeline/refine.py` and `pipeline/key_points.py` stop importing
-`google.genai` directly; they take an `LLMProvider` at construction.
-
-### 4.3 Model upgrade for audio_rewrite (P0) — revised post red-team
 
 Red-team R3 correctly caught a 10× math error in the Haiku cost
 estimate. Corrected numbers:
@@ -267,38 +251,38 @@ estimate. Corrected numbers:
 Audio rewrite output averages ~400 words ≈ ~530 tokens. Input (source
 + prompt) averages ~2,000 tokens.
 
-| Option | Input cost/mo | Output cost/mo | Total/mo | Notes |
-|---|---|---|---|---|
-| Gemini 3.5 flash-lite (current) | ~$0.21 | ~$0.22 | **~$0.43** | baseline |
-| Gemini 2.5 flash | ~$6.36 | ~$14.05 | **~$20.41** | +$20/mo |
-| Claude Haiku 4.5 | ~$21.20 | ~$28.09 | **~$49.29** | +$49/mo |
-| GPT-4.1-mini | ~$8.48 | ~$8.99 | **~$17.47** | +$17/mo |
+| Option | Total/mo | Role in bake-off |
+|---|---|---|
+| Gemini 3.5 flash-lite (current) | ~$0.43 | baseline |
+| Gemini 2.5 flash | ~$20 | cheaper candidate |
+| Claude Haiku 4.5 | ~$49 | mid-tier candidate |
+| **Claude Sonnet 4.5** | **~$60–80** | **ceiling reference** (from Solution Architect §2) |
+| GPT-4.1-mini | ~$17 | alternative candidate |
 
-Original design claimed "+$3–5/mo" — that's wrong. Real cost of the
-audio-only upgrade is $17–49/mo depending on provider, blowing the
-"< $10/mo total infra" implicit budget.
+**Bake-off procedure (only runs if §5 free wins don't close the complaint):**
 
-**Revised recommendation:**
+1. Frozen 30-story evaluation set (separate from golden set): heavy
+   numerics, acronyms, Indian/F1/German proper nouns, quote-heavy copy.
+2. **Rule-based scorers** (§15 new):
+   - Numeric preservation: regex-diff `\d[\d,.]*` in source vs rewrite,
+     accept containment or spelled-out equivalents (via `num2words`
+     bidirectional check).
+   - Acronym letter-spacing coverage: extract acronyms from source,
+     verify each appears letter-spaced (`A. P. I.` format) in rewrite.
+   - Forbidden-punctuation counter: `;`, `(`, `)` must be zero. `:`,
+     `—`, `...` allowed if AUDIO_REWRITE prompt permits (§5.2).
+   - Sentence-length distribution: p50 ∈ [12, 20], p90 ≤ 25.
+3. **LLM-as-judge, pairwise blinded, third-model judge** (Solution
+   Architect §3). Sonnet 4.5 as judge; never a model judging itself.
+4. A/B all four models against Sonnet 4.5 as ceiling. Report per-defect
+   rate, not aggregate preference.
+5. Decision: ship the cheapest model that lands within 10% of Sonnet on
+   every rule-based scorer. If flash-lite passes, no upgrade needed.
 
-- **Do not silently upgrade** the whole feed. Instead:
-- **Ship Gemini 2.5 flash for the audio_rewrite stage only** as an
-  A/B feature flag (`LLM_AUDIO_MODEL=gemini-2.5-flash` env var).
-- **Run for 1 week on a randomly-sampled 20% of stories.** Measure WER
-  regression AND owner blind-listen preference.
-- **If 2.5 flash beats flash-lite blind-listen ≥ 3-of-5 samples**,
-  flip 100%. Accept the ~$20/mo cost as intentional.
-- **Do not ship Haiku 4.5** unless (a) 2.5 flash is empirically not
-  enough AND (b) owner explicitly approves the ~$50/mo spend.
+Ship gate: explicit owner approval + eval publication to
+`data/eval/audio_bakeoff_YYYY-MM-DD.md`.
 
-**Corrected total infra spend at intentional-upgrade steady state:**
-
-- Before: ~$5/mo total.
-- After Merge A + audio upgrade to 2.5 flash: ~$4 + $20 = **~$24/mo**.
-- Still under $30/mo, but the "$10/mo" claim in the original draft was
-  wrong. §14 cost model corrected accordingly.
-
-This upgrade is still the highest-leverage single quality change in
-the doc but the price is real and needs explicit owner approval.
+**Do not silently upgrade** the whole feed. Do not ship on vibes.
 
 ### 4.4 Prompt rewrites (P2)
 
@@ -317,23 +301,39 @@ per-story fallback on partial fail.
 
 ## 5. Audio quality changes
 
-### 5.1 Voice sweep (P0, ~2h)
+### 5.1 Voice sweep (P0, ~1 evening) — revised post external panel
 
-Owner is using 3 voices; Kokoro-ONNX v1.0 ships ~20 English voices.
-Two of the three current picks are **D-grade undertrained voices**.
-Better-trained same-locale peers exist.
+Solution Architect §6 correctly demanded a proper eval. n=1 rater × n=1
+story per condition is not an eval. Restructured:
 
-**Voice sweep protocol:**
+**Structured MOS-Likert protocol:**
 
-1. Pick one representative story per category (AI, TECH, SCIENCE,
-   SPORTS, US, INDIA, WORLD, BUSINESS) from `data/reviews/`.
-2. Generate the same story across the top 5 candidates:
-   `am_fenrir` (C+, hours-trained), `am_puck` (C+, hours-trained),
-   `bm_fable` (C, warm storyteller), `bf_emma` (B-, hours-trained),
-   `af_heart` (A, top-graded).
-3. Owner blind-listen A/B via a small local `scripts/voice_sweep.py`
-   that produces `data/voice_sweep/<story>-<voice>.mp3`.
-4. Update `VOICE_BY_CATEGORY` in `pipeline/tts.py`.
+1. Pick **≥ 3 representative stories per category** (AI, TECH, SCIENCE,
+   SPORTS, US, INDIA, WORLD, BUSINESS = 24+ stories total) from
+   `data/reviews/`.
+2. Generate each story across the top-5 candidates: `am_fenrir` (C+),
+   `am_puck` (C+), `bm_fable` (C, warm), `bf_emma` (B-), `af_heart` (A).
+   Plus current baseline (`am_liam`, `am_michael`, `bm_george` as
+   appropriate). ~150 clips total.
+3. **3-dim Likert MOS per clip** (1–5): naturalness, clarity, category
+   fit.
+4. **≥ 2 raters.** Owner + one friend. Or, if only owner: 2 sessions ≥ 3
+   days apart with clips shuffled — averages out same-day drift.
+5. Ranker script processes ratings into per-category top-voice.
+6. **Publication:** results committed to `data/eval/voice_sweep_YYYY-MM-DD.md`
+   with per-voice score + rater disagreement.
+7. Update `VOICE_BY_CATEGORY` in `pipeline/tts.py` from the published
+   ranking.
+
+**Guard against over-concentration** (Solution Architect §6): the
+default proposal placing `am_fenrir` on 4 categories loses the
+per-category differentiation. If any voice appears on ≥ 3 categories,
+require a second-place candidate for one of them.
+
+**Working-tree transition (red-team R4 doc trade-off):** post-flip, old
+audio in the tree/R2 keeps old voices until 14-day rotation replaces
+them. Alternative: regenerate on flip (~30min TTS, free). Owner decides
+at Phase 3.
 
 **Expected new routing (subject to owner's ear):**
 
@@ -475,34 +475,22 @@ Sequence, each step reversible until the git-history purge:
 7. **Verification window:** run three consecutive cron cycles writing
    only to R2. Verify the manifest URLs resolve. Verify the frontend
    plays audio from R2 on desktop + mobile.
-8. **Git history purge (destructive, LAST step):** RUNBOOK-gated.
-   Detailed procedure below because red-team R6 flagged several
-   gotchas.
+8. **Git history purge — REMOVED from this design (post external panel).**
 
-   **Preconditions before running filter-repo:**
-   - R2 has been serving audio for ≥ 14 consecutive days.
-   - Pipeline has committed only JSON (no MP3) in that window (verify
-     via `git log --diff-filter=A -- 'site/public/data/**/*.mp3'`).
-   - Cron is temporarily disabled (`workflow_dispatch` only) to
-     eliminate the concurrent-push race.
-   - A tag `pre-r2-purge` is pushed pointing at current `main` for
-     90-day recovery access.
-   - A mirror clone exists at a separate remote path.
-   - Vercel's build cache has been cleared (dashboard → Settings →
-     Cache).
-   - No GHA action caches reference the audio-blob SHAs (grep `.github/`
-     for hard-coded SHAs, unlikely but check).
+   Principal SDE §2.1 and §6 correctly argued that for a single-user
+   repo, `.gitignore` in step 6 stops future growth — which is what
+   actually matters. The `git filter-repo` step is a destructive
+   operation whose only benefit is faster clone time on a repo the
+   owner clones rarely.
 
-   **Procedure:**
-   ```
-   git filter-repo --path site/public/data/audio --path site/public/data/blogs-audio --invert-paths
-   ```
-   on a fresh clone, then force-push. Repo drops from ~588 MB to
-   ~30 MB. All working copies must re-clone. Historical PR commit URLs
-   break — accepted trade-off for a single-user product.
+   **The purge is moved to `docs/OPT-IN-OPERATIONS.md`** as an
+   owner-triggered standalone procedure, gated on an explicit "the 588
+   MB is causing observable pain" trigger. It is not on any Phase's
+   critical path.
 
-   **Rollback:** the `pre-r2-purge` tag is on the mirror; force-push
-   `pre-r2-purge` back to main to restore.
+   The `.gitignore` entry in step 6 is what makes this design
+   self-consistent: from step 6 forward, no new audio enters git. The
+   pre-flip 588 MB is a one-time accepted cost.
 
 9. **Add B2 warm replica** (P1, month 2): nightly `rclone` sync from
    R2 to Backblaze B2 as a fallback if R2 has an incident. Cost
@@ -541,21 +529,28 @@ Mirror the working-tree retention policy:
 
 ## 7. Observability + evaluation infrastructure
 
-### 7.1 Drift detection (P0)
+### 7.1 Drift detection — INFORMATIONAL ONLY (post external panel)
 
-Rolling 7-day median + IQR band on daily accept-rate. Details in
-`docs/_research/quality-eval-infrastructure.md` §1. Summary:
+Both external panels (Principal SDE §2.5, Solution Architect §7)
+correctly flagged that a scalar accept-rate has ~5–15% false-alarm rate
+baked in from calendar/weekend/source variance. **`sys.exit(2)` on IQR
+breach removed.**
 
-- New `pipeline/drift.py`. Called from `run.py` immediately after
-  `significance.write_rejection_log`.
-- Computes today's accept-rate, compares against 7-day median with
-  IQR-scaled z-score.
-- Statuses: `warmup` (< 4 history days), `ok`, `warn` (|z|>1.5),
-  `breach` (|z|>2.5 OR today < 10% OR today > 70%).
-- Writes `data/drift/YYYY-MM-DD.json`.
-- On `breach` → `sys.exit(2)` fails the workflow.
+**Revised behavior:**
 
-Cost: ~50ms per run. No LLM calls.
+- `pipeline/drift.py` computes today's accept-rate + IQR-scaled z-score.
+- Writes `data/drift/YYYY-MM-DD.json` (git-ignored, see §8.2).
+- **Never fails the workflow.**
+- Value + status appears in `data/health/latest.md` as an informational
+  line: `drift: today 23.1 %, 7d-median 24.5 %, z=-0.4, status=ok`.
+- On `breach`, health dashboard renders the line in bold; still no
+  workflow exit.
+
+**Future upgrade to distributional (P1):** replace scalar accept-rate
+with score-distribution KS-test or binned-histogram delta. Then
+consider hard-fail. Not in this design's scope.
+
+Cost: ~50 ms per run. No LLM calls.
 
 ### 7.2 Golden evaluation set (P0) — revised post red-team
 
@@ -596,13 +591,18 @@ width 0.15), 5 cluster-hint pairs.
 
 - Imports live `significance.score`, `categorize.classify`,
   `dedup.match`.
-- Asserts category-agreement ≥ 85%, band-agreement ≥ 80%,
-  decision-agreement ≥ 90%.
+- Reports category-agreement, band-agreement, decision-agreement with
+  bootstrap CIs (Solution Architect §3).
 - Writes `data/eval/golden_YYYY-MM-DD.json`.
-- **Phase 1 soft-fail:** for the first week after landing, writes a
-  warning but does not block. This gives owner time to tune the labels.
-- **Post-Phase-1 hard-fail:** exits non-zero on failure; fails the
-  workflow.
+- **At n=30 (initial): SMOKE TEST ONLY.** Runs, reports, does not fail
+  workflow. n=30 with the stated thresholds has ±13pp Wilson CI on
+  85% — cannot arbitrate a real regression (Solution Architect §3,
+  Principal SDE §2.4).
+- **Hard-fail gate requires n≥100** with per-category stratification.
+  When owner labels reach that bar, the workflow-exit switch flips.
+- **Multi-seed run:** runner runs 3× (temperature 0.0 is not
+  deterministic across server-side model updates) and reports the
+  modal verdict. Disagreement across seeds flags the story for review.
 - Runs on every cron **and** every PR touching `significance.py`,
   `categorize.py`, `refine.py`, or their prompts.
 
@@ -850,17 +850,95 @@ Added post red-team R12:
 - `test_golden_soft_fail_first_week` — verify Phase 1's soft-fail
   window ends after 7 days.
 
-## 11. Migration + rollout order — revised post red-team
+## 11. Migration + rollout order — REVISED post external panel
 
-Red-team R7, R13, R15 forced two changes:
+Principal SDE §5 argued for a different sequence. Adopted with
+adjustments. **New sequence (~40% smaller scope than pre-external-panel):**
 
-1. **All observability lands in soft-fail mode for the first two
-   weeks** (drift, golden runner, WER weekly). Hard-fail flips
-   per-tool once a stable baseline is established, and the baseline is
-   *re-established* after each subsequent phase.
-2. **Source-list changes (from prior design doc) happen BEFORE drift
-   detection hard-fail flips.** Otherwise drift alarms on legitimate
-   source-driven volume shifts.
+**Phase A — Storage first, no purge (P0, ~2 days):**
+
+1. Provision Cloudflare R2. Custom domain via CF DNS + CDN.
+2. Add secrets to GHA + Vercel. Write `docs/RUNBOOK.md` §Secrets
+   with rotation cadence (R2 keys every 6 months, LLM keys every 12
+   months) BEFORE adding the secrets (Principal SDE §4.P3).
+3. Kokoro model file hash pin: 2-line CI check against
+   `.models/kokoro-*.onnx` expected hash (Principal SDE §4.P5).
+4. Backfill script → R2.
+5. Flip `PUBLIC_CDN_BASE`. Pipeline writes to R2 with post-PUT integrity
+   check (HEAD + Content-Length verify, Principal SDE §4.P4).
+6. `.gitignore` MP3s.
+7. **No git-history purge.** Moved to `docs/OPT-IN-OPERATIONS.md`.
+
+**Phase B — Whisper upgrade (P0, ~1 day):**
+
+8. Upgrade `audio_validate.py` from `tiny.en` to
+   `distil-large-v3` (Solution Architect §6). Re-baseline WER.
+9. `data/audio_wer_history/YYYY-MM.jsonl` monthly-rotated append.
+10. Weekly WER summary.
+
+**Phase C — Audio quality free wins (P0, ~1 week):**
+
+11. Structured voice sweep per §5.1: MOS-Likert, ≥3 stories × top-5
+    voices, ≥2 raters. Results committed to `data/eval/voice_sweep_*.md`.
+12. Update `VOICE_BY_CATEGORY`. Voice-concentration guard.
+13. AUDIO_REWRITE prompt update (Step A of §5.2) allowing `...`, `:`, `—`.
+14. `normalize.py` preservation rules (Step B of §5.2, 7 days after Step A).
+15. Characterisation tests over prompt-change surface (Solution Architect §7.4).
+
+**Phase D — LLM refactor (P0, ~2 days):**
+
+16. `pipeline/llm.py` Gemini-only wrapper (§4.2), `model_version`
+    logging on every call.
+17. Merge A ship (`draft + stakes`, T=0.3 in structured output).
+    `distill` stays separate.
+18. Golden-file diff on 30 days of `data/reviews/` gates the merge.
+
+**Phase E — Observability spine, scoped down (P0, ~1 week):**
+
+19. `pipeline/health.py` writes `data/health/latest.md` (git-ignored,
+    see §8.2).
+20. `pipeline/drift.py` writes `data/drift/YYYY-MM-DD.json`
+    (git-ignored). Informational only.
+21. Owner starts hand-labeling `pipeline/eval/golden_set.jsonl` (n=30
+    baseline → n=100 target). Runner runs as smoke test only.
+22. Dead-man's switch: Healthchecks.io free-tier ping in the workflow
+    (§13, Principal SDE §4.P-missing-1).
+
+**Phase F — Prompt rewrites, isolated (P1, ~3 days):**
+
+23. AUDIO_REWRITE worked example (Solution Architect §5).
+24. DRAFT deterministic length parameter (Solution Architect §5).
+25. Ship in own commits, 7 days after Phase D. Regressions attribute
+    correctly (Solution Architect §8.A8).
+
+**Phase G — Golden set expansion (P1, owner-effort dependent):**
+
+26. Owner labels to n≥100 with per-category stratification.
+27. Hard-fail gate flips ON (Solution Architect §3).
+
+**Phase H — Reassess §4.3 audio-model bake-off (P2, gated):**
+
+28. Only if §5 free wins did not close the audio complaint.
+29. Bake-off includes Sonnet 4.5 as ceiling reference.
+30. Rule-based scorers arbitrate, not owner listening (Solution
+    Architect §6).
+31. Owner explicit approval before spending +$20/mo.
+
+**Phase I — Advanced items (P2, deferred):**
+
+- DRAFT batching at N=8 (Solution Architect §4 fuzz test required).
+- Misaki IPA overrides (14 days of WER history prerequisite).
+- Significance rebuild shadow rollout (canary set of 20 required —
+  Solution Architect §7.6).
+- Consensus categorization.
+- `promptfoo` / `DeepEval` migration spike.
+
+**No git-history purge in any phase.** Opt-in only.
+**No LLM provider stubs shipped.** Gemini-only.
+**No audio model upgrade shipped by default.** P2, gated.
+
+Total elapsed (linear): ~4 weeks Phases A–E. Phases F–I owner-paced.
+Scope roughly 40% smaller than the pre-external-panel draft.
 
 Six phases. Each phase is independently reversible until the next
 starts. **P0 items land first inside each phase.**
@@ -1010,8 +1088,9 @@ Red-team R3 caught a 10× math error. Corrected table:
 | R2 egress / mo | — | $0 | $0 | CF CDN free |
 | B2 replica / mo | — | — | $0.02 | month 2 |
 | GHA compute / mo | $0 | $0 | $0 | free tier |
-| **Realistic monthly spend** | **~$5** | **~$23** | **~$23** | 2.5 flash path |
-| **Ceiling if Haiku needed** | **~$5** | **~$52** | **~$52** | requires owner approval |
+| **Realistic default spend (Phases A–G shipped)** | **~$5** | **~$3–4** | | Merge A savings; no model upgrade shipped |
+| **If Phase H ships 2.5 flash** | **~$5** | **~$23** | | +$20/mo, requires eval win + owner approval |
+| **Ceiling if Sonnet 4.5 lands** | **~$5** | **~$65–85** | | not recommended; ceiling reference only |
 
 Original claim of "–$1/mo" was wrong. The audio-quality upgrade
 genuinely costs money. Trade-off is worth articulating clearly:
@@ -1039,41 +1118,99 @@ for future.
 
 ---
 
-## 15. Priority classification
+## 15. Rule-based audio scorers (new — from Solution Architect §2)
 
-**P0 — required for correctness or unbounded-growth reasons:**
+Before shipping any audio_rewrite model upgrade (Phase H), rule-based
+scorers evaluate rewrites deterministically. Ships in Phase C alongside
+voice sweep so we have the eval before the change.
 
-- Structured-output Merge A + Merge B (§4.1).
-- Audio model upgrade to Gemini 2.5 flash (§4.3), Haiku 4.5 only if
-  needed.
-- Voice sweep + `VOICE_BY_CATEGORY` update (§5.1).
-- Punctuation preservation in `normalize.py` (§5.2).
-- Cloudflare R2 migration + git-history purge (§6).
-- Drift detection (§7.1).
-- Golden evaluation set (§7.2).
-- Per-run health dashboard (§7.3).
-- WER history + weekly summary (§7.4).
+**`pipeline/eval/audio_scorers.py`:**
 
-**P1 — strong improvement, second wave:**
+```python
+class AudioScorers:
+    def numeric_preservation(source: str, rewrite: str) -> float:
+        """Extract every \\d[\\d,.]* from source. Verify each appears
+        in rewrite either verbatim OR as its num2words spelled form
+        OR its currency-spelled equivalent. Return fraction preserved."""
 
-- LLM provider protocol (§4.2).
-- DRAFT batching at N=8 (§4.5).
-- Misaki IPA overrides for top-20 (§5.3).
-- Backblaze B2 warm replica (§6.2 step 9).
-- Significance rebuild shadow workflow (§7.5) — gated by significance
-  design in prior review doc.
-- Positive prompt rewrites (§4.4).
+    def acronym_letter_spacing(source: str, rewrite: str) -> dict:
+        """Extract acronyms from source (≥2 caps, ≤5 chars, dict lookup).
+        For each: verify rewrite contains letter-spaced form (e.g. A. P. I.).
+        Return coverage + list of unspaced acronyms."""
 
-**P2 — nice-to-have, deferred:**
+    def forbidden_punctuation(rewrite: str) -> dict:
+        """Count `;`, `(`, `)` in rewrite. Must be zero. `:`, `—`,
+        `...` allowed under Phase C prompt update."""
 
-- Per-story tone-driven voice routing (§5.4).
-- Chatterbox sidecar for hero stories (§5.5).
-- Consensus categorization (§7.6).
-- Kokoro model file hash pin (from §13 risks).
+    def sentence_length_dist(rewrite: str) -> dict:
+        """Return p50, p90 of sentence word counts. Target p50 ∈ [12, 20],
+        p90 ≤ 25."""
+
+    def attribution_present(rewrite: str, source_name: str) -> bool:
+        """Verify source_name appears once in sentences 2 or 3."""
+```
+
+**Threshold gates for shipping model changes:**
+
+- Numeric preservation ≥ 0.98.
+- Acronym coverage ≥ 0.95.
+- Forbidden-punct count == 0.
+- Sentence-length p50 ∈ [12, 20], p90 ≤ 25.
+- Attribution present true.
+
+Any candidate model (Phase H bake-off) must pass all five gates on the
+30-story bake-off set before it can even enter the LLM-as-judge round.
 
 ---
 
-## 16. Consistency review (pre-external-panel)
+## 16. Priority classification — REVISED
+
+**P0 — required, ships in Phases A–E:**
+
+- Cloudflare R2 migration, no purge (§6, Phase A).
+- Kokoro model file hash pin (Phase A step 3).
+- `docs/RUNBOOK.md` §Secrets rotation policy (Phase A step 2).
+- R2 upload integrity check (Phase A step 5).
+- Whisper `tiny.en` → `distil-large-v3` (Phase B).
+- WER history monthly-rotated + weekly summary (Phase B).
+- Structured voice sweep with MOS-Likert (Phase C).
+- AUDIO_REWRITE prompt update allowing prosody punct (Phase C).
+- `normalize.py` preservation rules (Phase C, 7 days after prompt).
+- Characterisation tests for prompt-change surface (Phase C).
+- `pipeline/llm.py` Gemini-only wrapper + `model_version` logging
+  (Phase D).
+- Merge A `draft + stakes` structured output (Phase D).
+- Golden-file diff regression gate on `data/reviews/` (Phase D).
+- `data/health/latest.md` regenerated each run, git-ignored (Phase E).
+- Drift detector, informational-only (Phase E).
+- Golden set n=30 baseline as smoke test (Phase E).
+- Dead-man's-switch Healthchecks.io ping (Phase E).
+- `data/reviews/` 30-day rotation to R2 (Phase E).
+
+**P1 — second wave:**
+
+- Rule-based audio scorers (§15, Phase C prerequisite for Phase H).
+- Prompt rewrites (AUDIO_REWRITE example + DRAFT length param) — Phase F.
+- Golden set expansion to n≥100 (Phase G, owner-effort dependent).
+- Backblaze B2 warm replica (§6.2 step 9).
+- Distributional drift statistic (KS-test / histogram delta).
+
+**P2 — gated, may never ship:**
+
+- Audio model upgrade (§4.3) — only if free wins fail.
+- DRAFT batching at N=8 with fuzz test (Phase I).
+- Misaki IPA overrides for top-20 (Phase I).
+- Significance rebuild shadow workflow with canary set (Phase I).
+- Consensus categorization (Phase I).
+- `promptfoo` / `DeepEval` migration spike (Phase I).
+- Per-story tone-driven voice routing.
+- Chatterbox sidecar for hero stories.
+- LLM-as-judge for content quality.
+- `docs/OPT-IN-OPERATIONS.md` git-history purge (owner-triggered only).
+
+---
+
+## 17. Consistency review (post-external-panel)
 
 Verifying the design against goals + non-goals:
 
@@ -1102,7 +1239,9 @@ Cross-doc consistency:
 
 ---
 
-**End of design draft.** Next: internal red-team + blue-team review,
-then external panel (Principal SDE + Solution Architect, AI
-Engineering) with no context except this doc and the system
-architecture.
+**End of design v2.** Internal red-team, blue-team, and external panel
+(Principal SDE + Solution Architect, AI Engineering) all applied. See
+`docs/_review/consolidation-v2.md` for the diff summary.
+
+**Design frozen.** Next: backlog refresh (`docs/BACKLOG.md`) + execution
+in the sequence above.
