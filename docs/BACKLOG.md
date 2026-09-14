@@ -78,7 +78,7 @@ they have no infrastructure dependency.
 
 - [x] **B-20** Upgrade `pipeline/audio_validate.py` from `tiny.en` to `distil-large-v3`. Re-baseline WER with a 1-day comparison run.
 - [x] **B-21** `data/audio_wer_history/YYYY-MM.jsonl` monthly-rotated append in `audio_validate.py`. 6-month in-repo retention.
-- [ ] **B-22** `pipeline/eval/wer_weekly.py` — Sunday summary buckets by voice/category/story_type; flags p90 > 0.12 or p50 shift > +0.02 WoW.
+- [x] **B-22** `pipeline/eval/wer_weekly.py` — Sunday summary buckets by voice/category/story_type; flags p90 > 0.12 or p50 shift > +0.02 WoW.
 
 ### Phase C — Audio quality free wins
 
@@ -121,8 +121,8 @@ they have no infrastructure dependency.
 ### Content pipeline
 
 - [x] **B-45** Rule-based audio scorers (`pipeline/eval/audio_scorers.py`): numeric preservation, acronym coverage, forbidden-punct count, sentence-length distribution, attribution presence. Ships in Phase C alongside voice sweep.
-- [ ] **B-46** AUDIO_REWRITE in-prompt worked example (`$2.3B revenue → two point three billion dollars`). Phase F.
-- [ ] **B-47** DRAFT deterministic length parameter: `target_words = clamp(source_words × 0.35, 150, 360)`. Phase F.
+- [x] **B-46** AUDIO_REWRITE in-prompt worked example (`$2.3B revenue → two point three billion dollars`). Phase F.
+- [x] **B-47** DRAFT deterministic length parameter: `target_words = clamp(source_words × 0.35, 150, 360)`. Phase F.
 
 ### Orthogonal metadata + event clustering (from design-review-2026-09-14)
 

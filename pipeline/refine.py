@@ -69,9 +69,7 @@ def _call(prompt: str, temperature: float = 0.4, max_tokens: int = 900) -> str:
 
 DRAFT_PROMPT = """You are drafting a news briefing for a private listener.
 
-Length: 150 to 360 words, chosen by the story's real complexity — do not pad,
-do not truncate. A launch or funding is 150-200. A meaty story is 220-290. A
-complex multi-party story is 300-360.
+Target length: {target_words} words ±10%. Do not pad, do not truncate.
 
 Include: the concrete fact, specific numbers/names/dates as they appear in the
 source, one direct quote if the source has a strong one, the "why it matters"
@@ -92,7 +90,19 @@ Article:
 
 
 def _draft(title: str, source: str) -> str | None:
-    prompt = DRAFT_PROMPT.format(title=title, source=source[:12000])
+    # B-47: pass length as a deterministic parameter (source_words × 0.35
+    # clamped to [WORDS_MIN, WORDS_MAX]) rather than asking the model to
+    # self-select from a wide band. Removes bimodal band-edge failure
+    # mode where flash-lite writes either 150 or 360 with nothing in
+    # between.
+    source_words = len(source.split())
+    target = int(round(source_words * 0.35))
+    target = max(config.WORDS_MIN, min(config.WORDS_MAX, target))
+    prompt = DRAFT_PROMPT.format(
+        title=title,
+        source=source[:12000],
+        target_words=target,
+    )
     out = _call(prompt, temperature=0.4, max_tokens=900)
     if not out or len(out.split()) < config.WORDS_MIN * 0.7:
         return None
@@ -216,6 +226,15 @@ def _redraft(draft: str, source: str, bad: list[str]) -> str | None:
 
 AUDIO_REWRITE_PROMPT = """Rewrite this news briefing for SPOKEN audio delivery.
 A neural voice will read it aloud. It must sound natural to the ear.
+
+Worked example — this is what "spoken form" looks like:
+
+  INPUT:  Reuters reports the Fed cut rates by 0.25%, and the API price
+          for GPT-4 fell $40M in Q3 2026.
+  OUTPUT: The Federal Reserve cut interest rates by zero point two five
+          percent, Reuters reports. The A. P. I. price for G. P. T. four
+          fell forty million dollars in the third quarter of twenty
+          twenty-six.
 
 Hard rules — apply every single one:
 
