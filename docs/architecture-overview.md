@@ -415,18 +415,229 @@ disk at build time and passed as props.
   - `reviews/YYYY-MM-DD/<story-id>.txt` — every refine layer, human-readable
   - `pruned_YYYY-MM-DD.json` — repruned stories on filter tightening
 - **`site/public/data/`** (web-served, mirrored to Vercel):
-  - `feed.json` (~67 KB)
-  - `blogs.json` (~356 KB)
-  - `audio/YYYY-MM-DD/*.mp3`
-  - `blogs-audio/YYYY-MM/*.mp3`
+  - `feed.json` — **~353 KB, 106 stories** (as of 2026-09-14)
+  - `blogs.json` — **~67 KB, 12 entries**
+  - `audio/YYYY-MM-DD/*.mp3` — **154 MB** total in working tree
+  - `blogs-audio/YYYY-MM/*.mp3` — **21 MB**
   - `rss.xml`
-- **No DB, no object store.** The entire product is 5 MB of JSON +
-  a few hundred MB of audio committed to git and served static.
-  This is a deliberate simplicity choice for a single-user app.
+- **`.git` — 588 MB** and growing. Audio binaries checked in on
+  every cron tick; retention prunes the working tree but git history
+  keeps every blob. This is the biggest known-debt item.
+- **No DB, no object store.** Entire product is ~420 KB of JSON + a
+  few hundred MB of audio committed to git and served static. Deliberate
+  simplicity choice for a single-user app — but see §19 gap #1.
 
 ---
 
-## 14. Known gaps & open questions (for reviewer)
+## 14. Design rationale (why each choice)
+
+A reviewer should not propose alternatives we've already considered.
+Rationale for the load-bearing decisions:
+
+- **Static JSON + audio in git, no DB.** Product is single-user, single-
+  writer (the cron), read-mostly. A DB would add ops surface for no
+  correctness win. Git gives us free versioning, free rollback, free
+  backup, and a review trail. We know this doesn't scale — see §17.
+- **Astro over Next.js.** No user auth, no server-side data mutation,
+  no per-request personalisation. Astro's "islands" model gives us
+  React only where interactivity lives (Feed player, Blogs reader) and
+  a static shell everywhere else. Build is 8 s, cold-load is fast.
+- **Gemini over Claude/GPT for pipeline LLM.** Cost per token at
+  our volume ($~ per day, see §16). Latency is fine because we run
+  offline in cron. Not because Gemini is *better* — we would switch
+  the moment quality regresses. No multi-provider abstraction today.
+- **Kokoro-ONNX local over ElevenLabs / Play.ht / OpenAI TTS.**
+  Zero API cost, no rate limit, no vendor lock, deterministic output
+  for a given voice+text. Trade-off: quality is behind ElevenLabs on
+  prosody, and we compensate with the deterministic `normalize.py`
+  pass plus manual voice-per-category selection. Whisper round-trip
+  validation catches the worst regressions.
+- **Whisper `tiny.en` as validator.** Cheap enough to run on every
+  synth. Bigger models would catch more errors but the WER floor of
+  `tiny.en` (~5–7 % on clean speech) is *good enough* as a regression
+  detector — we're not measuring absolute quality, we're catching
+  "TTS spit out obviously wrong words."
+- **6-layer refine.** Each layer exists because a single-shot
+  Gemini prompt failed in a specific way: hallucinated numbers
+  (→ FACT_VERIFY), buried the stakes (→ WHY_MATTERS), had em-dashes
+  that Kokoro read as pauses (→ AUDIO_REWRITE), or unspelled
+  acronyms slipped through (→ PRONUNCIATION_NORM + SANITY_CHECK).
+  It's not elegance — it's calcified bug fixes.
+- **8-cat taxonomy, locked.** Owner-preferred set. `INDIA` and `US`
+  are top-level because owner cares about both and Reuters-style
+  "WORLD" was hiding India/US stories. `AI` split from `TECH`
+  because AI volume is high enough to drown out the rest of tech.
+- **Deterministic pronunciation dict + num2words.** Placed *after*
+  the LLM has been asked to spell out numbers/acronyms. Safety net,
+  not primary strategy. Ordered longest-first so `Kubernetes` beats
+  a hypothetical `Kub`. Regex-based, no phoneme system yet.
+- **Cron 3×/day at 12/19/02 UTC.** Aligns with owner's morning /
+  lunch / late-night reading pattern in IST.
+- **RSS + Google News proxy over paid news APIs.** Cheap, zero
+  auth surface. Trade-off: extraction reliability varies, and some
+  outlets (WSJ, Bloomberg) hide behind paywalls that trafilatura
+  can't cross. We accept partial content and rely on multi-source
+  hydration to fill gaps.
+
+---
+
+## 15. Prompt library (excerpts)
+
+Full text lives in `pipeline/refine.py` and `pipeline/blogs_run.py`;
+these are the load-bearing prompts a reviewer would want to critique.
+
+### 15.1 DRAFT (refine layer 1)
+
+> "Summarise this news article in 150–360 words. Length is chosen by
+> the article's real information density — a two-paragraph brief is
+> 150–180; a wire-service report with numbers, actors, and consequences
+> is 250–360. Do not pad.
+>
+> Include: the concrete event (who did what where when), the numbers /
+> names / dates that would be lost if omitted, one quote if the quote
+> is strong, and the 'why it matters' angle **only if the source
+> states it**. Do not editorialise; do not speculate; do not invent
+> figures; do not use 'reportedly' unless the source itself does."
+
+### 15.2 WHY_MATTERS (refine layer 2a)
+
+> "In 12–28 words, state the stakes of this story for a reader who
+> is not already following the beat. If the story has no stakes
+> beyond 'this happened' (celebrity gossip, ceremonial coverage,
+> local incident, listicle, feel-good), return the literal string
+> `NONE`. Do not soften. Do not editorialise."
+
+### 15.3 AUDIO_REWRITE (refine layer 3)
+
+> "Rewrite as spoken audio for a news-anchor voice.
+>
+> - Spell out every number, currency, date, percent, port, code:
+>   `$40M` → 'forty million dollars'; `2026` → 'twenty twenty-six';
+>   `HTTPS` → 'H. T. T. P. S.'
+> - Sentences 12–20 words. No dashes, parens, semicolons, colons —
+>   rephrase around them.
+> - Attribution inline, mentioned once in sentence 2 or 3.
+> - Weave the stakes line into paragraph 2, not appended.
+> - No throat-clearing ('In a recent development…'). Start with the fact."
+
+### 15.4 Blog SHORT (100–160 w card hook)
+
+> "Summarise this technical blog post as a 100–160 word hook
+> paragraph for a reader-card. What the post is about (one sentence),
+> the key argument or finding, why a working software engineer would
+> open it. No padding ('This post explores…'), no editorialising
+> ('groundbreaking'), no code, no attribution."
+
+### 15.5 Blog LONG (600–1500 w audio reader)
+
+> "Rewrite as a spoken-audio reader briefing for a senior engineer /
+> PM. Length 600–1500 w, chosen by the post's real complexity: a
+> short opinion post is 600–800, a meaty architecture post 900–1200,
+> a deep paper walk-through 1200–1500. Do not pad, do not truncate.
+> Include the problem, the design walked step by step, specific
+> numbers / product names / algorithms spelled cleanly, the trade-offs
+> the author names, and the conclusion. Code snippets described in
+> prose ('the function takes a request handler and returns a
+> middleware factory'), never quoted literally. Name the author once
+> in the first two sentences."
+
+**Design intent:** each prompt names its failure modes ("do NOT pad",
+"do NOT editorialise") because empirically Gemini regresses to
+generic AI-slop language without those guardrails. If a reviewer sees
+a cleaner way to express the same intent, that's high-value feedback.
+
+---
+
+## 16. Empirical volumes & rough costs
+
+| Metric | Current value | Notes |
+|---|---|---|
+| Stories in feed | **106** | after significance_v2 (was ~400 pre-v2) |
+| Blog entries live | **12** | 30-day rolling window |
+| feed.json size | 353 KB | serialized JSON |
+| blogs.json size | 67 KB | ~5.5 KB per entry (long summary drives it) |
+| Audio bytes (news) | 154 MB | ~1 min per story, ~1.5 MB each |
+| Audio bytes (blogs) | 21 MB | 3–8 min per blog, variable |
+| .git size | 588 MB | audio history — see §19 gap #1 |
+| Cron frequency | 3×/day | 12/19/02 UTC |
+| Gemini calls per run | ~600–1000 | 5–6 per story × ~150 candidates pre-filter |
+| Whisper calls per run | = story count | ~30–50 |
+| Full-run wall-clock | ~8–12 min | dominated by TTS + Whisper |
+
+**Cost envelope (approx, based on gemini-3.5-flash-lite pricing):**
+
+- Gemini spend: single-digit USD / month at current volume.
+- Vercel: static hosting + edge bandwidth, free tier so far.
+- Compute: GitHub Actions free minutes (public repo).
+- **Total run-rate: < $10/month.** This informs the "don't over-
+  engineer for cost" stance — we are nowhere near a cost cliff.
+
+---
+
+## 17. Observability, testing, security
+
+### Observability (what we log, what we don't)
+
+- **We DO log:**
+  - Every rejected story → `data/rejections/YYYY-MM-DD.jsonl`.
+  - Every dedup hit → `data/duplicates/YYYY-MM-DD.jsonl`.
+  - Every refine layer's output → `data/reviews/YYYY-MM-DD/<id>.txt`.
+  - Whisper WER + audio flags → written back onto the story record
+    as `audio_verdict`.
+- **We DO NOT have:**
+  - Any metric aggregation (no Grafana, no Datadog).
+  - Any alerting (silent failures pass unnoticed until next-day check).
+  - Any dashboard for filter drift, Gemini spend, or cron success rate.
+  - Any distribution-of-scores plot for `significance_v2`.
+  - Any user analytics (single-user product, so mostly OK).
+
+### Testing surface
+
+- `pipeline/mock_test.py` — end-to-end pipeline with a fixed
+  candidate set, no network. Used for regression on refine + normalize.
+- `pipeline/test_one.py` — single-story integration test used when
+  hand-tuning a prompt or filter rule.
+- **No unit tests.** No CI test job (workflow only runs cron).
+- **No golden-file diffing** for refine output.
+
+### Security posture
+
+- No user auth, no user data. Only owner reads the site.
+- No PII stored; only public-web article content.
+- Secrets in GHA: `GEMINI_API_KEY`, `VERCEL_TOKEN`,
+  `VERCEL_ORG_ID`, `VERCEL_PROJECT_ID`. No rotation policy.
+- Gmail source disabled pending OAuth read-only + sender allowlist
+  (owner mandate: personal inbox must not leak).
+- `.env` never committed; `pipeline/config.py` reads from env vars.
+- Audio + JSON are public artifacts — no leakage concern.
+
+---
+
+## 18. Roadmap (distilled from PLAN.md)
+
+Committed but not yet shipped. Ordered by priority the owner has signalled:
+
+1. **Audio quality polish** — per-category pronunciation adapters
+   (Track B.2), phoneme fallback via `phonemizer` / `espeak-ng`
+   (Track B.3), automated Whisper audit sweep with an
+   `unresolved.jsonl` (Track B.4).
+2. **Blog cron** — currently manual weekly; wire up a GHA cron.
+3. **Cross-source enrichment (PLAN C4)** — when Tier-A publishes
+   the same story as Tier-B, hydrate and append instead of drop.
+4. **arXiv ranker** — only surface a paper when a Tier-A desk has
+   already cited it.
+5. **Uplift/tone facet chip** — needs a `tone` field on stories.
+6. **Google News as first-class source** (owner asked; currently
+   used only for the RSS-less proxies).
+7. **VERCEL_TOKEN rotation policy** — has expired twice.
+8. **GHA cron `git pull --rebase --autostash`** — reduces the
+   local-vs-cron push race.
+9. **Move audio to R2/S3 with signed URLs** — reduces git weight.
+   Not committed yet, awaiting critique.
+
+---
+
+## 19. Known gaps & open questions (for reviewer)
 
 We already suspect the following. **Any critique that goes deeper than
 this list is genuinely useful.**
@@ -473,22 +684,60 @@ this list is genuinely useful.**
     tomorrow could wipe the feed to zero and the cron would still
     commit + deploy an empty briefing.
 
-**Questions we'd like ChatGPT to weigh in on:**
+**Questions we'd like ChatGPT to weigh in on, in priority order:**
 
-- Is the 6-layer refine pipeline over-engineered? Could a single
-  well-structured prompt with function-calling do most of it?
-- Should the LLM step be batched by category rather than per-story?
-- Is Whisper the right validator, or would a text-only phoneme
-  round-trip catch 90% of issues at 10% of the cost?
-- Is committing audio to git a real problem yet, or premature
-  optimisation to move it?
-- For a single-user product, is there a simpler, more resilient
-  architecture that still preserves editorial control? (e.g. is
-  the "just static JSON + audio in git" shape correct, or is it
-  hiding future pain?)
-- What's the smallest change that would give us **filter drift
-  detection** (i.e. an alarm when significance_v2 output distribution
-  shifts materially)?
+1. **Refine pipeline shape.** Is the 6-layer refine over-engineered?
+   Could a single well-structured Gemini prompt with function-calling
+   + structured output do 80 % of the job at 20 % of the cost?
+   What's the specific test we could run to know?
+2. **Filter drift detection.** Cheapest reliable way to detect that
+   `significance_v2` output distribution has materially shifted?
+   (Ideally something that runs inside the same cron and either
+   commits an alert file or fails the build.)
+3. **Fact-verify layer.** Currently a regex diff of numbers +
+   proper nouns against source text. What's the smallest upgrade
+   that catches semantic hallucinations without adding a second LLM
+   round-trip per story?
+4. **Prompt engineering.** Given the §15 excerpts, which prompt is
+   most likely under-performing, and what specifically would you
+   change? Rewrite one prompt as a concrete counter-proposal.
+5. **Audio validation choice.** Is Whisper `tiny.en` round-trip the
+   right validator, or would a text-only phonemizer round-trip catch
+   90 % of issues at 10 % of the cost?
+6. **Storage choice.** Committing MP3s to git — real problem now
+   at 588 MB, or premature to move? If we should move, is R2 /
+   Backblaze B2 / Cloudflare Images the right destination for a
+   read-mostly, single-user, ~200 MB corpus?
+7. **Categorization robustness.** Single Gemini call, no self-
+   critique. Is a two-pass "propose + verify" worth the extra call?
+   Or is the answer to add rule-based pre-filters that force certain
+   categories deterministically (e.g. arXiv URL → SCIENCE)?
+8. **Cron reliability.** GHA cron with occasional git-push races is
+   fragile. Is there a simpler durability story than moving to a
+   real queue?
+9. **The static-JSON-in-git shape.** For a single-user product, is
+   this shape genuinely correct, or is it hiding pain we haven't
+   felt yet (e.g. once corpus > 1 GB, once we want previews)?
+
+### What we've already ruled out (don't re-propose)
+
+- Moving to a paid TTS (ElevenLabs / OpenAI / Play.ht) — cost + lock-in.
+- Multi-user auth or personalisation — non-goal.
+- Real-time / streaming ingestion — non-goal, hourly is enough.
+- Next.js migration — Astro's static-first fits the read-mostly
+  shape better; no server-side data mutation to justify Next.
+- Dark mode — owner-rejected.
+- LangChain / LlamaIndex / agent frameworks around the pipeline —
+  adds abstraction without solving a real problem; pipeline is
+  deterministic control flow.
+- Vector DB for dedup — MiniLM in-process at N ~ 500 is fine; we
+  do not have a similarity-search product surface.
+- Kubernetes / serverless workers / queues — pipeline runs in
+  under 15 min on a single GHA runner. Complexity budget better
+  spent on quality.
+- **Refactors that preserve behaviour** — the owner does not want
+  cleanup for its own sake; changes must move a specific quality
+  or reliability needle.
 
 ---
 
