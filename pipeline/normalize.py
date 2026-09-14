@@ -18,11 +18,14 @@ from num2words import num2words
 # whole-word regex in normalize() below.
 SPELL_OUT = {
     # tech / product
-    "AI", "API", "ML", "LLM", "CPU", "GPU", "TPU", "SDK", "CLI", "URL", "SQL",
+    "AI", "API", "ML", "LLM", "VLM", "CPU", "GPU", "TPU", "SDK", "CLI", "URL", "SQL",
     "HTTP", "HTTPS", "CSS", "HTML", "JSON", "XML", "YAML", "AWS", "GCP", "IBM",
     "NASA", "USB", "iOS", "OS", "OSS", "RAG", "RSS", "PDF", "PNG", "JPG",
     "MP3", "MP4", "RSC", "SSR", "SSG", "TLS", "SSL", "SSH", "DNS", "CDN",
     "VPN", "VPS", "ONNX", "CUDA", "ROCm",
+    # AI model families (added after Whisper caught "GPT" being read as a word)
+    "GPT", "BERT", "CLIP", "GAN", "VAE", "MoE", "RLHF", "DPO", "SFT", "MLM",
+    "NLP", "NER", "OCR", "ASR",
     # US agencies + political
     "FBI", "CIA", "NSA", "DOJ", "DOD", "TSA", "ICE", "DEA", "ATF", "USSS",
     "SEC", "IRS", "FDA", "CDC", "FEMA", "EPA", "FTC", "FCC", "USDA", "HHS",
@@ -41,6 +44,100 @@ SPELL_OUT = {
     # scientific orgs
     "ESA", "JAXA", "NOAA", "CERN", "JPL", "NIH", "NSF",
 }
+
+# Pronunciation dictionary — hand-tuned respellings for proper nouns and
+# terms that Kokoro consistently mangles. Whole-word, case-insensitive.
+# The RHS is what gets substituted before TTS. Rules for authoring:
+#   - Use dashed syllables where each syllable roughly rhymes with a common
+#     English word. This gets Kokoro closer than the source spelling would.
+#   - Drop pure honorifics ("Shri", "Smt.") that English news doesn't need.
+#   - When a diacritic-heavy name has a common English equivalent, use it
+#     ("Universität Wien" → "University of Vienna").
+# Ordered longest-first so multi-word entries match before their prefixes.
+PRONUNCIATION_MAP = [
+    # ── Indian honorifics — drop entirely for English news ─────────
+    (r"\bShri\s+", ""),
+    (r"\bSmt\.?\s+", ""),
+    (r"\bSri\s+", ""),
+    (r"\bDr\.\s+(?=[A-Z][a-z])", "Doctor "),  # keep Doctor but only before names
+
+    # ── Indian festivals + cultural terms ──────────────────────────
+    (r"\bGanesh Chaturthi\b", "Guh-nesh Chuh-toor-tee"),
+    (r"\bDiwali\b", "Dee-vah-lee"),
+    (r"\bDeepavali\b", "Dee-pah-vah-lee"),
+    (r"\bHoli\b", "Ho-lee"),
+    (r"\bNavratri\b", "Nuv-rah-tree"),
+    (r"\bDussehra\b", "Duh-say-rah"),
+    (r"\bpandals?\b", "pun-duls"),
+    (r"\bpuja\b", "poo-jah"),
+    (r"\baarti\b", "ar-tee"),
+    (r"\bsatsang\b", "sut-sung"),
+
+    # ── Indian states / cities that trip Kokoro ────────────────────
+    (r"\bJharkhand\b", "Jhaar-khund"),
+    (r"\bChhattisgarh\b", "Chuh-tees-gur"),
+    (r"\bBhubaneswar\b", "Bhoo-buh-nesh-wur"),
+    (r"\bThiruvananthapuram\b", "Thi-roo-vun-un-tuh-poo-rum"),
+    (r"\bKanchipuram\b", "Kaan-chee-poo-rum"),
+    (r"\bKozhikode\b", "Koh-zhee-code"),
+    (r"\bMysuru\b", "My-soo-roo"),
+    (r"\bBengaluru\b", "Beng-uh-loo-roo"),
+    (r"\bGurugram\b", "Goo-roo-graam"),
+    (r"\bAyodhya\b", "Uh-yode-yuh"),
+
+    # ── Indian political + cultural names ──────────────────────────
+    (r"\bSitharaman\b", "Sith-a-ra-mun"),
+    (r"\bJaishankar\b", "Jai-shun-kur"),
+    (r"\bYogi Adityanath\b", "Yo-gee Uh-dit-yuh-nath"),
+    (r"\bHemant Soren\b", "Hay-munt So-ren"),
+    (r"\bMamata Banerjee\b", "Muh-muh-tuh Bun-ur-jee"),
+    (r"\bRahul Gandhi\b", "Rah-hool Gaan-dee"),
+    (r"\bNarendra Modi\b", "Nuh-ren-druh Moe-dee"),
+    (r"\bNaveen Patnaik\b", "Nuh-veen Put-nike"),
+    (r"\bStalin\b(?=.*(Tamil|Chennai|Madras|DMK))", "Stah-lin"),
+
+    # ── Indian sports names ────────────────────────────────────────
+    (r"\bVirat Kohli\b", "Vih-raat Coal-ee"),
+    (r"\bKohli\b", "Coal-ee"),
+    (r"\bRohit Sharma\b", "Ro-hit Shar-mah"),
+    (r"\bShubman Gill\b", "Shoob-mun Gil"),
+    (r"\bJasprit Bumrah\b", "Juss-prit Boom-rah"),
+    (r"\bRavindra Jadeja\b", "Ruh-vin-druh Juh-day-juh"),
+    (r"\bNeeraj Chopra\b", "Nee-raj Chope-rah"),
+    (r"\bPV Sindhu\b", "P V Sin-doo"),
+    (r"\bSaina Nehwal\b", "Sye-nuh Neh-wall"),
+    (r"\bHS Prannoy\b", "H S Prun-noy"),
+    (r"\bLakshya Sen\b", "Lush-yuh Sen"),
+
+    # ── German / Austrian / French research places ─────────────────
+    (r"\bUniversität Wien\b", "University of Vienna"),
+    (r"\bMax-Planck-Institut\b", "Max Planck Institute"),
+    (r"\bInnsbruck\b", "Ins-brook"),
+    (r"\bStrasbourg\b", "Strass-berg"),
+    (r"\bMünchen\b", "Munich"),
+    (r"\bKöln\b", "Cologne"),
+    (r"\bZürich\b", "Zurich"),
+    (r"\bGöteborg\b", "Gothenburg"),
+    (r"\bEindhoven\b", "Ind-hoven"),
+    (r"\bLausanne\b", "Loh-zahn"),
+    (r"\bLyon\b(?=[.,\s])", "Lee-on"),
+
+    # ── F1 driver names ────────────────────────────────────────────
+    (r"\bLeclerc\b", "Luh-clair"),
+    (r"\bVerstappen\b", "Ver-stah-pen"),
+    (r"\bTsunoda\b", "Tsoo-no-dah"),
+    (r"\bMagnussen\b", "Mag-noo-sen"),
+    (r"\bGasly\b", "Gaz-lee"),
+    (r"\bOcon\b", "Oh-kon"),
+    (r"\bZhou Guanyu\b", "Joh Gwan-yoo"),
+
+    # ── Common tech names Kokoro trips on ──────────────────────────
+    (r"\bAnthropic\b", "An-throw-pick"),
+    (r"\bPerplexity\b", "per-PLEX-i-tee"),
+    (r"\bLlama\b(?=.*(model|AI|Meta))", "Lah-mah"),
+    (r"\bMistral\b", "Miss-trahl"),
+    (r"\bxAI\b", "X A. I."),
+]
 
 # Common abbreviations that should be expanded (spoken versions)
 ABBREVIATIONS = [
@@ -111,16 +208,27 @@ def _expand_version(match: re.Match) -> str:
 
 
 def _expand_currency(match: re.Match) -> str:
-    """$40M → forty million dollars; $1.2B → one point two billion dollars; $500 → five hundred dollars."""
+    """$40M → forty million dollars; $1.2B → one point two billion dollars.
+
+    Also handles the *word* suffix form: "$50 billion" (with the scale as a
+    following word) → "fifty billion dollars" (unit last). Regex layer
+    passes the whole "$50 billion" phrase through here via the `word_scale`
+    capture group.
+    """
     raw = match.group(0)
     sign = -1 if raw.startswith("-") else 1
-    body = raw.lstrip("-$").replace(",", "")
+    # Extract optional trailing word scale first (billion/million/etc).
+    word_scale_m = re.search(r"\s+(thousand|million|billion|trillion)\b", raw, re.IGNORECASE)
+    word_scale = word_scale_m.group(1).lower() if word_scale_m else ""
+    core = raw[: word_scale_m.start()] if word_scale_m else raw
+    body = core.lstrip("-$").replace(",", "").strip()
     m = re.match(r"^(\d+(?:\.\d+)?)([KMBT])?$", body, re.IGNORECASE)
     if not m:
         return raw
     val = float(m.group(1))
     suffix = (m.group(2) or "").upper()
-    scale = {"K": "thousand", "M": "million", "B": "billion", "T": "trillion"}.get(suffix, "")
+    letter_scale = {"K": "thousand", "M": "million", "B": "billion", "T": "trillion"}.get(suffix, "")
+    scale = word_scale or letter_scale
     val_str = _num_to_words(int(val)) if val == int(val) else _decimal_to_words(val)
     parts = [val_str]
     if scale:
@@ -181,12 +289,45 @@ def normalize(text: str) -> str:
     t = re.sub(r"[\*_`]+", "", t)
     t = re.sub(r"\[[^\]]*\]", "", t)
 
+    # 1a. Hand-tuned pronunciation dictionary (Indian names, festivals,
+    #     European place names, F1 drivers, AI companies Kokoro trips on).
+    #     Runs BEFORE acronym letter-spacing so "PV Sindhu" is matched as a
+    #     whole phrase rather than PV letter-spaced.
+    for pat, repl in PRONUNCIATION_MAP:
+        t = re.sub(pat, repl, t, flags=re.IGNORECASE)
+
+    # 1b. Acronym-hyphen-number pattern. "GPT-6" was being rendered as
+    #     "G. P. T. dash six" because SPELL_OUT letter-spaced the acronym
+    #     and the hyphen survived into Kokoro. Drop the hyphen between an
+    #     acronym and a following number so it reads as "G. P. T. six".
+    #     Also catches T-20, USB-C (letter suffix drops too), Formula-1.
+    t = re.sub(r"\b([A-Z]{2,6})-(\d+)\b", r"\1 \2", t)
+    t = re.sub(r"\b([A-Z]{2,6})-([A-Z])\b", r"\1 \2", t)
+
     # 2. Expand abbreviations first (before other regex touches them)
     for pat, repl in ABBREVIATIONS:
         t = re.sub(pat, repl, t)
 
-    # 3. Currency: $40M, $1.2B, $500
-    t = re.sub(r"-?\$\d+(?:\.\d+)?(?:,\d{3})*(?:[KMBT])?", _expand_currency, t, flags=re.IGNORECASE)
+    # 3. Currency: $40M, $1.2B, $500, and "$50 billion" (word-scale form).
+    #    The word-scale form catches the trailing scale word so we emit
+    #    "fifty billion dollars" (unit last) not "fifty dollars billion".
+    t = re.sub(
+        r"-?\$\d+(?:\.\d+)?(?:,\d{3})*(?:\s+(?:thousand|million|billion|trillion))?(?:[KMBT])?",
+        _expand_currency, t, flags=re.IGNORECASE,
+    )
+
+    # 3a. ISO dates YYYY-MM-DD → "Month Day". Runs before generic
+    #     number/hyphen rules chew on them.
+    _MONTHS = ["", "January", "February", "March", "April", "May", "June",
+               "July", "August", "September", "October", "November", "December"]
+    def _iso_date(m: re.Match) -> str:
+        y, mo, d = int(m.group(1)), int(m.group(2)), int(m.group(3))
+        try:
+            month_name = _MONTHS[mo]
+        except IndexError:
+            return m.group(0)
+        return f"{month_name} {_num_to_words(d)}, {_year_to_words(y)}"
+    t = re.sub(r"\b(20\d{2}|19\d{2})-(0?[1-9]|1[0-2])-(0?[1-9]|[12]\d|3[01])\b", _iso_date, t)
 
     # 4. Percentages: 40%, 3.5%
     t = re.sub(r"\d+(?:\.\d+)?(?:,\d{3})*%", _expand_percent, t)
@@ -249,6 +390,14 @@ def normalize(text: str) -> str:
     #     pauses. Collapsing all whitespace here used to destroy every
     #     paragraph in the input, turning every briefing into one flat blob
     #     with only 0.32s sentence gaps.
+    # Adjacency: split any digit-letter or letter-digit collision that
+    # earlier rules may have introduced ("of50", "50billion", "to81") so
+    # Kokoro doesn't run them together. Doesn't touch spelled-out words
+    # (num2words output has spaces) or the pronunciation dict (which uses
+    # hyphens between syllables).
+    t = re.sub(r"(\d)([a-zA-Z])", r"\1 \2", t)
+    t = re.sub(r"([a-zA-Z])(\d)", r"\1 \2", t)
+
     t = re.sub(r"[ \t]+", " ", t)                         # collapse horizontal whitespace
     t = re.sub(r"[ \t]*\n[ \t]*\n[ \t\n]*", "\n\n", t)    # normalize any blank-line run to exactly one
     t = re.sub(r"(?<!\n)\n(?!\n)", " ", t)                # single newline → space
