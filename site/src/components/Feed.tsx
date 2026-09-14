@@ -113,6 +113,14 @@ function groupByDay(stories: Story[]) {
   return order.map((label) => ({ label, items: byLabel.get(label)! }));
 }
 
+// The lede cue "N°01 / Today" must only appear on today's actual lede
+// card. Compare against a "today" label computed identically to groupByDay
+// so string equality works.
+function todayLabel(): string {
+  const d = new Date();
+  return `${DAYS_LONG[d.getUTCDay()]}, ${MONTHS[d.getUTCMonth()]} ${d.getUTCDate()}`;
+}
+
 /**
  * NowPlayingWave — 16 vertical vermilion bars that pulse rhythmically while
  * the audio is playing. Deterministic pseudo-wave (no real amplitude
@@ -443,7 +451,7 @@ export default function Feed({ stories, cdnBase }: Props) {
 
       {view === "list" && grouped.length > 0 && (
       <div className="feed">
-        {grouped.map((g) => (
+        {(() => { const _today = todayLabel(); return grouped.map((g, gi) => (
           <section key={g.label} className="day-group">
             <div className="day-header">
               <span className="day-label">{g.label.toLowerCase().replace(/(^|\s)\S/g, l => l.toUpperCase())}</span>
@@ -459,7 +467,7 @@ export default function Feed({ stories, cdnBase }: Props) {
                   animate={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.35, delay: Math.min(i, 12) * 0.025, ease: [0.16, 1, 0.3, 1] }}
                 >
-                  {i === 0 && (
+                  {i === 0 && gi === 0 && g.label === _today && (
                     <div className="lede-cue" aria-hidden="true">
                       <span className="lede-cue-serial">N°01</span>
                       <span className="lede-cue-sep">/</span>
@@ -511,9 +519,9 @@ export default function Feed({ stories, cdnBase }: Props) {
                         target="_blank"
                         rel="noreferrer"
                         onClick={(e) => e.stopPropagation()}
-                      >article ↗</a>
+                      >Original ↗</a>
                       <a href="#" onClick={(e) => toggleOpen(s.id, e)}>
-                        {openId === s.id ? "hide" : "read"}
+                        {openId === s.id ? "Hide" : "Read brief"}
                       </a>
                     </div>
                   </div>
@@ -536,7 +544,7 @@ export default function Feed({ stories, cdnBase }: Props) {
               ))}
             </div>
           </section>
-        ))}
+        )); })()}
       </div>
       )}
 
