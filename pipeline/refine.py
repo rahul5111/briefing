@@ -100,6 +100,54 @@ def _draft(title: str, source: str) -> str | None:
 
 
 # ────────────────────────────────────────────────────────────────────────────
+# Layer 2b: WHY-IT-MATTERS (new; explicitly asks the model to infer stakes)
+# ────────────────────────────────────────────────────────────────────────────
+#
+# Persona audit finding P1-2: the draft prompt tells the model *not* to
+# invent stakes if the source is silent. That's correct for facts, but it
+# leaves 90% of announcements/listicles/PR-shaped stories with no "so what."
+# This dedicated layer, run after DRAFT and before AUDIO_REWRITE, has
+# permission to infer stakes conservatively. If nothing meaningful can be
+# inferred, it returns NONE and the story is demoted.
+WHY_MATTERS_PROMPT = """You are writing the ONE-SENTENCE "why it matters" line
+for this briefing.
+
+Say what it means for a professional reader of business, tech, and policy news:
+- market impact (specific company or sector)
+- precedent (regulatory, legal, editorial)
+- affected population (numbers or geography)
+- consequence downstream (what other actors will do)
+
+Rules:
+- ONE sentence, 12-28 words.
+- Ground the inference in facts already in the briefing. Do not add new
+  entities or numbers.
+- If the briefing is a listicle, a shopping guide, a personality piece, or
+  a bundle of unrelated items, return the single word: NONE
+- Do not use throat-clearing phrases like "this matters because" or "the
+  significance is that". Just say it.
+- Do not editorialise ("shockingly", "unprecedented"). Just state
+  the consequence.
+
+Return ONE sentence, or the literal word NONE.
+
+Briefing:
+{draft}
+"""
+
+
+def _why_matters(draft: str) -> str | None:
+    """Return a one-sentence stakes line, or None if the story is fluff."""
+    out = _call(WHY_MATTERS_PROMPT.format(draft=draft), temperature=0.2, max_tokens=90)
+    if not out:
+        return None
+    out = out.strip().rstrip(".")
+    if out.upper() == "NONE" or len(out.split()) < 8:
+        return None
+    return out + "."
+
+
+# ────────────────────────────────────────────────────────────────────────────
 # Layer 2: FACT VERIFY (regex + LLM)
 # ────────────────────────────────────────────────────────────────────────────
 
@@ -194,15 +242,32 @@ Hard rules — apply every single one:
 7. Keep every fact from the input. Do not add new facts. Do not remove facts
    unless they contain a symbol or number you cannot spell out cleanly.
 
-Return only the rewritten briefing.
+8. IN-LINE ATTRIBUTION. Name the outlet exactly once, in the second or third
+   sentence, in-line: "Reuters reports…", "the B. B. C. characterises it as…",
+   "according to The Hindu…". Use the outlet name given as {source_name}. Do
+   not append attribution at the end; weave it mid-flow.
+
+9. STAKES LINE. If a "why it matters" line is supplied below, weave it as
+   the final sentence of the second paragraph — do not tack it on as a
+   separate paragraph at the end. Rephrase it to match your prose voice.
+
+Outlet: {source_name}
+Why-it-matters line (may be empty): {stakes}
 
 Input briefing:
 {draft}
 """
 
 
-def _audio_rewrite(draft: str) -> str | None:
-    out = _call(AUDIO_REWRITE_PROMPT.format(draft=draft), temperature=0.3, max_tokens=1100)
+def _audio_rewrite(draft: str, source_name: str = "", stakes: str = "") -> str | None:
+    out = _call(
+        AUDIO_REWRITE_PROMPT.format(
+            draft=draft,
+            source_name=source_name or "the source",
+            stakes=stakes or "(no stakes line supplied — do not fabricate)",
+        ),
+        temperature=0.3, max_tokens=1200,
+    )
     return out or None
 
 
@@ -276,11 +341,53 @@ class Refined:
     key_points: list[str]     # distilled must-include facts
     coverage_pct: float       # 0.0-1.0 — how many key points made it into the final text
     missing_points: list[str] # facts that dropped out
+    stakes: str = ""          # the "why it matters" line (empty if content-thin)
+    thin: bool = False        # True when the story failed the stakes check
 
 
-def refine(title: str, source: str, story_id: str, day: str) -> Refined | None:
+_DIGEST_TITLE_PATTERNS = re.compile(
+    r"^(the download|up first|the daily brief|briefing:|morning brief|"
+    r"quick catch[- ]?up|news roundup|weekly digest|top stories|"
+    r"today'?s? headlines|around the web|links for|five things|"
+    r"today'?s? papers|weekend reads)",
+    re.IGNORECASE,
+)
+
+
+def _looks_like_digest(title: str, source: str) -> bool:
+    """Bundle-post detection. Two signals:
+       1) Title matches a known digest template.
+       2) Body has 4+ ALL-CAPS or bold-style section markers with unrelated
+          named entities in each.
+    Either triggers the skip path — these are guaranteed to produce
+    incoherent 6-in-1 summaries.
+    """
+    if _DIGEST_TITLE_PATTERNS.search(title.strip()):
+        return True
+    # Structural: count leading-uppercase-word or numeric-list prefixes
+    # (a lot of digest posts have "1.", "2.", "---", or bold labels).
+    strong_markers = len(re.findall(r"(?:^|\n)\s*(?:\d+[.)]|—|—|\*\*[A-Z])", source))
+    if strong_markers >= 6:
+        # Confirm by checking that at least 4 sections start with different
+        # capitalised nouns (rough proxy for unrelated stories).
+        heads = re.findall(r"(?:^|\n)\s*(?:\d+[.)]|\*\*)\s*([A-Z][a-zA-Z]+)", source)
+        if len(set(heads[:6])) >= 4:
+            return True
+    return False
+
+
+def refine(title: str, source: str, story_id: str, day: str, source_name: str = "") -> Refined | None:
     stages: dict[str, str] = {}
     passes: list[str] = []
+
+    # 0a. BUNDLE-POST GUARD (persona audit P1-3): digests like MIT TR
+    #     "The Download" and NPR "Up First" bundle 5-6 unrelated stories
+    #     into one post. The pipeline turns them into incoherent
+    #     "Miami crash + Germany election + menopause + Rwanda" summaries
+    #     Priya can't follow. Skip them entirely.
+    if _looks_like_digest(title, source):
+        print(f"  digest post detected, skipping: {title[:80]}")
+        return None
 
     # 0. DISTILL KEY POINTS from source (the coverage contract)
     kp = key_points.distill(title, source)
@@ -334,8 +441,18 @@ def refine(title: str, source: str, story_id: str, day: str) -> Refined | None:
     if len(draft.split()) < config.WORDS_MIN * 0.7:
         return None
 
-    # 4. AUDIO REWRITE for spoken delivery
-    audio_draft = _audio_rewrite(draft)
+    # 3c. WHY-IT-MATTERS (persona audit P1-2): explicit stakes line the
+    #     audio-rewrite prompt weaves into paragraph 2. NONE-signal marks
+    #     the story as content-thin (listicles, shopping guides, personality
+    #     pieces, or multi-story bundles).
+    stakes = _why_matters(draft) or ""
+    stages["03c_WHY_MATTERS"] = stakes or "NONE — content-thin, no stakes inferable"
+    passes.append(f"stakes={'y' if stakes else 'n'}")
+
+    # 4. AUDIO REWRITE for spoken delivery. Now accepts source_name so it
+    #    can weave an in-line attribution, and stakes so it can integrate
+    #    the "why it matters" line rather than tacking it on at the end.
+    audio_draft = _audio_rewrite(draft, source_name=source_name, stakes=stakes)
     if not audio_draft:
         return None
     stages["04_AUDIO_REWRITE"] = audio_draft
@@ -394,6 +511,8 @@ def refine(title: str, source: str, story_id: str, day: str) -> Refined | None:
         key_points=kp.facts,
         coverage_pct=final_cov.coverage_pct if final_cov else -1.0,
         missing_points=final_cov.missing if final_cov else [],
+        stakes=stakes,
+        thin=not bool(stakes),
     )
 
 

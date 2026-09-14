@@ -250,15 +250,20 @@ def main() -> int:
             continue
 
         print(f"  refining...")
+        # Human-readable source name for in-line attribution in the audio
+        # rewrite. cand.source is a slug like "the_hindu" or "bbc_world";
+        # convert to a display form the LLM can use naturally.
+        display_source = (cand.source or "").replace("_gn", "").replace("_", " ").strip().title() or "the source"
         try:
-            refined = refine.refine(cand.title, source_text, cand.id, day)
+            refined = refine.refine(cand.title, source_text, cand.id, day, source_name=display_source)
         except Exception as e:
             print(f"  refine failed: {e}")
             continue
         if not refined:
             print("  refine rejected, skipping")
             continue
-        print(f"  refined: {refined.word_count}w · coverage {int(refined.coverage_pct*100)}%")
+        print(f"  refined: {refined.word_count}w · coverage {int(refined.coverage_pct*100)}%"
+              + (" · THIN (no stakes)" if refined.thin else f" · stakes: {refined.stakes[:60]}…"))
 
         if DRY_RUN:
             print("  DRY_RUN: skipping TTS")
