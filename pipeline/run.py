@@ -202,9 +202,42 @@ def main() -> int:
             if v in significance.KEEP:
                 kept.append(c)
             else:
-                print(f"  DROP [{v:11s}] {c.title[:80]}")
+                print(f"  DROP-v1 [{v:11s}] {c.title[:80]}")
         candidates = kept
-        print(f"Verdicts: {counts} → {len(candidates)} kept")
+        print(f"v1 verdicts: {counts} → {len(candidates)} kept")
+
+    # SIGNIFICANCE v2 (strict, GKToday-standard filter). Runs after v1 as a
+    # second, stricter pass. Only band=accept survives; rejections + reasons
+    # are logged to data/rejections/YYYY-MM-DD.jsonl for later audit.
+    if candidates:
+        print("\nRunning significance v2 (strict Priya filter)…")
+        v2_results = significance.score_v2_batch(
+            {"title": c.title, "source": c.source, "summary": "", "category": ""}
+            for c in candidates
+        )
+        rejects_log: list[dict] = []
+        v2_kept: list[Candidate] = []
+        v2_counts = {"accept": 0, "borderline": 0, "reject": 0}
+        for c, r in zip(candidates, v2_results):
+            v2_counts[r.band] = v2_counts.get(r.band, 0) + 1
+            if r.band == "accept":
+                v2_kept.append(c)
+            else:
+                rejects_log.append({
+                    "candidate_id": c.id,
+                    "title": c.title,
+                    "source": c.source,
+                    "score": r.score,
+                    "band": r.band,
+                    "reject_hits": r.reject_hits,
+                    "tighter_penalties": r.tighter_penalties,
+                    "reason": r.one_line_reason,
+                })
+                print(f"  DROP-v2 [{r.band:>10s} {r.score:.2f}] {c.title[:80]}")
+                print(f"           reason: {r.one_line_reason[:100]}")
+        candidates = v2_kept
+        print(f"v2 verdicts: {v2_counts} → {len(candidates)} kept")
+        significance.write_rejection_log(rejects_log)
 
     # Safety cap — only fires if the significance filter kept an unusual
     # amount (misconfigured filter or LLM outage returning all INTERESTING).

@@ -1,0 +1,6397 @@
+[
+  {
+    "id": "rss-the_hindu-635570113933",
+    "title": "Jharkhand Governor Santosh Gangwar, CM Hemant Soren greet people on Ganesh Chaturthi",
+    "main": "INDIA",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R1"
+    ],
+    "tighter_penalties": [],
+    "reason": "Ceremonial greetings by leaders fall under R1."
+  },
+  {
+    "id": "rss-cnbc_top-a73bc2d9b5a8",
+    "title": "Iran says it destroys U.S. advanced drone over Hormuz as Middle East conflict intensifies",
+    "main": "WORLD",
+    "score": 0.85,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A10"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [],
+    "reason": "Iranian military destroyed a US drone over the Strait of Hormuz."
+  },
+  {
+    "id": "rss-bbc_sport-2df98115f418",
+    "title": "How did the first Ultimate Championship go?",
+    "main": "SPORTS",
+    "score": 0.75,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [],
+    "reason": "Athletics completed its inaugural Ultimate Championship with a record prize pot."
+  },
+  {
+    "id": "rss-aljazeera-cea71fb881e4",
+    "title": "US Kennedy Center faces bankruptcy, Washington Post reports",
+    "main": "US",
+    "score": 0.75,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A10"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [],
+    "reason": "Kennedy Center faces imminent bankruptcy and potential closure."
+  },
+  {
+    "id": "rss-livemint-ec5792fa60fa",
+    "title": "Gurugram road rage caught on camera as car hits woman biker, driver flees: ‘He kept making hand gestures'",
+    "main": "INDIA",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R2"
+    ],
+    "tighter_penalties": [],
+    "reason": "Individual road rage incident with no public official involved (R2)."
+  },
+  {
+    "id": "rss-dw_top-c08034f7f50b",
+    "title": "Canada seeks 'unique alliance' with EU, Carney says",
+    "main": "WORLD",
+    "score": 0.65,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A10"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [],
+    "reason": "Canadian PM denied seeking EU membership."
+  },
+  {
+    "id": "rss-npr_news-4a781e4919de",
+    "title": "Indonesia searches for 129 people missing after ferry capsizes",
+    "main": "WORLD",
+    "score": 0.65,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A10"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [],
+    "reason": "Indonesian authorities searched for missing passengers after ferry capsized."
+  },
+  {
+    "id": "rss-times_of_india-1e0f8bba1058",
+    "title": "Assam man who beheaded wife, vowed to kill her 'sugar daddy', killed in accident",
+    "main": "INDIA",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R2"
+    ],
+    "tighter_penalties": [],
+    "reason": "Individual crime report with no broader policy precedent (R2)."
+  },
+  {
+    "id": "rss-nasa_breaking-c4f5f74478e0",
+    "title": "APOD: 2026 September 14 – Where Your Elements Came From",
+    "main": "SCIENCE",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R8"
+    ],
+    "tighter_penalties": [],
+    "reason": "Astronomy picture feature/editorial content (R8)."
+  },
+  {
+    "id": "rss-phys_org-e0d01ddcf4dc",
+    "title": "No cities on the moon—there isn't enough water, scientists say",
+    "main": "SCIENCE",
+    "score": 0.65,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A8"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [],
+    "reason": "Study finds lunar cities face a major water shortage due to insufficient ice traps."
+  },
+  {
+    "id": "rss-bbc_sport-a99692c0433d",
+    "title": "Zverev turns US Open tears into triumph in transformational year",
+    "main": "SPORTS",
+    "score": 0.8,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [],
+    "reason": "Alexander Zverev won the US Open for his second Grand Slam title in three months."
+  },
+  {
+    "id": "rss-phys_org-135419deacc0",
+    "title": "Consumers demand transparency, but is it rewarded?",
+    "main": "SCIENCE",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R8"
+    ],
+    "tighter_penalties": [],
+    "reason": "Academic paper commentary and analysis (R8)."
+  },
+  {
+    "id": "rss-engadget-fff5416b1421",
+    "title": "MagSafe vs. USB-C: Which is better for charging your MacBook?",
+    "main": "TECH",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R6"
+    ],
+    "tighter_penalties": [],
+    "reason": "Shopping guide / gadget comparison (R6)."
+  },
+  {
+    "id": "tldr-tech-04f40c113e1e",
+    "title": "What comes after git",
+    "main": "TECH",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5"
+    ],
+    "tighter_penalties": [],
+    "reason": "Early-stage startup dev tool roadmap/intent (R5)."
+  },
+  {
+    "id": "rss-engadget-ef6d8d2cdb3c",
+    "title": "At what length do Ethernet cables drop to lower speeds?",
+    "main": "TECH",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R6"
+    ],
+    "tighter_penalties": [],
+    "reason": "Tech explainer / shopping guide (R6)."
+  },
+  {
+    "id": "rss-openai_blog-12e9dd685180",
+    "title": "Perplexity trusts GPT-6 Astra with end-to-end systems",
+    "main": "AI",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5"
+    ],
+    "tighter_penalties": [],
+    "reason": "Corporate AI tool adoption PR without regulator action (R5)."
+  },
+  {
+    "id": "rss-ars_technica-8dd937f03eb9",
+    "title": "Unvaccinated Pennsylvania woman died of measles complications, coroner says",
+    "main": "US",
+    "score": 0.75,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A10"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [],
+    "reason": "Coroner confirmed measles death amid an explosive regional outbreak."
+  },
+  {
+    "id": "rss-techcrunch-9f9b608c0ee7",
+    "title": "Insight Partners’ Deven Parekh on why the firm is diversifying while everyone else bets the farm on OpenAI and Anthropic",
+    "main": "TECH",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R8"
+    ],
+    "tighter_penalties": [],
+    "reason": "Venture capital interview and commentary (R8)."
+  },
+  {
+    "id": "hn-49688695",
+    "title": "Fable 5.1 Solves the Cyphral Distich, a 370-year-old cipher",
+    "main": "AI",
+    "score": 0.65,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A8"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [],
+    "reason": "Claude model successfully solved a centuries-old historical cipher."
+  },
+  {
+    "id": "rss-guardian_sport-72c9af306842",
+    "title": "NFL roundup: Bears and Panthers set scoring record; Bills beat Texans in thriller",
+    "main": "SPORTS",
+    "score": 0.65,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [],
+    "reason": "Bears and Panthers set scoring record in NFL season opener."
+  },
+  {
+    "id": "rss-guardian_sport-c3bb337c6b4b",
+    "title": "US Open tennis 2026 men’s final: Alexander Zverev v Ben Shelton – live",
+    "main": "SPORTS",
+    "score": 0.85,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [],
+    "reason": "Alexander Zverev plays Ben Shelton in the 2026 US Open men's final."
+  },
+  {
+    "id": "rss-the_hindu-9ad2a614802b",
+    "title": "Centre treating Bihar as stepchild: Tejashwi Yadav on flood-related issues",
+    "main": "INDIA",
+    "score": 0.12,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R12"
+    ],
+    "tighter_penalties": [],
+    "reason": "Bihar opposition leader criticizes government over flood relief."
+  },
+  {
+    "id": "rss-phys_org-20b6f4f16190",
+    "title": "Astronomers unmask a supernova impostor",
+    "main": "SCIENCE",
+    "score": 0.72,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A8"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [],
+    "reason": "Researchers revealed AT 2016blu is a supernova impostor driven by binary interactions."
+  },
+  {
+    "id": "rss-techcrunch-f3ad7ee3115d",
+    "title": "Larry Ellison cancels $7.5 billion sale of Oracle stock",
+    "main": "BUSINESS",
+    "score": 0.05,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R10"
+    ],
+    "tighter_penalties": [],
+    "reason": "Larry Ellison cancels a planned sale of 50 million Oracle shares."
+  },
+  {
+    "id": "rss-bbc_sport-c9871cc052e2",
+    "title": "Refereeing body admits judgement error over Haaland derby winner",
+    "main": "SPORTS",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R13"
+    ],
+    "tighter_penalties": [],
+    "reason": "Refereeing body admits judgment error over a Premier League match goal."
+  },
+  {
+    "id": "rss-techcrunch-203a08a3caf7",
+    "title": "The 9 buzziest startups from Y Combinator’s latest Demo Day, according to VCs",
+    "main": "TECH",
+    "score": 0.05,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5"
+    ],
+    "tighter_penalties": [],
+    "reason": "VCs highlight buzziest startups from the latest Y Combinator Demo Day."
+  },
+  {
+    "id": "rss-engadget-df4590fd8bbc",
+    "title": "How to adjust the Liquid Glass effect on your iPhone with iOS 27",
+    "main": "TECH",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R6"
+    ],
+    "tighter_penalties": [],
+    "reason": "Apple releases iOS 27 with new Liquid Glass customization controls."
+  },
+  {
+    "id": "rss-verge-0d112d38b589",
+    "title": "Trump and Mike Johnson think the AI industry is overreacting",
+    "main": "AI",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R8"
+    ],
+    "tighter_penalties": [],
+    "reason": "Donald Trump and Mike Johnson comment on AI industry warnings."
+  },
+  {
+    "id": "rss-bbc_world-22be02355641",
+    "title": "Russia hits Ukrainian train shortly after Boris Johnson and top European officials leave station",
+    "main": "WORLD",
+    "score": 0.75,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A10"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [],
+    "reason": "Russian drone strikes Ukrainian train near the Polish border after foreign officials leave."
+  },
+  {
+    "id": "rss-times_of_india-e36a36def443",
+    "title": "Brics 2026: Xi listening, PM Modi warns against weaponisation of minerals, tech",
+    "main": "INDIA",
+    "score": 0.72,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A10"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T3"
+    ],
+    "reason": "PM Modi warns against weaponisation of minerals and tech at the BRICS summit."
+  },
+  {
+    "id": "rss-bbc_world-012e3a3b2039",
+    "title": "Trump downplays warnings of AI risks, citing rivalry with China",
+    "main": "AI",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R8"
+    ],
+    "tighter_penalties": [],
+    "reason": "US President Donald Trump dismisses AI risk warnings during an Ireland visit."
+  },
+  {
+    "id": "rss-livemint-e28c450d20e0",
+    "title": "Brics Women’s Business Alliance urges supply chain access and scale for women-led entrepreneurship",
+    "main": "INDIA",
+    "score": 0.2,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5"
+    ],
+    "tighter_penalties": [
+      "T3"
+    ],
+    "reason": "BRICS Women's Business Alliance presents an annual report and policy roadmap."
+  },
+  {
+    "id": "rss-cnbc_top-6e5ba4705514",
+    "title": "Washington scrambles to meet calls for AI guardrails while the window to act closes",
+    "main": "AI",
+    "score": 0.25,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A2"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Washington scrambles to draft AI guardrails following industry warnings."
+  },
+  {
+    "id": "rss-npr_news-4385a856b9c8",
+    "title": "Wisconsin congressman survives emergency plane landing, swims to safety",
+    "main": "US",
+    "score": 0.05,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R2"
+    ],
+    "tighter_penalties": [],
+    "reason": "A Wisconsin congressman and pilot survive an emergency plane landing in a lake."
+  },
+  {
+    "id": "rss-bbc_sport-0d15d86ea97e",
+    "title": "Antonelli wins as Norris loses out under virtual safety car",
+    "main": "SPORTS",
+    "score": 0.85,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [],
+    "reason": "Kimi Antonelli wins the Spanish Grand Prix after a virtual safety car affects Lando Norris."
+  },
+  {
+    "id": "rss-the_hindu-2729b573638e",
+    "title": "No proposal to remove meter readers: HMWS&SB",
+    "main": "INDIA",
+    "score": 0.05,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R9",
+      "R12"
+    ],
+    "tighter_penalties": [],
+    "reason": "Hyderabad water board clarifies there is no proposal to remove meter readers."
+  },
+  {
+    "id": "rss-bbc_world-787e5d8365c9",
+    "title": "AI staff 'genuinely frightened' for humanity's future, ex-Anthropic researcher tells BBC",
+    "main": "AI",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R8"
+    ],
+    "tighter_penalties": [],
+    "reason": "Ex-Anthropic researcher warns BBC about AI staff fears regarding humanity's future."
+  },
+  {
+    "id": "rss-livemint-05ccdcc7f173",
+    "title": "Biscuitville, tiny Southern breakfast chain, beats McDonald’s and Chick-fil-A for America’s top breakfast spot",
+    "main": "BUSINESS",
+    "score": 0.05,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R14"
+    ],
+    "tighter_penalties": [],
+    "reason": "Biscuitville wins USA Today Readers' Choice Award for top breakfast spot."
+  },
+  {
+    "id": "rss-phys_org-8eaf7f48e87c",
+    "title": "Gravitational-wave analysis narrows the search for black hole impostors",
+    "main": "SCIENCE",
+    "score": 0.72,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A8"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [],
+    "reason": "Researchers narrow the search for black hole impostors using gravitational-wave event data."
+  },
+  {
+    "id": "rss-engadget-08e734e81a0e",
+    "title": "Here's what you can use instead of a docking station",
+    "main": "TECH",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R6"
+    ],
+    "tighter_penalties": [],
+    "reason": "USB-C hubs offer portable alternatives to expensive docking stations."
+  },
+  {
+    "id": "rss-times_of_india-02d507b61161",
+    "title": "Brics diplomacy: Iran president says Tehran, UAE want to 'turn the page' on war",
+    "main": "INDIA",
+    "score": 0.45,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A4",
+      "A6",
+      "A10"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T2",
+      "T3"
+    ],
+    "reason": "Bilateral diplomatic meeting with no binding treaty or immediate measurable outcome."
+  },
+  {
+    "id": "rss-npr_news-13c60d95abd3",
+    "title": "Actor Tatyana Ali is advocating for Black and Indigenous maternal health",
+    "main": "US",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R8"
+    ],
+    "tighter_penalties": [],
+    "reason": "Celebrity advocacy piece without institutional policy action or legislative change."
+  },
+  {
+    "id": "rss-sciencedaily_top-73d9ddff78ad",
+    "title": "Scientists find a new layer of Alzheimer’s hidden in the genome",
+    "main": "SCIENCE",
+    "score": 0.72,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A8"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Researchers published a peer-reviewed study revealing a new 3D genomic layer of Alzheimer's disease."
+  },
+  {
+    "id": "rss-sciencedaily_top-b903e31dd2bb",
+    "title": "Physicists can’t agree on how the Universe works",
+    "main": "SCIENCE",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R8"
+    ],
+    "tighter_penalties": [],
+    "reason": "Survey of physicists opinions rather than a demonstrated scientific result."
+  },
+  {
+    "id": "rss-techcrunch-bb4d07e5dbe3",
+    "title": "Fusion power startups find new partners in the defense world",
+    "main": "TECH",
+    "score": 0.45,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A4",
+      "A6",
+      "A9"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1",
+      "T2"
+    ],
+    "reason": "Trend piece on startups exploring defense applications due to shifting venture capital."
+  },
+  {
+    "id": "rss-dw_top-241446e702fd",
+    "title": "Turkey: 162 arrested in LGBTQ+ raids",
+    "main": "WORLD",
+    "score": 0.65,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A10"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Turkish police arrested 162 people and raided LGBTQ+ association offices across 15 provinces."
+  },
+  {
+    "id": "rss-sciencedaily_top-17f4dd984af4",
+    "title": "Scientists are building a microscope powered by a quantum computer",
+    "main": "SCIENCE",
+    "score": 0.45,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A4",
+      "A6",
+      "A8"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1",
+      "T3"
+    ],
+    "reason": "Early-stage institutional research project announcement lacking a completed demonstrated result."
+  },
+  {
+    "id": "rss-cnbc_top-eef7bd7d6fba",
+    "title": "NFL and midterm elections set up prediction markets for a critical fall season",
+    "main": "BUSINESS",
+    "score": 0.55,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A4",
+      "A6",
+      "A9"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Market activity report on prediction volumes ahead of sports and political events."
+  },
+  {
+    "id": "rss-dw_top-55ff819bdea9",
+    "title": "Russians on the Goethe-Institut: 'Hostage to politics'",
+    "main": "WORLD",
+    "score": 0.65,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A10"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Russian Foreign Ministry ordered the closure of all Goethe-Institut branches in Russia."
+  },
+  {
+    "id": "rss-guardian_sport-345804a2825b",
+    "title": "Arch Manning leads Texas back from 20 points down in fourth quarter to shock No 1 Ohio State",
+    "main": "SPORTS",
+    "score": 0.65,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Texas quarterback Arch Manning led a historic 20-point fourth-quarter comeback to defeat Ohio State."
+  },
+  {
+    "id": "rss-wired-0acf72e15715",
+    "title": "The Smart Bird Feeders Everyone’s Talking About (and Actually Buying) (2026)",
+    "main": "TECH",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R6"
+    ],
+    "tighter_penalties": [],
+    "reason": "Consumer gadget shopping guide and product recommendation listicle."
+  },
+  {
+    "id": "rss-sciencedaily_top-4056d1dfadff",
+    "title": "AI uncovers hidden Ozempic side effects across 400,000 Reddit posts",
+    "main": "AI",
+    "score": 0.72,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A8"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "University of Pennsylvania researchers published a Nature Health study analyzing Ozempic side effects via Reddit."
+  },
+  {
+    "id": "rss-wired-645038ce5a27",
+    "title": "Try These 3 iOS 27 Safari Settings to Get More Out of Apple’s Browser",
+    "main": "TECH",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R6"
+    ],
+    "tighter_penalties": [],
+    "reason": "Consumer software tips and browser settings tutorial listicle."
+  },
+  {
+    "id": "rss-wired-584babdae969",
+    "title": "Best Indoor Garden Systems I’ve Been Testing All Year (2026)",
+    "main": "TECH",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R6"
+    ],
+    "tighter_penalties": [],
+    "reason": "Consumer product testing roundup and indoor garden system shopping guide."
+  },
+  {
+    "id": "rss-wired-2b685366326d",
+    "title": "Coway Airmega Halo Review: Is Your Air Really Clean?",
+    "main": "TECH",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5",
+      "R6"
+    ],
+    "tighter_penalties": [],
+    "reason": "Consumer product hardware review of an air purifier."
+  },
+  {
+    "id": "rss-wired-0bcebd968af5",
+    "title": "AI Agents Are Thirsty for Power",
+    "main": "AI",
+    "score": 0.55,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A4",
+      "A5",
+      "A8"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Industry trend analysis regarding rising energy consumption from autonomous AI agent workflows."
+  },
+  {
+    "id": "rss-nasa_breaking-cedfaa2baa38",
+    "title": "APOD: 2026 September 13 – Comet NEOWISE Rising over the Adriatic Sea",
+    "main": "WORLD",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R1"
+    ],
+    "tighter_penalties": [],
+    "reason": "NASA daily astronomy picture release and photo feature."
+  },
+  {
+    "id": "tldr-tech-2329624ebac7",
+    "title": "Loops, graphs, & harnesses – getting quality out of a software factory",
+    "main": "AI",
+    "score": 0.45,
+    "band": "reject",
+    "accept_hits": [
+      "A2",
+      "A5",
+      "A8"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Developer engineering blog post and workflow case study on AI-driven software generation."
+  },
+  {
+    "id": "tldr-tech-39164b329832",
+    "title": "The lifecycle of a sharded Postgres query",
+    "main": "TECH",
+    "score": 0.45,
+    "band": "reject",
+    "accept_hits": [
+      "A2",
+      "A5",
+      "A8"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Technical deep dive into distributed database query planning for a sharded Postgres system."
+  },
+  {
+    "id": "rss-techcrunch-f804c872cc1f",
+    "title": "Automattic confirms Mullenweg has returned as CEO after attempted ouster by board",
+    "main": "BUSINESS",
+    "score": 0.65,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A9"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Automattic confirmed Matt Mullenweg returned as CEO following a board dispute and leave of absence."
+  },
+  {
+    "id": "rss-phys_org-89b4a011ec3f",
+    "title": "Japan's Hayabusa2 achieves first-ever laser ranging experiment with an asteroid",
+    "main": "SCIENCE",
+    "score": 0.7,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A4",
+      "A6",
+      "A8"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "JAXA executed the first laser-ranging experiment with an asteroid, proving a new deep-space tracking capability."
+  },
+  {
+    "id": "rss-cnbc_top-ac317b178bcb",
+    "title": "Musk, Altman support Anthropic’s Amodei as he shares plan to ‘slow the pace’ of advancing AI capabilities",
+    "main": "AI",
+    "score": 0.65,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A4",
+      "A6"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1",
+      "T3"
+    ],
+    "reason": "Anthropic CEO published a formal proposal for a voluntary slowdown in AI capability development."
+  },
+  {
+    "id": "rss-france24_top-7f3e4d29257d",
+    "title": "Saudi Arabia closes East-West pipeline as Houthis tighten grip on Red Sea",
+    "main": "WORLD",
+    "score": 0.75,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A4",
+      "A6",
+      "A10"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [],
+    "reason": "Saudi Arabia shut its East-West oil pipeline following a drone attack, disrupting global energy flows."
+  },
+  {
+    "id": "rss-guardian_sport-21144fdc62f4",
+    "title": "Aryna Sabalenka v Elena Rybakina: US Open 2026 women’s singles final – live",
+    "main": "SPORTS",
+    "score": 0.75,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A4",
+      "A6",
+      "A7"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [],
+    "reason": "Sabalenka and Rybakina face off in the US Open women's singles final, a Grand Slam major tournament result."
+  },
+  {
+    "id": "rss-dw_top-4fd293ec9c31",
+    "title": "Baghdad confirms attack on Saudi pipeline came from Iraq",
+    "main": "WORLD",
+    "score": 0.75,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A4",
+      "A6",
+      "A10"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [],
+    "reason": "Iraq formally confirmed that drone attacks on the Saudi pipeline originated from its territory."
+  },
+  {
+    "id": "rss-the_hindu-0954598660f2",
+    "title": "Chhattisgarh BJP Minister's brother Guru Dhaldas Saheb joins Congress",
+    "main": "INDIA",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R12"
+    ],
+    "tighter_penalties": [],
+    "reason": "Sub-national local party switch by a minister's brother lacks state-level policy impact."
+  },
+  {
+    "id": "rss-bbc_sport-b25bd7264508",
+    "title": "Toothless Spurs blank again as new era turns into a false dawn",
+    "main": "SPORTS",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R13"
+    ],
+    "tighter_penalties": [],
+    "reason": "Routine league match report for Tottenham Hotspur does not constitute a major tournament final or record."
+  },
+  {
+    "id": "rss-techcrunch-718798b22219",
+    "title": "OpenAI’s Sam Altman says it would be ‘ill-advised’ to go public in 2026",
+    "main": "BUSINESS",
+    "score": 0.7,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A4",
+      "A6",
+      "A9"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [],
+    "reason": "OpenAI CEO Sam Altman dismissed plans for an immediate public offering despite confidential filings."
+  },
+  {
+    "id": "rss-engadget-9f2e49e35256",
+    "title": "OpenAI agents hacked a software service before the Hugging Face incident",
+    "main": "AI",
+    "score": 0.7,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A4",
+      "A6",
+      "A8"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Researchers revealed AI agents successfully attacked RubyGems package repository in a security test."
+  },
+  {
+    "id": "rss-npr_news-a4297ca08d71",
+    "title": "Alien Terrorist Removal Court deports legal US resident to Afghanistan in first-ever case",
+    "main": "US",
+    "score": 0.75,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A4",
+      "A6"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [],
+    "reason": "US Justice Department brought its first-ever case before the Alien Terrorist Removal Court."
+  },
+  {
+    "id": "rss-livemint-18195bf0d06b",
+    "title": "Trump's childhood home in Queens was once a cat den. Now it has sold for  ₹18.44 crore",
+    "main": "US",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R3",
+      "R5"
+    ],
+    "tighter_penalties": [],
+    "reason": "Real estate transaction involving a former president's childhood home is celebrity trivia."
+  },
+  {
+    "id": "rss-bbc_world-bd30a8cbcd8c",
+    "title": "Anthropic boss Dario Amodei calls for AI development to slow down",
+    "main": "AI",
+    "score": 0.65,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A4",
+      "A6"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1",
+      "T2"
+    ],
+    "reason": "Anthropic CEO Dario Amodei published a formal essay calling for slower AI advancement."
+  },
+  {
+    "id": "rss-times_of_india-0b43fd88d802",
+    "title": "'India can be bridge-builder': UN hails Iran-UAE meeting on sidelines of Brics",
+    "main": "INDIA",
+    "score": 0.65,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A4",
+      "A6",
+      "A10"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "UN welcomed high-level talks between Iran and UAE officials on the sidelines of Brics."
+  },
+  {
+    "id": "rss-guardian_world-f14b2cc45928",
+    "title": "Burial of King Oyo takes place in Uganda as news anchor prepares for throne",
+    "main": "WORLD",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R1",
+      "R3"
+    ],
+    "tighter_penalties": [],
+    "reason": "Royal funeral in Uganda lacks broader policy or second-order institutional impact."
+  },
+  {
+    "id": "rss-sciencedaily_top-2736eac2f221",
+    "title": "Who really needs a heart calcium scan?",
+    "main": "US",
+    "score": 0.7,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A4",
+      "A6",
+      "A8"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "A JAMA study found coronary artery calcium scans add little value to standard risk estimates."
+  },
+  {
+    "id": "rss-the_hindu-2501ecb07304",
+    "title": "Vaniyakudi fishing harbour work to continue based on review team recommendations: Collector",
+    "main": "INDIA",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R12"
+    ],
+    "tighter_penalties": [],
+    "reason": "Local district harbor construction review is sub-state civic trivia."
+  },
+  {
+    "id": "rss-livemint-c75762133248",
+    "title": "Bittu Tabahi’s Ajnar River clean-up earned him a Dutch job offer; but what’s his next mission? Details here",
+    "main": "INDIA",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R4"
+    ],
+    "tighter_penalties": [],
+    "reason": "Viral individual river clean-up effort is human-interest feel-good news without a policy hook."
+  },
+  {
+    "id": "rss-guardian_world-39c346bbef46",
+    "title": "Six Nigerians extradited to US over $6M online romance scam",
+    "main": "WORLD",
+    "score": 0.75,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A4",
+      "A6",
+      "A10"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [],
+    "reason": "South Africa extradited six Nigerian nationals to the US over a multi-million dollar online scam."
+  },
+  {
+    "id": "rss-bbc_world-c2da08621326",
+    "title": "A united Ireland would be 'fantastic' says Trump during Irish visit",
+    "main": "WORLD",
+    "score": 0.65,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A4",
+      "A6",
+      "A10"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Donald Trump made diplomatic remarks regarding a united Ireland during a meeting with the Irish PM."
+  },
+  {
+    "id": "rss-aljazeera-b4645413678d",
+    "title": "Iran-backed Houthis seize strategic Mayun Island: Can they hold it?",
+    "main": "WORLD",
+    "score": 0.75,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A4",
+      "A6",
+      "A10"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [],
+    "reason": "Houthi forces seized control of strategic Mayun Island in the Bab al-Mandeb Strait."
+  },
+  {
+    "id": "rss-engadget-631d176d3f4b",
+    "title": "How Google Maps knows when a business is packed",
+    "main": "TECH",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5"
+    ],
+    "tighter_penalties": [],
+    "reason": "Explains routine app feature functionality without institutional action or second-order impacts."
+  },
+  {
+    "id": "rss-cnbc_top-62e9804898f1",
+    "title": "Tehran won’t surrender to the U.S., Iranian President Pezeshkian says, as India's Modi urges dialogue and peace",
+    "main": "INDIA",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R8"
+    ],
+    "tighter_penalties": [],
+    "reason": "Diplomatic statements and rhetoric without binding policy or treaty outcomes."
+  },
+  {
+    "id": "rss-npr_news-8a30927d03a3",
+    "title": "'People are still afraid of those three letters': Fighting the stigma of HIV",
+    "main": "WORLD",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R4"
+    ],
+    "tighter_penalties": [],
+    "reason": "Public health human interest piece lacking concrete legal or economic policy updates."
+  },
+  {
+    "id": "rss-times_of_india-5f6b3a71aab3",
+    "title": "Reset in India-China ties? PM Modi offers 'opportunity' to Xi during bilateral talks",
+    "main": "INDIA",
+    "score": 0.65,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A10"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T3"
+    ],
+    "reason": "PM Modi and Xi Jinping held bilateral talks in New Delhi, resetting high-level diplomatic engagement."
+  },
+  {
+    "id": "rss-dw_top-a2fae86d4e9a",
+    "title": "Bulgaria: Fire at factory making munitions for Ukraine",
+    "main": "WORLD",
+    "score": 0.45,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [],
+    "tighter_penalties": [],
+    "reason": "Sub-national factory fire lacks broad state-level regulatory precedent or macro-economic impact."
+  },
+  {
+    "id": "rss-wired-da9c16506f5e",
+    "title": "10 Best Standing Desks Worth Buying in 2026",
+    "main": "TECH",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R6"
+    ],
+    "tighter_penalties": [],
+    "reason": "Commercial shopping guide and product roundup."
+  },
+  {
+    "id": "rss-ars_technica-55f997459685",
+    "title": "I spent $4,000 on a robot dog from China",
+    "main": "SCIENCE",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5"
+    ],
+    "tighter_penalties": [],
+    "reason": "First-person consumer product review lacking regulatory or macroeconomic impact."
+  },
+  {
+    "id": "rss-wired-61162ee939e9",
+    "title": "The Anti-Woke Right Can’t Figure Out How to Stop ‘Grand Theft Auto VI’",
+    "main": "TECH",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R3",
+      "R8"
+    ],
+    "tighter_penalties": [],
+    "reason": "Cultural commentary on internet backlash against a video game release."
+  },
+  {
+    "id": "rss-wired-fe975ea6eb5b",
+    "title": "The Best 3-in-1 Apple Charging Stations After Testing 30+ Models",
+    "main": "WORLD",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R6"
+    ],
+    "tighter_penalties": [],
+    "reason": "Shopping guide for consumer charging accessories."
+  },
+  {
+    "id": "rss-sciencedaily_top-416e201efa37",
+    "title": "The secret to longer life may be hidden in bat DNA",
+    "main": "SCIENCE",
+    "score": 0.45,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [],
+    "tighter_penalties": [],
+    "reason": "Academic biology paper published in Nature without immediate commercial or civic application for a PM."
+  },
+  {
+    "id": "tldr-tech-84ed504bc4f2",
+    "title": "Tech companies move to open AI models",
+    "main": "AI",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R8"
+    ],
+    "tighter_penalties": [],
+    "reason": "General industry trend commentary without a specific regulatory action or corporate filing."
+  },
+  {
+    "id": "tldr-tech-f6e2a39f16cc",
+    "title": "Anthropic alignment lead says AI has &gt;10% chance of killing humanity",
+    "main": "AI",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R8"
+    ],
+    "tighter_penalties": [],
+    "reason": "Individual executive opinion posted on social media."
+  },
+  {
+    "id": "tldr-tech-2b7a6691ade7",
+    "title": "How and why Google will share anonymized search data with their competitors",
+    "main": "BUSINESS",
+    "score": 0.72,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A9",
+      "A10"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [],
+    "reason": "European Commission enforces Digital Markets Act forcing Google to share search data with competitors."
+  },
+  {
+    "id": "rss-ars_technica-4fb7c0b8bdda",
+    "title": "Some satellite companies still have an appetite for boutique launch services",
+    "main": "WORLD",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R8"
+    ],
+    "tighter_penalties": [],
+    "reason": "Industry observation and analysis without concrete institutional policy change."
+  },
+  {
+    "id": "hn-49666735",
+    "title": "OpenAI agents carried out an undisclosed attack on RubyGems",
+    "main": "AI",
+    "score": 0.68,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A8"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [],
+    "reason": "OpenAI agents executed an automated software supply chain attack on the RubyGems package registry."
+  },
+  {
+    "id": "rss-techcrunch-c86c9aec7962",
+    "title": "Mecka AI nears $500M valuation in Sequoia-led deal amid rush for robot training data",
+    "main": "AI",
+    "score": 0.45,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [],
+    "tighter_penalties": [],
+    "reason": "Venture capital funding round for an early-stage startup."
+  },
+  {
+    "id": "rss-ars_technica-d7b2f7525c3f",
+    "title": "Random rewards enrich classic game-theory insights",
+    "main": "SCIENCE",
+    "score": 0.45,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [],
+    "tighter_penalties": [],
+    "reason": "Theoretical academic game theory research paper lacking immediate application."
+  },
+  {
+    "id": "rss-phys_org-7151efe7d592",
+    "title": "Emerging SARS-CoV-2 sublineage RE.2.2 displays distinct structural features",
+    "main": "SCIENCE",
+    "score": 0.45,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [],
+    "tighter_penalties": [],
+    "reason": "Virology study on a coronavirus sublineage without institutional policy action."
+  },
+  {
+    "id": "rss-techcrunch-aa144e64ca66",
+    "title": "Khosla Ventures is opening a New York office this fall — its first outpost outside Sand Hill Road",
+    "main": "TECH",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5"
+    ],
+    "tighter_penalties": [],
+    "reason": "Venture capital firm office expansion announcement."
+  },
+  {
+    "id": "rss-guardian_sport-5642788bd557",
+    "title": "US Open tennis 2026 men’s semi-final: Alexander Zverev v Karen Khachanov – live",
+    "main": "SPORTS",
+    "score": 0.65,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [],
+    "reason": "Alexander Zverev plays Karen Khachanov in the US Open men's semi-final."
+  },
+  {
+    "id": "rss-the_hindu-55171cd8ae98",
+    "title": "With eye on poll, BJP to begin ‘drug-free Punjab’ drive amid row over Dalit villager’s death",
+    "main": "INDIA",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R1",
+      "R12"
+    ],
+    "tighter_penalties": [],
+    "reason": "Political campaign announcement for a state party drive; sub-state electoral maneuvering."
+  },
+  {
+    "id": "rss-dw_top-c713531b5ca4",
+    "title": "France: About 20 injured in train derailment",
+    "main": "WORLD",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R9"
+    ],
+    "tighter_penalties": [],
+    "reason": "Routine rail accident with injuries, lacking systemic national policy or regulatory precedent."
+  },
+  {
+    "id": "rss-bbc_world-2fd1f39e79ac",
+    "title": "Houthis claim major advance in Yemen and tighten grip on Red Sea shipping lane",
+    "main": "WORLD",
+    "score": 0.45,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A4",
+      "A6",
+      "A10"
+    ],
+    "reject_hits": [
+      "R11"
+    ],
+    "tighter_penalties": [],
+    "reason": "Houthi movement claims territorial advances in Yemen, but relies on unverified rebel claims."
+  },
+  {
+    "id": "rss-engadget-a5a011de93f1",
+    "title": "Lenovo's Googlebook 15 seems decidedly premium based on a new leak",
+    "main": "TECH",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5",
+      "R11"
+    ],
+    "tighter_penalties": [],
+    "reason": "Unconfirmed product leak about an upcoming laptop release."
+  },
+  {
+    "id": "rss-nasa_breaking-0d444d4e751e",
+    "title": "Help Refine Data from Space Telescopes with Artifact InSPECtor",
+    "main": "AI",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5"
+    ],
+    "tighter_penalties": [],
+    "reason": "NASA citizen science crowdsourcing project launch; no direct PM relevance or major institutional action."
+  },
+  {
+    "id": "rss-npr_news-fb368af45e49",
+    "title": "Amid war and sanctions, many Iranians are losing their jobs and struggling to get by",
+    "main": "WORLD",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R8"
+    ],
+    "tighter_penalties": [],
+    "reason": "General macro feature on economic hardship in Iran; lacks a specific institutional action or event."
+  },
+  {
+    "id": "rss-wired-d84c45979d2f",
+    "title": "The 9 Best TV Shows to Stream This Month (September 2026)",
+    "main": "TECH",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R6"
+    ],
+    "tighter_penalties": [],
+    "reason": "Streaming service shopping guide and TV show recommendation listicle."
+  },
+  {
+    "id": "rss-bbc_sport-6ee72f984c2d",
+    "title": "Razaullah introduces himself as Pakistan thrive in chaos",
+    "main": "SPORTS",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R13"
+    ],
+    "tighter_penalties": [],
+    "reason": "Standard Test cricket match performance without a historic national record."
+  },
+  {
+    "id": "rss-livemint-65e3de13db85",
+    "title": "Maria Bartiromo Fox News departure: Former anchor speaks out for first time after exit, hints at what lies ahead",
+    "main": "BUSINESS",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R3"
+    ],
+    "tighter_penalties": [],
+    "reason": "Celebrity anchor career update and personal statement following a media departure."
+  },
+  {
+    "id": "hn-49662990",
+    "title": "I spent $220 on Google app ads and 60% of the installs were robots",
+    "main": "TECH",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5"
+    ],
+    "tighter_penalties": [],
+    "reason": "Anecdotal developer complaint about ad campaign bot traffic."
+  },
+  {
+    "id": "rss-ars_technica-c34ea07e6f46",
+    "title": "Oracle tries to appease Stargate data center opponents with renewables push",
+    "main": "AI",
+    "score": 0.35,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A4",
+      "A6",
+      "A8"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1",
+      "T2"
+    ],
+    "reason": "Oracle invests in renewables to ease data center opposition, but lacks direct Bengaluru PM relevance."
+  },
+  {
+    "id": "rss-new_scientist-548c407c3a80",
+    "title": "SpaceXAI data centre may have led to Mississippi air pollution spike",
+    "main": "AI",
+    "score": 0.35,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A4",
+      "A6",
+      "A8"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Satellite data links temporary turbines to pollution spikes, but lacks direct utility for a Bengaluru PM."
+  },
+  {
+    "id": "rss-nasa_breaking-1b219ae4371b",
+    "title": "NASA’s Chandra Spots Galactic Gem",
+    "main": "SCIENCE",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5"
+    ],
+    "tighter_penalties": [],
+    "reason": "NASA telescope image gallery release; routine scientific publication without major structural breakthrough."
+  },
+  {
+    "id": "rss-verge-04fade9de8a3",
+    "title": "Matt Mullenweg returns as Automattic CEO two days after getting booted",
+    "main": "TECH",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5"
+    ],
+    "tighter_penalties": [],
+    "reason": "Internal corporate executive shuffle and brief leave reversal without broader regulatory impact."
+  },
+  {
+    "id": "rss-new_scientist-df1501790f10",
+    "title": "Earliest alligator flourished in the wake of the dinosaur extinction",
+    "main": "SCIENCE",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5"
+    ],
+    "tighter_penalties": [],
+    "reason": "Paleontology research discovery about prehistoric reptile fossils."
+  },
+  {
+    "id": "rss-stratechery-c5a7819e2081",
+    "title": "2026.37: Duo Threats",
+    "main": "TECH",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5",
+      "R8"
+    ],
+    "tighter_penalties": [],
+    "reason": "Tech industry commentary and product event analysis blog post."
+  },
+  {
+    "id": "rss-cnbc_top-ba73da8f9421",
+    "title": "I went to Caracas for Venezuela’s new oil deals. Here’s what stood out",
+    "main": "BUSINESS",
+    "score": 0.45,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A4",
+      "A6",
+      "A10"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "US energy secretary witnesses oil deal signings in Caracas, but low direct actionability for a Bengaluru PM."
+  },
+  {
+    "id": "rss-openai_blog-c3aa33826442",
+    "title": "Cognition helps Devin test its own work with GPT‑6 Astra",
+    "main": "AI",
+    "score": 0.35,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A4",
+      "A6",
+      "A8"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1",
+      "T2"
+    ],
+    "reason": "Cognition integrates LLM models into dev tools, but standard software update lacks immediate PM decision utility."
+  },
+  {
+    "id": "rss-phys_org-e3de0c62172c",
+    "title": "Turkey-monitoring AI forecasts body weight three weeks ahead with 93% accuracy",
+    "main": "AI",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5"
+    ],
+    "tighter_penalties": [],
+    "reason": "Niche agricultural AI research paper forecasting turkey body weights."
+  },
+  {
+    "id": "rss-techcrunch-9d03d07f0798",
+    "title": "Matt Mullenweg tells Automattic staff in Slack he’s back in control after CEO ouster",
+    "main": "BUSINESS",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5"
+    ],
+    "tighter_penalties": [],
+    "reason": "Internal corporate governance dispute regarding a CEO ouster and reinstatement."
+  },
+  {
+    "id": "rss-the_hindu-4126a8bf36a6",
+    "title": "HC praises Madurai district administration for temple consecretaion arrangements",
+    "main": "INDIA",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R1"
+    ],
+    "tighter_penalties": [],
+    "reason": "Ceremonial court praise for temple consecration arrangements; low structural significance."
+  },
+  {
+    "id": "rss-cnbc_top-68c39159b132",
+    "title": "Here’s the inflation breakdown for August 2026 — in one chart",
+    "main": "US",
+    "score": 0.75,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A10"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "US Bureau of Labor Statistics reported August CPI inflation at 3.4 percent annually."
+  },
+  {
+    "id": "rss-livemint-172bc4795a23",
+    "title": "Elon Musk reacts after man finds out he needs 14 years to gain citizenship, stay back in Kolkata: ‘India is realistic’",
+    "main": "INDIA",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R3",
+      "R4"
+    ],
+    "tighter_penalties": [],
+    "reason": "Viral social media commentary on citizenship laws involving Elon Musk."
+  },
+  {
+    "id": "rss-nasa_breaking-07f6993db46b",
+    "title": "NASA’s SpaceX Crew-12 to Discuss Station Mission, Upcoming Return",
+    "main": "SCIENCE",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5"
+    ],
+    "tighter_penalties": [],
+    "reason": "NASA schedules a routine press briefing for returning ISS astronauts."
+  },
+  {
+    "id": "rss-wired-d839d2f6e92e",
+    "title": "One of AI’s Fiercest Critics Says All the Doom Talk Is ‘Meant to Distract Us’",
+    "main": "AI",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R8"
+    ],
+    "tighter_penalties": [],
+    "reason": "Opinion and commentary piece arguing against AI doom narratives."
+  },
+  {
+    "id": "rss-nasa_breaking-b880f095c582",
+    "title": "NASA Boosts Open Science, Data Sharing with Artemis Accords",
+    "main": "SCIENCE",
+    "score": 0.45,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A4",
+      "A6",
+      "A8"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T2",
+      "T3"
+    ],
+    "reason": "NASA expands open science guidelines under Artemis Accords; mostly policy signal."
+  },
+  {
+    "id": "rss-dw_top-5443cceb314e",
+    "title": "Iran pursues cautious escalation ahead of US midterms",
+    "main": "WORLD",
+    "score": 0.72,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A10"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "US President Donald Trump linked the Iran conflict timeline to upcoming midterm elections."
+  },
+  {
+    "id": "rss-france24_top-a90c56f42ee4",
+    "title": "I'm extremely worried by extremists that win elections in Europe: Luxembourg's PM Luc Frieden",
+    "main": "WORLD",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R8"
+    ],
+    "tighter_penalties": [],
+    "reason": "Luxembourg PM expresses personal worries about European extremism."
+  },
+  {
+    "id": "rss-aljazeera-c7c72f90c741",
+    "title": "Can the Houthis close the Red Sea after seizing the Yemen coast?",
+    "main": "WORLD",
+    "score": 0.8,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A10"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [],
+    "reason": "Yemeni Houthi rebels seized control of the country's entire Red Sea coast."
+  },
+  {
+    "id": "rss-new_scientist-f93b34eb772a",
+    "title": "AI is both the best and worst thing to ever happen to mathematics",
+    "main": "AI",
+    "score": 0.78,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A5",
+      "A6",
+      "A8"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [],
+    "reason": "OpenAI agents solved a major 200-year-old mathematical problem involving Navier-Stokes."
+  },
+  {
+    "id": "rss-quanta_magazine-1cbc047227a6",
+    "title": "Why Do These Fossil Shells Flip Their Spirals Every Few Millennia?",
+    "main": "SCIENCE",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R8"
+    ],
+    "tighter_penalties": [],
+    "reason": "Explanatory science article about fossil shell coiling patterns."
+  },
+  {
+    "id": "rss-bbc_sport-c826f068185d",
+    "title": "Hull fined £30k & bans issued over Chelsea chant",
+    "main": "SPORTS",
+    "score": 0.65,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A7"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "FA fined Hull City £30,000 and issued bans following homophobic spectator chanting."
+  },
+  {
+    "id": "rss-times_of_india-e5c4d506c617",
+    "title": "A strong msg for Trump? What PM Modi, Putin &amp; Pezeshkian said at Brics business forum",
+    "main": "WORLD",
+    "score": 0.55,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A4",
+      "A6",
+      "A10"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T3"
+    ],
+    "reason": "BRICS business forum speeches calling for economic cooperation without binding mandates."
+  },
+  {
+    "id": "hn-49657850",
+    "title": "Ask HN: Can we please limit the AI news flood?",
+    "main": "AI",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R8",
+      "R11"
+    ],
+    "tighter_penalties": [],
+    "reason": "Hacker News community meta-discussion about AI submission volume."
+  },
+  {
+    "id": "rss-ars_technica-499c7eee1e27",
+    "title": "Claude users found ways around safeguards for bioweapons research",
+    "main": "AI",
+    "score": 0.75,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A8"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [],
+    "reason": "Anthropic detailed five instances where users bypassed safeguards for biological research."
+  },
+  {
+    "id": "rss-engadget-da935985f313",
+    "title": "Bose QuietComfort Headphones (2nd gen) review: Upgraded in all the right places",
+    "main": "TECH",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5",
+      "R6"
+    ],
+    "tighter_penalties": [],
+    "reason": "Consumer product review of Bose QuietComfort headphones."
+  },
+  {
+    "id": "rss-mit_tech_review-09faf7eeed09",
+    "title": "The Download: biotech’s future and cheaper, cleaner steel",
+    "main": "SCIENCE",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5"
+    ],
+    "tighter_penalties": [],
+    "reason": "MIT Technology Review released its Innovators Under 35 list."
+  },
+  {
+    "id": "rss-sciencedaily_top-b9fe19b01568",
+    "title": "Tiny nanolaser could cut computer energy use in half",
+    "main": "SCIENCE",
+    "score": 0.72,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A8"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [],
+    "reason": "Technical University of Denmark researchers created an ultra-small nanolaser."
+  },
+  {
+    "id": "rss-sciencedaily_top-371e00a9f293",
+    "title": "Wasps are disappearing this summer, and scientists are worried",
+    "main": "SCIENCE",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R7"
+    ],
+    "tighter_penalties": [],
+    "reason": "Weather-related decline in wasp populations across Britain."
+  },
+  {
+    "id": "rss-openai_blog-c7d3c8aeae42",
+    "title": "Rapidly scaling online storage to serve over 1 billion ChatGPT users",
+    "main": "AI",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5"
+    ],
+    "tighter_penalties": [],
+    "reason": "OpenAI engineering blog post detailing infrastructure scaling for ChatGPT."
+  },
+  {
+    "id": "rss-mit_tech_review-00bd471225d1",
+    "title": "Meet the under-35s shaping the future of biotech",
+    "main": "SCIENCE",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5"
+    ],
+    "tighter_penalties": [],
+    "reason": "Listicle/PR list of under-35 biotech innovators."
+  },
+  {
+    "id": "rss-new_scientist-89a017b8844a",
+    "title": "How to build powerful microhabits for your wellbeing – and keep them",
+    "main": "WORLD",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R6",
+      "R8"
+    ],
+    "tighter_penalties": [],
+    "reason": "Book excerpt and wellbeing guide."
+  },
+  {
+    "id": "rss-bbc_world-c774e8f4aaa3",
+    "title": "Hong Kong's Tiananmen activists sentenced to up to seven years in prison",
+    "main": "WORLD",
+    "score": 0.72,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A10"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Hong Kong court sentenced three activists to up to seven years under the national security law."
+  },
+  {
+    "id": "rss-nasa_breaking-24db770b8803",
+    "title": "APOD: 2026 September 11 – M83: The Southern Pinwheel",
+    "main": "SCIENCE",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R4"
+    ],
+    "tighter_penalties": [],
+    "reason": "Astronomy picture of the day."
+  },
+  {
+    "id": "rss-guardian_world-0553b3375c5c",
+    "title": "$15m fund launched to create ‘unstoppable momentum’ to end FGM worldwide",
+    "main": "WORLD",
+    "score": 0.45,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A6",
+      "A10"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1",
+      "T3"
+    ],
+    "reason": "Fund launch for FGM eradication lacks immediate institutional impact for a Bengaluru PM."
+  },
+  {
+    "id": "rss-platformer-53c01e7e706d",
+    "title": "The AI  safety vibe shift",
+    "main": "AI",
+    "score": 0.5,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A10"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Industry commentary on AI safety vibe shifts lacks specific regulatory action."
+  },
+  {
+    "id": "tldr-ai-c6aca4d685e7",
+    "title": "OpenAI puts Pro subscriptions on hold due to Astra demand",
+    "main": "AI",
+    "score": 0.55,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A6"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "OpenAI paused Pro subscriptions due to Astra demand."
+  },
+  {
+    "id": "tldr-webdev-5a93d0b2446d",
+    "title": "Introducing the OpenAI Agents API",
+    "main": "AI",
+    "score": 0.62,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A6",
+      "A8"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "OpenAI released the Agents API in public beta."
+  },
+  {
+    "id": "tldr-infosec-bd90a9a39e6d",
+    "title": "XPENG's IRON humanoid walks off its new automotive-grade production line",
+    "main": "SCIENCE",
+    "score": 0.65,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A6",
+      "A8"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "XPENG commissioned humanoid robot production lines and manufactured IRON."
+  },
+  {
+    "id": "tldr-ai-69549a4b72af",
+    "title": "OpenAI launches GPT-Live-1 for full-duplex voice agents",
+    "main": "AI",
+    "score": 0.62,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A6",
+      "A8"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "OpenAI launched GPT-Live-1 for full-duplex voice agents in the API."
+  },
+  {
+    "id": "tldr-webdev-cd124f7e817b",
+    "title": "Testing Google's \"modern-web-guidance\" skill on a real React app",
+    "main": "TECH",
+    "score": 0.15,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5"
+    ],
+    "tighter_penalties": [],
+    "reason": "Routine developer tool release by Google Chrome."
+  },
+  {
+    "id": "tldr-infosec-ec4b67248d10",
+    "title": "Covenant unveils Anthem, a heavy-payload strike missile built to be mass-produced across three countries",
+    "main": "TECH",
+    "score": 0.55,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A6"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Defense startup Covenant announced Anthem heavy-payload strike missile."
+  },
+  {
+    "id": "tldr-infosec-6dcd8e86c4a7",
+    "title": "LG denies claims its smart TVs constantly record and upload audio",
+    "main": "TECH",
+    "score": 0.15,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5"
+    ],
+    "tighter_penalties": [],
+    "reason": "LG denied YouTube spying allegations."
+  },
+  {
+    "id": "tldr-ai-fb3a776f5c39",
+    "title": "Model Card for North Small Translate",
+    "main": "AI",
+    "score": 0.52,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A6",
+      "A8"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Cohere released North Small Translate open-weights MoE model."
+  },
+  {
+    "id": "tldr-webdev-4a8902341583",
+    "title": "An alignment assessment of recent cybersecurity incidents",
+    "main": "AI",
+    "score": 0.62,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A6",
+      "A8"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Anthropic released alignment assessment detailing Claude cyber incident access."
+  },
+  {
+    "id": "tldr-infosec-81faa82d41bf",
+    "title": "Google commits $15B to Finland data centers, explores nuclear power for the buildout",
+    "main": "AI",
+    "score": 0.7,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A6",
+      "A10"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [],
+    "reason": "Google committed $15B to Finland data centers exploring nuclear power."
+  },
+  {
+    "id": "tldr-infosec-3f16e2acd582",
+    "title": "Besxar flies first suborbital semiconductor manufacturing demo, banking on free vacuum in space",
+    "main": "SCIENCE",
+    "score": 0.62,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A6",
+      "A8"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Besxar flew first suborbital semiconductor manufacturing demo."
+  },
+  {
+    "id": "tldr-ai-b8bd7c88693f",
+    "title": "An operationalization of opaque serial depth",
+    "main": "AI",
+    "score": 0.45,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A6",
+      "A8"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Researchers proposed NLS depth to track AI hidden reasoning."
+  },
+  {
+    "id": "tldr-webdev-673641cac591",
+    "title": "Introducing Neki: sharded Postgres",
+    "main": "TECH",
+    "score": 0.55,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A6"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "PlanetScale announced Neki sharded Postgres database in preview."
+  },
+  {
+    "id": "tldr-infosec-182114580f67",
+    "title": "vLLM triples MiniMax M3 inference throughput on AMD's MI355X through systematic bottleneck chasing",
+    "main": "AI",
+    "score": 0.52,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A6",
+      "A8"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Engineers tripled MiniMax M3 throughput on AMD MI355X using vLLM."
+  },
+  {
+    "id": "tldr-webdev-8e51b3fe3a26",
+    "title": "The Deathray: A simple way for an untrusted site to freeze a Mac",
+    "main": "TECH",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5"
+    ],
+    "tighter_penalties": [],
+    "reason": "Single vulnerability discovered by a researcher on untrusted websites without sector-wide regulatory action."
+  },
+  {
+    "id": "tldr-infosec-0dbbc4e63199",
+    "title": "Introducing CUDA Rust for High-Performance GPU Kernel Development",
+    "main": "TECH",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5"
+    ],
+    "tighter_penalties": [],
+    "reason": "Corporate product roadmap announcement regarding developer tools without immediate regulatory impact."
+  },
+  {
+    "id": "tldr-design-ef79c80b00aa",
+    "title": "The iPhone Duo is perfect for people with uncanny alien fingers",
+    "main": "TECH",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5"
+    ],
+    "tighter_penalties": [],
+    "reason": "Corporate product launch of a consumer phone without regulatory or structural industry policy change."
+  },
+  {
+    "id": "tldr-tech-64b12f620fde",
+    "title": "The King of Unitree",
+    "main": "SCIENCE",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5"
+    ],
+    "tighter_penalties": [],
+    "reason": "Feature profile of a robotics company founder and operations without institutional policy action."
+  },
+  {
+    "id": "tldr-ai-b1be07a8446f",
+    "title": "Does Scaling Web-Video Pre-training Help Real Robots Do Real Work?",
+    "main": "AI",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5"
+    ],
+    "tighter_penalties": [],
+    "reason": "Academic or experimental research on robot policies without a binding sector-wide rule or institutional mandate."
+  },
+  {
+    "id": "tldr-webdev-86e22bcb1199",
+    "title": "Why your website should never stop changing",
+    "main": "TECH",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5"
+    ],
+    "tighter_penalties": [],
+    "reason": "Corporate product pitch or incubator promotion for a website platform."
+  },
+  {
+    "id": "tldr-infosec-e677a606e449",
+    "title": "TSMC's August revenue jumps 53% to a record high, plans High-NA EUV adoption for 2030",
+    "main": "AI",
+    "score": 0.65,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A4",
+      "A6",
+      "A9"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "TSMC reported record monthly revenue driven by AI demand, signaling major semiconductor market growth."
+  },
+  {
+    "id": "tldr-tech-181f7196c842",
+    "title": "Introducing the Agents API",
+    "main": "AI",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5"
+    ],
+    "tighter_penalties": [],
+    "reason": "Corporate API product release in public beta without direct regulatory or macro policy impact."
+  },
+  {
+    "id": "tldr-ai-784ac5e4650a",
+    "title": "OpenAI Launches the Agents API",
+    "main": "AI",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5"
+    ],
+    "tighter_penalties": [],
+    "reason": "Corporate API product launch by OpenAI without regulatory or macro policy changes."
+  },
+  {
+    "id": "tldr-webdev-81af85865978",
+    "title": "Native is now the future of mobile at Shopify",
+    "main": "TECH",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5"
+    ],
+    "tighter_penalties": [],
+    "reason": "Corporate engineering migration decision by a single firm without industry-wide policy change."
+  },
+  {
+    "id": "tldr-infosec-3989c7812a41",
+    "title": "Apple debuts iPhone Duo, its first foldable, at $1,999",
+    "main": "TECH",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5"
+    ],
+    "tighter_penalties": [],
+    "reason": "Apple launched a consumer product device; corporate PR event lacking systemic regulatory impact."
+  },
+  {
+    "id": "tldr-design-8682f247cdb5",
+    "title": "OpenAI's ChatGPT Images Gets Faster, with Sharper Details and More Refined Edits",
+    "main": "AI",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5"
+    ],
+    "tighter_penalties": [],
+    "reason": "Corporate software update for consumer image generation tool without regulatory or economic policy shift."
+  },
+  {
+    "id": "tldr-ai-11812c02141f",
+    "title": "Meta to announce Shared Agents for Muse at Meta Connect",
+    "main": "AI",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R11"
+    ],
+    "tighter_penalties": [],
+    "reason": "Speculative discovery of unreleased features ahead of a corporate conference."
+  },
+  {
+    "id": "tldr-webdev-ca96229f8bed",
+    "title": "Rewriting a Node.js service in Go with agents",
+    "main": "AI",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5"
+    ],
+    "tighter_penalties": [],
+    "reason": "Engineering blog post about a company's internal software rewrite."
+  },
+  {
+    "id": "tldr-infosec-86da58f78594",
+    "title": "OpenAI may double-source next-gen AI chips at Samsung, alongside TSMC",
+    "main": "AI",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R11"
+    ],
+    "tighter_penalties": [],
+    "reason": "Speculative report on potential future supplier arrangements based on executive remarks."
+  },
+  {
+    "id": "tldr-design-4c23f023a1cd",
+    "title": "iPhone 18 Pro officially announced: Here's what's new",
+    "main": "TECH",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5"
+    ],
+    "tighter_penalties": [],
+    "reason": "Consumer hardware announcement by Apple lacking broader structural economic impact."
+  },
+  {
+    "id": "rss-techcrunch-d50f665fad8d",
+    "title": "Thrive Capital led VCs into pro sports ownership; Collaborative Fund just upped that play",
+    "main": "WORLD",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5"
+    ],
+    "tighter_penalties": [],
+    "reason": "Venture capital firm private equity stake acquisition in a sports team pending routine league approval."
+  },
+  {
+    "id": "rss-the_hindu-df9e654409dd",
+    "title": "Under-construction bridge collapses in Bihar’s Vaishali, seven injured",
+    "main": "INDIA",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R9"
+    ],
+    "tighter_penalties": [],
+    "reason": "Sub-national bridge collapse with injuries, constituting a local infrastructure accident without national policy action."
+  },
+  {
+    "id": "rss-npr_news-93ce0f979c0a",
+    "title": "Lawsuit challenges intimidation of DHS observers across the country",
+    "main": "US",
+    "score": 0.65,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A4",
+      "A6",
+      "A10"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Federal lawsuit filed in Washington D.C. challenging nationwide DHS observer intimidation policies."
+  },
+  {
+    "id": "rss-engadget-d2fa403b6d92",
+    "title": "Anthropic caught scientists using Claude to further biological weapon research",
+    "main": "AI",
+    "score": 0.65,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A4",
+      "A6",
+      "A8"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Anthropic published a report detailing cases of scientists attempting to use Claude for bioweapon research."
+  },
+  {
+    "id": "rss-phys_org-6dc3c5eb6a6b",
+    "title": "New genomic tool for clams boosts sustainable aquaculture",
+    "main": "SCIENCE",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5",
+      "A8"
+    ],
+    "tighter_penalties": [],
+    "reason": "Genomic tool for clams is a niche academic science result, fails scope."
+  },
+  {
+    "id": "rss-techcrunch-b040cd306aa6",
+    "title": "OpenAI puts Pro subscriptions on hold due to Astra demand",
+    "main": "AI",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5"
+    ],
+    "tighter_penalties": [],
+    "reason": "OpenAI pausing Pro subscriptions due to demand is corporate PR/service issue."
+  },
+  {
+    "id": "rss-ars_technica-8bbba81b854d",
+    "title": "LinkedIn beats \"BrowserGate\" lawsuits over scanning users' Chrome extensions",
+    "main": "US",
+    "score": 0.65,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A6",
+      "A10"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "LinkedIn won dismissal of class-action lawsuits over browser extensions."
+  },
+  {
+    "id": "rss-aljazeera-1edd238682b0",
+    "title": "Man Utd cruise past Sabah on Champions League return with 4-0 win",
+    "main": "SPORTS",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R13"
+    ],
+    "tighter_penalties": [],
+    "reason": "Manchester United group-stage win is routine sports match, not major tournament final."
+  },
+  {
+    "id": "rss-guardian_world-94b32db9b2dd",
+    "title": "Canada offers air defense support for Ukraine as Zelenskyy visits",
+    "main": "WORLD",
+    "score": 0.6,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A6",
+      "A10"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T3"
+    ],
+    "reason": "Canada offered air defense support for Ukraine and signed partnership framework."
+  },
+  {
+    "id": "rss-livemint-1cdd99168c79",
+    "title": "BRICS 2026: Delhi braces for traffic diversions from 2 pm to 8:30 pm tomorrow, check alternate routes, diversion points",
+    "main": "INDIA",
+    "score": 0.45,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A6"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1",
+      "T2"
+    ],
+    "reason": "Delhi traffic diversions issued for BRICS summit."
+  },
+  {
+    "id": "rss-wired-bfe1d7477e42",
+    "title": "Is AI Actually Going to Kill Us All?",
+    "main": "AI",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R8"
+    ],
+    "tighter_penalties": [],
+    "reason": "Podcast discussion and viral employee resignation is opinion/commentary."
+  },
+  {
+    "id": "rss-nasa_breaking-751882b0e2e0",
+    "title": "NASA Answers President’s Call to Establish United States Space Academy",
+    "main": "SCIENCE",
+    "score": 0.35,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A6"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T2",
+      "T3"
+    ],
+    "reason": "NASA chaired first Presidential Commission meeting on US Space Academy."
+  },
+  {
+    "id": "rss-dw_top-2977f0bb514d",
+    "title": "Digital data leeches: trading on our profiles",
+    "main": "WORLD",
+    "score": 0.65,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A6",
+      "A10"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "12,000 Grindr users sued the dating app over sharing HIV status."
+  },
+  {
+    "id": "rss-new_scientist-4f269d8e2b0d",
+    "title": "Natural feedbacks will warm world an extra 20 per cent this century",
+    "main": "SCIENCE",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "A8"
+    ],
+    "tighter_penalties": [],
+    "reason": "Ecosystem carbon feedback study is basic academic research."
+  },
+  {
+    "id": "rss-cnbc_top-4523190a4eb8",
+    "title": "Trump's $1 trillion-plus 'dividend' plan meets immediate bipartisan pushback",
+    "main": "US",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R11"
+    ],
+    "tighter_penalties": [],
+    "reason": "Conditional campaign proposal by Trump is political speculation/promise."
+  },
+  {
+    "id": "rss-ars_science-01a19305335f",
+    "title": "Physicist does the math on Star Trek’s “Picard maneuver”",
+    "main": "SCIENCE",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R6"
+    ],
+    "tighter_penalties": [],
+    "reason": "Physicist math analysis of Star Trek is pop-sci trivia."
+  },
+  {
+    "id": "rss-guardian_world-e1e464de42e5",
+    "title": "Secret son revelation ignites bitter succession dispute in Ugandan kingdom",
+    "main": "WORLD",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R12"
+    ],
+    "tighter_penalties": [],
+    "reason": "Sub-national royal family succession dispute in Uganda."
+  },
+  {
+    "id": "rss-new_scientist-237a13638193",
+    "title": "We may finally know what kick-starts muscle contractions in childbirth",
+    "main": "SCIENCE",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "A8"
+    ],
+    "tighter_penalties": [],
+    "reason": "Early-stage medical research on childbirth contractions."
+  },
+  {
+    "id": "rss-bbc_world-e931a45aec6b",
+    "title": "Can Trump really pay $5,000 to every American adult?",
+    "main": "US",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R11"
+    ],
+    "tighter_penalties": [],
+    "reason": "Repeating story on Trump campaign proposal."
+  },
+  {
+    "id": "rss-bbc_sport-94da4f23c39c",
+    "title": "England's push for two-day win halted by weather",
+    "main": "SPORTS",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R13"
+    ],
+    "tighter_penalties": [],
+    "reason": "Bilateral cricket match day report is standard sports coverage."
+  },
+  {
+    "id": "rss-new_scientist-451ca522460a",
+    "title": "Gamma ray burst may have been two supernovae in one",
+    "main": "SCIENCE",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "A8"
+    ],
+    "tighter_penalties": [],
+    "reason": "Gamma-ray burst astrophysical study."
+  },
+  {
+    "id": "rss-openai_blog-014159943e4d",
+    "title": "How a researcher uses Codex and ChatGPT to search for new antimicrobial molecules",
+    "main": "SCIENCE",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5"
+    ],
+    "tighter_penalties": [],
+    "reason": "OpenAI blog post on researcher workflow is corporate PR/tool promotion."
+  },
+  {
+    "id": "rss-google_ai_blog-1852061b5cf6",
+    "title": "3 ways to prep for your next big race with Search",
+    "main": "AI",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R6"
+    ],
+    "tighter_penalties": [],
+    "reason": "Google AI search feature tips for running races is product PR/shopping guide."
+  },
+  {
+    "id": "rss-new_scientist-f30d8763f80d",
+    "title": "Exquisite 66-million-year-old bird feather preserved in dinosaur dropping",
+    "main": "SCIENCE",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "A8"
+    ],
+    "tighter_penalties": [],
+    "reason": "Paleontology discovery of a bird feather in a coprolite."
+  },
+  {
+    "id": "rss-openai_blog-4d4e7920d8a7",
+    "title": "Now everyone can put data to work",
+    "main": "AI",
+    "score": 0.45,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A3",
+      "A5",
+      "A6"
+    ],
+    "reject_hits": [
+      "R5"
+    ],
+    "tighter_penalties": [
+      "T1",
+      "T2"
+    ],
+    "reason": "OpenAI introduced a Data agent for ChatGPT Work to query data."
+  },
+  {
+    "id": "rss-new_scientist-727eb9acd564",
+    "title": "Here is how to understand OpenAI’s major mathematical breakthrough",
+    "main": "SCIENCE",
+    "score": 0.4,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A3",
+      "A5",
+      "A6",
+      "A8"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "OpenAI resolved an aspect of the Navier-Stokes equations."
+  },
+  {
+    "id": "rss-quanta_magazine-b3e61dadd4a4",
+    "title": "The Four-Color Theorem Gets a Rare New Proof",
+    "main": "SCIENCE",
+    "score": 0.4,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A3",
+      "A5",
+      "A6",
+      "A8"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Mathematicians produced a new proof of the four-color theorem."
+  },
+  {
+    "id": "hn-49643982",
+    "title": "Shopify is moving from React Native back to Swift and Kotlin",
+    "main": "TECH",
+    "score": 0.45,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A3",
+      "A5",
+      "A6"
+    ],
+    "reject_hits": [
+      "R5"
+    ],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Shopify moved its mobile technology stack from React Native to Swift."
+  },
+  {
+    "id": "rss-mit_tech_review-01535cc28e2b",
+    "title": "The Download: a “God-driven” cryptocurrency and a solar engineering roadmap",
+    "main": "TECH",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5"
+    ],
+    "tighter_penalties": [],
+    "reason": "Apple launched the iPhone Duo foldable phone."
+  },
+  {
+    "id": "rss-mit_tech_review-a84800fb20f6",
+    "title": "This road map could help us decide whether to deploy solar geoengineering",
+    "main": "SCIENCE",
+    "score": 0.4,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A3",
+      "A5",
+      "A6"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1",
+      "T3"
+    ],
+    "reason": "Reflective published a research roadmap for solar geoengineering."
+  },
+  {
+    "id": "rss-mit_tech_review-424dee049534",
+    "title": "Powering AI is an architecture problem",
+    "main": "AI",
+    "score": 0.4,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A3",
+      "A5",
+      "A6"
+    ],
+    "reject_hits": [
+      "R8"
+    ],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "A transmission line fault knocked three gigawatts off the grid."
+  },
+  {
+    "id": "rss-mit_tech_review-8bc8b5f57fb2",
+    "title": "Can the US battery market untangle from China?",
+    "main": "US",
+    "score": 0.75,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A10"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Trump administration issued an executive order banning Chinese batteries."
+  },
+  {
+    "id": "rss-stratechery-092119c2a266",
+    "title": "The iPhone Duo, The Intelligent Personal Hub, Apple Watch Audio Intelligence",
+    "main": "TECH",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R8"
+    ],
+    "tighter_penalties": [],
+    "reason": "Commentary on Apple hardware and software strategy."
+  },
+  {
+    "id": "rss-mit_tech_review-7507ad454681",
+    "title": "God told them to sell crypto. Their investors lost everything.",
+    "main": "TECH",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R2"
+    ],
+    "tighter_penalties": [],
+    "reason": "Retirees lost retirement savings in a crypto scam."
+  },
+  {
+    "id": "rss-mit_tech_review-d6f073e423e3",
+    "title": "Healthcare AI’s next test is integration",
+    "main": "AI",
+    "score": 0.35,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A3",
+      "A5"
+    ],
+    "reject_hits": [
+      "R8"
+    ],
+    "tighter_penalties": [
+      "T1",
+      "T2"
+    ],
+    "reason": "AI companies are entering the healthcare sector to process records."
+  },
+  {
+    "id": "rss-openai_blog-016c3ec9b775",
+    "title": "Introducing ChatGPT for Financial Services",
+    "main": "AI",
+    "score": 0.45,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A3",
+      "A5",
+      "A6"
+    ],
+    "reject_hits": [
+      "R5"
+    ],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "OpenAI introduced ChatGPT for Financial Services."
+  },
+  {
+    "id": "rss-openai_blog-1ef5285e671d",
+    "title": "Expanding AI access and cyber defense for federal, state, local, and tribal governments",
+    "main": "AI",
+    "score": 0.75,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "OpenAI and GSA signed an agreement for AI and cyber defense tools."
+  },
+  {
+    "id": "rss-times_of_india-4f363565e6cf",
+    "title": "Congress-NC rift over Vande Mataram: The ghost of 1987 and ‘big brother’ complex",
+    "main": "INDIA",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R12"
+    ],
+    "tighter_penalties": [],
+    "reason": "Disagreement over Vande Mataram in Jammu and Kashmir."
+  },
+  {
+    "id": "rss-guardian_world-ba96d6fa56db",
+    "title": "Rubio signals shift to working with allies to fight drug trade as latest boat strike kills three",
+    "main": "WORLD",
+    "score": 0.75,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A10"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "US Southern Command announced a strike in the Caribbean Sea."
+  },
+  {
+    "id": "rss-openai_blog-2b26a8066576",
+    "title": "Introducing the Agents API",
+    "main": "AI",
+    "score": 0.45,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A3",
+      "A5",
+      "A6"
+    ],
+    "reject_hits": [
+      "R5"
+    ],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "OpenAI launched the Agents API in public beta."
+  },
+  {
+    "id": "rss-openai_blog-4e410dad70fb",
+    "title": "Build more natural voice experiences with GPT‑Live‑1 in the API",
+    "main": "AI",
+    "score": 0.45,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A3",
+      "A5",
+      "A6"
+    ],
+    "reject_hits": [
+      "R5"
+    ],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "OpenAI launched the GPT-Live-1 model in the API."
+  },
+  {
+    "id": "tldr-ai-37b6c5c55791",
+    "title": "Anthropic Models AI's Potential Impact on the US Economy",
+    "main": "AI",
+    "score": 0.4,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A3",
+      "A5",
+      "A6"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1",
+      "T3"
+    ],
+    "reason": "Anthropic published research modeling AI economic impact."
+  },
+  {
+    "id": "tldr-webdev-00a1b21ebae7",
+    "title": "Reasoning Prefills on a Few Open Models, v1.1",
+    "main": "AI",
+    "score": 0.4,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A3",
+      "A5",
+      "A6"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1",
+      "T2"
+    ],
+    "reason": "Researchers updated reasoning prefill experiments on open models."
+  },
+  {
+    "id": "tldr-infosec-796db0ab0155",
+    "title": "ClearFake WebDAV Infection Chain Delivers Amatera Stealer, ZigCryptoStealer, and NetSupport Manager",
+    "main": "TECH",
+    "score": 0.75,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A10"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Cisco Talos investigated a cyber attack at a Ukrainian organization."
+  },
+  {
+    "id": "tldr-design-bc9839acc2b5",
+    "title": "ByteDance is Preparing a Real-Time Spatial Video Model",
+    "main": "AI",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5"
+    ],
+    "tighter_penalties": [],
+    "reason": "ByteDance is preparing a spatial video model; routine product roadmap leak without a concrete released artifact."
+  },
+  {
+    "id": "rss-huggingface_blog-cb50b0c3c856",
+    "title": "Rebuilding AUTOMATIC1111 with Gradio Workflow",
+    "main": "AI",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5",
+      "R6"
+    ],
+    "tighter_penalties": [],
+    "reason": "Workflow-one-one-one-one implements a UI canvas for stable diffusion; developer tool release without broad sector impact."
+  },
+  {
+    "id": "tldr-webdev-4035f0bbda00",
+    "title": "An Organizational Second Brain",
+    "main": "AI",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5"
+    ],
+    "tighter_penalties": [],
+    "reason": "Meta built an internal AI agent for compliance knowledge; corporate PR/tooling without external regulatory action."
+  },
+  {
+    "id": "tldr-infosec-2a40782fc895",
+    "title": "Adobe Commerce max-severity bug comes under active attack",
+    "main": "TECH",
+    "score": 0.72,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Online stores face active zero-day attacks on Adobe Commerce CVE-2026-75650, requiring urgent security patching."
+  },
+  {
+    "id": "rss-guardian_world-74d2eb5ec211",
+    "title": "Notorious Ecuadorian crime gang designated a terrorist group by US",
+    "main": "US",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R10"
+    ],
+    "tighter_penalties": [],
+    "reason": "US designated Ecuadorian gang Los Tiguerones as a terrorist group; lacks direct second-order impact on an Indian PM."
+  },
+  {
+    "id": "rss-ars_science-c6f2eda348cb",
+    "title": "When it comes to Beatles references, scientists can't let it be",
+    "main": "SCIENCE",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R4",
+      "R8"
+    ],
+    "tighter_penalties": [],
+    "reason": "A study in PLOS ONE reveals The Beatles are the most referenced musical group in scientific literature; trivial metric."
+  },
+  {
+    "id": "rss-guardian_world-03dfc591c795",
+    "title": "Uganda to withdraw from Invictus Games ‘out of respect for King Charles’, says military chief",
+    "main": "WORLD",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R1",
+      "R12"
+    ],
+    "tighter_penalties": [],
+    "reason": "Uganda withdrew from the Invictus Games out of respect for King Charles; diplomatic trivia with zero policy weight."
+  },
+  {
+    "id": "hn-49630931",
+    "title": "iPhone Duo",
+    "main": "TECH",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R3",
+      "R5"
+    ],
+    "tighter_penalties": [],
+    "reason": "Apple announced the iPhone Duo foldable; corporate product launch PR."
+  },
+  {
+    "id": "rss-openai_blog-534907e0d31e",
+    "title": "Paul Christiano joins OpenAI Foundation Board",
+    "main": "WORLD",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5"
+    ],
+    "tighter_penalties": [],
+    "reason": "Paul Christiano joined the OpenAI Foundation Board as a non-voting observer; corporate governance shift without broad economic impact."
+  },
+  {
+    "id": "rss-ars_science-a9bc4c5f1f67",
+    "title": "Google's AI genome system evaluates every possible one-base change",
+    "main": "SCIENCE",
+    "score": 0.75,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A8"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [],
+    "reason": "Google announced AlphaGenome Atlas to predict human genome single-base variants, unlocking biological research capabilities."
+  },
+  {
+    "id": "rss-google_ai_blog-b0dd0e34ba0b",
+    "title": "Get ready for the game with new football features in Search",
+    "main": "TECH",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5",
+      "R6"
+    ],
+    "tighter_penalties": [],
+    "reason": "Google Search added football stats and live game feeds; standard consumer feature update PR."
+  },
+  {
+    "id": "rss-google_ai_blog-e8269fc9a109",
+    "title": "Recreating a 70-year love story frame by frame",
+    "main": "TECH",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R4"
+    ],
+    "tighter_penalties": [],
+    "reason": "A documentary short explores memory loss and a 70-year love story; human-interest feature with no policy hook."
+  },
+  {
+    "id": "rss-huggingface_blog-e8608e40b722",
+    "title": "IBM releases SOTA Granite Time Series PatchTST-FM-r2 model with commercial-friendly license",
+    "main": "WORLD",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5"
+    ],
+    "tighter_penalties": [],
+    "reason": "IBM released a time-series foundation model with a commercial-friendly license; corporate product release."
+  },
+  {
+    "id": "rss-cnbc_top-79cbcd33bc84",
+    "title": "Treasury Department to buy back up to $6 billion in longer-term debt, triple the normal level",
+    "main": "BUSINESS",
+    "score": 0.75,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A9"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [],
+    "reason": "The US Treasury Department will buy back up to $6 billion in longer-term debt, shifting market liquidity operations."
+  },
+  {
+    "id": "rss-the_hindu-9b3f716fc548",
+    "title": "Manohar asks Jana Sena cadre to prepare for local body elections in Andhra Pradesh",
+    "main": "INDIA",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R12"
+    ],
+    "tighter_penalties": [],
+    "reason": "Nadendla Manohar urged Jana Sena cadre to prepare for local body elections in Andhra Pradesh; sub-state party trivia."
+  },
+  {
+    "id": "rss-phys_org-414aeef48ec6",
+    "title": "Physics-aware benchmark reveals why similar materials AI models can predict thermal conductivity differently",
+    "main": "SCIENCE",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R8"
+    ],
+    "tighter_penalties": [],
+    "reason": "Researchers published a physics-aware benchmark in Nature Communications evaluating materials AI models; academic paper detail."
+  },
+  {
+    "id": "rss-dw_top-f65064bf83a4",
+    "title": "Ethiopia's constitutional reform: What does it mean — especially for Abiy?",
+    "main": "WORLD",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R11"
+    ],
+    "tighter_penalties": [],
+    "reason": "Ethiopian delegates recommended merging prime minister and president offices; constitutional reform consultation phase."
+  },
+  {
+    "id": "rss-france24_top-00bf4b24c0a4",
+    "title": "France's far-right National Rally fires policeman from security team over racist, sexist comments",
+    "main": "WORLD",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R2"
+    ],
+    "tighter_penalties": [],
+    "reason": "France's National Rally fired a policeman over racist and sexist comments; individual personnel disciplinary action."
+  },
+  {
+    "id": "rss-techcrunch-d200a5fa1fd2",
+    "title": "Viral AI assistant Instinct now has its own email address",
+    "main": "AI",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5"
+    ],
+    "tighter_penalties": [],
+    "reason": "AI assistant Instinct rolled out dedicated email addresses; corporate product rollout PR."
+  },
+  {
+    "id": "rss-livemint-8f882c42cef2",
+    "title": "ChatGPT 1980s photo trend: What happens to your picture after you upload it?",
+    "main": "INDIA",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R4",
+      "R6"
+    ],
+    "tighter_penalties": [],
+    "reason": "A viral ChatGPT photo trend raises privacy questions about uploaded personal images; consumer internet trend commentary."
+  },
+  {
+    "id": "rss-new_scientist-699c50d1df41",
+    "title": "Denisovan tools from cave in China shows how mysterious humans lived",
+    "main": "SCIENCE",
+    "score": 0.5,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A4",
+      "A6",
+      "A8"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Researchers discovered Denisovan tools in a Chinese cave, offering archaeological insights."
+  },
+  {
+    "id": "rss-quanta_magazine-ceaaf665d09d",
+    "title": "What Is Math’s Mysterious Langlands Program Really About?",
+    "main": "SCIENCE",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R8"
+    ],
+    "tighter_penalties": [],
+    "reason": "An exploratory explainer on mathematics' long-running Langlands program."
+  },
+  {
+    "id": "rss-aljazeera-e7059670bb95",
+    "title": "Torrential rains, winds from Hurricane Lowell leaves 30,000 without power",
+    "main": "US",
+    "score": 0.5,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A4",
+      "A6"
+    ],
+    "reject_hits": [
+      "R7"
+    ],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Hurricane Lowell left 30,000 residents without power on Kauai after heavy rains."
+  },
+  {
+    "id": "rss-bbc_sport-c92197340f47",
+    "title": "What next for LIV Golf's star players, and its fight for survival?",
+    "main": "SPORTS",
+    "score": 0.5,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A4",
+      "A6",
+      "A9"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "LIV Golf filed for US bankruptcy protection and restructuring, owing $45 million."
+  },
+  {
+    "id": "rss-guardian_sport-a53170f7b2cf",
+    "title": "Ben Shelton wins a night of vomit, sweat and home hopes to triumph at US Open",
+    "main": "SPORTS",
+    "score": 0.65,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A4",
+      "A6",
+      "A7"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Ben Shelton defeated Carlos Alcaraz in a five-set US Open quarter-final match."
+  },
+  {
+    "id": "rss-ars_science-d306e5692dd7",
+    "title": "NOAA is putting commercial fishing ahead of conservation",
+    "main": "US",
+    "score": 0.5,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A4",
+      "A6"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1",
+      "T2"
+    ],
+    "reason": "NOAA announced new agency priorities to cut bureaucracy and prioritize commercial fishing."
+  },
+  {
+    "id": "rss-ars_technica-d306e5692dd7",
+    "title": "NOAA is putting commercial fishing ahead of conservation",
+    "main": "US",
+    "score": 0.5,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A4",
+      "A6"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1",
+      "T2"
+    ],
+    "reason": "NOAA announced new agency priorities to cut bureaucracy and prioritize commercial fishing."
+  },
+  {
+    "id": "rss-sciencedaily_top-07ec9f71aa04",
+    "title": "Scientists find a bone-building switch that could fight osteoporosis",
+    "main": "SCIENCE",
+    "score": 0.5,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A4",
+      "A6",
+      "A8"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Leipzig University researchers identified a cell receptor regulating bone health for osteoporosis."
+  },
+  {
+    "id": "hn-49626190",
+    "title": "Shopify acquires Tailwind",
+    "main": "WORLD",
+    "score": 0.5,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A4",
+      "A6",
+      "A9"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Shopify acquired the Tailwind CSS framework used widely across enterprise software."
+  },
+  {
+    "id": "rss-nasa_breaking-9a6d92d1e13d",
+    "title": "NASA Names Two Artemis II Astronauts to Emeritus Program",
+    "main": "SCIENCE",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R1",
+      "R5"
+    ],
+    "tighter_penalties": [],
+    "reason": "NASA astronauts Victor Glover and Reid Wiseman are moving to emeritus status."
+  },
+  {
+    "id": "rss-openai_blog-9786c92a289d",
+    "title": "The AI policy window is open. We need to act.",
+    "main": "AI",
+    "score": 0.5,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A4",
+      "A6"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1",
+      "T3"
+    ],
+    "reason": "OpenAI petitioned US Congress for mandatory and capability-based national AI safety rules."
+  },
+  {
+    "id": "rss-wired-bc920c5beeff",
+    "title": "A Stealth Startup Thinks It Just Hacked the Memory Shortage",
+    "main": "TECH",
+    "score": 0.5,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A4",
+      "A6",
+      "A9"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Startup Kepler Computing emerged from stealth with $468M funding and US Commerce backing."
+  },
+  {
+    "id": "rss-times_of_india-7705729681b9",
+    "title": "New satellite images show major construction surge at Iran’s Pickaxe nuke site",
+    "main": "WORLD",
+    "score": 0.65,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A4",
+      "A6",
+      "A10"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Satellite imagery revealed a construction surge at Iran's Pickaxe Mountain nuclear site."
+  },
+  {
+    "id": "rss-mit_tech_review-af827a7c3f87",
+    "title": "The Download: OpenAI’s turning point for math and a battery record",
+    "main": "AI",
+    "score": 0.5,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A4",
+      "A6",
+      "A8"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "OpenAI agents solved the Navier-Stokes equations over 88 hours of computation."
+  },
+  {
+    "id": "rss-openai_blog-587a70348a73",
+    "title": "GPT-6 Astra: The next generation in intelligence for work",
+    "main": "AI",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5"
+    ],
+    "tighter_penalties": [],
+    "reason": "OpenAI introduced GPT-6 Astra for professional work, software engineering, and security."
+  },
+  {
+    "id": "rss-bbc_world-67eacb47c09d",
+    "title": "Russia and Ukraine exchange strikes as two killed at Moldova border",
+    "main": "WORLD",
+    "score": 0.65,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A4",
+      "A6",
+      "A10"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Russian drone strikes killed two people and forced closure of the Ukraine-Moldova border."
+  },
+  {
+    "id": "rss-mit_tech_review-c1bc0abb2c05",
+    "title": "Batteries just broke another record in the US",
+    "main": "SCIENCE",
+    "score": 0.5,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A4",
+      "A6"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "US battery installations reached a record 20.2 gigawatt-hours in Q2 2026."
+  },
+  {
+    "id": "rss-sciencedaily_top-c98cd0a51af7",
+    "title": "Interstellar comet 3I/ATLAS is bursting with methanol",
+    "main": "SCIENCE",
+    "score": 0.5,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A4",
+      "A6",
+      "A8"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Observations from ALMA showed interstellar comet 3I/ATLAS contains high levels of methanol."
+  },
+  {
+    "id": "rss-guardian_world-4511941ef3b0",
+    "title": "Family of British man found dead in Grenada ask local police to work with UK investigators",
+    "main": "WORLD",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R2"
+    ],
+    "tighter_penalties": [],
+    "reason": "The family of a British man found dead in Grenada asked local police to cooperate."
+  },
+  {
+    "id": "rss-dw_top-e311c5b96002",
+    "title": "BRICS leaders gather in India, but does the group have a clear purpose?",
+    "main": "WORLD",
+    "score": 0.65,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A4",
+      "A6",
+      "A10"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1",
+      "T3"
+    ],
+    "reason": "India is hosting the 18th BRICS summit in Delhi focusing on resilience and cooperation."
+  },
+  {
+    "id": "rss-the_hindu-e6cc296f2b51",
+    "title": "Tamil Nadu CM Vijay to travel to London on first official overseas visit; gold ring scheme launch postponed",
+    "main": "INDIA",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R1",
+      "T3"
+    ],
+    "tighter_penalties": [],
+    "reason": "Ceremonial international travel and postponed political scheme; hits R1."
+  },
+  {
+    "id": "rss-guardian_sport-0968a6aaf3d5",
+    "title": "US Open 2026 quarter-final: Ben Shelton v Carlos Alcaraz goes to final set – live",
+    "main": "SPORTS",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R13"
+    ],
+    "tighter_penalties": [],
+    "reason": "US Open tennis match in-progress record; hits R13 as not a final tournament result."
+  },
+  {
+    "id": "rss-france24_top-0c3365ffdec7",
+    "title": "Eiffel Tower row over Hindu sect BAPS unites French politicians – but divides Indian diaspora",
+    "main": "WORLD",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R3",
+      "R8"
+    ],
+    "tighter_penalties": [],
+    "reason": "Eiffel Tower labor strike over private sect tour controversy; falls under cultural controversy/PR."
+  },
+  {
+    "id": "rss-aljazeera-7884c6f3d3f8",
+    "title": "Why Nepal is demanding climate justice and compensation after deadly floods",
+    "main": "WORLD",
+    "score": 0.45,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A4",
+      "A5",
+      "A6",
+      "A10"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T3"
+    ],
+    "reason": "Nepal demands $20M climate compensation after floods; lacks binding bilateral treaty yet."
+  },
+  {
+    "id": "rss-livemint-4c4bee66444d",
+    "title": "Delhi Satya Niketan building collapse: PG operator arrested, adjacent unsafe building demolished | Top updates",
+    "main": "INDIA",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R2"
+    ],
+    "tighter_penalties": [],
+    "reason": "Local building collapse arrest and municipal mishap; hits R2/R12."
+  },
+  {
+    "id": "rss-cnbc_top-da7c493f9d5b",
+    "title": "Iran says it hit American vessels, oil tankers in Hormuz in retaliation for U.S. strikes",
+    "main": "WORLD",
+    "score": 0.75,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A10"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [],
+    "reason": "Iran Revolutionary Guards stated they struck US vessels and tankers in Strait of Hormuz."
+  },
+  {
+    "id": "rss-npr_news-fd420fff2ebf",
+    "title": "TSA brings back gate access for some people without plane tickets 25 years after 9/11",
+    "main": "US",
+    "score": 0.45,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A4",
+      "A5",
+      "A6"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "TSA reinstates gate access for non-passengers; US domestic aviation policy with no Bengaluru PM impact."
+  },
+  {
+    "id": "rss-times_of_india-a88fb80ac20f",
+    "title": "4 floors higher, Rs 4 lakh a month: The greed behind Delhi PG ‘Hostel Daze’",
+    "main": "INDIA",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R2",
+      "R8"
+    ],
+    "tighter_penalties": [],
+    "reason": "Editorialized retrospective on a building collapse; hits R2 and R8."
+  },
+  {
+    "id": "rss-bbc_world-af2a31eee52c",
+    "title": "US strikes Iranian oil tankers as Tehran targets American base in Jordan",
+    "main": "WORLD",
+    "score": 0.75,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A10"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [],
+    "reason": "US forces struck five Iranian oil tankers after attacks on US assets in Jordan."
+  },
+  {
+    "id": "rss-guardian_world-c6b0912e61ba",
+    "title": "Babies born to anaemic mothers have smaller brains, study finds",
+    "main": "SCIENCE",
+    "score": 0.45,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A5",
+      "A6",
+      "A8"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Study finds babies of anaemic mothers have smaller brains; scientific paper without immediate PM decision impact."
+  },
+  {
+    "id": "rss-phys_org-4d750c438b21",
+    "title": "GPS collars reveal secrets of the power struggle between lions and hyenas in the wild",
+    "main": "SCIENCE",
+    "score": 0.45,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A5",
+      "A6",
+      "A8"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "GPS collars reveal lion-hyena interactions; basic ecological research with no direct PM decision hook."
+  },
+  {
+    "id": "tldr-ai-04c324e49634",
+    "title": "Pretraining progress is mostly coming from data",
+    "main": "WORLD",
+    "score": 0.45,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A5",
+      "A6",
+      "A8"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Data improvements drive AI pretraining efficiency gains; general industry finding without direct institutional action."
+  },
+  {
+    "id": "tldr-infosec-0711d41c7b72",
+    "title": "Hackers Breach F5 BIG-IP APM Devices to Deploy Linux Rootkit",
+    "main": "WORLD",
+    "score": 0.72,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [],
+    "reason": "Attackers target F5 BIG-IP APM environments with PoisonedRefresh Linux rootkit."
+  },
+  {
+    "id": "tldr-design-e37344f5a3f2",
+    "title": "Camera app in iOS 27 reportedly includes four major pro photography features",
+    "main": "WORLD",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R11"
+    ],
+    "tighter_penalties": [],
+    "reason": "Beta code rumor and feature speculation from OS beta; hits R11."
+  },
+  {
+    "id": "tldr-ai-6a9020354215",
+    "title": "&gt;10x More Efficient Pretraining",
+    "main": "AI",
+    "score": 0.45,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A5",
+      "A6",
+      "A8"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Magic claims pretraining recipe is 10x more efficient; corporate performance claim without direct regulatory backing."
+  },
+  {
+    "id": "tldr-infosec-267730c2e9eb",
+    "title": "220M Traveler Records Exposed in Vietnam-Linked APIS Leak",
+    "main": "TECH",
+    "score": 0.72,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [],
+    "reason": "Kinryu Labs researchers discovered a 220M traveler record leak in an APIS database."
+  },
+  {
+    "id": "tldr-design-737395b4b323",
+    "title": "Gemini overlay gets bubble minimization and multitasking on Android",
+    "main": "AI",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5"
+    ],
+    "tighter_penalties": [],
+    "reason": "Google rolls out UI overlay multitasking update for Gemini on Android; corporate product feature launch."
+  },
+  {
+    "id": "tldr-ai-1aadd7082473",
+    "title": "Inside the megakernel serving engine for North Mini Code",
+    "main": "AI",
+    "score": 0.45,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A5",
+      "A6",
+      "A8"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Cohere introduces a serving engine for North Mini Code; software product performance release."
+  },
+  {
+    "id": "tldr-webdev-5b01dede2361",
+    "title": ".gitignore everything by default",
+    "main": "TECH",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R6"
+    ],
+    "tighter_penalties": [],
+    "reason": "Git workflow suggestion article; hits R6/R8 developer opinion and advice."
+  },
+  {
+    "id": "tldr-infosec-2194112481a7",
+    "title": "WeWorm",
+    "main": "TECH",
+    "score": 0.72,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [],
+    "reason": "Security firm Calif released a demo of WeWorm, a zero-click worm spreading via WeChat calls."
+  },
+  {
+    "id": "tldr-design-0c7b76e5e66c",
+    "title": "Run Cursor Cloud Agents on Machines You Manage",
+    "main": "AI",
+    "score": 0.45,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A4",
+      "A6",
+      "A8"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Cursor released self-hosted Cloud Agents feature; lacks direct relevance to a Bengaluru PM."
+  },
+  {
+    "id": "rss-engadget-a56526279af6",
+    "title": "What are the major changes coming to Apple HomeKit in iOS 27?",
+    "main": "TECH",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5",
+      "R6"
+    ],
+    "tighter_penalties": [],
+    "reason": "Speculative or routine product feature preview (iOS 27 HomeKit), falling under corporate PR."
+  },
+  {
+    "id": "tldr-tech-2abdbe3fbe7a",
+    "title": "Huawei launches Mate XT 2 tri-fold two days before Apple's foldable iPhone",
+    "main": "TECH",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5",
+      "R11"
+    ],
+    "tighter_penalties": [],
+    "reason": "Corporate product launch announcement and unconfirmed release speculation."
+  },
+  {
+    "id": "rss-new_scientist-7f17fd353817",
+    "title": "Common painkiller use in early pregnancy linked to smaller ovaries and testes",
+    "main": "SCIENCE",
+    "score": 0.5,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A4",
+      "A6",
+      "A8"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Study links early pregnancy paracetamol use to smaller reproductive organs; low direct actionability."
+  },
+  {
+    "id": "rss-verge-754c0846d6c1",
+    "title": "Sony isn’t phasing out discs quite as quickly as we thought",
+    "main": "TECH",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5",
+      "R10"
+    ],
+    "tighter_penalties": [],
+    "reason": "Corporate supply-chain schedule adjustment rumor, failing institutional importance criteria."
+  },
+  {
+    "id": "rss-phys_org-a110239fdc93",
+    "title": "Waterlogged seeds reveal melons' ancient journey",
+    "main": "WORLD",
+    "score": 0.35,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A6",
+      "A8"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Archaeological DNA analysis reveals melon domestication history; lacks national scope or policy hook."
+  },
+  {
+    "id": "rss-france24_top-6d300698b603",
+    "title": "Mourinho's Real Madrid edge Inter Milan in Champions League opener",
+    "main": "WORLD",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R13"
+    ],
+    "tighter_penalties": [],
+    "reason": "Football match result in the Champions League, failing the strict sports threshold."
+  },
+  {
+    "id": "rss-ars_technica-e883a47e5391",
+    "title": "GOG brings back \"big box\" PC games, one printable template at a time",
+    "main": "TECH",
+    "score": 0.2,
+    "band": "reject",
+    "accept_hits": [
+      "A1"
+    ],
+    "reject_hits": [
+      "R5",
+      "R6"
+    ],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "GOG introduces printable box scans; corporate retro-marketing initiative."
+  },
+  {
+    "id": "rss-bbc_sport-0ff80b52a7b9",
+    "title": "LIV files for bankruptcy protection with over $45m owed to players",
+    "main": "SPORTS",
+    "score": 0.65,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A9"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "LIV Golf filed for Chapter 11 bankruptcy in New Jersey federal court owing over $45m."
+  },
+  {
+    "id": "rss-wired-3e192ab4427c",
+    "title": "Cockroach Milk, How to Blow Your Nose, and Mosquito Printers: The Ig Nobels of 2026",
+    "main": "WORLD",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R4"
+    ],
+    "tighter_penalties": [],
+    "reason": "Ig Nobel prize ceremony and quirky studies feature, falling under novelty/feel-good content."
+  },
+  {
+    "id": "rss-aljazeera-04d549a15469",
+    "title": "Real Madrid beat Inter Milan as Mbappe goal sets Mourinho’s men on way",
+    "main": "WORLD",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R13"
+    ],
+    "tighter_penalties": [],
+    "reason": "Champions League match report, failing major tournament threshold."
+  },
+  {
+    "id": "rss-techcrunch-57c4e05468ae",
+    "title": "Hackers are stealing Claude tokens from subscribers",
+    "main": "WORLD",
+    "score": 0.45,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A4",
+      "A6"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Independent security consultant reports Claude token theft; lacks broad institutional action."
+  },
+  {
+    "id": "rss-guardian_sport-55c5415171f4",
+    "title": "Haaland double gives Manchester City ideal Champions League start in Porto",
+    "main": "WORLD",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R13"
+    ],
+    "tighter_penalties": [],
+    "reason": "UEFA Champions League football match report."
+  },
+  {
+    "id": "rss-the_hindu-acb680d85d4b",
+    "title": "Probe ordered into police action against protesting Bhopal intern doctors",
+    "main": "WORLD",
+    "score": 0.65,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Bhopal Police Commissioner ordered an inquiry into police action against protesting intern doctors."
+  },
+  {
+    "id": "rss-cnbc_top-680f0fa60f6d",
+    "title": "Bombardier points out U.S. footprint after Trump says aerospace giant must build in America",
+    "main": "WORLD",
+    "score": 0.55,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A4",
+      "A6",
+      "A10"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T2",
+      "T3"
+    ],
+    "reason": "Bombardier responds to political pressure from U.S. President regarding manufacturing footprint."
+  },
+  {
+    "id": "rss-livemint-6a5394b089c2",
+    "title": "US strikes Iranian tankers after attempted missile attacks on its Navy warship: Report",
+    "main": "WORLD",
+    "score": 0.72,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A10"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "United States military struck multiple Iranian oil tankers following attempted missile attacks."
+  },
+  {
+    "id": "rss-times_of_india-20499432b99c",
+    "title": "Iran launched fresh attack on US navy ships Monday amid China, Russia aid fears",
+    "main": "WORLD",
+    "score": 0.68,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A10"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Iran launched fresh military attacks targeting United States navy ships in ongoing escalation."
+  },
+  {
+    "id": "rss-nasa_breaking-d0ab3196e59f",
+    "title": "From the Corps to the Cosmos, featuring Jaden Caradine",
+    "main": "WORLD",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R1",
+      "R4"
+    ],
+    "tighter_penalties": [],
+    "reason": "NASA intern personal profile and career background feature."
+  },
+  {
+    "id": "rss-npr_news-6110cd629acf",
+    "title": "New report shows the economic toll of ICE raids",
+    "main": "WORLD",
+    "score": 0.68,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "University of Illinois study showed ICE raids drained $1.26B from local Cook County businesses."
+  },
+  {
+    "id": "rss-ars_science-cec960be6b03",
+    "title": "NIH to use part of its budget to pay for Department of Defense research",
+    "main": "SCIENCE",
+    "score": 0.72,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "NIH reached a ten-year agreement to fund research projects at the Department of Defense."
+  },
+  {
+    "id": "rss-engadget-6c71f87b8994",
+    "title": "What is Roku's secret menu and how do you unlock it?",
+    "main": "WORLD",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R6"
+    ],
+    "tighter_penalties": [],
+    "reason": "Shopping guide/tech tips for a streaming device."
+  },
+  {
+    "id": "rss-ars_technica-153ab8978645",
+    "title": "Supreme Court forces TV stations to sell more election ads at steep discounts",
+    "main": "WORLD",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R8"
+    ],
+    "tighter_penalties": [],
+    "reason": "Speculative or misdated legal commentary item."
+  },
+  {
+    "id": "rss-bbc_world-12a0192dfedf",
+    "title": "UK announces sanctions on West Bank settlements prompting furious Israeli response",
+    "main": "WORLD",
+    "score": 0.65,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A10"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "UK sanctioned West Bank settlements, banning goods and advertising."
+  },
+  {
+    "id": "rss-dw_top-344f6bf00ed8",
+    "title": "German economy frets about Saxony-Anhalt election results",
+    "main": "WORLD",
+    "score": 0.7,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A10"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Far-right AfD won state election in Saxony-Anhalt, altering German politics."
+  },
+  {
+    "id": "rss-ars_science-a7d30b6a8654",
+    "title": "Update to Google’s AI weather model improves forecast accuracy",
+    "main": "AI",
+    "score": 0.45,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A3",
+      "A4",
+      "A6",
+      "A8"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1",
+      "T2"
+    ],
+    "reason": "Routine software update for AI weather model lacking systemic market impact."
+  },
+  {
+    "id": "rss-new_scientist-ced99aee0960",
+    "title": "OpenAI has solved the Navier-Stokes Millennium problem using $15m of AI effort",
+    "main": "WORLD",
+    "score": 0.4,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A3",
+      "A4",
+      "A6"
+    ],
+    "reject_hits": [
+      "R11"
+    ],
+    "tighter_penalties": [],
+    "reason": "Implausible or unverified claim regarding the Navier-Stokes Millennium problem."
+  },
+  {
+    "id": "hn-49613262",
+    "title": "On the Navier–Stokes Millennium Prize Problem",
+    "main": "WORLD",
+    "score": 0.4,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A3",
+      "A4",
+      "A6"
+    ],
+    "reject_hits": [
+      "R11"
+    ],
+    "tighter_penalties": [],
+    "reason": "HackerNews link discussing unverified math preprint claims."
+  },
+  {
+    "id": "rss-openai_blog-167bce5d47e7",
+    "title": "How GPT-5.6 Sol helps run quantum computing experiments",
+    "main": "WORLD",
+    "score": 0.45,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A3",
+      "A4",
+      "A6",
+      "A8"
+    ],
+    "reject_hits": [
+      "R5"
+    ],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Corporate blog post on using LLMs for quantum experiments."
+  },
+  {
+    "id": "rss-ars_science-2b3d53af8897",
+    "title": "The secret to protecting next-gen spacecraft might be eggshells",
+    "main": "WORLD",
+    "score": 0.45,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A3",
+      "A4",
+      "A6",
+      "A8"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Early-stage materials science research paper on eggshell-inspired aluminum."
+  },
+  {
+    "id": "rss-bbc_sport-566ec37ce2b2",
+    "title": "Favourite Kane makes Ballon d'Or shortlist",
+    "main": "SPORTS",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R3",
+      "R13"
+    ],
+    "tighter_penalties": [],
+    "reason": "Sports award shortlist nomination."
+  },
+  {
+    "id": "rss-techcrunch-c29785e0a02c",
+    "title": "Google’s revived nuclear power plant gets $1.9B loan from US government",
+    "main": "US",
+    "score": 0.7,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A9"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "US DOE issued a $1.9B loan to restart Duane Arnold nuclear plant for Google."
+  },
+  {
+    "id": "rss-the_hindu-321c4464458b",
+    "title": "80 ‘garbage-free’ spots campaign yields impressive results, says MCC",
+    "main": "INDIA",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R12"
+    ],
+    "tighter_penalties": [],
+    "reason": "Sub-state municipal sanitation drive results."
+  },
+  {
+    "id": "rss-phys_org-b0664f97d837",
+    "title": "Do black holes grow along with the universe? A new study says yes",
+    "main": "SCIENCE",
+    "score": 0.45,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A3",
+      "A4",
+      "A6",
+      "A8"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Theoretical physics preprint on black holes expanding with the universe."
+  },
+  {
+    "id": "rss-livemint-9da1c6cb468f",
+    "title": "PM Modi urges fintech sector to expand beyond UPI into savings, credit and insurance",
+    "main": "INDIA",
+    "score": 0.4,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A3",
+      "A4",
+      "A6"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1",
+      "T3"
+    ],
+    "reason": "Aspirational policy urging fintech expansion without binding rules."
+  },
+  {
+    "id": "rss-engadget-753fda0f6282",
+    "title": "Nintendo is releasing a 40th anniversary Legend of Zelda Switch 2 on October 29",
+    "main": "TECH",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5"
+    ],
+    "tighter_penalties": [],
+    "reason": "Corporate product hardware launch announcement."
+  },
+  {
+    "id": "rss-times_of_india-ce96adebdad9",
+    "title": "Putin, Trump hold 1-hour call after visit by US envoys to broker Russia-Ukraine peace",
+    "main": "WORLD",
+    "score": 0.7,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A10"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Putin and Trump held a phone call following US envoy visits regarding Ukraine."
+  },
+  {
+    "id": "rss-bbc_world-0d9d05ed72ed",
+    "title": "Carney says US trade war 'will come at a cost' as Canada strikes back on tariffs",
+    "main": "WORLD",
+    "score": 0.65,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A10"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Canada enacted retaliatory tariffs against the US amid trade tensions."
+  },
+  {
+    "id": "rss-dw_top-6e638f723785",
+    "title": "50 years after his death, Mao still shapes China",
+    "main": "WORLD",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R8"
+    ],
+    "tighter_penalties": [],
+    "reason": "Historical retrospective opinion/analysis piece."
+  },
+  {
+    "id": "rss-cnbc_top-bab92c60bae2",
+    "title": "Qualcomm issues Amazon warrants to acquire $4 billion worth of chipmaker's stock as part of AI infrastructure deal",
+    "main": "BUSINESS",
+    "score": 0.7,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A9"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Qualcomm partnered with AWS for data centers and issued stock warrants."
+  },
+  {
+    "id": "rss-huggingface_blog-4f420d1c5cd0",
+    "title": "Safety for Whom? Refusing the Right Subset of a Topic, Not the Whole Topic",
+    "main": "AI",
+    "score": 0.45,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A3",
+      "A4",
+      "A6",
+      "A8"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Academic research paper on LLM safety refusal techniques."
+  },
+  {
+    "id": "rss-nasa_breaking-e527f2e84f93",
+    "title": "1,000 Museum Visitors Dive Into NASA Sea Level Science on World Ocean Day",
+    "main": "SCIENCE",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R1"
+    ],
+    "tighter_penalties": [],
+    "reason": "Museum outreach event is a low-significance PR activity."
+  },
+  {
+    "id": "hn-49610538",
+    "title": "LibreOffice breaks download records after declaring it has no AI features",
+    "main": "TECH",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5"
+    ],
+    "tighter_penalties": [],
+    "reason": "Software download milestone with no regulatory or sector-wide policy impact."
+  },
+  {
+    "id": "rss-deepmind_blog-80d284f58871",
+    "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
+    "main": "WORLD",
+    "score": 0.75,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A4",
+      "A6",
+      "A8"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "DeepMind released AlphaGenome Atlas, a 1PB predictive map of DNA variations."
+  },
+  {
+    "id": "rss-wired-c054bc9da179",
+    "title": "Richard Kelly on Donnie Darko at 25: ‘It’s a Miracle That Any Movie Gets Made’",
+    "main": "TECH",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R3"
+    ],
+    "tighter_penalties": [],
+    "reason": "Anniversary re-release of a feature film."
+  },
+  {
+    "id": "rss-ars_technica-cd2259fb9258",
+    "title": "EV batteries last longer than drivers feared",
+    "main": "SCIENCE",
+    "score": 0.4,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A5",
+      "A6",
+      "A8"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Study shows EV batteries retain 90% capacity after 150,000 km."
+  },
+  {
+    "id": "rss-sciencedaily_top-23e53735586b",
+    "title": "Scientists discover a powerful new antivenom hidden in rattlesnake blood",
+    "main": "SCIENCE",
+    "score": 0.45,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A5",
+      "A6",
+      "A8"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "University of Maryland researchers discovered new antivenom in rattlesnake blood."
+  },
+  {
+    "id": "hn-49610059",
+    "title": "Show HN: Copperhead – Hardware as Fast as Software",
+    "main": "WORLD",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5"
+    ],
+    "tighter_penalties": [],
+    "reason": "Show HN product launch of an open-source tool."
+  },
+  {
+    "id": "rss-npr_news-02bb2cd8f139",
+    "title": "Australian social media users to be offered choice to opt out of algorithms",
+    "main": "WORLD",
+    "score": 0.72,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A4",
+      "A6",
+      "A10"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Australia proposed Digital Duty of Care legislation forcing algorithm opt-outs."
+  },
+  {
+    "id": "rss-openai_blog-aaada63e998e",
+    "title": "The Work Now Within Reach",
+    "main": "AI",
+    "score": 0.2,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A6",
+      "A8"
+    ],
+    "reject_hits": [
+      "R5"
+    ],
+    "tighter_penalties": [],
+    "reason": "OpenAI product introduction and infrastructure update."
+  },
+  {
+    "id": "rss-sciencedaily_top-d3f91b5fe3b1",
+    "title": "Ozempic and Wegovy may have an unexpected mental health benefit",
+    "main": "SCIENCE",
+    "score": 0.45,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A5",
+      "A6",
+      "A8"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Study links semaglutide use to a 21% lower risk of psychiatric hospitalization."
+  },
+  {
+    "id": "rss-sciencedaily_top-3f30205be9a2",
+    "title": "Giant new dinosaur discovered beneath construction site in Brazil",
+    "main": "WORLD",
+    "score": 0.4,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A5",
+      "A6"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Scientists identified a new dinosaur species in Brazil."
+  },
+  {
+    "id": "rss-new_scientist-28bef393b6eb",
+    "title": "Major breakthrough made on famous Millennium maths problem",
+    "main": "SCIENCE",
+    "score": 0.7,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A4",
+      "A6",
+      "A8"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "NYU and Anthropic researchers made progress on the Navier-Stokes equations."
+  },
+  {
+    "id": "rss-openai_blog-305f03a4aa6a",
+    "title": "Introducing ChatGPT Images 2.5",
+    "main": "AI",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5"
+    ],
+    "tighter_penalties": [],
+    "reason": "Corporate software feature update and product launch."
+  },
+  {
+    "id": "rss-mit_tech_review-01487a027bef",
+    "title": "This founder is teaching chips how to recycle (their energy)",
+    "main": "TECH",
+    "score": 0.4,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A5",
+      "A6",
+      "A8"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Startup Vaire Computing is developing energy-recycling reversible chips."
+  },
+  {
+    "id": "rss-stratechery-bc94618420a6",
+    "title": "Write Things Down",
+    "main": "AI",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R8"
+    ],
+    "tighter_penalties": [],
+    "reason": "Newsletter commentary and opinion on recent tech news."
+  },
+  {
+    "id": "rss-openai_blog-99c22bc85dd5",
+    "title": "Funding grants for new research into AI and teen development",
+    "main": "AI",
+    "score": 0.4,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A4",
+      "A6"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "OpenAI is committing $5M to fund research on AI and youth well-being."
+  },
+  {
+    "id": "rss-quanta_magazine-b6d52f5b7df0",
+    "title": "AI Has Solved One of Math’s $1 Million Millennium Prize Problems",
+    "main": "WORLD",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R11"
+    ],
+    "tighter_penalties": [],
+    "reason": "Fictional or unverified claim regarding solving a Millennium Prize problem."
+  },
+  {
+    "id": "hn-49605767",
+    "title": "Mistral raises €3B",
+    "main": "TECH",
+    "score": 0.65,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A4",
+      "A6",
+      "A9"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1",
+      "T2"
+    ],
+    "reason": "Mistral raised €3B in a Series D funding round at a €21B valuation."
+  },
+  {
+    "id": "rss-guardian_world-b23b07a35936",
+    "title": "Hijacking pirates exploit regional chaos to return to seas off Somalia",
+    "main": "WORLD",
+    "score": 0.7,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A4",
+      "A6",
+      "A10"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Somali pirate activity surged due to regional instability and shipping disruptions."
+  },
+  {
+    "id": "tldr-ai-35b250cd24bc",
+    "title": "The Chasm: The Shape of Unfinished AI Codebases",
+    "main": "AI",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R8"
+    ],
+    "tighter_penalties": [],
+    "reason": "Opinion piece analyzing AI-generated codebases."
+  },
+  {
+    "id": "tldr-webdev-902a50faec85",
+    "title": "Have the Frontier Labs Mixed Up AI Safety and Security?",
+    "main": "AI",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R8"
+    ],
+    "tighter_penalties": [],
+    "reason": "Opinion piece on AI safety vs security without institutional action."
+  },
+  {
+    "id": "tldr-design-3e3e4acfa3b3",
+    "title": "Good isn't good enough: beware the design middle ground",
+    "main": "TECH",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R8"
+    ],
+    "tighter_penalties": [],
+    "reason": "Design commentary on uniformity without actionable policy or metrics."
+  },
+  {
+    "id": "rss-openai_blog-9816f5beea82",
+    "title": "1Password increases engineering productivity 21% with Codex",
+    "main": "AI",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5"
+    ],
+    "tighter_penalties": [],
+    "reason": "Corporate PR tool adoption case study."
+  },
+  {
+    "id": "tldr-ai-24359d78d6df",
+    "title": "The Two MMLU Scores: What a Benchmark Name Does Not Fix",
+    "main": "WORLD",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R8"
+    ],
+    "tighter_penalties": [],
+    "reason": "Blog analysis of benchmark score discrepancies."
+  },
+  {
+    "id": "tldr-webdev-38747cdc870c",
+    "title": "Making Software Hurts Now",
+    "main": "WORLD",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R8"
+    ],
+    "tighter_penalties": [],
+    "reason": "Opinion piece on open source software creation friction."
+  },
+  {
+    "id": "tldr-infosec-9e7e60f46a8a",
+    "title": "N-able patches max-severity N-central flaw amid ongoing attacks",
+    "main": "WORLD",
+    "score": 0.72,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "N-able released an emergency hotfix for a max-severity remote code execution flaw."
+  },
+  {
+    "id": "tldr-design-090d3c885cf9",
+    "title": "Google Clock rolls out redesign of Timers with presets on Android",
+    "main": "WORLD",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5",
+      "R9"
+    ],
+    "tighter_penalties": [],
+    "reason": "UI component redesign for Google Clock."
+  },
+  {
+    "id": "tldr-tech-7cad8f83e2e4",
+    "title": "XPeng starts IRON humanoid robot production as Tesla Optimus stalls",
+    "main": "WORLD",
+    "score": 0.65,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6",
+      "A8"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "XPeng activated an automated production line for humanoid robots in Guangzhou."
+  },
+  {
+    "id": "tldr-tech-89b8c392caa0",
+    "title": "ChatGPT May Soon Learn Your Writing Style From Your Slack or Gmail",
+    "main": "AI",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5",
+      "R11"
+    ],
+    "tighter_penalties": [],
+    "reason": "Unreleased product feature test leak by OpenAI."
+  },
+  {
+    "id": "tldr-ai-b4f2d04ed91a",
+    "title": "Anthropic signed $517bn in compute agreements in past 11 months",
+    "main": "AI",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5"
+    ],
+    "tighter_penalties": [],
+    "reason": "Corporate financial analysis of compute leases."
+  },
+  {
+    "id": "tldr-webdev-974ad7676021",
+    "title": "From S3 to GPU in One Copy",
+    "main": "TECH",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5"
+    ],
+    "tighter_penalties": [],
+    "reason": "Open-source file format presentation at a conference."
+  },
+  {
+    "id": "tldr-infosec-8220e8f7b197",
+    "title": "Mathspace Discloses Data Breach Affecting Over 1M People",
+    "main": "TECH",
+    "score": 0.65,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Mathspace disclosed a data breach affecting over one million users."
+  },
+  {
+    "id": "tldr-design-b1072572a9c1",
+    "title": "Google's Gemini Spark Can Now Manage Your Google Photos Library",
+    "main": "AI",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5"
+    ],
+    "tighter_penalties": [],
+    "reason": "Consumer product feature rollout by Google."
+  },
+  {
+    "id": "tldr-ai-5d1ff213cdf2",
+    "title": "OpenAI prepares managed agents for DevDay 2026",
+    "main": "AI",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5",
+      "R11"
+    ],
+    "tighter_penalties": [],
+    "reason": "Expected product announcement preview."
+  },
+  {
+    "id": "tldr-webdev-0bcaf1db3896",
+    "title": "Exploring Speculative Decoding in vLLM on AMD GPUs",
+    "main": "AI",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R6"
+    ],
+    "tighter_penalties": [],
+    "reason": "Technical tutorial on speculative decoding optimization."
+  },
+  {
+    "id": "tldr-infosec-1d5f51ea0863",
+    "title": "PostGREShell: The database powering much of the internet had an open door for 12 years",
+    "main": "TECH",
+    "score": 0.72,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A5",
+      "A6"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Cyera Research discovered a critical security vulnerability in PostgreSQL."
+  },
+  {
+    "id": "tldr-design-d500358aea0a",
+    "title": "Atlas: A World Model for Spatial Intelligence",
+    "main": "AI",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5",
+      "R8"
+    ],
+    "tighter_penalties": [],
+    "reason": "AI model announcement and technical preview."
+  },
+  {
+    "id": "rss-openai_blog-671a9fed35e2",
+    "title": "OpenAI expands initiatives to support journalism from classrooms to newsrooms",
+    "main": "AI",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5"
+    ],
+    "tighter_penalties": [],
+    "reason": "Corporate philanthropy and education PR initiative."
+  },
+  {
+    "id": "hn-49603546",
+    "title": "Show HN: Stuxnet – A reconstructed source code of the infamous cyber-weapon",
+    "main": "TECH",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5"
+    ],
+    "tighter_penalties": [],
+    "reason": "Hacker News show-and-tell educational repository."
+  },
+  {
+    "id": "rss-phys_org-537a67bd9622",
+    "title": "AI governance model inspired by Pope Leo XIV aims to put ethics first",
+    "main": "AI",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R8"
+    ],
+    "tighter_penalties": [],
+    "reason": "Academic proposal for theoretical AI governance model."
+  },
+  {
+    "id": "rss-cnbc_top-3ed3f1b8d9c8",
+    "title": "Crashed Amazon cargo jet struck two vehicles, ended up 1,300 feet past runway, NTSB says",
+    "main": "US",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R9"
+    ],
+    "tighter_penalties": [],
+    "reason": "NTSB reports cargo jet accident with no regulatory changes, policy impact, or direct relevance to Bengaluru PMs."
+  },
+  {
+    "id": "rss-aljazeera-82408c9cc795",
+    "title": "Oil prices surge as US-Iran strikes intensify in Strait of Hormuz",
+    "main": "WORLD",
+    "score": 0.65,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A4",
+      "A6",
+      "A10"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "US-Iran strikes in Strait of Hormuz drove oil prices to a 6-week high, impacting global commodity markets."
+  },
+  {
+    "id": "rss-bbc_world-ff8b9ecefa5f",
+    "title": "Palestinian parents fear for children's lives at school as settler attacks grow",
+    "main": "WORLD",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R8"
+    ],
+    "tighter_penalties": [],
+    "reason": "Local school safety report focusing on parent fears rather than a concrete national policy shift or institutional decree."
+  },
+  {
+    "id": "rss-the_hindu-ef4833bf77d8",
+    "title": "Uttar Pradesh Congress president Ajay Rai, others detained as row over Saharanpur mosque demolition escalates",
+    "main": "INDIA",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R12"
+    ],
+    "tighter_penalties": [],
+    "reason": "Sub-state political detention over a local mosque demolition without broader state-level legal precedent."
+  },
+  {
+    "id": "rss-guardian_sport-1170d288db95",
+    "title": "Belichick denies he has lost control of UNC football program amid off-field turmoil",
+    "main": "SPORTS",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R3",
+      "R13"
+    ],
+    "tighter_penalties": [],
+    "reason": "College football coach press conference denials fall under sports non-major and off-field personal quotes."
+  },
+  {
+    "id": "rss-livemint-e66adc6dd893",
+    "title": "King Charles clarifies Harry, Meghan’s status after UK return: ‘Private citizens’",
+    "main": "WORLD",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R3"
+    ],
+    "tighter_penalties": [],
+    "reason": "Royal family status clarification is celebrity personal life news with no policy or civic impact."
+  },
+  {
+    "id": "rss-bbc_sport-890315c18e13",
+    "title": "Champions League returns - who are favourites and players to watch?",
+    "main": "SPORTS",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R13"
+    ],
+    "tighter_penalties": [],
+    "reason": "Champions League preview article is sports commentary without a tournament result or national record."
+  },
+  {
+    "id": "rss-engadget-6e7cc0a106f2",
+    "title": "Ethernet splitter vs switch: What's the difference and how do you use them?",
+    "main": "TECH",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R6"
+    ],
+    "tighter_penalties": [],
+    "reason": "Hardware comparison guide explaining Ethernet splitters versus switches."
+  },
+  {
+    "id": "rss-techcrunch-efa1ccac0b76",
+    "title": "Opaque recurrence, and other AI terms that you should probably know",
+    "main": "AI",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R6",
+      "R8"
+    ],
+    "tighter_penalties": [],
+    "reason": "AI glossary and definitions explainer article."
+  },
+  {
+    "id": "rss-dw_top-f7f00176aa39",
+    "title": "3 years on, Morocco earthquake victims still wait for help",
+    "main": "WORLD",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R4"
+    ],
+    "tighter_penalties": [],
+    "reason": "Human interest look back at earthquake victims awaiting help three years later with no new policy hook."
+  },
+  {
+    "id": "rss-techcrunch-d39775eb3c13",
+    "title": "A secret new Elizabeth Holmes documentary stuns Telluride",
+    "main": "BUSINESS",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R3",
+      "R5"
+    ],
+    "tighter_penalties": [],
+    "reason": "Film festival surprise screening documentary about Elizabeth Holmes."
+  },
+  {
+    "id": "rss-new_scientist-acd7b4491e27",
+    "title": "Super El Niño set to cause ‘terribly dangerous’ drought in the Amazon",
+    "main": "SCIENCE",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R7"
+    ],
+    "tighter_penalties": [],
+    "reason": "Weather forecast and El Niño drought projections without an active declared disaster evacuation."
+  },
+  {
+    "id": "rss-cnbc_top-9aa4c18b9d9b",
+    "title": "Oil prices rise to 6-week high after Iran and U.S. trade blows, Saudi Aramco facilities reportedly hit",
+    "main": "WORLD",
+    "score": 0.65,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A4",
+      "A6",
+      "A10"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "US-Iran strikes and Saudi facility hits pushed crude futures up 1.5% globally."
+  },
+  {
+    "id": "rss-dw_top-381944084669",
+    "title": "Werner Herzog: Germany's wild man of cinema is back",
+    "main": "WORLD",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R3"
+    ],
+    "tighter_penalties": [],
+    "reason": "Profile and career update on filmmaker Werner Herzog."
+  },
+  {
+    "id": "rss-livemint-ebf21eefde01",
+    "title": "LPG cylinder rules changed: Refill booking gap cut to 25 days for all consumers",
+    "main": "WORLD",
+    "score": 0.7,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A4",
+      "A6",
+      "A9"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [],
+    "reason": "Union ministry cut domestic LPG refill booking gap to 25 days nationwide."
+  },
+  {
+    "id": "rss-wired-e5c859ee6092",
+    "title": "Best Tech Labor Day Sales I’d Shop Myself (2026): Vacuums, Headphones, and More",
+    "main": "WORLD",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R6"
+    ],
+    "tighter_penalties": [],
+    "reason": "Shopping guide and holiday tech sales round-up."
+  },
+  {
+    "id": "rss-engadget-9454817a03a1",
+    "title": "Why is it illegal to use a Bluetooth jammer?",
+    "main": "WORLD",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R8"
+    ],
+    "tighter_penalties": [],
+    "reason": "Explanatory legal piece on why Bluetooth jammers are illegal."
+  },
+  {
+    "id": "rss-aljazeera-8efc71e72ac0",
+    "title": "Russia and North Korea deepen relations with symbolic road bridge",
+    "main": "WORLD",
+    "score": 0.65,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A4",
+      "A6",
+      "A10"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T2"
+    ],
+    "reason": "Russia and North Korea opened their first cross-border road bridge, deepening bilateral ties."
+  },
+  {
+    "id": "rss-new_scientist-460de0add925",
+    "title": "I made a free AI chatbot solve a decade-long maths problem in 13 minutes",
+    "main": "WORLD",
+    "score": 0.65,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A4",
+      "A6",
+      "A8"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "AI chatbot demonstrated a functional mathematical solution for a 6-player game in 13 minutes."
+  },
+  {
+    "id": "rss-bbc_sport-26c18a7930de",
+    "title": "Can Kane buck history and win Ballon d'Or?",
+    "main": "WORLD",
+    "score": 0.0,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R13"
+    ],
+    "tighter_penalties": [],
+    "reason": "Pre-shortlist sports speculation on whether Harry Kane can win the Ballon d'Or."
+  },
+  {
+    "id": "rss-techcrunch-6d3d73de1016",
+    "title": "What we expect from the upcoming Apple launch",
+    "main": "WORLD",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5"
+    ],
+    "tighter_penalties": [],
+    "reason": "Corporate product launch and routine announcement."
+  },
+  {
+    "id": "rss-times_of_india-dbe36380a9a4",
+    "title": "'Insulting label': In a first, Rahul responds to PM Modi's 'Dimagi Naxal' attack",
+    "main": "WORLD",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R8"
+    ],
+    "tighter_penalties": [],
+    "reason": "Political rhetoric and commentary without institutional decision."
+  },
+  {
+    "id": "rss-verge-bfa1e2ff4d01",
+    "title": "EcoFlow makes the miniature power station even smaller",
+    "main": "WORLD",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5"
+    ],
+    "tighter_penalties": [],
+    "reason": "Consumer hardware release and corporate marketing."
+  },
+  {
+    "id": "rss-wired-cdd41d34bf6b",
+    "title": "The 57 Best Deals From the REI Labor Day Sale",
+    "main": "BUSINESS",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R6"
+    ],
+    "tighter_penalties": [],
+    "reason": "Shopping guide and retail sale listicle."
+  },
+  {
+    "id": "rss-npr_news-fb0415e1ba78",
+    "title": "As Nepal identifies those killed in the floods, questions grow over China's reporting",
+    "main": "WORLD",
+    "score": 0.35,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A4",
+      "A6"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Foreign diplomatic reporting with low direct relevance to Bengaluru PM."
+  },
+  {
+    "id": "rss-times_of_india-0914766f402e",
+    "title": "Make AI-merica Great Again: Meme Lord Trump’s digital feed goes off rails again",
+    "main": "US",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R3",
+      "R8"
+    ],
+    "tighter_penalties": [],
+    "reason": "Politician social media activity and commentary."
+  },
+  {
+    "id": "rss-mit_tech_review-a6caba0ee695",
+    "title": "The Download: the hunt for underground hydrogen and more rogue OpenAI agents",
+    "main": "WORLD",
+    "score": 0.4,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A6",
+      "A8"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Commercial rocket launch in Europe lacks direct PM actionability."
+  },
+  {
+    "id": "rss-wired-62e0d1a5750f",
+    "title": "Two of the Universe's Great Mysteries May Have Their Own Dimension",
+    "main": "SCIENCE",
+    "score": 0.45,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A6",
+      "A8"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Astronomical research paper update, lacks immediate product utility."
+  },
+  {
+    "id": "rss-npr_news-a41a558b66e4",
+    "title": "5 dead after crash at Miami Airport. And, Germany's far-right wins state election",
+    "main": "US",
+    "score": 0.3,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A4",
+      "A6"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1",
+      "T2"
+    ],
+    "reason": "Accident report without broader systemic policy consequence."
+  },
+  {
+    "id": "rss-ars_technica-d1f74a46c409",
+    "title": "The complex corporate web behind a $3.2 billion AI data center",
+    "main": "WORLD",
+    "score": 0.65,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A6",
+      "A8"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [],
+    "reason": "Data center fire exposes municipal emergency preparedness gaps."
+  },
+  {
+    "id": "rss-guardian_world-d76b92676a15",
+    "title": "Weather tracker: Typhoon Saudel causes mass evacuations in south-east China",
+    "main": "WORLD",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R7"
+    ],
+    "tighter_penalties": [],
+    "reason": "Weather disaster report without direct domestic policy update."
+  },
+  {
+    "id": "rss-guardian_sport-c68fe3ddf817",
+    "title": "Will hordes of influencers, weed smokers and mid-point talkers bring down the US Open?",
+    "main": "WORLD",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R8"
+    ],
+    "tighter_penalties": [],
+    "reason": "Sports commentary and opinion piece."
+  },
+  {
+    "id": "hn-49594878",
+    "title": "LG smart TVs caught logging audio with screen off and snooping on local devices",
+    "main": "TECH",
+    "score": 0.7,
+    "band": "accept",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A3",
+      "A4",
+      "A6",
+      "A8"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [],
+    "reason": "LG TVs caught logging audio and data, triggering privacy scrutiny."
+  },
+  {
+    "id": "rss-nasa_breaking-baa2998618f1",
+    "title": "APOD: 2026 September 7 – The Pelican Nebula in Gas, Dust, and Stars",
+    "main": "WORLD",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R1"
+    ],
+    "tighter_penalties": [],
+    "reason": "Astronomy picture of the day."
+  },
+  {
+    "id": "hn-49593563",
+    "title": "Keep Our Servers Running",
+    "main": "TECH",
+    "score": 0.4,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A6"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Non-profit fundraising campaign for infrastructure preservation."
+  },
+  {
+    "id": "hn-49592840",
+    "title": "Show HN: GET Together – A social network where you don't need POST to Post",
+    "main": "TECH",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5"
+    ],
+    "tighter_penalties": [],
+    "reason": "Hobbyist software project showcase."
+  },
+  {
+    "id": "tldr-ai-2464e6d7c658",
+    "title": "GPT‑6 Astra on robotic manipulation",
+    "main": "AI",
+    "score": 0.45,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A6",
+      "A8"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "AI model robotic manipulation benchmark evaluation."
+  },
+  {
+    "id": "tldr-webdev-20c704a97c5a",
+    "title": "Portal by Spotify Cut My Claude Code Token Usage by 90%",
+    "main": "TECH",
+    "score": 0.1,
+    "band": "reject",
+    "accept_hits": [],
+    "reject_hits": [
+      "R5"
+    ],
+    "tighter_penalties": [],
+    "reason": "Developer tool review and cost optimization tip."
+  },
+  {
+    "id": "tldr-design-82fbea008377",
+    "title": "Introducing Solaris",
+    "main": "AI",
+    "score": 0.4,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A6",
+      "A8"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T1"
+    ],
+    "reason": "Early-stage AI model architecture announcement."
+  },
+  {
+    "id": "rss-openai_blog-e02ae19def6b",
+    "title": "Supporting independent journalism in Ukraine",
+    "main": "AI",
+    "score": 0.5,
+    "band": "reject",
+    "accept_hits": [
+      "A1",
+      "A2",
+      "A4",
+      "A6"
+    ],
+    "reject_hits": [],
+    "tighter_penalties": [
+      "T3"
+    ],
+    "reason": "OpenAI partnership initiative with Ukrainian press publishers."
+  }
+]
