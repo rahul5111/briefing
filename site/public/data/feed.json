@@ -4192,46 +4192,6 @@
       "audio_verdict": "unchecked"
     },
     {
-      "id": "rss-ars_technica-d1f74a46c409",
-      "title": "The complex corporate web behind a $3.2 billion AI data center",
-      "summary": "Early in June, a fire broke out in an unfinished building at the Lake Mariner data center in Somerset, New York.\n\nThe fire exposed a lack of local emergency preparedness for the facility.\n\nFirefighters found no working alarm and no suppression system.\n\nThey also found three dead hydrants.\n\nLegally mandated safety documents reportedly burned in the blaze.\n\nMatisz noted it has been a difficult situation.\n\nHe stated he wasn't sure what to think about the claim that the safety sheets burned in the fire.\n\nThe site sits on a former coal mine on Lake Ontario.\n\nIt is a three point two billion dollar campus.\n\nThe project represents one of the largest artificial intelligence data center buildouts in New York.\n\nArtificial intelligence is spelled A. I.\n\nThe project involves multiple stakeholders with a complex corporate structure.\n\nTeraWulf owns and operates the data center.\n\nThe company uses land leased from a company owned by its own chief executive officer.\n\nFluidstack is set to run the center.\n\nFluidstack is based in the United Kingdom.\n\nGoogle holds warrants for a future fourteen percent equity stake.\n\nGoogle has agreed to guarantee Fluidstack’s lease payments.\n\nAnthropic is among the artificial intelligence companies whose compute demand the facility is built to serve.",
-      "main": "WORLD",
-      "sub": "Society & Culture",
-      "category": "WORLD",
-      "subcategory": "Society & Culture",
-      "sources": [
-        {
-          "name": "ars_technica",
-          "url": "https://arstechnica.com/features/2026/09/the-ai-data-center-boom-is-causing-new-accountability-problems/",
-          "domain": "arstechnica.com",
-          "added_at": "2026-09-07T17:04:06.977269+00:00"
-        }
-      ],
-      "source": "ars_technica",
-      "source_url": "https://arstechnica.com/features/2026/09/the-ai-data-center-boom-is-causing-new-accountability-problems/",
-      "source_domain": "arstechnica.com",
-      "source_permalink": "https://arstechnica.com/features/2026/09/the-ai-data-center-boom-is-causing-new-accountability-problems/",
-      "score": 100,
-      "author": "Petala Ironcloud",
-      "published_at": "2026-09-07T17:04:06.977269+00:00",
-      "created_at_ts": 1788778803,
-      "audio_path": "audio/2026-09-07/rss-ars_technica-d1f74a46c409-the-complex-corporate-web-behind-a-3-2-billion-ai-data-cente.mp3",
-      "word_count": 205,
-      "estimated_duration_s": 82,
-      "image_url": "https://cdn.arstechnica.net/wp-content/uploads/2026/08/LakeMariner-1152x648.png",
-      "location": {
-        "name": "Washington",
-        "country": "United States",
-        "lat": 38.9072,
-        "lng": -77.0369
-      },
-      "audio_bytes": 576072,
-      "audio_duration_s": 78.3,
-      "tts_chunks": 19,
-      "tts_voice": "am_liam",
-      "audio_verdict": "unchecked"
-    },
-    {
       "id": "hn-49594878",
       "title": "LG smart TVs caught logging audio with screen off and snooping on local devices",
       "summary": "A one hundred thirty-five minute video published by Gamers Nexus reveals a major privacy issue. Retail L. G. O. L. E. D. television models sweep home networks and log microphone audio. These sets continue these actions even while appearing to be powered down in standby mode.\n\nSteve of Gamers Nexus conducted the testing alongside Level1Techs and independent security researchers. Network packet captures using Wi-Fi Shark showed the televisions actively scanning local area networks for unrelated hardware like phones and smartwatches. The sets also gather internal I. P. addresses and neighboring Wi-Fi network names alongside signal strengths and location data.\n\nThis collected data feeds directly into L. G. Ad Solutions, which is the targeted advertising arm of the company. L. G. claims roughly two hundred sixteen million smart T. V. sales globally. Their ad division states it has access to three hundred sixty-three million secondary addressable devices in the United States alone by tracking other hardware on the same network.\n\nThe sets also run Automated Content Recognition. This software samples on screen audio and video into digital fingerprints to log what users watch across all inputs. During bench tests, researchers found the T. V. could capture clean microphone audio while the screen looked powered down.\n\nWhen disconnected from Ethernet, the set continued saving voice input locally. It then uploaded the stored files once network access was restored. Because the televisions use broad network listeners and data sweeps right out of the box, the team made a clear recommendation. They suggest disconnecting L. G. sets from the internet and using external streaming devices instead. L. G. has not commented on the findings.",
@@ -4272,5 +4232,5 @@
       "audio_verdict": "unchecked"
     }
   ],
-  "updated_at": "2026-09-14T16:21:08.172053+00:00"
+  "updated_at": "2026-09-14T17:09:45.485163+00:00"
 }
