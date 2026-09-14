@@ -52,9 +52,10 @@ sources:
     url: https://www.technologyreview.com/feed/
     lookback_hours: 168
     max_items: 15
-  - name: the_batch
+  # B-05: original the_batch RSS 404'd; GN proxy is the only live path.
+  - name: the_batch_gn
     type: rss
-    url: https://www.deeplearning.ai/the-batch/feed/
+    url: "https://news.google.com/rss/search?q=when:7d+site:deeplearning.ai/the-batch&hl=en-US&gl=US&ceid=US:en"
     lookback_hours: 168
     max_items: 10
 
@@ -100,6 +101,15 @@ sources:
     url: https://www.platformer.news/feed
     lookback_hours: 168
     max_items: 10
+
+  # B-06: Techmeme — meta-aggregator surfaces paywalled tech scoops in
+  # its own headline+snippet, so we get the signal without needing the
+  # paywalled body.
+  - name: techmeme
+    type: rss
+    url: https://www.techmeme.com/feed.xml
+    lookback_hours: 48
+    max_items: 15
 
   # Tier C — community
   - name: hackernews
@@ -186,11 +196,18 @@ sources:
     url: https://www.sciencedaily.com/rss/top.xml
     lookback_hours: 168
     max_items: 15
+  # B-05: sciencedaily reorganised RSS paths — matter_energy → computers_math.
   - name: sciencedaily_tech
     type: rss
-    url: https://www.sciencedaily.com/rss/matter_energy/computer_science.xml
+    url: https://www.sciencedaily.com/rss/computers_math/computer_science.xml
     lookback_hours: 168
     max_items: 15
+  # B-06: bonus add — dedicated AI feed under the reorg.
+  - name: sciencedaily_ai
+    type: rss
+    url: https://www.sciencedaily.com/rss/computers_math/artificial_intelligence.xml
+    lookback_hours: 168
+    max_items: 12
 
   # ═══════════════════════════════════════════════════════════════════
   # SPORTS — Major Events · Badminton · T&F · Cricket · Tennis · etc.
@@ -230,11 +247,18 @@ sources:
   # ═══════════════════════════════════════════════════════════════════
 
   # Tier A — mainline political desks
+  # B-05: politics08.xml retired; live feed is rss.politico.com host.
   - name: politico
     type: rss
-    url: https://www.politico.com/rss/politics08.xml
+    url: https://rss.politico.com/politics-news.xml
     lookback_hours: 96
     max_items: 20
+  # B-06: bonus add — congressional coverage.
+  - name: politico_congress
+    type: rss
+    url: https://www.politico.com/rss/congress.xml
+    lookback_hours: 96
+    max_items: 12
   - name: npr_news
     type: rss
     url: https://feeds.npr.org/1001/rss.xml
@@ -355,6 +379,13 @@ sources:
     lookback_hours: 168
     max_items: 15
 
+  # B-06: additional WORLD outlets — global tech + geopolitics.
+  - name: rest_of_world                # global tech coverage
+    type: rss
+    url: https://restofworld.org/feed/latest/
+    lookback_hours: 168
+    max_items: 12
+
   # ═══════════════════════════════════════════════════════════════════
   # BUSINESS — M&A · Markets · Leadership · Finance · Regulation · Retail
   # ═══════════════════════════════════════════════════════════════════
@@ -365,21 +396,10 @@ sources:
     url: https://news.google.com/rss/search?q=when:2d+site:reuters.com+business&hl=en-US&gl=US&ceid=US:en
     lookback_hours: 48
     max_items: 20
-  - name: wsj_gn
-    type: rss
-    url: https://news.google.com/rss/search?q=when:2d+site:wsj.com&hl=en-US&gl=US&ceid=US:en
-    lookback_hours: 48
-    max_items: 15
-  - name: bloomberg_gn
-    type: rss
-    url: https://news.google.com/rss/search?q=when:2d+site:bloomberg.com&hl=en-US&gl=US&ceid=US:en
-    lookback_hours: 48
-    max_items: 15
-  - name: ft_gn
-    type: rss
-    url: https://news.google.com/rss/search?q=when:2d+site:ft.com&hl=en-US&gl=US&ceid=US:en
-    lookback_hours: 48
-    max_items: 15
+  # B-07: WSJ / Bloomberg / FT hard-paywalled — extract fails, refine can
+  # only work from headline. Dropped in favour of Yahoo Finance +
+  # CNBC + Semafor which cover the same beats with full body access.
+  # (Original entries deleted 2026-09-14 per BACKLOG B-07.)
   - name: marketwatch
     type: rss
     url: http://feeds.marketwatch.com/marketwatch/topstories/
@@ -390,6 +410,22 @@ sources:
     url: https://www.cnbc.com/id/100003114/device/rss/rss.html
     lookback_hours: 96
     max_items: 20
+  # B-06: substitutes for the dropped WSJ / Bloomberg / FT / TheInformation.
+  - name: cnbc_business                # covers Bloomberg / WSJ scoops with attribution
+    type: rss
+    url: https://www.cnbc.com/id/10001147/device/rss/rss.html
+    lookback_hours: 96
+    max_items: 15
+  - name: yahoo_finance                # carries WSJ / Bloomberg wire syndication
+    type: rss
+    url: https://finance.yahoo.com/news/rssindex
+    lookback_hours: 48
+    max_items: 15
+  - name: semafor                      # edited desk, ex-Bloomberg/NYT staff
+    type: rss
+    url: https://www.semafor.com/rss.xml
+    lookback_hours: 168
+    max_items: 15
   - name: google_news_business
     type: rss
     url: https://news.google.com/rss/headlines/section/topic/BUSINESS?hl=en-US&gl=US&ceid=US:en
@@ -489,9 +525,10 @@ sources:
     url: http://export.arxiv.org/rss/cs.CL
     lookback_hours: 48
     max_items: 10
-  - name: hf_daily_papers              # Tier B — HuggingFace mirror
+  # B-05: jamesg.blog mirror is 502'd; use GN proxy against huggingface.co/papers.
+  - name: hf_daily_papers_gn           # Tier B — HuggingFace papers via GN
     type: rss
-    url: https://jamesg.blog/hf-papers.xml
+    url: "https://news.google.com/rss/search?q=when:2d+site:huggingface.co/papers&hl=en-US&gl=US&ceid=US:en"
     lookback_hours: 48
     max_items: 12
   - name: anthropic_research_gn        # Tier A — via GN (no direct RSS)
@@ -513,16 +550,14 @@ sources:
     url: "https://news.google.com/rss/search?q=when:2d+site:theprint.in&hl=en-IN&gl=IN&ceid=IN:en"
     lookback_hours: 48
     max_items: 15
-  - name: moneycontrol_latest          # Tier A — Indian markets/economy
+  # B-05: moneycontrol RSS is 403 bot-blocked (Cloudflare) even with
+  # browser UA. GN proxy is the only reliable path; single entry
+  # replaces both `latest` and `business` since GN gathers both.
+  - name: moneycontrol_gn              # Tier A — Indian markets/economy via GN
     type: rss
-    url: https://www.moneycontrol.com/rss/latestnews.xml
-    lookback_hours: 96
-    max_items: 15
-  - name: moneycontrol_business
-    type: rss
-    url: https://www.moneycontrol.com/rss/business.xml
-    lookback_hours: 96
-    max_items: 12
+    url: "https://news.google.com/rss/search?q=when:2d+site:moneycontrol.com&hl=en-IN&gl=IN&ceid=IN:en"
+    lookback_hours: 48
+    max_items: 18
   - name: business_standard
     type: rss
     url: https://www.business-standard.com/rss/latest.rss
@@ -575,11 +610,9 @@ sources:
   # ═══════════════════════════════════════════════════════════════════
   # ENTERPRISE SaaS (via GN proxy — The Information is paywalled RSS)
   # ═══════════════════════════════════════════════════════════════════
-  - name: the_information_gn
-    type: rss
-    url: "https://news.google.com/rss/search?q=when:2d+site:theinformation.com&hl=en-US&gl=US&ceid=US:en"
-    lookback_hours: 48
-    max_items: 10
+  # B-07: The Information hard-paywalled; extract fails. Dropped in
+  # favour of Semafor + Rest of World which cover the same beat with
+  # full body access. (Original entry deleted 2026-09-14.)
 
   # ═══════════════════════════════════════════════════════════════════
   # Gmail newsletters — disabled until user completes OAuth

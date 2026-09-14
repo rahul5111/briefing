@@ -1,13 +1,39 @@
 """Extract article body + cover image from a URL using trafilatura."""
 from __future__ import annotations
+import json
 import re
-from urllib.parse import urljoin
+import datetime as _dt
+from pathlib import Path
+from urllib.parse import urljoin, urlparse
 import requests
 import trafilatura
 
 
 SKIP_DOMAINS = ("youtube.com", "youtu.be", "vimeo.com", "twitter.com", "x.com")
 SKIP_SUFFIXES = (".pdf", ".zip", ".mp4", ".mov", ".jpg", ".png", ".gif")
+
+
+# B-08: log extraction failures so we can see the paywalled-body rate over
+# time. Written to data/extraction_failures/YYYY-MM.jsonl (monthly-rotated
+# per BACKLOG B-21 conventions). Best-effort — logging a failure must
+# never fail the pipeline.
+def _log_failure(url: str, reason: str, source_hint: str | None = None) -> None:
+    try:
+        root = Path(__file__).resolve().parent.parent
+        month = _dt.datetime.utcnow().strftime("%Y-%m")
+        out = root / "data" / "extraction_failures" / f"{month}.jsonl"
+        out.parent.mkdir(parents=True, exist_ok=True)
+        row = {
+            "ts": _dt.datetime.utcnow().isoformat(timespec="seconds") + "Z",
+            "url": url,
+            "domain": urlparse(url).netloc.lower(),
+            "reason": reason,
+            "source_hint": source_hint,
+        }
+        with out.open("a", encoding="utf-8") as f:
+            f.write(json.dumps(row, ensure_ascii=False) + "\n")
+    except Exception:
+        pass
 
 _HEADERS = {"User-Agent": "briefing/1.0 (personal news aggregator)"}
 _OG_IMAGE = re.compile(
@@ -45,6 +71,7 @@ def extract(url: str) -> str | None:
     try:
         downloaded = trafilatura.fetch_url(url, no_ssl=True)
         if not downloaded:
+            _log_failure(url, "fetch_url_empty")
             return None
         text = trafilatura.extract(
             downloaded,
@@ -53,12 +80,15 @@ def extract(url: str) -> str | None:
             favor_precision=True,
         )
         if not text:
+            _log_failure(url, "no_extractable_content")
             return None
         text = re.sub(r"\n{3,}", "\n\n", text).strip()
         if len(text.split()) < 120:
+            _log_failure(url, f"body_too_short_{len(text.split())}w")
             return None
         return text
-    except Exception:
+    except Exception as e:
+        _log_failure(url, f"exception_{type(e).__name__}")
         return None
 
 
