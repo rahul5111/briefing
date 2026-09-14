@@ -397,6 +397,191 @@ sources:
     max_items: 20
 
   # ═══════════════════════════════════════════════════════════════════
+  # POSITIVE / UPLIFT — solutions journalism, progress, human bright spots
+  # No home in the 8-cat taxonomy today. Classifier will tag these as
+  # `tone: uplift` and route to WORLD/Society & Culture until a
+  # first-class subcategory ships.
+  # ═══════════════════════════════════════════════════════════════════
+  - name: reasons_to_be_cheerful       # Tier B — edited solutions journalism
+    type: rss
+    url: https://reasonstobecheerful.world/feed/
+    lookback_hours: 168
+    max_items: 10
+  - name: positive_news                # Tier B — UK edited
+    type: rss
+    url: https://www.positive.news/feed/
+    lookback_hours: 168
+    max_items: 10
+  - name: good_news_network            # Tier C — daily volume, higher churn
+    type: rss
+    url: https://www.goodnewsnetwork.org/feed/
+    lookback_hours: 168
+    max_items: 12
+  - name: optimist_daily               # Tier C — solutions
+    type: rss
+    url: https://www.optimistdaily.com/feed/
+    lookback_hours: 168
+    max_items: 10
+
+  # ═══════════════════════════════════════════════════════════════════
+  # CRICKET (extra depth) — GN proxies for espncricinfo + ICC + regional
+  # ═══════════════════════════════════════════════════════════════════
+  - name: cricinfo_india_gn
+    type: rss
+    url: "https://news.google.com/rss/search?q=when:2d+site:espncricinfo.com&hl=en-IN&gl=IN&ceid=IN:en"
+    lookback_hours: 48
+    max_items: 20
+  - name: icc_news_gn
+    type: rss
+    url: "https://news.google.com/rss/search?q=when:7d+site:icc-cricket.com&hl=en-US&gl=US&ceid=US:en"
+    lookback_hours: 168
+    max_items: 12
+  - name: news18_cricket_gn
+    type: rss
+    url: "https://news.google.com/rss/search?q=when:2d+site:news18.com+cricket&hl=en-IN&gl=IN&ceid=IN:en"
+    lookback_hours: 48
+    max_items: 12
+
+  # ═══════════════════════════════════════════════════════════════════
+  # BADMINTON — direct feed dead; GN proxy + Asian federation
+  # ═══════════════════════════════════════════════════════════════════
+  - name: bwf_gn
+    type: rss
+    url: "https://news.google.com/rss/search?q=when:7d+badminton+BWF&hl=en-US&gl=US&ceid=US:en"
+    lookback_hours: 168
+    max_items: 15
+  - name: badminton_asia
+    type: rss
+    url: https://www.badmintonasia.org/feed/
+    lookback_hours: 168
+    max_items: 10
+
+  # ═══════════════════════════════════════════════════════════════════
+  # F1 / MOTORSPORT
+  # ═══════════════════════════════════════════════════════════════════
+  - name: autosport_f1
+    type: rss
+    url: https://www.autosport.com/rss/feed/f1
+    lookback_hours: 168
+    max_items: 20
+  - name: formula1_latest
+    type: rss
+    url: https://www.formula1.com/content/fom-website/en/latest/all.xml
+    lookback_hours: 168
+    max_items: 10
+  - name: the_race
+    type: rss
+    url: https://www.the-race.com/feed/
+    lookback_hours: 168
+    max_items: 15
+
+  # ═══════════════════════════════════════════════════════════════════
+  # AI RESEARCH — arXiv + curated tech-desks (not PR-shaped)
+  # arXiv volume is capped hard; only cs.LG + cs.CL.
+  # ═══════════════════════════════════════════════════════════════════
+  - name: arxiv_cs_lg                  # Tier A — daily ML papers
+    type: rss
+    url: http://export.arxiv.org/rss/cs.LG
+    lookback_hours: 48
+    max_items: 12
+  - name: arxiv_cs_cl                  # Tier A — NLP / language
+    type: rss
+    url: http://export.arxiv.org/rss/cs.CL
+    lookback_hours: 48
+    max_items: 10
+  - name: hf_daily_papers              # Tier B — HuggingFace mirror
+    type: rss
+    url: https://jamesg.blog/hf-papers.xml
+    lookback_hours: 48
+    max_items: 12
+  - name: anthropic_research_gn        # Tier A — via GN (no direct RSS)
+    type: rss
+    url: "https://news.google.com/rss/search?q=when:14d+site:anthropic.com/research&hl=en-US&gl=US&ceid=US:en"
+    lookback_hours: 336
+    max_items: 8
+  - name: alignment_forum              # Tier A — safety/alignment
+    type: rss
+    url: https://www.alignmentforum.org/feed.xml
+    lookback_hours: 168
+    max_items: 8
+
+  # ═══════════════════════════════════════════════════════════════════
+  # INDIAN REGIONAL / BUSINESS
+  # ═══════════════════════════════════════════════════════════════════
+  - name: theprint_gn
+    type: rss
+    url: "https://news.google.com/rss/search?q=when:2d+site:theprint.in&hl=en-IN&gl=IN&ceid=IN:en"
+    lookback_hours: 48
+    max_items: 15
+  - name: moneycontrol_latest          # Tier A — Indian markets/economy
+    type: rss
+    url: https://www.moneycontrol.com/rss/latestnews.xml
+    lookback_hours: 96
+    max_items: 15
+  - name: moneycontrol_business
+    type: rss
+    url: https://www.moneycontrol.com/rss/business.xml
+    lookback_hours: 96
+    max_items: 12
+  - name: business_standard
+    type: rss
+    url: https://www.business-standard.com/rss/latest.rss
+    lookback_hours: 96
+    max_items: 20
+  - name: business_line_gn
+    type: rss
+    url: "https://news.google.com/rss/search?q=when:2d+site:thehindubusinessline.com&hl=en-IN&gl=IN&ceid=IN:en"
+    lookback_hours: 48
+    max_items: 12
+  - name: news18_india_gn
+    type: rss
+    url: "https://news.google.com/rss/search?q=when:2d+site:news18.com&hl=en-IN&gl=IN&ceid=IN:en"
+    lookback_hours: 48
+    max_items: 12
+
+  # ═══════════════════════════════════════════════════════════════════
+  # LONG-FORM — weekly cadence, high depth
+  # ═══════════════════════════════════════════════════════════════════
+  - name: aeon                         # Tier A — essays
+    type: rss
+    url: https://aeon.co/feed.rss
+    lookback_hours: 336
+    max_items: 8
+  - name: longreads                    # Tier A — curated long-form
+    type: rss
+    url: https://longreads.com/feed/
+    lookback_hours: 168
+    max_items: 8
+  - name: nautilus                     # Tier A — science long-form
+    type: rss
+    url: https://nautil.us/feed/
+    lookback_hours: 336
+    max_items: 8
+
+  # ═══════════════════════════════════════════════════════════════════
+  # MARATHONS / ENDURANCE
+  # ═══════════════════════════════════════════════════════════════════
+  - name: runnersworld_news
+    type: rss
+    url: https://www.runnersworld.com/rss/news.xml
+    lookback_hours: 168
+    max_items: 15
+  - name: letsrun
+    type: rss
+    url: https://www.letsrun.com/feed/
+    lookback_hours: 168
+    max_items: 12
+
+  # ═══════════════════════════════════════════════════════════════════
+  # ENTERPRISE SaaS (via GN proxy — The Information is paywalled RSS)
+  # ═══════════════════════════════════════════════════════════════════
+  - name: the_information_gn
+    type: rss
+    url: "https://news.google.com/rss/search?q=when:2d+site:theinformation.com&hl=en-US&gl=US&ceid=US:en"
+    lookback_hours: 48
+    max_items: 10
+
+  # ═══════════════════════════════════════════════════════════════════
   # Gmail newsletters — disabled until user completes OAuth
   # ═══════════════════════════════════════════════════════════════════
   - name: gmail_newsletters
