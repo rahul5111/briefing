@@ -317,6 +317,10 @@ def main() -> int:
             continue
 
         story = build_story(cand, refined.text, image_url)
+        # B-39: persist `stakes` on the story record so the UI can show
+        # it as the SCAN "what changed" one-liner. Empty string when the
+        # story failed the stakes check (`refined.thin`).
+        story["stakes"] = refined.stakes if not refined.thin else ""
         audio_path = config.DATA_DIR / story["audio_path"]
         print(f"  TTS -> {audio_path.name}")
         try:

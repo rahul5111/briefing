@@ -10,6 +10,9 @@ type Story = {
   id: string;
   title: string;
   summary: string;
+  // B-39: 12–24 word "what changed" line from refine layer 2a.
+  // Absent on legacy stories; render only when present.
+  stakes?: string;
   // Legacy single-string category (kept as fallback).
   category: string;
   // PLAN A2 — canonical taxonomy fields.
@@ -503,6 +506,12 @@ export default function Feed({ stories, cdnBase }: Props) {
                     </div>
                   </div>
                   <h2 className="card-title">{s.title}</h2>
+                  {s.stakes && (
+                    <p className="card-stakes" aria-label="What changed">
+                      <span className="card-stakes-arrow" aria-hidden="true">→</span>
+                      {s.stakes}
+                    </p>
+                  )}
                   <div className="card-sub">
                     <span className="card-source">{s.source_domain || s.source}</span>
                     <div className="card-actions">
@@ -545,6 +554,14 @@ export default function Feed({ stories, cdnBase }: Props) {
             </div>
           </section>
         )); })()}
+        {/* B-41: "You're caught up" affordance. Renders after the feed
+            grid when there are stories present, giving the reader an
+            explicit end-of-session cue. Complements the empty-plate
+            (shown when the filter has no matches). */}
+        <div className="caught-up-plate" role="status">
+          <div className="caught-up-headline">You're caught up.</div>
+          <div className="caught-up-note">Next fire · check back after the next cron run.</div>
+        </div>
       </div>
       )}
 

@@ -6,10 +6,20 @@ will too. If Whisper confuses a word, so will the listener.
 
 Also analyzes silence structure: verifies real pauses exist between sentences
 and no pause is longer than a natural paragraph break (a sign of trouble).
+
+B-20: default model upgraded from `tiny.en` to `distil-large-v3`. The
+old `tiny.en` had a ~8-12% WER floor on clean speech, so the observed
+p50=0.041 was dominated by transcriber noise, not synthesizer noise.
+`distil-large-v3` is ~5x faster than `medium.en` at similar accuracy,
+so this is a strict upgrade for the eval role. Override via
+`WHISPER_MODEL` env var if you need to A/B or roll back.
 """
 from __future__ import annotations
+import datetime as _dt
+import json
+import os
 import re
-from dataclasses import dataclass
+from dataclasses import asdict, dataclass
 from pathlib import Path
 import numpy as np
 import soundfile as sf
@@ -18,15 +28,60 @@ from . import normalize as _norm
 
 
 _whisper = None
+# B-20: model name env-overridable so we can roll back or A/B without a
+# code change. `distil-large-v3` is the default; falls back to
+# `tiny.en` only if explicitly set that way.
+_WHISPER_MODEL_NAME = os.environ.get("WHISPER_MODEL", "distil-large-v3")
+
+# B-21: WER history append target. Monthly-rotated (6-month in-repo
+# retention per BACKLOG). Written under data/audio_wer_history/.
+_ROOT_DIR = Path(__file__).resolve().parent.parent
+_WER_HISTORY_DIR = _ROOT_DIR / "data" / "audio_wer_history"
 
 
 def _get_whisper():
     global _whisper
     if _whisper is None:
         from faster_whisper import WhisperModel
-        # tiny.en runs in ~5s on M-series CPU for 90s of audio
-        _whisper = WhisperModel("tiny.en", device="cpu", compute_type="int8")
+        # distil-large-v3 uses int8 on CPU cleanly. int8_float16 offers
+        # marginally better quality but requires CUDA.
+        compute_type = "int8" if _WHISPER_MODEL_NAME.startswith("tiny") else "int8"
+        _whisper = WhisperModel(_WHISPER_MODEL_NAME, device="cpu", compute_type=compute_type)
     return _whisper
+
+
+def _append_wer_history(
+    story_id: str, voice: str, category: str, story_type: str,
+    duration_s: float, wer: float, cer: float,
+    substitutions: list[tuple[str, str]], verdict: str,
+) -> None:
+    """B-21: append one row to `data/audio_wer_history/YYYY-MM.jsonl`.
+
+    Best-effort — any exception is swallowed so we never fail a real
+    audio synth just because the history file couldn't be written.
+    Rotation to R2 for records >6 months is handled by pipeline/retention.
+    """
+    try:
+        _WER_HISTORY_DIR.mkdir(parents=True, exist_ok=True)
+        month = _dt.datetime.utcnow().strftime("%Y-%m")
+        out = _WER_HISTORY_DIR / f"{month}.jsonl"
+        row = {
+            "date": _dt.date.today().isoformat(),
+            "story_id": story_id,
+            "voice": voice,
+            "category": category,
+            "story_type": story_type,
+            "duration_s": round(duration_s, 1),
+            "wer": round(wer, 4),
+            "cer": round(cer, 4),
+            "subs": substitutions[:6],   # first 6 substitution pairs
+            "verdict": verdict,
+            "whisper_model": _WHISPER_MODEL_NAME,
+        }
+        with out.open("a", encoding="utf-8") as f:
+            f.write(json.dumps(row, ensure_ascii=False) + "\n")
+    except Exception:
+        pass
 
 
 @dataclass
@@ -193,7 +248,17 @@ def _analyze_silence(audio_path: Path) -> SilenceStats:
     )
 
 
-def validate(audio_path: Path, input_text: str) -> AudioValidation:
+def validate(
+    audio_path: Path,
+    input_text: str,
+    *,
+    story_id: str = "",
+    voice: str = "",
+    category: str = "",
+    story_type: str = "",
+) -> AudioValidation:
+    """Whisper round-trip validation. Extra kwargs are stored in the
+    B-21 WER history but do not affect the validation result."""
     model = _get_whisper()
     segments, info = model.transcribe(
         str(audio_path),
@@ -232,6 +297,14 @@ def validate(audio_path: Path, input_text: str) -> AudioValidation:
         verdict = "acceptable"
     else:
         verdict = "poor"
+
+    # B-21: append to WER history for weekly summarisation (P1 B-22).
+    _append_wer_history(
+        story_id=story_id, voice=voice, category=category,
+        story_type=story_type,
+        duration_s=duration, wer=wer, cer=cer,
+        substitutions=subs, verdict=verdict,
+    )
 
     return AudioValidation(
         duration_s=round(duration, 1),
