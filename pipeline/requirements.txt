@@ -15,3 +15,7 @@ google-auth==2.42.1
 google-auth-oauthlib==1.3.0
 google-api-python-client==2.192.0
 beautifulsoup4==4.13.5
+faster-whisper==1.1.0
+# B-16 Cloudflare R2 audio storage. Pipeline degrades to no-op if
+# R2_* env vars are absent, so this doesn't hard-block local dev.
+boto3==1.35.83

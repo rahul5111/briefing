@@ -201,11 +201,31 @@ def synth(text: str, out_path: Path, category: str = "default") -> dict:
     out_path.parent.mkdir(parents=True, exist_ok=True)
     sf.write(str(out_path), audio, sr, format="MP3")
 
+    # B-16: upload to Cloudflare R2 with post-PUT integrity check.
+    # No-op if credentials absent (transition state). Local MP3 stays
+    # in place either way — manifest path is a relative key that
+    # PUBLIC_CDN_BASE resolves against both local (/data/*) and R2
+    # (audio.briefing.<tld>/*).
+    from pipeline import storage
+    rel_key = str(out_path.relative_to(out_path.parents[len(out_path.parents) - 1]))
+    # More robust: strip the site/public/data/ prefix if present, so
+    # the R2 key is 'audio/2026-09-14/xxx.mp3'.
+    _prefix = "site/public/data/"
+    p = str(out_path)
+    if _prefix in p:
+        rel_key = p.split(_prefix, 1)[1]
+    r2_ok, r2_msg = storage.upload_r2(out_path, rel_key)
+    # r2_msg='no-credentials' is the expected pre-provisioning state.
+    # Any other message is a real failure and is logged to
+    # data/audits/r2_upload_failures-YYYY-MM.jsonl.
+
     return {
         "chunks_synthed": chunks_synthed,
         "duration_s": len(audio) / sr,
         "sample_rate": sr,
         "voice": voice,
+        "r2_upload": r2_ok,
+        "r2_message": r2_msg,
     }
 
 
