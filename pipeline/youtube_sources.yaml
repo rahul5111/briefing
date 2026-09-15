@@ -1,0 +1,80 @@
+# B-81 / B-109 YouTube secondary-explainer sources.
+#
+# Per docs/design-review-youtube-integration.md §4. New channels are added
+# by appending an entry — no code change. New entries default to
+# `enabled: false` until a week of shadow-run audits confirms quality.
+#
+# Role vocabulary (see §5):
+#   PRIMARY_SOURCE       — first-party reporting (unused for these channels).
+#   SECONDARY_EXPLAINER  — supplements existing stories with context/analysis.
+#   CURATION_SOURCE      — video discovery signal for events we haven't seen.
+#   INDEPENDENT_REPORTING— original journalism (reserved).
+
+youtube_sources:
+
+  - name: drishti_ias_english
+    enabled: false                 # flip after 1-week shadow eval
+    handle: "@DrishtiIASEnglish"
+    display_name: "Drishti IAS English"
+    source_roles:
+      - SECONDARY_EXPLAINER
+      - CURATION_SOURCE
+    strengths:
+      india_policy: high
+      governance: high
+      international_relations: high
+      economy: high
+      science: medium
+      technology: medium
+      sports: low
+    process_daily: true
+    process_weekly: true
+    process_monthly: true
+    min_video_duration_s: 300
+    max_video_duration_s: 5400
+    max_age_hours: 48
+    language: en
+    exclude_video_types:
+      - COURSE_PROMOTION
+      - LIVE_STREAM
+      - SHORT
+    excluded_title_patterns:
+      - "^Free Class"
+      - "Batch Announcement"
+      - "Live Doubt"
+    max_new_videos_per_run: 6
+    max_deep_analysis_per_run: 2
+    default_confidence: 0.70
+
+  - name: unacademy_ias_english
+    enabled: false                 # flip after 1-week shadow eval
+    handle: "@UnacademyIASEnglish"
+    display_name: "Unacademy IAS English"
+    source_roles:
+      - SECONDARY_EXPLAINER
+      - CURATION_SOURCE
+    strengths:
+      india_policy: high
+      law: high
+      economy: high
+      governance: high
+      international_relations: high
+      science: low
+      technology: low
+    process_daily: true
+    process_weekly: true
+    process_monthly: false
+    min_video_duration_s: 300
+    max_video_duration_s: 5400
+    max_age_hours: 48
+    language: en
+    exclude_video_types:
+      - COURSE_PROMOTION
+      - LIVE_STREAM
+      - SHORT
+    excluded_title_patterns:
+      - "^Educator"
+      - "Special Class"
+    max_new_videos_per_run: 6
+    max_deep_analysis_per_run: 2
+    default_confidence: 0.65
