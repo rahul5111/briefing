@@ -1,6 +1,44 @@
 {
   "stories": [
     {
+      "id": "rss-politico-4e5b8fab32d3",
+      "title": "Department of Investigation eyes NYPD disability pensions",
+      "summary": "A New York City Department of Investigation report found that the city police pension system is vulnerable to abuse. In fiscal year twenty twenty-five, the Police Pension Fund paid nine hundred thirty-five million dollars to officers who qualified for accident disability retirement, Politico reports. Department of Investigation Commissioner Nadia Shihata stated that the pension system assigns this distinction without considering an officer specific job duties. No New Yorker wants to stand in the way of N. Y. P. D. officers rightfully receiving accident benefits when they suffer injuries on the job and are unable to work, said Commissioner Shihata. Former Chief of Department John Chell was awarded a two hundred ninety-five thousand nine hundred nineteen dollar annual pension following an ankle injury sustained in twenty twenty-four. The report exposes widespread vulnerabilities in awarding lucrative disability pensions, leaving the system open to abuse and undermining public trust. Since twenty nineteen, the pension board has only reevaluated one pensioner under its required re-examination rules.",
+      "main": "WORLD",
+      "sub": "Society & Culture",
+      "category": "WORLD",
+      "subcategory": "Society & Culture",
+      "sources": [
+        {
+          "name": "politico",
+          "url": "https://www.politico.com/newsletters/new-york-playbook-pm/2026/09/15/department-of-investigation-eyes-nypd-disability-pensions-01078076",
+          "domain": "politico.com",
+          "added_at": "2026-09-15T22:15:02.654033+00:00"
+        }
+      ],
+      "source": "politico",
+      "source_url": "https://www.politico.com/newsletters/new-york-playbook-pm/2026/09/15/department-of-investigation-eyes-nypd-disability-pensions-01078076",
+      "source_domain": "politico.com",
+      "source_permalink": "https://www.politico.com/newsletters/new-york-playbook-pm/2026/09/15/department-of-investigation-eyes-nypd-disability-pensions-01078076",
+      "score": 100,
+      "author": "By Joe Anuta",
+      "published_at": "2026-09-15T22:15:02.654033+00:00",
+      "created_at_ts": 1789507722,
+      "audio_path": "audio/2026-09-15/rss-politico-4e5b8fab32d3-department-of-investigation-eyes-nypd-disability-pensions.mp3",
+      "word_count": 162,
+      "estimated_duration_s": 65,
+      "image_url": null,
+      "location": null,
+      "stakes": "The report exposes widespread vulnerabilities in awarding lucrative disability pensions, leaving the system open to abuse and undermining public trust.",
+      "audio_bytes": 490032,
+      "audio_duration_s": 62.5,
+      "tts_chunks": 7,
+      "tts_voice": "am_liam",
+      "audio_wer": 0.055,
+      "audio_verdict": "good",
+      "audio_notes": []
+    },
+    {
       "id": "rss-phys_org-5257a7ede063",
       "title": "Scientists create 'super ice' that is ten times stronger and far harder to shatter",
       "summary": "Scientists have developed a reinforced ice material called BioPykrete that is about ten times stronger than ordinary ice. Phys Org reports that the material can absorb roughly seventy times more energy before breaking. The research was led by Professor Ido Braslavsky of the Hebrew University Robert H. Smith Faculty of Agriculture, Food and Environment. The team created the new material by mixing ice with cellulose nanocrystals and adding an engineered chimeric protein. This protein acts as molecular glue to bind the ice and cellulose together at the molecular level. Laboratory tests showed that adding this engineered protein doubled both the strength and energy absorption compared to a similar mixture without the molecular bridge. Braslavsky stated that they wanted to go beyond simply mixing fibers into ice and instead control how the different materials connect at the molecular level. He noted that the result changes not only how strong the ice is, but also how it breaks by absorbing much more energy and deforming gradually. The biodegradable material offers a lower-carbon construction alternative for extremely cold regions where transporting traditional building supplies remains expensive.",
@@ -909,7 +947,7 @@
     {
       "id": "rss-bbc_sport-c3766f7f19e7",
       "title": "London loses bid to host 2029 World Athletics as Nairobi named host",
-      "summary": "London has missed out to Nairobi in the bid to host the twenty twenty-nine World Athletics Championships. Bbc Sport reports that an African city will host the event for the first time in history. The decision was confirmed at a World Athletics council meeting in Budapest where Munich was also confirmed as the host for the twenty thirty-one event. World Athletics president Sebastian Coe stated that Nairobi had presented a compelling and emotional bid. London missed out on the twenty twenty-nine hosting rights despite securing forty-five million pounds in public money and proposing the London Stadium as the host venue through a bid led by Athletic Ventures. Jack Buckner stated that U. K. Athletics was deeply disappointed that the championships will not be held in London and that they believed they had an outstanding bid which would genuinely take the sport to new levels. Amber Anning expressed disappointment that London missed out on hosting the event as a home competition while noting that having the championships in Africa for the first time will be really special. Taking the event to Africa fulfills the mission of growing athletics worldwide across Asia, Africa, and Europe over the next three editions while marking a historic milestone for the continent.",
+      "summary": "London has missed out to Nairobi in the bid to host the twenty twenty-nine World Athletics Championships. B B C Sport reports that an African city will host the event for the first time in history. The decision was confirmed at a World Athletics council meeting in Budapest where Munich was also confirmed as the host for the twenty thirty-one event, alongside Rome missing out as well. World Athletics president Sebastian Coe stated that Nairobi had presented a compelling and emotional bid, and that there were four outstanding bids. London missed out on the twenty twenty-nine hosting rights despite securing forty-five million pounds in public money and proposing the London Stadium as the host venue through a bid led by Athletic Ventures, which consisted of U K Athletics, London Marathon Events, and the Great Run Company. Jack Buckner stated that U K Athletics was deeply disappointed that the championships will not be held in London and that they believed they had an outstanding bid. Amber Anning expressed disappointment that London missed out on hosting the event as a home competition while noting that having the championships in Africa for the first time will be really special. Greg Rutherford described the loss as a bitter pill to swallow while suggesting London's recent hosting may have harmed its bid. B B C Sport notes that uncertainty over West Ham granting permission for the London Stadium and empty seats at Birmingham's Alexander Stadium may have been factors, while doping scandals in Kenya bring scrutiny. Taking the event to Africa fulfills the mission of growing athletics worldwide across Asia, Africa, and Europe over the next three editions while marking a historic milestone for the continent.",
       "main": "SPORTS",
       "sub": "Track & Field",
       "category": "SPORTS",
@@ -931,18 +969,27 @@
       "published_at": "2026-09-15T14:25:56.217544+00:00",
       "created_at_ts": 1789475962,
       "audio_path": "audio/2026-09-15/rss-bbc_sport-c3766f7f19e7-london-loses-bid-to-host-2029-world-athletics-as-nairobi-nam.mp3",
-      "word_count": 206,
-      "estimated_duration_s": 82,
+      "word_count": 281,
+      "estimated_duration_s": 112,
       "image_url": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/c14f/live/72c190c0-b0ea-11f1-8d94-cf0ec84c39cd.jpg",
       "location": null,
       "stakes": "Hosting the event in Africa for the first time marks a historic milestone that fulfills the global growth mission across multiple continents.",
-      "audio_bytes": 550632,
-      "audio_duration_s": 69.1,
-      "tts_chunks": 8,
+      "audio_bytes": 741672,
+      "audio_duration_s": 94.2,
+      "tts_chunks": 11,
       "tts_voice": "am_liam",
       "audio_wer": 0.019,
       "audio_verdict": "good",
-      "audio_notes": []
+      "audio_notes": [],
+      "key_points": [
+        "London lost the twenty twenty-nine World Athletics Championships bid to Nairobi.",
+        "Nairobi will host the event for the first time in Africa.",
+        "Munich was confirmed as the host for the twenty thirty-one event, while Rome also missed out.",
+        "London's bid secured forty-five million pounds in public money and proposed the London Stadium.",
+        "Athletic Ventures led the U K bid, involving U K Athletics, London Marathon Events, and the Great Run Company.",
+        "Sebastian Coe stated Nairobi presented a compelling and emotional bid among four outstanding bids.",
+        "U K Athletics and London officials expressed disappointment while praising the historic African milestone."
+      ]
     },
     {
       "id": "rss-livemint-c13e2e7f7f76",
@@ -985,7 +1032,7 @@
     {
       "id": "rss-bbc_sport-1038ab98d5fa",
       "title": "Pidcock and Backstedt lead GB at Road Worlds",
-      "summary": "Tom Pidcock and Zoe Backstedt will lead Great Britain at the twenty twenty-six Road World Championships in Montreal, Canada. The championships take place from September twentieth to September twenty-seventh and will be broadcast live across B B C platforms, including i Player and the B B C Sport website and app, with specific coverage on B B C Two and B B C Three. Great Britain men have a strong chance to win because Tadej Pogacar is forced to sit out the rest of the season after suffering multiple injuries in a crash at the Vuelta a Espana. Pogacar had dominated the world road race by winning in twenty twenty-four and twenty twenty-five. Ethan Hayter and Callum Thornley will compete in the men's time trial alongside defending champion Remco Evenepoel of Belgium. Hayter previously came second in the opening time trial of the Vuelta a Espana, losing to Pogacar by nine hundredths of a second. Zoe Backstedt steps up to the elite category after winning last year's Under-twenty-three race and joins a squad that also features Anna Henderson, who won silver in the time trial at the Paris Olympics in twenty twenty-four, and Anna Morris, who is thirty-one. British Cycling performance director Stephen Park said the Road World Championships are always one of the standout events in the cycling calendar and that this squad showcases the very best of British road racing. The absence of Tadej Pogacar improves Great Britain's medal prospects at the twenty twenty-six championships in Montreal. The event includes road race and time trial disciplines, with time trials featuring riders setting off at one-minute intervals.",
+      "summary": "Tom Pidcock and Zoe Backstedt will lead Great Britain at the twenty twenty-six Road World Championships in Montreal, Canada. The championships take place from September twentieth to September twenty-seventh and will be broadcast live across B B C platforms, including i Player and the B B C Sport website and app, with specific coverage on B B C Two and B B C Three. Great Britain men have a strong chance to win because Tadej Pogacar is forced to sit out the rest of the season after suffering multiple injuries in a crash at the Vuelta a Espana. Pogacar had dominated the world road race by winning in twenty twenty-four and twenty twenty-five. Ethan Hayter and Callum Thornley will compete in the men's time trial alongside defending champion Remco Evenepoel of Belgium. Hayter previously came second in the opening time trial of the Vuelta a Espana, losing to Pogacar by nine hundredths of a second. Zoe Backstedt steps up to the elite category after winning last year's Under-twenty-three race and joins a squad that also features Anna Henderson, who won silver in the time trial at the Paris Olympics in twenty twenty-four, and Anna Morris, who is thirty-one and has won domestic races in twenty twenty-six. British Cycling performance director Stephen Park said the Road World Championships are always one of the standout events in the cycling calendar and that this squad showcases the very best of British road racing, noting the squad's balance from established performers to developing riders. The absence of Tadej Pogacar improves Great Britain's medal prospects at the twenty twenty-six championships in Montreal. The event includes road race and time trial disciplines, with time trials featuring riders setting off at one-minute intervals.",
       "main": "SPORTS",
       "sub": "Cycling",
       "category": "SPORTS",
@@ -1007,14 +1054,14 @@
       "published_at": "2026-09-15T14:53:47.458507+00:00",
       "created_at_ts": 1789475464,
       "audio_path": "audio/2026-09-15/rss-bbc_sport-1038ab98d5fa-pidcock-and-backstedt-lead-gb-at-road-worlds.mp3",
-      "word_count": 268,
-      "estimated_duration_s": 107,
+      "word_count": 286,
+      "estimated_duration_s": 114,
       "image_url": "https://ichef.bbci.co.uk/ace/branded_sport/1200/cpsprodpb/8335/live/8615c210-b093-11f1-bc1f-3f186ca4140c.png",
       "location": null,
       "stakes": "The absence of Tadej Pogacar improves Great Britain's medal prospects at the twenty twenty-six championships in Montreal.",
-      "audio_bytes": 717384,
-      "audio_duration_s": 90.9,
-      "tts_chunks": 10,
+      "audio_bytes": 776640,
+      "audio_duration_s": 98.6,
+      "tts_chunks": 12,
       "tts_voice": "am_liam",
       "audio_wer": 0.083,
       "audio_verdict": "good",
@@ -1025,7 +1072,7 @@
         "Tadej Pogacar misses the rest of the season due to injuries from a crash at the Vuelta a Espana.",
         "Ethan Hayter and Callum Thornley compete in the men's time trial against defending champion Remco Evenepoel.",
         "Zoe Backstedt steps up to the elite category after winning the Under-twenty-three race last year.",
-        "British Cycling performance director Stephen Park stated the squad showcases the best of British road racing."
+        "British Cycling performance director Stephen Park stated the squad showcases the best of British road racing and praised its balance."
       ]
     },
     {
@@ -1273,7 +1320,7 @@
     {
       "id": "rss-npr_news-1093394958a2",
       "title": "NATO jets shoot down a drone in Lithuanian airspace",
-      "summary": "N. A. T. O. fighter jets shot down a drone that entered Lithuanian airspace overnight on Tuesday. This marks the first time that a drone has been shot down in this airspace. Military officials in Lithuania stated that the incident needed further investigation. The drone was downed near the village of Pratkūnai about sixty miles west of the capital city of Vilnius. The wreckage has been found and the drone was likely carrying explosives according to the Lithuanian air force commander, Antanas Matutis. The drone most likely entered from Belarus and remained in Lithuanian airspace for about thirty minutes. Officials in countries including Germany, Denmark, the United Kingdom, and Poland have accused Russia of involvement in recent sabotage and drone incursions. The drone interception escalates regional security tensions as European officials increasingly accuse Russia of reckless sabotage operations.\n\nMeanwhile, Ukraine's parliament voted to dismiss Ruslan Kravchenko from the post of prosecutor general on Tuesday. A series of graft investigations has pushed tensions in Kyiv to a new high. President Volodymyr Zelenskyy suspended Kravchenko from the post just one day earlier. Various corruption scandals have hurt the approval ratings of Zelenskyy during this ongoing military conflict.",
+      "summary": "N. A. T. O. fighter jets shot down a drone that entered Lithuanian airspace overnight on Tuesday, marking the first time a drone has been intercepted in this airspace. Lithuanian President Gitanas Nausėda announced the destruction on X, while a spokesperson for the Lithuanian national crisis management centre stated that the origins of the drone are yet to be determined. Lithuania's air force commander, Antanas Matutis, stated the wreckage was found and the drone was likely carrying explosives, whereas the crisis management centre noted the debris will be collected to determine if it was armed or launched deliberately. Lithuania's Defence Minister Robertas Kaunas stated on social media that the drone was carrying an explosive. Officials reported the drone likely entered near Kaunas or Pratkūnai from Belarus. Phone alerts warned residents in Vilnius to find a safe place shortly after midnight. Lithuania's Ministry of Defence praised the response by Lithuanian forces and Italian pilots serving in the N. A. T. O. Air Defence Mission. Moscow has not commented on the incident. U. K. Defence Secretary Wes Streeting praised the actions of the forces. European Commission President Ursula von der Leyen called the incident part of a pattern of aggression and provocation against Europe, and German Foreign Minister Johann Wadephul blamed Russia for the incident. Regional security tensions are escalating as European officials note rising drone incursions, with Poland reporting preventive aviation operations and Poland's Defence Minister Wladyslaw Kosiniak-Kamysz stating that Russia's actions threaten European security. The incident followed Russia firing flares at a Danish military helicopter monitoring a Russian warship in the Baltic Sea on Monday. N. A. T. O. Secretary General Mark Rutte pledged more support for Ukraine following Sunday strikes. Meanwhile, Ukraine's parliament voted to dismiss Ruslan Kravchenko from the post of prosecutor general on Tuesday following a series of graft investigations, after President Volodymyr Zelenskyy suspended him one day earlier amid corruption scandals affecting his approval ratings.",
       "main": "WORLD",
       "sub": "Conflict & Security",
       "category": "WORLD",
@@ -1284,6 +1331,18 @@
           "url": "https://www.npr.org/2026/09/15/g-s1-143284/nato-jets-down-drone-in-lithuanian-airspace",
           "domain": "npr.org",
           "added_at": "2026-09-15T16:10:43.011798+00:00"
+        },
+        {
+          "name": "bbc_world",
+          "url": "https://www.bbc.co.uk/news/articles/cjx2zgk7edlzo?at_medium=RSS&at_campaign=rss",
+          "domain": "bbc.co.uk",
+          "added_at": "2026-09-15T21:54:22.565990+00:00"
+        },
+        {
+          "name": "aljazeera",
+          "url": "https://www.aljazeera.com/news/2026/9/15/nato-jet-shoots-down-suspected-russian-drone-over-lithuania?traffic_source=rss",
+          "domain": "aljazeera.com",
+          "added_at": "2026-09-15T21:54:53.471252+00:00"
         }
       ],
       "source": "npr_news",
@@ -1295,8 +1354,8 @@
       "published_at": "2026-09-15T16:10:43.011798+00:00",
       "created_at_ts": 1789463190,
       "audio_path": "audio/2026-09-15/rss-npr_news-1093394958a2-nato-jets-shoot-down-a-drone-in-lithuanian-airspace.mp3",
-      "word_count": 195,
-      "estimated_duration_s": 78,
+      "word_count": 319,
+      "estimated_duration_s": 128,
       "image_url": null,
       "location": {
         "name": "Vilnius",
@@ -1305,13 +1364,22 @@
         "lng": 25.2797
       },
       "stakes": "The drone interception escalates regional security tensions as European officials increasingly accuse Russia of reckless sabotage operations.",
-      "audio_bytes": 587136,
-      "audio_duration_s": 74.7,
-      "tts_chunks": 12,
+      "audio_bytes": 963816,
+      "audio_duration_s": 122.8,
+      "tts_chunks": 14,
       "tts_voice": "am_liam",
       "audio_wer": 0.063,
       "audio_verdict": "good",
-      "audio_notes": []
+      "audio_notes": [],
+      "key_points": [
+        "N. A. T. O. fighter jets shot down a drone in Lithuanian airspace overnight on Tuesday.",
+        "Lithuanian President Gitanas Nausėda announced the destruction on X.",
+        "A spokesperson for the Lithuanian national crisis management centre stated the origins of the drone are yet to be determined, while air force commander Antanas Matutis and Defence Minister Robertas Kaunas stated it was carrying explosives.",
+        "Phone alerts warned residents in Vilnius to find a safe place shortly after midnight.",
+        "European Commission President Ursula von der Leyen and German Foreign Minister Johann Wadephul addressed the incident, with Wadephul and Lithuanian officials attributing blame to Russia.",
+        "Russia fired flares at a Danish military helicopter monitoring a Russian warship in the Baltic Sea on Monday.",
+        "Ukraine's parliament voted to dismiss Ruslan Kravchenko from the post of prosecutor general on Tuesday following his suspension by President Volodymyr Zelenskyy."
+      ]
     },
     {
       "id": "rss-npr_news-7b6da2b9d559",
@@ -2392,7 +2460,7 @@
     {
       "id": "rss-dw_top-c08034f7f50b",
       "title": "Canada seeks 'unique alliance' with EU, Carney says",
-      "summary": "Canadian Prime Minister, Mark Carney, on Sunday denied that Canada is seeking membership in the European Union. Carney clarified his position after a Wall Street Journal report claimed he was exploring associate membership in the European Union. Carney said on Sunday that he is pursuing an unprecedented alliance with the European Union to reduce Canada's economic dependence on the United States amid an escalating trade war. Discussions for the new alliance are set to begin at an upcoming European Union and Canada summit in Montreal, aimed at building a much stronger and deeper economic and security partnership. Carney's remarks precede a trip to France this week, where he will become the first head of government to attend the State of the European Union address in Strasbourg before delivering his own speech at the European Parliament. Tobias Cremer, a European lawmaker from Germany, called the visit a tremendous symbol, noting that Canada possesses many resources Europe currently lacks, including energy, rare earths, and raw minerals. Canada has already become the first non-European Union nation to join the bloc's defense procurement program and is scheduled to join the Eurovision Song Contest in twenty twenty-seven.",
+      "summary": "Canadian Prime Minister Mark Carney denied that Canada is seeking European Union membership, while confirming plans for a unique security and economic alliance to reduce economic dependence on the United States amid trade tensions under Donald Trump. Speaking at the inaugural Canada Investment Summit, Carney pitched Canada as a safe harbour for foreign capital and announced plans to balance the operating budget one year ahead of schedule, alongside corporate tax deductions and opening four major airports to foreign investment. Meanwhile, a protest took place outside the summit, with critics raising concerns about public money supporting private investment. European officials are seeking to bring Canada as close as possible to the European Union short of membership, though European Union officials clarified that associate membership will not be offered due to the bloc's red lines regarding the four freedoms of the single market. Discussions include early-stage talks on potential visa-free travel and work between Canada and the European Union. European Commission President Ursula von der Leyen changed plans to stay in Strasbourg for Carney's upcoming speech at the European Parliament after initial criticism. European lawmakers, including Javier Moreno Sánchez and Valérie Hayer, highlighted the strong trade relationship and called for progress on ratifying the ten-year-old Comprehensive Economic and Trade Agreement, which remains unratified by ten European Union member states. European Union-Canada trade reached one hundred thirty billion euros in twenty twenty-five, though the United States remains Canada's largest trading partner with trade worth nearly eight hundred eighty billion United States dollars. Carney is also scheduled to join the Eurovision Song Contest in twenty twenty-seven.",
       "main": "WORLD",
       "sub": "Politics & Elections",
       "category": "WORLD",
@@ -2403,6 +2471,12 @@
           "url": "https://www.dw.com/en/canada-seeks-unique-alliance-with-eu-carney-says/a-79254541?maca=en-rss-en-all-1573-rdf",
           "domain": "dw.com",
           "added_at": "2026-09-14T07:33:48.001335+00:00"
+        },
+        {
+          "name": "guardian_world",
+          "url": "https://www.theguardian.com/world/2026/sep/15/canada-eu-economic-alliance",
+          "domain": "theguardian.com",
+          "added_at": "2026-09-15T21:55:36.241276+00:00"
         }
       ],
       "source": "dw_top",
@@ -2414,8 +2488,8 @@
       "published_at": "2026-09-14T07:33:48.001335+00:00",
       "created_at_ts": 1789366920,
       "audio_path": "audio/2026-09-14/rss-dw_top-c08034f7f50b-canada-seeks-unique-alliance-with-eu-carney-says.mp3",
-      "word_count": 192,
-      "estimated_duration_s": 77,
+      "word_count": 262,
+      "estimated_duration_s": 105,
       "image_url": null,
       "location": {
         "name": "Ottawa",
@@ -2423,11 +2497,19 @@
         "lat": 45.4215,
         "lng": -75.6972
       },
-      "audio_bytes": 523464,
-      "audio_duration_s": 67.0,
-      "tts_chunks": 7,
+      "audio_bytes": 784704,
+      "audio_duration_s": 100.0,
+      "tts_chunks": 10,
       "tts_voice": "am_liam",
-      "audio_verdict": "unchecked"
+      "audio_verdict": "unchecked",
+      "key_points": [
+        "Mark Carney denied that Canada is seeking European Union membership while pursuing a unique security and economic alliance.",
+        "Carney spoke at the inaugural Canada Investment Summit, pitching Canada as a safe harbour for foreign capital and announcing plans to balance the operating budget early.",
+        "European Union officials stated that associate membership will not be offered due to the bloc's red lines regarding the four freedoms of the single market.",
+        "Ursula von der Leyen changed plans to stay in Strasbourg for Carney's speech at the European Parliament after initial criticism.",
+        "Ten European Union member states have not yet ratified the Comprehensive Economic and Trade Agreement nearly a decade after it was signed.",
+        "European Union-Canada trade reached one hundred thirty billion euros in twenty twenty-five, while United States-Canada trade is worth nearly eight hundred eighty billion United States dollars."
+      ]
     },
     {
       "id": "rss-npr_news-4a781e4919de",
@@ -5059,6 +5141,44 @@
       "audio_verdict": "unchecked"
     },
     {
+      "id": "rss-quanta_magazine-b3e61dadd4a4",
+      "title": "The Four-Color Theorem Gets a Rare New Proof",
+      "summary": "Researchers have produced a new computer-assisted proof of the four color theorem. It was posted online in March twenty twenty-six and will be presented in November at the annual Foundations of Computer Science conference. The team behind the work includes Mikkel Thorup, Carsten Thomassen, Ken-ichi Kawarabayashi, Bojan Mohar, Yuta Inoue, and Atsuyuki Miyashita, Quanta Magazine reports. The new proof features a massive unavoidable set consisting of eight thousand two hundred two configurations found by searching flat areas of the graph. This breakthrough yields a far more efficient coloring algorithm requiring n log n steps for a graph with n vertices, which is a significant improvement over the previous requirement of n squared steps. The greatest value of the new proof lies in the insights it provides into the nature of graphs. By drawing on a different concept of reducibility and utilizing previously overlooked flat areas of the graph, the research has revealed unknown structure in planar graphs and given mathematicians new tools for understanding them. This development opens up potential progress on other stubborn problems in graph theory and allows researchers to apply their techniques to coloring theorems for graphs on surfaces such as the doughnut-shaped torus. Given the problem and its history of false starts and dashed hopes, Georges Gonthier stated that it is really cool to see a real result for once. The new computer-assisted proof improves graph coloring algorithms, accelerating computational efficiency for researchers tackling complex network problems.",
+      "main": "WORLD",
+      "sub": "Society & Culture",
+      "category": "WORLD",
+      "subcategory": "Society & Culture",
+      "sources": [
+        {
+          "name": "quanta_magazine",
+          "url": "https://www.quantamagazine.org/the-four-color-theorem-gets-a-rare-new-proof-20260910/",
+          "domain": "quantamagazine.org",
+          "added_at": "2026-09-15T22:12:08.805994+00:00"
+        }
+      ],
+      "source": "quanta_magazine",
+      "source_url": "https://www.quantamagazine.org/the-four-color-theorem-gets-a-rare-new-proof-20260910/",
+      "source_domain": "quantamagazine.org",
+      "source_permalink": "https://www.quantamagazine.org/the-four-color-theorem-gets-a-rare-new-proof-20260910/",
+      "score": 100,
+      "author": "Gregory Barber",
+      "published_at": "2026-09-15T22:12:08.805994+00:00",
+      "created_at_ts": 1789050456,
+      "audio_path": "audio/2026-09-15/rss-quanta_magazine-b3e61dadd4a4-the-four-color-theorem-gets-a-rare-new-proof.mp3",
+      "word_count": 241,
+      "estimated_duration_s": 96,
+      "image_url": "https://www.quantamagazine.org/wp-content/uploads/2026/09/4C-Theorem-cr-Vico-Santos-Social.jpg",
+      "location": null,
+      "stakes": "The new computer-assisted proof improves graph coloring algorithms, accelerating computational efficiency for researchers tackling complex network problems.",
+      "audio_bytes": 690360,
+      "audio_duration_s": 87.7,
+      "tts_chunks": 10,
+      "tts_voice": "am_liam",
+      "audio_wer": 0.074,
+      "audio_verdict": "good",
+      "audio_notes": []
+    },
+    {
       "id": "rss-rest_of_world-efae8c4e6635",
       "title": "Google Earth’s AI experiment lasted 24 hours. The damage to trust will linger",
       "summary": "Authorities and journalists turned to commercial satellite imagery to separate fact from fiction after strikes in the Gulf region in February. Google launched a new feature that built image generation directly into Google Earth on July thirty-first. Users conjured fake nuclear plants and bomb craters within hours. Rest Of World reports that Google pulled the feature after an outcry from experts and the media. The quick recall of Google Earth image generation highlights ongoing risks when deploying artificial intelligence tools into critical verification infrastructure.\n\nOpenAI shut down its Sora video app in March following public demands. Google launched the Veo three video generator in May twenty twenty-five. Regulation has struggled to keep pace with the rapid development of artificial intelligence models. Some transparency obligations required by the European Union A. I. Act enacted in twenty twenty-four began on August second, twenty twenty-six. Detection tools remain inadequate while implementation is shaky. This environment allows bad actors to dismiss authentic evidence using the theory of the liar dividend. Expert Hany Farid noted that the loss of trust in the visual record demands mainstream solutions. No one can recall the doubt that now attaches to every image out of a war zone.",
@@ -5848,146 +5968,6 @@
       "audio_verdict": "unchecked"
     },
     {
-      "id": "rss-the_hindu-acb680d85d4b",
-      "title": "Probe ordered into police action against protesting Bhopal intern doctors",
-      "summary": "Bhopal Police Commissioner Sanjay Kumar ordered an inquiry into police action against protesting M. B. B. S. intern doctors. The directive came from Deputy Chief Minister and Health Minister Rajendra Shukla.\n\nOn September seventh, twenty twenty-six, hundreds of interns from Gandhi Medical College protested on their campus. They demanded a stipend hike from fourteen thousand four hundred thirty-seven rupees to thirty thousand rupees.\n\nProtestors planned a march toward the Chief Minister residence. Police deployed water cannons and resorted to a baton charge near the campus. This stopped the march less than two kilometers from the destination.\n\nAt least four interns suffered serious injuries. These included a broken arm and an eye injury.\n\nInterns launched an overnight sit-in at Kamla Park on September seventh and eighth. They boycotted outpatient department and routine operation theatre services while maintaining emergency care. Services were also disrupted at Gajra Raja Medical College in solidarity.\n\nSiddhartha Kumar Rai, president of the Junior Doctors Association undergraduate student wing, spoke about the event. He stated that the peaceful protestors work thirty-six hour duties and handle heavy patient loads, yet they were treated like goons.\n\nKavita N. Singh criticized the police action in a letter to Commissioner Kumar. She called the use of force without prior notice completely inappropriate. She demanded action against responsible officers.\n\nVikas Sahwal, Deputy Commissioner of Police for Zone two, has been appointed to conduct an impartial investigation.",
-      "main": "WORLD",
-      "sub": "Society & Culture",
-      "category": "WORLD",
-      "subcategory": "Society & Culture",
-      "sources": [
-        {
-          "name": "the_hindu",
-          "url": "https://www.thehindu.com/news/national/madhya-pradesh/probe-ordered-after-water-cannon-alleged-lathicharge-at-protesting-intern-doctors-in-bhopal/article71444057.ece",
-          "domain": "thehindu.com",
-          "added_at": "2026-09-08T21:55:52.728192+00:00"
-        }
-      ],
-      "source": "the_hindu",
-      "source_url": "https://www.thehindu.com/news/national/madhya-pradesh/probe-ordered-after-water-cannon-alleged-lathicharge-at-protesting-intern-doctors-in-bhopal/article71444057.ece",
-      "source_domain": "thehindu.com",
-      "source_permalink": "https://www.thehindu.com/news/national/madhya-pradesh/probe-ordered-after-water-cannon-alleged-lathicharge-at-protesting-intern-doctors-in-bhopal/article71444057.ece",
-      "score": 100,
-      "author": "",
-      "published_at": "2026-09-08T21:55:52.728192+00:00",
-      "created_at_ts": 1788901689,
-      "audio_path": "audio/2026-09-08/rss-the_hindu-acb680d85d4b-probe-ordered-into-police-action-against-protesting-bhopal-i.mp3",
-      "word_count": 233,
-      "estimated_duration_s": 93,
-      "image_url": "https://th-i.thgim.com/public/incoming/5607n1/article71444531.ece/alternates/LANDSCAPE_1200/WhatsApp%20Image%202026-09-07%20at%206.28.28%20PM.jpeg",
-      "location": null,
-      "audio_bytes": 710448,
-      "audio_duration_s": 92.4,
-      "tts_chunks": 18,
-      "tts_voice": "am_liam",
-      "audio_verdict": "unchecked"
-    },
-    {
-      "id": "rss-livemint-6a5394b089c2",
-      "title": "US strikes Iranian tankers after attempted missile attacks on its Navy warship: Report",
-      "summary": "On Tuesday, September eighth, the United States struck multiple Iranian oil tankers.  This followed attempted missile attacks that targeted a U. S. Navy warship.  The Associated Press reported the strikes, citing an anonymous U. S. official.  Iranian media separately reported that a U. S. projectile struck a small tanker about four miles from Kharg Island.  Kharg Island is a key oil export hub, and no casualties were reported from that strike.  Blasts were also heard on Kharg Island and in the southern port of Jask.  Ahead of the strikes, Iran's Revolutionary Guard Navy warned tanker crews near Kuwait and Bahrain to immediately leave their vessels.  They stated the ships would be targeted.  Iranian Armed Forces chief of staff, Ali Abdollahi warned that Tehran would target U. S. military bases across the region in retaliation.  Meanwhile, the Revolutionary Guard stated it intercepted and destroyed an M. Q.-one drone over the Strait of Hormuz using a new advanced defence system.  The military escalation drove international benchmark Brent crude to briefly reach ninety-nine dollars and forty-six cents a barrel on Tuesday.  In tandem with the strikes, the U. S. Treasury announced sanctions against thirty-six entities.  The sanctions target all remaining Iranian airlines not previously penalized.  Officials accused the aviation sector of transporting weapons and illicit cargo.  Despite the military escalation, Iran stated that diplomatic efforts were making progress.  Foreign Minister, Abbas Araghchi noted that talks with Oman on managing the strategic waterway had achieved significant progress.  Meanwhile, U. S. Secretary of State, Marco Rubio accused Iran of orchestrating recent attacks by Houthi rebels against Saudi Arabia.  In Lebanon, Israeli airstrikes in the south on Monday killed thirteen people.  The Lebanese Health Ministry provided this casualty count, marking an escalation after weeks of calm.",
-      "main": "WORLD",
-      "sub": "Society & Culture",
-      "category": "WORLD",
-      "subcategory": "Society & Culture",
-      "sources": [
-        {
-          "name": "livemint",
-          "url": "https://www.livemint.com/news/world/iran-claims-us-missile-hit-tanker-near-kharg-island-irgc-says-mq-1-drone-downed-over-strait-of-hormuz-11788898120584.html",
-          "domain": "livemint.com",
-          "added_at": "2026-09-08T21:56:56.072753+00:00"
-        }
-      ],
-      "source": "livemint",
-      "source_url": "https://www.livemint.com/news/world/iran-claims-us-missile-hit-tanker-near-kharg-island-irgc-says-mq-1-drone-downed-over-strait-of-hormuz-11788898120584.html",
-      "source_domain": "livemint.com",
-      "source_permalink": "https://www.livemint.com/news/world/iran-claims-us-missile-hit-tanker-near-kharg-island-irgc-says-mq-1-drone-downed-over-strait-of-hormuz-11788898120584.html",
-      "score": 100,
-      "author": "",
-      "published_at": "2026-09-08T21:56:56.072753+00:00",
-      "created_at_ts": 1788899803,
-      "audio_path": "audio/2026-09-08/rss-livemint-6a5394b089c2-us-strikes-iranian-tankers-after-attempted-missile-attacks-o.mp3",
-      "word_count": 290,
-      "estimated_duration_s": 116,
-      "image_url": "https://www.livemint.com/lm-img/img/2026/09/08/1600x900/logo/tanker_hit_1788899285803_8b93db59-3553-4a6e-8b68-6f03b1b6e7ba_1788899295926_c924e087-ab98-4be1-b3a3-7eaadbe49dbe_f780d5dd-6d0e-4e2f-869b-b89f78b443ac_ed8c120a-6f99-4cfd-959e-b3fe69326fad.jpg",
-      "location": null,
-      "audio_bytes": 863856,
-      "audio_duration_s": 110.9,
-      "tts_chunks": 19,
-      "tts_voice": "am_liam",
-      "audio_verdict": "unchecked"
-    },
-    {
-      "id": "rss-times_of_india-20499432b99c",
-      "title": "Iran launched fresh attack on US navy ships Monday amid China, Russia aid fears",
-      "summary": "Iran launched a fresh attack targeting United States navy ships on Monday. This followed similar ballistic missile strikes over the weekend. Those weekend strikes were aimed at a United States aircraft carrier and a guided missile destroyer. No United States warships were hit in the incidents. The incidents have not yet been acknowledged by the United States military. In response to the weekend carrier targeting, the United States struck three Iranian oil tankers. Washington stated those tankers were funding the military of Iran and proxy groups. The repeated attacks have raised concerns among United States officials. Officials are concerned that Iran is employing more advanced weapons. Iran is also potentially receiving tracking assistance from China or Russia. Iranian state media claimed the country is using new missiles with advanced technology. Weapons analysts note these could include electro optical seekers. Those seekers use images to adjust trajectories toward moving targets., John Caves, a senior research associate at the Wisconsin Project on Nuclear Arms Control, stated something important. He stated that Iran unveiled the Qassem Bassir medium range ballistic missile with such seeker technology last year. He also stated that other Iranian missiles, including the Khalij Fars, use it too. The escalation comes as a United States blockade of Iranian ports increases economic pressure on the country. A United States navy official noted that nineteen warships are currently supporting operations in the Middle East. Washington has warned it will respond to attacks on its naval vessels. The United States hopes sanctions will ultimately force Iranian leadership to back down.",
-      "main": "WORLD",
-      "sub": "Society & Culture",
-      "category": "WORLD",
-      "subcategory": "Society & Culture",
-      "sources": [
-        {
-          "name": "times_of_india",
-          "url": "https://timesofindia.indiatimes.com/world/middle-east/iran-launched-another-attack-on-us-navy-ships-monday-with-fears-of-china-russia-aid-report/articleshow/133941040.cms",
-          "domain": "timesofindia.indiatimes.com",
-          "added_at": "2026-09-08T21:58:01.248026+00:00"
-        }
-      ],
-      "source": "times_of_india",
-      "source_url": "https://timesofindia.indiatimes.com/world/middle-east/iran-launched-another-attack-on-us-navy-ships-monday-with-fears-of-china-russia-aid-report/articleshow/133941040.cms",
-      "source_domain": "timesofindia.indiatimes.com",
-      "source_permalink": "https://timesofindia.indiatimes.com/world/middle-east/iran-launched-another-attack-on-us-navy-ships-monday-with-fears-of-china-russia-aid-report/articleshow/133941040.cms",
-      "score": 100,
-      "author": "ABHISHEK MISHRA",
-      "published_at": "2026-09-08T21:58:01.248026+00:00",
-      "created_at_ts": 1788899527,
-      "audio_path": "audio/2026-09-08/rss-times_of_india-20499432b99c-iran-launched-fresh-attack-on-us-navy-ships-monday-amid-chin.mp3",
-      "word_count": 257,
-      "estimated_duration_s": 103,
-      "image_url": "https://static.toiimg.com/thumb/msid-133941156,width-1280,height-720,resizemode-6,overlay-toi_sw,pt-32,y_pad-600/photo.jpg",
-      "location": null,
-      "audio_bytes": 753264,
-      "audio_duration_s": 96.6,
-      "tts_chunks": 19,
-      "tts_voice": "am_liam",
-      "audio_verdict": "unchecked"
-    },
-    {
-      "id": "rss-npr_news-6110cd629acf",
-      "title": "New report shows the economic toll of ICE raids",
-      "summary": "Immigration crackdowns that began in early twenty twenty-five drained over one point two six billion dollars from local businesses in Cook County, Illinois. A new study from the University of Illinois Chicago revealed these findings using anonymous cellphone G. P. S. data. Regular travel between immigrant and non-immigrant neighborhoods collapsed almost immediately after President Donald Trump took office on January twentieth, twenty twenty-five, amid rumors and sweeps of I. C. E. raids.\n\nThis decreased consumer mobility cost retail shops and restaurants in non-immigrant areas approximately one point two six billion dollars. It also cost Illinois one hundred seven million dollars in lost tax revenue. Co-author Professor Matt Wilson told N. P. R. that the city has yet to recover. He stated they saw a nine percent drop in retail and a ten percent drop in restaurant visits. These drops persisted for about a year with systematically changed consumer behavior.\n\nNationwide, the administration policies resulted in hundreds of thousands of arrests. The immigration detention population sits at a record high of approximately sixty-five thousand people. White House spokesperson Lauren Bis defended the enforcement strategy in a statement to N. P. R. She said that removing criminals makes communities safer. She added that nearly seventy percent of I. C. E. arrests are of illegal aliens charged or convicted of a crime.\n\nMeanwhile, I. C. E. statistics show that roughly seventy percent of those currently detained have no criminal convictions. The report also highlights broader economic impacts across the country. Minneapolis saw an estimated seven hundred million dollars in total economic damage. Small businesses there lost over eighty-one million dollars in January alone. The Brookings Institution also estimated a one point seven percentage point decline in aggregate consumer spending in high enforcement states.",
-      "main": "WORLD",
-      "sub": "Society & Culture",
-      "category": "WORLD",
-      "subcategory": "Society & Culture",
-      "sources": [
-        {
-          "name": "npr_news",
-          "url": "https://www.npr.org/2026/09/08/nx-s1-5955787/new-report-shows-the-economic-toll-of-ice-raids",
-          "domain": "npr.org",
-          "added_at": "2026-09-08T21:53:39.797480+00:00"
-        }
-      ],
-      "source": "npr_news",
-      "source_url": "https://www.npr.org/2026/09/08/nx-s1-5955787/new-report-shows-the-economic-toll-of-ice-raids",
-      "source_domain": "npr.org",
-      "source_permalink": "https://www.npr.org/2026/09/08/nx-s1-5955787/new-report-shows-the-economic-toll-of-ice-raids",
-      "score": 100,
-      "author": "Jasmine Garsd",
-      "published_at": "2026-09-08T21:53:39.797480+00:00",
-      "created_at_ts": 1788898642,
-      "audio_path": "audio/2026-09-08/rss-npr_news-6110cd629acf-new-report-shows-the-economic-toll-of-ice-raids.mp3",
-      "word_count": 290,
-      "estimated_duration_s": 116,
-      "image_url": null,
-      "location": null,
-      "audio_bytes": 876456,
-      "audio_duration_s": 111.0,
-      "tts_chunks": 17,
-      "tts_voice": "am_liam",
-      "audio_verdict": "unchecked"
-    },
-    {
       "id": "rss-ars_science-cec960be6b03",
       "title": "NIH to use part of its budget to pay for Department of Defense research",
       "summary": "The National Institutes of Health has reached an agreement to fund research at the Department of Defense. The deal will run for ten years. It creates a system to transfer money for staff and projects. These projects support the advanced development of medical countermeasures against pandemic influenza. They also target chemical, biological, radiological, and nuclear threats, along with emerging infectious diseases.\n\nThe funds will come from the budget of the National Institute of Allergy and Infectious Diseases. That institute received an allocation of six point six billion dollars from Congress in twenty twenty-six. The exact transfer amount remains unspecified. However, reporting by Nature indicates the Department of Defense initially sought up to a third of its total budget. It was later told to settle for roughly ten percent.\n\nThe agreement comes as the twenty twenty-six defense budget sits at approximately one trillion dollars. That budget faces strain from the conflict with Iran. At the same time, the National Institutes of Health struggles to issue sufficient grants to use the money allocated to it by Congress.",
@@ -6021,133 +6001,6 @@
       "tts_chunks": 13,
       "tts_voice": "am_liam",
       "audio_verdict": "unchecked"
-    },
-    {
-      "id": "rss-bbc_world-12a0192dfedf",
-      "title": "UK announces sanctions on West Bank settlements prompting furious Israeli response",
-      "summary": "The United Kingdom has announced a comprehensive sanctions regime targeting illegal Israeli settlements in the occupied West Bank. This bans settlement goods and advertising and services linked to settlement expansion. Foreign Secretary Ed Miliband told members of parliament that the action marks the beginning of a new approach to the conflict. He launched the action alongside France and Canada. He accused the Israeli government of turning a blind eye to the ethnic cleansing of Palestinians by settlers. Miliband stated that the United Kingdom views the occupation as unlawful. He cited a twenty twenty-four advisory opinion from the International Court of Justice. He announced that the new sanctions will be introduced over the next six to nine months. The decision follows Israel opening tenders to build approximately one thousand two hundred settlement homes in the E1 area east of Jerusalem. Israel Foreign Minister Gideon Saar denounced the move as an outrageous lie. He shut the United Kingdom consulate in East Jerusalem. Israel banned eleven United Kingdom members of parliament from entering the country. Israel retaliated by terminating British military training programs. Saar stated that the hostile Labour government left Israel no choice but to respond. President Isaac Herzog warned the decision would fall on the wrong side of history. The United Kingdom also issued a joint statement with eleven other nations pledging support for the two-state solution and restricting trade with settlements.",
-      "main": "WORLD",
-      "sub": "Society & Culture",
-      "category": "WORLD",
-      "subcategory": "Society & Culture",
-      "sources": [
-        {
-          "name": "bbc_world",
-          "url": "https://www.bbc.co.uk/news/articles/c4g7zen0vveo?at_medium=RSS&at_campaign=rss",
-          "domain": "bbc.co.uk",
-          "added_at": "2026-09-08T21:58:40.735923+00:00"
-        },
-        {
-          "name": "dw_top",
-          "url": "https://www.dw.com/en/uk-announces-trade-sanctions-on-israeli-settlements-in-occupied-west-bank/a-79155051?maca=en-rss-en-all-1573-rdf",
-          "domain": "dw.com",
-          "added_at": "2026-09-09T06:52:37.530983+00:00"
-        }
-      ],
-      "source": "bbc_world",
-      "source_url": "https://www.bbc.co.uk/news/articles/c4g7zen0vveo?at_medium=RSS&at_campaign=rss",
-      "source_domain": "bbc.co.uk",
-      "source_permalink": "https://www.bbc.co.uk/news/articles/c4g7zen0vveo?at_medium=RSS&at_campaign=rss",
-      "score": 100,
-      "author": "",
-      "published_at": "2026-09-08T21:58:40.735923+00:00",
-      "created_at_ts": 1788894699,
-      "audio_path": "audio/2026-09-08/rss-bbc_world-12a0192dfedf-uk-announces-sanctions-on-west-bank-settlements-prompting-fu.mp3",
-      "word_count": 231,
-      "estimated_duration_s": 92,
-      "image_url": "https://ichef.bbci.co.uk/ace/branded_news/1200/cpsprodpb/6cd1/live/8d1d81e0-aba9-11f1-b109-879e35c24276.jpg",
-      "location": null,
-      "audio_bytes": 659064,
-      "audio_duration_s": 83.8,
-      "tts_chunks": 16,
-      "tts_voice": "am_liam",
-      "audio_verdict": "unchecked"
-    },
-    {
-      "id": "rss-dw_top-344f6bf00ed8",
-      "title": "German economy frets about Saxony-Anhalt election results",
-      "summary": "The far-right extremist A. F. D. has won the state election in Saxony-Anhalt. It is a landslide victory that leaves the governing C. D. U. barely half as strong as before. The party is now positioned to potentially put forward the state minister-president.\n\nCommerzbank economist, Ralph Solveen, told Reuters that an A. F. D. led government would be a turning point. He advised waiting because major economic decisions on taxes, labor structures, and social security are made at the federal level.\n\nMichael Berlemann, director of the Hamburg Institute of International Economics, stated much of the A. F. D. migration policy cannot be implemented at the state level. Courts would likely overturn it. However, he warned that the indirect impacts remain problematic.\n\nBerlemann warned that announced measures mean skilled workers in health care, hospitality, agriculture, and construction will avoid the state. This will exacerbate labor shortages and widen the economic gap.\n\nI. N. G. chief economist, Carsten Brzeski, added that symbolic headlines about forced deportations will deter foreign skilled workers. He noted that Saxony-Anhalt is not the entire German economy.\n\nBusiness associations and economic institutes called for federal action in response to the outcome. D. I. W. President, Marcel Fratzscher, described the result as a vote of no confidence in the federal government. He urged Berlin to implement far-reaching structural reforms.\n\nTanja Gönner, managing director of the Federation of German Industries, said the response must not be political paralysis. She stated the federal government must consistently implement reforms to boost investment, innovation, and growth.",
-      "main": "WORLD",
-      "sub": "Society & Culture",
-      "category": "WORLD",
-      "subcategory": "Society & Culture",
-      "sources": [
-        {
-          "name": "dw_top",
-          "url": "https://www.dw.com/en/german-economy-frets-about-saxony-anhalt-election-results/a-79162871?maca=en-rss-en-all-1573-rdf",
-          "domain": "dw.com",
-          "added_at": "2026-09-08T22:01:06.479945+00:00"
-        }
-      ],
-      "source": "dw_top",
-      "source_url": "https://www.dw.com/en/german-economy-frets-about-saxony-anhalt-election-results/a-79162871?maca=en-rss-en-all-1573-rdf",
-      "source_domain": "dw.com",
-      "source_permalink": "https://www.dw.com/en/german-economy-frets-about-saxony-anhalt-election-results/a-79162871?maca=en-rss-en-all-1573-rdf",
-      "score": 100,
-      "author": "",
-      "published_at": "2026-09-08T22:01:06.479945+00:00",
-      "created_at_ts": 1788892500,
-      "audio_path": "audio/2026-09-08/rss-dw_top-344f6bf00ed8-german-economy-frets-about-saxony-anhalt-election-results.mp3",
-      "word_count": 253,
-      "estimated_duration_s": 101,
-      "image_url": null,
-      "location": null,
-      "audio_bytes": 768240,
-      "audio_duration_s": 98.6,
-      "tts_chunks": 17,
-      "tts_voice": "am_liam",
-      "audio_verdict": "unchecked"
-    },
-    {
-      "id": "rss-deepmind_blog-80d284f58871",
-      "title": "AlphaGenome Atlas: A predictive map of every possible DNA letter change in the human genome",
-      "summary": "Google DeepMind introduces the AlphaGenome Atlas, a one petabyte database created by the AlphaGenome artificial intelligence model. The human genome contains about three billion base pairs of DNA, where two percent code for proteins and ninety-eight percent remain less understood. The database pre calculates the regulatory impact of all nine billion single letter genetic changes. The Atlas introduces the AlphaGenome Variant Impact score to combine predictions for coding and non coding regions. At the Broad Institute, Laura Covill and her team used the score to identify a critical variant in the D N M one gene that created an incorrect splice site for unsolved rare disease research. Dr. Gareth Hawkes applied the tool to data from fifty-four thousand plus U K Biobank participants, uncovering twenty-two percent more non coding genetic associations and identifying nineteen genetic regions linked to body mass index. The AlphaGenome Atlas is available through a website portal requiring zero coding skills. A massive collaborative research project credits dozens of individuals and major institutions for their work. The institutions include the University of Exeter and Harvard University. Researchers from Boston Children's Hospital and the Broad Institute also contributed. The Stowers Institute for Medical Research joined as a collaborator. The Memorial Sloan Kettering Cancer Center contributed to developing the work. Researchers from the Center for Genomic Medicine at Massachusetts General Hospital participated. The University of Kansas Medical Center is among the credited institutions. The project acknowledges technical support and research contributions from many people, including Jun Cheng, Kyle R. Taylor, Lauren Nicolaisen, Joshua Pan, Clare Bycroft, Matteo Perino, Tom Ward, Raina W. Thomas, Natasha Latysheva, Gareth Hawkes, Laura E. Covill, Melanie Weilert, Maile J. Hirschmann, Xi Dawn Chen, Robin N Beaumont, V Kartik Chundru, Michael N Weedon, Simon Bourdareau, Hoyin Chu, Dhavi Hariharan, Thais Kagohara, Lucas Tenório, Yosuke Ushigome, Amanda Stafford, Courtney A. Shearer, Barbara Ikica, Ada Fang, Mouad Naciri, Victoria Johnston, Richard Green, Elisa Lai Hong Wong, Vincent Dutordoir, Anne Mottram, Adam Gayoso, Eirini Arvaniti, Guido Novati, Heidi L. Rehm, Fei Chen, Caleb A. Lareau, Caroline F Wright, Anne O'Donnell-Luria, Julia Zeitlinger, Pushmeet Kohli, Žiga Avsec, Kathryn Tunyasuvunakool, Alexander Karollus, Risha Patel, Francesca Pietra, Alisha Eastep, Doga Fadillioglu, Charlie Taylor, Raphael Aboyeji, Uchechi Okereke, Gemma Gibbs, Olufemi Duduyemi, Juan Mateos-Garcia, Mariana Felix, Sahar Abdulrahman, Antonia Mould, Rachael Tremlett, Chang Yun, Salil Deshpande, Anshul Kundaje, Samantha Bryen, Greg Findlay, Phoebe Dace, Kinga Bujakowska, Emma Sherrill, Aubrie Soucy Verran, Boxun Zhao, Tim Yu, Brendah Namugamba, Cassie Gray, Daniel MacArthur, Lingyi Wang, Marc Mansour, Mohamad Hajjari, Mounica Vallurupalli, Philip Montgomery, Roisin Sullivan, Sam Bryen, Teresa Niccoli, Evie Gray, Adriana Fernandez Lara, Alex Wilkins, Danielle Breen, Mariana Montes, Inês Ayer, Ryan Smith, Ross West, and Gaby Pearl.",
-      "main": "WORLD",
-      "sub": "Society & Culture",
-      "category": "WORLD",
-      "subcategory": "Society & Culture",
-      "sources": [
-        {
-          "name": "deepmind_blog",
-          "url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
-          "domain": "deepmind.google",
-          "added_at": "2026-09-08T21:42:50.065483+00:00"
-        },
-        {
-          "name": "hackernews",
-          "url": "https://blog.google/innovation-and-ai/models-and-research/google-deepmind/alphagenome-atlas/",
-          "domain": "blog.google",
-          "added_at": "2026-09-09T06:50:57.768451+00:00"
-        }
-      ],
-      "source": "deepmind_blog",
-      "source_url": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
-      "source_domain": "deepmind.google",
-      "source_permalink": "https://deepmind.google/blog/alphagenome-atlas-a-predictive-map-of-every-possible-dna-letter-change-in-the-human-genome/",
-      "score": 100,
-      "author": "",
-      "published_at": "2026-09-08T21:42:50.065483+00:00",
-      "created_at_ts": 1788876015,
-      "audio_path": "audio/2026-09-08/rss-deepmind_blog-80d284f58871-alphagenome-atlas-a-predictive-map-of-every-possible-dna-let.mp3",
-      "word_count": 445,
-      "estimated_duration_s": 178,
-      "image_url": null,
-      "location": null,
-      "audio_bytes": 1444704,
-      "audio_duration_s": 182.9,
-      "tts_chunks": 23,
-      "tts_voice": "am_liam",
-      "audio_verdict": "unchecked",
-      "key_points": [
-        "Google DeepMind introduces the AlphaGenome Atlas, a one petabyte database predicting the effects of every possible single nucleotide variant in the human genome using the AlphaGenome AI model.",
-        "The human genome contains about three billion base pairs of DNA, with two percent coding for proteins and ninety-eight percent remaining less understood.",
-        "The database pre-calculates the regulatory impact of all nine billion single-letter genetic changes.",
-        "The Atlas introduces the AlphaGenome Variant Impact score to combine predictions for coding and non-coding regions.",
-        "At the Broad Institute, Laura Covill and her team used the score to identify a critical variant in the D N M one gene that created an incorrect splice site for unsolved rare disease research.",
-        "Dr. Gareth Hawkes applied the tool to data from fifty-four thousand plus U K Biobank participants, uncovering twenty-two percent more non-coding genetic associations and identifying nineteen genetic regions linked to body mass index.",
-        "The AlphaGenome Atlas is available through a website portal requiring zero coding skills.",
-        "A massive collaborative research project credits dozens of individuals and major institutions, including Harvard University, Boston Children's Hospital, and the University of Exeter."
-      ]
     },
     {
       "id": "hn-49605767",
@@ -6188,77 +6041,7 @@
       "tts_chunks": 20,
       "tts_voice": "am_liam",
       "audio_verdict": "unchecked"
-    },
-    {
-      "id": "tldr-infosec-9e7e60f46a8a",
-      "title": "N-able patches max-severity N-central flaw amid ongoing attacks",
-      "summary": "N-able has released an emergency hotfix for a maximum-severity remote code execution vulnerability. The flaw affects the N-central remote monitoring and management platform. It is tracked as C. V. E. dash twenty twenty-six dash eighty-six thousand two hundred eighteen. The flaw allows unprivileged threat actors to execute malicious code on unpatched systems. These online-exposed instances are vulnerable to low-complexity attacks.\n\nN-able addressed the issue on Saturday. They issued N-central twenty twenty-six point three Hotfix four. The company is urging customers to upgrade immediately. The Shadowserver Foundation tracks nearly fifteen hundred N-central servers exposed online. These servers are primarily located in the United States and Europe.\n\nN-able stated it has no confirmations that the vulnerability is being targeted. However, cybersecurity company Huntress flagged it as a potential zero-day. They also flagged two high-severity vulnerabilities tracked as C. V. E. dash twenty twenty-six dash eighty-six thousand two hundred six and C. V. E. dash twenty twenty-six dash eighty-six thousand two hundred seven. These two flaws were also patched over the weekend.\n\nHuntress noted it could not definitively determine if these flaws were responsible for an exploitation. This exploitation was seen in a customer patched production environment. Logs on the compromised server had already rotated. In an advisory, Huntress warned that on-premises users must apply Hotfix four immediately. Systems running Hotfix three remain vulnerable. Customers running on-premises deployments were instructed by N-able to upgrade to N-central twenty twenty-six point three H. F. four immediately to protect their environments.",
-      "main": "WORLD",
-      "sub": "Society & Culture",
-      "category": "WORLD",
-      "subcategory": "Society & Culture",
-      "sources": [
-        {
-          "name": "tldr_infosec",
-          "url": "https://www.bleepingcomputer.com/news/security/n-able-patches-max-severity-n-central-flaw-amid-ongoing-attacks/",
-          "domain": "bleepingcomputer.com",
-          "added_at": "2026-09-08T21:38:43.232083+00:00"
-        }
-      ],
-      "source": "tldr_infosec",
-      "source_url": "https://www.bleepingcomputer.com/news/security/n-able-patches-max-severity-n-central-flaw-amid-ongoing-attacks/",
-      "source_domain": "bleepingcomputer.com",
-      "source_permalink": "https://tldr.tech/infosec/2026-09-08",
-      "score": 350,
-      "author": "TLDR",
-      "published_at": "2026-09-08T21:38:43.232083+00:00",
-      "created_at_ts": 1788825600,
-      "audio_path": "audio/2026-09-08/tldr-infosec-9e7e60f46a8a-n-able-patches-max-severity-n-central-flaw-amid-ongoing-atta.mp3",
-      "word_count": 245,
-      "estimated_duration_s": 98,
-      "image_url": "https://www.bleepstatic.com/content/hl-images/2026/09/07/N-able-headpic.jpg",
-      "location": null,
-      "audio_bytes": 779664,
-      "audio_duration_s": 99.8,
-      "tts_chunks": 20,
-      "tts_voice": "am_liam",
-      "audio_verdict": "unchecked"
-    },
-    {
-      "id": "tldr-tech-7cad8f83e2e4",
-      "title": "XPeng starts IRON humanoid robot production as Tesla Optimus stalls",
-      "summary": "Chinese automaker XPeng has activated the world first automated production line for advanced humanoid robots. The facility is located in Guangzhou. The first IRON robot walked off the line under its own power. Chief Executive Officer, He Xiaopeng stated that the production lines were created from scratch with no precedent. The production setup features more than eighty percent core process automation. It borrows quality systems used for electric cars. The company robotics arm recently raised over nine hundred million dollars. That was at a six point three billion dollar valuation. The funding round was led by, I. D. G. Capital. Tencent and Alibaba also participated. The IRON robot features seventy-six degrees of freedom across its body. It has twenty-one degrees of freedom in each hand. Three in-house Turing A. I. chips power the machine. They deliver up to two thousand two hundred fifty T. O. P. S. These chips run its Physical A. I. foundation model without remote teleoperation. This news matters because XPeng is attempting to solve a difficult challenge. That challenge is consistently manufacturing generalized humanoid robots at scale. XPeng is targeting mass production by the end of twenty twenty-six. Initial deployments are planned for its own stores and campuses. Commercial sales and deliveries will begin in China and abroad in twenty twenty-seven. The company aims to build over one thousand robots a month. This is on the way to one million robots a year by twenty thirty.",
-      "main": "WORLD",
-      "sub": "Society & Culture",
-      "category": "WORLD",
-      "subcategory": "Society & Culture",
-      "sources": [
-        {
-          "name": "tldr_tech",
-          "url": "https://electrek.co/2026/09/07/xpeng-iron-humanoid-robot-production-line/",
-          "domain": "electrek.co",
-          "added_at": "2026-09-08T22:05:15.804881+00:00"
-        }
-      ],
-      "source": "tldr_tech",
-      "source_url": "https://electrek.co/2026/09/07/xpeng-iron-humanoid-robot-production-line/",
-      "source_domain": "electrek.co",
-      "source_permalink": "https://tldr.tech/tech/2026-09-08",
-      "score": 350,
-      "author": "TLDR",
-      "published_at": "2026-09-08T22:05:15.804881+00:00",
-      "created_at_ts": 1788825600,
-      "audio_path": "audio/2026-09-08/tldr-tech-7cad8f83e2e4-xpeng-starts-iron-humanoid-robot-production-as-tesla-optimus.mp3",
-      "word_count": 240,
-      "estimated_duration_s": 96,
-      "image_url": "https://electrek.co/wp-content/uploads/sites/3/2026/09/xpeng-iron-production-line.png?resize=1200,628",
-      "location": null,
-      "audio_bytes": 684432,
-      "audio_duration_s": 88.0,
-      "tts_chunks": 21,
-      "tts_voice": "am_liam",
-      "audio_verdict": "unchecked"
     }
   ],
-  "updated_at": "2026-09-15T16:30:42.106473+00:00"
+  "updated_at": "2026-09-15T22:18:18.561074+00:00"
 }

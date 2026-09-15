@@ -1,0 +1,42 @@
+═══ 00_KEY_POINTS ═══
+
+1. Researchers posted a new computer-assisted proof of the four-color theorem online in March 2026.
+2. The new proof will be presented in November at the annual Foundations of Computer Science conference.
+3. The research team includes Mikkel Thorup, Carsten Thomassen, Ken-ichi Kawarabayashi, Bojan Mohar, Yuta Inoue, and Atsuyuki Miyashita.
+4. The new proof features an unavoidable set consisting of 8,202 configurations.
+5. The new proof yields a coloring algorithm requiring n(log n) steps, improving on the previous n2 steps.
+6. The new work uncovers unknown structure in planar graphs and provides new tools for understanding them.
+7. Georges Gonthier stated that it is really cool to see a real result for once given the problem's history.
+
+═══ 01_DRAFT ═══
+
+Researchers have produced a new computer-assisted proof of the four-color theorem that was posted online in March 2026 and will be presented in November at the annual Foundations of Computer Science conference. The team behind the work includes Mikkel Thorup, Carsten Thomassen, Ken-ichi Kawarabayashi, Bojan Mohar, Yuta Inoue, and Atsuyuki Miyashita. Unlike previous efforts, the new proof features a massive unavoidable set consisting of 8,202 configurations that can be reduced in parallel rather than one by one. This breakthrough yields a far more efficient coloring algorithm requiring n(log n) steps for a graph with n vertices, which is a significant improvement over the previous requirement of n2 steps. The greatest value of the new proof lies in the insights it provides into the nature of graphs. By drawing on a different concept of reducibility and utilizing previously overlooked flat areas of the graph, the research has revealed unknown structure in planar graphs and given mathematicians new tools for understanding them. This development opens up potential progress on other stubborn problems in graph theory and allows researchers to apply their techniques to coloring theorems for graphs on surfaces such as the doughnut-shaped torus. Commenting on the long and complicated history of the problem, Georges Gonthier stated that it is really cool to see a real result for once.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Researchers have produced a new computer-assisted proof of the four-color theorem that was posted online in March 2026 and will be presented in November at the annual Foundations of Computer Science conference. The team behind the work includes Mikkel Thorup, Carsten Thomassen, Ken-ichi Kawarabayashi, Bojan Mohar, Yuta Inoue, and Atsuyuki Miyashita. The new proof features a massive unavoidable set consisting of 8,202 configurations found by searching flat areas of the graph. This breakthrough yields a far more efficient coloring algorithm requiring n(log n) steps for a graph with n vertices, which is a significant improvement over the previous requirement of n2 steps. The greatest value of the new proof lies in the insights it provides into the nature of graphs. By drawing on a different concept of reducibility and utilizing previously overlooked flat areas of the graph, the research has revealed unknown structure in planar graphs and given mathematicians new tools for understanding them. This development opens up potential progress on other stubborn problems in graph theory and allows researchers to apply their techniques to coloring theorems for graphs on surfaces such as the doughnut-shaped torus. Given the problem’s history of false starts and dashed hopes, Georges Gonthier stated that it is really cool to see a real result for once.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (7/7). Missing: none
+
+═══ 03c_WHY_MATTERS ═══
+
+The new computer-assisted proof improves graph coloring algorithms, accelerating computational efficiency for researchers tackling complex network problems.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Researchers have produced a new computer-assisted proof of the four color theorem. It was posted online in March twenty twenty-six and will be presented in November at the annual Foundations of Computer Science conference. The team behind the work includes Mikkel Thorup, Carsten Thomassen, Ken-ichi Kawarabayashi, Bojan Mohar, Yuta Inoue, and Atsuyuki Miyashita, Quanta Magazine reports. The new proof features a massive unavoidable set consisting of eight thousand two hundred two configurations found by searching flat areas of the graph. This breakthrough yields a far more efficient coloring algorithm requiring n log n steps for a graph with n vertices, which is a significant improvement over the previous requirement of n squared steps. The greatest value of the new proof lies in the insights it provides into the nature of graphs. By drawing on a different concept of reducibility and utilizing previously overlooked flat areas of the graph, the research has revealed unknown structure in planar graphs and given mathematicians new tools for understanding them. This development opens up potential progress on other stubborn problems in graph theory and allows researchers to apply their techniques to coloring theorems for graphs on surfaces such as the doughnut-shaped torus. Given the problem and its history of false starts and dashed hopes, Georges Gonthier stated that it is really cool to see a real result for once. The new computer-assisted proof improves graph coloring algorithms, accelerating computational efficiency for researchers tackling complex network problems.
+
+═══ 05_NORMALIZED ═══
+
+Researchers have produced a new computer-assisted proof of the four color theorem. It was posted online in March twenty twenty-six and will be presented in November at the annual Foundations of Computer Science conference. The team behind the work includes Mikkel Thorup, Carsten Thomassen, Ken-ichi Kawarabayashi, Bojan Mohar, Yuta Inoue, and Atsuyuki Miyashita, Quanta Magazine reports. The new proof features a massive unavoidable set consisting of eight thousand two hundred two configurations found by searching flat areas of the graph. This breakthrough yields a far more efficient coloring algorithm requiring n log n steps for a graph with n vertices, which is a significant improvement over the previous requirement of n squared steps. The greatest value of the new proof lies in the insights it provides into the nature of graphs. By drawing on a different concept of reducibility and utilizing previously overlooked flat areas of the graph, the research has revealed unknown structure in planar graphs and given mathematicians new tools for understanding them. This development opens up potential progress on other stubborn problems in graph theory and allows researchers to apply their techniques to coloring theorems for graphs on surfaces such as the doughnut-shaped torus. Given the problem and its history of false starts and dashed hopes, Georges Gonthier stated that it is really cool to see a real result for once. The new computer-assisted proof improves graph coloring algorithms, accelerating computational efficiency for researchers tackling complex network problems.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (7/7). Missing: none
+
+═══ 07_SANITY ═══
+
+numeric_preservation: score=0.77 {'total': 13, 'missing': ['11', '150', '633']}; sentence_length_dist: score=0.57 {'n': 10, 'p50': 24, 'p90': 34}
+
