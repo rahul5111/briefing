@@ -134,6 +134,20 @@ a { color: inherit; text-decoration: none; }
   text-transform: none;
 }
 
+/* B-04 hero greeting — sits between the wordmark and the tagline. */
+.masthead .hero-greet {
+  font-family: var(--font-body);
+  font-size: 1.05rem;
+  color: var(--ink);
+  padding-top: 10px;
+  padding-bottom: 2px;
+  letter-spacing: 0;
+  text-transform: none;
+  line-height: 1.4;
+}
+.masthead .hero-greet .greet-word { font-weight: 600; }
+.masthead .hero-greet .greet-sep { color: var(--muted); }
+
 /* ─────────────────────────── CONTROLS ROW ─────────────────────── */
 .controls-row {
   display: flex;

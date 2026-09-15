@@ -22,6 +22,23 @@ const totalMinutes = Math.round(
 
 const uniqueSources = new Set(stories.map((s: any) => s.source_domain || s.source)).size;
 
+// B-04: hero greeting + today's briefing size. Today = local calendar
+// day at build time in UTC; a small client-side script downgrades the
+// greeting word to match the viewer's actual hour after mount.
+const todayISO = today.toISOString().slice(0, 10);
+const todayStories = stories.filter((s: any) => {
+  const ts = s.created_at_ts;
+  if (!ts) return false;
+  const d = new Date(ts * 1000);
+  return d.toISOString().slice(0, 10) === todayISO;
+});
+const todayMinutes = Math.max(
+  1,
+  Math.round(
+    todayStories.reduce((a: number, s: any) => a + (s.estimated_duration_s ?? 60), 0) / 60
+  )
+);
+
 const cdnBase = import.meta.env.PUBLIC_CDN_BASE ?? "/data";
 ---
 <Layout title="Briefing">
@@ -39,6 +56,14 @@ const cdnBase = import.meta.env.PUBLIC_CDN_BASE ?? "/data";
         </div>
       </div>
       <h1>Briefing<span class="accent">.</span></h1>
+      {todayStories.length > 0 && (
+        <div class="hero-greet" data-today-count={todayStories.length} data-today-min={todayMinutes}>
+          <span class="greet-word">Good day</span>.
+          {" "}{todayStories.length} development{todayStories.length === 1 ? "" : "s"} to catch you up
+          <span class="greet-sep"> · </span>
+          {todayMinutes} min.
+        </div>
+      )}
       <div class="sub">
         <span class="tagline">
           World news, tech, security and research. Curated across sources, refined for spoken audio, read aloud in one to four minutes.
@@ -51,5 +76,14 @@ const cdnBase = import.meta.env.PUBLIC_CDN_BASE ?? "/data";
       </div>
     </header>
     <Feed client:load stories={stories} cdnBase={cdnBase} />
+    <script is:inline>
+      // B-04: swap "Good day" to time-of-day greeting based on viewer's local clock.
+      (function () {
+        var el = document.querySelector(".hero-greet .greet-word");
+        if (!el) return;
+        var h = new Date().getHours();
+        el.textContent = h < 12 ? "Good morning" : h < 17 ? "Good afternoon" : "Good evening";
+      })();
+    </script>
   </div>
 </Layout>
