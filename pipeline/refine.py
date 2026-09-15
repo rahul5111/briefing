@@ -1,18 +1,27 @@
 """Multi-pass content refinement — every step before TTS.
 
-Layers:
-  1. DRAFT               (LLM)   — first-pass summary from source
-  2. FACT_VERIFY         (LLM)   — check numbers/names/dates against source
-     └─ REDRAFT          (LLM)   — retry with critique if verify fails
-  3. AUDIO_REWRITE       (LLM)   — rewrite for spoken delivery
-  4. PRONUNCIATION_NORM  (regex) — expand numbers, abbrevs, versions
-  5. SANITY_CHECK        (LLM)   — cheap final read-aloud test
-  6. WRITE_REVIEW        (I/O)   — persist to data/reviews/{date}/{id}.txt
+Layers (post-optimization 2026-09-15 — see Cut A/B/C/D below):
+  1. DISTILL_AND_DRAFT   (LLM)   — extract facts AND write draft in one call
+  2. FACT_VERIFY         (LLM*)  — regex; LLM redraft only if bad facts found
+  3. COVERAGE            (Python)— salient-token overlap on facts vs draft
+     └─ EXPAND           (LLM*)  — only when coverage < 0.85
+  4. AUDIO_REWRITE       (LLM)   — one call returning {stakes, audio_body}
+  5. PRONUNCIATION_NORM  (regex) — expand numbers, abbrevs, versions
+  6. AUDIO_SCORERS       (regex) — rule-based TTS sanity (audio_scorers.py)
+  7. WRITE_REVIEW        (I/O)   — persist to data/reviews/{date}/{id}.txt
+
+Gemini call count per always-fire story: 2 (was 7).
+  A. distill_and_draft (was distill + _draft)                = 1 (was 2)
+  B. coverage checks × 2 → Python                             = 0 (was 2)
+  C. audio_rewrite_with_stakes (was _why_matters + _audio…)   = 1 (was 2)
+  D. sanity → audio_scorers                                   = 0 (was 1)
+Conditional (bad facts / low coverage) still uses LLM: +0-2.
 
 TTS is downstream of this module and is the ONLY step that spends "expensive"
 compute. If any layer here fails, we return None and skip TTS entirely.
 """
 from __future__ import annotations
+import json
 import re
 import time
 from dataclasses import dataclass
@@ -20,6 +29,7 @@ from pathlib import Path
 from google import genai
 
 from . import config, normalize, key_points
+from .eval import audio_scorers
 
 COVERAGE_THRESHOLD = 0.85   # % of must-include facts that must be present
 
@@ -290,6 +300,167 @@ def _audio_rewrite(draft: str, source_name: str = "", stakes: str = "") -> str |
     return out or None
 
 
+# ─────────────────────────────────────────────────────────────────────
+# Cut C (2026-09-15): merged why-it-matters + audio-rewrite in one call.
+# ─────────────────────────────────────────────────────────────────────
+#
+# The merged prompt inlines ALL of:
+#   - the 9 hard audio rules from AUDIO_REWRITE_PROMPT (unchanged verbatim)
+#   - the worked example from AUDIO_REWRITE_PROMPT (unchanged verbatim)
+#   - the stakes-line rules from WHY_MATTERS_PROMPT (unchanged verbatim)
+#   - a stakes weaving rule (was rule 9 of AUDIO_REWRITE, retained here)
+#
+# Structure — the model MUST derive stakes FIRST, before writing the
+# audio body. This is a deliberate chain-of-thought:
+#   1) the model commits to a one-sentence "why it matters" grounded in
+#      the input, or emits the sentinel "NONE" if the story is fluff
+#   2) it then rewrites for audio, weaving that stakes sentence into
+#      paragraph 2 as before
+# NONE stakes → the caller flags the story `thin=True`, matching the old
+# path exactly.
+
+AUDIO_REWRITE_WITH_STAKES_PROMPT = """You are rewriting a news briefing for
+SPOKEN audio delivery AND deriving its one-sentence "why it matters" line.
+A neural voice will read your output aloud. It must sound natural to the ear.
+
+You produce ONE JSON object with two fields:
+  {{"stakes": "<one sentence, 12-28 words, OR the literal word NONE>",
+    "audio_body": "<the spoken-form briefing prose>"}}
+
+────────────────────────────────────────────────────────────────────
+STAKES rules (fill this first, before writing audio_body):
+────────────────────────────────────────────────────────────────────
+
+Say what this news means for a professional reader of business, tech, and
+policy news:
+  - market impact (specific company or sector)
+  - precedent (regulatory, legal, editorial)
+  - affected population (numbers or geography)
+  - consequence downstream (what other actors will do)
+
+Stakes rules:
+- ONE sentence, 12-28 words.
+- Ground the inference in facts already in the input briefing. Do not add
+  new entities or numbers.
+- If the input is a listicle, a shopping guide, a personality piece, or a
+  bundle of unrelated items, return exactly: NONE
+- Do not use throat-clearing phrases like "this matters because" or "the
+  significance is that". Just say it.
+- Do not editorialise ("shockingly", "unprecedented"). Just state the
+  consequence.
+
+────────────────────────────────────────────────────────────────────
+AUDIO_BODY rules (rewrite the input briefing for spoken delivery):
+────────────────────────────────────────────────────────────────────
+
+Worked example — this is what "spoken form" looks like:
+
+  INPUT:  Reuters reports the Fed cut rates by 0.25%, and the API price
+          for GPT-4 fell $40M in Q3 2026.
+  OUTPUT: The Federal Reserve cut interest rates by zero point two five
+          percent, Reuters reports. The A. P. I. price for G. P. T. four
+          fell forty million dollars in the third quarter of twenty
+          twenty-six.
+
+Hard rules — apply every single one:
+
+1. SPELL OUT ALL NUMBERS. "3.8" becomes "three point eight". "40,000" becomes
+   "forty thousand". "2026" becomes "twenty twenty-six". "$40M" becomes "forty
+   million dollars". Version numbers, years, currency, percentages, everything.
+
+2. SPELL OUT ACRONYMS on first use. "AI" → "A. I.". "GDP" → "G. D. P.".
+   "HTTPS" → "H. T. T. P. S.". Use periods between the letters — the voice
+   pauses on them correctly.
+
+3. SHORT SENTENCES. Aim for 12-20 words per sentence. Break long ones with
+   periods, not commas. A period is a pause; a comma is not.
+
+4. NO dashes, no parentheses, no semicolons, no lists, no colons. These do
+   not work in speech. Rephrase around them.
+
+5. NO throat-clearing openings like "In a recent development" or "It was
+   announced today". Start with the fact.
+
+6. If a name is unusual (foreign, technical, or made-up), add a comma-pause
+   before it so the voice slows down.
+
+7. Keep every fact from the input. Do not add new facts. Do not remove facts
+   unless they contain a symbol or number you cannot spell out cleanly.
+
+8. IN-LINE ATTRIBUTION. Name the outlet exactly once, in the second or third
+   sentence, in-line: "Reuters reports…", "the B. B. C. characterises it as…",
+   "according to The Hindu…". Use the outlet name given as {source_name}. Do
+   not append attribution at the end; weave it mid-flow.
+
+9. STAKES WEAVING. If your `stakes` field is NOT the literal word NONE,
+   rephrase that sentence to match your prose voice and weave it as the
+   final sentence of the second paragraph of audio_body. Do NOT tack it on
+   as a separate paragraph at the end. If your `stakes` is NONE, do not
+   invent stakes in the audio_body either — write a straight-facts version.
+
+────────────────────────────────────────────────────────────────────
+Output format:
+
+Return ONLY the JSON object. No prose outside, no code fences, no comments.
+Example valid response (illustrative — do not copy the words):
+
+  {{"stakes":"The rate cut lowers borrowing costs for U. S. small businesses through the fourth quarter.","audio_body":"The Federal Reserve cut interest rates by zero point two five percent, Reuters reports. ..."}}
+
+────────────────────────────────────────────────────────────────────
+
+Outlet: {source_name}
+
+Input briefing:
+{draft}
+"""
+
+
+@dataclass
+class AudioWithStakes:
+    stakes: str          # empty string if the model emitted NONE
+    audio_body: str      # spoken-form prose
+
+
+def _audio_rewrite_with_stakes(draft: str, source_name: str = "") -> AudioWithStakes | None:
+    """Cut C — one Gemini call returning both stakes and audio_body.
+
+    Returns None on parse failure (caller falls through to skip, same
+    policy as the old path when either the why_matters or audio_rewrite
+    call returned empty). An emitted `NONE` stakes yields `stakes=""` and
+    the caller sets `thin=True` on the Refined record.
+    """
+    prompt = AUDIO_REWRITE_WITH_STAKES_PROMPT.format(
+        draft=draft,
+        source_name=source_name or "the source",
+    )
+    raw = _call(prompt, temperature=0.3, max_tokens=1600)
+    if not raw:
+        return None
+    # Strip fences the model may have wrapped around the JSON.
+    s = raw.strip()
+    s = re.sub(r"^```(?:json)?\s*", "", s)
+    s = re.sub(r"\s*```$", "", s)
+    m = re.search(r"\{.*\}", s, re.S)
+    if m:
+        s = m.group(0)
+    try:
+        obj = json.loads(s)
+    except json.JSONDecodeError:
+        return None
+    stakes_raw = str(obj.get("stakes", "")).strip()
+    body = str(obj.get("audio_body", "")).strip()
+    if not body:
+        return None
+    # Match the legacy _why_matters filter: strip trailing period, treat
+    # "NONE" (case-insensitive) or fewer than 8 words as no-stakes.
+    stakes_norm = stakes_raw.rstrip(".").strip()
+    if stakes_norm.upper() == "NONE" or len(stakes_norm.split()) < 8:
+        stakes_out = ""
+    else:
+        stakes_out = stakes_norm + "."
+    return AudioWithStakes(stakes=stakes_out, audio_body=body)
+
+
 # ────────────────────────────────────────────────────────────────────────────
 # Layer 4: PRONUNCIATION NORMALIZE (safety net; deterministic)
 # ────────────────────────────────────────────────────────────────────────────
@@ -325,12 +496,39 @@ Text:
 
 
 def _sanity(text: str) -> tuple[bool, str]:
+    """LEGACY LLM sanity check. Not called from refine() any more —
+    superseded by `_sanity_local()` (Cut D). Kept only so external
+    callers / tests can still invoke it."""
     out = _call(SANITY_PROMPT.format(text=text), temperature=0.0, max_tokens=200)
     if not out:
         return True, ""
     if out.strip().upper().startswith("OK"):
         return True, ""
     return False, out.strip()
+
+
+# ─────────────────────────────────────────────────────────────────────
+# Cut D (2026-09-15): Python sanity check via audio_scorers.
+# ─────────────────────────────────────────────────────────────────────
+#
+# The old SANITY_PROMPT flagged: bare digits/symbols, sentences > 30 words,
+# awkward punctuation, unspaced acronyms, mid-sentence cutoffs. All of
+# that is already implemented deterministically in audio_scorers.py
+# (B-45) as: numeric_preservation, sentence_length_dist,
+# forbidden_punctuation, acronym_letter_spacing. Wiring the scorers in
+# here replaces one LLM call per story with zero API cost, and gives
+# structured details for the review file instead of prose.
+
+def _sanity_local(text: str, source: str, source_name: str) -> tuple[bool, str]:
+    """Cut D — audio_scorers wrapper. Returns (all_passed, notes)."""
+    results = audio_scorers.run_all(source=source, rewrite=text,
+                                     source_name=source_name)
+    all_ok = audio_scorers.all_passed(results)
+    if all_ok:
+        return True, ""
+    fails = [f"{r.name}: score={r.score:.2f} {r.details}"
+             for r in results if not r.passed]
+    return False, "; ".join(fails)
 
 
 # ────────────────────────────────────────────────────────────────────────────
@@ -408,21 +606,23 @@ def refine(title: str, source: str, story_id: str, day: str, source_name: str = 
         print(f"  digest post detected, skipping: {title[:80]}")
         return None
 
-    # 0. DISTILL KEY POINTS from source (the coverage contract)
-    kp = key_points.distill(title, source)
-    if not kp:
+    # 0. DISTILL_AND_DRAFT — one Gemini call returns both the fact list
+    #    (coverage contract) and the first-pass draft (Cut A).
+    source_words = len(source.split())
+    target = max(config.WORDS_MIN,
+                 min(config.WORDS_MAX, int(round(source_words * 0.35))))
+    dd = key_points.distill_and_draft(title, source, target_words=target)
+    if not dd:
         return None
-    stages["00_KEY_POINTS"] = "\n".join(f"{i+1}. {f}" for i, f in enumerate(kp.facts))
-    passes.append(f"distilled({len(kp.facts)})")
-
-    # 1. DRAFT
-    draft = _draft(title, source)
-    if not draft:
-        return None
+    facts = dd.facts
+    draft = dd.draft
+    stages["00_KEY_POINTS"] = "\n".join(f"{i+1}. {f}" for i, f in enumerate(facts))
     stages["01_DRAFT"] = draft
+    passes.append(f"distilled({len(facts)})")
     passes.append("draft")
 
     # 2. LOCAL FACT VERIFY → LLM REDRAFT if hallucinations
+    #    (unchanged — conditional LLM call, already cheap on average).
     bad = _local_verify(draft, source)
     if bad:
         redrafted = _redraft(draft, source, bad)
@@ -437,44 +637,38 @@ def refine(title: str, source: str, story_id: str, day: str, source_name: str = 
                 stages["02b_TRIMMED"] = draft
                 passes.append("trim")
 
-    # 3. COVERAGE CHECK on the draft → REDRAFT if we lost too many facts
-    try:
-        cov1 = key_points.coverage(kp.facts, draft)
-    except Exception as e:
-        cov1 = None
-        stages["03_COVERAGE_1"] = f"SKIPPED: {e}"
-    if cov1:
-        stages["03_COVERAGE_1"] = (
-            f"{int(cov1.coverage_pct*100)}% covered "
-            f"({sum(cov1.covered)}/{len(cov1.covered)}). "
-            f"Missing: {'; '.join(cov1.missing) or 'none'}"
-        )
-        passes.append(f"cov1={int(cov1.coverage_pct*100)}%")
-        if cov1.coverage_pct < COVERAGE_THRESHOLD and cov1.missing:
-            expand = _expand_for_coverage(draft, source, cov1.missing)
-            if expand:
-                draft = expand
-                stages["03b_EXPANDED_FOR_COVERAGE"] = draft
-                passes.append("expanded")
+    # 3. COVERAGE CHECK on the draft (Python — Cut B). No API call.
+    #    Falls through to `_expand_for_coverage` ONLY when the Python
+    #    check says < threshold, matching the old policy but skipping
+    #    the LLM verify step upstream.
+    cov1 = key_points.coverage_local(facts, draft)
+    stages["03_COVERAGE_1"] = (
+        f"{int(cov1.coverage_pct*100)}% covered "
+        f"({sum(cov1.covered)}/{len(cov1.covered)}). "
+        f"Missing: {'; '.join(cov1.missing) or 'none'}"
+    )
+    passes.append(f"cov1={int(cov1.coverage_pct*100)}%")
+    if cov1.coverage_pct < COVERAGE_THRESHOLD and cov1.missing:
+        expand = _expand_for_coverage(draft, source, cov1.missing)
+        if expand:
+            draft = expand
+            stages["03b_EXPANDED_FOR_COVERAGE"] = draft
+            passes.append("expanded")
 
     if len(draft.split()) < config.WORDS_MIN * 0.7:
         return None
 
-    # 3c. WHY-IT-MATTERS (persona audit P1-2): explicit stakes line the
-    #     audio-rewrite prompt weaves into paragraph 2. NONE-signal marks
-    #     the story as content-thin (listicles, shopping guides, personality
-    #     pieces, or multi-story bundles).
-    stakes = _why_matters(draft) or ""
-    stages["03c_WHY_MATTERS"] = stakes or "NONE — content-thin, no stakes inferable"
-    passes.append(f"stakes={'y' if stakes else 'n'}")
-
-    # 4. AUDIO REWRITE for spoken delivery. Now accepts source_name so it
-    #    can weave an in-line attribution, and stakes so it can integrate
-    #    the "why it matters" line rather than tacking it on at the end.
-    audio_draft = _audio_rewrite(draft, source_name=source_name, stakes=stakes)
-    if not audio_draft:
+    # 4. AUDIO_REWRITE_WITH_STAKES (Cut C) — one Gemini call returns
+    #    both stakes and audio_body. NONE stakes → thin story flag,
+    #    matching legacy _why_matters behaviour.
+    aws = _audio_rewrite_with_stakes(draft, source_name=source_name)
+    if not aws:
         return None
+    stakes = aws.stakes
+    audio_draft = aws.audio_body
+    stages["03c_WHY_MATTERS"] = stakes or "NONE — content-thin, no stakes inferable"
     stages["04_AUDIO_REWRITE"] = audio_draft
+    passes.append(f"stakes={'y' if stakes else 'n'}")
     passes.append("audio_rewrite")
 
     # 5. PRONUNCIATION NORMALIZE (deterministic)
@@ -482,24 +676,21 @@ def refine(title: str, source: str, story_id: str, day: str, source_name: str = 
     stages["05_NORMALIZED"] = normalized
     passes.append("normalize")
 
-    # 6. FINAL COVERAGE CHECK — did any facts drop out during audio rewrite?
-    final_cov: key_points.CoverageResult | None = None
-    try:
-        final_cov = key_points.coverage(kp.facts, normalized)
-    except Exception as e:
-        stages["06_COVERAGE_FINAL"] = f"SKIPPED: {e}"
-    if final_cov:
-        stages["06_COVERAGE_FINAL"] = (
-            f"{int(final_cov.coverage_pct*100)}% covered "
-            f"({sum(final_cov.covered)}/{len(final_cov.covered)}). "
-            f"Missing: {'; '.join(final_cov.missing) or 'none'}"
-        )
-        passes.append(f"cov_final={int(final_cov.coverage_pct*100)}%")
+    # 6. FINAL COVERAGE CHECK — did any facts drop out during audio
+    #    rewrite? Python again (Cut B). Informational; does not gate.
+    final_cov = key_points.coverage_local(facts, normalized)
+    stages["06_COVERAGE_FINAL"] = (
+        f"{int(final_cov.coverage_pct*100)}% covered "
+        f"({sum(final_cov.covered)}/{len(final_cov.covered)}). "
+        f"Missing: {'; '.join(final_cov.missing) or 'none'}"
+    )
+    passes.append(f"cov_final={int(final_cov.coverage_pct*100)}%")
 
-    # 7. SANITY CHECK for TTS-tripping issues
+    # 7. SANITY CHECK for TTS-tripping issues — audio_scorers (Cut D).
     sanity_notes = ""
     try:
-        ok, notes = _sanity(normalized)
+        ok, notes = _sanity_local(normalized, source=source,
+                                   source_name=source_name)
         if not ok:
             sanity_notes = notes
         stages["07_SANITY"] = "OK" if ok else notes
@@ -527,9 +718,9 @@ def refine(title: str, source: str, story_id: str, day: str, source_name: str = 
         word_count=words,
         passes_used=passes,
         sanity_notes=sanity_notes,
-        key_points=kp.facts,
-        coverage_pct=final_cov.coverage_pct if final_cov else -1.0,
-        missing_points=final_cov.missing if final_cov else [],
+        key_points=facts,
+        coverage_pct=final_cov.coverage_pct,
+        missing_points=final_cov.missing,
         stakes=stakes,
         thin=not bool(stakes),
     )

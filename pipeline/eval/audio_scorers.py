@@ -45,12 +45,66 @@ _NUM_WORDS = {
 
 _MAGNITUDE_TOKENS = ("thousand", "million", "billion", "trillion", "hundred")
 
+_TENS_LEX = {
+    20: "twenty", 30: "thirty", 40: "forty", 50: "fifty",
+    60: "sixty", 70: "seventy", 80: "eighty", 90: "ninety",
+}
+
 
 def _spelled_form(n: int) -> Optional[str]:
     """Return a spelled form of `n` if it's a common cardinal."""
     if n in _NUM_WORDS:
         return _NUM_WORDS[n]
     return None
+
+
+def _spelled_forms_all(n: int) -> list[str]:
+    """Return every plausible spelled form we'd accept for `n`.
+
+    Handles:
+      - 0-20, tens (30, 40 …), magnitudes (via _NUM_WORDS)
+      - 21-99 compound ("twenty-five", "twenty five")
+      - 100-999 whole hundreds ("five hundred") and mixed ("five hundred twelve")
+      - years 1900-2099 as "twenty twenty-six" and "two thousand twenty-six"
+    """
+    out: list[str] = []
+    if n in _NUM_WORDS:
+        out.append(_NUM_WORDS[n])
+    # 21-99 compounds
+    if 21 <= n <= 99:
+        tens_val = (n // 10) * 10
+        ones = n % 10
+        if ones and tens_val in _TENS_LEX:
+            ones_word = _NUM_WORDS[ones]
+            out.append(f"{_TENS_LEX[tens_val]}-{ones_word}")
+            out.append(f"{_TENS_LEX[tens_val]} {ones_word}")
+    # 100-999
+    if 100 <= n <= 999:
+        hundreds_digit = n // 100
+        remainder = n % 100
+        hundreds_word = _NUM_WORDS[hundreds_digit]
+        if remainder == 0:
+            out.append(f"{hundreds_word} hundred")
+        else:
+            for rf in _spelled_forms_all(remainder):
+                out.append(f"{hundreds_word} hundred {rf}")
+                out.append(f"{hundreds_word} hundred and {rf}")
+    # Years 1900-2099
+    if 1900 <= n <= 2099:
+        low = n % 100
+        century = n // 100
+        century_word = "twenty" if century == 20 else "nineteen"
+        if low == 0:
+            out.append(f"{century_word} hundred")
+        else:
+            low_forms = _spelled_forms_all(low)
+            for lf in low_forms:
+                out.append(f"{century_word} {lf}")
+            if century == 20:
+                for lf in low_forms:
+                    out.append(f"two thousand {lf}")
+                    out.append(f"two thousand and {lf}")
+    return out
 
 
 def numeric_preservation(source: str, rewrite: str) -> ScorerResult:
@@ -73,14 +127,15 @@ def numeric_preservation(source: str, rewrite: str) -> ScorerResult:
         if n in rewrite_lc or f"{int(float(n)):,}" in rewrite_lc:
             found = True
         else:
-            # spelled — try integer form
+            # Spelled forms — including 21-99 compounds and 20xx years.
             try:
                 as_int = int(float(n))
-                spelled = _spelled_form(as_int)
-                if spelled and spelled in rewrite_lc:
-                    found = True
-                # partial: any magnitude token when the number is large
-                elif as_int >= 1000:
+                for spelled in _spelled_forms_all(as_int):
+                    if spelled in rewrite_lc:
+                        found = True
+                        break
+                # magnitude fallback for large numbers ("2.3B" → "billion")
+                if not found and as_int >= 1000:
                     if any(t in rewrite_lc for t in _MAGNITUDE_TOKENS):
                         found = True
             except ValueError:
