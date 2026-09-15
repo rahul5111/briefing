@@ -203,6 +203,7 @@ def main() -> int:
     # SIGNIFICANCE FILTER — the real quality gate. Drops trivial, promotional,
     # ordinary, or off-theme stories BEFORE we spend refine + TTS on them.
     # Cheap: one LLM call for the whole batch of titles.
+    v1_verdict_by_id: dict[str, str] = {}
     if candidates:
         print("\nRunning significance filter...")
         verdicts = significance.score_batch(
@@ -213,6 +214,7 @@ def main() -> int:
                   "TRIVIAL": 0, "PROMOTIONAL": 0}
         for c, v in zip(candidates, verdicts):
             counts[v] = counts.get(v, 0) + 1
+            v1_verdict_by_id[c.id] = v
             if v in significance.KEEP:
                 kept.append(c)
             else:
@@ -223,8 +225,18 @@ def main() -> int:
     # SIGNIFICANCE v2 (strict, GKToday-standard filter). Runs after v1 as a
     # second, stricter pass. Only band=accept survives; rejections + reasons
     # are logged to data/rejections/YYYY-MM-DD.jsonl for later audit.
+    #
+    # Quota-saving shortcut: v1-IMPORTANT items skip v2 (they've already
+    # cleared the coarse filter as clearly high-signal). Only v1-INTERESTING
+    # items get scored by v2. This roughly halves daily Gemini calls, which
+    # matters on the free tier (500 req/day).
     if candidates:
-        print("\nRunning significance v2 (strict Priya filter)…")
+        v2_input = [c for c in candidates if v1_verdict_by_id.get(c.id) != "IMPORTANT"]
+        skipped_as_important = [c for c in candidates
+                                if v1_verdict_by_id.get(c.id) == "IMPORTANT"]
+        print(f"\nRunning significance v2 (strict Priya filter) on "
+              f"{len(v2_input)} INTERESTING items; auto-accepting "
+              f"{len(skipped_as_important)} v1-IMPORTANT items.")
         # Chunk into batches so each Gemini response fits under
         # max_output_tokens (~8k for flash-lite). Without chunking a
         # run with 100+ candidates gets ONE huge prompt whose response
@@ -232,8 +244,8 @@ def main() -> int:
         chunk_size = significance.V2_CHUNK_SIZE
         v2_results: list[significance.SignificanceV2] = []
         v2_fallback_count = 0
-        for start in range(0, len(candidates), chunk_size):
-            batch = candidates[start:start + chunk_size]
+        for start in range(0, len(v2_input), chunk_size):
+            batch = v2_input[start:start + chunk_size]
             batch_results = significance.score_v2_batch(
                 {"title": c.title, "source": c.source, "summary": "", "category": ""}
                 for c in batch
@@ -244,12 +256,12 @@ def main() -> int:
                 if r.one_line_reason.startswith("fallback:")
             )
         if v2_fallback_count:
-            print(f"[significance-v2] {v2_fallback_count}/{len(candidates)} items "
+            print(f"[significance-v2] {v2_fallback_count}/{len(v2_input)} items "
                   f"used fail-open fallback (LLM error/quota).")
         rejects_log: list[dict] = []
-        v2_kept: list[Candidate] = []
+        v2_kept: list[Candidate] = list(skipped_as_important)
         v2_counts = {"accept": 0, "borderline": 0, "reject": 0}
-        for c, r in zip(candidates, v2_results):
+        for c, r in zip(v2_input, v2_results):
             v2_counts[r.band] = v2_counts.get(r.band, 0) + 1
             if r.band == "accept":
                 v2_kept.append(c)
@@ -267,7 +279,8 @@ def main() -> int:
                 print(f"  DROP-v2 [{r.band:>10s} {r.score:.2f}] {c.title[:80]}")
                 print(f"           reason: {r.one_line_reason[:100]}")
         candidates = v2_kept
-        print(f"v2 verdicts: {v2_counts} → {len(candidates)} kept")
+        print(f"v2 verdicts: {v2_counts} → {len(candidates)} kept "
+              f"(incl. {len(skipped_as_important)} v1-IMPORTANT auto-accepts)")
         significance.write_rejection_log(rejects_log)
 
     # Safety cap — only fires if the significance filter kept an unusual
