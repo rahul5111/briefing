@@ -1,0 +1,41 @@
+═══ 00_KEY_POINTS ═══
+
+1. On Monday, the Manhattan District Attorney's Office announced the seizure of 12 domains used for sharing celebrity deepfake videos.
+2. Around 1,200 people, overwhelmingly women including politicians and actors, were depicted in nonconsensual sexual images and videos.
+3. District attorney Alvin Bragg stated that these horrific violations of privacy follow victims into their careers and personal lives.
+4. The seizures mark one of the most significant actions against explicit deepfake websites since the technology emerged at the end of 2017.
+5. Researchers noted that elected officials were given profiles containing their name and position alongside grids of manipulated videos.
+6. Leonie Oehmig stated that the takedowns are a significant win in the fight against synthetic nonconsensual intimate imagery.
+
+═══ 01_DRAFT ═══
+
+On Monday, the Manhattan District Attorney's Office announced the seizure of 12 domains used for unlawfully sharing, publishing, and selling celebrity deepfake videos. Around 1,200 people, overwhelmingly women including social media influencers, actors, activists, athletes, musicians, and politicians, were depicted in nonconsensual sexual images and videos on the websites. These seizures mark perhaps one of the most significant and sweeping actions against websites hosting explicit deepfake videos since the technology first emerged at the end of 2017. District attorney Alvin Bragg stated in a release that these horrific violations of privacy follow victims into their careers and personal lives and take an immense toll on emotional and mental well-being. Researchers noted that on at least two of the seized websites, elected officials were given profiles containing their name and position, along with a grid of manipulated videos hosting their likeness. Leonie Oehmig, a researcher at the Institute for Strategic Dialogue, stated that the takedowns are a significant win in the fight against synthetic nonconsensual intimate imagery. Oehmig added that enforcement of state laws shows that harmful content can be tackled and that meaningful coordinated enforcement is achievable even where regulation remains fragmented across jurisdictions. Investigators from the Manhattan District Attorney's Office stated that their investigations into who is responsible for the websites and who uploaded damaging videos of victims are currently ongoing.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+On Monday, the Manhattan District Attorney's Office announced the seizure of 12 domains used for unlawfully sharing, publishing, and selling celebrity deepfake videos. Around 1,200 people, overwhelmingly women including social media influencers, actors, activists, athletes, musicians, and politicians, were depicted in nonconsensual sexual images and videos on the websites. These seizures mark perhaps one of the most significant and sweeping actions against websites hosting explicit deepfake videos since the technology first emerged at the end of 2017. District attorney Alvin Bragg stated in a release that these horrific violations of privacy follow victims into their careers and personal lives and take an immense toll on emotional and mental well-being. Benjamin Shultz, a lead researcher at the American Sunlight Project, noted that on at least two of the seized websites, elected officials were given profiles containing their name and position, along with a grid of manipulated videos hosting their likeness. Leonie Oehmig, a researcher at the Institute for Strategic Dialogue, stated that the takedowns are a significant win in the fight against synthetic nonconsensual intimate imagery. Oehmig added that enforcement of state laws shows that harmful content can be tackled and that meaningful coordinated enforcement is achievable even where regulation remains fragmented across jurisdictions. The Manhattan District Attorney's Office stated that its investigations into who is responsible for the websites, plus those who uploaded damaging videos of victims, are ongoing.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 03c_WHY_MATTERS ═══
+
+The domain seizures establish a legal precedent for prosecuting nonconsensual deepfake platforms across fragmented state jurisdictions.
+
+═══ 04_AUDIO_REWRITE ═══
+
+The Manhattan District Attorney Office seized twelve domains used for selling celebrity deepfakes. Around twelve hundred people were depicted in nonconsensual sexual images on the websites, according to Wired. These actions mark one of the most sweeping crackdowns on explicit deepfake hosting since the technology emerged at the end of twenty seventeen. District attorney Alvin Bragg stated that these privacy violations follow victims into their careers and exact an immense mental toll. Researcher Benjamin Shultz noted that elected officials had profiles with grids of manipulated likenesses on at least two seized sites. Researcher Leonie Oehmig stated that the takedowns prove meaningful coordinated enforcement is achievable despite fragmented regulations. Investigations into the website operators and those who uploaded damaging videos remain ongoing. The domain seizures establish a legal precedent for prosecuting nonconsensual deepfake platforms across fragmented state jurisdictions.
+
+═══ 05_NORMALIZED ═══
+
+The Manhattan District Attorney Office seized twelve domains used for selling celebrity deepfakes. Around twelve hundred people were depicted in nonconsensual sexual images on the websites, according to Wired. These actions mark one of the most sweeping crackdowns on explicit deepfake hosting since the technology emerged at the end of twenty seventeen. District attorney Alvin Bragg stated that these privacy violations follow victims into their careers and exact an immense mental toll. Researcher Benjamin Shultz noted that elected officials had profiles with grids of manipulated likenesses on at least two seized sites. Researcher Leonie Oehmig stated that the takedowns prove meaningful coordinated enforcement is achievable despite fragmented regulations. Investigations into the website operators and those who uploaded damaging videos remain ongoing. The domain seizures establish a legal precedent for prosecuting nonconsensual deepfake platforms across fragmented state jurisdictions.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+numeric_preservation: score=0.67 {'total': 6, 'missing': ['56', '16']}
+

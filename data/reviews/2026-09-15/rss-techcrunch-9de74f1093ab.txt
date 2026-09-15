@@ -1,0 +1,37 @@
+═══ 00_KEY_POINTS ═══
+
+1. India will impose a 0.4% merchant fee on certain Unified Payments Interface payments above ₹2,000 starting October 15.
+2. The National Payments Corporation of India stated that consumers will continue to use the digital payments service for free.
+3. The new merchant fee is capped at ₹300 for transactions of ₹75,000 or more.
+4. Small merchants receiving up to ₹100,000 a month through the network will be exempt from the charges.
+5. The move aims to make the digital payments system financially self-sustaining by covering the growing cost of operating the network.
+6. Krishnamurthy Subramanian questioned the policy on X by asking what the opportunity cost and social benefits of charging transactions are.
+
+═══ 01_DRAFT ═══
+
+India will impose a 0.4% merchant fee on certain Unified Payments Interface payments above ₹2,000 starting October 15. The National Payments Corporation of India stated that consumers will continue to use the digital payments service for free. The new merchant fee is capped at ₹300 for transactions of ₹75,000 or more. Small merchants receiving up to ₹100,000 a month through the network will be exempt from the charges. The move aims to make the digital payments system financially self-sustaining by covering the growing cost of operating the network. Industry estimates put the annual cost of running the network at about ₹200 billion. The network processed 24.51 billion transactions worth ₹29.9 trillion in August alone. The newly announced merchant fees will be distributed among participants in the payments ecosystem and used to fund investments in infrastructure, cybersecurity, fraud prevention, and customer service. Krishnamurthy Subramanian questioned the policy on X by asking what the opportunity cost and social benefits of charging transactions are. Subramanian noted that the network should be treated as digital public infrastructure whose benefits extend well beyond individual transactions, including by reducing reliance on cash, bringing more businesses into the formal economy, and widening access to digital payments. Payments of up to ₹2,000 account for more than 95% of merchant transactions by volume on the network. Merchants will not be allowed to pass the fee on to customers, according to the network operator, which argued that the charge is low enough for businesses to absorb while consumers continue to pay the listed price regardless of whether they use the service.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 03c_WHY_MATTERS ═══
+
+The zero point four percent merchant fee alters digital payment economics for Indian businesses processing over two thousand rupees monthly.
+
+═══ 04_AUDIO_REWRITE ═══
+
+India will impose a zero point four percent merchant fee on certain Unified Payments Interface payments above two thousand rupees starting October fifteenth. The National Payments Corporation of India stated that consumers will continue to use the digital payments service for free. Techcrunch reports that the new merchant fee is capped at three hundred rupees for transactions of seventy-five thousand rupees or more. Small merchants receiving up to one hundred thousand rupees a month through the network will be exempt from the charges. The move aims to make the digital payments system financially self-sustaining by covering the growing cost of operating the network. Industry estimates put the annual cost of running the network at about two hundred billion rupees. The network processed twenty-four point five one billion transactions worth twenty-nine point nine trillion rupees in August alone. The newly announced merchant fees will be distributed among participants in the payments ecosystem and used to fund investments in infrastructure, cybersecurity, fraud prevention, and customer service. Krishnamurthy Subramanian questioned the policy on X by asking what the opportunity cost and social benefits of charging transactions are. Subramanian noted that the network should be treated as digital public infrastructure whose benefits extend well beyond individual transactions, including by reducing reliance on cash, bringing more businesses into the formal economy, and widening access to digital payments. Payments of up to two thousand rupees account for more than ninety-five percent of merchant transactions by volume on the network. Merchants will not be allowed to pass the fee on to customers, according to the network operator, which argued that the charge is low enough for businesses to absorb while consumers continue to pay the listed price regardless of whether they use the service. The zero point four percent merchant fee alters digital payment economics for Indian businesses processing over two thousand rupees monthly.
+
+═══ 05_NORMALIZED ═══
+
+India will impose a zero point four percent merchant fee on certain Unified Payments Interface payments above two thousand rupees starting October fifteenth. The National Payments Corporation of India stated that consumers will continue to use the digital payments service for free. Techcrunch reports that the new merchant fee is capped at three hundred rupees for transactions of seventy-five thousand rupees or more. Small merchants receiving up to one hundred thousand rupees a month through the network will be exempt from the charges. The move aims to make the digital payments system financially self-sustaining by covering the growing cost of operating the network. Industry estimates put the annual cost of running the network at about two hundred billion rupees. The network processed twenty-four point five one billion transactions worth twenty-nine point nine trillion rupees in August alone. The newly announced merchant fees will be distributed among participants in the payments ecosystem and used to fund investments in infrastructure, cybersecurity, fraud prevention, and customer service. Krishnamurthy Subramanian questioned the policy on X by asking what the opportunity cost and social benefits of charging transactions are. Subramanian noted that the network should be treated as digital public infrastructure whose benefits extend well beyond individual transactions, including by reducing reliance on cash, bringing more businesses into the formal economy, and widening access to digital payments. Payments of up to two thousand rupees account for more than ninety-five percent of merchant transactions by volume on the network. Merchants will not be allowed to pass the fee on to customers, according to the network operator, which argued that the charge is low enough for businesses to absorb while consumers continue to pay the listed price regardless of whether they use the service. The zero point four percent merchant fee alters digital payment economics for Indian businesses processing over two thousand rupees monthly.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+numeric_preservation: score=0.86 {'total': 22, 'missing': ['21', '783', '312']}; sentence_length_dist: score=0.57 {'n': 13, 'p50': 20, 'p90': 38}
+

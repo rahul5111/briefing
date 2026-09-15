@@ -1,0 +1,47 @@
+═══ 00_KEY_POINTS ═══
+
+1. On July 30, Google launched a new feature that built image generation directly into Google Earth.
+2. Within hours, users conjured a nuclear plant in Iran, a bomb crater beside a Gaza hospital, and floods lapping the U.S. Capitol.
+3. Within a day, following an outcry from investigative experts and the media, Google pulled the feature.
+4. Google said the feature will return with stronger guardrails after an outcry from experts and the media.
+5. OpenAI shut down its Sora video app in March following sustained public demands for its withdrawal.
+6. Google launched the Veo 3 video generator in May 2025, weeks before Israel and Iran went to war.
+7. Some transparency obligations required by the EU AI Act, enacted in 2024, began on August 2, 2026.
+8. Hany Farid noted that when a large company solves this at the hardware level, it acknowledges our collective loss of trust.
+
+═══ 01_DRAFT ═══
+
+Since Israel and the United States launched strikes against Iran in February, authorities, analysts, and journalists have turned to commercial satellite imagery, including Google Earth, to separate fact from fiction during the conflict. On July 30, Google launched a new feature that built image generation directly into Google Earth. Within hours, users conjured a nuclear plant in Iran, a bomb crater beside a Gaza hospital, and floods lapping the U.S. Capitol. Within a day, following an outcry from investigative experts and the media, Google pulled the feature. Google said the feature will return with stronger guardrails after an outcry from experts and the media. This incident followed similar actions by big tech companies. OpenAI shut down its Sora video app in March following sustained public demands for its withdrawal. Furthermore, Google launched the Veo 3 video generator in May 2025, weeks before Israel and Iran went to war. Meanwhile, regulation has struggled to keep pace with the rapid development of artificial intelligence models. Some transparency obligations required by the EU AI Act, enacted in 2024, began on August 2, 2026. Despite these developments, detection tools remain inadequate and implementation is often shaky. This environment has allowed the theory of the liar’s dividend to become the reality of modern conflict, where the existence of fakes lets bad actors dismiss authentic evidence. Addressing this crisis requires mainstream solutions and robust provenance standards rather than reactive measures. When discussing the adoption of cryptographic verification standards by major technology companies, deepfake expert Hany Farid noted that when one of the largest companies in the world decides this problem is worth solving at the hardware level, it is an acknowledgment that our collective loss of trust in the visual record is no longer a niche concern for forensic researchers. It is a mainstream problem, and it demands mainstream solutions. Google recalled its feature back in a day, but no one can recall the doubt that now attaches to every image out of a war zone. The pause in the Google Earth feature highlights ongoing concerns about integrating generative artificial intelligence into critical verification infrastructure without prior testing.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Since Israel and the U.S. launched strikes against Iran in February, plunging the Gulf region into conflict, authorities, analysts, and journalists have turned to commercial satellite imagery, including Google Earth, to separate fact from fiction. On July 30, Google launched a new feature that built image generation directly into Google Earth. Within hours, users conjured a nuclear plant in Iran, a bomb crater beside a Gaza hospital, and floods lapping the U.S. Capitol. Within a day, following an outcry from investigative experts and the media, Google pulled the feature. Google said the feature will return with stronger guardrails after an outcry from experts and the media. This incident followed similar actions by big tech companies. OpenAI shut down its Sora video app in March following sustained public demands for its withdrawal. Meanwhile, tools such as the Veo 3 video generator were launched by Google in May 2025. Regulation has struggled to keep pace with the rapid development of artificial intelligence models. Some transparency obligations required by the EU AI Act, enacted in 2024, began on August 2, 2026. Despite these developments, detection tools remain inadequate and implementation is often shaky. This environment has allowed the theory of the liar’s dividend to become the reality of modern conflict, where the existence of fakes lets bad actors dismiss authentic evidence. When discussing the adoption of cryptographic verification standards by major technology companies, deepfake expert Hany Farid noted that when one of the largest companies in the world decides this problem is worth solving at the hardware level, it is an acknowledgment that our collective loss of trust in the visual record is no longer a niche concern for forensic researchers. It is a mainstream problem, and it demands mainstream solutions. Google recalled its feature back in a day, but no one can recall the doubt that now attaches to every image out of a war zone. The pause in the Google Earth feature highlights ongoing concerns about integrating generative artificial intelligence into critical verification infrastructure without prior testing.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (8/8). Missing: none
+
+═══ 03c_WHY_MATTERS ═══
+
+The quick recall of Google Earth image generation highlights ongoing risks when deploying artificial intelligence tools into critical verification infrastructure.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Authorities and journalists turned to commercial satellite imagery to separate fact from fiction after strikes in the Gulf region in February. Google launched a new feature that built image generation directly into Google Earth on July thirty-first. Users conjured fake nuclear plants and bomb craters within hours. Rest Of World reports that Google pulled the feature after an outcry from experts and the media. The quick recall of Google Earth image generation highlights ongoing risks when deploying artificial intelligence tools into critical verification infrastructure.
+
+OpenAI shut down its Sora video app in March following public demands. Google launched the Veo three video generator in May twenty twenty-five. Regulation has struggled to keep pace with the rapid development of artificial intelligence models. Some transparency obligations required by the European Union A. I. Act enacted in twenty twenty-four began on August second, twenty twenty-six. Detection tools remain inadequate while implementation is shaky. This environment allows bad actors to dismiss authentic evidence using the theory of the liar dividend. Expert Hany Farid noted that the loss of trust in the visual record demands mainstream solutions. No one can recall the doubt that now attaches to every image out of a war zone.
+
+═══ 05_NORMALIZED ═══
+
+Authorities and journalists turned to commercial satellite imagery to separate fact from fiction after strikes in the Gulf region in February. Google launched a new feature that built image generation directly into Google Earth on July thirty-first. Users conjured fake nuclear plants and bomb craters within hours. Rest Of World reports that Google pulled the feature after an outcry from experts and the media. The quick recall of Google Earth image generation highlights ongoing risks when deploying artificial intelligence tools into critical verification infrastructure.
+
+OpenAI shut down its Sora video app in March following public demands. Google launched the Veo three video generator in May twenty twenty-five. Regulation has struggled to keep pace with the rapid development of artificial intelligence models. Some transparency obligations required by the European Union A. I. Act enacted in twenty twenty-four began on August second, twenty twenty-six. Detection tools remain inadequate while implementation is shaky. This environment allows bad actors to dismiss authentic evidence using the theory of the liar dividend. Expert Hany Farid noted that the loss of trust in the visual record demands mainstream solutions. No one can recall the doubt that now attaches to every image out of a war zone.
+
+═══ 06_COVERAGE_FINAL ═══
+
+87% covered (7/8). Missing: Hany Farid noted that when a large company solves this at the hardware level, it acknowledges our collective loss of trust.
+
+═══ 07_SANITY ═══
+
+numeric_preservation: score=0.50 {'total': 12, 'missing': ['2027', '2', '18', '13', '10', '2019']}; attribution_present: score=0.00 {'source_name': 'Rest Of World', 'in_first_3_sentences': False}
+

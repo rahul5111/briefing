@@ -1,0 +1,39 @@
+═══ 00_KEY_POINTS ═══
+
+1. In the spring of 2025, two teams of astronomers announced observations of a pair of exceptionally red little red dots.
+2. Researchers proposed these objects are black hole stars, combining the vigor of a black hole with the outward appearance of a star.
+3. Anna de Graaff leads a survey team called Rubies, and Rohan Naidu co-leads a survey team called Mirage or Miracle.
+4. Anna de Graaff stated that in all the millions of observations taken with ground-based telescopes, nothing looks like these sources.
+5. Rohan Naidu stated that this discovery represents the birth of potentially every massive black hole in the universe.
+6. Vadim Rusakov and collaborators suggested that the spread of hydrogen colors could come from light scattering off electrons rather than rotating gas.
+7. The three research teams posted their findings on March 20, 2025, which some researchers called black hole star date.
+8. Skeptical astronomers like Roberto Maiolino argue that little red dots are standard supermassive black holes obscured by gas and dust doughnuts.
+
+═══ 01_DRAFT ═══
+
+Astronomers analyzing data from the James Webb Space Telescope are engaged in a fierce debate over mysterious objects known as little red dots. In the spring of 2025, two teams of astronomers simultaneously announced observations of a pair of little red dots that were unlike any object ever seen before. Anna de Graaff of the Max Planck Institute for Astronomy noted that in all the millions of observations taken with ground-based telescopes, there is nothing that looks like these sources. De Graaff leads a survey team called Rubies, while Rohan Naidu of the University of Hawai‘i co-leads a survey team called Mirage or Miracle. The two teams proposed that these objects represent a new astronomical entity called a black hole star, which features a black hole hidden deep inside a colossal lump of hydrogen gas. According to the researchers, a black hole star would be powered by a central black hole that keeps the outer layers of hydrogen from collapsing inward, while shining as brightly as billions of suns and displaying a stellar-like surface temperature of about five thousand degrees Kelvin. A third group of researchers, which included Vadim Rusakov of the University of Manchester, suggested that much of the spread in hydrogen colors could come from light scattering off electrons. The three teams posted their findings on March 20, 2025, a date some researchers dubbed black hole star date. Rohan Naidu stated that this discovery reveals the births of supermassive black holes, describing it as the birth of potentially every massive black hole in the universe. However, other astronomers remain skeptical of this interpretation. Roberto Maiolino of the University of Cambridge argues that the objects are simply standard supermassive black holes, with their unusual redness caused by viewing angle and obscuring rings of gas and dust rather than a stellar hydrogen shell.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (8/8). Missing: none
+
+═══ 03c_WHY_MATTERS ═══
+
+The discovery could redefine our understanding of supermassive black hole formation across the early universe.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Astronomers analyzing data from the James Webb Space Telescope are locked in a fierce debate over mysterious objects known as little red dots. In the spring of twenty twenty-five, Quanta Magazine reports, two teams simultaneously announced observations of a pair of these objects unlike anything ever seen before. Anna de Graaff of the Max Planck Institute for Astronomy noted that millions of ground-based observations show nothing like these sources. De Graaff leads a survey team called Rubies, while Rohan Naidu of the University of Hawaii co-leads a team called Mirage. The two teams proposed that these objects represent a new entity called a black hole star, featuring a black hole hidden inside a colossal lump of hydrogen gas. The researchers explain that a black hole star would be powered by a central black hole that keeps the outer hydrogen layers from collapsing. It would shine as brightly as billions of suns, with a surface temperature of about five thousand degrees Kelvin. A third group, including Vadim Rusakov of the University of Manchester, suggested that hydrogen colors could come from light scattering off electrons. The three teams posted their findings on March twentieth, twenty twenty-five, a date some researchers dubbed black hole star date. Rohan Naidu stated that this discovery reveals the births of potentially every massive black hole in the universe. However, other astronomers remain skeptical. Roberto Maiolino of the University of Cambridge argues that the objects are simply standard supermassive black holes, with their unusual redness caused by viewing angles and obscuring rings of gas and dust rather than a stellar hydrogen shell. The discovery could redefine our understanding of supermassive black hole formation across the early universe.
+
+═══ 05_NORMALIZED ═══
+
+Astronomers analyzing data from the James Webb Space Telescope are locked in a fierce debate over mysterious objects known as little red dots. In the spring of twenty twenty-five, Quanta Magazine reports, two teams simultaneously announced observations of a pair of these objects unlike anything ever seen before. Anna de Graaff of the Max Planck Institute for Astronomy noted that millions of ground-based observations show nothing like these sources. De Graaff leads a survey team called Rubies, while Rohan Naidu of the University of Hawaii co-leads a team called Mirage. The two teams proposed that these objects represent a new entity called a black hole star, featuring a black hole hidden inside a colossal lump of hydrogen gas. The researchers explain that a black hole star would be powered by a central black hole that keeps the outer hydrogen layers from collapsing. It would shine as brightly as billions of suns, with a surface temperature of about five thousand degrees Kelvin. A third group, including Vadim Rusakov of the University of Manchester, suggested that hydrogen colors could come from light scattering off electrons. The three teams posted their findings on March twentieth, twenty twenty-five, a date some researchers dubbed black hole star date. Rohan Naidu stated that this discovery reveals the births of potentially every massive black hole in the universe. However, other astronomers remain skeptical. Roberto Maiolino of the University of Cambridge argues that the objects are simply standard supermassive black holes, with their unusual redness caused by viewing angles and obscuring rings of gas and dust rather than a stellar hydrogen shell. The discovery could redefine our understanding of supermassive black hole formation across the early universe.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (8/8). Missing: none
+
+═══ 07_SANITY ═══
+
+numeric_preservation: score=0.80 {'total': 10, 'missing': ['1', '8']}; sentence_length_dist: score=0.87 {'n': 13, 'p50': 21, 'p90': 28}
+

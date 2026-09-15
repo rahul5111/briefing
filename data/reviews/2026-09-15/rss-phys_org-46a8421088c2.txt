@@ -1,0 +1,42 @@
+═══ 00_KEY_POINTS ═══
+
+1. Scientists led by Ashwin Chari determined the structure of the archaeal rubredoxin protein at a resolution of 0.43 Angstroms.
+2. This achievement represents the highest-resolution protein structure yet determined according to researcher Ashwin Chari.
+3. The international research team included scientists from the Max Planck Institute for Multidisciplinary Sciences in Gottingen, Germany.
+4. The project involved researchers from EMBL Hamburg, DECTRIS, the University of Warsaw, and Global Phasing Ltd.
+5. The team utilized PETRA III at DESY in Hamburg, which is one of the world's brightest X-ray sources.
+6. The high-resolution data revealed quantum mechanical phenomena directly from the experimental structure, including electrons at chemical bond midpoints.
+7. These findings are of paramount importance to precisely mapping the role of local electric fields in enzymes and visualizing their function during reactions.
+
+═══ 01_DRAFT ═══
+
+Scientists led by Ashwin Chari from the Max Planck Institute for Multidisciplinary Sciences in Gottingen, Germany, have successfully determined the structure of the archaeal rubredoxin protein at a resolution of 0.43 Angstroms. The international research team also included experts from EMBL Hamburg, DECTRIS in Baden, Switzerland, the University of Warsaw, and Global Phasing Ltd. in Cambridge, United Kingdom. To achieve this milestone, the researchers utilized PETRA III at DESY in Hamburg, which stands as one of the world's brightest X-ray sources, alongside advanced workflow software and tailored low-dose data collection protocols. This technological combination allowed the team to map accurate nuclear positions and observe quantum mechanical phenomena directly from the experimental structure, including electrons located at the midpoint of chemical bonds and atomic partial charges. This research matters because these findings are of paramount importance to precisely mapping the role of local electric fields in enzymes and visualizing their function during reactions. As Ashwin Chari explained, this breakthrough represents the highest-resolution protein structure yet determined, bridging the gap between structural biology and quantum chemistry to support future achievements in chemistry, materials science, and medicine.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Scientists led by Ashwin Chari from the Max Planck Institute for Multidisciplinary Sciences (Göttingen, Germany), alongside international researchers from EMBL Hamburg, DECTRIS, the University of Warsaw, and Global Phasing Ltd., have successfully determined the structure of the archaeal rubredoxin protein at a resolution of 0.43 Å. The research team also included contributors based in Cambridge, UK. To achieve this milestone, the researchers utilized PETRA III at DESY in Hamburg, which stands as one of the world's brightest X-ray sources, alongside advanced workflow software and tailored low-dose data collection protocols. This technological combination allowed the team to map accurate nuclear positions and observe quantum mechanical phenomena directly from the experimental structure, including electrons located at the midpoint of chemical bonds and atomic partial charges. This research matters because these findings are of paramount importance to precisely mapping the role of local electric fields in enzymes and visualizing their function during reactions. As Ashwin Chari explained, this breakthrough represents the highest-resolution protein structure yet determined, bridging the gap between structural biology and quantum chemistry to support future achievements in chemistry, materials science, and medicine.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (7/7). Missing: none
+
+═══ 03c_WHY_MATTERS ═══
+
+This breakthrough represents the highest resolution protein structure yet determined, bridging structural biology and quantum chemistry for future research.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Scientists led by Ashwin Chari from the Max Planck Institute for Multidisciplinary Sciences in Gottingen, Germany, have successfully determined the structure of the archaeal rubredoxin protein. Phys Org reports that the team reached a resolution of zero point four three angstroms. International researchers from several institutions contributed to the milestone. The researchers utilized P. E. T. R. A. three at D. E. S. Y. in Hamburg, alongside advanced software and low dose protocols. This technological combination allowed the team to map accurate nuclear positions and observe quantum mechanical phenomena directly from the experimental structure. This breakthrough represents the highest resolution protein structure yet determined, bridging structural biology and quantum chemistry for future research.
+
+═══ 05_NORMALIZED ═══
+
+Scientists led by Ashwin Chari from the Max Planck Institute for Multidisciplinary Sciences in Gottingen, Germany, have successfully determined the structure of the archaeal rubredoxin protein. Phys Org reports that the team reached a resolution of zero point four three angstroms. International researchers from several institutions contributed to the milestone. The researchers utilized P. E. T. R. A. three at D. E. S. Y. in Hamburg, alongside advanced software and low dose protocols. This technological combination allowed the team to map accurate nuclear positions and observe quantum mechanical phenomena directly from the experimental structure. This breakthrough represents the highest resolution protein structure yet determined, bridging structural biology and quantum chemistry for future research.
+
+═══ 06_COVERAGE_FINAL ═══
+
+71% covered (5/7). Missing: The project involved researchers from EMBL Hamburg, DECTRIS, the University of Warsaw, and Global Phasing Ltd.; These findings are of paramount importance to precisely mapping the role of local electric fields in enzymes and visualizing their function during reactions.
+
+═══ 07_SANITY ═══
+
+numeric_preservation: score=0.33 {'total': 3, 'missing': ['10.1107', '2026']}; sentence_length_dist: score=0.70 {'n': 15, 'p50': 3, 'p90': 21}
+

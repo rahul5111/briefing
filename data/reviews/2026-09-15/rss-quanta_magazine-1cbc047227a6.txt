@@ -1,0 +1,38 @@
+═══ 00_KEY_POINTS ═══
+
+1. Marine plankton called foraminifera sometimes suddenly switch their spiral shell-coiling direction globally at the same time.
+2. The phenomenon was first described in the early 1950s after advances in seafloor coring techniques.
+3. A new study analyzed coiling patterns in several planktonic foraminifera species from the past 56 million years.
+4. In 2006, Kate Darling published genetic work showing variants of Neogloboquadrina pachyderma are two distinct species.
+5. Pulleniatina obliquiloculata has coiled almost exclusively to the right for the past 860,000 years.
+6. The new study hypothesizes that shell direction is an accidental marker of a significant evolutionary event sweeping across ocean basins.
+7. This research matters because it offers a rare glimpse into an obscure process enabling new traits to sweep across large populations.
+
+═══ 01_DRAFT ═══
+
+Marine plankton called foraminifera sometimes suddenly switch their spiral shell-coiling direction globally at the same time. The phenomenon was first described in the early 1950s after advances in seafloor coring techniques. A new study analyzed coiling patterns in several planktonic foraminifera species from the past 56 million years. In 2006, Kate Darling published genetic work showing variants of Neogloboquadrina pachyderma are two distinct species. Pulleniatina obliquiloculata has coiled almost exclusively to the right for the past 860,000 years. The new study hypothesizes that shell direction is an accidental marker of a significant evolutionary event sweeping across ocean basins. This research matters because it offers a rare glimpse into an obscure process enabling new traits to sweep across large populations.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (7/7). Missing: none
+
+═══ 03c_WHY_MATTERS ═══
+
+The new study offers a rare glimpse into an obscure process enabling new traits to sweep across large populations.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Marine plankton called foraminifera sometimes suddenly switch their spiral shell-coiling direction globally at the same time. The phenomenon was first described in the early nineteen-fifties after advances in seafloor coring techniques, Quanta Magazine reports. A new study analyzed coiling patterns in several planktonic foraminifera species from the past fifty-six million years. In two thousand and six, Kate Darling published genetic work showing variants of Neogloboquadrina pachyderma are two distinct species. Pulleniatina obliquiloculata has coiled almost exclusively to the right for the past eight hundred and sixty thousand years. The new study hypothesizes that shell direction is an accidental marker of a significant evolutionary event sweeping across ocean basins, offering a rare glimpse into an obscure process enabling new traits to sweep across large populations.
+
+═══ 05_NORMALIZED ═══
+
+Marine plankton called foraminifera sometimes suddenly switch their spiral shell-coiling direction globally at the same time. The phenomenon was first described in the early nineteen-fifties after advances in seafloor coring techniques, Quanta Magazine reports. A new study analyzed coiling patterns in several planktonic foraminifera species from the past fifty-six million years. In two thousand and six, Kate Darling published genetic work showing variants of Neogloboquadrina pachyderma are two distinct species. Pulleniatina obliquiloculata has coiled almost exclusively to the right for the past eight hundred and sixty thousand years. The new study hypothesizes that shell direction is an accidental marker of a significant evolutionary event sweeping across ocean basins, offering a rare glimpse into an obscure process enabling new traits to sweep across large populations.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (7/7). Missing: none
+
+═══ 07_SANITY ═══
+
+numeric_preservation: score=0.67 {'total': 12, 'missing': ['560', '10', '97', '15']}; sentence_length_dist: score=0.63 {'n': 6, 'p50': 18, 'p90': 36}
+

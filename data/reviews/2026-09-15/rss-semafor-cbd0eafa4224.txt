@@ -1,0 +1,36 @@
+═══ 00_KEY_POINTS ═══
+
+1. The US Commerce Department last month ordered Kalshi to take down its AI-compute future curve product.
+2. Commerce officials cited national security concerns when ordering Kalshi to unpublish the AI compute price tracker.
+3. Commerce also pushed the Commodity Futures Trading Commission to effectively freeze approval of new compute contracts for sixty days.
+4. The intervention matters because older chip prices serve as collateral for billions of dollars of borrowing and underpin data-center deals.
+5. Compute is going to be the next big commodity in the world, according to the startup CEO whose data underpins Kalshi markets.
+
+═══ 01_DRAFT ═══
+
+The US Commerce Department last month ordered Kalshi to take down its AI-compute future curve product over national security concerns. Commerce officials directed Kalshi to unpublish the tracker, which pulls together data on the cost to rent Nvidia chips. Separately, Commerce pushed the Commodity Futures Trading Commission to effectively freeze approval of new compute contracts for sixty days. This regulatory intervention matters because the cost of compute has become one of the most important numbers in the US economy, where older chip prices serve as collateral for billions of dollars of borrowing by neoclouds like CoreWeave and underpin critical data-center deals. Industry uncertainty has grown around these nascent markets, though startup executives maintain that compute is going to be the next big commodity in the world as demand for infrastructure and processing power continues to shape the broader financial landscape.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (5/5). Missing: none
+
+═══ 03c_WHY_MATTERS ═══
+
+The regulatory intervention freezes nascent compute contracts, disrupting billions in borrowing by neoclouds using older chip prices as collateral.
+
+═══ 04_AUDIO_REWRITE ═══
+
+The United States Commerce Department ordered Kalshi to take down its A. I. compute future curve product last month over national security concerns. Semafor reports that commerce officials directed the company to unpublish the tracker, which pulls together data on the cost to rent Nvidia chips. Separately, commerce officials pushed the Commodity Futures Trading Commission to freeze approval of new compute contracts for sixty days. The regulatory intervention freezes nascent compute contracts, disrupting billions in borrowing by neoclouds using older chip prices as collateral. Startup executives maintain that compute is going to be the next big commodity in the world as demand for infrastructure and processing power continues to shape the broader financial landscape.
+
+═══ 05_NORMALIZED ═══
+
+The United States Commerce Department ordered Kalshi to take down its A. I. compute future curve product last month over national security concerns. Semafor reports that commerce officials directed the company to unpublish the tracker, which pulls together data on the cost to rent Nvidia chips. Separately, commerce officials pushed the Commodity Futures Trading Commission to freeze approval of new compute contracts for sixty days. The regulatory intervention freezes nascent compute contracts, disrupting billions in borrowing by neoclouds using older chip prices as collateral. Startup executives maintain that compute is going to be the next big commodity in the world as demand for infrastructure and processing power continues to shape the broader financial landscape.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (5/5). Missing: none
+
+═══ 07_SANITY ═══
+
+numeric_preservation: score=0.60 {'total': 5, 'missing': ['05', '26']}; sentence_length_dist: score=0.83 {'n': 7, 'p50': 19, 'p90': 30}; attribution_present: score=0.00 {'source_name': 'Semafor', 'in_first_3_sentences': False}
+

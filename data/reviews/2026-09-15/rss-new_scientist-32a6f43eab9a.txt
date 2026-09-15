@@ -1,0 +1,50 @@
+═══ 00_KEY_POINTS ═══
+
+1. As many as 190 million animals are used in biomedical research around the world every year.
+2. In April 2025, the US Food and Drug Administration published a five-year road map to reduce animal testing.
+3. The US National Institutes of Health stopped requiring animal models for many of its grants.
+4. In 2001, most Americans believed medical testing on animals was morally acceptable, but by 2025 fewer than half did.
+5. More than 90 per cent of experimental drugs that appear safe in animals do not receive regulatory approval because they prove toxic to humans.
+6. In 2022, Donald Ingber and colleagues built a liver-on-a-chip that identified nearly 7 out of every 8 drugs that proved toxic in clinical trials.
+7. The science has reached a point where there is a much better evidence base to support the fact that phasing out much animal testing might be possible, says Celean Camp.
+
+═══ 01_DRAFT ═══
+
+As many as 190 million animals are used in biomedical research around the world every year. Modern biomedical research has relied on animals almost since its inception to study disease and test new medicines before they ever reach people. However, efforts to replace animals in science now have firm backing from policy-makers and regulators. In April 2025, the US Food and Drug Administration published a five-year road map to reduce animal testing in drug-safety studies. Months later, the countrys National Institutes of Health stopped requiring animal models for many of its grants. Late last year, the UK launched a similar plan to phase out animal testing, and the European Union followed suit in June. Public opinion has shifted alongside these policy changes. In 2001, most Americans believed medical testing on animals was morally acceptable, but by 2025 fewer than half did. Regulatory agencies and scientists are now turning toward alternative methods, such as organs-on-a-chip, cell cultures, and artificial intelligence models, to screen drugs and identify potential targets without using animals. More than 90 per cent of experimental drugs that appear safe and effective in animals do not receive regulatory approval, largely because they turn out to be toxic to humans. In 2022, biologist Donald Ingber at Harvard University and his colleagues built and tested a liver-on-a-chip that identified nearly 7 out of every 8 drugs that proved toxic in clinical trials despite appearing safe in animal tests. The pharmaceutical company Moderna has used it in place of primates to screen compounds used in mRNA vaccines for liver damage. The science has reached a point where there is a much better evidence base to support the fact that phasing out much animal testing might be possible, says Celean Camp, head of the UK campaign group Replacing Animal Research. The new road maps and technological advancements aim to build on this progress to develop more non-animal regulatory tests and meaningfully reduce animal testing.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (7/7). Missing: none
+
+═══ 03c_WHY_MATTERS ═══
+
+Global regulatory shifts and new organ chip technologies will phase out animal testing across pharmaceutical research sectors.
+
+═══ 04_AUDIO_REWRITE ═══
+
+As many as one hundred ninety million animals are used in biomedical research around the world every year. Modern biomedical research has relied on animals almost since its inception to study disease and test new medicines before they ever reach people. However, efforts to replace animals in science now have firm backing from policy-makers and regulators, New Scientist reports.
+
+In April twenty twenty-five, the U. S. Food and Drug Administration published a five-year road map to reduce animal testing in drug safety studies. Months later, the countrys National Institutes of Health stopped requiring animal models for many of its grants. Late last year, the United Kingdom launched a similar plan to phase out animal testing, and the European Union followed suit in June. Global regulatory shifts and new organ chip technologies will phase out animal testing across pharmaceutical research sectors.
+
+Public opinion has shifted alongside these policy changes. In two thousand one, most Americans believed medical testing on animals was morally acceptable, but by twenty twenty-five fewer than half did. Regulatory agencies and scientists are now turning toward alternative methods, such as organs-on-a-chip, cell cultures, and artificial intelligence models, to screen drugs and identify potential targets without using animals. More than ninety per cent of experimental drugs that appear safe and effective in animals do not receive regulatory approval, largely because they turn out to be toxic to humans.
+
+In twenty twenty-two, biologist Donald Ingber at Harvard University and his colleagues built and tested a liver-on-a-chip that identified nearly seven out of every eight drugs that proved toxic in clinical trials despite appearing safe in animal tests. The pharmaceutical company Moderna has used it in place of primates to screen compounds used in messenger R. N. A. vaccines for liver damage. The science has reached a point where there is a much better evidence base to support the fact that phasing out much animal testing might be possible, says Celean Camp, head of the United Kingdom campaign group Replacing Animal Research. The new road maps and technological advancements aim to build on this progress to develop more non-animal regulatory tests and meaningfully reduce animal testing.
+
+═══ 05_NORMALIZED ═══
+
+As many as one hundred ninety million animals are used in biomedical research around the world every year. Modern biomedical research has relied on animals almost since its inception to study disease and test new medicines before they ever reach people. However, efforts to replace animals in science now have firm backing from policy-makers and regulators, New Scientist reports.
+
+In April twenty twenty-five, the U. S. Food and Drug Administration published a five-year road map to reduce animal testing in drug safety studies. Months later, the countrys National Institutes of Health stopped requiring animal models for many of its grants. Late last year, the United Kingdom launched a similar plan to phase out animal testing, and the European Union followed suit in June. Global regulatory shifts and new organ chip technologies will phase out animal testing across pharmaceutical research sectors.
+
+Public opinion has shifted alongside these policy changes. In two thousand one, most Americans believed medical testing on animals was morally acceptable, but by twenty twenty-five fewer than half did. Regulatory agencies and scientists are now turning toward alternative methods, such as organs-on-a-chip, cell cultures, and artificial intelligence models, to screen drugs and identify potential targets without using animals. More than ninety per cent of experimental drugs that appear safe and effective in animals do not receive regulatory approval, largely because they turn out to be toxic to humans.
+
+In twenty twenty-two, biologist Donald Ingber at Harvard University and his colleagues built and tested a liver-on-a-chip that identified nearly seven out of every eight drugs that proved toxic in clinical trials despite appearing safe in animal tests. The pharmaceutical company Moderna has used it in place of primates to screen compounds used in messenger R. N. A. vaccines for liver damage. The science has reached a point where there is a much better evidence base to support the fact that phasing out much animal testing might be possible, says Celean Camp, head of the United Kingdom campaign group Replacing Animal Research. The new road maps and technological advancements aim to build on this progress to develop more non-animal regulatory tests and meaningfully reduce animal testing.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (7/7). Missing: none
+
+═══ 07_SANITY ═══
+
+numeric_preservation: score=0.87 {'total': 15, 'missing': ['19', '4.5']}; sentence_length_dist: score=0.57 {'n': 20, 'p50': 18, 'p90': 38}
+

@@ -1,0 +1,38 @@
+═══ 00_KEY_POINTS ═══
+
+1. A Merchant Discount Rate of 0.4% will apply on person-to-merchant UPI transactions above Rs 2,000 starting October 15, 2026.
+2. For transactions of Rs 75,000 and above, the MDR will be capped at Rs 300 per transaction.
+3. Person-to-person transactions will continue to be completely free of cost for both payers and beneficiaries.
+4. Small-value UPI transactions up to Rs 2,000 comprise more than 95% of the total volume of UPI person-to-merchant transactions.
+5. UPI applications are explicitly restricted from levying platform fees or any other charges on UPI payments.
+6. The Merchant Discount Rate is being introduced to invest in infrastructure resiliency, innovation, cybersecurity, and customer service.
+7. NPCI stated that the intent of levying reasonable MDR is to ensure that UPI remains accessible and convenient for everyday transactions.
+
+═══ 01_DRAFT ═══
+
+A Merchant Discount Rate of 0.4% will apply on person-to-merchant UPI transactions above Rs 2,000 starting October 15, 2026, according to a notification from NPCI. For transactions of Rs 75,000 and above, the MDR will be capped at Rs 300 per transaction. Person-to-person transactions will continue to be completely free of cost for both payers and beneficiaries. Small-value UPI transactions up to Rs 2,000 comprise more than 95% of the total volume of UPI person-to-merchant transactions. Ordinary consumers will not be charged for making payments via UPI, and UPI applications are explicitly restricted from levying platform fees on UPI transactions. NPCI stated that the intent of levying reasonable MDR is to ensure that UPI remains accessible and convenient for everyday transactions. The Merchant Discount Rate is being introduced to invest in infrastructure resiliency, innovation, cybersecurity, and customer service.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (7/7). Missing: none
+
+═══ 03c_WHY_MATTERS ═══
+
+The new merchant discount rate shifts transaction costs to businesses while protecting ordinary consumers from fees on everyday payments.
+
+═══ 04_AUDIO_REWRITE ═══
+
+A merchant discount rate of zero point four percent will apply on person-to-merchant U. P. I. transactions above two thousand rupees starting October fifteenth, twenty twenty-six. According to the Times Of India, this change is detailed in a notification from N. P. C. I. For transactions of seventy-five thousand rupees and above, the rate will be capped at three hundred rupees per transaction. Person-to-person transactions will continue to be completely free of cost for both payers and beneficiaries. Small-value U. P. I. transactions up to two thousand rupees comprise more than ninety-five percent of the total volume of U. P. I. person-to-merchant transactions. Ordinary consumers will not be charged for making payments via U. P. I., and U. P. I. applications are explicitly restricted from levying platform fees on U. P. I. transactions. N. P. C. I. stated that the intent of levying reasonable merchant discount rates is to ensure that U. P. I. remains accessible and convenient for everyday transactions. The new merchant discount rate shifts transaction costs to businesses while protecting ordinary consumers from fees on everyday payments. The merchant discount rate is being introduced to invest in infrastructure resiliency, innovation, cybersecurity, and customer service.
+
+═══ 05_NORMALIZED ═══
+
+A merchant discount rate of zero point four percent will apply on person-to-merchant U. P. I. transactions above two thousand rupees starting October fifteenth, twenty twenty-six. According to the Times Of India, this change is detailed in a notification from N. P. C. I. For transactions of seventy-five thousand rupees and above, the rate will be capped at three hundred rupees per transaction. Person-to-person transactions will continue to be completely free of cost for both payers and beneficiaries. Small-value U. P. I. transactions up to two thousand rupees comprise more than ninety-five percent of the total volume of U. P. I. person-to-merchant transactions. Ordinary consumers will not be charged for making payments via U. P. I., and U. P. I. applications are explicitly restricted from levying platform fees on U. P. I. transactions. N. P. C. I. stated that the intent of levying reasonable merchant discount rates is to ensure that U. P. I. remains accessible and convenient for everyday transactions. The new merchant discount rate shifts transaction costs to businesses while protecting ordinary consumers from fees on everyday payments. The merchant discount rate is being introduced to invest in infrastructure resiliency, innovation, cybersecurity, and customer service.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (7/7). Missing: none
+
+═══ 07_SANITY ═══
+
+numeric_preservation: score=0.75 {'total': 28, 'missing': ['400', '200', '1', '12', '11', '29.9', '1.5']}; sentence_length_dist: score=0.63 {'n': 36, 'p50': 1, 'p90': 17}; attribution_present: score=0.00 {'source_name': 'Times Of India', 'in_first_3_sentences': False}
+

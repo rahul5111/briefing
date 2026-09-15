@@ -1,0 +1,54 @@
+═══ 00_KEY_POINTS ═══
+
+1. Two sailors are missing and twenty three others were rescued after an attack on an oil tanker in the Strait of Hormuz.
+2. Oman reported that the Panama flagged El Gaia was towed to an Omani port on Tuesday following an engine room fire.
+3. Iran claimed the tanker hit naval mines while the US military stated it was struck by a missile and a drone.
+4. The International Maritime Organization reported at least twenty two seafarers killed in seventy nine incidents in the Middle East since February.
+5. The Strait of Hormuz effectively closed due to attacks on commercial vessels and a US naval blockade of Iranian ports.
+6. Iranian small boats recently attempted to take possession of a US unmanned surface vessel before Centcom forcefully responded.
+7. Iranian small boats recently attempted to take possession of a US unmanned surface vessel, but they were unsuccessful after Centcom forcefully responded.
+
+═══ 01_DRAFT ═══
+
+Two sailors are missing and twenty three others were rescued following an attack on an oil tanker in the Strait of Hormuz, according to Oman. Oman stated the Panama flagged El Gaia was towed to an Omani port on Tuesday after a fire broke out in its engine room. Iran claimed the tanker hit naval mines, but the US military stated it was struck by an Iranian missile last month and a drone over the weekend. The International Maritime Organization reported that at least twenty two seafarers have been killed in seventy nine confirmed incidents in the region since February. The Strait of Hormuz has effectively closed due to Iranian attacks on commercial vessels and a US naval blockade. Amid ongoing tensions, a US military spokesman noted regarding a separate incident that Iranian small boats recently attempted to take possession of a US unmanned surface vessel, but they were unsuccessful after Centcom forcefully responded.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Two sailors are missing and twenty three others were rescued following an attack on an oil tanker in the Strait of Hormuz, according to Oman. Oman stated the Panama flagged El Gaia was towed to an Omani port on Tuesday after a fire broke out in its engine room. Iran claimed the tanker hit naval mines, but the US military stated it was struck by an Iranian missile last month and a drone over the weekend. The International Maritime Organization reported that at least twenty two seafarers have been killed in seventy nine confirmed incidents in the region since February. The Strait of Hormuz has effectively closed due to Iranian attacks on commercial vessels and a US naval blockade. Regarding a separate incident, a US military spokesman stated that Centcom forces destroyed two boats after Iranian small boats recently attempted to take possession of a US unmanned surface vessel.
+
+═══ 02b_TRIMMED ═══
+
+Two sailors are missing and twenty three others were rescued following an attack on an oil tanker in the Strait of Hormuz, according to Oman. Oman stated the Panama flagged El Gaia was towed to an Omani port on Tuesday after a fire broke out in its engine room. Iran claimed the tanker hit naval mines, but the US military stated it was struck by an Iranian missile last month and a drone over the weekend. The International Maritime Organization reported that at least twenty two seafarers have been killed in seventy nine confirmed incidents in the region since February. The Strait of Hormuz has effectively closed due to Iranian attacks on commercial vessels and a US naval blockade.
+
+═══ 03_COVERAGE_1 ═══
+
+71% covered (5/7). Missing: Iranian small boats recently attempted to take possession of a US unmanned surface vessel before Centcom forcefully responded.; Iranian small boats recently attempted to take possession of a US unmanned surface vessel, but they were unsuccessful after Centcom forcefully responded.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+Two sailors are missing and twenty three others were rescued following an attack on an oil tanker in the Strait of Hormuz, according to Oman. Oman stated the Panama flagged El Gaia was towed to an Omani port on Tuesday after a fire broke out in its engine room. Iran claimed the tanker hit naval mines, but the US military stated it was struck by an Iranian missile last month and a drone over the weekend. The International Maritime Organization reported that at least twenty two seafarers have been killed in seventy nine confirmed incidents in the region since February. The Strait of Hormuz has effectively closed due to Iranian attacks on commercial vessels and a US naval blockade. Meanwhile, Iranian small boats recently attempted to take possession of a US unmanned surface vessel, but they were unsuccessful after Centcom forcefully responded.
+
+═══ 03c_WHY_MATTERS ═══
+
+The closure of the Strait of Hormuz disrupts global oil transport and escalates shipping risks across the strategic maritime corridor.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Two sailors are missing and twenty-three others were rescued following an attack on an oil tanker in the Strait of Hormuz. Oman states, according to Bbc World, that the Panama flagged El Gaia was towed to an Omani port on Tuesday after a fire broke out in its engine room. Iran claimed the tanker hit naval mines. The United States military stated it was struck by an Iranian missile last month and a drone over the weekend. The closure of the Strait of Hormuz disrupts global oil transport and escalates shipping risks across the strategic maritime corridor.
+
+The International Maritime Organization reported that at least twenty-two seafarers have been killed in seventy-nine confirmed incidents in the region since February. The Strait of Hormuz has effectively closed due to Iranian attacks on commercial vessels and a United States naval blockade. Meanwhile, Iranian small boats recently attempted to take possession of a United States unmanned surface vessel, but they were unsuccessful after Centcom forcefully responded.
+
+═══ 05_NORMALIZED ═══
+
+Two sailors are missing and twenty-three others were rescued following an attack on an oil tanker in the Strait of Hormuz. Oman states, according to Bbc World, that the Panama flagged El Gaia was towed to an Omani port on Tuesday after a fire broke out in its engine room. Iran claimed the tanker hit naval mines. The United States military stated it was struck by an Iranian missile last month and a drone over the weekend. The closure of the Strait of Hormuz disrupts global oil transport and escalates shipping risks across the strategic maritime corridor.
+
+The International Maritime Organization reported that at least twenty-two seafarers have been killed in seventy-nine confirmed incidents in the region since February. The Strait of Hormuz has effectively closed due to Iranian attacks on commercial vessels and a United States naval blockade. Meanwhile, Iranian small boats recently attempted to take possession of a United States unmanned surface vessel, but they were unsuccessful after Centcom forcefully responded.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (7/7). Missing: none
+
+═══ 07_SANITY ═══
+
+numeric_preservation: score=0.83 {'total': 6, 'missing': ['50']}; sentence_length_dist: score=0.83 {'n': 8, 'p50': 21, 'p90': 29}
+

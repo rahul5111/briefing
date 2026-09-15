@@ -1,0 +1,42 @@
+═══ 00_KEY_POINTS ═══
+
+1. Tom Brughmans at Aarhus University notes that widely held assumptions claim all Roman roads are uniformly straight.
+2. Researchers used topographic mapping, satellite imagery, and historical sources to map roads in AD 150 totaling almost 300,000 kilometres in length.
+3. Roman roads were mostly straight only where the landscape permitted, such as lowland regions in western Europe and North Africa.
+4. Around 90 per cent of Roman roads were built with a slope gradient that permitted animal-driven carts and wagons.
+5. Provincial capitals consistently served as key crossroads, mediating overland communications within their respective provinces rather than Rome being entirely central.
+6. Ray Laurence at Macquarie University states that the correlation between the ancient and modern networks shows how Romans created Europe's future geography.
+7. Brughmans states that the findings suggest Romans were dedicated to maintaining and improving overland accessibility and connectivity on an empire-wide scale.
+
+═══ 01_DRAFT ═══
+
+A digital reconstruction of the ancient Roman road network challenges centuries-old assumptions that all roads lead to Rome and are uniformly straight. Tom Brughmans at Aarhus University notes that these are widely held assumptions, even among academics. Last year, researchers used topographic mapping, satellite imagery, and historical sources to create a map of roads in the Roman Empire in AD 150, totalling almost 300,000 kilometres in length. The analysis reveals that Roman roads were mostly straight only where the landscape permitted, such as lowland regions in western Europe and North Africa. Major modern roads tend to be straighter than ancient roads because they facilitate faster travel by car. Additionally, around 90 per cent of Roman roads were built with a slope gradient permitting the passage of animal-driven carts and wagons, including through the Alps. Brughmans states that this suggests the Romans were dedicated to maintaining and improving overland accessibility and connectivity on an empire-wide scale. Furthermore, provincial capitals consistently served as key crossroads for overland communications rather than Rome being entirely central. Ray Laurence at Macquarie University states that the correlation between the ancient and modern networks shows that the Romans created the future geography of Europe.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+A digital reconstruction of the ancient Roman road network challenges centuries-old assumptions that all roads lead to Rome and are uniformly straight. Tom Brughmans at Aarhus University notes that these are widely held assumptions, even among academics. Last year, researchers used topographic mapping, satellite imagery, and historical sources to create a map of roads in the Roman Empire in AD 150, totalling almost 300,000 kilometres in length. The analysis reveals that Roman roads were mostly straight only where the landscape permitted, such as lowland regions in western Europe and North Africa. Major modern roads tend to be straighter than ancient roads because they facilitate faster travel by car. Around 90 per cent of Roman roads were built with a slope gradient that could permit the passage of animal-driven carts and wagons, including through the Alps. Brughmans states that this suggests the Romans were dedicated to maintaining and improving overland accessibility and connectivity on an empire-wide scale. Meanwhile, Rome wasn't as central as the medieval proverb suggests, with provincial capitals consistently serving as key crossroads mediating overland communications in their respective provinces. Ray Laurence at Macquarie University states that the correlation between the ancient and modern networks shows that the Romans created the future geography of Europe.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (7/7). Missing: none
+
+═══ 03c_WHY_MATTERS ═══
+
+The digital reconstruction challenges academic assumptions about ancient infrastructure by proving provincial capitals served as key crossroads rather than Rome.
+
+═══ 04_AUDIO_REWRITE ═══
+
+A digital reconstruction of the ancient Roman road network challenges centuries-old assumptions that all roads lead to Rome and are uniformly straight. Tom Brughmans at Aarhus University notes that these are widely held assumptions, even among academics, according to New Scientist. Last year, researchers used topographic mapping, satellite imagery, and historical sources to create a map of roads in the Roman Empire in A. D. one hundred and fifty, totalling almost three hundred thousand kilometres in length. The analysis reveals that Roman roads were mostly straight only where the landscape permitted, such as lowland regions in western Europe and North Africa. Major modern roads tend to be straighter than ancient roads because they facilitate faster travel by car. Around ninety percent of Roman roads were built with a slope gradient that could permit the passage of animal-driven carts and wagons, including through the Alps. Brughmans states that this suggests the Romans were dedicated to maintaining and improving overland accessibility and connectivity on an empire-wide scale. Meanwhile, Rome wasn't as central as the medieval proverb suggests, with provincial capitals consistently serving as key crossroads mediating overland communications in their respective provinces. Ray Laurence at Macquarie University states that the correlation between the ancient and modern networks shows that the Romans created the future geography of Europe. The digital reconstruction challenges academic assumptions about ancient infrastructure by proving provincial capitals served as key crossroads rather than Rome.
+
+═══ 05_NORMALIZED ═══
+
+A digital reconstruction of the ancient Roman road network challenges centuries-old assumptions that all roads lead to Rome and are uniformly straight. Tom Brughmans at Aarhus University notes that these are widely held assumptions, even among academics, according to New Scientist. Last year, researchers used topographic mapping, satellite imagery, and historical sources to create a map of roads in the Roman Empire in A. D. one hundred and fifty, totalling almost three hundred thousand kilometres in length. The analysis reveals that Roman roads were mostly straight only where the landscape permitted, such as lowland regions in western Europe and North Africa. Major modern roads tend to be straighter than ancient roads because they facilitate faster travel by car. Around ninety percent of Roman roads were built with a slope gradient that could permit the passage of animal-driven carts and wagons, including through the Alps. Brughmans states that this suggests the Romans were dedicated to maintaining and improving overland accessibility and connectivity on an empire-wide scale. Meanwhile, Rome wasn't as central as the medieval proverb suggests, with provincial capitals consistently serving as key crossroads mediating overland communications in their respective provinces. Ray Laurence at Macquarie University states that the correlation between the ancient and modern networks shows that the Romans created the future geography of Europe. The digital reconstruction challenges academic assumptions about ancient infrastructure by proving provincial capitals served as key crossroads rather than Rome.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (7/7). Missing: none
+
+═══ 07_SANITY ═══
+
+numeric_preservation: score=0.65 {'total': 26, 'missing': ['06', '600', '900', '24', '0', '15', '026', '18', '450']}; sentence_length_dist: score=0.93 {'n': 12, 'p50': 22, 'p90': 25}
+

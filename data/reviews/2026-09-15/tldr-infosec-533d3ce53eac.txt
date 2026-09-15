@@ -1,0 +1,42 @@
+═══ 00_KEY_POINTS ═══
+
+1. Canadian telecom provider Telus is notifying customers that their consumer accounts were breached.
+2. The data intrusions on Telus consumer accounts occurred between February 2025 and June 2026.
+3. Attackers used compromised credentials to access stored personal information like names and phone numbers.
+4. The obtained information was used to attempt convincing customers to move their services to competitors.
+5. Telus has reset the compromised credentials and added enhanced security monitoring to impacted accounts.
+6. The Vancouver Police Department has been notified about the Telus consumer account breaches.
+7. Victims of the Telus consumer account breaches have been offered complimentary identity theft protection services.
+
+═══ 01_DRAFT ═══
+
+Canadian telecom provider Telus is notifying customers that their consumer accounts were breached. The data intrusions on Telus consumer accounts occurred between February 2025 and June 2026. Attackers used compromised credentials to access stored personal information like names, account numbers, and phone numbers. The obtained information was used to attempt convincing customers to move their services to competitors, and attackers made unauthorized changes to victim services in some cases. Telus has reset the compromised credentials and added enhanced security monitoring to impacted accounts. The Vancouver Police Department has been notified about the Telus consumer account breaches, and victims have been offered complimentary identity theft protection services. It remains unclear how many total accounts were affected by the unauthorized access campaign.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Telus is notifying customers that their accounts have been breached. The data intrusions on these accounts occurred between February 2025 and June 2026. Attackers used compromised credentials to access stored personal information like names, account numbers, and phone numbers. The obtained information was used to attempt convincing customers to move their services to competitors, and attackers made unauthorized changes to victim services in some cases. Telus has reset the compromised credentials and added enhanced security monitoring to impacted accounts. The Vancouver Police Department has been notified about the account breaches, and victims have been offered complimentary identity theft protection services. It remains unclear how many total accounts were affected by the unauthorized access campaign.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (7/7). Missing: none
+
+═══ 03c_WHY_MATTERS ═══
+
+The breach exposes telecom customer data over a sixteen month period, forcing security resets and police investigations.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Telus is notifying customers that their accounts have been breached. The data intrusions on these accounts occurred between February twenty twenty-five and June twenty twenty-six, according to Tldr Infosec. Attackers used compromised credentials to access stored personal information like names and account numbers and phone numbers. The obtained information was used to attempt convincing customers to move their services to competitors, and attackers made unauthorized changes to victim services in some cases. Telus has reset the compromised credentials and added enhanced security monitoring to impacted accounts. The Vancouver Police Department has been notified about the account breaches, and victims have been offered complimentary identity theft protection services. It remains unclear how many total accounts were affected by the unauthorized access campaign.
+
+═══ 05_NORMALIZED ═══
+
+Telus is notifying customers that their accounts have been breached. The data intrusions on these accounts occurred between February twenty twenty-five and June twenty twenty-six, according to Tldr Infosec. Attackers used compromised credentials to access stored personal information like names and account numbers and phone numbers. The obtained information was used to attempt convincing customers to move their services to competitors, and attackers made unauthorized changes to victim services in some cases. Telus has reset the compromised credentials and added enhanced security monitoring to impacted accounts. The Vancouver Police Department has been notified about the account breaches, and victims have been offered complimentary identity theft protection services. It remains unclear how many total accounts were affected by the unauthorized access campaign.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (7/7). Missing: none
+
+═══ 07_SANITY ═══
+
+numeric_preservation: score=0.60 {'total': 5, 'missing': ['4.1', '347000']}; sentence_length_dist: score=0.97 {'n': 7, 'p50': 17, 'p90': 26}
+

@@ -1,0 +1,43 @@
+═══ 00_KEY_POINTS ═══
+
+1. Munich's Allianz Arena and Barcelona's Camp Nou will host the Champions League finals in 2028 and 2029.
+2. European football governing body UEFA announced the upcoming final venues on Tuesday.
+3. The Allianz Arena will stage its third Champions League final in 2028.
+4. Redevelopment work continues at Camp Nou as part of a revamp project launched in 2023.
+5. Bayern Munich CEO JanChristian Dreesen stated that this is fantastic news for them.
+6. Barcelona president Joan Laporta stated it is an immense pride for FC Barcelona and all fans.
+7. Women Champions League finals will take place at Parc Olympique Lyonnais in 2028 and Cardiff Principality Stadium in 2029.
+8. Madrid Estadio Metropolitano is scheduled to host the 202627 campaign final on June 5.
+
+═══ 01_DRAFT ═══
+
+Munichs Allianz Arena and Barcelonas Camp Nou will host the Champions League finals in 2028 and 2029. European football governing body UEFA announced the upcoming final venues on Tuesday. The Allianz Arena will stage its third Champions League final in 2028. Redevelopment work continues at Camp Nou as part of a revamp project launched in 2023. Bayern Munich CEO JanChristian Dreesen stated in a club website statement that this is fantastic news for us: The Allianz Arena, FC Bayern, and Munich stand for international appeal, genuine hospitality, and the highest organisational quality. Barcelona president Joan Laporta stated that it is an immense pride for FC Barcelona and for all Barcelona fans. Women Champions League finals will take place at Parc Olympique Lyonnais in 2028 and Cardiff Principality Stadium in 2029. Madrids Estadio Metropolitano is scheduled to host the 202627 campaign final on June 5.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+The Allianz Arena in Munich and Camp Nou in Barcelona will host the Champions League finals in 2028 and 2029, respectively. European football governing body UEFA announced the upcoming final venues on Tuesday. The Allianz Arena will stage its third Champions League final in 2028. Redevelopment work continues at Camp Nou as part of a revamp project launched in 2023. Bayern Munich CEO Jan-Christian Dreesen stated in a club website statement that this is fantastic news for us, adding that the Allianz Arena, FC Bayern, and Munich stand for international appeal, genuine hospitality, and the highest organisational quality. Barcelona president Joan Laporta stated that it is an immense pride for FC Barcelona and for all Barcelona fans. Women's Champions League finals will take place at Parc Olympique Lyonnais in 2028 and Cardiff's Principality Stadium in 2029. Madrid's Estadio Metropolitano is scheduled to host the 2026-27 campaign final on June 5.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (8/8). Missing: none
+
+═══ 03c_WHY_MATTERS ═══
+
+The stadium selections secure high-profile tourism and broadcast revenues for Munich, Barcelona, Lyon, and Cardiff through the end of the decade.
+
+═══ 04_AUDIO_REWRITE ═══
+
+The Allianz Arena in Munich and Camp Nou in Barcelona will host the Champions League finals in twenty twenty-eight and twenty twenty-nine. European football governing body U. E. F. A. announced the venues on Tuesday, according to Aljazeera. The Allianz Arena will stage its third Champions League final in twenty twenty-eight. Redevelopment work continues at Camp Nou as part of a revamp project launched in twenty twenty-three. Bayern Munich chief executive officer Jan-Christian Dreesen stated that this is fantastic news for the club. Barcelona president Joan Laporta stated that it is an immense pride for the team and all fans. Women's Champions League finals will take place at Parc Olympique Lyonnais in twenty twenty-eight and Cardiff's Principality Stadium in twenty twenty-nine. Madrid's Estadio Metropolitano is scheduled to host the twenty twenty-six to twenty twenty-seven campaign final on June fifth. The stadium selections secure high-profile tourism and broadcast revenues for Munich, Barcelona, Lyon, and Cardiff through the end of the decade.
+
+═══ 05_NORMALIZED ═══
+
+The Allianz Arena in Munich and Camp Nou in Barcelona will host the Champions League finals in twenty twenty-eight and twenty twenty-nine. European football governing body U. E. F. A. announced the venues on Tuesday, according to Aljazeera. The Allianz Arena will stage its third Champions League final in twenty twenty-eight. Redevelopment work continues at Camp Nou as part of a revamp project launched in twenty twenty-three. Bayern Munich chief executive officer Jan-Christian Dreesen stated that this is fantastic news for the club. Barcelona president Joan Laporta stated that it is an immense pride for the team and all fans. Women's Champions League finals will take place at Parc Olympique Lyonnais in twenty twenty-eight and Cardiff's Principality Stadium in twenty twenty-nine. Madrid's Estadio Metropolitano is scheduled to host the twenty twenty-six to twenty twenty-seven campaign final on June fifth. The stadium selections secure high-profile tourism and broadcast revenues for Munich, Barcelona, Lee-on, and Cardiff through the end of the decade.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (8/8). Missing: none
+
+═══ 07_SANITY ═══
+
+numeric_preservation: score=0.33 {'total': 15, 'missing': ['2025', '73000', '2030', '2', '2012', '70000', '1', '5', '2017', '1999']}; attribution_present: score=0.00 {'source_name': 'Aljazeera', 'in_first_3_sentences': False}
+

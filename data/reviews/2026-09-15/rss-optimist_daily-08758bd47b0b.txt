@@ -1,0 +1,36 @@
+═══ 00_KEY_POINTS ═══
+
+1. New York City Public Schools is banning generative artificial intelligence for pre-kindergarten through eighth grade students.
+2. More than half a million students are affected by the new district policy during the 2026-2027 school year.
+3. Mayor Zohran Mamdani stated that the tech industry wants everyone to believe that AI-powered early education is necessary.
+4. Schools Chancellor Kamar Samuels emphasized that the district will ensure technology serves learning rather than the other way around.
+5. The ban matters because it rejects the tech industry premise that early artificial intelligence integration in classrooms is inevitable and beneficial.
+
+═══ 01_DRAFT ═══
+
+New York City Public Schools is banning generative artificial intelligence for pre-kindergarten through eighth grade students for the 2026-2027 school year. More than half a million students are affected by the sweeping district policy, which is considered the nation's most expansive AI moratorium. High school students and teachers are exempt from the restriction. Mayor Zohran Mamdani stated that the tech industry wants everyone to believe that AI-powered early education is necessary. Schools Chancellor Kamar Samuels emphasized that the district will ensure technology serves learning rather than the other way around. This news matters because it rejects the underlying tech industry premise that early artificial intelligence integration in classrooms is inevitable and beneficial. The district aims to protect foundational critical thinking skills by preventing young students from outsourcing their work to companion chatbots and software before they have built the ability to do it themselves.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (5/5). Missing: none
+
+═══ 03c_WHY_MATTERS ═══
+
+The sweeping ban affects over half a million students, setting a major regulatory precedent for early artificial intelligence policy in urban public school districts.
+
+═══ 04_AUDIO_REWRITE ═══
+
+New York City Public Schools is banning generative A. I. for pre-kindergarten through eighth grade students for the twenty twenty-six to twenty twenty-seven school year. More than half a million students are affected by the sweeping district policy, Optimist Daily reports, which is considered the nation's most expansive A. I. moratorium. High school students and teachers are exempt from the restriction. Mayor Zohran Mamdani stated that the tech industry wants everyone to believe that A. I. powered early education is necessary. Schools Chancellor Kamar Samuels emphasized that the district will ensure technology serves learning rather than the other way around. The sweeping ban affects over half a million students, setting a major regulatory precedent for early artificial intelligence policy in urban public school districts. The district aims to protect foundational critical thinking skills by preventing young students from outsourcing their work to companion chatbots and software before they have built the ability to do it themselves.
+
+═══ 05_NORMALIZED ═══
+
+New York City Public Schools is banning generative A. I. for pre-kindergarten through eighth grade students for the twenty twenty-six to twenty twenty-seven school year. More than half a million students are affected by the sweeping district policy, Optimist Daily reports, which is considered the nation's most expansive A. I. moratorium. High school students and teachers are exempt from the restriction. Mayor Zohran Mamdani stated that the tech industry wants everyone to believe that A. I. powered early education is necessary. Schools Chancellor Kamar Samuels emphasized that the district will ensure technology serves learning rather than the other way around. The sweeping ban affects over half a million students, setting a major regulatory precedent for early artificial intelligence policy in urban public school districts. The district aims to protect foundational critical thinking skills by preventing young students from outsourcing their work to companion chatbots and software before they have built the ability to do it themselves.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (5/5). Missing: none
+
+═══ 07_SANITY ═══
+
+numeric_preservation: score=0.75 {'total': 12, 'missing': ['02', '527', '09']}; sentence_length_dist: score=0.93 {'n': 13, 'p50': 10, 'p90': 24}; attribution_present: score=0.00 {'source_name': 'Optimist Daily', 'in_first_3_sentences': False}
+

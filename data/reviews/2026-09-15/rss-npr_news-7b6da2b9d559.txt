@@ -1,0 +1,42 @@
+═══ 00_KEY_POINTS ═══
+
+1. Nearly 350,000 Haitian migrants lost their temporary protected status in July after the Trump Administration revoked it.
+2. Registered nurse Herlain barely leaves her house and told NPR, You would think I was on the run.
+3. A Department of Homeland Security spokesperson defended the decision by stating Temporary Protected Status is exactly that temporary.
+4. Father Reginald Jean-Mary said depression and anxiety are rampant among his parishioners facing deportation to a deteriorating Haiti.
+5. Twenty-year-old Pierre Damas Bel died by suicide in Springfield, Ohio after losing his TPS and receiving an ankle monitor.
+6. Little Haiti in South Florida has become a ghost town with closed shops as people hide in fear of deportation flights.
+7. Former broadcaster Farah Larreux said going back to Haiti would be a death sentence and wants another legal pathway for immigrants.
+
+═══ 01_DRAFT ═══
+
+Nearly 350,000 Haitian migrants lost their temporary protected status in July after the Trump Administration revoked the designation that had shielded them from deportation for 16 years. A registered nurse named Herlain barely leaves her house in Florida and told NPR, You would think I was on the run. Who am I on the run from? This is crazy! A Department of Homeland Security spokesperson defended the decision in an emailed statement stating that Temporary Protected Status is exactly that temporary, and that for too long it functioned as a de facto amnesty program. Father Reginald Jean-Mary, a reverend at Notre Dame d'Haiti Catholic Church in Miami, said depression and anxiety are rampant among parishioners facing deportation to Haiti, where heavily armed gangs have taken over the capital and dozens of people were recently massacred. The South Florida community was also shaken by the death of 20-year-old Pierre Damas Bel in Springfield, Ohio, who apparently died by suicide after losing his TPS and being outfitted with an ankle monitor. Little Haiti has largely emptied out with closed shops and metal shutters down because people are afraid of deportation flights and ICE detentions. Former broadcaster Farah Larreux, who lost her TPS, said going back to Haiti would be a death sentence due to her political criticisms, and she wants another legal pathway for immigrants who fled violence and instability. Larreux pointed out the hypocrisy of the administration deporting Haitians while its State Department warns U.S. citizens not to travel to Haiti because it is too dangerous.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (7/7). Missing: none
+
+═══ 03c_WHY_MATTERS ═══
+
+The revocation of protected status for three hundred fifty thousand migrants disrupts local workforces and shuttered businesses across South Florida communities.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Nearly three hundred fifty thousand Haitian migrants lost their temporary protected status in July after the Trump Administration revoked the designation that had shielded them from deportation for sixteen years, N. P. R. News reports. A registered nurse named Herlain barely leaves her house in Florida and told the network you would think I was on the run. Who am I on the run from. This is crazy. A Department of Homeland Security spokesperson defended the decision in an emailed statement stating that temporary protected status is exactly that temporary and that for too long it functioned as a de facto amnesty program.
+
+Father Reginald Jean-Mary, a reverend at Notre Dame d Haiti Catholic Church in Miami, said depression and anxiety are rampant among parishioners facing deportation to Haiti, where heavily armed gangs have taken over the capital and dozens of people were recently massacred. The South Florida community was also shaken by the death of twenty-year-old Pierre Damas Bel in Springfield, Ohio, who apparently died by suicide after losing his temporary protected status and being outfitted with an ankle monitor. Little Haiti has largely emptied out with closed shops and metal shutters down because people are afraid of deportation flights and Immigration and Customs Enforcement detentions. Former broadcaster Farah Larreux, who lost her temporary protected status, said going back to Haiti would be a death sentence due to her political criticisms, and she wants another legal pathway for immigrants who fled violence and instability. Larreux pointed out the hypocrisy of the administration deporting Haitians while its State Department warns United States citizens not to travel to Haiti because it is too dangerous. The revocation of protected status for three hundred fifty thousand migrants disrupts local workforces and shuttered businesses across South Florida communities.
+
+═══ 05_NORMALIZED ═══
+
+Nearly three hundred fifty thousand Haitian migrants lost their temporary protected status in July after the Trump Administration revoked the designation that had shielded them from deportation for sixteen years, N. P. R. News reports. A registered nurse named Herlain barely leaves her house in Florida and told the network you would think I was on the run. Who am I on the run from. This is crazy. A Department of Homeland Security spokesperson defended the decision in an emailed statement stating that temporary protected status is exactly that temporary and that for too long it functioned as a de facto amnesty program.
+
+Father Reginald Jean-Mary, a reverend at Notre Dame d Haiti Catholic Church in Miami, said depression and anxiety are rampant among parishioners facing deportation to Haiti, where heavily armed gangs have taken over the capital and dozens of people were recently massacred. The South Florida community was also shaken by the death of twenty-year-old Pierre Damas Bel in Springfield, Ohio, who apparently died by suicide after losing his temporary protected status and being outfitted with an ankle monitor. Little Haiti has largely emptied out with closed shops and metal shutters down because people are afraid of deportation flights and Immigration and Customs Enforcement detentions. Former broadcaster Farah Larreux, who lost her temporary protected status, said going back to Haiti would be a death sentence due to her political criticisms, and she wants another legal pathway for immigrants who fled violence and instability. Larreux pointed out the hypocrisy of the administration deporting Haitians while its State Department warns United States citizens not to travel to Haiti because it is too dangerous. The revocation of protected status for three hundred fifty thousand migrants disrupts local workforces and shuttered businesses across South Florida communities.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (7/7). Missing: none
+
+═══ 07_SANITY ═══
+
+numeric_preservation: score=0.50 {'total': 6, 'missing': ['231', '17', '14']}; sentence_length_dist: score=0.37 {'n': 14, 'p50': 26, 'p90': 38}; attribution_present: score=0.00 {'source_name': 'Npr News', 'in_first_3_sentences': False}
+

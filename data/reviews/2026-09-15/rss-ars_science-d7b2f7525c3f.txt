@@ -1,0 +1,39 @@
+═══ 00_KEY_POINTS ═══
+
+1. Researchers used a mathematical model to study a series of games that include evolving strategies and randomly varying returns.
+2. Traditional games are usually played against a static background where rewards per outcome remain constant.
+3. Constant rewards limit traditional game relevance because real-life rewards and consequences of strategic choices are ever-changing.
+4. The prisoner is dilemma is perhaps the most famous game-theory contest involving captured thieves separated during police interrogation.
+5. In the prisoner is dilemma, if both thieves clam up they receive punishment for a lesser crime.
+6. If one prisoner defects by making a deal, that prisoner goes free while the other receives a heavier sentence.
+7. If both prisoners make a deal, they both receive an in-between punishment.
+8. This research matters because traditional static rewards limit relevance to behavior, whereas random rewards more accurately reflect ever-changing real-life strategic choices.
+
+═══ 01_DRAFT ═══
+
+Researchers have used a mathematical model to study a series of games featuring evolving strategies and randomly varying returns. Traditional games are usually played against a static background where the rewards per outcome are constant. That limits their relevance to behavior because in real life the rewards and consequences of strategic choices are ever changing. To better understand these choices, researchers examined famous game theory contests like the prisoner is dilemma. In this scenario, a pair of thieves are captured and separately interrogated by the police. If both prisoners clam up, they are punished for a lesser crime. If one prisoner defects by making a deal, that prisoner goes free while the other receives a heavier sentence. If both make a deal, they both get an in-between punishment. This research matters because incorporating randomly varying returns improves traditional game theory models to better reflect the ever-changing nature of real-life strategic decisions and human behavior.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (8/8). Missing: none
+
+═══ 03c_WHY_MATTERS ═══
+
+Incorporating randomly varying returns improves traditional game theory models to better reflect the ever changing nature of real life strategic decisions.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Researchers have used a mathematical model to study a series of games featuring evolving strategies and randomly varying returns. Traditional games are usually played against a static background where the rewards per outcome are constant. Ars Science reports that this limits their relevance to behaviour because in real life the rewards and consequences of strategic choices are ever changing. To better understand these choices, researchers examined famous game theory contests like the prisoner is dilemma. In this scenario, a pair of thieves are captured and separately interrogated by the police. If both prisoners clam up, they are punished for a lesser crime. If one prisoner defects by making a deal, that prisoner goes free while the other receives a heavier sentence. If both make a deal, they both get an in-between punishment. Incorporating randomly varying returns improves traditional game theory models to better reflect the ever changing nature of real life strategic decisions.
+
+═══ 05_NORMALIZED ═══
+
+Researchers have used a mathematical model to study a series of games featuring evolving strategies and randomly varying returns. Traditional games are usually played against a static background where the rewards per outcome are constant. Ars Science reports that this limits their relevance to behaviour because in real life the rewards and consequences of strategic choices are ever changing. To better understand these choices, researchers examined famous game theory contests like the prisoner is dilemma. In this scenario, a pair of thieves are captured and separately interrogated by the police. If both prisoners clam up, they are punished for a lesser crime. If one prisoner defects by making a deal, that prisoner goes free while the other receives a heavier sentence. If both make a deal, they both get an in-between punishment. Incorporating randomly varying returns improves traditional game theory models to better reflect the ever changing nature of real life strategic decisions.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (8/8). Missing: none
+
+═══ 07_SANITY ═══
+
+numeric_preservation: score=0.33 {'total': 3, 'missing': ['2026', '09']}
+

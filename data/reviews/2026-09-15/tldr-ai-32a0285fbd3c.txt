@@ -1,0 +1,46 @@
+═══ 00_KEY_POINTS ═══
+
+1. SoftBank Group secured an $11.87 billion loan to support its investment in artificial intelligence firm OpenAI.
+2. The Japanese conglomerate sealed the two-year financing facility last week, attracting commitments from around 20 banks.
+3. The borrowing was upsized from an earlier target of $10 billion despite escalating risks from the technology.
+4. OpenAI Chief Executive Officer Sam Altman said in an interview with Fortune that his company wouldn't proceed with a public offering this year.
+5. SoftBank plans to pay down the $25.9 billion it owes on September 15.
+6. SoftBank is slated to invest close to $65 billion in OpenAI by October.
+7. OpenAI Chief Executive Officer Sam Altman stated that his company wouldn't proceed with a public offering this year as it addresses safety-related concerns.
+
+═══ 01_DRAFT ═══
+
+SoftBank Group secured an $11.87 billion loan to support its investment in artificial intelligence firm OpenAI. The Japanese conglomerate sealed the two-year financing facility last week, attracting commitments from around 20 banks. The borrowing was upsized from an earlier target of $10 billion despite escalating risks from the technology. SoftBank plans to pay down the $25.9 billion it owes on September 15, while the company is slated to invest close to $65 billion in OpenAI by October. The financing comes as executives voice the need to slow the pace of AI development due to escalating risks. OpenAI Chief Executive Officer Sam Altman said in an interview with Fortune that his company wouldn't proceed with a public offering this year as it addresses safety-related concerns. SoftBank shares tumbled as much as 13% Monday, the most since July 17, amid concerns about growing credit risks.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+SoftBank Group secured an $11.87 billion loan to support its investment in artificial intelligence firm OpenAI. The Japanese conglomerate sealed the two-year financing facility last week, attracting commitments from around 20 banks. The borrowing was upsized from an earlier target of $10 billion despite escalating risks from the technology. SoftBank plans to pay down the $25.9 billion it owes on September 15, and the company is slated to invest close to $65 billion in OpenAI by October. The financing comes as executives voice the need to slow the pace of AI development due to escalating risks. OpenAI Chief Executive Officer Sam Altman said in an interview with Fortune that his company wouldn't proceed with a public offering this year as it addresses safety-related concerns. SoftBank shares tumbled as much as 13% Monday, the most since July 17, amid concerns about growing credit risks.
+
+═══ 02b_TRIMMED ═══
+
+SoftBank Group secured an $11.87 billion loan to support its investment in artificial intelligence firm OpenAI. The Japanese conglomerate sealed the two-year financing facility last week, attracting commitments from around 20 banks. The borrowing was upsized from an earlier target of $10 billion despite escalating risks from the technology. The financing comes as executives voice the need to slow the pace of AI development due to escalating risks. OpenAI Chief Executive Officer Sam Altman said in an interview with Fortune that his company wouldn't proceed with a public offering this year as it addresses safety-related concerns. SoftBank shares tumbled as much as 13% Monday, the most since July 17, amid concerns about growing credit risks.
+
+═══ 03_COVERAGE_1 ═══
+
+85% covered (6/7). Missing: SoftBank plans to pay down the $25.9 billion it owes on September 15.
+
+═══ 03c_WHY_MATTERS ═══
+
+The massive borrowing fuels high-risk artificial intelligence investments, triggering a thirteen percent drop in SoftBank shares amid growing credit concerns.
+
+═══ 04_AUDIO_REWRITE ═══
+
+SoftBank Group secured an eleven point eight seven billion dollar loan to support its investment in artificial intelligence firm Open A. I., Tldr Ai reports. The Japanese conglomerate sealed the two-year financing facility last week, attracting commitments from around twenty banks. The borrowing was upsized from an earlier target of ten billion dollars despite escalating risks from the technology. The financing comes as executives voice the need to slow the pace of A. I. development due to escalating risks. Open A. I. Chief Executive Officer Sam Altman said in an interview with Fortune that his company would not proceed with a public offering this year as it addresses safety-related concerns. The massive borrowing fuels high-risk artificial intelligence investments, triggering a thirteen percent drop in SoftBank shares amid growing credit concerns.
+
+═══ 05_NORMALIZED ═══
+
+SoftBank Group secured an eleven point eight seven billion dollar loan to support its investment in artificial intelligence firm Open A. I., Tldr Ai reports. The Japanese conglomerate sealed the two-year financing facility last week, attracting commitments from around twenty banks. The borrowing was upsized from an earlier target of ten billion dollars despite escalating risks from the technology. The financing comes as executives voice the need to slow the pace of A. I. development due to escalating risks. Open A. I. Chief Executive Officer Sam Altman said in an interview with Fortune that his company would not proceed with a public offering this year as it addresses safety-related concerns. The massive borrowing fuels high-risk artificial intelligence investments, triggering a thirteen percent drop in SoftBank shares amid growing credit concerns.
+
+═══ 06_COVERAGE_FINAL ═══
+
+71% covered (5/7). Missing: SoftBank plans to pay down the $25.9 billion it owes on September 15.; SoftBank is slated to invest close to $65 billion in OpenAI by October.
+
+═══ 07_SANITY ═══
+
+numeric_preservation: score=0.40 {'total': 10, 'missing': ['37', '65', '40', '17', '25.9', '15']}
+

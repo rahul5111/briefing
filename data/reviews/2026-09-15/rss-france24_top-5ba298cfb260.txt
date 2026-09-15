@@ -1,0 +1,40 @@
+═══ 00_KEY_POINTS ═══
+
+1. A new political fault line is emerging in Republican strongholds across Texas ahead of the US midterm election.
+2. The political backlash is driven by the rapid expansion of artificial intelligence and data centers.
+3. Nearly 60 percent of planned new data centers are set to be built in congressional districts that voted for Donald Trump in 2024.
+4. The AI boom is now sparking an unexpected backlash from some of the very voters who helped put Donald Trump back in office.
+5. The analysis detailing the concentration of planned data centers was conducted by the Texas Tribune.
+
+═══ 01_DRAFT ═══
+
+Ahead of the upcoming US midterm election, a new political fault line is emerging in Republican strongholds across Texas. This rising tension is driven by the rapid expansion of artificial intelligence infrastructure in the state. According to an analysis published by the Texas Tribune, nearly 60 percent of planned new data centers are set to be built directly within congressional districts that voted for Donald Trump in 2024. Consequently, the ongoing artificial intelligence boom is now sparking a notable backlash from some of the very conservative voters who helped put him back in office. This grassroots friction highlights how localized resource demands and infrastructure growth are beginning to complicate political loyalties in reliably red regions, creating unexpected challenges for lawmakers as communities grapple with the rapid physical footprint of technological development.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+With just a couple months to go until the US midterm election, a new political fault line is emerging in Republican strongholds across Texas. This rising tension is driven by the rapid expansion of artificial intelligence infrastructure in the state. According to an analysis published by the Texas Tribune, nearly 60 percent of planned new data centers are set to be built directly within congressional districts that voted for Donald Trump in 2024. Driven by the rapid expansion of artificial intelligence, the AI boom is now sparking a backlash from some of the voters who helped put him back in office, as reported by Pierrick Leurent and Valérie Defert. This grassroots friction highlights how localized resource demands and infrastructure growth are beginning to complicate political loyalties in reliably red regions, creating unexpected challenges for lawmakers as communities grapple with the rapid physical footprint of technological development.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (5/5). Missing: none
+
+═══ 03c_WHY_MATTERS ═══
+
+The infrastructure boom in Republican strongholds complicates political loyalties for conservative lawmakers facing grassroots backlash over resource demands.
+
+═══ 04_AUDIO_REWRITE ═══
+
+With just a couple months to go until the U. S. midterm election, a new political fault line is emerging in Republican strongholds across Texas. This rising tension is driven by the rapid expansion of artificial intelligence infrastructure in the state, France24 Top reports. Nearly sixty percent of planned new data centers are set to be built directly within congressional districts that voted for Donald Trump in twenty twenty-four. Driven by the rapid expansion of artificial intelligence, the A. I. boom is now sparking a backlash from some of the voters who helped put him back in office. The infrastructure boom in Republican strongholds complicates political loyalties for conservative lawmakers facing grassroots backlash over resource demands.
+
+═══ 05_NORMALIZED ═══
+
+With just a couple months to go until the U. S. midterm election, a new political fault line is emerging in Republican strongholds across Texas. This rising tension is driven by the rapid expansion of artificial intelligence infrastructure in the state, France 24 Top reports. Nearly sixty percent of planned new data centers are set to be built directly within congressional districts that voted for Donald Trump in twenty twenty-four. Driven by the rapid expansion of artificial intelligence, the A. I. boom is now sparking a backlash from some of the voters who helped put him back in office. The infrastructure boom in Republican strongholds complicates political loyalties for conservative lawmakers facing grassroots backlash over resource demands.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (5/5). Missing: none
+
+═══ 07_SANITY ═══
+
+attribution_present: score=0.00 {'source_name': 'France24 Top', 'in_first_3_sentences': False}
+

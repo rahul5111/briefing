@@ -1,0 +1,37 @@
+═══ 00_KEY_POINTS ═══
+
+1. Elon Musk spoke at the All-In Summit in Los Angeles on Monday.
+2. Musk urged xAI, OpenAI, Anthropic, Google, Meta, and leading Chinese companies to test each other's AI models.
+3. Musk stated that instead of grading your own homework, you would have competitors grading your homework.
+4. SpaceX acquired xAI in February according to the article text.
+5. President Donald Trump called fears over AI a hoax and a scam on Truth Social on Monday.
+6. National Economic Council Director Kevin Hassett said the private sector is the right place to address AI concerns.
+
+═══ 01_DRAFT ═══
+
+Elon Musk spoke at the All-In Summit in Los Angeles on Monday where he urged xAI, OpenAI, Anthropic, Google, Meta, and leading Chinese companies to test each other's models before public release. Musk stated, instead of grading your own homework, you would have competitors grading your homework. SpaceX acquired xAI in February. Meanwhile, President Donald Trump called fears over AI a hoax and a scam in social media posts on Monday. National Economic Council Director Kevin Hassett stated that the private sector is the right place to address concerns with artificial intelligence while the government continues to monitor the industry and will use law enforcement when necessary to make sure firms act responsibly.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 03c_WHY_MATTERS ═══
+
+Cross-company model testing by competitors could reshape industry accountability, while the administration signals a preference for private sector self-regulation.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Elon Musk spoke at the All-In Summit in Los Angeles on Monday. He urged x. A. I., Open A. I., Anthropic, Google, Meta, and leading Chinese companies to test each other's models before public release. Instead of grading your own homework, you would have competitors grading your homework, Musk stated, according to Cnbc Top. SpaceX acquired x. A. I. in February. Meanwhile, President Donald Trump called fears over artificial intelligence a hoax and a scam in social media posts on Monday. National Economic Council Director Kevin Hassett stated that the private sector is the right place to address concerns with artificial intelligence. The government continues to monitor the industry and will use law enforcement when necessary to make sure firms act responsibly. Cross-company model testing by competitors could reshape industry accountability, while the administration signals a preference for private sector self-regulation.
+
+═══ 05_NORMALIZED ═══
+
+Elon Musk spoke at the All-In Summit in Los Angeles on Monday. He urged x. A. I., Open A. I., An-throw-pick, Google, Meta, and leading Chinese companies to test each other's models before public release. Instead of grading your own homework, you would have competitors grading your homework, Musk stated, according to Cnbc Top. SpaceX acquired x. A. I. in February. Meanwhile, President Donald Trump called fears over artificial intelligence a hoax and a scam in social media posts on Monday. National Economic Council Director Kevin Hassett stated that the private sector is the right place to address concerns with artificial intelligence. The government continues to monitor the industry and will use law enforcement when necessary to make sure firms act responsibly. Cross-company model testing by competitors could reshape industry accountability, while the administration signals a preference for private sector self-regulation.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+numeric_preservation: score=0.00 {'total': 1, 'missing': ['10']}; attribution_present: score=0.00 {'source_name': 'Cnbc Top', 'in_first_3_sentences': False}
+

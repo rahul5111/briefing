@@ -1,0 +1,42 @@
+═══ 00_KEY_POINTS ═══
+
+1. Scientists developed a reinforced ice material called BioPykrete that is about 10 times stronger than ordinary ice.
+2. BioPykrete can absorb roughly 70 times more energy before breaking than pure ice.
+3. The research was led by Prof. Ido Braslavsky of Hebrew University's Robert H. Smith Faculty of Agriculture, Food and Environment.
+4. The material was created by mixing ice with cellulose nanocrystals and adding an engineered chimeric protein acting as molecular glue.
+5. Adding the engineered protein doubled both the strength and energy absorption compared to a mixture without the molecular bridge.
+6. The new material matters because it could one day serve as a biodegradable, lower-carbon building material in extremely cold regions like the Arctic and Antarctic.
+7. Prof. Ido Braslavsky stated that they wanted to control how materials connect at the molecular level to change how strong the ice is and how it breaks.
+
+═══ 01_DRAFT ═══
+
+Scientists have developed a reinforced ice material called BioPykrete that is about 10 times stronger than ordinary ice and can absorb roughly 70 times more energy before breaking. The research was led by Prof. Ido Braslavsky of Hebrew University's Robert H. Smith Faculty of Agriculture, Food and Environment. The team created the new material by mixing ice with cellulose nanocrystals and adding an engineered chimeric protein that acts as molecular glue to bind the ice and cellulose together at the molecular level. Laboratory tests showed that adding this engineered protein doubled both the strength and energy absorption compared to a similar mixture without the molecular bridge. This development matters because the material could one day serve as a biodegradable, lower-carbon alternative for construction in extremely cold regions like the Arctic and Antarctic where transporting traditional materials is expensive. Explaining the approach, Prof. Ido Braslavsky stated that they wanted to go beyond simply mixing fibers into ice and instead control how the different materials connect at the molecular level. He noted that the result changes not only how strong the ice is, but also how it breaks by absorbing much more energy and deforming gradually.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Scientists have developed a reinforced ice material called BioPykrete that is about 10 times stronger than ordinary ice and can absorb roughly 70 times more energy before breaking. The research was led by Prof. Ido Braslavsky of Hebrew University's Robert H. Smith Faculty of Agriculture, Food and Environment. The team created the new material by mixing ice with cellulose nanocrystals and adding an engineered chimeric protein that acts as molecular glue to bind the ice and cellulose together at the molecular level. Laboratory tests showed that adding this engineered protein doubled both the strength and energy absorption compared to a similar mixture without the molecular bridge. This development matters because the material could one day serve as a biodegradable, lower-carbon alternative for construction in extremely cold regions like the Arctic and Antarctic where transporting traditional materials is expensive. Braslavsky stated that they wanted to go beyond simply mixing fibers into ice and instead control how the different materials connect at the molecular level. He noted that the result changes not only how strong the ice is, but also how it breaks by absorbing much more energy and deforming gradually.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (7/7). Missing: none
+
+═══ 03c_WHY_MATTERS ═══
+
+The biodegradable material offers a lower-carbon construction alternative for extremely cold regions where transporting traditional building supplies remains expensive.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Scientists have developed a reinforced ice material called BioPykrete that is about ten times stronger than ordinary ice. Phys Org reports that the material can absorb roughly seventy times more energy before breaking. The research was led by Professor Ido Braslavsky of the Hebrew University Robert H. Smith Faculty of Agriculture, Food and Environment. The team created the new material by mixing ice with cellulose nanocrystals and adding an engineered chimeric protein. This protein acts as molecular glue to bind the ice and cellulose together at the molecular level. Laboratory tests showed that adding this engineered protein doubled both the strength and energy absorption compared to a similar mixture without the molecular bridge. Braslavsky stated that they wanted to go beyond simply mixing fibers into ice and instead control how the different materials connect at the molecular level. He noted that the result changes not only how strong the ice is, but also how it breaks by absorbing much more energy and deforming gradually. The biodegradable material offers a lower-carbon construction alternative for extremely cold regions where transporting traditional building supplies remains expensive.
+
+═══ 05_NORMALIZED ═══
+
+Scientists have developed a reinforced ice material called BioPykrete that is about ten times stronger than ordinary ice. Phys Org reports that the material can absorb roughly seventy times more energy before breaking. The research was led by Professor Ido Braslavsky of the Hebrew University Robert H. Smith Faculty of Agriculture, Food and Environment. The team created the new material by mixing ice with cellulose nanocrystals and adding an engineered chimeric protein. This protein acts as molecular glue to bind the ice and cellulose together at the molecular level. Laboratory tests showed that adding this engineered protein doubled both the strength and energy absorption compared to a similar mixture without the molecular bridge. Braslavsky stated that they wanted to go beyond simply mixing fibers into ice and instead control how the different materials connect at the molecular level. He noted that the result changes not only how strong the ice is, but also how it breaks by absorbing much more energy and deforming gradually. The biodegradable material offers a lower-carbon construction alternative for extremely cold regions where transporting traditional building supplies remains expensive.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (7/7). Missing: none
+
+═══ 07_SANITY ═══
+
+numeric_preservation: score=0.60 {'total': 5, 'missing': ['2026', '2026.116037']}; sentence_length_dist: score=0.97 {'n': 10, 'p50': 18, 'p90': 26}
+

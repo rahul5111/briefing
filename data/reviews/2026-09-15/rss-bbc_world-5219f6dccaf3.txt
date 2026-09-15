@@ -1,0 +1,42 @@
+═══ 00_KEY_POINTS ═══
+
+1. President Donald Trump wrote on social media on Monday that the idea of artificial intelligence taking over the world is a hoax.
+2. Democratic House Minority Leader Hakeem Jeffries told reporters on Monday that Congress should not leave town until AI safety is addressed.
+3. Republican Speaker Mike Johnson gave no sign on Monday that he intended to move quickly on AI legislation before the upcoming House recess.
+4. Republican Senate Majority Leader John Thune and Democratic senator Amy Klobuchar are working on a bill to force federal oversight on some AI companies.
+5. Democratic congresswoman Lori Trahan worked on a bipartisan House proposal called the Frontier Act requiring independent audits of AI research labs.
+6. Trump top AI adviser David Sacks told CBS News on Monday that existential warnings about artificial intelligence have been overblown and are becoming a panic.
+7. This news matters because political division, opposition from President Trump, and a lack of consensus in Congress make new safety legislation on artificial intelligence unlikely anytime soon.
+
+═══ 01_DRAFT ═══
+
+President Donald Trump wrote on social media on Monday that the idea of artificial intelligence taking over the world is a hoax. Democratic House Minority Leader Hakeem Jeffries told reporters on Monday that Congress should not leave town until AI safety is addressed. Republican Speaker Mike Johnson gave no sign on Monday that he intended to move quickly on AI legislation before the upcoming House recess. Republican Senate Majority Leader John Thune and democratic senator Amy Klobuchar are working on a bill to force federal oversight on some AI companies. Democratic congresswoman Lori Trahan worked on a bipartisan House proposal called the Frontier Act requiring independent audits of AI research labs. Trump top AI adviser David Sacks told CBS News on Monday that existential warnings about artificial intelligence have been overblown and are becoming a panic. This news matters because political division, opposition from President Trump, and a lack of consensus in Congress make new safety legislation on artificial intelligence unlikely anytime soon.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+President Donald Trump wrote on social media on Monday that the idea of artificial intelligence taking over the world is a hoax. Democratic House Minority Leader Hakeem Jeffries told reporters on Monday that Congress should not leave town until AI safety is addressed. Republican Speaker Mike Johnson gave no sign on Monday that he intended to move quickly on AI legislation before the upcoming House recess. Republican Senate Majority Leader John Thune and democratic senator Amy Klobuchar are working on a bill to force federal oversight on some AI companies. Democratic congresswoman Lori Trahan worked on a bipartisan House proposal called the Frontier Act requiring independent audits of AI research labs. Trump top AI adviser David Sacks told CBS News on Monday that existential warnings about artificial intelligence have been overblown and are becoming a panic. The White House approach, combined with a lack of political will and consensus, makes passing laws around artificial intelligence difficult and challenging in this political climate.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (7/7). Missing: none
+
+═══ 03c_WHY_MATTERS ═══
+
+Partisan division over artificial intelligence safety legislation in Congress stalls federal oversight for companies developing advanced frontier models.
+
+═══ 04_AUDIO_REWRITE ═══
+
+President Donald Trump wrote on social media that artificial intelligence taking over the world is a hoax. Democratic House Minority Leader Hakeem Jeffries told reporters that Congress should not leave town until A. I. safety is addressed, according to Bbc World. Republican Speaker Mike Johnson gave no sign that he intended to move quickly on A. I. legislation before the upcoming House recess. Republican Senate Majority Leader John Thune and democratic senator Amy Klobuchar are working on a bill to force federal oversight on some A. I. companies. Democratic congresswoman Lori Trahan worked on a bipartisan House proposal called the Frontier Act requiring independent audits of A. I. research labs. Trump top A. I. adviser David Sacks told C. B. S. News that existential warnings about artificial intelligence have been overblown and are becoming a panic. Partisan division over artificial intelligence safety legislation in Congress stalls federal oversight for companies developing advanced frontier models.
+
+═══ 05_NORMALIZED ═══
+
+President Donald Trump wrote on social media that artificial intelligence taking over the world is a hoax. Democratic House Minority Leader Hakeem Jeffries told reporters that Congress should not leave town until A. I. safety is addressed, according to Bbc World. Republican Speaker Mike Johnson gave no sign that he intended to move quickly on A. I. legislation before the upcoming House recess. Republican Senate Majority Leader John Thune and democratic senator Amy Klobuchar are working on a bill to force federal oversight on some A. I. companies. Democratic congresswoman Lori Trahan worked on a bipartisan House proposal called the Frontier Act requiring independent audits of A. I. research labs. Trump top A. I. adviser David Sacks told C. B. S. News that existential warnings about artificial intelligence have been overblown and are becoming a panic. Partisan division over artificial intelligence safety legislation in Congress stalls federal oversight for companies developing advanced frontier models.
+
+═══ 06_COVERAGE_FINAL ═══
+
+85% covered (6/7). Missing: This news matters because political division, opposition from President Trump, and a lack of consensus in Congress make new safety legislation on artificial intelligence unlikely anytime soon.
+
+═══ 07_SANITY ═══
+
+sentence_length_dist: score=0.77 {'n': 20, 'p50': 5, 'p90': 19}; attribution_present: score=0.00 {'source_name': 'Bbc World', 'in_first_3_sentences': False}
+

@@ -1,0 +1,45 @@
+═══ 00_KEY_POINTS ═══
+
+1. The Trump administration overturned most of a Biden-era rule limiting climate pollution from power plants.
+2. The Environmental Protection Agency announced a final plan on Monday that guts the 2024 Carbon Pollution Standards.
+3. The agency stated that the 2024 standards exceed its authority under the Clean Air Act.
+4. The EPA proposed revoking all remaining greenhouse gas emissions requirements for power plants.
+5. The agency argued that power plant emissions have no material impact on climate change.
+6. The final plan delivers three hundred billion dollars in savings according to the EPA announcement.
+
+═══ 01_DRAFT ═══
+
+The Trump administration overturned most of a Biden-era rule limiting climate pollution from power plants. The Environmental Protection Agency announced a final plan on Monday that guts the 2024 Carbon Pollution Standards, which the agency said delivers three hundred billion dollars in savings. The EPA stated that the previous regulations exceed its authority under the Clean Air Act by requiring control technologies that are not adequately demonstrated. Building on this action, the agency also proposed revoking all remaining greenhouse gas emissions requirements for power plants. The EPA argued that these emissions have no material impact on climate change. The plan to revoke the Carbon Pollution Standards was initially revealed last spring following warnings about rising global temperatures from a United Nations report and the hottest summer on record.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+The Trump administration overturned most of a Biden-era rule limiting climate pollution from power plants. The Environmental Protection Agency announced a final plan on Monday that guts the 2024 Carbon Pollution Standards, which the agency said delivers three hundred billion dollars in savings. The EPA stated that the previous regulations exceed its authority under the Clean Air Act by requiring control technologies that are not adequately demonstrated. In addition to this measure, the agency also proposed revoking all remaining greenhouse gas emissions requirements for power plants. The EPA argued that these emissions have no material impact on climate change. The plan to revoke the Carbon Pollution Standards was initially revealed last spring following warnings about rising global temperatures from a United Nations report and the hottest summer on record.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 03c_WHY_MATTERS ═══
+
+The reversal lowers compliance costs for power plant operators by eliminating mandatory carbon pollution standards established under the previous administration.
+
+═══ 04_AUDIO_REWRITE ═══
+
+The Trump administration overturned most of a Biden-era rule limiting climate pollution from power plants. Ars Science reports that the Environmental Protection Agency announced a final plan to gut the twenty twenty-four Carbon Pollution Standards. The agency stated that the previous regulations exceed its authority under the Clean Air Act. The reversal lowers compliance costs for power plant operators by eliminating mandatory carbon pollution standards established under the previous administration.
+
+The agency claims the previous rules require control technologies that are not adequately demonstrated and deliver three hundred billion dollars in savings. The agency also proposed revoking all remaining greenhouse gas emissions requirements for power plants. Officials argued that these emissions have no material impact on climate change. The plan to revoke the standards was initially revealed last spring following warnings about rising global temperatures from a United Nations report and the hottest summer on record.
+
+═══ 05_NORMALIZED ═══
+
+The Trump administration overturned most of a Biden-era rule limiting climate pollution from power plants. Ars Science reports that the Environmental Protection Agency announced a final plan to gut the twenty twenty-four Carbon Pollution Standards. The agency stated that the previous regulations exceed its authority under the Clean Air Act. The reversal lowers compliance costs for power plant operators by eliminating mandatory carbon pollution standards established under the previous administration.
+
+The agency claims the previous rules require control technologies that are not adequately demonstrated and deliver three hundred billion dollars in savings. The agency also proposed revoking all remaining greenhouse gas emissions requirements for power plants. Officials argued that these emissions have no material impact on climate change. The plan to revoke the standards was initially revealed last spring following warnings about rising global temperatures from a United Nations report and the hottest summer on record.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+numeric_preservation: score=0.67 {'total': 9, 'missing': ['09', '17', '06']}; sentence_length_dist: score=0.90 {'n': 8, 'p50': 20, 'p90': 28}
+

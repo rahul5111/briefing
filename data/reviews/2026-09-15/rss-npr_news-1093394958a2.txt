@@ -1,0 +1,46 @@
+═══ 00_KEY_POINTS ═══
+
+1. NATO fighter jets shot down a drone that entered Lithuanian airspace overnight on Tuesday.
+2. The incident marked the first time that a drone had been shot down in Lithuanian airspace.
+3. The drone was downed near the village of Pratkūnai, about 60 miles west of Vilnius.
+4. Antanas Matutis said that the wreckage had been found and the drone was likely carrying explosives.
+5. Vilmantas Vitkauskas stated that the drone most likely entered from Belarus and remained in Lithuanian airspace for about 30 minutes.
+6. Russia is growing increasingly reckless as it continues its terrible war against Ukraine.
+7. Ukraine's parliament voted to dismiss Ruslan Kravchenko from the post of prosecutor general on Tuesday.
+
+═══ 01_DRAFT ═══
+
+NATO fighter jets shot down a drone that entered Lithuanian airspace overnight on Tuesday, marking the first time that a drone had been shot down in its airspace. The military officials in Lithuania stated that the incident needed further investigation. The drone in Lithuania was downed near the village of Pratkūnai, about 60 miles west of the capital city of Vilnius, and near the Kaunas Reservoir, according to Lithuania's National Crisis Management Center. Antanas Matutis, who serves as the commander of the Lithuanian air force, said that the wreckage had been found and that the drone was likely carrying explosives. Vilmantas Vitkauskas, the head of the crisis center, told Lithuanian public broadcaster LRT that the drone most likely entered from Belarus. He added that it remained in Lithuanian airspace for about 30 minutes and flew along the outskirts of populated areas before being intercepted. Officials in NATO countries including Germany, Denmark, the United Kingdom, and Poland have in recent weeks accused Russia of involvement in acts such as drone incursions, sabotage, arson, surveillance of defense facilities, and planning to use a drone carrying explosives to attack an airport. This follows previous statements regarding Russian President Vladimir Putin and the ongoing full-scale invasion of Ukraine. Officials noted that Russia is growing increasingly reckless as it continues its terrible war against Ukraine. Meanwhile, Ukraine's parliament voted to dismiss Ruslan Kravchenko from the post of prosecutor general on Tuesday as a series of graft investigations pushed tensions in Kyiv to a new high. Kravchenko had submitted his resignation on September 7 amid a National Anti-Corruption Bureau investigation into corruption in his office, though no notice of suspicion was issued against him. President Volodymyr Zelenskyy had suspended Kravchenko from the post the day before after he had served as prosecutor general since June 21, 2025. Various corruption scandals have hurt the approval ratings of Zelenskyy at a time when Ukraine is still fighting for survival against the ongoing military actions.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+NATO fighter jets shot down a drone that entered Lithuanian airspace overnight on Tuesday, marking the first time that a drone had been shot down in its airspace. The military officials in Lithuania stated that the incident needed further investigation. The drone in Lithuania was downed near the village of Pratkūnai, about 60 miles west of the capital city of Vilnius, and near the Kaunas Reservoir, according to Lithuania's National Crisis Management Center. Antanas Matutis, who serves as the commander of the Lithuanian air force, said that the wreckage had been found and that the drone was likely carrying explosives. Vilmantas Vitkauskas, the head of the crisis center, told Lithuanian public broadcaster LRT that the drone most likely entered from Belarus. He added that it remained in Lithuanian airspace for about 30 minutes and flew along the outskirts of populated areas before being intercepted. Officials in NATO countries including Germany, Denmark, the United Kingdom, and Poland have in recent weeks accused Russia of involvement in acts such as drone incursions, sabotage, arson, surveillance of defense facilities, and planning to use a drone carrying explosives to attack an airport. This follows previous statements regarding Russian President Vladimir Putin and the ongoing full-scale invasion of Ukraine. Officials noted that Russia is growing increasingly reckless as it continues its terrible war against Ukraine. Meanwhile, Ukraine's parliament voted to dismiss Ruslan Kravchenko from the post of prosecutor general on Tuesday as a series of graft investigations pushed tensions in Kyiv to a new high. President Volodymyr Zelenskyy had suspended Kravchenko from the post the day before after he had served as prosecutor general since June 21, 2025. Various corruption scandals have hurt the approval ratings of Zelenskyy at a time when Ukraine is still fighting for survival against the ongoing military actions.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (7/7). Missing: none
+
+═══ 03c_WHY_MATTERS ═══
+
+The drone interception escalates regional security tensions as European officials increasingly accuse Russia of reckless sabotage operations.
+
+═══ 04_AUDIO_REWRITE ═══
+
+N. A. T. O. fighter jets shot down a drone that entered Lithuanian airspace overnight on Tuesday. This marks the first time that a drone has been shot down in this airspace. Military officials in Lithuania stated that the incident needed further investigation. The drone was downed near the village of Pratkūnai about sixty miles west of the capital city of Vilnius. The wreckage has been found and the drone was likely carrying explosives according to the Lithuanian air force commander, Antanas Matutis. The drone most likely entered from Belarus and remained in Lithuanian airspace for about thirty minutes. Officials in countries including Germany, Denmark, the United Kingdom, and Poland have accused Russia of involvement in recent sabotage and drone incursions. The drone interception escalates regional security tensions as European officials increasingly accuse Russia of reckless sabotage operations.
+
+Meanwhile, Ukraine's parliament voted to dismiss Ruslan Kravchenko from the post of prosecutor general on Tuesday. A series of graft investigations has pushed tensions in Kyiv to a new high. President Volodymyr Zelenskyy suspended Kravchenko from the post just one day earlier. Various corruption scandals have hurt the approval ratings of Zelenskyy during this ongoing military conflict.
+
+═══ 05_NORMALIZED ═══
+
+N. A. T. O. fighter jets shot down a drone that entered Lithuanian airspace overnight on Tuesday. This marks the first time that a drone has been shot down in this airspace. Military officials in Lithuania stated that the incident needed further investigation. The drone was downed near the village of Pratkūnai about sixty miles west of the capital city of Vilnius. The wreckage has been found and the drone was likely carrying explosives according to the Lithuanian air force commander, Antanas Matutis. The drone most likely entered from Belarus and remained in Lithuanian airspace for about thirty minutes. Officials in countries including Germany, Denmark, the United Kingdom, and Poland have accused Russia of involvement in recent sabotage and drone incursions. The drone interception escalates regional security tensions as European officials increasingly accuse Russia of reckless sabotage operations.
+
+Meanwhile, Ukraine's parliament voted to dismiss Ruslan Kravchenko from the post of prosecutor general on Tuesday. A series of graft investigations has pushed tensions in Kyiv to a new high. President Volodymyr Zelenskyy suspended Kravchenko from the post just one day earlier. Various corruption scandals have hurt the approval ratings of Zelenskyy during this ongoing military conflict.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (7/7). Missing: none
+
+═══ 07_SANITY ═══
+
+numeric_preservation: score=0.27 {'total': 11, 'missing': ['222', '7', '2025', '2', '4', '100', '21', '32']}; attribution_present: score=0.00 {'source_name': 'Npr News', 'in_first_3_sentences': False}
+
