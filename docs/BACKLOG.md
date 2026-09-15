@@ -48,7 +48,7 @@ they have no infrastructure dependency.
 - [x] **B-02** Fix `refined by hand` copy in `site/src/pages/index.astro:44`
   to something honest — "refined for spoken audio" or similar.
 - [x] **B-03** Rename card actions from `read` / `article ↗` to `Read brief` / `Original ↗`. `Feed.tsx:509-517`.
-- [ ] **B-04** Hero copy — replace "N stories · M min listen" with change-based framing ("N new since your last check"). Requires `lastVisitAt` in localStorage. `index.astro:36-39`.
+- [x] **B-04** Hero copy — shipped time-of-day framing: "Good {morning|afternoon|evening}. N development(s) to catch you up · M min." Greeting swaps client-side to match viewer's local hour. `index.astro`.
 
 ### Sources fixes (from prior session)
 
@@ -62,15 +62,15 @@ they have no infrastructure dependency.
 - [x] **B-09** Add `git pull --rebase --autostash` before push step in `.github/workflows/pipeline.yml`.
 - [ ] **B-10** Dead-man's-switch: Healthchecks.io free-tier ping at start and end of workflow. Owner set up account + curl in workflow.
 
-### Phase A — Storage migration (R2, NO PURGE)
+### Phase A — Storage migration (S3, NO PURGE — chose AWS S3 over R2 on 2026-09-14)
 
-- [x] **B-11** Write `docs/RUNBOOK.md` §Secrets with rotation cadence (R2 keys 6mo, LLM keys 12mo) + revocation procedure. **Prerequisite for adding secrets.**
-- [ ] **B-12** Provision Cloudflare R2 bucket `briefing-audio` + custom domain + CDN. Manual step by owner.
-- [ ] **B-13** Add R2 secrets to GHA + Vercel: `R2_ACCOUNT_ID`, `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`, `R2_BUCKET`, `R2_ENDPOINT`, `R2_PUBLIC_BASE`.
+- [x] **B-11** Write `docs/RUNBOOK.md` §Secrets with rotation cadence (S3 keys 6mo, LLM keys 12mo) + revocation procedure. Rewritten as §S3 on 2026-09-15.
+- [x] **B-12** Provision AWS S3 bucket + IAM `briefing-service` scoped to that bucket + $10/mo budget alarm. Done 2026-09-14 in interactive session.
+- [x] **B-13** Add S3 secrets to GHA + Vercel: `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`, `S3_BUCKET`, `S3_REGION`, `PUBLIC_CDN_BASE`. Done 2026-09-14.
 - [x] **B-14** Kokoro model file hash pin: CI step that hashes `.models/kokoro-*.onnx` against expected hash from a checked-in `.models/EXPECTED_HASHES.txt`. Fails workflow on mismatch.
-- [x] **B-15** Write `scripts/migrate_audio_to_r2.py` — one-shot backfill preserving `YYYY-MM-DD/*.mp3` key structure with `Cache-Control: public, max-age=31536000, immutable`.
-- [x] **B-16** Update `pipeline/tts.py` to upload to R2 with post-PUT HEAD + Content-Length verify. On mismatch, retry once, then log to `data/audits/r2_upload_failures.jsonl` and fall through to local temp write.
-- [ ] **B-17** Flip `PUBLIC_CDN_BASE` in Vercel env to `R2_PUBLIC_BASE`.
+- [x] **B-15** `scripts/migrate_audio_to_s3.py` — one-shot backfill preserving `YYYY-MM-DD/*.mp3` key structure with `Cache-Control: public, max-age=31536000, immutable`. (Renamed from `_to_r2.py` on 2026-09-15.)
+- [x] **B-16** `pipeline/storage.py` — boto3 S3 upload with post-PUT HEAD + Content-Length verify. On mismatch, retry once, then log to `data/audits/s3_upload_failures-YYYY-MM.jsonl` and fall through to local temp write. Called from `pipeline/tts.py`.
+- [ ] **B-17** Run `scripts/migrate_audio_to_s3.py` to backfill existing ~175 MB MP3s. Owner-runnable one-shot.
 - [x] **B-18** `.gitignore` — add `site/public/data/audio/*.mp3` and `site/public/data/blogs-audio/*.mp3`.
 - [ ] **B-19** R2 lifecycle: news `audio/*` expire 14d, blogs `blogs-audio/*` expire 45d.
 
@@ -179,7 +179,7 @@ they have no infrastructure dependency.
 - [ ] **B-78** LLM-as-judge for content quality on AUDIO_REWRITE stage. Sonnet 4.5 as judge. ~$5–10/mo when running.
 - [ ] **B-79** Per-story tone-driven voice routing. Requires refine to emit `tone` field.
 - [ ] **B-80** Chatterbox sidecar for top 1–2 hero stories/day. 8GB VRAM self-host. Only if Kokoro path insufficient.
-- [ ] **B-81** YouTube integration (Drishti + Unacademy). Full architecture in `docs/design-review-youtube-integration.md`. 6-stage cheap-first pipeline + provider abstraction. **All 26 sub-items live in that design doc; folded into this backlog as a single umbrella entry.**
+- [~] **B-81** YouTube integration (Drishti + Unacademy). Scaffold shipped 2026-09-15: `pipeline/youtube_sources.yaml` (both channels, disabled), `pipeline/youtube.py` (stages A-F pure fns + seen-state), `pipeline/video_understanding.py` (`VideoUnderstandingProvider` interface + `GeminiVideoProvider` with transcript-focused prompt). Not yet wired into run.py — needs `YOUTUBE_API_KEY` secret + shadow-eval week before flipping `enabled: true`.
 - [ ] **B-82** Positive/uplift tone facet chip in UI (needs `tone` field).
 - [ ] **B-83** arXiv paper ranker — only surface when a Tier-A desk has cited.
 - [ ] **B-84** Uber Engineering blog needs GN proxy fallback.
