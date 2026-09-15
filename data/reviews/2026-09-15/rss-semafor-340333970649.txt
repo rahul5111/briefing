@@ -1,0 +1,52 @@
+═══ 00_KEY_POINTS ═══
+
+1. Japan is reportedly considering boosting its defense spending to 3.5% of gross domestic product.
+2. The proposed defense spending increase responds to pressure from Washington amid rising East Asia tensions.
+3. The Trump administration has pushed Tokyo to reduce its reliance on United States military support.
+4. Okinawa voters ousted a governor who opposed Tokyo militarization and houses seventy percent of US forces.
+5. Some Japanese policymakers have begun to reconsider the country long-standing ban on nuclear weapons.
+
+═══ 01_DRAFT ═══
+
+Japan is reportedly considering boosting its defense spending to 3.5% of gross domestic product. The proposed defense spending increase responds to pressure from Washington amid rising East Asia tensions. The Trump administration has pushed Tokyo to reduce its reliance on United States military support, a move that has rattled policymakers and fueled concerns over waning American commitment. Amid shifting attitudes, voters in Okinawa ousted a governor who opposed Tokyo militarization. Okinawa is home to 70% of the United States military presence in the country. Additionally, some Japanese policymakers have begun to reconsider the country long-standing ban on nuclear weapons as traditional taboos continue to fall. This military build-up and strategic shift aim to strengthen national security and respond directly to evolving geopolitical pressures across the region.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Japan is reportedly considering boosting its defense spending to 3.5% of gross domestic product. The proposed defense spending increase responds to pressure from Washington amid rising East Asia tensions. The Trump administration has pushed Tokyo to reduce its support reliance, a move that has rattled policymakers and sparked worries about shifting US commitments. Amid changing attitudes, voters in Okinawa recently ousted a governor who opposed Tokyo militarization, where 70% of the nation's US military presence is located. Furthermore, some Japanese policymakers have begun to reconsider the country's nuclear weapons ban as traditional taboos continue to fall. This military build-up and strategic shift aim to strengthen national security and respond directly to evolving geopolitical pressures across the region.
+
+═══ 02b_TRIMMED ═══
+
+Japan is reportedly considering boosting its defense spending to 3.5% of gross domestic product. The proposed defense spending increase responds to pressure from Washington amid rising East Asia tensions. The Trump administration has pushed Tokyo to reduce its support reliance, a move that has rattled policymakers and sparked worries about shifting US commitments. Amid changing attitudes, voters in Okinawa recently ousted a governor who opposed Tokyo militarization, where 70% of the nation's US military presence is located. This military build-up and strategic shift aim to strengthen national security and respond directly to evolving geopolitical pressures across the region.
+
+═══ 03_COVERAGE_1 ═══
+
+80% covered (4/5). Missing: Some Japanese policymakers have begun to reconsider the country long-standing ban on nuclear weapons.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+Japan is reportedly considering boosting its defense spending to 3.5% of gross domestic product. The proposed defense spending increase responds to pressure from Washington amid rising East Asia tensions. The Trump administration has pushed Tokyo to reduce its support reliance, a move that has rattled policymakers and sparked worries about shifting US commitments. Amid changing attitudes, voters in Okinawa recently ousted a governor who opposed Tokyo militarization, where 70% of the nation's US military presence is located. Some Japanese policymakers have begun to reconsider the country's long-standing ban on nuclear weapons. This military build-up and strategic shift aim to strengthen national security and respond directly to evolving geopolitical pressures across the region.
+
+═══ 03c_WHY_MATTERS ═══
+
+Boosting defense spending to three point five percent of gross domestic product shifts Japan toward a more self-reliant security posture amid regional tensions.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Japan is reportedly considering boosting its defense spending to three point five percent of gross domestic product. Semafor reports that the proposed defense spending increase responds to pressure from Washington amid rising East Asia tensions. The Trump administration has pushed Tokyo to reduce its support reliance, a move that has rattled policymakers and sparked worries about shifting United States commitments. Boosting defense spending to three point five percent of gross domestic product shifts Japan toward a more self-reliant security posture amid regional tensions.
+
+Amid changing attitudes, voters in Okinawa recently ousted a governor who opposed Tokyo militarization. Seventy percent of the nation's United States military presence is located there. Some Japanese policymakers have begun to reconsider the country's long-standing ban on nuclear weapons. This military build-up and strategic shift aim to strengthen national security and respond directly to evolving geopolitical pressures across the region.
+
+═══ 05_NORMALIZED ═══
+
+Japan is reportedly considering boosting its defense spending to three point five percent of gross domestic product. Semafor reports that the proposed defense spending increase responds to pressure from Washington amid rising East Asia tensions. The Trump administration has pushed Tokyo to reduce its support reliance, a move that has rattled policymakers and sparked worries about shifting United States commitments. Boosting defense spending to three point five percent of gross domestic product shifts Japan toward a more self-reliant security posture amid regional tensions.
+
+Amid changing attitudes, voters in Okinawa recently ousted a governor who opposed Tokyo militarization. Seventy percent of the nation's United States military presence is located there. Some Japanese policymakers have begun to reconsider the country's long-standing ban on nuclear weapons. This military build-up and strategic shift aim to strengthen national security and respond directly to evolving geopolitical pressures across the region.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (5/5). Missing: none
+
+═══ 07_SANITY ═══
+
+numeric_preservation: score=0.33 {'total': 12, 'missing': ['13', '09', '740', '671', '08', '15', '75', '2026']}
+

@@ -1,0 +1,47 @@
+═══ 00_KEY_POINTS ═══
+
+1. China imposed sweeping new rules restricting travel in and out of the country to give the government even more control over its citizens.
+2. Citizens who harmed national security or interests overseas can be barred from leaving China for up to three years.
+3. The new regulations apply to anyone considered a threat to China's industrial or technological security.
+4. In March, the co-founders of AI company Manus were reportedly barred from leaving China after the firm was acquired by Meta.
+5. China's supreme court database showed 188,760 records mentioning exit bans last year, compared with only 89 records in 2016.
+6. The percentage of civil verdicts dealing with exit bans surged from about 0.23 percent in 2019 to 7.3 percent.
+7. Professor Tom Kellogg stated that the expanding travel restrictions reflect growing ideological control under Chinese leader Xi Jinping.
+8. Piyao stated that the new rules serve as a preventative measure against high-risk destinations and individuals with unusual travel patterns.
+
+═══ 01_DRAFT ═══
+
+China has imposed sweeping new rules restricting travel in and out of the country to give the government even more control over its citizens. Under the updated regulations, citizens who are deemed to have harmed national security or interests while overseas can be barred from leaving China for a period of up to three years. The law also applies to anyone considered a threat to the country's industrial or technological security. In March, the co-founders of an artificial intelligence company named Manus, which had been acquired by Meta, were reportedly barred from leaving China. Border officials are now required to advise Chinese nationals against traveling to countries and regions deemed high risk. Official data highlights the scale of these measures. China's supreme court database showed only 89 records mentioning exit bans in 2016, but that figure surged dramatically to 188,760 last year. Furthermore, the percentage of civil verdicts that dealt with exit bans increased more than thirty times between 2019 and 2025, rising from approximately 0.23 percent to 7.3 percent. Meanwhile, a Chinese government rumor refuting platform named Piyao posted a statement last week asserting that the new rules do not restrict ordinary citizens, but instead function as a preventative measure against high risk destinations and individuals with unusual travel patterns. However, Professor Tom Kellogg, Executive Director of the Center for Asian Law at Georgetown University, described the expanding travel restrictions as deeply concerning and stated that they reflect growing ideological control under Chinese leader Xi Jinping.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+China has imposed sweeping new rules restricting travel in and out of the country to give the government even more control over its citizens. Under the updated regulations, citizens who are deemed to have harmed national security or interests while overseas can be barred from leaving China for a period of up to three years. The law also applies to anyone considered a threat to the country's industrial or technological security. In March, the co-founders of an artificial intelligence company named Manus, which had been acquired by Meta, were reportedly barred from leaving China. Border officials are now required to advise Chinese nationals against traveling to countries and regions deemed high risk. Official data highlights the scale of these measures. China's supreme court database showed only 89 records mentioning exit bans in 2016, but that figure surged dramatically to 188,760 last year. The percentage of civil verdicts that dealt with exit bans also surged more than 30 times between 2019 and 2025, from around 0.23% to 7.3%. Meanwhile, a Chinese government rumor refuting platform named Piyao posted a statement last week asserting that the new rules do not restrict ordinary citizens, but instead function as a preventative measure against high risk destinations and individuals with unusual travel patterns. However, Professor Tom Kellogg, Executive Director of the Center for Asian Law at Georgetown University, described the expanding travel restrictions as deeply concerning and stated that they reflect growing ideological control under Chinese leader Xi Jinping.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (8/8). Missing: none
+
+═══ 03c_WHY_MATTERS ═══
+
+The expanded travel restrictions increase operational risks for multinational technology companies relying on talent and research teams based inside China.
+
+═══ 04_AUDIO_REWRITE ═══
+
+China has imposed sweeping new rules restricting travel in and out of the country to give the government more control over its citizens. Under the updated regulations, citizens who are deemed to have harmed national security or interests while overseas can be barred from leaving China for a period of up to three years. Bbc World reports that the law also applies to anyone considered a threat to the country's industrial or technological security. In March, the co-founders of an artificial intelligence company named Manus, which had been acquired by Meta, were reportedly barred from leaving China. Border officials are now required to advise Chinese nationals against traveling to countries and regions deemed high risk.
+
+Official data highlights the scale of these measures. China's supreme court database showed only eighty-nine records mentioning exit bans in twenty-sixteen, but that figure surged dramatically to one hundred eighty-eight thousand seven hundred sixty last year. The percentage of civil verdicts that dealt with exit bans also surged more than thirty times between twenty-one and twenty-five, from around zero point two three percent to seven point three percent. Meanwhile, a Chinese government rumor refuting platform named Piyao posted a statement last week asserting that the new rules do not restrict ordinary citizens, but instead function as a preventative measure against high risk destinations and individuals with unusual travel patterns. However, Professor Tom Kellogg, Executive Director of the Center for Asian Law at Georgetown University, described the expanding travel restrictions as deeply concerning and stated that they reflect growing ideological control under Chinese leader Xi Jinping. The expanded travel restrictions increase operational risks for multinational technology companies relying on talent and research teams based inside China.
+
+═══ 05_NORMALIZED ═══
+
+China has imposed sweeping new rules restricting travel in and out of the country to give the government more control over its citizens. Under the updated regulations, citizens who are deemed to have harmed national security or interests while overseas can be barred from leaving China for a period of up to three years. Bbc World reports that the law also applies to anyone considered a threat to the country's industrial or technological security. In March, the co-founders of an artificial intelligence company named Manus, which had been acquired by Meta, were reportedly barred from leaving China. Border officials are now required to advise Chinese nationals against traveling to countries and regions deemed high risk.
+
+Official data highlights the scale of these measures. China's supreme court database showed only eighty-nine records mentioning exit bans in twenty-sixteen, but that figure surged dramatically to one hundred eighty-eight thousand seven hundred sixty last year. The percentage of civil verdicts that dealt with exit bans also surged more than thirty times between twenty-one and twenty-five, from around zero point two three percent to seven point three percent. Meanwhile, a Chinese government rumor refuting platform named Piyao posted a statement last week asserting that the new rules do not restrict ordinary citizens, but instead function as a preventative measure against high risk destinations and individuals with unusual travel patterns. However, Professor Tom Kellogg, Executive Director of the Center for Asian Law at Georgetown University, described the expanding travel restrictions as deeply concerning and stated that they reflect growing ideological control under Chinese leader Xi Jinping. The expanded travel restrictions increase operational risks for multinational technology companies relying on talent and research teams based inside China.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (8/8). Missing: none
+
+═══ 07_SANITY ═══
+
+numeric_preservation: score=0.92 {'total': 12, 'missing': ['32']}; sentence_length_dist: score=0.53 {'n': 11, 'p50': 23, 'p90': 36}
+

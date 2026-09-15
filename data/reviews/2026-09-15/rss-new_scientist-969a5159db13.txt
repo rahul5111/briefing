@@ -1,0 +1,46 @@
+═══ 00_KEY_POINTS ═══
+
+1. LSD could potentially gain US Food and Drug Administration approval for treating anxiety as soon as 2027.
+2. A landmark clinical trial showed that a single dose of LSD eased anxiety without severe or lasting side effects.
+3. Greg Cooper at University College London called the development a milestone for psychiatric treatment.
+4. The trial recruited more than 200 adults across the US with moderate or severe generalised anxiety disorder.
+5. Participants taking a 100-microgram dose of LSD experienced a 9.8-point reduction in anxiety levels after three months.
+6. This potential approval matters because generalised anxiety disorder has high prevalence, high burden, and no innovation in decades.
+7. Robert Barrow at Definium Therapeutics noted that a single dose has shown a rapid and durable effect.
+
+═══ 01_DRAFT ═══
+
+LSD could potentially gain US Food and Drug Administration approval for treating anxiety as soon as 2027. This expectation follows a landmark clinical trial showing that a single dose of the psychedelic drug eased the mental health condition without severe or lasting side effects. Greg Cooper at University College London described the development as a milestone for psychiatric treatment. The trial recruited more than 200 adults across the US with moderate or severe generalised anxiety disorder. Participants assigned to take a 100-microgram dose of LSD experienced a 9.8-point reduction in their anxiety levels after three months, compared to a 4.7-point drop in the placebo group. This potential approval matters because generalised anxiety disorder has high prevalence, high burden, and no innovation in decades. Robert Barrow at Definium Therapeutics noted that in a disorder with high unmet need, a single dose of the drug has shown a rapid and durable effect. Researchers emphasized that participants were screened extremely carefully and received the drugs in a controlled environment, warning against self-administration at home where trips can last for 6 to 12 hours and cause intense fear or panic. Unlike most psychedelic trials, participants weren't offered ongoing psychotherapy, helping researchers isolate the drug-only effect. Approval in the United States could set a precedent for other regions such as the UK and Europe.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+LSD could potentially gain US Food and Drug Administration approval for treating anxiety as soon as 2027. This expectation follows a landmark clinical trial showing that a single dose of the psychedelic drug eased the mental health condition without severe or lasting side effects. Greg Cooper at University College London described the development as a milestone for psychiatric treatment and noted it would set a precedent for approval elsewhere, such as the UK and Europe. The trial recruited more than 200 adults across the US with moderate or severe generalised anxiety disorder. Participants assigned to take a 100-microgram dose of LSD experienced a 9.8-point reduction in their anxiety levels after three months, compared to a 4.7-point drop in the placebo group. This potential approval matters because generalised anxiety disorder has high prevalence, high burden, and no innovation in decades. Robert Barrow at Definium Therapeutics noted that in a disorder with high unmet need, a single dose of the drug has shown a rapid and durable effect. Cooper emphasized that the results don't mean LSD is safe or effective to try at home, noting that an LSD trip can last for 6 to 12 hours and cause intense fear or panic, and that participants were screened extremely carefully and given the drugs in a controlled environment. Unlike most psychedelic trials, participants weren't offered ongoing psychotherapy, helping researchers isolate the drug-only effect.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (7/7). Missing: none
+
+═══ 03c_WHY_MATTERS ═══
+
+Potential approval of the drug sets a regulatory precedent for psychiatric treatments in the United Kingdom and Europe.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Lysergic acid diethylamide could potentially gain U. S. Food and Drug Administration approval for treating anxiety as soon as twenty twenty-seven. This expectation follows a landmark clinical trial, according to New Scientist, showing that a single dose eased the mental health condition without severe or lasting side effects. Potential approval of the drug sets a regulatory precedent for psychiatric treatments in the United Kingdom and Europe.
+
+Greg Cooper at University College London described the development as a milestone for psychiatric treatment. The trial recruited more than two hundred adults across the United States with moderate or severe generalised anxiety disorder. Participants assigned to take a one hundred microgram dose of the drug experienced a nine point eight point reduction in their anxiety levels after three months. That compares to a four point seven point drop in the placebo group. Robert Barrow at Definium Therapeutics noted that in a disorder with high unmet need, a single dose has shown a rapid and durable effect. Cooper emphasized that the results do not mean the drug is safe or effective to try at home. An episode can last for six to twelve hours and cause intense fear or panic. Participants were screened extremely carefully and given the drugs in a controlled environment. Unlike most psychedelic trials, participants were not offered ongoing psychotherapy, helping researchers isolate the drug-only effect.
+
+═══ 05_NORMALIZED ═══
+
+Lysergic acid diethylamide could potentially gain U. S. Food and Drug Administration approval for treating anxiety as soon as twenty twenty-seven. This expectation follows a landmark clinical trial, according to New Scientist, showing that a single dose eased the mental health condition without severe or lasting side effects. Potential approval of the drug sets a regulatory precedent for psychiatric treatments in the United Kingdom and Europe.
+
+Greg Cooper at University College London described the development as a milestone for psychiatric treatment. The trial recruited more than two hundred adults across the United States with moderate or severe generalised anxiety disorder. Participants assigned to take a one hundred microgram dose of the drug experienced a nine point eight point reduction in their anxiety levels after three months. That compares to a four point seven point drop in the placebo group. Robert Barrow at Definium Therapeutics noted that in a disorder with high unmet need, a single dose has shown a rapid and durable effect. Cooper emphasized that the results do not mean the drug is safe or effective to try at home. An episode can last for six to twelve hours and cause intense fear or panic. Participants were screened extremely carefully and given the drugs in a controlled environment. Unlike most psychedelic trials, participants were not offered ongoing psychotherapy, helping researchers isolate the drug-only effect.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (7/7). Missing: none
+
+═══ 07_SANITY ═══
+
+numeric_preservation: score=0.69 {'total': 13, 'missing': ['24', '988', '50', '56']}; sentence_length_dist: score=0.97 {'n': 14, 'p50': 16, 'p90': 26}; attribution_present: score=0.00 {'source_name': 'New Scientist', 'in_first_3_sentences': False}
+

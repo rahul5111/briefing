@@ -1,0 +1,42 @@
+═══ 00_KEY_POINTS ═══
+
+1. The EU Agency for Cybersecurity deployed the initial operating capability of the Single Reporting Platform.
+2. Manufacturers and open-source software stewards must meet new Cyber Resilience Act reporting obligations starting Sept. 11, 2026.
+3. The Single Reporting Platform enables users to report once and communicate relevant information to all appropriate authorities.
+4. ENISA executive director Juhan Lepassaar stated that vulnerabilities in digital products are often exploited by threat actors to subvert critical services.
+5. The reporting obligations will apply to open-source software stewards in accordance with Article 24(3) of the Cyber Resilience Act.
+6. The Cyber Resilience Act is the European Union horizontal regulatory framework that introduces mandatory cybersecurity requirements for products with digital elements.
+7. Main cybersecurity requirements of the Cyber Resilience Act apply from Dec. 11, 2027.
+
+═══ 01_DRAFT ═══
+
+The EU Agency for Cybersecurity deployed the initial operating capability of the Single Reporting Platform. The online tool was developed to enable manufacturers and open-source software stewards to meet their new Cyber Resilience Act reporting obligations for actively exploited vulnerabilities and severe incidents. The platform allows users to report once and communicate the relevant information to all appropriate authorities. Developing the first stage of the platform marks an important milestone in the implementation of the Cyber Resilience Act and supports a more coordinated European Union approach to the reporting and handling of cybersecurity risks. Juhan Lepassaar, executive director of the EU Agency for Cybersecurity, stated that vulnerabilities in digital products are often exploited by threat actors to subvert or hamper critical services such as healthcare, energy, transport or telecommunications. The streamlined reporting helps to build a more resilient Digital Single Market. From Sept. 11, 2026, manufacturers are required to report actively exploited vulnerabilities and severe incidents having an impact on the security of products with digital elements. These reporting obligations will also apply to open-source software stewards to the extent that they are involved in developing products with digital elements in accordance with Article 24(3) of the Cyber Resilience Act. The framework introduces mandatory cybersecurity requirements for products with digital elements throughout their lifecycle. Main cybersecurity requirements apply from Dec. 11, 2027.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+The EU Agency for Cybersecurity deployed the initial operating capability of the Single Reporting Platform. The online tool was developed to enable manufacturers and open-source software stewards to meet their new Cyber Resilience Act reporting obligations for actively exploited vulnerabilities and severe incidents. The platform allows users to report once and communicate the relevant information to all appropriate authorities. The CRA and the SRP support a more coordinated approach to vulnerability and incident reporting across the EU and a better understanding of the cyber threat landscape and emerging trends. Juhan Lepassaar, executive director of the EU Agency for Cybersecurity, stated that vulnerabilities in digital products are often exploited by threat actors to subvert or hamper critical services such as healthcare, energy, transport or telecommunications. The streamlined reporting helps to build a more resilient Digital Single Market. From Sept. 11, 2026, manufacturers are required to report actively exploited vulnerabilities and severe incidents having an impact on the security of products with digital elements. These reporting obligations will also apply to open-source software stewards to the extent that they are involved in developing products with digital elements in accordance with Article 24(3) of the Cyber Resilience Act. The framework introduces mandatory cybersecurity requirements for products with digital elements throughout their lifecycle. Main cybersecurity requirements apply from Dec. 11, 2027.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (7/7). Missing: none
+
+═══ 03c_WHY_MATTERS ═══
+
+The new reporting platform standardizes vulnerability disclosures for European Union software manufacturers, altering compliance obligations across member states ahead of mandatory deadlines.
+
+═══ 04_AUDIO_REWRITE ═══
+
+The E. U. Agency for Cybersecurity deployed the initial operating capability of the Single Reporting Platform. Tldr Infosec reports that the online tool was developed to enable manufacturers to meet their new Cyber Resilience Act reporting obligations for actively exploited vulnerabilities. The platform allows users to report once and communicate relevant information to all appropriate authorities. The framework supports a coordinated approach to vulnerability reporting across the European Union and builds a more resilient Digital Single Market. The new reporting platform standardizes vulnerability disclosures for European Union software manufacturers, altering compliance obligations across member states ahead of mandatory deadlines. From September eleventh twenty twenty-six, manufacturers are required to report actively exploited vulnerabilities and severe incidents having an impact on security. These obligations also apply to open-source software stewards involved in developing products with digital elements. Main cybersecurity requirements apply from December eleventh twenty twenty-seven.
+
+═══ 05_NORMALIZED ═══
+
+The E. U. Agency for Cybersecurity deployed the initial operating capability of the Single Reporting Platform. Tldr Infosec reports that the online tool was developed to enable manufacturers to meet their new Cyber Resilience Act reporting obligations for actively exploited vulnerabilities. The platform allows users to report once and communicate relevant information to all appropriate authorities. The framework supports a coordinated approach to vulnerability reporting across the European Union and builds a more resilient Digital Single Market. The new reporting platform standardizes vulnerability disclosures for European Union software manufacturers, altering compliance obligations across member states ahead of mandatory deadlines. From September eleventh twenty twenty-six, manufacturers are required to report actively exploited vulnerabilities and severe incidents having an impact on security. These obligations also apply to open source software stewards involved in developing products with digital elements. Main cybersecurity requirements apply from December eleventh twenty twenty-seven.
+
+═══ 06_COVERAGE_FINAL ═══
+
+85% covered (6/7). Missing: ENISA executive director Juhan Lepassaar stated that vulnerabilities in digital products are often exploited by threat actors to subvert critical services.
+
+═══ 07_SANITY ═══
+
+numeric_preservation: score=0.60 {'total': 5, 'missing': ['24', '3']}; attribution_present: score=0.00 {'source_name': 'Tldr Infosec', 'in_first_3_sentences': False}
+

@@ -1,0 +1,39 @@
+═══ 00_KEY_POINTS ═══
+
+1. In March 2025, the Trump administration shuttered the embassy air quality monitoring program citing monetary costs.
+2. Researchers reported Monday in the journal PNAS that air pollution levels increased by 24 to 33 percent over several months following the shutdown.
+3. Eric Zou says that in 2008, U.S. officials installed an air quality monitor on the embassy in Beijing and began making information public.
+4. Zoe Yiyuan Zhou and colleagues compared air pollution levels before and after monitoring ceased across 46 cities using satellite data.
+5. Satellite measurements translate to about a 4 percent increase in PM2.5, which are small particles entering lungs and causing health problems.
+6. The pollution increase was highest in Southeast Asian cities including Manila in the Philippines, Rangoon in Myanmar and Vientiane in Laos.
+7. Andrea La Nauze stated that the program led to sustained improvements in air quality that were continuing to increase after 10 years.
+8. Zoe Yiyuan Zhou stated that having access to information is necessary to make sure that these previous gains can continue.
+
+═══ 01_DRAFT ═══
+
+In March 2025, the Trump administration shuttered the embassy air quality monitoring program citing monetary costs. Researchers reported Monday in the journal PNAS that air pollution levels increased by 24 to 33 percent over several months following the shutdown. Eric Zou says that in 2008, U.S. officials installed an air quality monitor on the embassy in Beijing and began making information public. Zoe Yiyuan Zhou and colleagues compared air pollution levels before and after monitoring ceased across 46 cities using satellite data. Satellite measurements translate to about a 4 percent increase in PM2.5, which are small particles entering lungs and causing health problems. The pollution increase was highest in Southeast Asian cities including Manila in the Philippines, Rangoon in Myanmar and Vientiane in Laos. Andrea La Nauze stated that the program led to sustained improvements in air quality that were continuing to increase after 10 years. This matters because research suggests the move had health costs for the people living in those countries when surveillance stopped. Zoe Yiyuan Zhou stated that having access to information is necessary to make sure that these previous gains can continue. Public information creates accountability according to researchers studying the sudden falloff of surveillance. When industries find it costs money to cut down on pollution, companies may see a lack of monitoring as an opportunity to cut those costs. The State Department did not respond to a request for comment in time for publication regarding the shutdown of more than 80 embassy and consulate monitors.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (8/8). Missing: none
+
+═══ 03c_WHY_MATTERS ═══
+
+Ending embassy air quality monitoring increased pollution by up to thirty-three percent across foreign cities, raising health costs for local populations.
+
+═══ 04_AUDIO_REWRITE ═══
+
+In March twenty twenty-five, the Trump administration shuttered the embassy air quality monitoring program citing monetary costs. Researchers reported Monday in the journal P. N. A. S. that air pollution levels increased by twenty-four to thirty-three percent over several months following the shutdown, Npr News reports. Eric Zou says that in two thousand and eight, U.S. officials installed an air quality monitor on the embassy in Beijing and began making information public. Zoe Yiyuan Zhou and colleagues compared air pollution levels before and after monitoring ceased across forty-six cities using satellite data. Satellite measurements translate to about a four percent increase in P. M. two point five, which are small particles entering lungs and causing health problems. The pollution increase was highest in Southeast Asian cities including Manila in the Philippines, Rangoon in Myanmar and Vientiane in Laos. Andrea La Nauze stated that the program led to sustained improvements in air quality that were continuing to increase after ten years. Zoe Yiyuan Zhou stated that having access to information is necessary to make sure that these previous gains can continue. Public information creates accountability according to researchers studying the sudden falloff of surveillance. When industries find it costs money to cut down on pollution, companies may see a lack of monitoring as an opportunity to cut those costs. The State Department did not respond to a request for comment in time for publication regarding the shutdown of more than eighty embassy and consulate monitors. Ending embassy air quality monitoring increased pollution by up to thirty-three percent across foreign cities, raising health costs for local populations.
+
+═══ 05_NORMALIZED ═══
+
+In March twenty twenty-five, the Trump administration shuttered the embassy air quality monitoring program citing monetary costs. Researchers reported Monday in the journal P. N. A. S. that air pollution levels increased by twenty-four to thirty-three percent over several months following the shutdown, Npr News reports. Eric Zou says that in two thousand and eight, US officials installed an air quality monitor on the embassy in Beijing and began making information public. Zoe Yiyuan Zhou and colleagues compared air pollution levels before and after monitoring ceased across forty-six cities using satellite data. Satellite measurements translate to about a four percent increase in P. M. two point five, which are small particles entering lungs and causing health problems. The pollution increase was highest in Southeast Asian cities including Manila in the Philippines, Rangoon in Myanmar and Vientiane in Laos. Andrea La Nauze stated that the program led to sustained improvements in air quality that were continuing to increase after ten years. Zoe Yiyuan Zhou stated that having access to information is necessary to make sure that these previous gains can continue. Public information creates accountability according to researchers studying the sudden falloff of surveillance. When industries find it costs money to cut down on pollution, companies may see a lack of monitoring as an opportunity to cut those costs. The State Department did not respond to a request for comment in time for publication regarding the shutdown of more than eighty embassy and consulate monitors. Ending embassy air quality monitoring increased pollution by up to thirty-three percent across foreign cities, raising health costs for local populations.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (8/8). Missing: none
+
+═══ 07_SANITY ═══
+
+numeric_preservation: score=0.91 {'total': 11, 'missing': ['300']}; sentence_length_dist: score=0.97 {'n': 18, 'p50': 19, 'p90': 26}; attribution_present: score=0.00 {'source_name': 'Npr News', 'in_first_3_sentences': False}
+

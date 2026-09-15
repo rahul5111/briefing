@@ -1,0 +1,42 @@
+═══ 00_KEY_POINTS ═══
+
+1. The United States Supreme Court rejected Donald Trump's bid to restrict voting by mail ahead of the November midterm elections.
+2. The ruling on Monday by the conservative supermajority court allows states to continue sending out mail ballots as they have done for years.
+3. In March 2026, Trump signed an executive order directing the US Postal Service to take control of mail voting.
+4. US District Judge Indira Talwani imposed an injunction against the rule in June on the basis that it likely violated the US Constitution.
+5. The Supreme Court refused to lift Judge Talwani's injunction in its latest and final decision, noting the administration was likely to fail.
+6. Justice Brett Kavanaugh voted with the majority against the administration, while Samuel Alito and Clarence Thomas dissented.
+7. The ruling matters because it halts possible last-minute legal actions as voting begins in some states and prevents potential voter disenfranchisement.
+
+═══ 01_DRAFT ═══
+
+The United States Supreme Court has rejected Donald Trump's bid to restrict voting by mail ahead of the November midterm elections. The ruling on Monday by the conservative supermajority court allows states to continue sending out mail ballots as they have done for years. In March 2026, Trump signed an executive order directing the US Postal Service to take control of mail voting. US District Judge Indira Talwani imposed an injunction against the rule in June on the basis that it likely violated the US Constitution. The Supreme Court refused to lift Judge Talwani's injunction in its latest and final decision, noting the administration was likely to fail. Justice Brett Kavanaugh voted with the majority against the administration, while Samuel Alito and Clarence Thomas dissented. This decision matters because it halts possible last-minute legal actions as voting begins in some states and prevents potential voter disenfranchisement. Mail ballots have been found to increase voter turnout and currently account for a third of all votes cast in the US. Critics have long warned that restricting mail-in ballots could disrupt the delivery of mailed votes as states have begun sending in midterm ballots. Eight states and the District of Columbia allow all elections to be conducted entirely by mail.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (7/7). Missing: none
+
+═══ 03c_WHY_MATTERS ═══
+
+The Supreme Court decision preserves mail voting procedures, protecting turnout as mail ballots account for a third of all votes cast.
+
+═══ 04_AUDIO_REWRITE ═══
+
+The United States Supreme Court has rejected Donald Trump's bid to restrict voting by mail ahead of the November midterm elections. The ruling on Monday by the conservative supermajority court allows states to continue sending out mail ballots as they have done for years, according to Aljazeera.
+
+In March twenty twenty-six, Trump signed an executive order directing the United States Postal Service to take control of mail voting. United States District Judge Indira Talwani imposed an injunction against the rule in June on the basis that it likely violated the United States Constitution. The Supreme Court refused to lift Judge Talwani's injunction in its latest and final decision, noting the administration was likely to fail. Justice Brett Kavanaugh voted with the majority against the administration, while Samuel Alito and Clarence Thomas dissented. The Supreme Court decision preserves mail voting procedures, protecting turnout as mail ballots account for a third of all votes cast. Mail ballots have been found to increase voter turnout. Critics have long warned that restricting mail-in ballots could disrupt the delivery of mailed votes as states have begun sending in midterm ballots. Eight states and the District of Columbia allow all elections to be conducted entirely by mail.
+
+═══ 05_NORMALIZED ═══
+
+The United States Supreme Court has rejected Donald Trump's bid to restrict voting by mail ahead of the November midterm elections. The ruling on Monday by the conservative supermajority court allows states to continue sending out mail ballots as they have done for years, according to Aljazeera.
+
+In March twenty twenty-six, Trump signed an executive order directing the United States Postal Service to take control of mail voting. United States District Judge Indira Talwani imposed an injunction against the rule in June on the basis that it likely violated the United States Constitution. The Supreme Court refused to lift Judge Talwani's injunction in its latest and final decision, noting the administration was likely to fail. Justice Brett Kavanaugh voted with the majority against the administration, while Samuel Alito and Clarence Thomas dissented. The Supreme Court decision preserves mail voting procedures, protecting turnout as mail ballots account for a third of all votes cast. Mail ballots have been found to increase voter turnout. Critics have long warned that restricting mail-in ballots could disrupt the delivery of mailed votes as states have begun sending in midterm ballots. Eight states and the District of Columbia allow all elections to be conducted entirely by mail.
+
+═══ 06_COVERAGE_FINAL ═══
+
+85% covered (6/7). Missing: The ruling matters because it halts possible last-minute legal actions as voting begins in some states and prevents potential voter disenfranchisement.
+
+═══ 07_SANITY ═══
+
+numeric_preservation: score=0.38 {'total': 8, 'missing': ['10', '2024', '2', '4', '3']}; sentence_length_dist: score=0.93 {'n': 10, 'p50': 21, 'p90': 26}
+

@@ -1,0 +1,37 @@
+═══ 00_KEY_POINTS ═══
+
+1. Megan Eckert ran 636.482 miles in six days at the GOMU 6-Day World Championships.
+2. She shattered the overall American record of 606.243 miles previously set by Joe Fejes in 2015.
+3. The forty-year-old teacher from Santa Fe, New Mexico, was the overall winner of the event in Hungary.
+4. She averaged 106 miles per day by completing 1,140 laps around a 0.5581-mile loop.
+5. Eckert also surpassed the womens three-day world record by logging 342.124 miles in 72 hours.
+6. She said immediately after the race that it is the longest and the shortest thing.
+
+═══ 01_DRAFT ═══
+
+Megan Eckert ran 636.482 miles in six days at the GOMU 6-Day World Championships in Hungary. The forty-year-old teacher from Santa Fe, New Mexico, was the overall winner of the event after completing 1,140 laps around a 0.5581-mile loop. By averaging 106 miles per day, she shattered the overall American record of 606.243 miles set by Joe Fejes in 2015. Eckert also surpassed the womens three-day world record by logging 342.124 miles in 72 hours during the grueling competition. Her remarkable performance established her dominance in multi-day ultrarunning against international competitors like runner-up Simen Holvik. She reflected on the intense physical and mental journey immediately after crossing the finish line. It is the longest and the shortest thing, she said. There is so much that goes on, so many ups and downs. But we had a good time! It is going to take a long time to process.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 03c_WHY_MATTERS ═══
+
+NONE — content-thin, no stakes inferable
+
+═══ 04_AUDIO_REWRITE ═══
+
+Megan Eckert ran six hundred thirty-six point four eight two miles in six days at the G. O. M. U. six-day World Championships in Hungary. Runnersworld News reports that the forty-year-old teacher from Santa Fe, New Mexico, was the overall winner of the event after completing one thousand one hundred forty laps around a zero point five five eight one-mile loop. By averaging one hundred six miles per day, she shattered the overall American record of six hundred six point two four three miles set by Joe Fejes in twenty fifteen. Eckert also surpassed the womens three-day world record by logging three hundred forty-two point one two four miles in seventy-two hours during the grueling competition. Her remarkable performance established her dominance in multi-day ultrarunning against international competitors like runner-up Simen Holvik. She reflected on the intense physical and mental journey immediately after crossing the finish line. It is the longest and the shortest thing, she said. There is so much that goes on, so many ups and downs. But we had a good time! It is going to take a long time to process.
+
+═══ 05_NORMALIZED ═══
+
+Megan Eckert ran six hundred thirty-six point four eight two miles in six days at the G. O. M. U. six-day World Championships in Hungary. Runnersworld News reports that the forty-year-old teacher from Santa Fe, New Mexico, was the overall winner of the event after completing one thousand one hundred forty laps around a zero point five five eight one-mile loop. By averaging one hundred six miles per day, she shattered the overall American record of six hundred six point two four three miles set by Joe Fejes in twenty fifteen. Eckert also surpassed the womens three-day world record by logging three hundred forty-two point one two four miles in seventy-two hours during the grueling competition. Her remarkable performance established her dominance in multi-day ultrarunning against international competitors like runner-up Simen Holvik. She reflected on the intense physical and mental journey immediately after crossing the finish line. It is the longest and the shortest thing, she said. There is so much that goes on, so many ups and downs. But we had a good time! It is going to take a long time to process.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+numeric_preservation: score=0.53 {'total': 32, 'missing': ['498.915', '250', '80', '603.155', '19', '17', '584.631', '650.919', '18', '9']}; sentence_length_dist: score=0.83 {'n': 14, 'p50': 12, 'p90': 30}; attribution_present: score=0.00 {'source_name': 'Runnersworld News', 'in_first_3_sentences': False}
+

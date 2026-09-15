@@ -1,0 +1,45 @@
+═══ 00_KEY_POINTS ═══
+
+1. The benchmark 10-year Treasury yield climbed to 5.041 percent on Tuesday, reaching its highest level since July 2007.
+2. The 30-year Treasury bond yield rose to a high of 5.401 percent, also hitting its highest level since June 2007.
+3. Traders are pricing in a more than 92 percent chance that the Federal Reserve will raise rates by 25 basis points.
+4. U.S. 10-year treasuries are highly sensitive to inflation expectations, according to Standard Chartered fixed income CIO Jonathan Liang.
+5. West Texas Intermediate crude oil topped 102 dollars a barrel on Tuesday as the Iran conflict drags on.
+6. This rate milestone matters because the 10-year yield serves as a benchmark for consumer loans and corporate funding.
+
+═══ 01_DRAFT ═══
+
+The benchmark 10-year Treasury yield climbed to 5.041 percent on Tuesday, reaching its highest level since July 2007. The 30-year Treasury bond yield rose to a high of 5.401 percent, also hitting its highest level since June 2007. Traders are pricing in a more than 92 percent chance that the Federal Reserve will raise rates by 25 basis points. U.S. 10-year treasuries are highly sensitive to inflation expectations, and Jonathan Liang, Standard Chartered chief investment officer of fixed income and foreign exchange, stated that with inflation gauges still above the Federal Reserve target of 2 percent, this tight correlation will likely persist for a while. West Texas Intermediate crude oil topped 102 dollars a barrel on Tuesday as the Iran conflict drags on and the Strait of Hormuz remains essentially blocked. This rate milestone matters because the 10-year yield serves as a benchmark for consumer loans and corporate funding across the broader economy. Meanwhile, National Economic Council Director Kevin Hassett told CNBC on Tuesday that he believes inflation is showing signs of cooling based on near-term memory and the stochastic process that drives inflation.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 03c_WHY_MATTERS ═══
+
+Higher Treasury yields increase borrowing costs for corporate funding and consumer loans across the broader economy.
+
+═══ 04_AUDIO_REWRITE ═══
+
+The benchmark ten-year Treasury yield climbed to five point zero four one percent on Tuesday, reaching its highest level since July two thousand and seven. The thirty-year Treasury bond yield rose to a high of five point four zero one percent, also hitting its highest level since June two thousand and seven.
+
+Traders are pricing in a more than ninety-two percent chance that the Federal Reserve will raise rates by twenty-five basis points, Cnbc Top reports. U. S. ten-year treasuries are highly sensitive to inflation expectations. Jonathan Liang, Standard Chartered chief investment officer of fixed income and foreign exchange, stated that with inflation gauges still above the Federal Reserve target of two percent, this tight correlation will likely persist for a while. Higher Treasury yields increase borrowing costs for corporate funding and consumer loans across the broader economy.
+
+West Texas Intermediate crude oil topped one hundred and two dollars a barrel on Tuesday as the Iran conflict drags on and the Strait of Hormuz remains essentially blocked. Meanwhile, National Economic Council Director Kevin Hassett told C. N. B. C. on Tuesday that he believes inflation is showing signs of cooling based on near-term memory and the stochastic process that drives inflation.
+
+═══ 05_NORMALIZED ═══
+
+The bench marks ten-year Treasury yield climbed to five point zero four one percent on Tuesday, reaching its highest level since July two thousand and seven. The thirty-year Treasury bond yield rose to a high of five point four zero one percent, also hitting its highest level since June two thousand and seven.
+
+Traders are pricing in a more than ninety-two percent chance that the Federal Reserve will raise rates by twenty-five basis points, Cnbc Top reports. U. S. ten-year treasuries are highly sensitive to inflation expectations. Jonathan Liang, Standard Chartered chief investment officer of fixed income and foreign exchange, stated that with inflation gauges still above the Federal Reserve target of two percent, this tight correlation will likely persist for a while. Higher Treasury yields increase borrowing costs for corporate funding and consumer loans across the broader economy.
+
+West Texas Intermediate crude oil topped one hundred and two dollars a barrel on Tuesday as the Iran conflict drags on and the Strait of Hormuz remains essentially blocked. Meanwhile, National Economic Council Director Kevin Hassett told C. N. B. C. on Tuesday that he believes inflation is showing signs of cooling based on near-term memory and the stochastic process that drives inflation.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+numeric_preservation: score=0.82 {'total': 22, 'missing': ['70', '19', '6', '3']}; sentence_length_dist: score=0.87 {'n': 14, 'p50': 16, 'p90': 29}
+

@@ -1,0 +1,47 @@
+═══ 00_KEY_POINTS ═══
+
+1. AI infrastructure company Cornelis announced on Monday that it raised $205 million in funding.
+2. The funding round for Cornelis was led by IAG Capital Partners.
+3. Cornelis announced a new product called Active Compute Fabric to reduce wasted GPU waiting time.
+4. The networking fabric allows chips to process and send information at the same time.
+5. Cornelis spun off from Intel in the year 2020.
+6. Cornelis competes with Nvidia by offering an open architecture that supports various hardware.
+7. Cornelis has already started shipping its product and plans to release a new generation later this year.
+8. Cornelis aims to break apart Nvidia's market dominance by providing flexible networking technology for artificial intelligence chips.
+
+═══ 01_DRAFT ═══
+
+AI infrastructure company Cornelis announced on Monday that it has raised $205 million in a funding round led by IAG Capital Partners. The company also unveiled a product named Active Compute Fabric, a network technology designed to address the issue of GPU time wasted waiting for data by allowing chips to process and send information simultaneously. Originally spun off from Intel in 2020, Cornelis is competing against Nvidia by offering an open architecture that permits customers to use a variety of GPU and accelerator hardware. While Nvidia remains dominant and optimized for its own software stack, Cornelis is part of a new wave of infrastructure firms working to break that dominance chip by chip. Cornelis has already started shipping its current product and expects to release a new generation of the technology later this year.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+AI infrastructure company Cornelis announced on Monday that it has raised $205 million in a funding round led by IAG Capital Partners. The company also unveiled a product named Active Compute Fabric, a network technology designed to address the issue of GPU time wasted waiting for data by allowing chips to process and send information simultaneously. Having spun off from Intel in 2020, Cornelis is competing with Nvidia by offering an open architecture, meaning customers can use a variety of GPU and accelerator hardware with its networking fabric. While Nvidia remains dominant and optimized for its own software stack, Cornelis is part of a new wave of infrastructure firms working to break that dominance chip by chip. Cornelis has already started shipping its current product and expects to release a new generation of the technology later this year.
+
+═══ 02b_TRIMMED ═══
+
+AI infrastructure company Cornelis announced on Monday that it has raised $205 million in a funding round led by IAG Capital Partners. The company also unveiled a product named Active Compute Fabric, a network technology designed to address the issue of GPU time wasted waiting for data by allowing chips to process and send information simultaneously. While Nvidia remains dominant and optimized for its own software stack, Cornelis is part of a new wave of infrastructure firms working to break that dominance chip by chip. Cornelis has already started shipping its current product and expects to release a new generation of the technology later this year.
+
+═══ 03_COVERAGE_1 ═══
+
+87% covered (7/8). Missing: Cornelis competes with Nvidia by offering an open architecture that supports various hardware.
+
+═══ 03c_WHY_MATTERS ═══
+
+Cornelis challenges Nvidia's market dominance by securing two hundred five million dollars to scale its new networking technology.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Artificial intelligence infrastructure company Cornelis announced on Monday that it has raised two hundred five million dollars in a funding round led by I. A. G. Capital Partners. Techcrunch reports that the company also unveiled a product named Active Compute Fabric. This network technology addresses the issue of graphical processing unit time wasted waiting for data by allowing chips to process and send information simultaneously. While Nvidia remains dominant and optimized for its own software stack, Cornelis is part of a new wave of infrastructure firms working to break that dominance chip by chip. Cornelis has already started shipping its current product and expects to release a new generation of the technology later this year, challenging Nvidia's market dominance by securing two hundred five million dollars to scale its new networking technology.
+
+═══ 05_NORMALIZED ═══
+
+Artificial intelligence infrastructure company Cornelis announced on Monday that it has raised two hundred five million dollars in a funding round led by I. A. G. Capital Partners. Techcrunch reports that the company also unveiled a product named Active Compute Fabric. This network technology addresses the issue of graphical processing unit time wasted waiting for data by allowing chips to process and send information simultaneously. While Nvidia remains dominant and optimized for its own software stack, Cornelis is part of a new wave of infrastructure firms working to break that dominance chip by chip. Cornelis has already started shipping its current product and expects to release a new generation of the technology later this year, challenging Nvidia's market dominance by securing two hundred five million dollars to scale its new networking technology.
+
+═══ 06_COVERAGE_FINAL ═══
+
+87% covered (7/8). Missing: Cornelis competes with Nvidia by offering an open architecture that supports various hardware.
+
+═══ 07_SANITY ═══
+
+sentence_length_dist: score=0.43 {'n': 8, 'p50': 24, 'p90': 38}; attribution_present: score=0.00 {'source_name': 'Techcrunch', 'in_first_3_sentences': False}
+

@@ -1,0 +1,42 @@
+═══ 00_KEY_POINTS ═══
+
+1. A 24-hour labour strike on Tuesday reduced delivery capacity at the Dunkirk LNG terminal to 4 gigawatt-hours per day.
+2. The Dunkirk terminal normally delivers a minimum of 9.4 gigawatt-hours per day according to Fluxys data.
+3. Industrial action was expected to reduce French electricity supply by up to 5 gigawatts on Tuesday.
+4. The 24-hour strike took 6.5 gigawatts of electricity offline overnight on Monday.
+5. Energy sector unions staged the strike to protest calls from the French Court of Auditors to curb employee benefits like cheaper power.
+6. The disruption matters because it occurs as Europe scrambles to refill gas storage ahead of winter while key countries lag behind targets.
+7. The disruption is likely to affect sendout ability only, as no cargoes were scheduled to arrive at Dunkirk, LSEG analyst Dzmitry Dauhalevich said.
+
+═══ 01_DRAFT ═══
+
+A 24-hour labour strike on Tuesday reduced delivery capacity at the Dunkirk LNG terminal to 4 gigawatt-hours per day. The terminal normally delivers a minimum of 9.4 gigawatt-hours per day according to Fluxys data. Industrial action was expected to reduce French electricity supply by up to 5 gigawatts on Tuesday, while taking 6.5 gigawatts offline overnight on Monday. Energy sector unions staged the strike to protest recommendations from the French Court of Auditors to curb employee benefits such as access to cheaper power. This matters as Europe scrambles to refill gas storage ahead of winter while reliant countries lag behind EU targets. The disruption is likely to affect sendout ability only, as no cargoes were scheduled to arrive at Dunkirk, LSEG analyst Dzmitry Dauhalevich said. Elengy confirmed no disruptions occurred at the Fos or Montoir terminals.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (7/7). Missing: none
+
+═══ 03c_WHY_MATTERS ═══
+
+The labor strike restricts gas supply at Dunkirk while Europe scrambles to refill storage ahead of winter.
+
+═══ 04_AUDIO_REWRITE ═══
+
+A twenty-four-hour labor strike on Tuesday reduced delivery capacity at the Dunkirk L. N. G. terminal to four gigawatt-hours per day. The terminal normally delivers a minimum of nine point four gigawatt-hours per day, France24 Top reports using data from Fluxys. Industrial action was expected to reduce French electricity supply by up to five gigawatts on Tuesday, while taking six point five gigawatts offline overnight on Monday. Energy sector unions staged the strike to protest recommendations from the French Court of Auditors to curb employee benefits such as access to cheaper power. The labor strike restricts gas supply at Dunkirk while Europe scrambles to refill storage ahead of winter.
+
+The disruption is likely to affect sendout ability only, as no cargoes were scheduled to arrive at Dunkirk, according to L. S. E. G. analyst Dzmitry Dauhalevich. Elengy confirmed no disruptions occurred at the Fos or Montoir terminals.
+
+═══ 05_NORMALIZED ═══
+
+A twenty-four-hour labor strike on Tuesday reduced delivery capacity at the Dunkirk L. N. G. terminal to four gigawatt-hours per day. The terminal normally delivers a minimum of nine point four gigawatt-hours per day, France 24 Top reports using data from Fluxys. Industrial action was expected to reduce French electricity supply by up to five gigawatts on Tuesday, while taking six point five gigawatts offline overnight on Monday. Energy sector unions staged the strike to protest recommendations from the French Court of Auditors to curb employee benefits such as access to cheaper power. The labor strike restricts gas supply at Dunkirk while Europe scrambles to refill storage ahead of winter.
+
+The disruption is likely to affect sendout ability only, as no cargoes were scheduled to arrive at Dunkirk, according to L. S. E. G. analyst Dzmitry Dauhalevich. Elengy confirmed no disruptions occurred at the Fos or Montoir terminals.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (7/7). Missing: none
+
+═══ 07_SANITY ═══
+
+sentence_length_dist: score=0.97 {'n': 14, 'p50': 11, 'p90': 25}; attribution_present: score=0.00 {'source_name': 'France24 Top', 'in_first_3_sentences': False}
+

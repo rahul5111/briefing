@@ -1,0 +1,36 @@
+═══ 00_KEY_POINTS ═══
+
+1. OpenAI acquired smartphone camera maker Glass Imaging in a deal worth over $300 million.
+2. Glass Imaging was founded in 2019 in Los Altos, California by former Apple engineers Ziv Attar and Tom Bishop.
+3. The acquired startup previously raised about $30 million in funding from investors.
+4. Glass Imaging uses neural networks to improve smartphone images from the moment the shutter clicks.
+5. This acquisition matters because OpenAI is rumored to be working on its own hardware devices like smartphones.
+
+═══ 01_DRAFT ═══
+
+OpenAI acquired smartphone camera maker Glass Imaging in a deal worth over $300 million. Founded in 2019 in Los Altos, California, Glass Imaging was created by former Apple engineers Ziv Attar and Tom Bishop. The startup had previously raised about $30 million in funding from investors. Rather than editing photos after capture, Glass Imaging uses neural networks to overcome physical camera constraints and yield better images the moment the shutter clicks. This strategic purchase matters because the ChatGPT maker is rumored to be working on its own hardware devices like smartphones, earbuds, and AI companion devices. Previously in 2025, OpenAI CEO Sam Altman and designer Jony Ive revealed they were working together on a device startup called io when OpenAI bought Ive company for $6.5 billion. OpenAI did not immediately respond to a request for comment regarding the latest acquisition.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (5/5). Missing: none
+
+═══ 03c_WHY_MATTERS ═══
+
+The acquisition accelerates hardware development for the artificial intelligence company as it builds competing consumer devices.
+
+═══ 04_AUDIO_REWRITE ═══
+
+OpenAI acquired smartphone camera maker Glass Imaging in a deal worth over three hundred million dollars, Techcrunch reports. Founded in twenty nineteen in Los Altos, California, Glass Imaging was created by former Apple engineers Ziv Attar and Tom Bishop. The startup had previously raised about thirty million dollars in funding from investors. Rather than editing photos after capture, Glass Imaging uses neural networks to overcome physical camera constraints and yield better images the moment the shutter clicks. The ChatGPT maker is rumored to be working on its own hardware devices like smartphones, earbuds, and A. I. companion devices. Previously in twenty twenty-five, OpenAI Chief Executive Officer Sam Altman and designer Jony Ive revealed they were working together on a device startup called io when OpenAI bought Ive company for six point five billion dollars. OpenAI did not immediately respond to a request for comment regarding the latest acquisition. The acquisition accelerates hardware development for the artificial intelligence company as it builds competing consumer devices.
+
+═══ 05_NORMALIZED ═══
+
+OpenAI acquired smartphone camera maker Glass Imaging in a deal worth over three hundred million dollars, Techcrunch reports. Founded in twenty nineteen in Los Altos, California, Glass Imaging was created by former Apple engineers Ziv Attar and Tom Bishop. The startup had previously raised about thirty million dollars in funding from investors. Rather than editing photos after capture, Glass Imaging uses neural networks to overcome physical camera constraints and yield better images the moment the shutter clicks. The ChatGPT maker is rumored to be working on its own hardware devices like smartphones, earbuds, and A. I. companion devices. Previously in twenty twenty-five, OpenAI Chief Executive Officer Sam Altman and designer Jony Ive revealed they were working together on a device startup called io when OpenAI bought Ive company for six point five billion dollars. OpenAI did not immediately respond to a request for comment regarding the latest acquisition. The acquisition accelerates hardware development for the artificial intelligence company as it builds competing consumer devices.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (5/5). Missing: none
+
+═══ 07_SANITY ═══
+
+sentence_length_dist: score=0.63 {'n': 10, 'p50': 18, 'p90': 36}
+

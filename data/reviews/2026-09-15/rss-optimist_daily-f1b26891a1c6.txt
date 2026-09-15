@@ -1,0 +1,37 @@
+═══ 00_KEY_POINTS ═══
+
+1. Finnish materials startup Elementic created MO6, a wall-surfacing tile that is ninety percent carbon by chemistry.
+2. MO6 stores approximately two point four kilograms of atmospheric carbon dioxide for every kilogram of material.
+3. Elementic general manager Johanna Normiala described the manufacturing process as baking a dough made from lignin.
+4. MO6 launched its debut collection, MO6 Eternal, on September second at the Habitare design trade fair in Helsinki.
+5. A spa currently under construction in Paris is among the first named examples receiving the delivered product.
+6. Elementic matters because it provides a recyclable building material designed to lock carbon away for thousands of years without decaying.
+
+═══ 01_DRAFT ═══
+
+Finnish materials startup Elementic created MO6, a wall-surfacing tile that is ninety percent carbon by chemistry. The product stores approximately two point four kilograms of atmospheric carbon dioxide for every kilogram of material used. Unlike traditional wood, which eventually burns or decays, this material does not decay. Elementic general manager Johanna Normiala described the production method by stating we take the lignin, we create a kind of dough that we bake like a cake, and in the end we get a hard, resistant, durable material but which is lightweight. MO6 launched its debut collection, MO6 Eternal, on September second at the Habitare design trade fair in Helsinki as part of Helsinki Design Week. The company is intentionally positioning the product as a premium interior design brand to reach architects, hotel developers, and interior designers. A spa currently under construction in Paris is among the first named examples receiving the delivered product. The company expects further manufacturing improvements and plans to eventually develop bricks for broader construction applications. Elementic matters because it provides a recyclable building material designed to lock carbon away for thousands of years without decaying.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 03c_WHY_MATTERS ═══
+
+The permanent carbon storage product provides architects and developers a recyclable premium material that locks away emissions indefinitely.
+
+═══ 04_AUDIO_REWRITE ═══
+
+A Finnish materials startup named Elementic created an innovative wall surfacing tile called M. O. six. Optimist Daily reports that the product is ninety percent carbon by chemistry and stores approximately two point four kilograms of atmospheric carbon dioxide for every kilogram of material used. Unlike traditional wood that eventually burns or decays, this material does not decay. Elementic general manager Johanna Normiala described the production method by stating we take the lignin, we create a kind of dough that we bake like a cake, and in the end we get a hard, resistant, durable material but which is lightweight. The company launched its debut collection named M. O. six Eternal on September second at the Habitare design trade fair in Helsinki as part of Helsinki Design Week. Elementic is intentionally positioning the product as a premium interior design brand to reach architects, hotel developers, and interior designers. A spa currently under construction in Paris is among the first named examples receiving the delivered product. The company expects further manufacturing improvements and plans to eventually develop bricks for broader construction applications. The permanent carbon storage product provides architects and developers a recyclable premium material that locks away emissions indefinitely.
+
+═══ 05_NORMALIZED ═══
+
+A Finnish materials startup named Elementic created an innovative wall surfacing tile called M. O. six. Optimist Daily reports that the product is ninety percent carbon by chemistry and stores approximately two point four kilograms of atmospheric carbon dioxide for every kilogram of material used. Unlike traditional wood that eventually burns or decays, this material does not decay. Elementic general manager Johanna Normiala described the production method by stating we take the lignin, we create a kind of dough that we bake like a cake, and in the end we get a hard, resistant, durable material but which is lightweight. The company launched its debut collection named M. O. six Eternal on September second at the Habitare design trade fair in Helsinki as part of Helsinki Design Week. Elementic is intentionally positioning the product as a premium interior design brand to reach architects, hotel developers, and interior designers. A spa currently under construction in Paris is among the first named examples receiving the delivered product. The company expects further manufacturing improvements and plans to eventually develop bricks for broader construction applications. The permanent carbon storage product provides architects and developers a recyclable premium material that locks away emissions indefinitely.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (6/6). Missing: none
+
+═══ 07_SANITY ═══
+
+numeric_preservation: score=0.39 {'total': 13, 'missing': ['1000', '571', '12', '8217', '2025', '8220', '2026', '8221']}; sentence_length_dist: score=0.87 {'n': 13, 'p50': 16, 'p90': 29}; attribution_present: score=0.00 {'source_name': 'Optimist Daily', 'in_first_3_sentences': False}
+

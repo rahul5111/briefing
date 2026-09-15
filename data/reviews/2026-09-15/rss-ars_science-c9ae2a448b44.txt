@@ -1,0 +1,42 @@
+═══ 00_KEY_POINTS ═══
+
+1. The Trump administration attempted aggressive interventions to prop up coal use by ordering scheduled closures to remain open.
+2. On Friday, a federal court judged the Department of Energy emergency declaration to be contrary to the statute.
+3. A unanimous three-judge panel from the DC Circuit Court of Appeals issued the decision.
+4. The ruling specifically focuses on the J.H. Campbell Generating Plant in Michigan.
+5. The plant was kept open by a total of five emergency declarations by the DOE.
+6. Emergency declarations under the Federal Power Act are limited to 90 days each.
+7. The legal challenge matters because the court reasoning will apply to every blocked coal plant closure.
+
+═══ 01_DRAFT ═══
+
+The Trump administration attempted aggressive interventions to prop up coal use by ordering scheduled closures to remain open despite a lack of need. On Friday, a federal court judged the Department of Energy emergency declaration to be contrary to the statute. A unanimous three-judge panel from the DC Circuit Court of Appeals issued the decision. The ruling specifically focuses on the J.H. Campbell Generating Plant in Michigan. The plant was kept open by a total of five emergency declarations by the DOE. Emergency declarations under the Federal Power Act are limited to 90 days each. This legal challenge matters because the court reasoning will apply to every blocked coal plant closure nationwide.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+The Trump administration attempted aggressive interventions to prop up coal use by ordering scheduled closures to remain open despite a lack of need. On Friday, a federal court judged the Department of Energy emergency declaration to be contrary to the statute. The decision was issued regarding the agency's justification under the law. The ruling specifically focuses on the J.H. Campbell Generating Plant in Michigan. The plant was kept open by a total of five emergency declarations by the DOE. Emergency declarations under the Federal Power Act are limited to 90 days each. This legal challenge matters because the court reasoning will apply to every blocked coal plant closure nationwide.
+
+═══ 03_COVERAGE_1 ═══
+
+85% covered (6/7). Missing: A unanimous three-judge panel from the DC Circuit Court of Appeals issued the decision.
+
+═══ 03c_WHY_MATTERS ═══
+
+The federal court ruling limits executive emergency powers, threatening the Trump administration strategy to keep aging coal plants operating nationwide.
+
+═══ 04_AUDIO_REWRITE ═══
+
+The Trump administration attempted aggressive interventions to prop up coal use by ordering scheduled closures to remain open despite a lack of need. On Friday, a federal court judged the Department of Energy emergency declaration to be contrary to the statute, Ars Science reports. The decision was issued regarding the agency justification under the law. The ruling specifically focuses on the J. H. Campbell Generating Plant in Michigan. The plant was kept open by a total of five emergency declarations by the D. O. E. Emergency declarations under the Federal Power Act are limited to ninety days each. The federal court ruling limits executive emergency powers, threatening the Trump administration strategy to keep aging coal plants operating nationwide.
+
+═══ 05_NORMALIZED ═══
+
+The Trump administration attempted aggressive interventions to prop up coal use by ordering scheduled closures to remain open despite a lack of need. On Friday, a federal court judged the Department of Energy emergency declaration to be contrary to the statute, Ars Science reports. The decision was issued regarding the agency justification under the law. The ruling specifically focuses on the J. H. Campbell Generating Plant in Michigan. The plant was kept open by a total of five emergency declarations by the D. O. E. Emergency declarations under the Federal Power Act are limited to ninety days each. The federal court ruling limits executive emergency powers, threatening the Trump administration strategy to keep aging coal plants operating nationwide.
+
+═══ 06_COVERAGE_FINAL ═══
+
+85% covered (6/7). Missing: A unanimous three-judge panel from the DC Circuit Court of Appeals issued the decision.
+
+═══ 07_SANITY ═══
+
+numeric_preservation: score=0.18 {'total': 11, 'missing': ['1159', '202', '25', '12', '2025', '06', '2026', '2192454', '03']}; sentence_length_dist: score=0.97 {'n': 11, 'p50': 11, 'p90': 21}
+

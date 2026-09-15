@@ -1,0 +1,41 @@
+═══ 00_KEY_POINTS ═══
+
+1. China and Russia on Tuesday warned against the weaponisation and militarisation of outer space.
+2. Chinese Foreign Ministry spokesman Guo Jiakun urged Washington to stop expanding its military capabilities.
+3. Kremlin spokesman Dmitry Peskov called for international consolidation to work toward the complete demilitarisation of space.
+4. The United States confirmed for the first time that it has on-orbit space control weapons deployed.
+5. The US Space Force stated that these weapons could disrupt degrade or destroy adversary space systems.
+6. The disclosure raises concerns over an accelerating military competition and an arms race beyond Earth.
+
+═══ 01_DRAFT ═══
+
+China and Russia on Tuesday warned against the weaponisation and militarisation of outer space after the United States confirmed for the first time that it has weapons deployed in orbit. Chinese Foreign Ministry spokesman Guo Jiakun stated during a briefing that they urge the US side to stop expanding its military capabilities and preparing for war in outer space. Kremlin spokesman Dmitry Peskov added that they are counting on broad international consolidation to continue working toward the complete demilitarisation of space. The warnings followed an acknowledgment by the US Space Force that Washington possesses on-orbit space control weapons capable of defending American forces against hostile actions by adversaries. The US military branch explained that these space-control capabilities include both kinetic and non-kinetic means to affect an adversary's space systems, though it did not specify the exact number or type of weapons currently deployed. This major shift in transparency regarding American military assets in orbit raises serious concerns over an accelerating military competition and a potential arms race beyond Earth, as both China and Russia continue developing their own advanced space and counterspace capabilities.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+China and Russia on Tuesday warned against the weaponisation and militarisation of outer space after the United States confirmed for the first time that it has weapons deployed in orbit. China's Foreign Ministry warned against turning outer space into a battlefield, with ministry spokesman Guo Jiakun stating at a briefing that they urge the US side to stop expanding its military capabilities in space. Kremlin spokesman Dmitry Peskov added that they are counting on broad international consolidation to continue working toward the complete demilitarisation of space. The warnings followed an acknowledgment by the US Space Force that Washington possesses on-orbit space control weapons capable of defending American forces against hostile actions by adversaries. The US military branch explained that these space-control capabilities include both kinetic and non-kinetic means to affect an adversary's space systems, though it did not specify the exact number or type of weapons currently deployed. This major shift in transparency regarding American military assets in orbit raises serious concerns over an accelerating military competition and a potential arms race beyond Earth, as both China and Russia continue developing their own advanced space and counterspace capabilities.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (6/6). Missing: none
+
+═══ 03c_WHY_MATTERS ═══
+
+The American acknowledgment of orbital weapons risks accelerating an arms race and military competition in space with China and Russia.
+
+═══ 04_AUDIO_REWRITE ═══
+
+China and Russia warned against the militarisation of outer space on Tuesday after the United States confirmed it has weapons in orbit. Livemint reports that China urged the United States to stop expanding its military capabilities. Kremlin spokesman Dmitry Peskov called for international work toward complete demilitarisation. The warnings followed an acknowledgment by the United States Space Force that Washington possesses on-orbit space control weapons to defend forces. These capabilities include kinetic and non-kinetic means to affect adversary space systems. The American acknowledgment of orbital weapons risks accelerating an arms race and military competition in space with China and Russia.
+
+═══ 05_NORMALIZED ═══
+
+China and Russia warned against the militarisation of outer space on Tuesday after the United States confirmed it has weapons in orbit. Livemint reports that China urged the United States to stop expanding its military capabilities. Kremlin spokesman Dmitry Peskov called for international work toward complete demilitarisation. The warnings followed an acknowledgment by the United States Space Force that Washington possesses on-orbit space control weapons to defend forces. These capabilities include kinetic and non-kinetic means to affect adversary space systems. The American acknowledgment of orbital weapons risks accelerating an arms race and military competition in space with China and Russia.
+
+═══ 06_COVERAGE_FINAL ═══
+
+83% covered (5/6). Missing: The US Space Force stated that these weapons could disrupt degrade or destroy adversary space systems.
+
+═══ 07_SANITY ═══
+
+numeric_preservation: score=0.00 {'total': 2, 'missing': ['1967', '1957']}
+

@@ -1,0 +1,38 @@
+═══ 00_KEY_POINTS ═══
+
+1. The National Payments Corporation of India notified a Merchant Discount Rate of zero point four percent on person-to-merchant UPI transactions above two thousand rupees.
+2. The Merchant Discount Rate will be effective from October fifteenth, twenty twenty-six, giving stakeholders lead time to update software engines and billing systems.
+3. For transactions of seventy-five thousand rupees and above, the Merchant Discount Rate will be capped at three hundred rupees per transaction.
+4. Small-value UPI transactions up to two thousand rupees will have no impact, comprising more than ninety-five percent of total person-to-merchant volume.
+5. Person-to-person transactions will continue to remain free, ensuring everyday transfers carry no charge for users.
+6. The intent of levying reasonable Merchant Discount Rate is to ensure UPI remains accessible while supporting long-term ecosystem sustainability.
+7. Finance Minister Nirmala Sitharaman stated that the vast majority of merchant transactions, including ordinary low-value transactions, will continue to remain free.
+
+═══ 01_DRAFT ═══
+
+The National Payments Corporation of India notified a Merchant Discount Rate of zero point four percent on person-to-merchant UPI transactions above two thousand rupees. The new rate will be effective from October fifteenth, twenty twenty-six, giving acquiring banks, payment aggregators, fintech applications, and corporate accounting platforms adequate lead time to update their software engines and billing systems. For transactions of seventy-five thousand rupees and above, the Merchant Discount Rate will be capped at three hundred rupees per transaction. Small-value UPI transactions up to two thousand rupees will have no impact, comprising more than ninety-five percent of total person-to-merchant volume. Meanwhile, person-to-person transactions will continue to remain free. The intent of levying reasonable Merchant Discount Rate is to ensure that UPI remains accessible and convenient for everyday transactions while supporting long-term ecosystem sustainability. A twenty-two-member panel representing banks, payment service providers, and various industry associations met to decide on the charges that merchants have to pay for UPI transactions above two thousand rupees. Finance Minister Nirmala Sitharaman assured during parliamentary debates that consumers would continue to be able to make UPI payments free of charge. The finance minister stated that the vast majority of merchant transactions, including ordinary low-value transactions, will continue to remain free, and any future MDR will apply only to a limited category of merchant transactions above a prescribed threshold. The notification follows amendments to the Payment and Settlement Systems Act, 2007.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (7/7). Missing: none
+
+═══ 03c_WHY_MATTERS ═══
+
+The new merchant discount rate provides predictable revenue for payment aggregators and banks while protecting small-value consumer transactions from fees.
+
+═══ 04_AUDIO_REWRITE ═══
+
+The National Payments Corporation of India notified a merchant discount rate of zero point four percent on person-to-merchant U. P. I. transactions above two thousand rupees. The new rate becomes effective on October fifteenth, twenty twenty-six, according to Times Of India, giving acquiring banks and payment aggregators adequate time to update their software. Transactions of seventy-five thousand rupees and above will face a cap of three hundred rupees. Small-value payments up to two thousand rupees remain unaffected, while person-to-person transfers stay completely free. The new merchant discount rate provides predictable revenue for payment aggregators and banks while protecting small-value consumer transactions from fees. Finance Minister Nirmala Sitharaman assured parliament that consumers will not pay fees for everyday payments, following amendments to the Payment and Settlement Systems Act of two thousand seven.
+
+═══ 05_NORMALIZED ═══
+
+The National Payments Corporation of India notified a merchant discount rate of zero point four percent on person-to-merchant U. P. I. transactions above two thousand rupees. The new rate becomes effective on October fifteenth, twenty twenty-six, according to Times Of India, giving acquiring banks and payment aggregators adequate time to update their software. Transactions of seventy-five thousand rupees and above will face a cap of three hundred rupees. Small-value payments up to two thousand rupees remain unaffected, while person-to-person transfers stay completely free. The new merchant discount rate provides predictable revenue for payment aggregators and banks while protecting small-value consumer transactions from fees. Finance Minister Nirmala Sith-a-ra-mun assured parliament that consumers will not pay fees for everyday payments, following amendments to the Payment and Settlement Systems Act of two thousand seven.
+
+═══ 06_COVERAGE_FINAL ═══
+
+71% covered (5/7). Missing: The intent of levying reasonable Merchant Discount Rate is to ensure UPI remains accessible while supporting long-term ecosystem sustainability.; Finance Minister Nirmala Sitharaman stated that the vast majority of merchant transactions, including ordinary low-value transactions, will continue to remain free.
+
+═══ 07_SANITY ═══
+
+numeric_preservation: score=0.62 {'total': 21, 'missing': ['11', '25', '22', '10', '95', '314', '29.9', '14']}; sentence_length_dist: score=0.90 {'n': 9, 'p50': 15, 'p90': 28}; attribution_present: score=0.00 {'source_name': 'Times Of India', 'in_first_3_sentences': False}
+

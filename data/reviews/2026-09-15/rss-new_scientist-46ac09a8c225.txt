@@ -1,0 +1,39 @@
+═══ 00_KEY_POINTS ═══
+
+1. A brain implant enables people with paralysis to speak and gesture simultaneously.
+2. Samantha Brosler at the University of California, San Francisco, led the research team.
+3. Researchers tested an iPhone-sized implant in the sensorimotor cortex of two participants with paralysis.
+4. The first participant was named Bravo-1r and the second participant was named Bravo-6.
+5. Participant Bravo-1r achieved gesture and speech prediction accuracies of 88 and 84 per cent.
+6. Participant Bravo-6 achieved gesture and speech prediction accuracies of 66 and 70 per cent.
+7. Exchanges done via an avatar could help paralyzed individuals communicate with more nuance.
+8. Samantha Brosler stated that if the models operated on complete chance the accuracy would be like 9 per cent.
+
+═══ 01_DRAFT ═══
+
+A new brain implant has enabled people with paralysis to speak while gesturing such as nodding or waving. These sorts of exchanges done via an avatar could help them communicate with more nuance. Samantha Brosler at the University of California, San Francisco, and her colleagues tested an iPhone-sized implant in the sensorimotor cortex of two participants with paralysis. The first participant was named Bravo-1r, who became paralyzed after a stroke, while the second participant was named Bravo-6, who had amyotrophic lateral sclerosis. Both participants had lost almost all movement in their limbs and could only make unintelligible sounds. The team recorded brain activity while participants attempted to say ten phrases or perform ten gestures, and then used this data to train customised machine learning models. Bravo-1r's intended gestures and speech were predicted with 88 and 84 per cent accuracy, respectively, while Bravo-6's were predicted with 66 and 70 per cent accuracy. Samantha Brosler noted that if those models were operating on complete chance, the accuracy would be like 9 per cent, adding that it was really exciting. Henri Lorach at the University of Lausanne in Switzerland described it as a very nice piece of work with robust results, though he noted it is based on a very limited set of phrases and gestures that still need improving for daily use without frustration. The team is now working to address this by further training the models and tweaking the algorithms.
+
+═══ 03_COVERAGE_1 ═══
+
+100% covered (8/8). Missing: none
+
+═══ 03c_WHY_MATTERS ═══
+
+The new implant technology could improve communication options for thousands of paralyzed patients globally through advanced machine learning models.
+
+═══ 04_AUDIO_REWRITE ═══
+
+A new brain implant enables people with paralysis to speak while gesturing like nodding or waving. These exchanges done via an avatar could help them communicate with more nuance. New Scientist reports that Samantha Brosler at the University of California, San Francisco, and her colleagues tested an I. Phone sized implant in two participants with paralysis. The first participant was named Bravo-one-r, who became paralyzed after a stroke. The second participant was named Bravo-six, who had amyotrophic lateral sclerosis. Both participants had lost almost all movement in their limbs and could only make unintelligible sounds. The team recorded brain activity while participants attempted to say ten phrases or perform ten gestures. They used this data to train customised machine learning models. Bravo-one-r's intended gestures and speech were predicted with eighty-eight and eighty-four percent accuracy. Bravo-six's were predicted with sixty-six and seventy percent accuracy. Samantha Brosler noted that if those models operated on complete chance, accuracy would be like nine percent. Henri Lorach at the University of Lausanne in Switzerland described it as a very nice piece of work with robust results. He noted it is based on a limited set of phrases and gestures that still need improving for daily use without frustration. The team is now working to address this by further training the models and tweaking the algorithms. The new implant technology could improve communication options for thousands of paralyzed patients globally through advanced machine learning models.
+
+═══ 05_NORMALIZED ═══
+
+A new brain implant enables people with paralysis to speak while gesturing like nodding or waving. These exchanges done via an avatar could help them communicate with more nuance. New Scientist reports that Samantha Brosler at the University of California, San Francisco, and her colleagues tested an I. Phone sized implant in two participants with paralysis. The first participant was named Bravo-one-r, who became paralyzed after a stroke. The second participant was named Bravo-six, who had amyotrophic lateral sclerosis. Both participants had lost almost all movement in their limbs and could only make unintelligible sounds. The team recorded brain activity while participants attempted to say ten phrases or perform ten gestures. They used this data to train customised machine learning models. Bravo-one-r's intended gestures and speech were predicted with eighty-eight and eighty-four percent accuracy. Bravo-six's were predicted with sixty-six and seventy percent accuracy. Samantha Brosler noted that if those models operated on complete chance, accuracy would be like nine percent. Henri Lorach at the University of Loh-zahn in Switzerland described it as a very nice piece of work with robust results. He noted it is based on a limited set of phrases and gestures that still need improving for daily use without frustration. The team is now working to address this by further training the models and tweaking the algorithms. The new implant technology could improve communication options for thousands of paralyzed patients globally through advanced machine learning models.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (8/8). Missing: none
+
+═══ 07_SANITY ═══
+
+numeric_preservation: score=0.77 {'total': 34, 'missing': ['600', '24', '15', '450', '900', '026', '0', '18']}
+

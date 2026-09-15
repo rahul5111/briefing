@@ -1,0 +1,48 @@
+═══ 00_KEY_POINTS ═══
+
+1. Zero-knowledge proofs protect privacy by verifying usernames without revealing their actual contents.
+2. Signal organization should clarify technical details regarding privacy if phone number unlinking happens.
+3. Unlinking phone numbers entirely could allow spammers to create infinitely many free accounts.
+4. A cooldown period of one month may still be insufficient to prevent spammers and scammers.
+5. Signal clients are designed to not trust the server and remain safe without checking server code.
+
+═══ 01_DRAFT ═══
+
+Zero-knowledge proofs protect privacy by verifying usernames without revealing their actual contents. Signal organization should clarify technical details regarding privacy if phone number unlinking happens. Unlinking phone numbers entirely could allow spammers to create infinitely many free accounts by registering, unlinking, and repeating. A cooldown period of one month may still be insufficient to prevent spammers and scammers effectively. These security measures matter because Signal clients are designed to not trust the server and remain safe without checking server code. As the analysis notes regarding usernames and verification, zero-knowledge proofs are not only the technology behind donation badges and backup payments, but also behind groups. They cannot tie you to a specific donation just like they can not tie you to a specific group, ensuring high user confidentiality across all platform interactions without compromising core system architecture.
+
+═══ 02_REDRAFT_HALLUCINATIONS ═══
+
+Zero-knowledge proofs protect privacy by verifying usernames without revealing their actual contents. Signal organization should clarify technical details regarding privacy if phone number unlinking happens. Unlinking phone numbers entirely could allow spammers to create infinitely many free accounts by registering, unlinking, and repeating. A cooldown period of one month may still be insufficient to prevent spammers and scammers effectively. These platform features work because Signal clients are already designed to not trust the server and remain safe without even looking at server code. As the analysis notes regarding usernames and verification, zero-knowledge proofs are not only the technology behind donation badges and backup payments, but also behind groups. They cannot tie you to a specific donation just like they can not tie you to a specific group, ensuring high user confidentiality across all platform interactions without compromising core system architecture.
+
+═══ 02b_TRIMMED ═══
+
+Zero-knowledge proofs protect privacy by verifying usernames without revealing their actual contents. Signal organization should clarify technical details regarding privacy if phone number unlinking happens. Unlinking phone numbers entirely could allow spammers to create infinitely many free accounts by registering, unlinking, and repeating. A cooldown period of one month may still be insufficient to prevent spammers and scammers effectively. As the analysis notes regarding usernames and verification, zero-knowledge proofs are not only the technology behind donation badges and backup payments, but also behind groups. They cannot tie you to a specific donation just like they can not tie you to a specific group, ensuring high user confidentiality across all platform interactions without compromising core system architecture.
+
+═══ 03_COVERAGE_1 ═══
+
+80% covered (4/5). Missing: Signal clients are designed to not trust the server and remain safe without checking server code.
+
+═══ 03b_EXPANDED_FOR_COVERAGE ═══
+
+Zero-knowledge proofs protect privacy by verifying usernames without revealing their actual contents. Signal clients are designed to not trust the server and remain safe without checking server code. Signal organization should clarify technical details regarding privacy if phone number unlinking happens. Unlinking phone numbers entirely could allow spammers to create infinitely many free accounts by registering, unlinking, and repeating. A cooldown period of one month may still be insufficient to prevent spammers and scammers effectively. As the analysis notes regarding usernames and verification, zero-knowledge proofs are not only the technology behind donation badges and backup payments, but also behind groups. They cannot tie you to a specific donation just like they can not tie you to a specific group, ensuring high user confidentiality across all platform interactions without compromising core system architecture.
+
+═══ 03c_WHY_MATTERS ═══
+
+Removing phone numbers on Signal could enable spammers to create infinite free accounts despite proposed cooldown periods.
+
+═══ 04_AUDIO_REWRITE ═══
+
+Zero-knowledge proofs protect privacy by verifying usernames without revealing their actual contents. Signal clients are designed to not trust the server and remain safe without checking server code, Hackernews reports. The Signal organization should clarify technical details regarding privacy if phone number unlinking happens. Unlinking phone numbers entirely could allow spammers to create infinitely many free accounts by registering, unlinking, and repeating. A cooldown period of one month may still be insufficient to prevent spammers and scammers effectively. As the analysis notes regarding usernames and verification, zero-knowledge proofs are not only the technology behind donation badges and backup payments, but also behind groups. They cannot tie you to a specific donation just like they cannot tie you to a specific group, ensuring high user confidentiality across all platform interactions without compromising core system architecture. Removing phone numbers on Signal could enable spammers to create infinite free accounts despite proposed cooldown periods.
+
+═══ 05_NORMALIZED ═══
+
+Zero-knowledge proofs protect privacy by verifying usernames without revealing their actual contents. Signal clients are designed to not trust the server and remain safe without checking server code, Hackernews reports. The Signal organization should clarify technical details regarding privacy if phone number unlinking happens. Unlinking phone numbers entirely could allow spammers to create infinitely many free accounts by registering, unlinking, and repeating. A cooldown period of one month may still be insufficient to prevent spammers and scammers effectively. As the analysis notes regarding usernames and verification, zero-knowledge proofs are not only the technology behind donation badges and backup payments, but also behind groups. They cannot tie you to a specific donation just like they cannot tie you to a specific group, ensuring high user confidentiality across all platform interactions without compromising core system architecture. Removing phone numbers on Signal could enable spammers to create infinite free accounts despite proposed cooldown periods.
+
+═══ 06_COVERAGE_FINAL ═══
+
+100% covered (5/5). Missing: none
+
+═══ 07_SANITY ═══
+
+numeric_preservation: score=0.00 {'total': 1, 'missing': ['100']}; sentence_length_dist: score=0.80 {'n': 8, 'p50': 18, 'p90': 31}
+
