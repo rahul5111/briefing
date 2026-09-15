@@ -17,7 +17,10 @@ v2 (new)    — `score_v2_batch`: GKToday-reverse-engineered strict filter,
 """
 from __future__ import annotations
 import json
+import os
 import re
+import sys
+import time
 from dataclasses import dataclass, asdict, field
 from datetime import datetime, timezone
 from pathlib import Path
@@ -25,6 +28,11 @@ from typing import Iterable, Literal
 from google import genai
 
 from . import config
+
+
+# Larger batches = fewer daily API calls. Free-tier Gemini quota is 500
+# req/day per model, so we deliberately push batch size to reduce load.
+V2_CHUNK_SIZE = int(os.environ.get("SIGNIFICANCE_V2_CHUNK_SIZE", "40"))
 
 
 Verdict = Literal["IMPORTANT", "INTERESTING", "ORDINARY", "TRIVIAL", "PROMOTIONAL"]
@@ -238,18 +246,53 @@ def _valid_v2(obj) -> SignificanceV2 | None:
     )
 
 
+# Fail-OPEN fallback: when the LLM call itself fails (quota exhaustion,
+# transient 5xx, network hiccup) we do NOT want the strict v2 filter to
+# silently drop the entire batch. Better to keep the story (band=accept)
+# with a low-confidence score and rely on v1's coarser verdict having
+# already trimmed obvious junk. The failure is loudly logged so the
+# operator can restore quota.
 _FALLBACK_V2 = SignificanceV2(
-    score=0.55, band="borderline",
-    one_line_reason="fallback: LLM error or parse failure",
+    score=0.66, band="accept",
+    one_line_reason="fallback: LLM error — kept via fail-open",
 )
+
+# Retained for tests that expect a rejected-shape fallback.
+_FALLBACK_V2_REJECT = SignificanceV2(
+    score=0.0, band="reject",
+    one_line_reason="fallback: parse rejected item",
+)
+
+
+def _is_rate_limit(exc: Exception) -> bool:
+    s = repr(exc).lower()
+    return ("429" in s) or ("resource_exhausted" in s) or ("quota" in s)
+
+
+def _score_v2_one_call(prompt: str, n_items: int, attempt: int = 0):
+    """Single Gemini call with one 429-aware retry.
+
+    Returns the parsed list of dicts or raises the last exception.
+    """
+    client = _get_client()
+    resp = client.models.generate_content(
+        model=config.GEMINI_MODEL,
+        contents=prompt,
+        config={"temperature": 0.0, "max_output_tokens": 200 * n_items + 400},
+    )
+    raw = (resp.text or "").strip()
+    return json.loads(_extract_json_array_of_objects(raw))
 
 
 def score_v2_batch(items: Iterable[dict]) -> list[SignificanceV2]:
     """Return one SignificanceV2 per item in the same order.
 
     Each item: {"title": str, "summary": str, "source": str, "category": str}.
-    On any API/parse failure, returns borderline defaults so the pipeline
-    doesn't hard-drop everything when Gemini hiccups.
+
+    Failure policy is fail-OPEN: quota exhaustion or transient LLM errors
+    return `_FALLBACK_V2` (band=accept, score=0.66) so the site does not
+    go dark. Errors are logged with reason + attempt count so the operator
+    can see quota issues in the run log.
     """
     items = list(items)
     if not items:
@@ -264,17 +307,31 @@ def score_v2_batch(items: Iterable[dict]) -> list[SignificanceV2]:
             f"   summary: {summary}"
         )
     prompt = PROMPT_V2.format(list="\n\n".join(lines))
-    client = _get_client()
-    try:
-        resp = client.models.generate_content(
-            model=config.GEMINI_MODEL,
-            contents=prompt,
-            config={"temperature": 0.0, "max_output_tokens": 200 * len(items) + 400},
-        )
-        raw = (resp.text or "").strip()
-        arr = json.loads(_extract_json_array_of_objects(raw))
-    except Exception:
+
+    arr = None
+    last_exc: Exception | None = None
+    for attempt in range(2):
+        try:
+            arr = _score_v2_one_call(prompt, len(items), attempt)
+            break
+        except Exception as e:
+            last_exc = e
+            if _is_rate_limit(e) and attempt == 0:
+                # Server hints ~30-35s retry; sleep and try once.
+                print(f"[significance-v2] 429 rate-limit; sleeping 35s then retrying "
+                      f"(batch of {len(items)})", file=sys.stderr)
+                time.sleep(35)
+                continue
+            # Non-429 or already retried — give up and fail-open.
+            break
+
+    if arr is None:
+        kind = "quota" if last_exc and _is_rate_limit(last_exc) else type(last_exc).__name__
+        print(f"[significance-v2] batch of {len(items)} FAILED ({kind}); "
+              f"failing OPEN to keep the site alive. "
+              f"error: {repr(last_exc)[:180]}", file=sys.stderr)
         return [_FALLBACK_V2] * len(items)
+
     out: list[SignificanceV2] = []
     for x in arr:
         out.append(_valid_v2(x) or _FALLBACK_V2)

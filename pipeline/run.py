@@ -225,10 +225,27 @@ def main() -> int:
     # are logged to data/rejections/YYYY-MM-DD.jsonl for later audit.
     if candidates:
         print("\nRunning significance v2 (strict Priya filter)…")
-        v2_results = significance.score_v2_batch(
-            {"title": c.title, "source": c.source, "summary": "", "category": ""}
-            for c in candidates
-        )
+        # Chunk into batches so each Gemini response fits under
+        # max_output_tokens (~8k for flash-lite). Without chunking a
+        # run with 100+ candidates gets ONE huge prompt whose response
+        # gets truncated → JSON parse fails → everything falls back.
+        chunk_size = significance.V2_CHUNK_SIZE
+        v2_results: list[significance.SignificanceV2] = []
+        v2_fallback_count = 0
+        for start in range(0, len(candidates), chunk_size):
+            batch = candidates[start:start + chunk_size]
+            batch_results = significance.score_v2_batch(
+                {"title": c.title, "source": c.source, "summary": "", "category": ""}
+                for c in batch
+            )
+            v2_results.extend(batch_results)
+            v2_fallback_count += sum(
+                1 for r in batch_results
+                if r.one_line_reason.startswith("fallback:")
+            )
+        if v2_fallback_count:
+            print(f"[significance-v2] {v2_fallback_count}/{len(candidates)} items "
+                  f"used fail-open fallback (LLM error/quota).")
         rejects_log: list[dict] = []
         v2_kept: list[Candidate] = []
         v2_counts = {"accept": 0, "borderline": 0, "reject": 0}
