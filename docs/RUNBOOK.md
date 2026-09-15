@@ -16,23 +16,23 @@ Last updated: 2026-09-14.
 | `GEMINI_API_KEY` | 12 months | Used every cron; low blast radius (rate-limited by Google). |
 | `VERCEL_TOKEN` | 12 months | The 2026-09-14 no-expiry token replaces the two prior tokens that expired. Still rotate annually. |
 | `VERCEL_ORG_ID`, `VERCEL_PROJECT_ID` | on org/project rename | Not secrets, but change when the project's identity changes. |
-| `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY` | **6 months** | R2 credentials grant public-write to the audio bucket. Rotate more aggressively. |
-| `R2_BUCKET`, `R2_ENDPOINT`, `R2_PUBLIC_BASE`, `R2_ACCOUNT_ID` | on infra change | Not sensitive but must stay in sync with the bucket. |
+| `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY` | **6 months** | Scoped IAM user (`briefing-service`) with S3-write only on the audio bucket. Rotate more aggressively than long-lived infra secrets. |
+| `S3_BUCKET`, `S3_REGION`, `PUBLIC_CDN_BASE` | on infra change | Not sensitive but must stay in sync with the bucket. |
 
 **Storage of secrets** — GitHub Actions and Vercel dashboards. Never
 committed to the repo (`.gitignore` excludes `.env*`).
 
-**Revocation procedure — R2 credentials leaked:**
+**Revocation procedure — S3 credentials leaked:**
 
-1. Log in to Cloudflare dashboard → R2 → Manage R2 API Tokens.
-2. Revoke the leaked token immediately (before rotating anything else).
-3. Generate a new token with the same scope (read+write on
-   `briefing-audio` bucket).
-4. Update **GitHub Actions** secret first
+1. AWS Console → IAM → Users → `briefing-service` → Security credentials.
+2. Deactivate the leaked access key immediately.
+3. Create a new access key for the same scoped IAM user.
+4. Update **GitHub Actions** secrets first
    (`Settings → Secrets and variables → Actions`).
 5. Update **Vercel** env second
    (`Project → Settings → Environment Variables`).
 6. Trigger a manual GHA run to verify.
+7. Delete the deactivated key once the new one is confirmed working.
 
 **Revocation procedure — Gemini or Vercel token leaked:**
 
@@ -46,78 +46,55 @@ even if the incident feels contained.
 
 ---
 
-## §R2 — provisioning steps (B-11 prerequisite for B-12..B-19)
+## §S3 — provisioning + backfill (B-11 / B-107 — S3 replaced R2 on 2026-09-15)
 
-Do these once, in order. Owner-manual steps are marked ⚙.
+The bucket, scoped IAM user, and initial budget were provisioned
+interactively in this session and their credentials are already in
+GHA + Vercel secrets. Only step 7+ (backfill) is still pending owner
+action.
 
-**⚙ 1. Create the bucket.** cloudflare.com → R2 → Create bucket
-`briefing-audio`. Region: automatic. No public access enabled at this
-stage.
+**Bucket + IAM (already done — recorded here for rotation reference):**
 
-**⚙ 2. Generate S3 API credentials.** R2 → Manage R2 API Tokens →
-Create API Token. Permissions: **Object Read & Write**. Scope: single
-bucket `briefing-audio`. TTL: 6 months.
+- Bucket: `briefing-audio-f09f5061` (region: `us-east-1`).
+- IAM user: `briefing-service` — S3-write on that bucket only. No
+  console access. Access key stored in GHA + Vercel secrets.
+- AWS Budget: $10/mo cap alarm on the account.
+- Public read: bucket policy grants anonymous `s3:GetObject` on the
+  audio prefix. Front-end fetches `PUBLIC_CDN_BASE` from Vercel env.
 
-**⚙ 3. Note down four values from the token response:**
-- Access Key ID
-- Secret Access Key
-- Account ID
-- S3 endpoint URL (`https://<account-id>.r2.cloudflarestorage.com`)
-
-**⚙ 4. Add secrets to GitHub Actions** (`Settings → Secrets and
-variables → Actions → New repository secret`):
+**Env vars (already set in GHA + Vercel Production):**
 
 ```
-R2_ACCOUNT_ID       = <account-id>
-R2_ACCESS_KEY_ID    = <access-key-id>
-R2_SECRET_ACCESS_KEY = <secret>
-R2_BUCKET           = briefing-audio
-R2_ENDPOINT         = https://<account-id>.r2.cloudflarestorage.com
+AWS_ACCESS_KEY_ID     = <scoped-briefing-service-key>
+AWS_SECRET_ACCESS_KEY = <scoped-briefing-service-secret>
+S3_BUCKET             = briefing-audio-f09f5061
+S3_REGION             = us-east-1
+PUBLIC_CDN_BASE       = https://briefing-audio-f09f5061.s3.amazonaws.com
 ```
 
-**⚙ 5. Add same to Vercel** (`Project → Settings → Environment
-Variables`), all environments (Production + Preview + Development).
-Plus one more:
-
-```
-R2_PUBLIC_BASE = https://<your-custom-domain>
-```
-
-Custom domain setup: R2 dashboard → bucket → Settings → Public access
-→ Connect Domain. Point a CNAME from your DNS at the bucket. This
-gives you unmetered egress via CF's CDN. Recommended domain:
-`audio.briefing.<yourdomain>`.
-
-**⚙ 6. Flip `PUBLIC_CDN_BASE` in Vercel env** to the same value as
-`R2_PUBLIC_BASE`. Redeploy site.
-
-**7. Test upload** (from local machine after credentials in a
-`.env.local` you don't commit):
+**7. Backfill existing MP3s to S3** (owner-runnable — one-shot):
 
 ```bash
-export R2_ACCOUNT_ID=... R2_ACCESS_KEY_ID=... R2_SECRET_ACCESS_KEY=... R2_BUCKET=briefing-audio R2_ENDPOINT=https://...r2.cloudflarestorage.com
-python scripts/migrate_audio_to_r2.py --dry     # lists files, no upload
-python scripts/migrate_audio_to_r2.py --limit 5 # upload 5 files as smoke test
+# Load creds from .env.local
+export AWS_ACCESS_KEY_ID=... AWS_SECRET_ACCESS_KEY=... \
+       S3_BUCKET=briefing-audio-f09f5061 S3_REGION=us-east-1
+python scripts/migrate_audio_to_s3.py --dry        # list what would upload
+python scripts/migrate_audio_to_s3.py --limit 5    # smoke test 5 files
+python scripts/migrate_audio_to_s3.py              # full backfill (~175 MB)
 ```
 
-**8. Backfill full corpus:**
+Idempotent — HEAD-checks each key first. Safe to re-run.
 
-```bash
-python scripts/migrate_audio_to_r2.py
-```
+**8. Verify frontend playback** — refresh the site, pick a story, tap
+play. Network tab should show requests going to
+`briefing-audio-f09f5061.s3.amazonaws.com`. No 4xx.
 
-Idempotent — reruns HEAD-check each key first. Safe to re-run.
-
-**9. Verify frontend playback** — refresh the site, pick a story, tap
-play. Network tab should show requests going to your custom R2 domain.
-No 4xx.
-
-**10. Watch for 14 days.** Every cron writes to R2 automatically via
-`pipeline/storage.py`. Check `data/audits/r2_upload_failures-*.jsonl`
+**9. Watch for 14 days.** Every cron writes to S3 automatically via
+`pipeline/storage.py`. Check `data/audits/s3_upload_failures-*.jsonl`
 for any failures.
 
-**11. B-90 git-history purge** — optional, opt-in, see
-`docs/OPT-IN-OPERATIONS.md`. Only run when the 588 MB is causing
+**10. B-90 git-history purge** — optional, opt-in, see
+`docs/OPT-IN-OPERATIONS.md`. Only run when repo size is causing
 observable pain.
 
 ---
@@ -188,7 +165,7 @@ This prevents "adjust golden until green."
 | Push fails "non-fast-forward" | Local push landed between checkout and cron push | B-09 rebase-then-push should have fixed this. If it recurs, check whether an external actor is pushing to `main`. |
 | Whisper OOM | `distil-large-v3` (post-B-20) uses more RAM than `tiny.en` | Reduce concurrency or downgrade to `medium.en`. |
 | Kokoro hash mismatch | New Kokoro model release | Re-hash and commit `EXPECTED_HASHES.txt` per §Kokoro above. |
-| R2 upload failures | Credentials expired, bucket policy changed, or network flake | Check `data/audits/r2_upload_failures-*.jsonl`. Rotate creds if 401/403. Local file stays; next cron retries. |
+| S3 upload failures | IAM key rotated or revoked, bucket policy changed, or network flake | Check `data/audits/s3_upload_failures-*.jsonl`. Rotate the `briefing-service` access key if 401/403. Local file stays; next cron retries. |
 | Health render blank | `pipeline/health.py` raised | Look for `[health-render] failed` line in `latest.md`. Never propagates to workflow exit. |
 | Vercel deploy fails | Token expired | Rotate `VERCEL_TOKEN`. Cadence: annually. |
 

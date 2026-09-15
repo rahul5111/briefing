@@ -209,23 +209,23 @@ def synth(text: str, out_path: Path, category: str = "default") -> dict:
     from pipeline import storage
     rel_key = str(out_path.relative_to(out_path.parents[len(out_path.parents) - 1]))
     # More robust: strip the site/public/data/ prefix if present, so
-    # the R2 key is 'audio/2026-09-14/xxx.mp3'.
+    # the S3 key is 'audio/2026-09-14/xxx.mp3'.
     _prefix = "site/public/data/"
     p = str(out_path)
     if _prefix in p:
         rel_key = p.split(_prefix, 1)[1]
-    r2_ok, r2_msg = storage.upload_r2(out_path, rel_key)
-    # r2_msg='no-credentials' is the expected pre-provisioning state.
+    s3_ok, s3_msg = storage.upload_s3(out_path, rel_key)
+    # s3_msg='no-credentials' is the expected pre-provisioning state.
     # Any other message is a real failure and is logged to
-    # data/audits/r2_upload_failures-YYYY-MM.jsonl.
+    # data/audits/s3_upload_failures-YYYY-MM.jsonl.
 
     return {
         "chunks_synthed": chunks_synthed,
         "duration_s": len(audio) / sr,
         "sample_rate": sr,
         "voice": voice,
-        "r2_upload": r2_ok,
-        "r2_message": r2_msg,
+        "s3_upload": s3_ok,
+        "s3_message": s3_msg,
     }
 
 

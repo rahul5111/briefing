@@ -54,8 +54,8 @@ def render(snapshot: dict[str, Any]) -> None:
               "per_voice": {"am_liam": 0.045, "am_michael": 0.061},
           },
           "storage": {
-              "r2_uploads_ok": 118,
-              "r2_uploads_failed": 0,
+              "s3_uploads_ok": 118,
+              "s3_uploads_failed": 0,
           },
           "drift": <output of pipeline.drift.compute_drift>,
           "golden": {"pass": true, "cat": 0.94, "band": 0.87,
@@ -143,10 +143,10 @@ def _markdown(s: dict[str, Any]) -> str:
     storage = s.get("storage") or {}
     if storage:
         lines.append("## Storage")
-        lines.append(f"- r2_uploads_ok: {storage.get('r2_uploads_ok', 0)}")
-        failed = storage.get('r2_uploads_failed', 0)
+        lines.append(f"- s3_uploads_ok: {storage.get('s3_uploads_ok', 0)}")
+        failed = storage.get('s3_uploads_failed', 0)
         marker = "" if failed == 0 else "  **⚠**"
-        lines.append(f"- r2_uploads_failed: {failed}{marker}")
+        lines.append(f"- s3_uploads_failed: {failed}{marker}")
         lines.append("")
 
     # Run

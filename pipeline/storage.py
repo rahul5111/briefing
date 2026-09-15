@@ -1,26 +1,34 @@
-"""B-16 Cloudflare R2 uploader with integrity check + fallback.
+"""B-16 / B-107 AWS S3 uploader with integrity check + fail-soft.
 
 Post-synth flow:
   1. `synth()` writes MP3 to the local temp path (unchanged).
-  2. `upload_r2(path, key)` puts the object to R2 with immutable
+  2. `upload_s3(path, key)` puts the object to S3 with immutable
      Cache-Control + audio/mpeg Content-Type.
   3. Post-PUT integrity check: HEAD the same key + verify
      Content-Length matches the local file size.
   4. On mismatch, retry once. On second failure, log to
-     data/audits/r2_upload_failures.jsonl and fall through — the local
-     path stays valid so the manifest still points at a real file.
+     data/audits/s3_upload_failures-YYYY-MM.jsonl and fall through —
+     the local path stays valid so the manifest still points at a real
+     file.
 
-If R2 credentials are absent (typical before B-12 provisioning lands),
-`upload_r2()` is a no-op that returns `(False, "no-credentials")`. This
-keeps the pipeline runnable on developer machines and in the
-transition window before R2 is live.
+If S3 credentials are absent, `upload_s3()` is a no-op that returns
+`(False, "no-credentials")`. This keeps the pipeline runnable on
+developer machines and while owner action on secrets is pending.
+
+Env vars (matching the GHA + Vercel secrets shipped in this session):
+  S3_BUCKET             — bucket name (default: briefing-audio-f09f5061)
+  S3_REGION             — AWS region  (default: us-east-1)
+  AWS_ACCESS_KEY_ID     — scoped IAM user access key
+  AWS_SECRET_ACCESS_KEY — scoped IAM user secret
+
+Legacy R2 aliases still work for a transition window; the R2 code path
+was removed on 2026-09-15 after S3 was chosen as the audio backend.
 """
 from __future__ import annotations
 import datetime as _dt
 import json
 import os
 from pathlib import Path
-from typing import Optional
 
 _ROOT = Path(__file__).resolve().parent.parent
 _AUDIT_DIR = _ROOT / "data" / "audits"
@@ -31,7 +39,7 @@ def _log_upload_failure(key: str, reason: str, local_size: int = 0,
     try:
         _AUDIT_DIR.mkdir(parents=True, exist_ok=True)
         month = _dt.datetime.utcnow().strftime("%Y-%m")
-        out = _AUDIT_DIR / f"r2_upload_failures-{month}.jsonl"
+        out = _AUDIT_DIR / f"s3_upload_failures-{month}.jsonl"
         row = {
             "ts": _dt.datetime.utcnow().isoformat(timespec="seconds") + "Z",
             "key": key,
@@ -46,11 +54,11 @@ def _log_upload_failure(key: str, reason: str, local_size: int = 0,
 
 
 def _client():
-    """Return a boto3 S3 client configured for R2, or None if creds absent."""
-    endpoint = os.environ.get("R2_ENDPOINT")
-    ak = os.environ.get("R2_ACCESS_KEY_ID")
-    sk = os.environ.get("R2_SECRET_ACCESS_KEY")
-    if not (endpoint and ak and sk):
+    """Return a boto3 S3 client, or None if creds absent."""
+    ak = os.environ.get("AWS_ACCESS_KEY_ID")
+    sk = os.environ.get("AWS_SECRET_ACCESS_KEY")
+    region = os.environ.get("S3_REGION", "us-east-1")
+    if not (ak and sk):
         return None
     try:
         import boto3
@@ -58,26 +66,28 @@ def _client():
         return None
     return boto3.client(
         "s3",
-        endpoint_url=endpoint,
         aws_access_key_id=ak,
         aws_secret_access_key=sk,
-        # R2 currently ignores region; boto3 requires it set.
-        region_name="auto",
+        region_name=region,
     )
 
 
-def upload_r2(local_path: Path, key: str) -> tuple[bool, str]:
-    """
-    Upload `local_path` to R2 at `key`. Returns (success, message).
+def _bucket() -> str:
+    return os.environ.get("S3_BUCKET", "briefing-audio-f09f5061")
 
-    Success case: ('True', 'ok'). Failure cases are logged to
-    r2_upload_failures.jsonl and never raise. Caller is expected to
-    keep the local file as fallback.
+
+def upload_s3(local_path: Path, key: str) -> tuple[bool, str]:
     """
-    bucket = os.environ.get("R2_BUCKET", "briefing-audio")
+    Upload `local_path` to S3 at `key`. Returns (success, message).
+
+    Success case: (True, 'ok'). Failure cases are logged to
+    s3_upload_failures-YYYY-MM.jsonl and never raise. Caller is expected
+    to keep the local file as fallback.
+    """
     client = _client()
     if client is None:
         return (False, "no-credentials")
+    bucket = _bucket()
 
     local_size = 0
     try:
@@ -110,8 +120,7 @@ def upload_r2(local_path: Path, key: str) -> tuple[bool, str]:
 
     ok, msg, remote_size = _do_put_and_verify()
     if not ok:
-        # Retry once — sometimes R2's first PUT after a cold path is
-        # flaky, and a second attempt succeeds.
+        # Retry once — a transient PUT sometimes recovers on second try.
         ok, msg, remote_size = _do_put_and_verify()
 
     if not ok:
@@ -121,10 +130,15 @@ def upload_r2(local_path: Path, key: str) -> tuple[bool, str]:
     return (True, "ok")
 
 
-def r2_key_for(audio_path: str) -> str:
+def s3_key_for(audio_path: str) -> str:
     """
     Convert an audio manifest path (e.g. 'audio/2026-09-14/xyz.mp3')
-    to the R2 object key. Currently a no-op — the manifest path shape
-    IS the R2 key shape by design.
+    to the S3 object key. Currently a no-op — the manifest path shape
+    IS the S3 key shape by design.
     """
     return audio_path
+
+
+# Back-compat shims for callers that still use the R2 names.
+upload_r2 = upload_s3
+r2_key_for = s3_key_for
